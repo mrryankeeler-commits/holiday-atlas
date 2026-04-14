@@ -59,7 +59,7 @@ jobs:
               compile(path.read_text(encoding="utf-8"), str(path), "exec")
           print("syntax check OK")
           PY
-          python scripts/regenerate_months_from_meteostat.py --repo-root "$GITHUB_WORKSPACE" --all-locations
+          python scripts/regenerate_months_from_meteostat.py --repo-root "$GITHUB_WORKSPACE" --all-locations --start-year 2015 --end-year 2025
 
       - name: Validate location data
         shell: bash
