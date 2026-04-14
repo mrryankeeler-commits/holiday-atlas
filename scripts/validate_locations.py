@@ -1,14 +1,27 @@
 #!/usr/bin/env python3
 """Validate Holiday Atlas location data contract."""
 
+import argparse
 import json
 from pathlib import Path
 
 REQ = {"m", "avg", "hi", "lo", "sun", "cld", "rain", "rise", "set", "busy", "ac", "fl"}
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--repo-root",
+        default=Path(__file__).resolve().parents[1],
+        type=Path,
+        help="Path to repository root (defaults to parent of scripts directory).",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
-    root = Path("data/locations")
+    args = parse_args()
+    root = args.repo_root / "data" / "locations"
     index = json.loads((root / "index.json").read_text(encoding="utf-8"))
     ids = [row["id"] for row in index]
 

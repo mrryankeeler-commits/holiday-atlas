@@ -197,7 +197,12 @@ def regenerate(repo_root: Path, start_year: int, end_year: int, ids: Iterable[st
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--repo-root", default=".", help="Path to repository root")
+    p.add_argument(
+        "--repo-root",
+        default=Path(__file__).resolve().parents[1],
+        type=Path,
+        help="Path to repository root (defaults to parent of scripts directory)",
+    )
     p.add_argument("--start-year", type=int, default=2014)
     p.add_argument("--end-year", type=int, default=2024)
     p.add_argument("--all-locations", action="store_true", help="Process all TARGET_IDS")
@@ -210,7 +215,7 @@ def main() -> None:
     args = parse_args()
     ids = TARGET_IDS if args.all_locations or not args.ids else args.ids
     regenerate(
-        repo_root=Path(args.repo_root),
+        repo_root=args.repo_root,
         start_year=args.start_year,
         end_year=args.end_year,
         ids=ids,
