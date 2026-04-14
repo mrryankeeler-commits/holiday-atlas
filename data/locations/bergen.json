@@ -3,45 +3,45 @@
   "city": "Bergen",
   "country": "Norway",
   "region": "Western Norway",
-  "desc": "Bergen is a compelling destination in Norway, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Bergen is Norway’s rain-washed gateway to the fjords, framed by seven mountains and a historic harbor. Visit for colorful Bryggen lanes, seafood markets, scenic funicular viewpoints, and easy access to some of Scandinavia’s most dramatic coastal landscapes.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "UNESCO-listed Bryggen wharf district",
+    "Mount Fløyen and Ulriken viewpoints",
+    "Major departure point for fjord cruises",
+    "Strong seafood and coffee scene",
+    "Compact center with walkable harbor core",
+    "Classic west-coast Norway atmosphere"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Bergen's identity."
+      "name": "Wander Bryggen wooden wharf",
+      "cat": "Heritage",
+      "desc": "Explore narrow passageways, artisan shops, and Hanseatic-era structures that define Bergen’s maritime identity."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
-    },
-    {
-      "name": "Sunset viewpoint",
+      "name": "Ride the Fløibanen to Mount Fløyen",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Take the funicular for city-and-fjord panoramas, then continue on forest trails if weather allows."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Bergen Fish Market lunch",
+      "cat": "Food",
+      "desc": "Sample local seafood such as fish soup, shrimp, and salmon near the harborfront stalls."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Troldhaugen (Grieg Museum)",
+      "cat": "Culture",
+      "desc": "Visit composer Edvard Grieg’s home and concert hall for a quieter cultural stop outside the core center."
+    },
+    {
+      "name": "Day cruise to Mostraumen or Hardanger",
+      "cat": "Nature",
+      "desc": "Use Bergen as a launch point for narrow fjords, waterfalls, and steep mountain walls."
+    },
+    {
+      "name": "Ulriken cable car and ridge walk",
+      "cat": "Hiking",
+      "desc": "Go up Mount Ulriken for higher alpine-style views and, in good weather, traverse back toward Fløyen."
     }
   ],
   "prac": {

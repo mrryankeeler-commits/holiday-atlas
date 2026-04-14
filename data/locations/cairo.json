@@ -3,45 +3,45 @@
   "city": "Cairo",
   "country": "Egypt",
   "region": "Lower Egypt",
-  "desc": "Cairo is a compelling destination in Egypt, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Cairo is a vast, kinetic megacity on the Nile where ancient monuments and modern urban life collide. Visitors come for the pyramids of Giza, world-class antiquities, historic Islamic quarters, and the energy of one of the Arab world’s cultural capitals.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Pyramids and Sphinx on the city edge",
+    "Grand Egyptian Museum and key antiquities collections",
+    "Historic Islamic Cairo and Khan el-Khalili",
+    "Nile river setting with evening cruises",
+    "Layered Coptic and Pharaonic history",
+    "Unmatched street-life intensity and scale"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
+      "name": "Giza Plateau and Great Sphinx",
+      "cat": "Ancient history",
+      "desc": "Spend a half-day at the pyramids, adding interior entry or camel viewpoints if desired."
+    },
+    {
+      "name": "Grand Egyptian Museum visit",
+      "cat": "Museum",
+      "desc": "Focus on headline treasures and Old Kingdom material with enough time for the large galleries."
+    },
+    {
+      "name": "Islamic Cairo walk (al-Muizz Street)",
+      "cat": "Heritage",
+      "desc": "Explore medieval mosques, gates, and restored facades in one of the world’s great historic urban corridors."
+    },
+    {
+      "name": "Khan el-Khalili market tea stop",
+      "cat": "Market",
+      "desc": "Browse brassware and textiles, then sit for mint tea in the atmospheric bazaar lanes."
+    },
+    {
+      "name": "Coptic Cairo churches",
       "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Cairo's identity."
+      "desc": "Visit the Hanging Church and nearby religious sites that trace early Christian history in Egypt."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
-    },
-    {
-      "name": "Sunset viewpoint",
+      "name": "Sunset felucca on the Nile",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
-    },
-    {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
-    },
-    {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "desc": "Take a traditional sailboat ride for breezes and skyline views away from traffic-heavy streets."
     }
   ],
   "prac": {

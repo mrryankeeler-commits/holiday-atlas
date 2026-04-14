@@ -3,45 +3,45 @@
   "city": "Samarkand",
   "country": "Uzbekistan",
   "region": "Zerafshan Valley",
-  "desc": "Samarkand is a compelling destination in Uzbekistan, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Samarkand is one of Central Asia’s great Silk Road cities, celebrated for blue-tiled madrasas, Timurid monuments, and caravan-route history. Visit for monumental Islamic architecture, bustling bazaars, and a deep sense of historical continuity.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Registan square’s iconic madrasas",
+    "Timurid-era mausoleums and mosques",
+    "Shah-i-Zinda necropolis tilework",
+    "Siab Bazaar local market life",
+    "UNESCO Silk Road heritage depth",
+    "Distinct Uzbek cuisine and hospitality"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Samarkand's identity."
+      "name": "Registan ensemble visit",
+      "cat": "World heritage",
+      "desc": "Spend time at all three madrasas to appreciate scale, geometry, and restored mosaics."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Shah-i-Zinda necropolis walk",
+      "cat": "Architecture",
+      "desc": "Follow the processional lane of mausoleums known for extraordinary turquoise tile detail."
     },
     {
-      "name": "Museum or heritage site",
+      "name": "Gur-e-Amir Mausoleum",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Visit Timur’s resting place and learn about the dynasty that shaped the city’s golden era."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Bibi-Khanym Mosque and Siab Bazaar",
+      "cat": "Culture & market",
+      "desc": "Pair monumental ruins with nearby produce and bread markets at the city’s daily social hub."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Ulugh Beg Observatory",
+      "cat": "Science history",
+      "desc": "See remains of the 15th-century observatory tied to major advances in astronomical measurement."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Traditional plov dinner and folk show",
+      "cat": "Food & culture",
+      "desc": "Sample Uzbek staples while enjoying regional music and dance performances."
     }
   ],
   "prac": {

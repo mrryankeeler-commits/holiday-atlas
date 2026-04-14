@@ -3,45 +3,45 @@
   "city": "Budapest",
   "country": "Hungary",
   "region": "Central Hungary",
-  "desc": "Budapest is a compelling destination in Hungary, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Budapest straddles the Danube between hilly Buda and grand Pest boulevards, blending imperial architecture with thermal-bath culture and vibrant nightlife. Go for skyline viewpoints, ruin bars, hearty cuisine, and one of Europe’s most atmospheric river cities.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Parliament and Danube panorama",
+    "Historic thermal baths across the city",
+    "Castle Hill and Fisherman’s Bastion views",
+    "Ruin bar nightlife in the Jewish Quarter",
+    "Elegant coffeehouse and cake culture",
+    "Strong value for a major European capital"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Budapest's identity."
+      "name": "Parliament riverfront and promenade walk",
+      "cat": "Landmark",
+      "desc": "See Budapest’s signature neo-Gothic facade from both street level and opposite-bank viewpoints."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Soak at Széchenyi or Gellért Baths",
+      "cat": "Wellness",
+      "desc": "Experience classic thermal bathing culture in ornate historic pools and steam rooms."
     },
     {
-      "name": "Museum or heritage site",
+      "name": "Castle Hill and Matthias Church",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Explore medieval and baroque layers, then pause at Fisherman’s Bastion terraces."
     },
     {
-      "name": "Sunset viewpoint",
+      "name": "Danube evening cruise",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Take a night sail for illuminated bridges, Buda Castle, and Parliament reflections."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Great Market Hall and local specialties",
+      "cat": "Food",
+      "desc": "Try lángos, paprika goods, and Hungarian pastries while browsing the city’s best-known indoor market."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Ruin bars in District VII",
+      "cat": "Nightlife",
+      "desc": "Hop between eclectic bars built in former courtyards and old apartment blocks."
     }
   ],
   "prac": {

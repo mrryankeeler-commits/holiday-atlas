@@ -3,45 +3,45 @@
   "city": "Hurghada",
   "country": "Egypt",
   "region": "Red Sea Coast",
-  "desc": "Hurghada is a compelling destination in Egypt, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Hurghada is Egypt’s classic Red Sea resort city, prized for warm water, coral reefs, and reliable sunshine. It suits beach holidays, beginner-to-advanced diving, and marine excursions to islands and protected snorkeling areas.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Clear Red Sea water and coral reefs",
+    "Strong dive infrastructure and liveaboards",
+    "Year-round warm-weather beach conditions",
+    "Island snorkeling trips from marina",
+    "Family-friendly resort options",
+    "Good base for desert and Bedouin excursions"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Hurghada's identity."
+      "name": "Snorkel or dive Giftun Island reefs",
+      "cat": "Marine life",
+      "desc": "Join a boat trip to coral sites with colorful fish and high-clarity water."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Discover dive course or fun dives",
+      "cat": "Diving",
+      "desc": "Use Hurghada’s many PADI centers for intro lessons, certification, or guided reef dives."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Beach club day in Sahl Hasheesh or Makadi",
+      "cat": "Beach",
+      "desc": "Relax on groomed sands with calm water entries suited to long swim sessions."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
-    },
-    {
-      "name": "Neighborhood café day",
+      "name": "Hurghada Marina evening walk",
       "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "desc": "Stroll cafés and waterfront promenades for sunset views and casual dining."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Desert quad bike and Bedouin camp",
+      "cat": "Adventure",
+      "desc": "Take a late-afternoon desert tour for dunes, tea, and stargazing outside the city lights."
+    },
+    {
+      "name": "Submarine or glass-boat tour",
+      "cat": "Family activity",
+      "desc": "A good alternative for seeing reef life without diving, especially with children."
     }
   ],
   "prac": {

@@ -3,45 +3,45 @@
   "city": "Astana",
   "country": "Kazakhstan",
   "region": "Northern Kazakhstan",
-  "desc": "Astana is a compelling destination in Kazakhstan, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Astana rises from the Kazakh steppe as a futuristic capital of bold architecture, broad boulevards, and severe continental seasons. Go for landmark modern design, museums on national identity, and a striking contrast between winter ice and warm-season riverside parks.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Iconic modern skyline on the Ishim River",
+    "Baiterek Tower and Norman Foster landmarks",
+    "Huge skies and dramatic steppe climate",
+    "National museums with strong contemporary curation",
+    "Wide riverfront promenades and parks",
+    "Distinctive winter-city atmosphere"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
+      "name": "Climb Bayterek Tower",
+      "cat": "Landmark",
+      "desc": "See Astana’s symbol up close and use the observation level to orient yourself across the city’s planned axis."
+    },
+    {
+      "name": "Explore Khan Shatyr and Nurzhol Boulevard",
+      "cat": "Architecture",
+      "desc": "Walk the flagship boulevard linking major civic buildings, then step inside the giant ETFE tent complex for retail and indoor attractions."
+    },
+    {
+      "name": "National Museum of the Republic of Kazakhstan",
+      "cat": "Museum",
+      "desc": "Spend a few hours on steppe history, nomadic culture, and modern state-building in one of Central Asia’s largest museums."
+    },
+    {
+      "name": "Visit Hazrat Sultan Mosque",
       "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Astana's identity."
+      "desc": "Tour one of the region’s largest mosques and nearby Independence Square monuments for context on contemporary Astana."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
-    },
-    {
-      "name": "Sunset viewpoint",
+      "name": "Sunset along Ishim River embankment",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Join locals on the waterfront paths and bridges, especially lively in summer evenings."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
-    },
-    {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Winter ice and cold-weather city photography",
+      "cat": "Seasonal",
+      "desc": "In deep winter, capture frost-covered facades and blue-hour light; prepare for sub-zero wind with proper layers."
     }
   ],
   "prac": {

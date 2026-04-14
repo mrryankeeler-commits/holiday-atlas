@@ -3,45 +3,45 @@
   "city": "Granada",
   "country": "Spain",
   "region": "Andalusia",
-  "desc": "Granada is a compelling destination in Spain, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Granada lies at the foot of the Sierra Nevada, where Moorish palace architecture, Albaicín lanes, and Spanish tapas culture meet. Visit for the Alhambra, mountain-backed viewpoints, and a layered Andalusian identity shaped by Islamic, Jewish, and Christian history.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Alhambra and Generalife palace complex",
+    "Albaicín and Sacromonte hillside districts",
+    "Strong free-tapas bar culture",
+    "Sierra Nevada mountains nearby",
+    "Sunset views from Mirador de San Nicolás",
+    "Rich fusion of Moorish and Spanish heritage"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Granada's identity."
+      "name": "Alhambra timed-entry visit",
+      "cat": "World heritage",
+      "desc": "Reserve early for Nasrid Palaces, Generalife gardens, and Alcazaba fortress views over Granada."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Albaicín neighborhood walk",
+      "cat": "City walk",
+      "desc": "Get lost in whitewashed lanes, cármenes, and small plazas in the old Moorish quarter."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
-    },
-    {
-      "name": "Sunset viewpoint",
+      "name": "Sunset at Mirador de San Nicolás",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Watch evening light hit the Alhambra with Sierra Nevada peaks behind it."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Sacromonte cave flamenco show",
+      "cat": "Culture",
+      "desc": "Experience zambra-style performances in hillside cave venues tied to Roma traditions."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Granada Cathedral and Royal Chapel",
+      "cat": "History",
+      "desc": "Visit key Catholic monuments linked to the Reconquista and Spain’s Catholic Monarchs."
+    },
+    {
+      "name": "Tapas crawl around Centro",
+      "cat": "Food",
+      "desc": "Move between bars where drinks are commonly paired with complimentary local tapas."
     }
   ],
   "prac": {

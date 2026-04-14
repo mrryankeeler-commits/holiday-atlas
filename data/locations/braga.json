@@ -3,45 +3,45 @@
   "city": "Braga",
   "country": "Portugal",
   "region": "Northern Portugal",
-  "desc": "Braga is a compelling destination in Portugal, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Braga mixes deep religious heritage with a youthful university energy in Portugal’s green Minho region. Visit for ornate baroque churches, tiled facades, lively cafés, and easy wine-country and Peneda-Gerês nature excursions.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Bom Jesus staircase and hilltop sanctuary",
+    "One of Portugal’s oldest cathedrals (Sé de Braga)",
+    "Attractive tiled plazas and gardens",
+    "Strong student-city dining and nightlife pockets",
+    "Good base for Guimarães and Minho day trips",
+    "Access to Vinho Verde region"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Braga's identity."
+      "name": "Climb Bom Jesus do Monte",
+      "cat": "Landmark",
+      "desc": "Walk the monumental baroque staircase or use the historic funicular to reach sweeping hilltop views."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Visit Sé de Braga",
+      "cat": "Heritage",
+      "desc": "Explore Portugal’s oldest cathedral complex and its mix of Romanesque, Gothic, and Baroque elements."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Santa Barbara Garden and old center walk",
+      "cat": "City walk",
+      "desc": "Pair manicured gardens with nearby lanes, churches, and arcaded squares in the compact historic core."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Sample petiscos in Praça da República area",
+      "cat": "Food",
+      "desc": "Try Minho small plates, local sweets, and vinho verde in the city’s busiest social district."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Half-day trip to Guimarães",
+      "cat": "Day trip",
+      "desc": "Reach Portugal’s “birthplace city” quickly for a medieval center and hilltop castle."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Peneda-Gerês National Park excursion",
+      "cat": "Nature",
+      "desc": "Plan a full-day outing for waterfalls, granite villages, and mountain viewpoints north of Braga."
     }
   ],
   "prac": {

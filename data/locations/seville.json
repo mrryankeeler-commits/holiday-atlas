@@ -3,45 +3,45 @@
   "city": "Seville",
   "country": "Spain",
   "region": "Andalusia",
-  "desc": "Seville is a compelling destination in Spain, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Seville is Andalusia’s radiant capital, blending Moorish palaces, cathedral grandeur, and flamenco-rooted street life. Visitors come for orange-tree plazas, river walks, tapas culture, and a warm climate that keeps outdoor evenings lively.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Real Alcázar palace complex",
+    "Giralda tower and Seville Cathedral",
+    "Triana neighborhood flamenco heritage",
+    "Tapas hopping and late-night dining culture",
+    "Guadalquivir riverfront promenades",
+    "Distinctive Mudéjar and baroque architecture"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
+      "name": "Real Alcázar timed visit",
+      "cat": "World heritage",
+      "desc": "Tour intricate Mudéjar courtyards and lush palace gardens; prebook to avoid long queues."
+    },
+    {
+      "name": "Cathedral and Giralda climb",
+      "cat": "Landmark",
+      "desc": "See Columbus-related exhibits and climb the former minaret ramp for city panoramas."
+    },
+    {
+      "name": "Barrio Santa Cruz wandering",
+      "cat": "City walk",
+      "desc": "Explore shaded lanes, hidden patios, and historic plazas in the old Jewish quarter."
+    },
+    {
+      "name": "Triana market and flamenco night",
       "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Seville's identity."
+      "desc": "Combine local food stalls with an evening performance in the neighborhood tied to flamenco traditions."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Plaza de España and María Luisa Park",
+      "cat": "Architecture & parks",
+      "desc": "Visit Seville’s grand semicircular landmark and relax in adjacent gardens."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
-    },
-    {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
-    },
-    {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
-    },
-    {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Tapas crawl around Alameda or Arenal",
+      "cat": "Food",
+      "desc": "Sample salmorejo, montaditos, and seasonal Andalusian plates across multiple bars."
     }
   ],
   "prac": {

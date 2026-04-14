@@ -3,45 +3,45 @@
   "city": "Sanya",
   "country": "China",
   "region": "Hainan, South China",
-  "desc": "Sanya is a compelling destination in China, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Sanya is tropical Hainan’s flagship beach city, known for warm seas, palm-lined bays, and resort infrastructure. It works for winter sun, water sports, and nature outings to islands, rainforests, and coastal viewpoints.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Year-round tropical beach climate",
+    "Yalong Bay and Haitang Bay resort zones",
+    "Strong snorkeling and water-sport options",
+    "Duty-free shopping complexes",
+    "Island and rainforest excursion access",
+    "Popular domestic winter-sun destination"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Sanya's identity."
+      "name": "Beach day at Yalong Bay",
+      "cat": "Beach",
+      "desc": "Swim in clear water and enjoy long sandy stretches with easy resort facilities."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Nanshan Cultural Tourism Zone",
+      "cat": "Landmark",
+      "desc": "Visit the giant sea-facing Guanyin statue and temple grounds on Sanya’s southwest coast."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Wuzhizhou Island snorkeling",
+      "cat": "Marine activity",
+      "desc": "Take a boat for reef snorkeling, sea sports, and bright-blue water conditions."
     },
     {
-      "name": "Sunset viewpoint",
+      "name": "Yalong Bay Tropical Paradise Forest Park",
+      "cat": "Nature",
+      "desc": "Ride up for canopy walks and elevated views over coastline and resort bays."
+    },
+    {
+      "name": "Haitang Bay duty-free complex",
+      "cat": "Shopping",
+      "desc": "Browse major brands and tax-free retail in one of China’s largest duty-free hubs."
+    },
+    {
+      "name": "Sunset at Coconut Dream Corridor",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
-    },
-    {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
-    },
-    {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "desc": "Stroll the palm-lined waterfront promenade for evening breeze and skyline views."
     }
   ],
   "prac": {

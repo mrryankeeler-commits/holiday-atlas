@@ -3,45 +3,45 @@
   "city": "Guilin",
   "country": "China",
   "region": "Guangxi, South China",
-  "desc": "Guilin is a compelling destination in China, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Guilin is famed for karst peaks rising above rivers and rice countryside, making it one of China’s most scenic regions. Travelers come for Li River cruises, reed-flute caves, and nearby Yangshuo’s biking and rafting landscapes.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Iconic karst mountain scenery",
+    "Li River boat journeys to Yangshuo",
+    "Reed Flute Cave limestone formations",
+    "Two Rivers and Four Lakes night views",
+    "Access to Longji rice terraces",
+    "Strong photography appeal year-round"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Guilin's identity."
+      "name": "Li River cruise to Yangshuo",
+      "cat": "Scenic cruise",
+      "desc": "Take the classic route past limestone pinnacles, fishing villages, and postcard river bends."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Reed Flute Cave visit",
+      "cat": "Nature",
+      "desc": "Walk illuminated chambers filled with stalactites and dramatic rock formations."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Elephant Trunk Hill viewpoint",
+      "cat": "Landmark",
+      "desc": "See Guilin’s best-known natural symbol where rock arches resemble an elephant drinking from the river."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Cycle Yangshuo countryside",
+      "cat": "Active",
+      "desc": "Rent bikes for village roads between karst towers, bamboo groves, and river crossings."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Longji Rice Terraces day trip",
+      "cat": "Day trip",
+      "desc": "Head into the mountains for layered paddies and minority villages, especially striking in planting and harvest seasons."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Evening Two Rivers and Four Lakes cruise",
+      "cat": "Night scenic",
+      "desc": "Enjoy lit bridges and waterfront landmarks after dark in central Guilin."
     }
   ],
   "prac": {

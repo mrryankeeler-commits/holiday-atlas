@@ -3,45 +3,45 @@
   "city": "Turin",
   "country": "Italy",
   "region": "Piedmont, Northern Italy",
-  "desc": "Turin is a compelling destination in Italy, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Turin sits beneath the Alps with grand boulevards, baroque piazzas, and a strong museum-and-café culture. It rewards visitors with elegant architecture, royal residences, chocolate traditions, and easy access to Piedmont wine country.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Mole Antonelliana city symbol",
+    "Top-tier Egyptian Museum collection",
+    "Arcaded streets and refined café culture",
+    "Savoy royal palaces and squares",
+    "Gateway to Langhe and Piedmont wines",
+    "Alpine backdrop visible from the city"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Turin's identity."
+      "name": "Mole Antonelliana and Cinema Museum",
+      "cat": "Landmark",
+      "desc": "Ride the panoramic lift and explore film-history exhibits inside Turin’s iconic building."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Egyptian Museum (Museo Egizio)",
+      "cat": "Museum",
+      "desc": "Dedicate significant time to one of the world’s most important Egyptology collections."
     },
     {
-      "name": "Museum or heritage site",
+      "name": "Royal Palace and Piazza Castello",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Visit Savoy interiors and walk Turin’s ceremonial heart framed by arcaded architecture."
     },
     {
-      "name": "Sunset viewpoint",
+      "name": "Mercato di Porta Palazzo",
+      "cat": "Food market",
+      "desc": "Browse one of Europe’s largest open-air markets for produce, cheeses, and multicultural stalls."
+    },
+    {
+      "name": "Bicerin and gianduiotto tasting",
+      "cat": "Food & drink",
+      "desc": "Try Turin’s signature chocolate-hazelnut sweets and coffee traditions in historic cafés."
+    },
+    {
+      "name": "Superga Basilica viewpoint",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
-    },
-    {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
-    },
-    {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "desc": "Reach the hilltop basilica for broad views over Turin and, on clear days, the Alpine chain."
     }
   ],
   "prac": {
