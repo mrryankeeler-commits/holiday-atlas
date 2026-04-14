@@ -1,0 +1,247 @@
+{
+  "id": "bratislava",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "region": "Western Slovakia",
+  "desc": "Bratislava is a compelling destination in Slovakia, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "hls": [
+    "Distinct local character",
+    "Strong food scene",
+    "Good base for day trips",
+    "Photogenic landmarks",
+    "Mix of culture and nature",
+    "Works for short or long stays"
+  ],
+  "todo": [
+    {
+      "name": "Historic center walk",
+      "cat": "Culture",
+      "desc": "Explore the old quarters and landmarks that define Bratislava's identity."
+    },
+    {
+      "name": "Local market visit",
+      "cat": "Food & culture",
+      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+    },
+    {
+      "name": "Museum or heritage site",
+      "cat": "History",
+      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+    },
+    {
+      "name": "Sunset viewpoint",
+      "cat": "Scenic",
+      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+    },
+    {
+      "name": "Neighborhood café day",
+      "cat": "Lifestyle",
+      "desc": "Slow down in local cafés and discover contemporary city life."
+    },
+    {
+      "name": "Day trip",
+      "cat": "Nature & nearby",
+      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35–80 Mbps",
+      "note": "Generally reliable for remote work in accommodations and cafés."
+    },
+    "directGW": false,
+    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Bratislava.",
+    "airports": [
+      {
+        "name": "Bratislava area airport",
+        "code": "N/A",
+        "km": 25,
+        "dgw": false
+      }
+    ],
+    "currency": "See local currency",
+    "lang": "See local language",
+    "tz": "See local timezone",
+    "visa": "Check current entry requirements",
+    "bestFor": [
+      "Culture",
+      "Food",
+      "City breaks",
+      "Couples",
+      "Flexible itineraries"
+    ],
+    "alerts": []
+  },
+  "sweet": "Shoulder seasons (spring and autumn) are often the best balance of weather, prices, and crowd levels.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "sun": 4.0,
+      "cld": 60,
+      "rain": 70,
+      "rise": "07:30",
+      "set": "16:45",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 10,
+      "hi": 14,
+      "lo": 5,
+      "sun": 4.8,
+      "cld": 55,
+      "rain": 62,
+      "rise": "07:05",
+      "set": "17:15",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "sun": 5.8,
+      "cld": 50,
+      "rain": 58,
+      "rise": "06:30",
+      "set": "17:50",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 22,
+      "lo": 10,
+      "sun": 6.8,
+      "cld": 44,
+      "rain": 50,
+      "rise": "05:50",
+      "set": "18:25",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 20,
+      "hi": 26,
+      "lo": 14,
+      "sun": 8.0,
+      "cld": 36,
+      "rain": 45,
+      "rise": "05:20",
+      "set": "18:55",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 24,
+      "hi": 30,
+      "lo": 18,
+      "sun": 9.2,
+      "cld": 28,
+      "rain": 35,
+      "rise": "05:00",
+      "set": "19:20",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 33,
+      "lo": 21,
+      "sun": 10.0,
+      "cld": 22,
+      "rain": 25,
+      "rise": "05:10",
+      "set": "19:25",
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 27,
+      "hi": 33,
+      "lo": 21,
+      "sun": 9.4,
+      "cld": 24,
+      "rain": 30,
+      "rise": "05:30",
+      "set": "19:00",
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 23,
+      "hi": 29,
+      "lo": 17,
+      "sun": 7.6,
+      "cld": 32,
+      "rain": 40,
+      "rise": "05:55",
+      "set": "18:20",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "sun": 6.0,
+      "cld": 42,
+      "rain": 55,
+      "rise": "06:25",
+      "set": "17:40",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "sun": 4.8,
+      "cld": 52,
+      "rain": 68,
+      "rise": "06:55",
+      "set": "17:00",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 3.8,
+      "cld": 60,
+      "rain": 74,
+      "rise": "07:25",
+      "set": "16:40",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}
