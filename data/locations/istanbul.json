@@ -1,0 +1,278 @@
+{
+  "id": "istanbul",
+  "city": "Istanbul",
+  "country": "Turkey",
+  "region": "Straddling Europe & Asia",
+  "desc": "Istanbul is one of the greatest cities on earth — the only metropolis spanning two continents, where 2,700 years of layered civilisation have left an unrivalled accumulation of wonders. The Hagia Sophia, Blue Mosque and Topkapi Palace sit within walking distance of one another; the Grand Bazaar has traded continuously since 1461; and the Bosphorus strait, lined with Ottoman yalı mansions and Byzantine sea walls, is one of the world's great waterways. Beyond the iconic sites, Istanbul rewards slower exploration: the backstreets of Balat and Fener, the hilltop villages of the Princes' Islands, and the Asian shore's neighbourhood markets and fish restaurants are far from the tourist trail. The food is extraordinary.",
+  "hls": [
+    "2,700 years of layered history",
+    "Hagia Sophia & Blue Mosque",
+    "Two continents in one city",
+    "Extraordinary food scene",
+    "Bosphorus & Princes Islands",
+    "Direct from Gatwick"
+  ],
+  "todo": [
+    {
+      "name": "Hagia Sophia",
+      "cat": "History & architecture",
+      "desc": "One of the great buildings of human history — a 6th-century Byzantine cathedral that became a mosque and now stands as a jaw-dropping synthesis of both."
+    },
+    {
+      "name": "Topkapi Palace",
+      "cat": "History & culture",
+      "desc": "The nerve centre of the Ottoman Empire for 400 years — a vast complex of courtyards, pavilions and the Imperial Treasury."
+    },
+    {
+      "name": "Grand Bazaar & Spice Market",
+      "cat": "Culture",
+      "desc": "The Grand Bazaar, trading since 1461, is a city within a city — 4,000 shops across 61 covered streets. The adjacent Spice Market is smaller and more atmospheric."
+    },
+    {
+      "name": "Bosphorus ferry & cruise",
+      "cat": "Scenic",
+      "desc": "The cheapest and most spectacular journey in Istanbul — a public ferry weaving between Europe and Asia past Ottoman palaces, fortresses and sea-villages."
+    },
+    {
+      "name": "Balat & Fener",
+      "cat": "Culture & streets",
+      "desc": "The old Greek and Jewish quarters — a tangle of crumbling Byzantine and Ottoman houses painted in vivid colours. The most photogenic and authentic corner of the city."
+    },
+    {
+      "name": "Princes' Islands (Büyükada)",
+      "cat": "Scenic & nature",
+      "desc": "A 45-min ferry from the city to a car-free island of pine forests, horse-drawn carriages and magnificent Ottoman summer mansions. Extraordinary."
+    },
+    {
+      "name": "Kariye Mosque (Chora Church)",
+      "cat": "History",
+      "desc": "Contains arguably the finest surviving Byzantine mosaics in the world — more intimate and astonishing than anything in the city centre."
+    },
+    {
+      "name": "Süleymaniye Mosque",
+      "cat": "Architecture",
+      "desc": "Sinan's masterpiece and arguably the most perfect Ottoman mosque ever built — commanding a hilltop above the Golden Horn with an incomparable interior."
+    },
+    {
+      "name": "Kadıköy market & Asian shore",
+      "cat": "Food & culture",
+      "desc": "Cross to the Asian side for Kadıköy's neighbourhood market, excellent fish restaurants, and a much more local, unhurried atmosphere."
+    },
+    {
+      "name": "Istanbul Archaeological Museum",
+      "cat": "History",
+      "desc": "One of the world's great archaeological collections — 1 million objects spanning Mesopotamia, ancient Egypt, Greece and the Ottoman empire."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–70 Mbps",
+      "note": "Fast and reliable WiFi across hotels and cafes. Good 4G/5G coverage throughout the city. Increasingly good coworking scene especially in Karaköy, Beyoğlu and the Asian shore. Note: some social media platforms have faced periodic restrictions in Turkey — a VPN is advisable."
+    },
+    "directGW": true,
+    "fltNote": "easyJet flies direct LGW → Istanbul Sabiha Gökçen (SAW, Asian side) year-round. Turkish Airlines and others operate from Heathrow to Istanbul Airport (IST, European side). Flight time approx. 3 h 30 min.",
+    "airports": [
+      {
+        "name": "Istanbul Airport",
+        "code": "IST",
+        "km": 35,
+        "dgw": false
+      },
+      {
+        "name": "Sabiha Gökçen Airport",
+        "code": "SAW",
+        "km": 45,
+        "dgw": true
+      }
+    ],
+    "currency": "Turkish Lira (TRY)",
+    "lang": "Turkish",
+    "tz": "TRT (UTC+3)",
+    "visa": "e-Visa required for UK citizens — apply online before travel (~£20, instant)",
+    "bestFor": [
+      "History & culture lovers",
+      "Food enthusiasts",
+      "Couples",
+      "Photographers",
+      "City breakers",
+      "Remote workers"
+    ],
+    "alerts": [
+      "e-Visa required — apply at evisa.gov.tr before travel. Quick and inexpensive.",
+      "Some social media platforms have faced periodic restrictions — a VPN is advisable for business travel.",
+      "Turkish Lira has experienced significant inflation — check exchange rates before travel; cash spending can be very good value."
+    ]
+  },
+  "sweet": "April–May and September–October are ideal — warm, drier than winter, and well below the peak summer crowds and prices.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 6,
+      "hi": 9,
+      "lo": 3,
+      "sun": 2.8,
+      "cld": 72,
+      "rain": 85,
+      "rise": "08:00",
+      "set": "17:00",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 7,
+      "hi": 10,
+      "lo": 3,
+      "sun": 3.5,
+      "cld": 65,
+      "rain": 68,
+      "rise": "07:35",
+      "set": "17:48",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 5,
+      "cld": 55,
+      "rain": 58,
+      "rise": "06:52",
+      "set": "18:35",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "sun": 6.5,
+      "cld": 45,
+      "rain": 42,
+      "rise": "06:05",
+      "set": "19:20",
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "sun": 8,
+      "cld": 35,
+      "rain": 35,
+      "rise": "05:30",
+      "set": "19:58",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 22,
+      "hi": 28,
+      "lo": 17,
+      "sun": 10,
+      "cld": 20,
+      "rain": 20,
+      "rise": "05:10",
+      "set": "20:25",
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Jul",
+      "avg": 25,
+      "hi": 30,
+      "lo": 20,
+      "sun": 11,
+      "cld": 12,
+      "rain": 12,
+      "rise": "05:20",
+      "set": "20:20",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 25,
+      "hi": 30,
+      "lo": 20,
+      "sun": 10.5,
+      "cld": 14,
+      "rain": 14,
+      "rise": "05:50",
+      "set": "19:50",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 26,
+      "lo": 16,
+      "sun": 8,
+      "cld": 28,
+      "rain": 30,
+      "rise": "06:25",
+      "set": "18:58",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 21,
+      "lo": 12,
+      "sun": 5.5,
+      "cld": 50,
+      "rain": 58,
+      "rise": "07:00",
+      "set": "18:05",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "sun": 3.5,
+      "cld": 65,
+      "rain": 88,
+      "rise": "07:38",
+      "set": "17:25",
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 8,
+      "hi": 11,
+      "lo": 4,
+      "sun": 2.5,
+      "cld": 73,
+      "rain": 95,
+      "rise": "08:05",
+      "set": "17:00",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

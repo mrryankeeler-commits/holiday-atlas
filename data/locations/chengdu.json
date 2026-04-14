@@ -1,0 +1,267 @@
+{
+  "id": "chengdu",
+  "city": "Chengdu",
+  "country": "China",
+  "region": "Sichuan, Southwest China",
+  "desc": "Chengdu is one of China's most liveable and captivating cities — a place of extraordinary depth where 4,000 years of history sit alongside a thriving tea-house culture and the world's greatest giant panda research base. The city is the gateway to some of Asia's most spectacular landscapes: sacred Mount Emei, the world-heritage Leshan Giant Buddha, and Jiuzhaigou's rainbow-coloured lakes. The food scene — fiery hot pot, mapo tofu, dan dan noodles — is considered the finest in China.",
+  "hls": [
+    "Giant pandas",
+    "Extraordinary food scene",
+    "Gateway to Tibet & mountains",
+    "4,000 years of history",
+    "Jiuzhaigou day trips",
+    "Very affordable"
+  ],
+  "todo": [
+    {
+      "name": "Giant Panda Breeding Research Base",
+      "cat": "Wildlife & nature",
+      "desc": "Arrive by 08:00 to see pandas most active. The experience is genuinely magical."
+    },
+    {
+      "name": "Leshan Giant Buddha",
+      "cat": "History & scenic",
+      "desc": "World's largest stone Buddha (71 m), carved into a clifftop above three rivers. UNESCO World Heritage."
+    },
+    {
+      "name": "Mount Emei",
+      "cat": "Scenic & spiritual",
+      "desc": "Sacred Buddhist mountain with ancient temple complexes ascending through cloud forest to 3,099 m. One of China's Four Sacred Buddhist Mountains."
+    },
+    {
+      "name": "Jiuzhaigou Valley",
+      "cat": "Nature & scenery",
+      "desc": "Unesco-listed valley of impossibly turquoise lakes and waterfalls. Best in autumn for foliage. ~6 hr from Chengdu."
+    },
+    {
+      "name": "Sanxingdui Museum",
+      "cat": "History",
+      "desc": "Bronze masks from a 3,000-year-old civilisation — one of the great archaeological wonders of Asia."
+    },
+    {
+      "name": "Wuhou Shrine & Jinli Street",
+      "cat": "History & culture",
+      "desc": "3rd-century memorial adjacent to a beautifully restored Qing dynasty street of teahouses and craft shops."
+    },
+    {
+      "name": "Kuan Zhai Alley",
+      "cat": "Culture",
+      "desc": "Restored Qing-era courtyard lanes — Chengdu's most charming historic district."
+    },
+    {
+      "name": "Sichuan Opera (face-changing)",
+      "cat": "Culture",
+      "desc": "The mysterious bianlian performance is a Chengdu institution — best seen at a traditional teahouse theatre."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "20–40 Mbps (heavily restricted)",
+      "note": "Important: The Great Firewall blocks Google, Gmail, WhatsApp, Slack and most Western business tools. A reliable VPN is essential — install and test before arriving as some are blocked at the border."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flight. Best routes connect via Doha (Qatar Airways), Dubai (Emirates) or Hong Kong (Cathay Pacific). Total journey approx. 13–16 hrs. More connections from Heathrow (LHR) than Gatwick.",
+    "airports": [
+      {
+        "name": "Chengdu Tianfu International",
+        "code": "TFU",
+        "km": 51,
+        "dgw": false
+      },
+      {
+        "name": "Chengdu Shuangliu International",
+        "code": "CTU",
+        "km": 17,
+        "dgw": false
+      }
+    ],
+    "currency": "Chinese Yuan / Renminbi (CNY)",
+    "lang": "Mandarin Chinese",
+    "tz": "CST (UTC+8)",
+    "visa": "15-day visa-free for UK citizens (policy since 2024 — verify before travel)",
+    "bestFor": [
+      "Culture & history enthusiasts",
+      "Foodies",
+      "Wildlife lovers",
+      "Adventure travellers",
+      "Long-haul explorers"
+    ],
+    "alerts": [
+      "VPN essential for business use — install and test before travelling.",
+      "Cashless society: WeChat Pay & Alipay dominate. Carry some cash for markets.",
+      "15-day visa-free entry for UK citizens introduced 2024 — confirm current rules before booking."
+    ]
+  },
+  "sweet": "March and November offer mild weather, lower costs and smaller crowds. Avoid Golden Week (1–7 Oct) when domestic tourism surges dramatically.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 6,
+      "hi": 9,
+      "lo": 3,
+      "sun": 1.2,
+      "cld": 85,
+      "rain": 8,
+      "rise": "07:40",
+      "set": "18:00",
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 1.8,
+      "cld": 80,
+      "rain": 12,
+      "rise": "07:20",
+      "set": "18:30",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "sun": 2.5,
+      "cld": 75,
+      "rain": 22,
+      "rise": "06:50",
+      "set": "19:00",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "sun": 3.5,
+      "cld": 68,
+      "rain": 48,
+      "rise": "06:15",
+      "set": "19:28",
+      "busy": 6,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 22,
+      "hi": 27,
+      "lo": 17,
+      "sun": 4,
+      "cld": 62,
+      "rain": 68,
+      "rise": "05:48",
+      "set": "19:52",
+      "busy": 6,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 25,
+      "hi": 29,
+      "lo": 21,
+      "sun": 4.5,
+      "cld": 65,
+      "rain": 95,
+      "rise": "05:35",
+      "set": "20:05",
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "sun": 5.5,
+      "cld": 60,
+      "rain": 120,
+      "rise": "05:40",
+      "set": "20:00",
+      "busy": 6,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 25,
+      "hi": 29,
+      "lo": 21,
+      "sun": 5,
+      "cld": 62,
+      "rain": 110,
+      "rise": "06:05",
+      "set": "19:35",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 24,
+      "lo": 17,
+      "sun": 3,
+      "cld": 72,
+      "rain": 85,
+      "rise": "06:30",
+      "set": "18:55",
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 20,
+      "lo": 12,
+      "sun": 2,
+      "cld": 80,
+      "rain": 42,
+      "rise": "07:00",
+      "set": "18:15",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Nov",
+      "avg": 10,
+      "hi": 14,
+      "lo": 7,
+      "sun": 1.5,
+      "cld": 82,
+      "rain": 18,
+      "rise": "07:25",
+      "set": "17:50",
+      "busy": 4,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 6,
+      "hi": 10,
+      "lo": 3,
+      "sun": 1,
+      "cld": 86,
+      "rain": 8,
+      "rise": "07:45",
+      "set": "17:45",
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    }
+  ]
+}
