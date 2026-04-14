@@ -3,77 +3,90 @@
   "city": "Athens",
   "country": "Greece",
   "region": "Attica, Greece",
-  "desc": "Athens is a compelling destination in Greece, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Athens combines blockbuster antiquities with creative neighborhoods, rooftop dining, and quick escapes to the Aegean coast. It's ideal for travelers who want classical history by day and lively tavernas, bars, and street life after dark.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Acropolis and Acropolis Museum in one compact historic core",
+    "Layered neighborhoods from Plaka and Monastiraki to edgy Psyrri",
+    "Strong food scene: meze, grilled seafood, and modern Greek kitchens",
+    "Excellent sunset viewpoints on Lycabettus and Filopappou Hill",
+    "Easy ferry and mainland day trips (Aegina, Hydra, Cape Sounion)",
+    "Great value shoulder-season city break with mild weather"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Athens's identity."
+      "name": "Acropolis + Acropolis Museum",
+      "cat": "Archaeology",
+      "desc": "Start early at the Acropolis, then continue to the museum to understand the Parthenon sculptures and city history."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Ancient Agora and Temple of Hephaestus",
+      "cat": "Classical history",
+      "desc": "Walk the political and commercial heart of ancient Athens, one of the best-preserved classical sites."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Plaka and Anafiotika wander",
+      "cat": "Neighborhood walk",
+      "desc": "Explore whitewashed lanes, neoclassical houses, and stairways under the Acropolis cliffs."
     },
     {
-      "name": "Sunset viewpoint",
+      "name": "Central Market (Varvakios) lunch crawl",
+      "cat": "Food market",
+      "desc": "Sample olives, cured meats, spices, and casual tavernas around Athens' main market district."
+    },
+    {
+      "name": "Sunset at Lycabettus Hill",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Ride or walk up for panoramic views over the Acropolis and Saronic Gulf at golden hour."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Cape Sounion half-day trip",
+      "cat": "Coast & ruins",
+      "desc": "Visit the Temple of Poseidon on dramatic sea cliffs, especially rewarding near sunset."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "National Archaeological Museum",
+      "cat": "Museum",
+      "desc": "See major Mycenaean, Cycladic, and classical collections for deeper historical context."
+    },
+    {
+      "name": "Evening in Psyrri or Koukaki",
+      "cat": "Nightlife & food",
+      "desc": "Try contemporary tavernas, wine bars, and live music in two of the city's most social districts."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "70–180 Mbps",
+      "note": "Reliable in most apartments and coworking cafés; verify host speeds if you need frequent video calls."
     },
-    "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Athens.",
+    "directGW": true,
+    "fltNote": "London Gatwick to Athens (ATH) is served nonstop year-round by multiple carriers, with additional frequency in summer.",
     "airports": [
       {
-        "name": "Athens area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Athens International Airport",
+        "code": "ATH",
+        "km": 34,
+        "dgw": true
       }
     ],
-    "currency": "See local currency",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Check current entry requirements",
+    "currency": "Euro (EUR)",
+    "lang": "Greek",
+    "tz": "EET (UTC+2), EEST (UTC+3) in summer",
+    "visa": "Greece is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
+      "History lovers",
+      "Food-focused city breaks",
+      "First-time Greece itineraries",
       "Couples",
-      "Flexible itineraries"
+      "Shoulder-season travel"
     ],
-    "alerts": []
+    "alerts": [
+      "Acropolis-area queues become long after 10:00 in spring and summer; prebook timed tickets.",
+      "Heatwaves can be severe in July and August; plan major walking earlier in the day."
+    ]
   },
-  "sweet": "Shoulder seasons (spring and autumn) are often the best balance of weather, prices, and crowd levels.",
+  "sweet": "Late March to June and September to early November offer warm days, manageable crowds, and comfortable conditions for long outdoor sightseeing days.",
   "months": [
     {
       "m": "Jan",
