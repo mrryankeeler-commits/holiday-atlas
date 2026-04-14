@@ -1,0 +1,39 @@
+[
+  {
+    "id": "tirana",
+    "city": "Tirana",
+    "country": "Albania",
+    "region": "Balkans",
+    "desc": "Tirana is one of Europe’s most underrated capitals...",
+    "hls": ["Scenic mountain backdrop", "Rich Balkan history"],
+    "todo": [
+      {
+        "name": "Bunk'Art 1 & 2",
+        "cat": "Culture & history",
+        "desc": "Cold War bunkers transformed into arresting museums..."
+      }
+    ],
+    "prac": {
+      "wifi": {
+        "r": 4,
+        "spd": "35–50 Mbps",
+        "note": "Reliable broadband and strong 4G..."
+      },
+      "directGW": true,
+      "fltNote": "easyJet operates direct LGW → TIA...",
+      "airports": [
+        { "name": "Tirana International (Nënë Tereza)", "code": "TIA", "km": 17, "dgw": true }
+      ],
+      "currency": "Albanian Lek (ALL)",
+      "lang": "Albanian",
+      "tz": "CET/CEST (UTC+1/+2)",
+      "visa": "Visa-free for UK citizens — up to 90 days",
+      "bestFor": ["History lovers", "Hikers & nature"],
+      "alerts": []
+    },
+    "sweet": "April–May and October offer warm weather...",
+    "months": [
+      { "m": "Jan", "avg": 7, "hi": 12, "lo": 2, "sun": 3.1, "cld": 72, "rain": 132, "rise": "07:22", "set": "16:18", "busy": 2, "ac": 1, "fl": 1 }
+    ]
+  }
+]
