@@ -34,5 +34,17 @@
     "city": "Leipzig",
     "country": "Germany",
     "region": "Central Europe"
+  },
+  {
+    "id": "zermatt",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "region": "Alps, Central Europe"
+  },
+  {
+    "id": "varna",
+    "city": "Varna",
+    "country": "Bulgaria",
+    "region": "Balkans"
   }
 ]
