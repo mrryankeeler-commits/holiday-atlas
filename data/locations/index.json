@@ -1,348 +1,52 @@
 [
-  {
-    "id": "tirana",
-    "city": "Tirana",
-    "country": "Albania",
-    "region": "Balkans"
-  },
-  {
-    "id": "mostar",
-    "city": "Mostar",
-    "country": "Bosnia & Herzegovina",
-    "region": "Western Balkans"
-  },
-  {
-    "id": "chengdu",
-    "city": "Chengdu",
-    "country": "China",
-    "region": "Sichuan, Southwest China"
-  },
-  {
-    "id": "tbilisi",
-    "city": "Tbilisi",
-    "country": "Georgia",
-    "region": "South Caucasus"
-  },
-  {
-    "id": "istanbul",
-    "city": "Istanbul",
-    "country": "Turkey",
-    "region": "Straddling Europe & Asia"
-  },
-  {
-    "id": "catania",
-    "city": "Catania",
-    "country": "Italy",
-    "region": "Southern Italy"
-  },
-  {
-    "id": "kandy",
-    "city": "Kandy",
-    "country": "Sri Lanka",
-    "region": "Central Sri Lanka"
-  },
-  {
-    "id": "colombo",
-    "city": "Colombo",
-    "country": "Sri Lanka",
-    "region": "Western Sri Lanka"
-  },
-  {
-    "id": "arugam-bay",
-    "city": "Arugam Bay",
-    "country": "Sri Lanka",
-    "region": "Eastern Sri Lanka"
-  },
-  {
-    "id": "goa",
-    "city": "Goa",
-    "country": "India",
-    "region": "Western India"
-  },
-  {
-    "id": "munnar",
-    "city": "Munnar",
-    "country": "India",
-    "region": "Kerala, South India"
-  },
-  {
-    "id": "ha-giang",
-    "city": "Ha Giang",
-    "country": "Vietnam",
-    "region": "Northern Vietnam"
-  },
-  {
-    "id": "sanya",
-    "city": "Sanya",
-    "country": "China",
-    "region": "Hainan, South China"
-  },
-  {
-    "id": "guilin",
-    "city": "Guilin",
-    "country": "China",
-    "region": "Guangxi, South China"
-  },
-  {
-    "id": "marrakech",
-    "city": "Marrakech",
-    "country": "Morocco",
-    "region": "Central Morocco"
-  },
-  {
-    "id": "palermo",
-    "city": "Palermo",
-    "country": "Italy",
-    "region": "Sicily, Southern Italy"
-  },
-  {
-    "id": "meteora",
-    "city": "Meteora",
-    "country": "Greece",
-    "region": "Thessaly, Greece"
-  },
-  {
-    "id": "athens",
-    "city": "Athens",
-    "country": "Greece",
-    "region": "Attica, Greece"
-  },
-  {
-    "id": "zakopane",
-    "city": "Zakopane",
-    "country": "Poland",
-    "region": "Lesser Poland"
-  },
-  {
-    "id": "katowice",
-    "city": "Katowice",
-    "country": "Poland",
-    "region": "Silesia, Poland"
-  },
-  {
-    "id": "krakow",
-    "city": "Krakow",
-    "country": "Poland",
-    "region": "Lesser Poland"
-  },
-  {
-    "id": "gdansk",
-    "city": "Gdansk",
-    "country": "Poland",
-    "region": "Pomerania, Poland"
-  },
-  {
-    "id": "riga",
-    "city": "Riga",
-    "country": "Latvia",
-    "region": "Baltics"
-  },
-  {
-    "id": "tallinn",
-    "city": "Tallinn",
-    "country": "Estonia",
-    "region": "Baltics"
-  },
-  {
-    "id": "turin",
-    "city": "Turin",
-    "country": "Italy",
-    "region": "Piedmont, Northern Italy"
-  },
-  {
-    "id": "rome",
-    "city": "Rome",
-    "country": "Italy",
-    "region": "Lazio, Central Italy"
-  },
-  {
-    "id": "florence",
-    "city": "Florence",
-    "country": "Italy",
-    "region": "Tuscany, Central Italy"
-  },
-  {
-    "id": "bled",
-    "city": "Bled",
-    "country": "Slovenia",
-    "region": "Upper Carniola"
-  },
-  {
-    "id": "trieste",
-    "city": "Trieste",
-    "country": "Italy",
-    "region": "Friuli Venezia Giulia"
-  },
-  {
-    "id": "vienna",
-    "city": "Vienna",
-    "country": "Austria",
-    "region": "Eastern Austria"
-  },
-  {
-    "id": "budapest",
-    "city": "Budapest",
-    "country": "Hungary",
-    "region": "Central Hungary"
-  },
-  {
-    "id": "bratislava",
-    "city": "Bratislava",
-    "country": "Slovakia",
-    "region": "Western Slovakia"
-  },
-  {
-    "id": "prague",
-    "city": "Prague",
-    "country": "Czechia",
-    "region": "Bohemia"
-  },
-  {
-    "id": "copenhagen",
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "region": "Zealand"
-  },
-  {
-    "id": "cairo",
-    "city": "Cairo",
-    "country": "Egypt",
-    "region": "Lower Egypt"
-  },
-  {
-    "id": "hurghada",
-    "city": "Hurghada",
-    "country": "Egypt",
-    "region": "Red Sea Coast"
-  },
-  {
-    "id": "seville",
-    "city": "Seville",
-    "country": "Spain",
-    "region": "Andalusia"
-  },
-  {
-    "id": "granada",
-    "city": "Granada",
-    "country": "Spain",
-    "region": "Andalusia"
-  },
-  {
-    "id": "toledo",
-    "city": "Toledo",
-    "country": "Spain",
-    "region": "Castile-La Mancha"
-  },
-  {
-    "id": "braga",
-    "city": "Braga",
-    "country": "Portugal",
-    "region": "Northern Portugal"
-  },
-  {
-    "id": "faro",
-    "city": "Faro",
-    "country": "Portugal",
-    "region": "Algarve"
-  },
-  {
-    "id": "andorra-la-vella",
-    "city": "Andorra la Vella",
-    "country": "Andorra",
-    "region": "Central Andorra"
-  },
-  {
-    "id": "bergen",
-    "city": "Bergen",
-    "country": "Norway",
-    "region": "Western Norway"
-  },
-  {
-    "id": "paphos",
-    "city": "Paphos",
-    "country": "Cyprus",
-    "region": "Southwestern Cyprus"
-  },
-  {
-    "id": "valletta",
-    "city": "Valletta",
-    "country": "Malta",
-    "region": "Malta"
-  },
-  {
-    "id": "jambiani",
-    "city": "Jambiani",
-    "country": "Tanzania",
-    "region": "Zanzibar"
-  },
-  {
-    "id": "darjeeling",
-    "city": "Darjeeling",
-    "country": "India",
-    "region": "West Bengal, India"
-  },
-  {
-    "id": "osaka",
-    "city": "Osaka",
-    "country": "Japan",
-    "region": "Kansai"
-  },
-  {
-    "id": "astana",
-    "city": "Astana",
-    "country": "Kazakhstan",
-    "region": "Northern Kazakhstan"
-  },
-  {
-    "id": "samarkand",
-    "city": "Samarkand",
-    "country": "Uzbekistan",
-    "region": "Zerafshan Valley"
-    "id": "goreme",
-    "city": "Göreme",
-    "country": "Turkey",
-    "region": "Straddling Europe & Asia"
-  },
-  {
-    "id": "ulcinj",
-    "city": "Ulcinj",
-    "country": "Montenegro",
-    "region": "Western Balkans"
-  },
-  {
-    "id": "budva",
-    "city": "Budva",
-    "country": "Montenegro",
-    "region": "Montenegrin Coast"
-  },
-  {
-    "id": "kotor",
-    "city": "Kotor",
-    "country": "Montenegro",
-    "region": "Western Balkans"
-  },
-  {
-    "id": "dubrovnik",
-    "city": "Dubrovnik",
-    "country": "Croatia",
-    "region": "Adriatic Balkans"
-  },
-  {
-    "id": "leipzig",
-    "city": "Leipzig",
-    "country": "Germany",
-    "region": "Central Europe"
-  },
-  {
-    "id": "zermatt",
-    "city": "Zermatt",
-    "country": "Switzerland",
-    "region": "Alps, Central Europe"
-  },
-  {
-    "id": "varna",
-    "city": "Varna",
-    "country": "Bulgaria",
-    "region": "Balkans"
-  }
+  { "id": "tirana", "city": "Tirana", "country": "Albania", "region": "Balkans" },
+  { "id": "mostar", "city": "Mostar", "country": "Bosnia & Herzegovina", "region": "Western Balkans" },
+  { "id": "chengdu", "city": "Chengdu", "country": "China", "region": "Sichuan, Southwest China" },
+  { "id": "tbilisi", "city": "Tbilisi", "country": "Georgia", "region": "South Caucasus" },
+  { "id": "istanbul", "city": "Istanbul", "country": "Turkey", "region": "Straddling Europe & Asia" },
+  { "id": "catania", "city": "Catania", "country": "Italy", "region": "Southern Italy" },
+  { "id": "kandy", "city": "Kandy", "country": "Sri Lanka", "region": "Central Sri Lanka" },
+  { "id": "colombo", "city": "Colombo", "country": "Sri Lanka", "region": "Western Sri Lanka" },
+  { "id": "arugam-bay", "city": "Arugam Bay", "country": "Sri Lanka", "region": "Eastern Sri Lanka" },
+  { "id": "goa", "city": "Goa", "country": "India", "region": "Western India" },
+  { "id": "munnar", "city": "Munnar", "country": "India", "region": "Kerala, South India" },
+  { "id": "ha-giang", "city": "Ha Giang", "country": "Vietnam", "region": "Northern Vietnam" },
+  { "id": "sanya", "city": "Sanya", "country": "China", "region": "Hainan, South China" },
+  { "id": "guilin", "city": "Guilin", "country": "China", "region": "Guangxi, South China" },
+  { "id": "marrakech", "city": "Marrakech", "country": "Morocco", "region": "Central Morocco" },
+  { "id": "palermo", "city": "Palermo", "country": "Italy", "region": "Sicily, Southern Italy" },
+  { "id": "meteora", "city": "Meteora", "country": "Greece", "region": "Thessaly, Greece" },
+  { "id": "athens", "city": "Athens", "country": "Greece", "region": "Attica, Greece" },
+  { "id": "zakopane", "city": "Zakopane", "country": "Poland", "region": "Lesser Poland" },
+  { "id": "katowice", "city": "Katowice", "country": "Poland", "region": "Silesia, Poland" },
+  { "id": "krakow", "city": "Krakow", "country": "Poland", "region": "Lesser Poland" },
+  { "id": "gdansk", "city": "Gdansk", "country": "Poland", "region": "Pomerania, Poland" },
+  { "id": "riga", "city": "Riga", "country": "Latvia", "region": "Baltics" },
+  { "id": "tallinn", "city": "Tallinn", "country": "Estonia", "region": "Baltics" },
+  { "id": "turin", "city": "Turin", "country": "Italy", "region": "Piedmont, Northern Italy" },
+  { "id": "rome", "city": "Rome", "country": "Italy", "region": "Lazio, Central Italy" },
+  { "id": "florence", "city": "Florence", "country": "Italy", "region": "Tuscany, Central Italy" },
+  { "id": "bled", "city": "Bled", "country": "Slovenia", "region": "Upper Carniola" },
+  { "id": "trieste", "city": "Trieste", "country": "Italy", "region": "Friuli Venezia Giulia" },
+  { "id": "vienna", "city": "Vienna", "country": "Austria", "region": "Eastern Austria" },
+  { "id": "budapest", "city": "Budapest", "country": "Hungary", "region": "Central Hungary" },
+  { "id": "bratislava", "city": "Bratislava", "country": "Slovakia", "region": "Western Slovakia" },
+  { "id": "prague", "city": "Prague", "country": "Czechia", "region": "Bohemia" },
+  { "id": "copenhagen", "city": "Copenhagen", "country": "Denmark", "region": "Zealand" },
+  { "id": "cairo", "city": "Cairo", "country": "Egypt", "region": "Lower Egypt" },
+  { "id": "hurghada", "city": "Hurghada", "country": "Egypt", "region": "Red Sea Coast" },
+  { "id": "seville", "city": "Seville", "country": "Spain", "region": "Andalusia" },
+  { "id": "granada", "city": "Granada", "country": "Spain", "region": "Andalusia" },
+  { "id": "toledo", "city": "Toledo", "country": "Spain", "region": "Castile-La Mancha" },
+  { "id": "braga", "city": "Braga", "country": "Portugal", "region": "Northern Portugal" },
+  { "id": "faro", "city": "Faro", "country": "Portugal", "region": "Algarve" },
+  { "id": "andorra-la-vella", "city": "Andorra la Vella", "country": "Andorra", "region": "Central Andorra" },
+  { "id": "bergen", "city": "Bergen", "country": "Norway", "region": "Western Norway" },
+  { "id": "paphos", "city": "Paphos", "country": "Cyprus", "region": "Southwestern Cyprus" },
+  { "id": "valletta", "city": "Valletta", "country": "Malta", "region": "Malta" },
+  { "id": "jambiani", "city": "Jambiani", "country": "Tanzania", "region": "Zanzibar" },
+  { "id": "darjeeling", "city": "Darjeeling", "country": "India", "region": "West Bengal, India" },
+  { "id": "osaka", "city": "Osaka", "country": "Japan", "region": "Kansai" },
+  { "id": "astana", "city": "Astana", "country": "Kazakhstan", "region": "Northern Kazakhstan" },
+  { "id": "samarkand", "city": "Samarkand", "country": "Uzbekistan", "region": "Zerafshan Valley" }
 ]
