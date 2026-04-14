@@ -30,6 +30,12 @@
     "region": "Straddling Europe & Asia"
   },
   {
+    "id": "goreme",
+    "city": "Göreme",
+    "country": "Turkey",
+    "region": "Straddling Europe & Asia"
+  },
+  {
     "id": "ulcinj",
     "city": "Ulcinj",
     "country": "Montenegro",

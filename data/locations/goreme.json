@@ -1,0 +1,278 @@
+{
+  "id": "goreme",
+  "city": "Göreme",
+  "country": "Turkey",
+  "region": "Straddling Europe & Asia",
+  "desc": "Göreme is one of the most surreal landscapes on earth — a high Anatolian valley sculpted into soft volcanic tuff, where cone-shaped fairy chimneys rise between cave churches, monasteries and underground cities. This is the heart of Cappadocia: sunrise skies filled with hot-air balloons, rock-hewn homes and boutique cave hotels, and hiking trails that wind through pink, red and honey-coloured canyons. The Göreme Open-Air Museum preserves extraordinary Byzantine frescoes, while nearby Derinkuyu and Kaymaklı reveal multi-level underground settlements built for refuge and survival. It is dramatic, deeply historic, and unlike anywhere else in Europe or the Middle East.",
+  "hls": [
+    "Fairy chimneys & cave valleys",
+    "Sunrise balloon flights",
+    "UNESCO rock-cut churches",
+    "Underground cities",
+    "Exceptional hiking",
+    "Unique cave hotels"
+  ],
+  "todo": [
+    {
+      "name": "Göreme Open-Air Museum",
+      "cat": "History & UNESCO",
+      "desc": "A monastic complex of rock-cut churches and chapels with vivid Byzantine frescoes — the essential first stop for understanding Cappadocia's history."
+    },
+    {
+      "name": "Sunrise hot-air balloon flight",
+      "cat": "Scenic & adventure",
+      "desc": "One of the world's iconic balloon experiences — drifting above Love Valley, Red Valley and the fairy chimneys at dawn."
+    },
+    {
+      "name": "Rose Valley & Red Valley hike",
+      "cat": "Hiking & scenery",
+      "desc": "The classic Cappadocia walk through sculpted sandstone ridges, cave chapels and panoramic viewpoints. Best in early morning or late afternoon."
+    },
+    {
+      "name": "Uçhisar Castle",
+      "cat": "Scenic & history",
+      "desc": "The highest point in the region — a honeycombed rock citadel with sweeping views across Göreme and distant volcanic peaks."
+    },
+    {
+      "name": "Derinkuyu or Kaymaklı Underground City",
+      "cat": "History",
+      "desc": "Remarkable subterranean settlements descending through multiple levels of tunnels, chambers and ventilation shafts."
+    },
+    {
+      "name": "Paşabağ (Monks Valley)",
+      "cat": "Nature & photography",
+      "desc": "Perhaps the best concentration of iconic mushroom-shaped fairy chimneys — superb for photography in low evening light."
+    },
+    {
+      "name": "Çavuşin village & church",
+      "cat": "Culture & historic",
+      "desc": "An atmospheric old settlement of cave dwellings and rock-cut churches, with fewer crowds than Göreme centre."
+    },
+    {
+      "name": "Ihlara Valley day trip",
+      "cat": "Nature & history",
+      "desc": "A lush canyon carved by the Melendiz river, lined with hidden cave churches and frescoes — very different from Göreme's open valleys."
+    },
+    {
+      "name": "ATV or horseback sunset tour",
+      "cat": "Adventure",
+      "desc": "A fun way to cover multiple valleys quickly and catch golden-hour views over the rock formations."
+    },
+    {
+      "name": "Turkish night & local pottery in Avanos",
+      "cat": "Food & culture",
+      "desc": "Combine regional Cappadocian dishes with Avanos' long pottery tradition on the Kızılırmak river."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "25–50 Mbps",
+      "note": "Solid WiFi in most cave hotels, cafes and cowork-friendly spots in Göreme and Uçhisar. Speeds vary by property due to old stone structures and valley topography; buying a local eSIM is useful for backup."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flight to Cappadocia. Typical routes connect via Istanbul to Nevşehir (NAV) or Kayseri (ASR). From the airport, transfers to Göreme take about 40 min from NAV and 70 min from ASR.",
+    "airports": [
+      {
+        "name": "Nevşehir Kapadokya Airport",
+        "code": "NAV",
+        "km": 40,
+        "dgw": false
+      },
+      {
+        "name": "Kayseri Erkilet Airport",
+        "code": "ASR",
+        "km": 75,
+        "dgw": false
+      }
+    ],
+    "currency": "Turkish Lira (TRY)",
+    "lang": "Turkish",
+    "tz": "TRT (UTC+3)",
+    "visa": "e-Visa required for UK citizens — apply online before travel",
+    "bestFor": [
+      "Couples",
+      "Photographers",
+      "Hikers",
+      "History lovers",
+      "Adventure travellers",
+      "Short-break seekers"
+    ],
+    "alerts": [
+      "Balloon flights are weather-dependent and can be cancelled at short notice — plan at least two mornings.",
+      "Book cave hotels and balloon slots well in advance for April–June and September–October.",
+      "Pack layers — daytime can be warm while mornings and evenings stay cool even in summer."
+    ]
+  },
+  "sweet": "Late April to June and September to October are ideal — clear skies, comfortable hiking temperatures, and excellent conditions for balloon flights.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 0,
+      "hi": 4,
+      "lo": -4,
+      "sun": 3.2,
+      "cld": 62,
+      "rain": 32,
+      "rise": "07:55",
+      "set": "17:20",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 2,
+      "hi": 6,
+      "lo": -3,
+      "sun": 4,
+      "cld": 55,
+      "rain": 30,
+      "rise": "07:30",
+      "set": "17:55",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 11,
+      "lo": 1,
+      "sun": 5,
+      "cld": 48,
+      "rain": 35,
+      "rise": "06:45",
+      "set": "18:35",
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 11,
+      "hi": 17,
+      "lo": 5,
+      "sun": 6.5,
+      "cld": 38,
+      "rain": 42,
+      "rise": "05:55",
+      "set": "19:12",
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 16,
+      "hi": 22,
+      "lo": 9,
+      "sun": 8.3,
+      "cld": 30,
+      "rain": 48,
+      "rise": "05:20",
+      "set": "19:45",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 20,
+      "hi": 27,
+      "lo": 12,
+      "sun": 10.2,
+      "cld": 18,
+      "rain": 24,
+      "rise": "05:05",
+      "set": "20:05",
+      "busy": 8,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 24,
+      "hi": 31,
+      "lo": 15,
+      "sun": 11,
+      "cld": 10,
+      "rain": 8,
+      "rise": "05:20",
+      "set": "19:58",
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 31,
+      "lo": 15,
+      "sun": 10.4,
+      "cld": 11,
+      "rain": 7,
+      "rise": "05:45",
+      "set": "19:25",
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 19,
+      "hi": 26,
+      "lo": 11,
+      "sun": 8.3,
+      "cld": 20,
+      "rain": 14,
+      "rise": "06:15",
+      "set": "18:35",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 19,
+      "lo": 7,
+      "sun": 6.2,
+      "cld": 33,
+      "rain": 30,
+      "rise": "06:50",
+      "set": "17:45",
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "sun": 4.2,
+      "cld": 48,
+      "rain": 35,
+      "rise": "07:20",
+      "set": "17:10",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 2,
+      "hi": 6,
+      "lo": -2,
+      "sun": 3,
+      "cld": 58,
+      "rain": 34,
+      "rise": "07:45",
+      "set": "17:00",
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}
