@@ -28,5 +28,11 @@
     "city": "Istanbul",
     "country": "Turkey",
     "region": "Straddling Europe & Asia"
+  },
+  {
+    "id": "kotor",
+    "city": "Kotor",
+    "country": "Montenegro",
+    "region": "Western Balkans"
   }
 ]
