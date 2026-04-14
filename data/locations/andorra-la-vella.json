@@ -3,45 +3,45 @@
   "city": "Andorra la Vella",
   "country": "Andorra",
   "region": "Central Andorra",
-  "desc": "Andorra la Vella is a compelling destination in Andorra, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Set in a steep Pyrenean valley, Andorra la Vella combines mountain scenery with a compact capital center known for shopping, spa culture, and quick access to hiking and ski terrain. Visit for fresh alpine air, modern Caldea wellness facilities, and easy day trips to Romanesque villages and high passes.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Pyrenean mountain setting at 1,000m+",
+    "Duty-free shopping streets on Avinguda Meritxell",
+    "Caldea thermal spa complex in nearby Escaldes",
+    "Fast access to Vallnord and Grandvalira ski areas",
+    "Romanesque churches and stone hamlets nearby",
+    "Excellent base for hiking, biking, and scenic drives"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Andorra la Vella's identity."
+      "name": "Stroll Avinguda Meritxell and old quarter",
+      "cat": "City walk",
+      "desc": "Pair Andorra’s modern shopping spine with the small Barri Antic around Plaça del Poble for a quick sense of old and new capital life."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Caldea thermal spa session",
+      "cat": "Wellness",
+      "desc": "Book a multi-hour circuit of indoor and outdoor lagoons, saunas, and hydrotherapy pools in one of Europe’s largest mountain spa complexes."
     },
     {
-      "name": "Museum or heritage site",
+      "name": "Visit Casa de la Vall",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Tour the former parliamentary house to understand Andorra’s co-principality system and centuries of local governance."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Hike Rec del Solà and Rec de l’Obac paths",
+      "cat": "Nature",
+      "desc": "These balcony trails above town give easy panoramic walks over the valley without needing a long transfer."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Day trip to Ordino valley",
+      "cat": "Scenic drive",
+      "desc": "Head north to stone villages, the Sorteny area, and mountain viewpoints for a quieter, traditional side of Andorra."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Winter ski day at Vallnord Pal-Arinsal",
+      "cat": "Snow sports",
+      "desc": "Use the short transfer from the capital for a full day of beginner-to-intermediate pistes and mountain dining."
     }
   ],
   "prac": {

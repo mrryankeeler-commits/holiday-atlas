@@ -3,45 +3,45 @@
   "city": "Jambiani",
   "country": "Tanzania",
   "region": "Zanzibar",
-  "desc": "Jambiani is a compelling destination in Tanzania, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Jambiani is a laid-back village on Zanzibar’s southeast coast, known for powdery tidal beaches, seaweed farms, and dhow-dotted horizons. Come for slow island rhythms, kitesurfing winds, Swahili culture, and easy ocean excursions.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Long white-sand beach with dramatic tides",
+    "Authentic village atmosphere vs. larger resorts",
+    "Kitesurf-friendly conditions in season",
+    "Seaweed farming and local coastal livelihoods",
+    "Excellent seafood and Swahili dishes",
+    "Access to reef snorkeling and dhow trips"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Jambiani's identity."
+      "name": "Walk Jambiani beach at low tide",
+      "cat": "Nature",
+      "desc": "See turquoise shallows and local seaweed farms exposed by the wide tidal range."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Kitesurf lesson on the southeast coast",
+      "cat": "Water sports",
+      "desc": "Book beginner or intermediate sessions when seasonal winds are most reliable."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Snorkeling trip to nearby reefs",
+      "cat": "Marine life",
+      "desc": "Join local boats to coral patches with tropical fish and clear-water conditions."
     },
     {
-      "name": "Sunset viewpoint",
+      "name": "Village cooking or culture tour",
+      "cat": "Cultural experience",
+      "desc": "Learn Swahili ingredients, spice use, and daily life through community-led visits."
+    },
+    {
+      "name": "Sunset dhow cruise",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Sail traditional wooden boats along the coast for golden-hour views and relaxed pacing."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
-    },
-    {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Day trip to Paje or The Rock area",
+      "cat": "Day trip",
+      "desc": "Combine neighboring beaches, cafés, and iconic offshore dining spots in one outing."
     }
   ],
   "prac": {

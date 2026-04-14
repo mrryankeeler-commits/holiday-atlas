@@ -3,45 +3,45 @@
   "city": "Bled",
   "country": "Slovenia",
   "region": "Upper Carniola",
-  "desc": "Bled is a compelling destination in Slovenia, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Bled is Slovenia’s postcard alpine lake town, known for its island church, cliff-top castle, and Julian Alps backdrop. People come for relaxed lakeside walks, rowing to the island, nearby gorges, and easy links to Triglav National Park.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Lake Bled island and pilgrimage church",
+    "Medieval Bled Castle above turquoise water",
+    "Classic pletna boat tradition",
+    "Short scenic loop path around the lake",
+    "Easy access to Vintgar Gorge and Bohinj",
+    "Famous kremna rezina cream cake"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Bled's identity."
+      "name": "Row or take a pletna to Bled Island",
+      "cat": "Lake experience",
+      "desc": "Cross to the tiny island, ring the wishing bell, and enjoy views back toward the castle cliffs."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
+      "name": "Tour Bled Castle",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Visit museum exhibits and the terrace café for one of the best panoramas over Lake Bled."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Walk the full lakeshore circuit",
+      "cat": "Scenic walk",
+      "desc": "The mostly flat 6 km loop offers changing angles of the island and mountain backdrop."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Sunrise or sunset at Ojstrica viewpoint",
+      "cat": "Photography",
+      "desc": "Take the short but steep trail for Bled’s signature elevated postcard perspective."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Vintgar Gorge boardwalk",
+      "cat": "Nature",
+      "desc": "Follow wooden paths above turquoise rapids and pools in a dramatic limestone canyon."
+    },
+    {
+      "name": "Day trip to Lake Bohinj",
+      "cat": "Day trip",
+      "desc": "Visit a wilder, less developed alpine lake with cable-car access to high mountain viewpoints."
     }
   ],
   "prac": {

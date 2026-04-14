@@ -3,45 +3,45 @@
   "city": "Marrakech",
   "country": "Morocco",
   "region": "Central Morocco",
-  "desc": "Marrakech is a compelling destination in Morocco, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Marrakech is a sensory-rich imperial city where medina souks, palace courtyards, and Atlas-framed light create a distinctive atmosphere. Visitors come for riad stays, craft traditions, historic monuments, and easy escapes to desert or mountain landscapes.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Jemaa el-Fna square energy day and night",
+    "Dense souk network with traditional crafts",
+    "Major landmarks like Bahia Palace and Koutoubia",
+    "Stylish riad and hammam culture",
+    "Strong Moroccan cuisine scene",
+    "Gateway to Atlas Mountains and Agafay desert"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Marrakech's identity."
+      "name": "Jemaa el-Fna and souk circuit",
+      "cat": "Market & culture",
+      "desc": "Navigate the medina’s core lanes for spices, leatherwork, lamps, and nonstop street theater."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
+      "name": "Bahia Palace and Saadian Tombs",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Tour two major sites showcasing Andalusian-Moroccan craftsmanship and dynastic heritage."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Koutoubia and sunset terrace tea",
+      "cat": "Landmark",
+      "desc": "See Marrakech’s defining minaret, then watch evening light from a nearby rooftop café."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Majorelle Garden and YSL Museum",
+      "cat": "Art & design",
+      "desc": "Pair cobalt botanical gardens with modern exhibits on fashion and Moroccan influence."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Traditional hammam treatment",
+      "cat": "Wellness",
+      "desc": "Experience scrub and steam rituals in either local bathhouses or upscale spa versions."
+    },
+    {
+      "name": "Day trip to Atlas valleys or Agafay",
+      "cat": "Excursion",
+      "desc": "Leave the city for Berber villages, mountain viewpoints, or stargazing desert camps."
     }
   ],
   "prac": {

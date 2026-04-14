@@ -3,45 +3,45 @@
   "city": "Bratislava",
   "country": "Slovakia",
   "region": "Western Slovakia",
-  "desc": "Bratislava is a compelling destination in Slovakia, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Bratislava sits on the Danube at a crossroads of Slovak, Austro-Hungarian, and modern Central European culture. It rewards visitors with a compact old town, hilltop castle views, riverside promenades, and easy cross-border day trips.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Danube riverfront and castle skyline",
+    "Walkable old town with Habsburg-era architecture",
+    "Distinctive UFO Bridge viewpoint",
+    "Strong café and craft beer scene",
+    "Quick train links to Vienna and Budapest",
+    "Nearby vineyards in the Small Carpathians"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Bratislava's identity."
+      "name": "Bratislava Castle and hill walk",
+      "cat": "Landmark",
+      "desc": "Tour castle exhibitions and enjoy broad views over the Danube and neighboring countries."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Old Town lanes and Main Square",
+      "cat": "City walk",
+      "desc": "Explore pastel facades, courtyards, and street sculptures around Hlavné námestie and adjacent alleys."
     },
     {
-      "name": "Museum or heritage site",
+      "name": "St. Martin’s Cathedral visit",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "See the coronation church where Hungarian kings were crowned during the Ottoman era."
     },
     {
-      "name": "Sunset viewpoint",
+      "name": "UFO Tower sunset drink",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Ride up for panoramic evening views of bridges, river curves, and the old-town skyline."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Blue Church and modern districts",
+      "cat": "Architecture",
+      "desc": "Combine Art Nouveau at St. Elisabeth Church with a look at newer city neighborhoods."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Devín Castle outing",
+      "cat": "Day trip",
+      "desc": "Visit dramatic ruins above the Danube-Morava confluence, reachable by bus, bike, or seasonal boat."
     }
   ],
   "prac": {

@@ -3,45 +3,45 @@
   "city": "Vienna",
   "country": "Austria",
   "region": "Eastern Austria",
-  "desc": "Vienna is a compelling destination in Austria, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Vienna blends imperial grandeur with everyday livability, from Habsburg palaces to contemporary museums and coffeehouse rituals. Visit for world-class classical music, elegant streets, and a high-quality urban rhythm along the Danube.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "Schönbrunn and Hofburg imperial heritage",
+    "Outstanding art museums and collections",
+    "Historic coffeehouse and pastry culture",
+    "Classical music and opera calendar",
+    "Efficient public transport and clean streets",
+    "Vineyard hills at the city edge"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Vienna's identity."
+      "name": "Schönbrunn Palace and gardens",
+      "cat": "Imperial history",
+      "desc": "Tour state rooms, stroll formal gardens, and climb to the Gloriette for city views."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
+      "name": "Hofburg and Imperial Apartments",
       "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "desc": "Explore former Habsburg winter residences and treasury highlights in the historic center."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "MuseumsQuartier + Kunsthistorisches",
+      "cat": "Art",
+      "desc": "Combine major fine-art collections with contemporary venues in one dense museum area."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "St. Stephen’s Cathedral and old town",
+      "cat": "Landmark",
+      "desc": "Visit the cathedral interior and tower, then walk Graben and nearby pedestrian lanes."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Traditional coffeehouse stop",
+      "cat": "Food & culture",
+      "desc": "Settle in for melange and cake at a classic café to experience Vienna’s social ritual."
+    },
+    {
+      "name": "Heuriger evening in Grinzing",
+      "cat": "Local experience",
+      "desc": "Head to the vineyard district for young wine, cold platters, and a village-like atmosphere."
     }
   ],
   "prac": {
