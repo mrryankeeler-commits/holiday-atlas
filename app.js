@@ -385,7 +385,7 @@ function setF(f) {
 }
 
 function addLoc() {
-  alert("For now, add destinations by editing data/destinations.json in GitHub.");
+  alert("Add a new file in data/locations/<id>.json and add summary entry to data/locations/index.json.");
 }
 
 function isValidLocation(loc, id) {
