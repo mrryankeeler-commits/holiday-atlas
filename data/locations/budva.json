@@ -1,0 +1,266 @@
+{
+  "id": "budva",
+  "city": "Budva",
+  "country": "Montenegro",
+  "region": "Montenegrin Coast",
+  "desc": "Budva is Montenegro's Riviera hub: a compact walled old town backed by pine hills and fronted by a chain of swimmable coves. Unlike the fjord-like drama of Kotor or Ulcinj's long sandy edge, Budva blends Venetian lanes, beach-club energy, and easy boat access to small offshore islands in one walkable base. Summer is lively and music-led, but shoulder season reveals a calmer side with clear water, sea promenades, and quick hops to viewpoints above Sveti Stefan.",
+  "hls": [
+    "Walled Old Town on the sea",
+    "Beaches and coves within walking distance",
+    "Lively nightlife and beach clubs",
+    "Boat trips to Sveti Nikola Island",
+    "Great base for the Budva Riviera",
+    "Easy access from Tivat Airport"
+  ],
+  "todo": [
+    {
+      "name": "Stari Grad (Old Town)",
+      "cat": "History & streets",
+      "desc": "Explore limestone alleys, tiny squares, and Venetian-era walls in one of the Adriatic's most photogenic historic cores."
+    },
+    {
+      "name": "Mogren Beach coastal path",
+      "cat": "Scenic & swimming",
+      "desc": "Short cliffside walk from town to two clear-water coves linked by a tunnel through the rocks."
+    },
+    {
+      "name": "Citadel & town ramparts",
+      "cat": "Viewpoint",
+      "desc": "Climb for panoramas over Budva Bay, red-tiled roofs, and the string of beaches southward."
+    },
+    {
+      "name": "Sveti Nikola Island boat",
+      "cat": "Boat trip",
+      "desc": "Five to ten minutes by taxi-boat to pebbly coves and pine shade opposite Budva's waterfront."
+    },
+    {
+      "name": "Sveti Stefan viewpoint",
+      "cat": "Scenic",
+      "desc": "Visit the classic terrace views above Montenegro's iconic islet-hotel and pink-pebble shoreline."
+    },
+    {
+      "name": "Slovenska Plaza promenade",
+      "cat": "Waterfront",
+      "desc": "Long seafront strip for sunset walks, casual dining, and easy access to multiple town beaches."
+    },
+    {
+      "name": "Jaz Beach",
+      "cat": "Beach",
+      "desc": "Wider bay west of town known for concerts, open-water swimming, and better space in peak summer."
+    },
+    {
+      "name": "Reževići & Praskvica trails",
+      "cat": "Nature & walking",
+      "desc": "Olive-grove and monastery paths in the hills above the coast for a quieter, inland contrast."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35–60 Mbps",
+      "note": "Good hotel/apartment WiFi in town and strong 4G coverage along the Riviera; speeds can dip in August evenings."
+    },
+    "directGW": false,
+    "fltNote": "No regular direct Gatwick route to Budva. Most visitors fly to Tivat (TIV) or Podgorica (TGD), then transfer by road.",
+    "airports": [
+      {
+        "name": "Tivat Airport",
+        "code": "TIV",
+        "km": 20,
+        "dgw": false
+      },
+      {
+        "name": "Podgorica Airport",
+        "code": "TGD",
+        "km": 65,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Montenegrin",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens for short tourist stays (typically up to 90 days in 180 days)",
+    "bestFor": [
+      "Beach holidays",
+      "Nightlife seekers",
+      "Couples",
+      "Friend groups",
+      "Shoulder-season sun"
+    ],
+    "alerts": [
+      "Peak July–August traffic can be heavy along the coast; allow extra transfer time.",
+      "Some beaches are mixed public/private in summer — check sunbed pricing before settling."
+    ]
+  },
+  "sweet": "Late May–June and September are the sweet spot for warm sea temperatures, active boat services, and fewer crowds than peak August.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "sun": 3.8,
+      "cld": 66,
+      "rain": 140,
+      "rise": "07:15",
+      "set": "16:25",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 4.4,
+      "cld": 60,
+      "rain": 125,
+      "rise": "06:50",
+      "set": "17:03",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 15,
+      "lo": 7,
+      "sun": 5.4,
+      "cld": 53,
+      "rain": 110,
+      "rise": "06:12",
+      "set": "17:41",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 14,
+      "hi": 18,
+      "lo": 10,
+      "sun": 6.8,
+      "cld": 45,
+      "rain": 95,
+      "rise": "05:28",
+      "set": "18:19",
+      "busy": 4,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "sun": 8.2,
+      "cld": 34,
+      "rain": 75,
+      "rise": "04:57",
+      "set": "18:55",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 22,
+      "hi": 27,
+      "lo": 18,
+      "sun": 10.1,
+      "cld": 24,
+      "rain": 55,
+      "rise": "04:43",
+      "set": "19:24",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 25,
+      "hi": 30,
+      "lo": 21,
+      "sun": 11,
+      "cld": 16,
+      "rain": 38,
+      "rise": "04:51",
+      "set": "19:28",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 25,
+      "hi": 30,
+      "lo": 21,
+      "sun": 10.3,
+      "cld": 18,
+      "rain": 50,
+      "rise": "05:16",
+      "set": "19:00",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 26,
+      "lo": 17,
+      "sun": 8.2,
+      "cld": 29,
+      "rain": 85,
+      "rise": "05:50",
+      "set": "18:12",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "sun": 6,
+      "cld": 44,
+      "rain": 130,
+      "rise": "06:25",
+      "set": "17:24",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "sun": 4.1,
+      "cld": 58,
+      "rain": 180,
+      "rise": "07:02",
+      "set": "16:43",
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "sun": 3.2,
+      "cld": 67,
+      "rain": 170,
+      "rise": "07:22",
+      "set": "16:22",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}
