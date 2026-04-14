@@ -3,77 +3,96 @@
   "city": "Meteora",
   "country": "Greece",
   "region": "Thessaly, Greece",
-  "desc": "Meteora is a compelling destination in Greece, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Meteora is one of Greece's most dramatic landscapes: monasteries perched on sandstone pillars above the plains of Thessaly. Travelers come for sunrise viewpoints, cliffside trails, and a mix of Orthodox heritage and outdoor adventure.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "UNESCO-listed cliff monasteries suspended above the valley",
+    "Outstanding sunrise and sunset photography viewpoints",
+    "Well-marked hiking routes between monasteries and rock towers",
+    "Easy base in Kalabaka or quieter Kastraki village",
+    "Strong pairing with Delphi, Zagori, or Thessaloniki routes",
+    "Unique mix of spiritual heritage and nature travel"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
+      "name": "Great Meteoron Monastery",
+      "cat": "Monastery & history",
+      "desc": "Visit the largest monastery complex for frescoes, artifacts, and panoramic valley views."
+    },
+    {
+      "name": "Varlaam and Rousanou monasteries",
       "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Meteora's identity."
+      "desc": "Combine two architecturally distinct monasteries reachable by scenic roads and stairways."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
-    },
-    {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
-    },
-    {
-      "name": "Sunset viewpoint",
+      "name": "Sunrise at Psaropetra viewpoint",
       "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "desc": "Arrive before dawn for layered mist and monastery silhouettes over the plain."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "Kastraki to Holy Trinity trail",
+      "cat": "Hiking",
+      "desc": "Follow stone paths beneath the pillars and climb to one of Meteora's most dramatic monasteries."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Byzantine Church of the Assumption (Kalabaka)",
+      "cat": "Religious site",
+      "desc": "See medieval fresco fragments and local ecclesiastical history at the foot of Meteora."
+    },
+    {
+      "name": "Rock-climbing intro session",
+      "cat": "Adventure",
+      "desc": "Book a beginner climb on Meteora's conglomerate cliffs with certified local guides."
+    },
+    {
+      "name": "Mushroom Museum and truffle tasting",
+      "cat": "Local specialty",
+      "desc": "Try a quirky regional stop focused on wild mushrooms and truffle products from the area."
+    },
+    {
+      "name": "Delphi add-on day",
+      "cat": "Long day trip",
+      "desc": "Pair Meteora with Delphi if traveling onward by car or private transfer."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 3,
+      "spd": "30–90 Mbps",
+      "note": "Usable for remote work in newer guesthouses, though speeds can vary in mountain-view properties."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Meteora.",
+    "fltNote": "There is no airport in Meteora; most visitors connect via Thessaloniki or Athens, then continue by train, bus, or car.",
     "airports": [
       {
-        "name": "Meteora area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Thessaloniki Airport",
+        "code": "SKG",
+        "km": 230,
         "dgw": false
+      },
+      {
+        "name": "Athens International Airport",
+        "code": "ATH",
+        "km": 355,
+        "dgw": true
       }
     ],
-    "currency": "See local currency",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Check current entry requirements",
+    "currency": "Euro (EUR)",
+    "lang": "Greek",
+    "tz": "EET (UTC+2), EEST (UTC+3) in summer",
+    "visa": "Greece is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Scenic road trips",
+      "Hikers",
+      "Photographers",
+      "Spiritual heritage travel",
+      "Slow travel itineraries"
     ],
-    "alerts": []
+    "alerts": [
+      "Monasteries have strict dress codes (covered shoulders/knees) and rotating closure days.",
+      "Public transport schedules are limited on Sundays and winter weekdays."
+    ]
   },
-  "sweet": "Shoulder seasons (spring and autumn) are often the best balance of weather, prices, and crowd levels.",
+  "sweet": "April to June and September to October are ideal for clear views and hiking weather, with fewer tour buses than midsummer.",
   "months": [
     {
       "m": "Jan",

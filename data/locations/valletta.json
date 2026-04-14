@@ -3,77 +3,90 @@
   "city": "Valletta",
   "country": "Malta",
   "region": "Malta",
-  "desc": "Valletta is a compelling destination in Malta, blending local culture, food, and easy day-trip options for a well-rounded stay.",
+  "desc": "Valletta is a compact fortified capital where Baroque streets, harbor bastions, and maritime history fit into a walkable peninsula. It is ideal for culture-first travelers who want museums and architecture by day, then sea views and restaurant terraces at night.",
   "hls": [
-    "Distinct local character",
-    "Strong food scene",
-    "Good base for day trips",
-    "Photogenic landmarks",
-    "Mix of culture and nature",
-    "Works for short or long stays"
+    "UNESCO-listed walled city built by the Knights of St John",
+    "Grand Harbour panoramas from Upper Barrakka Gardens",
+    "Top museums in compact walking distance (MUŻA, War Rooms, maritime sites)",
+    "Easy ferry hops to the Three Cities, Sliema, and Gozo links",
+    "Strong dining scene from modern Maltese to classic trattorias",
+    "Excellent winter-sun city break with mild temperatures"
   ],
   "todo": [
     {
-      "name": "Historic center walk",
-      "cat": "Culture",
-      "desc": "Explore the old quarters and landmarks that define Valletta's identity."
+      "name": "St John's Co-Cathedral",
+      "cat": "Art & history",
+      "desc": "See ornate Baroque interiors and Caravaggio's Beheading of Saint John the Baptist."
     },
     {
-      "name": "Local market visit",
-      "cat": "Food & culture",
-      "desc": "Sample regional dishes and browse produce, snacks, and handmade goods."
+      "name": "Upper Barrakka Gardens at noon",
+      "cat": "Viewpoint",
+      "desc": "Watch harbor activity and the Saluting Battery ceremony over Grand Harbour."
     },
     {
-      "name": "Museum or heritage site",
-      "cat": "History",
-      "desc": "Visit a signature museum, monument, or heritage site for deeper context."
+      "name": "Lascaris War Rooms",
+      "cat": "Military history",
+      "desc": "Tour underground command centers used during World War II operations in the Mediterranean."
     },
     {
-      "name": "Sunset viewpoint",
-      "cat": "Scenic",
-      "desc": "Head to a high point or waterfront promenade for golden-hour views."
+      "name": "Ferry to Birgu (Vittoriosa)",
+      "cat": "Harbor excursion",
+      "desc": "Cross to the Three Cities for quieter lanes, fortifications, and yacht-marina waterfronts."
     },
     {
-      "name": "Neighborhood café day",
-      "cat": "Lifestyle",
-      "desc": "Slow down in local cafés and discover contemporary city life."
+      "name": "National Museum of Archaeology",
+      "cat": "Museum",
+      "desc": "View Malta's prehistoric artifacts, including finds from Ħaġar Qim and Hypogeum contexts."
     },
     {
-      "name": "Day trip",
-      "cat": "Nature & nearby",
-      "desc": "Use the city as a base for a nearby nature, coast, or mountain excursion."
+      "name": "Evening walk on Merchants and Strait streets",
+      "cat": "City atmosphere",
+      "desc": "Experience balcony-lined streets, wine bars, and live music tucked into old limestone facades."
+    },
+    {
+      "name": "Mdina half-day trip",
+      "cat": "Day trip",
+      "desc": "Visit Malta's silent city for bastion views, noble palaces, and medieval lanes."
+    },
+    {
+      "name": "Marsaxlokk Sunday market",
+      "cat": "Food & coast",
+      "desc": "Pair a harbor fish market visit with seafood lunch and colorful luzzu boats."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "80–200 Mbps",
+      "note": "Strong connectivity across boutique hotels and apartments; mobile coverage is excellent around the harbor area."
     },
-    "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Valletta.",
+    "directGW": true,
+    "fltNote": "London Gatwick serves Malta (MLA) with frequent nonstop flights year-round, with additional seasonal capacity.",
     "airports": [
       {
-        "name": "Valletta area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Malta International Airport",
+        "code": "MLA",
+        "km": 8,
+        "dgw": true
       }
     ],
-    "currency": "See local currency",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Check current entry requirements",
+    "currency": "Euro (EUR)",
+    "lang": "Maltese and English",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Malta is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
+      "Culture-rich short breaks",
+      "History enthusiasts",
+      "Shoulder-season sun",
       "Couples",
-      "Flexible itineraries"
+      "Car-free city travel"
     ],
-    "alerts": []
+    "alerts": [
+      "Valletta's steep streets and steps can be tiring in midday heat; plan museum stops around noon.",
+      "Cruise ship days increase foot traffic in central lanes and major museums."
+    ]
   },
-  "sweet": "Shoulder seasons (spring and autumn) are often the best balance of weather, prices, and crowd levels.",
+  "sweet": "March to June and late September to November balance warm weather, manageable museum queues, and good value compared with midsummer.",
   "months": [
     {
       "m": "Jan",
