@@ -1,0 +1,263 @@
+{
+  "id": "leipzig",
+  "city": "Leipzig",
+  "country": "Germany",
+  "region": "Central Europe",
+  "desc": "Leipzig is Germany's most compelling city-break alternative to Berlin: compact, creative, and deeply musical. Bach worked at St. Thomas Church, the grand arcades and passages hide coffee houses and design stores, and former industrial districts like Plagwitz have become hubs for galleries, studios, and canalside bars. With a walkable centre, excellent trams, and easy rail links to Berlin and Dresden, Leipzig works brilliantly for a long weekend that mixes history, culture, and contemporary urban energy.",
+  "hls": [
+    "Bach, Mendelssohn & music heritage",
+    "Compact city-break layout",
+    "Creative districts & galleries",
+    "Historic arcades and passages",
+    "Lakes and canals nearby",
+    "Strong value vs bigger German cities"
+  ],
+  "todo": [
+    {
+      "name": "St. Thomas Church (Thomaskirche)",
+      "cat": "Music & history",
+      "desc": "Bach's church and final resting place — a must for anyone interested in classical music and Leipzig's global cultural legacy."
+    },
+    {
+      "name": "St. Nicholas Church (Nikolaikirche)",
+      "cat": "History",
+      "desc": "Key site of the 1989 peaceful protests that helped bring down the East German regime."
+    },
+    {
+      "name": "Leipzig Market Square & Old Town arcades",
+      "cat": "Old town",
+      "desc": "Explore the Renaissance Old Town Hall and the elegant shopping passages that define central Leipzig's character."
+    },
+    {
+      "name": "Museum of Fine Arts (MdbK)",
+      "cat": "Art",
+      "desc": "Excellent collection from Old Masters to contemporary works, including artists from the New Leipzig School."
+    },
+    {
+      "name": "Spinnerei in Plagwitz",
+      "cat": "Creative districts",
+      "desc": "A former cotton mill transformed into one of Europe's most important contemporary art complexes."
+    },
+    {
+      "name": "Monument to the Battle of the Nations",
+      "cat": "Landmark",
+      "desc": "Colossal 1913 monument commemorating Napoleon's defeat at Leipzig, with panoramic city views from the top."
+    },
+    {
+      "name": "Clara-Zetkin-Park & canals",
+      "cat": "Outdoors",
+      "desc": "Rent a bike or kayak for a relaxed half-day in the city's green spaces and waterways."
+    },
+    {
+      "name": "Leipzig lake district (Cospudener See)",
+      "cat": "Day trip",
+      "desc": "Former lignite mines now turned into lakes with beaches and cycle trails — ideal in warm months."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "50–90 Mbps",
+      "note": "Reliable hotel and cafe WiFi in the centre; excellent 4G/5G coverage and several coworking options in Mitte and Plagwitz."
+    },
+    "directGW": false,
+    "fltNote": "No regular direct LGW flights. Typical routes connect via Frankfurt, Munich, or Berlin; rail from Berlin Airport is also straightforward.",
+    "airports": [
+      {
+        "name": "Leipzig/Halle Airport",
+        "code": "LEJ",
+        "km": 20,
+        "dgw": false
+      },
+      {
+        "name": "Berlin Brandenburg Airport",
+        "code": "BER",
+        "km": 190,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "German",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens for short stays in the Schengen Area (up to 90 days in any 180-day period)",
+    "bestFor": [
+      "Culture and music lovers",
+      "City-break couples",
+      "Art and architecture fans",
+      "Remote workers",
+      "Value-focused weekend travellers"
+    ],
+    "alerts": []
+  },
+  "sweet": "May–June and September are the sweet spot for a Leipzig city break: mild weather, long days, and lively cafe and park culture without peak summer crowding.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 1,
+      "hi": 4,
+      "lo": -2,
+      "sun": 2.0,
+      "cld": 78,
+      "rain": 44,
+      "rise": "08:05",
+      "set": "16:20",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 2,
+      "hi": 6,
+      "lo": -1,
+      "sun": 2.9,
+      "cld": 72,
+      "rain": 36,
+      "rise": "07:35",
+      "set": "17:05",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 10,
+      "lo": 1,
+      "sun": 4.2,
+      "cld": 63,
+      "rain": 40,
+      "rise": "06:45",
+      "set": "17:55",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 10,
+      "hi": 15,
+      "lo": 5,
+      "sun": 5.8,
+      "cld": 54,
+      "rain": 38,
+      "rise": "06:35",
+      "set": "19:45",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 15,
+      "hi": 20,
+      "lo": 9,
+      "sun": 7.2,
+      "cld": 47,
+      "rain": 55,
+      "rise": "05:35",
+      "set": "20:30",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 23,
+      "lo": 12,
+      "sun": 7.6,
+      "cld": 42,
+      "rain": 70,
+      "rise": "05:00",
+      "set": "21:05",
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 20,
+      "hi": 25,
+      "lo": 14,
+      "sun": 7.4,
+      "cld": 41,
+      "rain": 74,
+      "rise": "05:10",
+      "set": "21:00",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 20,
+      "hi": 25,
+      "lo": 14,
+      "sun": 7.0,
+      "cld": 40,
+      "rain": 66,
+      "rise": "05:50",
+      "set": "20:15",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "sun": 5.2,
+      "cld": 49,
+      "rain": 45,
+      "rise": "06:35",
+      "set": "19:15",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 14,
+      "lo": 7,
+      "sun": 3.4,
+      "cld": 62,
+      "rain": 37,
+      "rise": "07:20",
+      "set": "18:15",
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 6,
+      "hi": 9,
+      "lo": 2,
+      "sun": 1.8,
+      "cld": 74,
+      "rain": 44,
+      "rise": "07:15",
+      "set": "16:30",
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 3,
+      "hi": 6,
+      "lo": 0,
+      "sun": 1.6,
+      "cld": 80,
+      "rain": 51,
+      "rise": "08:00",
+      "set": "16:05",
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    }
+  ]
+}

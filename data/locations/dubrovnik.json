@@ -1,0 +1,261 @@
+{
+  "id": "dubrovnik",
+  "city": "Dubrovnik",
+  "country": "Croatia",
+  "region": "Adriatic Balkans",
+  "desc": "Dubrovnik is the Adriatic's showpiece city — a walled marble old town perched above sapphire water, where Gothic, Renaissance and Baroque churches rise behind mighty medieval fortifications. The limestone lanes of the UNESCO centre are cinematic at any hour, but the city rewards going beyond the walls: cliffside swims, Lokrum island pines, and day trips into the Konavle vineyards and the Bay of Kotor. It is polished and popular in high summer, yet still deeply atmospheric in shoulder season when cruise pressure eases.",
+  "hls": [
+    "UNESCO old town & city walls",
+    "Dramatic Adriatic scenery",
+    "Historic stone lanes & churches",
+    "Excellent seafood",
+    "Easy island day trips",
+    "Direct from Gatwick"
+  ],
+  "todo": [
+    {
+      "name": "Walk the City Walls",
+      "cat": "Landmark & scenic",
+      "desc": "A full circuit of Dubrovnik's fortifications with commanding views over terracotta roofs and the Adriatic. Go early or late for softer light and fewer crowds."
+    },
+    {
+      "name": "Stradun & Old Town lanes",
+      "cat": "Culture",
+      "desc": "The polished limestone main street and side alleys are the heart of the city — churches, monasteries and hidden wine bars around every corner."
+    },
+    {
+      "name": "Fort Lovrijenac",
+      "cat": "History",
+      "desc": "Dramatic cliff-top fortress outside the western walls with excellent old-town panoramas and rich maritime history."
+    },
+    {
+      "name": "Cable car to Mount Srđ",
+      "cat": "Scenic",
+      "desc": "Rapid ascent to a viewpoint above the city for sunset over the Elaphiti islands."
+    },
+    {
+      "name": "Lokrum Island",
+      "cat": "Nature & coast",
+      "desc": "A 15-minute boat ride to pine forest paths, rocky swim spots and a relaxed, car-free island atmosphere."
+    },
+    {
+      "name": "Banje or Sveti Jakov beach",
+      "cat": "Coast",
+      "desc": "Iconic city beach scenes with clear water and classic wall views."
+    },
+    {
+      "name": "Cavtat day trip",
+      "cat": "Scenic & culture",
+      "desc": "Elegant harbour town south of Dubrovnik with palm-lined promenades, swimming coves and a slower pace."
+    },
+    {
+      "name": "Konavle wine & village lunch",
+      "cat": "Food & countryside",
+      "desc": "Inland valley of family wineries and traditional taverns — a strong counterpoint to old-town crowds."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "45–80 Mbps",
+      "note": "Strong hotel/apartment WiFi in and around the old town with solid 4G/5G backup. Cafes can be busy in peak season, so early starts are best for remote work."
+    },
+    "directGW": true,
+    "fltNote": "easyJet operates direct LGW → Dubrovnik (DBV), especially frequent April–October. Flight time is about 2 h 40 min.",
+    "airports": [
+      {
+        "name": "Dubrovnik Airport",
+        "code": "DBV",
+        "km": 20,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Croatian",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens — up to 90 days in any 180-day Schengen period",
+    "bestFor": [
+      "Couples",
+      "History lovers",
+      "Photographers",
+      "Island hoppers",
+      "Shoulder-season city breaks"
+    ],
+    "alerts": [
+      "July–August cruise ship arrivals can make the old town extremely crowded from late morning to mid-afternoon.",
+      "Within the walls, accommodation and dining prices rise sharply in peak summer — book early for value.",
+      "Old town paving is polished limestone and can be slippery after rain; wear grippy footwear."
+    ]
+  },
+  "sweet": "May–June and late September are ideal for warm sea conditions, long days and significantly better crowd/value balance than peak summer.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "sun": 4.2,
+      "cld": 60,
+      "rain": 125,
+      "rise": "07:18",
+      "set": "16:28",
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 10,
+      "hi": 14,
+      "lo": 7,
+      "sun": 4.8,
+      "cld": 54,
+      "rain": 110,
+      "rise": "06:56",
+      "set": "17:10",
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 12,
+      "hi": 16,
+      "lo": 9,
+      "sun": 5.8,
+      "cld": 47,
+      "rain": 95,
+      "rise": "06:16",
+      "set": "17:50",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 15,
+      "hi": 19,
+      "lo": 12,
+      "sun": 7.2,
+      "cld": 39,
+      "rain": 82,
+      "rise": "05:29",
+      "set": "18:28",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 23,
+      "lo": 15,
+      "sun": 8.9,
+      "cld": 30,
+      "rain": 62,
+      "rise": "04:53",
+      "set": "19:04",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 27,
+      "lo": 19,
+      "sun": 10.5,
+      "cld": 20,
+      "rain": 45,
+      "rise": "04:39",
+      "set": "19:29",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "sun": 11.4,
+      "cld": 13,
+      "rain": 28,
+      "rise": "04:49",
+      "set": "19:26",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "sun": 10.7,
+      "cld": 16,
+      "rain": 36,
+      "rise": "05:15",
+      "set": "18:55",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "sun": 8.4,
+      "cld": 27,
+      "rain": 65,
+      "rise": "05:49",
+      "set": "18:08",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "sun": 6.3,
+      "cld": 40,
+      "rain": 97,
+      "rise": "06:24",
+      "set": "17:20",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 14,
+      "hi": 17,
+      "lo": 11,
+      "sun": 4.7,
+      "cld": 52,
+      "rain": 135,
+      "rise": "07:00",
+      "set": "16:38",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 10,
+      "hi": 14,
+      "lo": 7,
+      "sun": 3.9,
+      "cld": 60,
+      "rain": 145,
+      "rise": "07:20",
+      "set": "16:20",
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

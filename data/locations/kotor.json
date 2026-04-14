@@ -1,0 +1,273 @@
+{
+  "id": "kotor",
+  "city": "Kotor",
+  "country": "Montenegro",
+  "region": "Western Balkans",
+  "desc": "Kotor is a fortified Adriatic town enclosed by dramatic limestone mountains and the fjord-like Bay of Kotor. Its UNESCO-listed old town is a compact maze of Venetian palaces, tiny squares, and Romanesque churches, while steep stone steps climb to St. John Fortress for one of the Balkans’ best coastal panoramas. Kotor’s beauty is undeniable, but timing matters: cruise-ship arrivals can flood the old town midday in peak season, whereas shoulder months offer calmer streets, easier restaurant bookings, and better value.",
+  "hls": [
+    "UNESCO old town",
+    "Bay of Kotor panoramas",
+    "Venetian architecture",
+    "Excellent base for Perast & Lovćen",
+    "Strong shoulder-season value",
+    "Compact, walkable historic core"
+  ],
+  "todo": [
+    {
+      "name": "Kotor Old Town walls",
+      "cat": "History & architecture",
+      "desc": "Wander the medieval lanes, tiny piazzas, and Venetian-era churches inside the fortifications."
+    },
+    {
+      "name": "St. John Fortress hike",
+      "cat": "Scenic & active",
+      "desc": "Climb the fortress steps at sunrise or late afternoon for sweeping views over the bay and mountains."
+    },
+    {
+      "name": "Our Lady of the Rocks (Perast)",
+      "cat": "Boat trip & culture",
+      "desc": "Take a short trip to Perast and visit the iconic man-made islet church and museum."
+    },
+    {
+      "name": "Kotor Farmers Market",
+      "cat": "Food & local life",
+      "desc": "Sample local cheeses, cured meats, olives, and rakija around the old town market area."
+    },
+    {
+      "name": "Boat loop of Bay of Kotor",
+      "cat": "Scenic",
+      "desc": "See Kotor, Prčanj, Perast, and shoreline villages from the water for the best perspective."
+    },
+    {
+      "name": "Lovćen National Park day trip",
+      "cat": "Nature & scenery",
+      "desc": "Drive the serpentine road to mountain viewpoints and Njegoš Mausoleum above the coast."
+    },
+    {
+      "name": "Dobrota waterfront walk",
+      "cat": "Slow travel",
+      "desc": "Stroll north along the bay past stone palaces and small jetties away from old-town crowds."
+    },
+    {
+      "name": "Seafood dinner by the bay",
+      "cat": "Food",
+      "desc": "Enjoy black risotto, grilled fish, and mussels in konobas along Kotor and Perast waterfronts."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35–70 Mbps",
+      "note": "Most apartments, hotels, and cafes offer reliable internet; old-town stone buildings can weaken mobile signal indoors."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flight to Tivat (TIV). Common routes are one-stop flights to Tivat or Dubrovnik/Podgorica plus overland transfer; travel times vary strongly by summer traffic and border queues.",
+    "airports": [
+      {
+        "name": "Tivat Airport",
+        "code": "TIV",
+        "km": 8,
+        "dgw": false
+      },
+      {
+        "name": "Dubrovnik Airport",
+        "code": "DBV",
+        "km": 75,
+        "dgw": true
+      },
+      {
+        "name": "Podgorica Airport",
+        "code": "TGD",
+        "km": 90,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Montenegrin",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens — up to 90 days in a 180-day period",
+    "bestFor": [
+      "Scenic breaks",
+      "Couples",
+      "Photographers",
+      "History lovers",
+      "Shoulder-season travellers"
+    ],
+    "alerts": [
+      "Cruise arrivals can make the old town extremely busy from late morning to mid-afternoon in peak season.",
+      "Summer road access can be slow around the bay; allow extra time for airport transfers.",
+      "Fortress climb is exposed with limited shade — carry water and avoid midday heat in July/August."
+    ]
+  },
+  "sweet": "Late April–June and September–October balance warm weather with fewer cruise crowds and better prices than peak summer.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "sun": 4.0,
+      "cld": 62,
+      "rain": 165,
+      "rise": "07:16",
+      "set": "16:29",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 4.7,
+      "cld": 58,
+      "rain": 152,
+      "rise": "06:53",
+      "set": "17:05",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 12,
+      "hi": 16,
+      "lo": 7,
+      "sun": 5.8,
+      "cld": 52,
+      "rain": 137,
+      "rise": "06:16",
+      "set": "17:40",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 15,
+      "hi": 19,
+      "lo": 10,
+      "sun": 7.0,
+      "cld": 45,
+      "rain": 120,
+      "rise": "06:27",
+      "set": "19:12",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 23,
+      "lo": 14,
+      "sun": 8.7,
+      "cld": 36,
+      "rain": 95,
+      "rise": "05:51",
+      "set": "19:44",
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 27,
+      "lo": 18,
+      "sun": 10.2,
+      "cld": 25,
+      "rain": 73,
+      "rise": "05:37",
+      "set": "19:58",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 31,
+      "lo": 21,
+      "sun": 11.1,
+      "cld": 16,
+      "rain": 45,
+      "rise": "05:51",
+      "set": "19:50",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 31,
+      "lo": 21,
+      "sun": 10.4,
+      "cld": 18,
+      "rain": 56,
+      "rise": "06:17",
+      "set": "19:20",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 22,
+      "hi": 27,
+      "lo": 17,
+      "sun": 8.3,
+      "cld": 30,
+      "rain": 95,
+      "rise": "06:43",
+      "set": "18:35",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 22,
+      "lo": 13,
+      "sun": 6.2,
+      "cld": 43,
+      "rain": 145,
+      "rise": "07:09",
+      "set": "17:49",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "sun": 4.5,
+      "cld": 55,
+      "rain": 210,
+      "rise": "06:41",
+      "set": "16:17",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "sun": 3.7,
+      "cld": 61,
+      "rain": 193,
+      "rise": "07:12",
+      "set": "16:18",
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}
