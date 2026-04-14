@@ -1,4 +1,5 @@
-let DB = [];
+let INDEX = [];
+const LOC_CACHE = {};
 
 let S = {
   loc: null,
@@ -7,21 +8,21 @@ let S = {
   chart: null
 };
 
-const gl = () => DB.find(l => l.id === S.loc);
+const gl = () => LOC_CACHE[S.loc] || null;
 const clbls = ["", "Budget", "Low", "Mid", "High", "Peak"];
 const bclr = v => v <= 2 ? "#639922" : v <= 4 ? "#97C459" : v <= 6 ? "#C9973A" : v <= 8 ? "#EF9F27" : v <= 9 ? "#D85A30" : "#A32D2D";
 const blbl = v => v <= 2 ? "Quiet" : v <= 4 ? "Low" : v <= 6 ? "Moderate" : v <= 8 ? "Busy" : v <= 9 ? "Very busy" : "Peak";
 const cpc = v => `pill p${v}`;
 
 function rSidebar() {
-  document.getElementById("loc-list").innerHTML = DB.map(l => `
+  document.getElementById("loc-list").innerHTML = INDEX.map(l => `
     <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${l.id}')">
       <span class="loc-city">${l.city}</span>
       <span class="loc-ctry">${l.country}</span>
     </button>
   `).join("");
 
-  document.getElementById("dest-count").textContent = `${DB.length} destinations`;
+  document.getElementById("dest-count").textContent = `${INDEX.length} destinations`;
 }
 
 function rMain() {
@@ -353,12 +354,19 @@ function initChart() {
   });
 }
 
-function selLoc(id) {
+async function selLoc(id) {
   S.loc = id;
   S.filter = null;
   S.tab = "climate";
   rSidebar();
-  rMain();
+
+  try {
+    await loadLocation(id);
+    rMain();
+  } catch (err) {
+    rLocError(id, err);
+    console.error(err);
+  }
 }
 
 function swTab(t) {
@@ -370,7 +378,9 @@ function swTab(t) {
 
 function setF(f) {
   S.filter = f;
-  document.getElementById("tab-body").innerHTML = rClimate(gl());
+  const L = gl();
+  if (!L) return;
+  document.getElementById("tab-body").innerHTML = rClimate(L);
   initChart();
 }
 
@@ -378,20 +388,66 @@ function addLoc() {
   alert("For now, add destinations by editing data/destinations.json in GitHub.");
 }
 
+function isValidLocation(loc, id) {
+  return Boolean(
+    loc &&
+    typeof loc === "object" &&
+    loc.id === id &&
+    Array.isArray(loc.months) &&
+    Array.isArray(loc.hls) &&
+    Array.isArray(loc.todo) &&
+    loc.prac &&
+    Array.isArray(loc.prac.alerts) &&
+    Array.isArray(loc.prac.airports) &&
+    Array.isArray(loc.prac.bestFor)
+  );
+}
+
+function rLocError(id, err) {
+  document.getElementById("main").innerHTML = `
+    <div style="padding:20px;font-family:system-ui,sans-serif;color:#8b2e2e;">
+      <strong>Could not load destination details.</strong><br><br>
+      ${id}: ${err.message}
+    </div>
+  `;
+}
+
+async function loadLocation(id) {
+  if (LOC_CACHE[id]) return LOC_CACHE[id];
+
+  const res = await fetch(`./data/locations/${id}.json`);
+  if (!res.ok) throw new Error(`Failed to load ${id}.json (${res.status})`);
+
+  const loc = await res.json();
+  if (!isValidLocation(loc, id)) {
+    throw new Error(`Invalid location payload for ${id}.`);
+  }
+
+  LOC_CACHE[id] = loc;
+  return loc;
+}
+
 async function init() {
   try {
-    const res = await fetch("./data/destinations.json");
-    if (!res.ok) throw new Error(`Failed to load destinations.json (${res.status})`);
+    const res = await fetch("./data/locations/index.json");
+    if (!res.ok) throw new Error(`Failed to load index.json (${res.status})`);
 
-    DB = await res.json();
+    INDEX = await res.json();
 
-    if (!Array.isArray(DB) || DB.length === 0) {
-      throw new Error("Destination data is empty or invalid.");
+    if (!Array.isArray(INDEX) || INDEX.length === 0) {
+      throw new Error("Location index data is empty or invalid.");
     }
 
-    S.loc = DB[0].id;
+    S.loc = INDEX[0].id;
     rSidebar();
-    rMain();
+
+    try {
+      await loadLocation(S.loc);
+      rMain();
+    } catch (err) {
+      rLocError(S.loc, err);
+      console.error(err);
+    }
   } catch (err) {
     document.getElementById("main").innerHTML = `
       <div style="padding:20px;font-family:system-ui,sans-serif;color:#8b2e2e;">
