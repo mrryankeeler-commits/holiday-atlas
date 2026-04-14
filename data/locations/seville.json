@@ -47,31 +47,33 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "70–160 Mbps",
+      "note": "Good in central hotels and coworking cafés; many venues maintain strong daytime speeds."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Seville.",
+    "fltNote": "Gatwick–Seville has frequent nonstop options in most seasons, with additional frequencies in spring and autumn.",
     "airports": [
       {
-        "name": "Seville area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Seville Airport (San Pablo)",
+        "code": "SVQ",
+        "km": 10,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Spain is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Spanish",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Spain is in Schengen; many non-EU travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Spring city breaks",
+      "Tapas and flamenco trips",
+      "Long-weekend culture",
+      "Andalusia multi-city routes",
+      "Mild winter escapes"
     ],
-    "alerts": []
+    "alerts": [
+      "Summer afternoon heat is intense; many locals shift activities to evenings."
+    ]
   },
   "sweet": "March to May and October are best for city sightseeing; summer afternoons are extremely hot.",
   "months": [

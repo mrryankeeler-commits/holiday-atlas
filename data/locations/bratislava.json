@@ -47,31 +47,39 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "80–170 Mbps",
+      "note": "Reliable around Old Town stays and coworking spaces; mobile coverage is strong on cross-border routes."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Bratislava.",
+    "fltNote": "Bratislava has limited UK frequencies; many travelers use Vienna (VIE) and transfer 45–75 minutes by bus or train.",
     "airports": [
       {
-        "name": "Bratislava area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "M. R. Štefánik Airport Bratislava",
+        "code": "BTS",
+        "km": 9,
         "dgw": false
+      },
+      {
+        "name": "Vienna International Airport",
+        "code": "VIE",
+        "km": 62,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Slovakia is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Slovak",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Slovakia is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Danube city breaks",
+      "Weekend old-town walks",
+      "Beer and café trips",
+      "Twin-city Vienna + Bratislava itineraries",
+      "Budget Europe hops"
     ],
-    "alerts": []
+    "alerts": [
+      "Cross-border rail and bus services to Vienna can be crowded on Friday evenings and Sundays."
+    ]
   },
   "sweet": "May, June, and September provide warm weather with fewer crowds than the midsummer peak.",
   "months": [

@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 5,
+      "spd": "150–320 Mbps",
+      "note": "Very reliable in hotels, cafés, and public spaces; excellent for remote work."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Copenhagen.",
+    "fltNote": "Gatwick–Copenhagen has regular nonstop service on multiple carriers throughout the year.",
     "airports": [
       {
-        "name": "Copenhagen area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Copenhagen Airport, Kastrup",
+        "code": "CPH",
+        "km": 8,
+        "dgw": true
       }
     ],
     "currency": "Danish krone (DKK)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Denmark is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Danish (English widely spoken)",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Denmark is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Design lovers",
+      "Cycling city breaks",
+      "Family city weekends",
+      "Food scene trips",
+      "Conference travel"
     ],
-    "alerts": []
+    "alerts": [
+      "Hotel prices rise sharply during summer festivals and large trade events."
+    ]
   },
   "sweet": "May to September is best for outdoor neighborhoods, bike days, and long daylight hours.",
   "months": [

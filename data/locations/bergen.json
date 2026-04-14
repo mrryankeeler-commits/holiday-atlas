@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 5,
+      "spd": "120–250 Mbps",
+      "note": "Excellent in city hotels and cafés; reliable enough for video calls even on rainy days."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Bergen.",
+    "fltNote": "Seasonal nonstop Gatwick flights may run; otherwise connect via Oslo, Amsterdam, or Copenhagen.",
     "airports": [
       {
-        "name": "Bergen area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Bergen Airport, Flesland",
+        "code": "BGO",
+        "km": 18,
         "dgw": false
       }
     ],
     "currency": "Norwegian krone (NOK)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Norway is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Norwegian (English widely spoken)",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Norway is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Fjord gateways",
+      "Rainy-season city breaks",
+      "Scenic rail + ferry trips",
+      "Seafood weekends",
+      "Shoulder-season escapes"
     ],
-    "alerts": []
+    "alerts": [
+      "Frequent rain and wind can disrupt fjord cruises and mountain cable car operations."
+    ]
   },
   "sweet": "May to August has the longest days and mildest weather, though rain is possible year-round.",
   "months": [

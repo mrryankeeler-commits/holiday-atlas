@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 5,
+      "spd": "100–220 Mbps",
+      "note": "Strong and consistent in hotels, cafés, and coworking spaces across the center."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Prague.",
+    "fltNote": "Gatwick–Prague is typically nonstop year-round with multiple daily options.",
     "airports": [
       {
-        "name": "Prague area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Václav Havel Airport Prague",
+        "code": "PRG",
+        "km": 17,
+        "dgw": true
       }
     ],
     "currency": "Czech koruna (CZK)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Czechia is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Czech",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Czechia is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Weekend city breaks",
+      "Architecture lovers",
+      "Beer tourism",
+      "Riverfront walks",
+      "Remote-work months"
     ],
-    "alerts": []
+    "alerts": [
+      "Historic center crowds are heaviest from late morning to sunset in peak season."
+    ]
   },
   "sweet": "May, June, and September offer the best mix of pleasant temperatures and manageable crowds.",
   "months": [

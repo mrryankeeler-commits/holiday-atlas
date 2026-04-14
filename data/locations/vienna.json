@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 5,
+      "spd": "130–280 Mbps",
+      "note": "Excellent citywide connectivity in hotels, cafés, and public transport hubs."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Vienna.",
+    "fltNote": "Gatwick–Vienna has frequent nonstop flights year-round on multiple carriers.",
     "airports": [
       {
-        "name": "Vienna area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Vienna International Airport",
+        "code": "VIE",
+        "km": 19,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Austria is in Schengen; standard Schengen entry rules apply.",
+    "lang": "German",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Austria is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Classical music trips",
+      "Museum city breaks",
+      "Christmas markets",
+      "Family-friendly weekends",
+      "Rail-based Central Europe itineraries"
     ],
-    "alerts": []
+    "alerts": [
+      "Major congress dates and Advent weekends can push hotel rates up quickly."
+    ]
   },
   "sweet": "May to June and September are usually best for pleasant weather, music season, and manageable crowds.",
   "months": [

@@ -47,31 +47,33 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "35–110 Mbps",
+      "note": "Good in riads and modern hotels; medina properties can have weaker in-room signals due to old walls."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Marrakech.",
+    "fltNote": "Gatwick–Marrakech has regular nonstop service year-round, often with strong shoulder-season fares.",
     "airports": [
       {
-        "name": "Marrakech area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Marrakesh Menara Airport",
+        "code": "RAK",
+        "km": 6,
+        "dgw": true
       }
     ],
     "currency": "Moroccan dirham (MAD)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Visa-free for many nationalities (including UK) for up to 90 days.",
+    "lang": "Moroccan Arabic and Tamazight (French widely used)",
+    "tz": "GMT (UTC+0), GMT+1 during most of the year",
+    "visa": "Many passports (including US/UK/EU) can enter Morocco visa-free for up to 90 days; onward ticket evidence is recommended.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Winter sun city breaks",
+      "Riads and hammams",
+      "Food + souk trips",
+      "Atlas foothill add-ons",
+      "Short-haul weekend escapes"
     ],
-    "alerts": []
+    "alerts": [
+      "Friday prayer times and Ramadan hours can affect opening times for some shops and eateries."
+    ]
   },
   "sweet": "March to May and October to November are best for city exploration; summer is intensely hot.",
   "months": [
