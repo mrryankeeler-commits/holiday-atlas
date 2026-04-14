@@ -50,7 +50,15 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
-          python -m py_compile scripts/regenerate_months_from_meteostat.py scripts/validate_locations.py
+          python - <<'PY'
+          from pathlib import Path
+          for path in (
+              Path("scripts/regenerate_months_from_meteostat.py"),
+              Path("scripts/validate_locations.py"),
+          ):
+              compile(path.read_text(encoding="utf-8"), str(path), "exec")
+          print("syntax check OK")
+          PY
           python scripts/regenerate_months_from_meteostat.py --repo-root "$GITHUB_WORKSPACE" --all-locations
 
       - name: Validate location data
