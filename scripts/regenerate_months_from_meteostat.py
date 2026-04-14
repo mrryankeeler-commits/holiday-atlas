@@ -186,11 +186,9 @@ def regenerate(repo_root: Path, start_year: int, end_year: int, ids: Iterable[st
         payload = json.loads(path.read_text(encoding="utf-8"))
 
         point = ms.Point(lat, lon)
-        ts = ms.monthly(point, start, end)
-        df = ts.fetch() if ts is not None else None
-        if df is None or df.empty:
-            print(f"warning: no Meteostat data returned for {loc_id}; keeping existing months")
-            continue
+        df = ms.monthly(point, start, end).fetch()
+        if df.empty:
+            raise RuntimeError(f"No Meteostat data returned for {loc_id}")
 
         payload["months"] = build_months(df, payload.get("months", []), lat, lon, tz, preserve_indices)
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
