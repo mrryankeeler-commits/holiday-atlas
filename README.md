@@ -56,3 +56,16 @@ Within `prac`, include:
 - [ ] A matching file exists at `data/locations/<id>.json`.
 - [ ] The `id` matches between manifest entry and filename.
 - [ ] Required keys are present in both manifest and full record.
+
+## Refreshing monthly climate data
+
+Use `scripts/update_climate.py` to refresh each location's `months` climate metrics from Open-Meteo historical data.
+
+```bash
+python scripts/update_climate.py
+# or target one location
+python scripts/update_climate.py --id athens
+```
+
+The script updates these monthly fields: `avg`, `hi`, `lo`, `sun`, `cld`, `rain`, `rise`, `set`.
+It preserves existing `busy`, `ac`, and `fl` scores.
