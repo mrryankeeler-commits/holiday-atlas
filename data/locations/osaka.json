@@ -46,32 +46,40 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 5,
+      "spd": "100–240 Mbps",
+      "note": "Very reliable in hotels, stations, and cafés; pocket Wi-Fi/eSIM options are easy to arrange."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Osaka.",
+    "fltNote": "No routine nonstop Gatwick–Osaka service; most itineraries connect via Tokyo, Seoul, Hong Kong, or Middle East hubs.",
     "airports": [
       {
-        "name": "Osaka area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Kansai International Airport",
+        "code": "KIX",
+        "km": 50,
+        "dgw": false
+      },
+      {
+        "name": "Osaka Itami Airport",
+        "code": "ITM",
+        "km": 17,
         "dgw": false
       }
     ],
     "currency": "Japanese yen (JPY)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Visa-free for many nationalities (including UK) for up to 90 days.",
+    "lang": "Japanese",
+    "tz": "Japan Standard Time (UTC+9)",
+    "visa": "Japan grants visa-free short stays to many nationalities (including US/UK) for tourism; confirm current stay limits before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Food-focused city trips",
+      "Urban Japan itineraries",
+      "Theme-park families",
+      "Rail pass travel",
+      "Spring and autumn visits"
     ],
-    "alerts": []
+    "alerts": [
+      "Golden Week and New Year periods bring high domestic demand and fuller trains/hotels."
+    ]
   },
   "sweet": "Late March to May and October to November are most comfortable; June is wet and midsummer is hot and humid.",
   "months": [

@@ -47,31 +47,39 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "40–110 Mbps",
+      "note": "Good around lakefront stays and cafés; weaker in rural guesthouses beyond central Bled."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Bled.",
+    "fltNote": "Bled has no airport; most routes fly to Ljubljana (LJU) and transfer by bus, shuttle, or car in about 40 minutes.",
     "airports": [
       {
-        "name": "Bled area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Ljubljana Jože Pučnik Airport",
+        "code": "LJU",
+        "km": 36,
+        "dgw": false
+      },
+      {
+        "name": "Klagenfurt Airport",
+        "code": "KLU",
+        "km": 85,
         "dgw": false
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Slovenia is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Slovene (English widely spoken in tourism)",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Slovenia is in Schengen; many non-EU visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Lake scenery",
+      "Easy hiking",
+      "Romantic weekends",
+      "Road trips into Julian Alps",
+      "Low-stress first Slovenia trip"
     ],
-    "alerts": []
+    "alerts": [
+      "Lake Bled is very busy midday in summer; start activities early for lighter crowds."
+    ]
   },
   "sweet": "Late May to September is best for lake activities; winter works for nearby ski and alpine escapes.",
   "months": [

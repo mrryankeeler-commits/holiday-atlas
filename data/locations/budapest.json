@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 5,
+      "spd": "120–260 Mbps",
+      "note": "Excellent urban connectivity in apartments, cafés, and thermal-bath districts."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Budapest.",
+    "fltNote": "Gatwick–Budapest is frequently nonstop on multiple carriers; shoulder seasons usually have the best fares.",
     "airports": [
       {
-        "name": "Budapest area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Budapest Ferenc Liszt International Airport",
+        "code": "BUD",
+        "km": 21,
+        "dgw": true
       }
     ],
     "currency": "Hungarian forint (HUF)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Hungary is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Hungarian",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Hungary is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
       "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Thermal baths",
+      "Nightlife weekends",
+      "Danube views",
+      "Remote-work months"
     ],
-    "alerts": []
+    "alerts": [
+      "Popular ruin bars and thermal baths often require advance booking on weekends."
+    ]
   },
   "sweet": "Late April to June and September to early October balance warm weather, events, and manageable crowds.",
   "months": [

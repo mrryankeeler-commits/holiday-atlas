@@ -47,31 +47,33 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "70–160 Mbps",
+      "note": "Strong in central Faro and resort areas; some rural Algarve properties still have slower DSL."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Faro.",
+    "fltNote": "Gatwick–Faro has frequent nonstop flights, especially from spring through autumn.",
     "airports": [
       {
-        "name": "Faro area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Faro Airport",
+        "code": "FAO",
+        "km": 7,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Portugal is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Portuguese",
+    "tz": "WET (UTC+0), WEST (UTC+1) in summer",
+    "visa": "Portugal is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Beach breaks",
+      "Golf trips",
+      "Family holidays",
+      "Winter sun",
+      "Base for Algarve road trips"
     ],
-    "alerts": []
+    "alerts": [
+      "Rental cars and beach accommodation sell out quickly in July and August."
+    ]
   },
   "sweet": "April to June and September to October bring sunny beach weather without the busiest midsummer crowds.",
   "months": [

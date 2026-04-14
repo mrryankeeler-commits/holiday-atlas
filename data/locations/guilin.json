@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 3,
+      "spd": "20–80 Mbps",
+      "note": "Hotel Wi-Fi is common, but some global apps require roaming solutions or approved VPN access."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Guilin.",
+    "fltNote": "From Gatwick, routes usually connect via major hubs (e.g., Beijing, Shanghai, Guangzhou, or Doha) before onward domestic service to Guilin.",
     "airports": [
       {
-        "name": "Guilin area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Guilin Liangjiang International Airport",
+        "code": "KWL",
+        "km": 30,
         "dgw": false
       }
     ],
-    "currency": "Chinese yuan (CNY)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "China entry rules vary by nationality; some travelers qualify for short visa-free stays, others need a visa.",
+    "currency": "Chinese yuan renminbi (CNY)",
+    "lang": "Mandarin Chinese (local dialects also spoken)",
+    "tz": "China Standard Time (UTC+8)",
+    "visa": "China entry rules vary by nationality and transit policy; apply for the correct visa or confirm current visa-free transit eligibility before travel.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Karst scenery",
+      "River cruises",
+      "Photography trips",
+      "Nature + culture itineraries",
+      "Slow-paced China exploration"
     ],
-    "alerts": []
+    "alerts": [
+      "National holiday weeks (especially early October) bring heavy domestic travel demand."
+    ]
   },
   "sweet": "October to December is generally the most comfortable; spring is green but wetter, and summer is hot and humid.",
   "months": [

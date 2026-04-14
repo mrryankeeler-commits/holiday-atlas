@@ -47,31 +47,33 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "50–130 Mbps",
+      "note": "Reliable in historic-center hotels and cafés, though old stone buildings can reduce in-room signal strength."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Toledo.",
+    "fltNote": "Toledo has no airport; fly to Madrid-Barajas (MAD) then continue by high-speed train (~35 minutes from Madrid Atocha).",
     "airports": [
       {
-        "name": "Toledo area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Adolfo Suárez Madrid-Barajas Airport",
+        "code": "MAD",
+        "km": 96,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Spain is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Spanish",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Spain is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Historic day trips",
+      "Short cultural breaks",
+      "Madrid add-ons",
+      "Architecture and history",
+      "Slow weekend travel"
     ],
-    "alerts": []
+    "alerts": [
+      "Steep cobbled streets and summer heat can make midday walking demanding."
+    ]
   },
   "sweet": "April to June and September to October are ideal for historic walks without peak summer heat.",
   "months": [

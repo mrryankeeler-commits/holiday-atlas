@@ -47,31 +47,33 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "90–180 Mbps",
+      "note": "Strong in central hotels and cafés; generally dependable for remote work weekdays."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Braga.",
+    "fltNote": "Fly to Porto (OPO) for the fastest access; Braga is about 45–60 minutes away by train, bus, or car.",
     "airports": [
       {
-        "name": "Braga area airport",
-        "code": "N/A",
-        "km": 25,
-        "dgw": false
+        "name": "Francisco Sá Carneiro Airport (Porto)",
+        "code": "OPO",
+        "km": 55,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Portugal is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Portuguese",
+    "tz": "WET (UTC+0), WEST (UTC+1) in summer",
+    "visa": "Portugal is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Historic churches",
+      "Budget city breaks",
+      "Northern Portugal rail trips",
+      "Food-focused weekends",
+      "Digital nomad pacing"
     ],
-    "alerts": []
+    "alerts": [
+      "Summer festivals can book out central accommodation early."
+    ]
   },
   "sweet": "May to September is warm and lively; spring and early autumn are ideal for comfortable city wandering.",
   "months": [

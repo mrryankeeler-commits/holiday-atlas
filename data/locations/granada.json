@@ -47,31 +47,39 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "60–140 Mbps",
+      "note": "Reliable in Albaicín and center stays; hillside properties can see weaker indoor coverage."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Granada.",
+    "fltNote": "Granada Airport has limited international routes; many UK visitors fly to Málaga (AGP) then transfer by bus/train (about 2 hours).",
     "airports": [
       {
-        "name": "Granada area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Federico García Lorca Granada Airport",
+        "code": "GRX",
+        "km": 18,
         "dgw": false
+      },
+      {
+        "name": "Málaga-Costa del Sol Airport",
+        "code": "AGP",
+        "km": 135,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Spain is in Schengen; standard Schengen entry rules apply.",
+    "lang": "Spanish",
+    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
+    "visa": "Spain is in Schengen; many non-EU travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Alhambra-focused trips",
+      "Tapas weekends",
+      "Andalusia rail loops",
+      "Culture + mountain combos",
+      "Shoulder-season city breaks"
     ],
-    "alerts": []
+    "alerts": [
+      "Alhambra tickets often sell out days or weeks ahead in spring and autumn."
+    ]
   },
   "sweet": "April to June and September to October are best for sightseeing; midsummer afternoons are very hot.",
   "months": [

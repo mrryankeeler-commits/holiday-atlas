@@ -46,32 +46,34 @@
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "r": 2,
+      "spd": "8–30 Mbps",
+      "note": "Beach lodges offer basic Wi-Fi; mobile data is often more dependable for work calls."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Jambiani.",
+    "fltNote": "Fly into Zanzibar’s Abeid Amani Karume Airport (ZNZ), then transfer roughly 1–1.5 hours by road to Jambiani.",
     "airports": [
       {
-        "name": "Jambiani area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Abeid Amani Karume International Airport (Zanzibar)",
+        "code": "ZNZ",
+        "km": 57,
         "dgw": false
       }
     ],
     "currency": "Tanzanian shilling (TZS)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "eVisa available for many nationalities; visa on arrival is also common at major entry points.",
+    "lang": "Swahili and English",
+    "tz": "East Africa Time (UTC+3)",
+    "visa": "Most visitors need a Tanzania eVisa or visa on arrival; ensure passport validity and any required return/onward proof.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Kite surfing",
+      "Quiet beach stays",
+      "Couples retreats",
+      "Oceanfront yoga",
+      "Low-key digital detox"
     ],
-    "alerts": []
+    "alerts": [
+      "Tidal swings are significant on the southeast coast; swimming windows shift by day."
+    ]
   },
   "sweet": "June to October is drier and breezier for beach days; January to February is sunny and warm before long rains.",
   "months": [

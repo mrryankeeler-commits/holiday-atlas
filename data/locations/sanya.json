@@ -47,31 +47,39 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–80 Mbps",
-      "note": "Generally reliable for remote work in accommodations and cafés."
+      "spd": "30–90 Mbps",
+      "note": "Resort Wi-Fi is usually stable, though speeds can dip during evening peaks in large beach hotels."
     },
     "directGW": false,
-    "fltNote": "Connections from London Gatwick are typically available via major European or regional hubs when traveling to Sanya.",
+    "fltNote": "From Gatwick, Sanya is typically reached via one or two connections through major Asian hubs (e.g., Shanghai, Guangzhou, Hong Kong).",
     "airports": [
       {
-        "name": "Sanya area airport",
-        "code": "N/A",
-        "km": 25,
+        "name": "Sanya Phoenix International Airport",
+        "code": "SYX",
+        "km": 14,
+        "dgw": false
+      },
+      {
+        "name": "Haikou Meilan International Airport",
+        "code": "HAK",
+        "km": 280,
         "dgw": false
       }
     ],
-    "currency": "Chinese yuan (CNY)",
-    "lang": "See local language",
-    "tz": "See local timezone",
-    "visa": "Hainan has a visa-free entry policy for many nationalities; verify route and eligibility rules before travel.",
+    "currency": "Chinese yuan renminbi (CNY)",
+    "lang": "Mandarin Chinese",
+    "tz": "China Standard Time (UTC+8)",
+    "visa": "China entry rules vary by passport; check current visa requirements or approved visa-free transit/policy options before flying.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "City breaks",
-      "Couples",
-      "Flexible itineraries"
+      "Beach resorts",
+      "Winter sun in East Asia",
+      "Family holidays",
+      "Water sports",
+      "Spa-focused breaks"
     ],
-    "alerts": []
+    "alerts": [
+      "Typhoon season (roughly July to October) can cause short-notice flight changes."
+    ]
   },
   "sweet": "November to April is sunniest and less humid; summer has warmer seas but frequent rain and storm risk.",
   "months": [
