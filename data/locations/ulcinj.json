@@ -1,0 +1,262 @@
+{
+  "id": "ulcinj",
+  "city": "Ulcinj",
+  "country": "Montenegro",
+  "region": "Western Balkans",
+  "desc": "Ulcinj sits on Montenegro's southern Adriatic edge near the Albanian border, blending old-town stone lanes with one of the longest sandy coasts in the region. The hilltop Stari Grad overlooks a broad bay, while Velika Plaža stretches for around 13 km and draws wind and kitesurfers through summer. Compared with busier Bay of Kotor towns, Ulcinj feels looser, sunnier and more beach-led, with strong Albanian-Montenegrin food culture and warm evening promenades.",
+  "hls": [
+    "13 km Velika Plaža",
+    "Sandy beaches (rarer in Montenegro)",
+    "Kitesurf & wind sports",
+    "Ottoman-influenced old town",
+    "Excellent seafood and grills",
+    "Good value in shoulder season"
+  ],
+  "todo": [
+    {
+      "name": "Ulcinj Old Town (Stari Grad)",
+      "cat": "Culture & history",
+      "desc": "Explore fortified lanes, sea-view terraces and small museums above the Adriatic. Best in late afternoon light."
+    },
+    {
+      "name": "Velika Plaža",
+      "cat": "Beach & nature",
+      "desc": "A vast sandy shoreline ideal for long walks, sunset swims and space even in peak months."
+    },
+    {
+      "name": "Ada Bojana",
+      "cat": "Nature & beach",
+      "desc": "River-island delta area known for wild beach scenery, seafood restaurants and laid-back atmosphere."
+    },
+    {
+      "name": "Kitesurf lessons",
+      "cat": "Adventure",
+      "desc": "Steady thermal winds and shallow sections make summer one of the Adriatic's best beginner-friendly kitesurf spots."
+    },
+    {
+      "name": "Mala Plaža promenade",
+      "cat": "Local life",
+      "desc": "Small-town seafront packed with cafes and gelato bars, busiest after sunset in July and August."
+    },
+    {
+      "name": "Salina bird reserve",
+      "cat": "Nature & wildlife",
+      "desc": "Watch migratory birds in the restored salt pans, especially productive in spring and autumn shoulder months."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–45 Mbps",
+      "note": "Good in most apartments and cafes; mobile 4G coverage is strong along town beaches, weaker in some remote beach sections."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flight to Ulcinj. Typical route: LGW → Podgorica (TGD) or Tivat (TIV) via one stop, then transfer by road (about 1.5–2.5 hrs depending on traffic and border flow in peak season).",
+    "airports": [
+      {
+        "name": "Podgorica Airport",
+        "code": "TGD",
+        "km": 74,
+        "dgw": false
+      },
+      {
+        "name": "Tivat Airport",
+        "code": "TIV",
+        "km": 87,
+        "dgw": false
+      },
+      {
+        "name": "Tirana International (Nënë Tereza)",
+        "code": "TIA",
+        "km": 85,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Montenegrin / Albanian",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens — up to 90 days in 180 days",
+    "bestFor": [
+      "Beach-focused trips",
+      "Shoulder-season value",
+      "Water sports",
+      "Families",
+      "Couples"
+    ],
+    "alerts": [
+      "Road congestion can be heavy in late July and August, especially weekends.",
+      "Some beach clubs and services scale down outside May–September."
+    ]
+  },
+  "sweet": "June and September are the sweet spot for warm sea conditions, active beach services and fewer crowds than peak July–August.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "sun": 4,
+      "cld": 62,
+      "rain": 150,
+      "rise": "07:15",
+      "set": "16:25",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 4.8,
+      "cld": 55,
+      "rain": 135,
+      "rise": "06:55",
+      "set": "17:05",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "sun": 5.8,
+      "cld": 50,
+      "rain": 118,
+      "rise": "06:15",
+      "set": "17:45",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 15,
+      "hi": 20,
+      "lo": 10,
+      "sun": 7,
+      "cld": 42,
+      "rain": 95,
+      "rise": "05:30",
+      "set": "18:23",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 24,
+      "lo": 14,
+      "sun": 8.5,
+      "cld": 34,
+      "rain": 72,
+      "rise": "05:00",
+      "set": "18:58",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 28,
+      "lo": 18,
+      "sun": 10.2,
+      "cld": 24,
+      "rain": 48,
+      "rise": "04:45",
+      "set": "19:25",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 31,
+      "lo": 21,
+      "sun": 11.2,
+      "cld": 14,
+      "rain": 30,
+      "rise": "04:55",
+      "set": "19:30",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 31,
+      "lo": 21,
+      "sun": 10.7,
+      "cld": 16,
+      "rain": 42,
+      "rise": "05:20",
+      "set": "19:02",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 22,
+      "hi": 27,
+      "lo": 17,
+      "sun": 8.4,
+      "cld": 28,
+      "rain": 82,
+      "rise": "05:55",
+      "set": "18:15",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 22,
+      "lo": 13,
+      "sun": 6.5,
+      "cld": 40,
+      "rain": 130,
+      "rise": "06:30",
+      "set": "17:27",
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "sun": 4.6,
+      "cld": 55,
+      "rain": 170,
+      "rise": "07:05",
+      "set": "16:45",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "sun": 3.7,
+      "cld": 63,
+      "rain": 175,
+      "rise": "07:22",
+      "set": "16:20",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}
