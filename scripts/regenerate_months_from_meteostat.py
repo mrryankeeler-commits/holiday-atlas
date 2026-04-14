@@ -187,7 +187,25 @@ def regenerate(repo_root: Path, start_year: int, end_year: int, ids: Iterable[st
 
         point = ms.Point(lat, lon)
         ts = ms.monthly(point, start, end)
-        df = ts.fetch() if ts is not None else None
+        if ts is None:
+            df = None
+        elif hasattr(ts, "fetch"):
+            df = ts.fetch()
+        else:
+            df = ts
+
+        if df is None or df.empty:
+            stations = ms.Stations().nearby(lat, lon).fetch(5)
+            for station_id in stations.index.tolist():
+                station_ts = ms.monthly(station_id, start, end)
+                if station_ts is None:
+                    continue
+                station_df = station_ts.fetch() if hasattr(station_ts, "fetch") else station_ts
+                if station_df is not None and not station_df.empty:
+                    df = station_df
+                    print(f"fallback station used for {loc_id}: {station_id}")
+                    break
+
         if df is None or df.empty:
             print(f"warning: no Meteostat data returned for {loc_id}; keeping existing months")
             continue
