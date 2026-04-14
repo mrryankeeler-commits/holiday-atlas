@@ -11,9 +11,9 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
 import pandas as pd
+import meteostat as ms
 from astral import LocationInfo
 from astral.sun import sun
-from meteostat import Monthly, Point
 from zoneinfo import ZoneInfo
 
 MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -185,8 +185,8 @@ def regenerate(repo_root: Path, start_year: int, end_year: int, ids: Iterable[st
         path = repo_root / "data" / "locations" / f"{loc_id}.json"
         payload = json.loads(path.read_text(encoding="utf-8"))
 
-        point = Point(lat, lon)
-        df = Monthly(point, start, end).fetch()
+        point = ms.Point(lat, lon)
+        df = ms.monthly(point, start, end).fetch()
         if df.empty:
             raise RuntimeError(f"No Meteostat data returned for {loc_id}")
 
@@ -197,7 +197,12 @@ def regenerate(repo_root: Path, start_year: int, end_year: int, ids: Iterable[st
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--repo-root", default=".", help="Path to repository root")
+    p.add_argument(
+        "--repo-root",
+        default=Path(__file__).resolve().parents[1],
+        type=Path,
+        help="Path to repository root (defaults to parent of scripts directory)",
+    )
     p.add_argument("--start-year", type=int, default=2014)
     p.add_argument("--end-year", type=int, default=2024)
     p.add_argument("--all-locations", action="store_true", help="Process all TARGET_IDS")
@@ -210,7 +215,7 @@ def main() -> None:
     args = parse_args()
     ids = TARGET_IDS if args.all_locations or not args.ids else args.ids
     regenerate(
-        repo_root=Path(args.repo_root),
+        repo_root=args.repo_root,
         start_year=args.start_year,
         end_year=args.end_year,
         ids=ids,

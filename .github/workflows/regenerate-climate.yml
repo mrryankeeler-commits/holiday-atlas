@@ -1,7 +1,7 @@
 name: Regenerate climate data (one-time)
 
 on:
-  workflow_dispatch:   # manual only; no schedule
+  workflow_dispatch: # manual only; no schedule
 
 permissions:
   contents: write
@@ -20,25 +20,42 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Debug repository layout
+      - name: Debug environment and repository layout
+        shell: bash
         run: |
+          set -euxo pipefail
+          echo "GITHUB_WORKSPACE=${GITHUB_WORKSPACE}"
+          echo "RUNNER_WORKSPACE=${RUNNER_WORKSPACE:-}"
           pwd
+          python --version
+          which python
           ls -la
+          ls -la .github/workflows || true
           ls -la scripts || true
+          ls -la data/locations | sed -n '1,120p' || true
+          test -f scripts/regenerate_months_from_meteostat.py
+          test -f scripts/validate_locations.py
+          test -f data/locations/index.json
 
       - name: Install dependencies
+        shell: bash
         run: |
+          set -euxo pipefail
           python -m pip install --upgrade pip
-          pip install meteostat astral pandas
+          python -m pip install meteostat astral pandas
 
       - name: Regenerate month data from Meteostat
+        shell: bash
         run: |
-          test -f scripts/regenerate_months_from_meteostat.py
-          python scripts/regenerate_months_from_meteostat.py --all-locations
+          set -euxo pipefail
+          python -m py_compile scripts/regenerate_months_from_meteostat.py scripts/validate_locations.py
+          python scripts/regenerate_months_from_meteostat.py --repo-root "$GITHUB_WORKSPACE" --all-locations
 
       - name: Validate location data
+        shell: bash
         run: |
-          python scripts/validate_locations.py
+          set -euxo pipefail
+          python scripts/validate_locations.py --repo-root "$GITHUB_WORKSPACE"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v6
@@ -48,24 +65,4 @@ jobs:
           title: Regenerate monthly climate data from Meteostat
           body: |
             One-time GitHub Actions run that regenerates monthly climate fields
-            for the 45 newly added location files using Meteostat.
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install meteostat geopy timezonefinder astral pandas
-
-      - name: Generate location months
-        run: |
-          python scripts/regenerate_months_from_meteostat.py
-
-      - name: Validate JSON
-        run: |
-          python scripts/validate_locations.py
-
-      - name: Open PR with changes
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: bot/meteostat-regeneration
-          commit-message: "Regenerate location monthly climate using Meteostat"
-          title: "Regenerate monthly climate data from Meteostat"
-          body: "One-time Meteostat regeneration for location climate blocks."
+            for the 45 location files using Meteostat.
