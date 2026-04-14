@@ -60,10 +60,10 @@
         "dgw": false
       }
     ],
-    "currency": "See local currency",
+    "currency": "Chinese yuan (CNY)",
     "lang": "See local language",
     "tz": "See local timezone",
-    "visa": "Check current entry requirements",
+    "visa": "China entry rules vary by nationality; some travelers qualify for short visa-free stays, others need a visa.",
     "bestFor": [
       "Culture",
       "Food",

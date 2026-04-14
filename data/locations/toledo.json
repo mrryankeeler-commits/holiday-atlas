@@ -60,10 +60,10 @@
         "dgw": false
       }
     ],
-    "currency": "See local currency",
+    "currency": "Euro (EUR)",
     "lang": "See local language",
     "tz": "See local timezone",
-    "visa": "Check current entry requirements",
+    "visa": "Spain is in Schengen; standard Schengen entry rules apply.",
     "bestFor": [
       "Culture",
       "Food",
