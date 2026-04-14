@@ -26,6 +26,7 @@ jobs:
           set -euxo pipefail
           echo "GITHUB_WORKSPACE=${GITHUB_WORKSPACE}"
           echo "RUNNER_WORKSPACE=${RUNNER_WORKSPACE:-}"
+          git rev-parse HEAD
           pwd
           python --version
           which python
@@ -36,6 +37,7 @@ jobs:
           test -f scripts/regenerate_months_from_meteostat.py
           test -f scripts/validate_locations.py
           test -f data/locations/index.json
+          sed -n '184,196p' scripts/regenerate_months_from_meteostat.py
 
       - name: Install dependencies
         shell: bash
