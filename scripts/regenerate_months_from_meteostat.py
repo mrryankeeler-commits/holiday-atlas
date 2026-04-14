@@ -195,7 +195,11 @@ def regenerate(repo_root: Path, start_year: int, end_year: int, ids: Iterable[st
             df = ts
 
         if df is None or df.empty:
-            stations_api = ms.Stations() if hasattr(ms, "Stations") else ms.stations()
+            if hasattr(ms, "Stations"):
+                stations_api = ms.Stations()
+            else:
+                stations_attr = ms.stations
+                stations_api = stations_attr() if callable(stations_attr) else stations_attr
             stations = stations_api.nearby(lat, lon).fetch(5)
             for station_id in stations.index.tolist():
                 station_ts = ms.monthly(station_id, start, end)
