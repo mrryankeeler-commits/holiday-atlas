@@ -30,12 +30,18 @@
     "region": "Straddling Europe & Asia"
   },
   {
-<<<<<<< codex/add-dubrovnik-location-data
+    "id": "kotor",
+    "city": "Kotor",
+    "country": "Montenegro",
+    "region": "Western Balkans"
+  },
+  {
     "id": "dubrovnik",
     "city": "Dubrovnik",
     "country": "Croatia",
     "region": "Adriatic Balkans"
-=======
+  },
+  {
     "id": "leipzig",
     "city": "Leipzig",
     "country": "Germany",
@@ -52,6 +58,5 @@
     "city": "Varna",
     "country": "Bulgaria",
     "region": "Balkans"
->>>>>>> main
   }
 ]
