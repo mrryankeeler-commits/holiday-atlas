@@ -1,0 +1,503 @@
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.app{font-family:var(--font-sans);color:var(--color-text-primary);font-size:14px;line-height:1.5;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden}
+.app-hdr{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary)}
+.app-title{font-size:15px;font-weight:500}
+.app-body{display:grid;grid-template-columns:190px minmax(0,1fr);min-height:580px}
+.sidebar{border-right:0.5px solid var(--color-border-tertiary);background:var(--color-background-secondary)}
+.sb-lbl{font-size:10px;font-weight:500;color:var(--color-text-secondary);padding:12px 12px 6px;letter-spacing:.07em;text-transform:uppercase}
+.loc-btn{display:block;width:100%;text-align:left;padding:8px 12px;border:none;background:none;cursor:pointer;font-family:var(--font-sans);color:var(--color-text-primary);border-left:2px solid transparent}
+.loc-btn:hover{background:var(--color-background-primary)}
+.loc-btn.active{background:var(--color-background-primary);border-left-color:var(--color-text-primary)}
+.loc-city{display:block;font-size:13px;font-weight:500}
+.loc-ctry{display:block;font-size:11px;color:var(--color-text-secondary)}
+.add-btn-sb{display:block;width:100%;text-align:left;padding:8px 12px;border:none;background:none;cursor:pointer;font-size:12px;color:var(--color-text-secondary);font-family:var(--font-sans);margin-top:4px}
+.add-btn-sb:hover{color:var(--color-text-primary)}
+.main{overflow:hidden;min-width:0;background:var(--color-background-primary)}
+.hero{padding:20px 20px 0}
+.loc-name{font-family:var(--font-serif);font-size:26px;font-weight:400;line-height:1.2;margin-bottom:2px}
+.loc-meta{font-size:12px;color:var(--color-text-secondary);margin-bottom:10px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.tag{font-size:11px;padding:2px 8px;border-radius:20px;border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary)}
+.tag.g{background:var(--color-background-success);color:var(--color-text-success);border-color:transparent}
+.tag.w{background:var(--color-background-warning);color:var(--color-text-warning);border-color:transparent}
+.desc{font-size:13px;color:var(--color-text-secondary);line-height:1.65;margin-bottom:10px;max-width:680px}
+.hls{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
+.hl{font-size:11px;padding:2px 8px;border-radius:var(--border-radius-md);background:var(--color-background-secondary);color:var(--color-text-secondary)}
+.tab-nav{display:flex;border-bottom:0.5px solid var(--color-border-tertiary);padding:0 20px;overflow-x:auto}
+.tab-btn{padding:8px 12px;border:none;background:none;cursor:pointer;font-size:13px;color:var(--color-text-secondary);font-family:var(--font-sans);border-bottom:2px solid transparent;margin-bottom:-0.5px;white-space:nowrap;flex-shrink:0}
+.tab-btn:hover{color:var(--color-text-primary)}
+.tab-btn.active{color:var(--color-text-primary);font-weight:500;border-bottom-color:var(--color-text-primary)}
+.tab-body{padding:18px 20px}
+.chart-wrap{position:relative;width:100%;height:210px;margin-bottom:18px}
+.legend{display:flex;gap:14px;margin-bottom:10px;font-size:12px;color:var(--color-text-secondary)}
+.lg-item{display:flex;align-items:center;gap:5px}
+.lg-dot{width:10px;height:3px;border-radius:2px;display:inline-block}
+.filter-row{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;align-items:center}
+.fl-lbl{font-size:11px;color:var(--color-text-secondary)}
+.fb{padding:3px 9px;border:0.5px solid var(--color-border-secondary);border-radius:20px;background:none;cursor:pointer;font-size:11px;color:var(--color-text-secondary);font-family:var(--font-sans)}
+.fb:hover{background:var(--color-background-secondary)}
+.fb.act{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.tscroll{overflow-x:auto;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg)}
+.dt{width:100%;border-collapse:collapse;font-size:12px;min-width:860px}
+.dt th{text-align:left;padding:7px 10px;font-weight:500;font-size:10px;color:var(--color-text-secondary);border-bottom:0.5px solid var(--color-border-tertiary);white-space:nowrap;letter-spacing:.05em;text-transform:uppercase;background:var(--color-background-secondary)}
+.dt td{padding:6px 10px;border-bottom:0.5px solid var(--color-border-tertiary);white-space:nowrap;vertical-align:middle}
+.dt tr:last-child td{border-bottom:none}
+.dt tr:hover td{background:var(--color-background-secondary)}
+.dt tr.hi-row td{background:var(--color-background-info)}
+.pill{display:inline-flex;align-items:center;padding:1px 7px;border-radius:20px;font-size:11px;font-weight:500}
+.p1,.p2{background:var(--color-background-success);color:var(--color-text-success)}
+.p3{background:var(--color-background-warning);color:var(--color-text-warning)}
+.p4,.p5{background:var(--color-background-danger);color:var(--color-text-danger)}
+.todo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.tc{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:12px}
+.tc-cat{font-size:10px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
+.tc-name{font-size:13px;font-weight:500;margin-bottom:4px}
+.tc-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.pc{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:14px}
+.pt{font-size:10px;font-weight:500;letter-spacing:.07em;text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:8px}
+.pv{font-size:14px;font-weight:500;margin-bottom:4px}
+.pn{font-size:12px;color:var(--color-text-secondary);line-height:1.55}
+.ir{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;padding:5px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:12px}
+.ir:last-child{border-bottom:none}
+.il{color:var(--color-text-secondary);flex-shrink:0}
+.ar{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:12px}
+.ar:last-child{border-bottom:none}
+.dbadge{font-size:10px;padding:2px 6px;border-radius:20px;background:var(--color-background-success);color:var(--color-text-success);font-weight:500;flex-shrink:0}
+.hl-tip{margin-top:14px;padding:12px;background:var(--color-background-secondary);border-radius:var(--border-radius-lg);font-size:12px;color:var(--color-text-secondary);max-width:600px;line-height:1.55}
+.alert-box{padding:10px 12px;border-radius:var(--border-radius-lg);border:0.5px solid var(--color-border-warning);background:var(--color-background-warning);color:var(--color-text-warning);font-size:12px;line-height:1.55;margin-bottom:10px;max-width:640px}
+</style>
+
+<h2 class="sr-only">Holiday atlas — 5 destinations. Browse climate, costs, flights and things to do for each location.</h2>
+
+<div class="app">
+  <div class="app-hdr">
+    <div class="app-title">✈ Holiday atlas</div>
+    <span style="font-size:11px;color:var(--color-text-secondary)">5 destinations</span>
+  </div>
+  <div class="app-body">
+    <nav class="sidebar">
+      <div class="sb-lbl">Destinations</div>
+      <div id="loc-list"></div>
+      <button class="add-btn-sb" onclick="addLoc()">+ Add destination ↗</button>
+    </nav>
+    <main class="main" id="main"></main>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const DB=[
+{
+  id:'tirana',city:'Tirana',country:'Albania',region:'Balkans',
+  desc:'Tirana is one of Europe\'s most underrated capitals — a city of vivid contrasts where communist-era brutalism meets Ottoman elegance and freshly painted pastel facades. The Bunk\'Art museums, former nuclear bunkers repurposed as immersive galleries, are utterly unlike anything else in Europe. Mount Dajti looms overhead and is reachable by cable car, offering sweeping panoramas across terracotta rooftops. Day trips to hilltop Krujë Castle, ancient Apollonia, and the Adriatic at Durrës make this an exceptional base for exploration.',
+  hls:['Scenic mountain backdrop','Rich Balkan history','Very affordable','Authentic & unspoiled','Gateway to Albanian Alps','Direct from Gatwick'],
+  todo:[
+    {name:"Bunk'Art 1 & 2",cat:'Culture & history',desc:'Cold War bunkers transformed into arresting museums — utterly unlike anything else in Europe.'},
+    {name:'Skanderbeg Square',cat:'Landmark',desc:"Grand central plaza framed by the National History Museum's mosaic façade and the Et'hem Bey Mosque."},
+    {name:'Mount Dajti cable car',cat:'Scenic',desc:'A 15-min gondola to 1,613 m with sweeping panoramas over the city and mountains.'},
+    {name:'Krujë Castle day trip',cat:'History',desc:'Hilltop Ottoman fortress and traditional bazaar — birthplace of Skanderbeg. ~40 min from the city.'},
+    {name:'Blloku district',cat:'Culture',desc:"Once exclusive to communist elites — now Tirana's most vibrant area of cafes and galleries."},
+    {name:'Apollonia archaeological park',cat:'History',desc:'Ancient Greek colony ruins on a bucolic hillside, largely undiscovered by mass tourism.'},
+    {name:'Durrës',cat:'Coast & history',desc:'40-min drive to the Adriatic and one of the largest Roman amphitheatres in the Balkans.'},
+    {name:'Albanian Alps (Valbona / Theth)',cat:'Hiking & scenery',desc:'World-class hiking in the dramatic Accursed Mountains. Best as a 2–3 day extension.'},
+  ],
+  prac:{
+    wifi:{r:4,spd:'35–50 Mbps',note:'Reliable broadband and strong 4G throughout. Cafes and hotels in Blloku are remote-work-friendly. Growing coworking scene.'},
+    directGW:true,fltNote:'easyJet operates direct LGW → TIA. Flight time approx. 2 h 30 min. Frequency increases in summer.',
+    airports:[{name:'Tirana International (Nënë Tereza)',code:'TIA',km:17,dgw:true}],
+    currency:'Albanian Lek (ALL)',lang:'Albanian',tz:'CET/CEST (UTC+1/+2)',visa:'Visa-free for UK citizens — up to 90 days',
+    bestFor:['History lovers','Hikers & nature','Remote workers','Budget travellers','Couples & solo'],alerts:[],
+  },
+  sweet:'April–May and October offer warm weather at moderate cost with manageable crowds.',
+  months:[
+    {m:'Jan',avg:7, hi:12,lo:2, sun:3.1,cld:72,rain:132,rise:'07:22',set:'16:18',busy:2,ac:1,fl:1},
+    {m:'Feb',avg:8, hi:14,lo:3, sun:4.0,cld:65,rain:118,rise:'07:02',set:'17:00',busy:2,ac:1,fl:1},
+    {m:'Mar',avg:11,hi:17,lo:5, sun:5.2,cld:57,rain:98, rise:'06:22',set:'17:42',busy:3,ac:2,fl:2},
+    {m:'Apr',avg:15,hi:21,lo:9, sun:6.8,cld:48,rain:78, rise:'05:38',set:'18:22',busy:5,ac:3,fl:2},
+    {m:'May',avg:19,hi:26,lo:13,sun:8.1,cld:38,rain:62, rise:'05:05',set:'19:00',busy:6,ac:3,fl:3},
+    {m:'Jun',avg:23,hi:30,lo:17,sun:10.2,cld:22,rain:35,rise:'04:50',set:'19:28',busy:7,ac:4,fl:4},
+    {m:'Jul',avg:26,hi:33,lo:20,sun:11.0,cld:12,rain:18,rise:'04:58',set:'19:32',busy:9,ac:5,fl:5},
+    {m:'Aug',avg:26,hi:33,lo:19,sun:10.5,cld:15,rain:22,rise:'05:23',set:'19:03',busy:10,ac:5,fl:5},
+    {m:'Sep',avg:22,hi:28,lo:15,sun:8.0,cld:32,rain:55, rise:'05:57',set:'18:15',busy:7,ac:4,fl:4},
+    {m:'Oct',avg:16,hi:22,lo:10,sun:5.8,cld:52,rain:102,rise:'06:32',set:'17:27',busy:4,ac:2,fl:2},
+    {m:'Nov',avg:11,hi:16,lo:6, sun:3.8,cld:67,rain:148,rise:'07:08',set:'16:45',busy:3,ac:1,fl:1},
+    {m:'Dec',avg:8, hi:12,lo:3, sun:2.8,cld:75,rain:162,rise:'07:28',set:'16:13',busy:2,ac:1,fl:1},
+  ],
+},
+{
+  id:'mostar',city:'Mostar',country:'Bosnia & Herzegovina',region:'Western Balkans',
+  desc:'Mostar is one of the most visually arresting towns in Europe — a living relic of Ottoman Bosnia where the iconic Stari Most (Old Bridge) arches over the turquoise Neretva river between minarets and medieval stone towers. The old bazaar Kujundžiluk is a warren of copper workshops, rug merchants and traditional teahouses. The surrounding landscape is dramatic: limestone karst, emerald river canyons and the vine-terraced Herzegovinian countryside. Despite its UNESCO profile, Mostar remains genuinely unspoilt outside the brief July–August peak.',
+  hls:['UNESCO Old Bridge','Ottoman old town','Vivid river scenery','Exceptional local food & wine','Very affordable','Relatively uncrowded'],
+  todo:[
+    {name:'Stari Most (Old Bridge)',cat:'Landmark & scenic',desc:"The 16th-century Ottoman bridge is one of Europe's most beautiful sights — best at dusk when the stone turns amber."},
+    {name:'Kujundžiluk bazaar',cat:'Culture',desc:'Ancient cobblestoned market street lined with copper smiths, hand-woven rugs and coffee houses. Very authentic.'},
+    {name:'Koski Mehmed Pasha Mosque',cat:'History',desc:'Climb the minaret for the finest panorama over the Old Bridge and Neretva valley.'},
+    {name:'Blagaj Tekke',cat:'Scenic & history',desc:'A 16th-century Dervish monastery at the foot of a 200 m cliff where the Buna river springs from rock. Unmissable.'},
+    {name:'Počitelj village',cat:'History & scenery',desc:'Perfectly preserved medieval Ottoman fortified village perched above the Neretva. 25 min south.'},
+    {name:'Kravice waterfalls',cat:'Nature & scenery',desc:"A 25 m natural amphitheatre of cascades into a turquoise pool — Herzegovina's most beautiful natural site."},
+    {name:'Neretva river swimming',cat:'Nature',desc:'The crystal-clear Neretva below the Old Bridge is swimmable in summer and startlingly beautiful.'},
+    {name:'Herzegovinian wine tasting',cat:'Food & culture',desc:'Žilavka white and Blatina red are indigenous grapes found nowhere else. Winery visits around Čitluk are excellent.'},
+  ],
+  prac:{
+    wifi:{r:3,spd:'20–35 Mbps',note:'Adequate for video calls. Hotel and cafe WiFi reliable in the old town. No major coworking spaces, but local cafes work well.'},
+    directGW:false,fltNote:'No direct Gatwick flight to Mostar (OMO). Best options: LGW → Split (SPU) with easyJet then ~2.5 hr drive; or LGW → Dubrovnik (DBV) with easyJet then ~2.5 hr drive. Both routes offer direct Gatwick connections.',
+    airports:[
+      {name:'Mostar Airport',code:'OMO',km:8,dgw:false},
+      {name:'Split Airport',code:'SPU',km:138,dgw:true},
+      {name:'Dubrovnik Airport',code:'DBV',km:160,dgw:true},
+      {name:'Sarajevo Airport',code:'SJJ',km:130,dgw:false},
+    ],
+    currency:'Convertible Mark (BAM)',lang:'Bosnian / Croatian / Serbian',tz:'CET/CEST (UTC+1/+2)',visa:'Visa-free for UK citizens — up to 90 days',
+    bestFor:['History lovers','Couples & romance','Photographers','Food & wine','Budget travellers'],alerts:[],
+  },
+  sweet:'May and September are the sweet spot — Mediterranean warmth without July/August peak crowds or prices.',
+  months:[
+    {m:'Jan',avg:5, hi:9, lo:1, sun:3.5,cld:65,rain:120,rise:'07:20',set:'16:10',busy:2,ac:1,fl:1},
+    {m:'Feb',avg:7, hi:12,lo:2, sun:4.2,cld:58,rain:100,rise:'07:00',set:'16:55',busy:2,ac:1,fl:1},
+    {m:'Mar',avg:10,hi:16,lo:4, sun:5.5,cld:52,rain:90, rise:'06:18',set:'17:40',busy:3,ac:2,fl:2},
+    {m:'Apr',avg:14,hi:20,lo:8, sun:7.0,cld:44,rain:70, rise:'05:34',set:'18:22',busy:5,ac:3,fl:2},
+    {m:'May',avg:18,hi:25,lo:12,sun:8.5,cld:35,rain:58, rise:'05:00',set:'19:00',busy:6,ac:3,fl:3},
+    {m:'Jun',avg:23,hi:30,lo:16,sun:10.5,cld:20,rain:28,rise:'04:45',set:'19:30',busy:8,ac:4,fl:4},
+    {m:'Jul',avg:26,hi:34,lo:19,sun:11.5,cld:10,rain:15,rise:'04:55',set:'19:35',busy:10,ac:5,fl:5},
+    {m:'Aug',avg:26,hi:33,lo:19,sun:10.8,cld:12,rain:18,rise:'05:20',set:'19:05',busy:10,ac:5,fl:5},
+    {m:'Sep',avg:21,hi:27,lo:14,sun:8.5,cld:30,rain:50, rise:'05:55',set:'18:18',busy:7,ac:4,fl:3},
+    {m:'Oct',avg:15,hi:21,lo:9, sun:6.0,cld:48,rain:100,rise:'06:30',set:'17:30',busy:5,ac:2,fl:2},
+    {m:'Nov',avg:9, hi:14,lo:4, sun:4.0,cld:63,rain:140,rise:'07:05',set:'16:45',busy:3,ac:1,fl:1},
+    {m:'Dec',avg:5, hi:9, lo:1, sun:3.0,cld:70,rain:150,rise:'07:25',set:'16:10',busy:2,ac:1,fl:1},
+  ],
+},
+{
+  id:'chengdu',city:'Chengdu',country:'China',region:'Sichuan, Southwest China',
+  desc:'Chengdu is one of China\'s most liveable and captivating cities — a place of extraordinary depth where 4,000 years of history sit alongside a thriving tea-house culture and the world\'s greatest giant panda research base. The city is the gateway to some of Asia\'s most spectacular landscapes: sacred Mount Emei, the world-heritage Leshan Giant Buddha, and Jiuzhaigou\'s rainbow-coloured lakes. The food scene — fiery hot pot, mapo tofu, dan dan noodles — is considered the finest in China.',
+  hls:['Giant pandas','Extraordinary food scene','Gateway to Tibet & mountains','4,000 years of history','Jiuzhaigou day trips','Very affordable'],
+  todo:[
+    {name:'Giant Panda Breeding Research Base',cat:'Wildlife & nature',desc:'Arrive by 08:00 to see pandas most active. The experience is genuinely magical.'},
+    {name:'Leshan Giant Buddha',cat:'History & scenic',desc:"World's largest stone Buddha (71 m), carved into a clifftop above three rivers. UNESCO World Heritage."},
+    {name:'Mount Emei',cat:'Scenic & spiritual',desc:"Sacred Buddhist mountain with ancient temple complexes ascending through cloud forest to 3,099 m. One of China's Four Sacred Buddhist Mountains."},
+    {name:'Jiuzhaigou Valley',cat:'Nature & scenery',desc:'Unesco-listed valley of impossibly turquoise lakes and waterfalls. Best in autumn for foliage. ~6 hr from Chengdu.'},
+    {name:'Sanxingdui Museum',cat:'History',desc:'Bronze masks from a 3,000-year-old civilisation — one of the great archaeological wonders of Asia.'},
+    {name:'Wuhou Shrine & Jinli Street',cat:'History & culture',desc:'3rd-century memorial adjacent to a beautifully restored Qing dynasty street of teahouses and craft shops.'},
+    {name:'Kuan Zhai Alley',cat:'Culture',desc:"Restored Qing-era courtyard lanes — Chengdu's most charming historic district."},
+    {name:'Sichuan Opera (face-changing)',cat:'Culture',desc:'The mysterious bianlian performance is a Chengdu institution — best seen at a traditional teahouse theatre.'},
+  ],
+  prac:{
+    wifi:{r:2,spd:'20–40 Mbps (heavily restricted)',note:'Important: The Great Firewall blocks Google, Gmail, WhatsApp, Slack and most Western business tools. A reliable VPN is essential — install and test before arriving as some are blocked at the border.'},
+    directGW:false,fltNote:'No direct Gatwick flight. Best routes connect via Doha (Qatar Airways), Dubai (Emirates) or Hong Kong (Cathay Pacific). Total journey approx. 13–16 hrs. More connections from Heathrow (LHR) than Gatwick.',
+    airports:[
+      {name:'Chengdu Tianfu International',code:'TFU',km:51,dgw:false},
+      {name:'Chengdu Shuangliu International',code:'CTU',km:17,dgw:false},
+    ],
+    currency:'Chinese Yuan / Renminbi (CNY)',lang:'Mandarin Chinese',tz:'CST (UTC+8)',visa:'15-day visa-free for UK citizens (policy since 2024 — verify before travel)',
+    bestFor:['Culture & history enthusiasts','Foodies','Wildlife lovers','Adventure travellers','Long-haul explorers'],
+    alerts:['VPN essential for business use — install and test before travelling.','Cashless society: WeChat Pay & Alipay dominate. Carry some cash for markets.','15-day visa-free entry for UK citizens introduced 2024 — confirm current rules before booking.'],
+  },
+  sweet:'March and November offer mild weather, lower costs and smaller crowds. Avoid Golden Week (1–7 Oct) when domestic tourism surges dramatically.',
+  months:[
+    {m:'Jan',avg:6, hi:9, lo:3, sun:1.2,cld:85,rain:8,  rise:'07:40',set:'18:00',busy:3,ac:2,fl:3},
+    {m:'Feb',avg:9, hi:13,lo:5, sun:1.8,cld:80,rain:12, rise:'07:20',set:'18:30',busy:5,ac:3,fl:3},
+    {m:'Mar',avg:13,hi:18,lo:8, sun:2.5,cld:75,rain:22, rise:'06:50',set:'19:00',busy:5,ac:3,fl:3},
+    {m:'Apr',avg:18,hi:23,lo:13,sun:3.5,cld:68,rain:48, rise:'06:15',set:'19:28',busy:6,ac:4,fl:4},
+    {m:'May',avg:22,hi:27,lo:17,sun:4.0,cld:62,rain:68, rise:'05:48',set:'19:52',busy:6,ac:4,fl:4},
+    {m:'Jun',avg:25,hi:29,lo:21,sun:4.5,cld:65,rain:95, rise:'05:35',set:'20:05',busy:5,ac:3,fl:4},
+    {m:'Jul',avg:26,hi:30,lo:22,sun:5.5,cld:60,rain:120,rise:'05:40',set:'20:00',busy:6,ac:4,fl:4},
+    {m:'Aug',avg:25,hi:29,lo:21,sun:5.0,cld:62,rain:110,rise:'06:05',set:'19:35',busy:7,ac:4,fl:4},
+    {m:'Sep',avg:21,hi:24,lo:17,sun:3.0,cld:72,rain:85, rise:'06:30',set:'18:55',busy:5,ac:3,fl:4},
+    {m:'Oct',avg:16,hi:20,lo:12,sun:2.0,cld:80,rain:42, rise:'07:00',set:'18:15',busy:7,ac:4,fl:4},
+    {m:'Nov',avg:10,hi:14,lo:7, sun:1.5,cld:82,rain:18, rise:'07:25',set:'17:50',busy:4,ac:3,fl:3},
+    {m:'Dec',avg:6, hi:10,lo:3, sun:1.0,cld:86,rain:8,  rise:'07:45',set:'17:45',busy:3,ac:2,fl:3},
+  ],
+},
+{
+  id:'tbilisi',city:'Tbilisi',country:'Georgia',region:'South Caucasus',
+  desc:'Tbilisi is one of the most atmospheric and genuinely captivating cities in the world — a labyrinthine old town of balconied wooden houses, ancient sulfur bathhouses, and cave monasteries carved into volcanic rock. The country sits at the crossroads of Europe and Asia, and its culture is entirely its own: the Georgian alphabet, polyphonic folk music, and the world\'s oldest wine tradition (8,000 years of viticulture) make it unlike any other destination. Mtskheta, the ancient capital, and the cave city of Uplistsikhe are extraordinary. The Caucasus mountains rise dramatically behind the city. All of this remains largely undiscovered — and exceptionally affordable.',
+  hls:['8,000-year wine tradition','Ancient cave cities & monasteries','Dramatic Caucasus scenery','Utterly unique culture','Extremely affordable','One of Europe\'s best-kept secrets'],
+  todo:[
+    {name:'Old Town (Abanotubani) & sulfur baths',cat:'Culture & historic',desc:'The ancient sulfur bath district has been a centre of Tbilisi life since the 5th century. Bathing in a domed private bath is an unmissable experience.'},
+    {name:'Narikala Fortress & cable car',cat:'Scenic & history',desc:'4th-century fortress overlooking the old town — best reached by cable car for panoramic views over the terracotta rooftops and Mtkvari river.'},
+    {name:'Mtskheta — ancient capital',cat:'History & UNESCO',desc:'Georgia\'s first capital and spiritual heart — a UNESCO World Heritage site with the magnificent Svetitskhoveli Cathedral. 20 min from Tbilisi.'},
+    {name:'Uplistsikhe cave city',cat:'History & scenery',desc:'A 3,000-year-old cave city carved into volcanic rock above the Mtkvari river — one of the oldest settlements in the Caucasus. ~80 min from Tbilisi.'},
+    {name:'Vardzia cave monastery',cat:'History & scenery',desc:'A 12th-century cliff-face monastery of 3,000 rooms carved into a single hillside — one of the great wonders of the medieval world. Day trip south.'},
+    {name:'Georgian wine tasting',cat:'Food & culture',desc:'Georgia is the cradle of wine. Kakheti wine region produces world-class natural wines using ancient clay qvevri vessels — utterly different from anything in Europe.'},
+    {name:'Kazbegi & Mount Kazbek',cat:'Hiking & scenery',desc:'The road to Kazbegi is one of the world\'s great drives — ending at the iconic Gergeti Trinity Church perched above a glacial valley at 2,170 m.'},
+    {name:'Sioni Cathedral & Metekhi Church',cat:'History',desc:'Two of Tbilisi\'s most ancient and beautiful churches, both dating to the 5th and 6th centuries, each with a dramatic riverside setting.'},
+    {name:'Rustaveli Avenue & National Museum',cat:'Culture',desc:'The grand 19th-century boulevard lined with theatres and galleries. The National Museum houses extraordinary Scythian gold and ancient artefacts.'},
+    {name:'Shota Rustaveli Opera House',cat:'Culture & arts',desc:'One of the grandest opera houses in the Caucasus — stunning architecture and a lively cultural programme at a fraction of Western European prices.'},
+  ],
+  prac:{
+    wifi:{r:4,spd:'40–60 Mbps',note:'Tbilisi has excellent internet infrastructure — one of the best in the region. Fast, reliable WiFi in cafes and hotels throughout the old town. A growing number of coworking spaces. No restrictions on internet access — all services available freely.'},
+    directGW:false,fltNote:'No direct Gatwick flight to Tbilisi (TBS). Best options: Wizz Air from London Luton (LTN) is direct; from Gatwick, connections typically route via Vienna, Warsaw, Riga or Istanbul. Turkish Airlines via Istanbul (IST) is a popular and well-priced option. Total journey 5–8 hrs.',
+    airports:[
+      {name:'Tbilisi International Airport',code:'TBS',km:18,dgw:false},
+    ],
+    currency:'Georgian Lari (GEL)',lang:'Georgian',tz:'GET (UTC+4)',visa:'Visa-free for UK citizens — up to 365 days',
+    bestFor:['History & culture lovers','Wine enthusiasts','Hikers & adventurers','Remote workers','Budget travellers','Solo travellers'],
+    alerts:['No direct Gatwick route — consider flying from Luton (Wizz Air direct) or connecting via Istanbul.'],
+  },
+  sweet:'May, June and September are exceptional — warm and sunny with manageable crowds. Spring brings extraordinary blossom on the hillsides above the city.',
+  months:[
+    {m:'Jan',avg:2, hi:6, lo:-2,sun:3.0,cld:70,rain:25, rise:'08:05',set:'17:10',busy:2,ac:1,fl:2},
+    {m:'Feb',avg:4, hi:8, lo:-1,sun:4.0,cld:62,rain:30, rise:'07:40',set:'17:55',busy:2,ac:1,fl:2},
+    {m:'Mar',avg:9, hi:14,lo:4, sun:5.0,cld:55,rain:40, rise:'07:00',set:'18:40',busy:3,ac:2,fl:2},
+    {m:'Apr',avg:14,hi:20,lo:8, sun:6.5,cld:45,rain:60, rise:'06:15',set:'19:22',busy:5,ac:3,fl:3},
+    {m:'May',avg:19,hi:25,lo:13,sun:8.0,cld:38,rain:90, rise:'05:40',set:'20:00',busy:6,ac:3,fl:3},
+    {m:'Jun',avg:23,hi:29,lo:17,sun:9.0,cld:30,rain:80, rise:'05:18',set:'20:30',busy:7,ac:4,fl:4},
+    {m:'Jul',avg:26,hi:32,lo:20,sun:10.0,cld:20,rain:50,rise:'05:28',set:'20:25',busy:8,ac:4,fl:4},
+    {m:'Aug',avg:26,hi:32,lo:19,sun:9.5,cld:22,rain:45, rise:'05:55',set:'19:55',busy:8,ac:4,fl:4},
+    {m:'Sep',avg:21,hi:27,lo:15,sun:7.5,cld:33,rain:55, rise:'06:28',set:'19:05',busy:6,ac:3,fl:3},
+    {m:'Oct',avg:15,hi:21,lo:9, sun:5.5,cld:50,rain:45, rise:'07:02',set:'18:15',busy:5,ac:2,fl:3},
+    {m:'Nov',avg:8, hi:13,lo:3, sun:3.5,cld:65,rain:35, rise:'07:38',set:'17:35',busy:3,ac:2,fl:2},
+    {m:'Dec',avg:3, hi:7, lo:-1,sun:2.5,cld:72,rain:28, rise:'08:05',set:'17:10',busy:2,ac:1,fl:2},
+  ],
+},
+{
+  id:'istanbul',city:'Istanbul',country:'Turkey',region:'Straddling Europe & Asia',
+  desc:'Istanbul is one of the greatest cities on earth — the only metropolis spanning two continents, where 2,700 years of layered civilisation have left an unrivalled accumulation of wonders. The Hagia Sophia, Blue Mosque and Topkapi Palace sit within walking distance of one another; the Grand Bazaar has traded continuously since 1461; and the Bosphorus strait, lined with Ottoman yalı mansions and Byzantine sea walls, is one of the world\'s great waterways. Beyond the iconic sites, Istanbul rewards slower exploration: the backstreets of Balat and Fener, the hilltop villages of the Princes\' Islands, and the Asian shore\'s neighbourhood markets and fish restaurants are far from the tourist trail. The food is extraordinary.',
+  hls:['2,700 years of layered history','Hagia Sophia & Blue Mosque','Two continents in one city','Extraordinary food scene','Bosphorus & Princes Islands','Direct from Gatwick'],
+  todo:[
+    {name:'Hagia Sophia',cat:'History & architecture',desc:'One of the great buildings of human history — a 6th-century Byzantine cathedral that became a mosque and now stands as a jaw-dropping synthesis of both.'},
+    {name:'Topkapi Palace',cat:'History & culture',desc:'The nerve centre of the Ottoman Empire for 400 years — a vast complex of courtyards, pavilions and the Imperial Treasury.'},
+    {name:'Grand Bazaar & Spice Market',cat:'Culture',desc:'The Grand Bazaar, trading since 1461, is a city within a city — 4,000 shops across 61 covered streets. The adjacent Spice Market is smaller and more atmospheric.'},
+    {name:'Bosphorus ferry & cruise',cat:'Scenic',desc:'The cheapest and most spectacular journey in Istanbul — a public ferry weaving between Europe and Asia past Ottoman palaces, fortresses and sea-villages.'},
+    {name:'Balat & Fener',cat:'Culture & streets',desc:'The old Greek and Jewish quarters — a tangle of crumbling Byzantine and Ottoman houses painted in vivid colours. The most photogenic and authentic corner of the city.'},
+    {name:'Princes\' Islands (Büyükada)',cat:'Scenic & nature',desc:'A 45-min ferry from the city to a car-free island of pine forests, horse-drawn carriages and magnificent Ottoman summer mansions. Extraordinary.'},
+    {name:'Kariye Mosque (Chora Church)',cat:'History',desc:'Contains arguably the finest surviving Byzantine mosaics in the world — more intimate and astonishing than anything in the city centre.'},
+    {name:'Süleymaniye Mosque',cat:'Architecture',desc:"Sinan's masterpiece and arguably the most perfect Ottoman mosque ever built — commanding a hilltop above the Golden Horn with an incomparable interior."},
+    {name:'Kadıköy market & Asian shore',cat:'Food & culture',desc:'Cross to the Asian side for Kadıköy\'s neighbourhood market, excellent fish restaurants, and a much more local, unhurried atmosphere.'},
+    {name:'Istanbul Archaeological Museum',cat:'History',desc:'One of the world\'s great archaeological collections — 1 million objects spanning Mesopotamia, ancient Egypt, Greece and the Ottoman empire.'},
+  ],
+  prac:{
+    wifi:{r:4,spd:'40–70 Mbps',note:'Fast and reliable WiFi across hotels and cafes. Good 4G/5G coverage throughout the city. Increasingly good coworking scene especially in Karaköy, Beyoğlu and the Asian shore. Note: some social media platforms have faced periodic restrictions in Turkey — a VPN is advisable.'},
+    directGW:true,fltNote:'easyJet flies direct LGW → Istanbul Sabiha Gökçen (SAW, Asian side) year-round. Turkish Airlines and others operate from Heathrow to Istanbul Airport (IST, European side). Flight time approx. 3 h 30 min.',
+    airports:[
+      {name:'Istanbul Airport',code:'IST',km:35,dgw:false},
+      {name:'Sabiha Gökçen Airport',code:'SAW',km:45,dgw:true},
+    ],
+    currency:'Turkish Lira (TRY)',lang:'Turkish',tz:'TRT (UTC+3)',visa:'e-Visa required for UK citizens — apply online before travel (~£20, instant)',
+    bestFor:['History & culture lovers','Food enthusiasts','Couples','Photographers','City breakers','Remote workers'],
+    alerts:['e-Visa required — apply at evisa.gov.tr before travel. Quick and inexpensive.','Some social media platforms have faced periodic restrictions — a VPN is advisable for business travel.','Turkish Lira has experienced significant inflation — check exchange rates before travel; cash spending can be very good value.'],
+  },
+  sweet:'April–May and September–October are ideal — warm, drier than winter, and well below the peak summer crowds and prices.',
+  months:[
+    {m:'Jan',avg:6, hi:9, lo:3, sun:2.8,cld:72,rain:85, rise:'08:00',set:'17:00',busy:4,ac:2,fl:2},
+    {m:'Feb',avg:7, hi:10,lo:3, sun:3.5,cld:65,rain:68, rise:'07:35',set:'17:48',busy:4,ac:2,fl:2},
+    {m:'Mar',avg:9, hi:13,lo:5, sun:5.0,cld:55,rain:58, rise:'06:52',set:'18:35',busy:5,ac:3,fl:3},
+    {m:'Apr',avg:13,hi:18,lo:9, sun:6.5,cld:45,rain:42, rise:'06:05',set:'19:20',busy:7,ac:4,fl:3},
+    {m:'May',avg:18,hi:23,lo:13,sun:8.0,cld:35,rain:35, rise:'05:30',set:'19:58',busy:8,ac:4,fl:4},
+    {m:'Jun',avg:22,hi:28,lo:17,sun:10.0,cld:20,rain:20,rise:'05:10',set:'20:25',busy:9,ac:5,fl:5},
+    {m:'Jul',avg:25,hi:30,lo:20,sun:11.0,cld:12,rain:12,rise:'05:20',set:'20:20',busy:10,ac:5,fl:5},
+    {m:'Aug',avg:25,hi:30,lo:20,sun:10.5,cld:14,rain:14,rise:'05:50',set:'19:50',busy:10,ac:5,fl:5},
+    {m:'Sep',avg:21,hi:26,lo:16,sun:8.0,cld:28,rain:30, rise:'06:25',set:'18:58',busy:8,ac:4,fl:4},
+    {m:'Oct',avg:16,hi:21,lo:12,sun:5.5,cld:50,rain:58, rise:'07:00',set:'18:05',busy:6,ac:3,fl:3},
+    {m:'Nov',avg:12,hi:16,lo:8, sun:3.5,cld:65,rain:88, rise:'07:38',set:'17:25',busy:5,ac:2,fl:2},
+    {m:'Dec',avg:8, hi:11,lo:4, sun:2.5,cld:73,rain:95, rise:'08:05',set:'17:00',busy:4,ac:2,fl:2},
+  ],
+},
+];
+
+let S={loc:'tirana',tab:'climate',filter:null,chart:null};
+const gl=()=>DB.find(l=>l.id===S.loc);
+const clbls=['','Budget','Low','Mid','High','Peak'];
+const bclr=v=>v<=2?'#639922':v<=4?'#97C459':v<=6?'#C9973A':v<=8?'#EF9F27':v<=9?'#D85A30':'#A32D2D';
+const blbl=v=>v<=2?'Quiet':v<=4?'Low':v<=6?'Moderate':v<=8?'Busy':v<=9?'Very busy':'Peak';
+const cpc=v=>`pill p${v}`;
+
+function rSidebar(){
+  document.getElementById('loc-list').innerHTML=DB.map(l=>`
+    <button class="loc-btn ${l.id===S.loc?'active':''}" onclick="selLoc('${l.id}')">
+      <span class="loc-city">${l.city}</span>
+      <span class="loc-ctry">${l.country}</span>
+    </button>`).join('');
+}
+
+function rMain(){
+  const L=gl();
+  document.getElementById('main').innerHTML=`
+    <div class="hero">
+      <div class="loc-name">${L.city}</div>
+      <div class="loc-meta">${L.country} &middot; ${L.region}</div>
+      <div class="tags">
+        ${L.prac.directGW?'<span class="tag g">✓ Direct from Gatwick</span>':'<span class="tag w">✗ No direct Gatwick flight</span>'}
+        <span class="tag">${L.prac.visa}</span>
+        <span class="tag">${L.prac.currency}</span>
+      </div>
+      <div class="desc">${L.desc}</div>
+      <div class="hls">${L.hls.map(h=>`<span class="hl">◆ ${h}</span>`).join('')}</div>
+    </div>
+    <div class="tab-nav">
+      ${[['climate','Climate'],['costs','Costs & flights'],['todo','Things to do'],['prac','Practical info']].map(([id,lbl])=>`
+        <button class="tab-btn ${id===S.tab?'active':''}" onclick="swTab('${id}')">${lbl}</button>`).join('')}
+    </div>
+    <div class="tab-body" id="tab-body">${rTab()}</div>`;
+  if(S.tab==='climate')initChart();
+}
+
+function rTab(){
+  const L=gl();
+  if(S.tab==='climate')return rClimate(L);
+  if(S.tab==='costs')return rCosts(L);
+  if(S.tab==='todo')return rTodo(L);
+  if(S.tab==='prac')return rPrac(L);
+  return '';
+}
+
+function rClimate(L){
+  const filters=[
+    {id:'warm',lbl:'Warmest',fn:d=>d.avg>=20},
+    {id:'sunny',lbl:'Sunniest',fn:d=>d.sun>=7},
+    {id:'dry',lbl:'Driest',fn:d=>d.rain<35},
+    {id:'cheap',lbl:'Cheapest',fn:d=>d.ac<=2&&d.fl<=2},
+    {id:'quiet',lbl:'Quietest',fn:d=>d.busy<=3},
+  ];
+  const af=filters.find(f=>f.id===S.filter);
+  return`
+    <div class="legend">
+      <span class="lg-item"><span class="lg-dot" style="background:#D85A30"></span>High</span>
+      <span class="lg-item"><span class="lg-dot" style="background:#C9973A"></span>Average</span>
+      <span class="lg-item"><span class="lg-dot" style="background:#378ADD"></span>Low</span>
+    </div>
+    <div class="chart-wrap"><canvas id="tc" role="img" aria-label="Monthly temperature chart for ${L.city}.">${L.city} monthly temperatures.</canvas></div>
+    <div class="filter-row">
+      <span class="fl-lbl">Highlight months:</span>
+      ${filters.map(f=>`<button class="fb ${S.filter===f.id?'act':''}" onclick="setF('${f.id}')">${f.lbl}</button>`).join('')}
+      ${S.filter?`<button class="fb act" onclick="setF(null)">✕ Clear</button>`:''}
+    </div>
+    <div class="tscroll">
+      <table class="dt">
+        <thead><tr>
+          <th>Month</th><th>Avg °C</th><th>High °C</th><th>Low °C</th>
+          <th>Sun hrs/day</th><th>Cloud cover</th><th>Rainfall mm</th>
+          <th>Sunrise</th><th>Sunset</th><th>Busyness</th>
+        </tr></thead>
+        <tbody>${L.months.map(d=>{
+          const h=af&&af.fn(d)?'hi-row':'';
+          const bc=bclr(d.busy);
+          return`<tr class="${h}">
+            <td style="font-weight:500">${d.m}</td>
+            <td>${d.avg}°</td>
+            <td style="color:#D85A30;font-weight:500">${d.hi}°</td>
+            <td style="color:#378ADD">${d.lo}°</td>
+            <td>${d.sun.toFixed(1)}</td>
+            <td><div style="display:flex;align-items:center;gap:6px"><div style="width:44px;height:5px;border-radius:3px;background:var(--color-border-tertiary);overflow:hidden"><div style="width:${d.cld}%;height:100%;background:#B4B2A9;border-radius:3px"></div></div><span>${d.cld}%</span></div></td>
+            <td>${d.rain}</td>
+            <td style="font-size:11px;font-variant-numeric:tabular-nums">${d.rise}</td>
+            <td style="font-size:11px;font-variant-numeric:tabular-nums">${d.set}</td>
+            <td><div style="display:flex;align-items:center;gap:6px"><div style="display:flex;gap:1px">${Array.from({length:10}).map((_,i)=>`<div style="width:5px;height:10px;border-radius:1px;background:${i<d.busy?bc:'var(--color-border-tertiary)'}"></div>`).join('')}</div><span style="font-size:11px;color:var(--color-text-secondary)">${blbl(d.busy)}</span></div></td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>
+    </div>`;
+}
+
+function rCosts(L){
+  return`
+    <p style="font-size:13px;color:var(--color-text-secondary);margin-bottom:14px;max-width:600px;line-height:1.6">Cost ratings reflect relative pricing within the year. <span style="font-weight:500;color:var(--color-text-primary)">Budget</span> = cheapest months; <span style="font-weight:500;color:var(--color-text-primary)">Peak</span> = most expensive.</p>
+    <div class="tscroll">
+      <table class="dt" style="min-width:auto">
+        <thead><tr><th>Month</th><th>Accommodation</th><th>Flights from UK</th><th>Overall</th><th>Busyness</th></tr></thead>
+        <tbody>${L.months.map(d=>{
+          const ov=Math.round((d.ac+d.fl)/2);
+          const bc=bclr(d.busy);
+          return`<tr>
+            <td style="font-weight:500">${d.m}</td>
+            <td><span class="${cpc(d.ac)}">${clbls[d.ac]}</span></td>
+            <td><span class="${cpc(d.fl)}">${clbls[d.fl]}</span></td>
+            <td><span class="${cpc(ov)}">${clbls[ov]}</span></td>
+            <td><div style="display:flex;align-items:center;gap:5px"><div style="display:flex;gap:1px">${Array.from({length:10}).map((_,i)=>`<div style="width:5px;height:10px;border-radius:1px;background:${i<d.busy?bc:'var(--color-border-tertiary)'}"></div>`).join('')}</div><span style="font-size:11px;color:var(--color-text-secondary)">${blbl(d.busy)}</span></div></td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>
+    </div>
+    <div class="hl-tip"><span style="font-weight:500;color:var(--color-text-primary)">Sweet spot:</span> ${L.sweet}</div>`;
+}
+
+function rTodo(L){
+  return`<div class="todo-grid">${L.todo.map(t=>`
+    <div class="tc">
+      <div class="tc-cat">${t.cat}</div>
+      <div class="tc-name">${t.name}</div>
+      <div class="tc-desc">${t.desc}</div>
+    </div>`).join('')}</div>`;
+}
+
+function rPrac(L){
+  const p=L.prac;
+  return`
+    ${p.alerts.map(a=>`<div class="alert-box">⚠ ${a}</div>`).join('')}
+    <div class="pgrid">
+      <div class="pc">
+        <div class="pt">WiFi &amp; remote work</div>
+        <div style="display:flex;gap:3px;margin-bottom:6px">${Array.from({length:5}).map((_,i)=>`<div style="width:11px;height:11px;border-radius:50%;background:${i<p.wifi.r?'#639922':'var(--color-border-tertiary)'}"></div>`).join('')}</div>
+        <div class="pv">${p.wifi.spd}</div>
+        <div class="pn">${p.wifi.note}</div>
+      </div>
+      <div class="pc">
+        <div class="pt">Flights from Gatwick</div>
+        <div class="pv" style="color:${p.directGW?'var(--color-text-success)':'var(--color-text-warning)'}">${p.directGW?'✓ Direct flights available':'✗ No direct flights'}</div>
+        <div class="pn" style="margin-top:5px">${p.fltNote}</div>
+      </div>
+      <div class="pc">
+        <div class="pt">Nearest airports</div>
+        ${p.airports.map(a=>`<div class="ar">
+          <div><span style="font-weight:500">${a.name}</span> <span style="font-size:11px;color:var(--color-text-secondary)">(${a.code}) · ${a.km} km</span></div>
+          ${a.dgw?'<span class="dbadge">Direct LGW</span>':''}
+        </div>`).join('')}
+      </div>
+      <div class="pc">
+        <div class="pt">Entry &amp; essentials</div>
+        <div class="ir"><span class="il">Visa</span><span style="text-align:right;max-width:60%">${p.visa}</span></div>
+        <div class="ir"><span class="il">Currency</span><span style="text-align:right;max-width:60%">${p.currency}</span></div>
+        <div class="ir"><span class="il">Language</span><span>${p.lang}</span></div>
+        <div class="ir"><span class="il">Timezone</span><span>${p.tz}</span></div>
+      </div>
+      <div class="pc">
+        <div class="pt">Best suited for</div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:4px">${p.bestFor.map(b=>`<span class="tag">${b}</span>`).join('')}</div>
+      </div>
+    </div>`;
+}
+
+function initChart(){
+  const L=gl();
+  const c=document.getElementById('tc');
+  if(!c)return;
+  if(S.chart){S.chart.destroy();S.chart=null;}
+  const dark=matchMedia('(prefers-color-scheme:dark)').matches;
+  const gc=dark?'rgba(255,255,255,.07)':'rgba(0,0,0,.06)';
+  const tc=dark?'#888780':'#888780';
+  S.chart=new Chart(c,{
+    type:'line',
+    data:{
+      labels:L.months.map(m=>m.m),
+      datasets:[
+        {label:'High',data:L.months.map(m=>m.hi),borderColor:'#D85A30',backgroundColor:'rgba(216,90,48,0.08)',fill:true,tension:.4,borderWidth:2,pointRadius:3,pointHoverRadius:5},
+        {label:'Avg', data:L.months.map(m=>m.avg),borderColor:'#C9973A',backgroundColor:'transparent',tension:.4,borderWidth:2,pointRadius:3,borderDash:[5,3]},
+        {label:'Low', data:L.months.map(m=>m.lo),borderColor:'#378ADD',backgroundColor:'rgba(55,138,221,0.07)',fill:true,tension:.4,borderWidth:2,pointRadius:3,pointHoverRadius:5},
+      ]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{mode:'index',intersect:false,callbacks:{label:ctx=>` ${ctx.dataset.label}: ${ctx.raw}°C`}}},
+      scales:{
+        x:{grid:{color:gc},ticks:{color:tc,font:{size:11},autoSkip:false},border:{color:gc}},
+        y:{grid:{color:gc},ticks:{color:tc,font:{size:11},callback:v=>v+'°C'},border:{color:gc},title:{display:true,text:'Temperature (°C)',color:tc,font:{size:11}}},
+      }
+    }
+  });
+}
+
+function selLoc(id){S.loc=id;S.filter=null;S.tab='climate';rSidebar();rMain();}
+function swTab(t){
+  S.tab=t;S.filter=null;
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-body').innerHTML=rTab();
+  if(S.tab==='climate')initChart();
+}
+function setF(f){S.filter=f;document.getElementById('tab-body').innerHTML=rClimate(gl());initChart();}
+function addLoc(){sendPrompt('Please add a new destination to the holiday atlas. The location I want to add is:');}
+
+rSidebar();rMain();
+</script>
