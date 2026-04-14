@@ -59,7 +59,7 @@ jobs:
               compile(path.read_text(encoding="utf-8"), str(path), "exec")
           print("syntax check OK")
           PY
-          python scripts/regenerate_months_from_meteostat.py --repo-root "$GITHUB_WORKSPACE" --all-locations --start-year 2015 --end-year 2025
+          python scripts/regenerate_months_from_meteostat.py --repo-root "$GITHUB_WORKSPACE" --all-locations
 
       - name: Validate location data
         shell: bash
@@ -67,7 +67,22 @@ jobs:
           set -euxo pipefail
           python scripts/validate_locations.py --repo-root "$GITHUB_WORKSPACE"
 
+      - name: Detect regeneration changes
+        id: detect_changes
+        shell: bash
+        run: |
+          set -euxo pipefail
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            git status --short
+            git diff --name-only
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No tracked file changes detected after regeneration."
+          fi
+
       - name: Open pull request
+        if: steps.detect_changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: bot/meteostat-regeneration
@@ -76,3 +91,7 @@ jobs:
           body: |
             One-time GitHub Actions run that regenerates monthly climate fields
             for the 45 location files using Meteostat.
+
+      - name: No-op summary
+        if: steps.detect_changes.outputs.has_changes != 'true'
+        run: echo "No climate JSON changes were generated; skipping pull request creation."
