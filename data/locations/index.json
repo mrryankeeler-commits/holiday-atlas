@@ -30,6 +30,10 @@
     "region": "Straddling Europe & Asia"
   },
   {
+    "id": "zermatt",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "region": "Alps, Central Europe"
     "id": "varna",
     "city": "Varna",
     "country": "Bulgaria",
