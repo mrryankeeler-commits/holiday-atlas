@@ -34,5 +34,29 @@
     "city": "Kotor",
     "country": "Montenegro",
     "region": "Western Balkans"
+  },
+  {
+    "id": "dubrovnik",
+    "city": "Dubrovnik",
+    "country": "Croatia",
+    "region": "Adriatic Balkans"
+  },
+  {
+    "id": "leipzig",
+    "city": "Leipzig",
+    "country": "Germany",
+    "region": "Central Europe"
+  },
+  {
+    "id": "zermatt",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "region": "Alps, Central Europe"
+  },
+  {
+    "id": "varna",
+    "city": "Varna",
+    "country": "Bulgaria",
+    "region": "Balkans"
   }
 ]

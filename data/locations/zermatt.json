@@ -1,0 +1,272 @@
+{
+  "id": "zermatt",
+  "city": "Zermatt",
+  "country": "Switzerland",
+  "region": "Alps, Central Europe",
+  "desc": "Zermatt is a high-alpine village beneath the Matterhorn, combining world-class skiing with exceptional summer hiking. The car-free center keeps the atmosphere quiet and scenic, while mountain railways and lifts make glacier viewpoints and panoramic ridges accessible year-round. Winter brings deep snow, long pistes, and lively après-ski; summer swaps powder for wildflower meadows, clear trail networks, and hut-to-hut walks.",
+  "hls": [
+    "Matterhorn views everywhere",
+    "Reliable high-altitude ski season",
+    "Outstanding summer hiking",
+    "Car-free alpine village",
+    "Scenic mountain railways",
+    "Excellent Swiss mountain food"
+  ],
+  "todo": [
+    {
+      "name": "Gornergrat Railway",
+      "cat": "Scenic railway",
+      "desc": "Ride Europe's highest open-air cog railway to sweeping Matterhorn panoramas and glacier views."
+    },
+    {
+      "name": "Matterhorn Glacier Paradise",
+      "cat": "High alpine",
+      "desc": "Cable car to Klein Matterhorn for year-round snow, panoramic terraces, and glacier scenery."
+    },
+    {
+      "name": "Five Lakes Walk (5-Seenweg)",
+      "cat": "Hiking",
+      "desc": "Classic summer trail linking photogenic alpine lakes, with famous Matterhorn reflections in calm weather."
+    },
+    {
+      "name": "Sunnegga & Rothorn area",
+      "cat": "Hiking / skiing",
+      "desc": "Family-friendly lifts and trails in summer, and broad intermediate ski terrain in winter."
+    },
+    {
+      "name": "Zermatt old village",
+      "cat": "Culture",
+      "desc": "Explore traditional Valais wooden barns, chapels, and local history in the historic center."
+    },
+    {
+      "name": "Ski the Theodul Glacier",
+      "cat": "Skiing",
+      "desc": "High-altitude slopes with one of the longest reliable snow windows in the Alps."
+    },
+    {
+      "name": "Mountain hut lunch",
+      "cat": "Food & scenery",
+      "desc": "Have rösti or fondue on a sunny terrace with panoramic peaks all around."
+    },
+    {
+      "name": "Charles Kuonen Suspension Bridge day trip",
+      "cat": "Adventure",
+      "desc": "A dramatic suspension bridge hike in the nearby Mattertal valley for confident walkers."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–80 Mbps",
+      "note": "Strong hotel and apartment Wi‑Fi; many cafes support remote work though costs are high."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flight to Zermatt. Typical route: LGW to Geneva (GVA) or Zurich (ZRH), then rail to Visp and onward to car-free Zermatt (about 3.5–4.5 hrs total transfer).",
+    "airports": [
+      {
+        "name": "Geneva Airport",
+        "code": "GVA",
+        "km": 230,
+        "dgw": true
+      },
+      {
+        "name": "Zurich Airport",
+        "code": "ZRH",
+        "km": 255,
+        "dgw": true
+      },
+      {
+        "name": "Milan Malpensa Airport",
+        "code": "MXP",
+        "km": 190,
+        "dgw": false
+      }
+    ],
+    "currency": "Swiss Franc (CHF)",
+    "lang": "German (Swiss German); English widely used in tourism",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens — up to 90 days in any 180-day Schengen period",
+    "bestFor": [
+      "Skiers & snowboarders",
+      "Hikers",
+      "Scenic rail lovers",
+      "Couples",
+      "Photographers"
+    ],
+    "alerts": [
+      "Very high accommodation and dining costs, especially in peak ski weeks.",
+      "Village is car-free: pack for train/electric-taxi access from Täsch/Zermatt station."
+    ]
+  },
+  "sweet": "Late January to March for prime ski conditions; July to September for long, clear hiking days and open high trails.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -4,
+      "hi": 0,
+      "lo": -9,
+      "sun": 5.2,
+      "cld": 45,
+      "rain": 65,
+      "rise": "08:05",
+      "set": "16:55",
+      "busy": 8,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": -3,
+      "hi": 1,
+      "lo": -8,
+      "sun": 6.1,
+      "cld": 40,
+      "rain": 55,
+      "rise": "07:35",
+      "set": "17:35",
+      "busy": 9,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 0,
+      "hi": 4,
+      "lo": -5,
+      "sun": 6.8,
+      "cld": 42,
+      "rain": 60,
+      "rise": "06:50",
+      "set": "18:15",
+      "busy": 8,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 3,
+      "hi": 8,
+      "lo": -1,
+      "sun": 6.7,
+      "cld": 45,
+      "rain": 70,
+      "rise": "06:55",
+      "set": "20:05",
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 7,
+      "hi": 12,
+      "lo": 3,
+      "sun": 6.5,
+      "cld": 48,
+      "rain": 85,
+      "rise": "05:55",
+      "set": "20:45",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "sun": 7.4,
+      "cld": 42,
+      "rain": 95,
+      "rise": "05:35",
+      "set": "21:10",
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 14,
+      "hi": 19,
+      "lo": 9,
+      "sun": 8.0,
+      "cld": 38,
+      "rain": 90,
+      "rise": "05:50",
+      "set": "21:00",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "sun": 7.3,
+      "cld": 40,
+      "rain": 92,
+      "rise": "06:20",
+      "set": "20:20",
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 10,
+      "hi": 15,
+      "lo": 6,
+      "sun": 6.4,
+      "cld": 40,
+      "rain": 75,
+      "rise": "06:55",
+      "set": "19:25",
+      "busy": 6,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 6,
+      "hi": 11,
+      "lo": 2,
+      "sun": 5.3,
+      "cld": 44,
+      "rain": 68,
+      "rise": "07:30",
+      "set": "18:30",
+      "busy": 4,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 1,
+      "hi": 5,
+      "lo": -3,
+      "sun": 4.5,
+      "cld": 50,
+      "rain": 70,
+      "rise": "07:20",
+      "set": "16:55",
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": -3,
+      "hi": 1,
+      "lo": -7,
+      "sun": 4.3,
+      "cld": 48,
+      "rain": 72,
+      "rise": "07:55",
+      "set": "16:45",
+      "busy": 9,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}
