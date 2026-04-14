@@ -28,5 +28,11 @@
     "city": "Istanbul",
     "country": "Turkey",
     "region": "Straddling Europe & Asia"
+  },
+  {
+    "id": "goreme",
+    "city": "Göreme",
+    "country": "Turkey",
+    "region": "Straddling Europe & Asia"
   }
 ]
