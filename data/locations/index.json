@@ -28,5 +28,11 @@
     "city": "Istanbul",
     "country": "Turkey",
     "region": "Straddling Europe & Asia"
+  },
+  {
+    "id": "varna",
+    "city": "Varna",
+    "country": "Bulgaria",
+    "region": "Balkans"
   }
 ]
