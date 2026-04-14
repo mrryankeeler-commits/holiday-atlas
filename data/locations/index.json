@@ -30,6 +30,12 @@
     "region": "Straddling Europe & Asia"
   },
   {
+    "id": "budva",
+    "city": "Budva",
+    "country": "Montenegro",
+    "region": "Montenegrin Coast"
+  },
+  {
     "id": "kotor",
     "city": "Kotor",
     "country": "Montenegro",
