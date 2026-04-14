@@ -28,5 +28,11 @@
     "city": "Istanbul",
     "country": "Turkey",
     "region": "Straddling Europe & Asia"
+  },
+  {
+    "id": "zermatt",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "region": "Alps, Central Europe"
   }
 ]
