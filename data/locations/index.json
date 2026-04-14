@@ -30,6 +30,12 @@
     "region": "Straddling Europe & Asia"
   },
   {
+    "id": "ulcinj",
+    "city": "Ulcinj",
+    "country": "Montenegro",
+    "region": "Western Balkans"
+  },
+  {
     "id": "budva",
     "city": "Budva",
     "country": "Montenegro",
