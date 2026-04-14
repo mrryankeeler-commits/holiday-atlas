@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Holiday atlas</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <h2 class="sr-only">
+    Holiday atlas — browse climate, costs, flights and things to do for each location.
+  </h2>
+
+  <div class="app">
+    <div class="app-hdr">
+      <div class="app-title">✈ Holiday atlas</div>
+      <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
+    </div>
+
+    <div class="app-body">
+      <nav class="sidebar">
+        <div class="sb-lbl">Destinations</div>
+        <div id="loc-list"></div>
+        <button class="add-btn-sb" onclick="addLoc()">+ Add destination ↗</button>
+      </nav>
+
+      <main class="main" id="main">
+        <div style="padding:20px;font-family:system-ui,sans-serif;color:#666;">
+          Loading…
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
