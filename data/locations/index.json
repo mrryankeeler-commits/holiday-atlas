@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tirana",
+    "city": "Tirana",
+    "country": "Albania",
+    "region": "Balkans"
+  },
+  {
+    "id": "mostar",
+    "city": "Mostar",
+    "country": "Bosnia & Herzegovina",
+    "region": "Western Balkans"
+  },
+  {
+    "id": "chengdu",
+    "city": "Chengdu",
+    "country": "China",
+    "region": "Sichuan, Southwest China"
+  },
+  {
+    "id": "tbilisi",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "region": "South Caucasus"
+  },
+  {
+    "id": "istanbul",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "region": "Straddling Europe & Asia"
+  }
+]

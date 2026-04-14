@@ -1,0 +1,275 @@
+{
+  "id": "mostar",
+  "city": "Mostar",
+  "country": "Bosnia & Herzegovina",
+  "region": "Western Balkans",
+  "desc": "Mostar is one of the most visually arresting towns in Europe — a living relic of Ottoman Bosnia where the iconic Stari Most (Old Bridge) arches over the turquoise Neretva river between minarets and medieval stone towers. The old bazaar Kujundžiluk is a warren of copper workshops, rug merchants and traditional teahouses. The surrounding landscape is dramatic: limestone karst, emerald river canyons and the vine-terraced Herzegovinian countryside. Despite its UNESCO profile, Mostar remains genuinely unspoilt outside the brief July–August peak.",
+  "hls": [
+    "UNESCO Old Bridge",
+    "Ottoman old town",
+    "Vivid river scenery",
+    "Exceptional local food & wine",
+    "Very affordable",
+    "Relatively uncrowded"
+  ],
+  "todo": [
+    {
+      "name": "Stari Most (Old Bridge)",
+      "cat": "Landmark & scenic",
+      "desc": "The 16th-century Ottoman bridge is one of Europe's most beautiful sights — best at dusk when the stone turns amber."
+    },
+    {
+      "name": "Kujundžiluk bazaar",
+      "cat": "Culture",
+      "desc": "Ancient cobblestoned market street lined with copper smiths, hand-woven rugs and coffee houses. Very authentic."
+    },
+    {
+      "name": "Koski Mehmed Pasha Mosque",
+      "cat": "History",
+      "desc": "Climb the minaret for the finest panorama over the Old Bridge and Neretva valley."
+    },
+    {
+      "name": "Blagaj Tekke",
+      "cat": "Scenic & history",
+      "desc": "A 16th-century Dervish monastery at the foot of a 200 m cliff where the Buna river springs from rock. Unmissable."
+    },
+    {
+      "name": "Počitelj village",
+      "cat": "History & scenery",
+      "desc": "Perfectly preserved medieval Ottoman fortified village perched above the Neretva. 25 min south."
+    },
+    {
+      "name": "Kravice waterfalls",
+      "cat": "Nature & scenery",
+      "desc": "A 25 m natural amphitheatre of cascades into a turquoise pool — Herzegovina's most beautiful natural site."
+    },
+    {
+      "name": "Neretva river swimming",
+      "cat": "Nature",
+      "desc": "The crystal-clear Neretva below the Old Bridge is swimmable in summer and startlingly beautiful."
+    },
+    {
+      "name": "Herzegovinian wine tasting",
+      "cat": "Food & culture",
+      "desc": "Žilavka white and Blatina red are indigenous grapes found nowhere else. Winery visits around Čitluk are excellent."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–35 Mbps",
+      "note": "Adequate for video calls. Hotel and cafe WiFi reliable in the old town. No major coworking spaces, but local cafes work well."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flight to Mostar (OMO). Best options: LGW → Split (SPU) with easyJet then ~2.5 hr drive; or LGW → Dubrovnik (DBV) with easyJet then ~2.5 hr drive. Both routes offer direct Gatwick connections.",
+    "airports": [
+      {
+        "name": "Mostar Airport",
+        "code": "OMO",
+        "km": 8,
+        "dgw": false
+      },
+      {
+        "name": "Split Airport",
+        "code": "SPU",
+        "km": 138,
+        "dgw": true
+      },
+      {
+        "name": "Dubrovnik Airport",
+        "code": "DBV",
+        "km": 160,
+        "dgw": true
+      },
+      {
+        "name": "Sarajevo Airport",
+        "code": "SJJ",
+        "km": 130,
+        "dgw": false
+      }
+    ],
+    "currency": "Convertible Mark (BAM)",
+    "lang": "Bosnian / Croatian / Serbian",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Visa-free for UK citizens — up to 90 days",
+    "bestFor": [
+      "History lovers",
+      "Couples & romance",
+      "Photographers",
+      "Food & wine",
+      "Budget travellers"
+    ],
+    "alerts": []
+  },
+  "sweet": "May and September are the sweet spot — Mediterranean warmth without July/August peak crowds or prices.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 5,
+      "hi": 9,
+      "lo": 1,
+      "sun": 3.5,
+      "cld": 65,
+      "rain": 120,
+      "rise": "07:20",
+      "set": "16:10",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "sun": 4.2,
+      "cld": 58,
+      "rain": 100,
+      "rise": "07:00",
+      "set": "16:55",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 10,
+      "hi": 16,
+      "lo": 4,
+      "sun": 5.5,
+      "cld": 52,
+      "rain": 90,
+      "rise": "06:18",
+      "set": "17:40",
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 14,
+      "hi": 20,
+      "lo": 8,
+      "sun": 7,
+      "cld": 44,
+      "rain": 70,
+      "rise": "05:34",
+      "set": "18:22",
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 25,
+      "lo": 12,
+      "sun": 8.5,
+      "cld": 35,
+      "rain": 58,
+      "rise": "05:00",
+      "set": "19:00",
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 30,
+      "lo": 16,
+      "sun": 10.5,
+      "cld": 20,
+      "rain": 28,
+      "rise": "04:45",
+      "set": "19:30",
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 34,
+      "lo": 19,
+      "sun": 11.5,
+      "cld": 10,
+      "rain": 15,
+      "rise": "04:55",
+      "set": "19:35",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 33,
+      "lo": 19,
+      "sun": 10.8,
+      "cld": 12,
+      "rain": 18,
+      "rise": "05:20",
+      "set": "19:05",
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 27,
+      "lo": 14,
+      "sun": 8.5,
+      "cld": 30,
+      "rain": 50,
+      "rise": "05:55",
+      "set": "18:18",
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "sun": 6,
+      "cld": 48,
+      "rain": 100,
+      "rise": "06:30",
+      "set": "17:30",
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 9,
+      "hi": 14,
+      "lo": 4,
+      "sun": 4,
+      "cld": 63,
+      "rain": 140,
+      "rise": "07:05",
+      "set": "16:45",
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 5,
+      "hi": 9,
+      "lo": 1,
+      "sun": 3,
+      "cld": 70,
+      "rain": 150,
+      "rise": "07:25",
+      "set": "16:10",
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}
