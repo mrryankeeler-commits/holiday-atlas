@@ -59,7 +59,21 @@ Within `prac`, include:
 
 ## Refreshing monthly climate data (CSV workflow)
 
-Monthly climate data is maintained via CSV source files and then transformed into per-location JSON.
+Monthly climate data is maintained from local CSV sources only (no external weather API/provider scripts).
+
+### Import command
+
+- Bulk import all CSV files in a directory:
+  - `python scripts/import_climate_csv.py --input-dir data/climate`
+- Import one location by id from a directory:
+  - `python scripts/import_climate_csv.py --input-dir data/climate --id athens`
+- Import one explicit file:
+  - `python scripts/import_climate_csv.py --input-file data/climate/athens.csv --id athens`
+
+Useful flags:
+
+- `--month-col`, `--avg-col`, `--hi-col`, `--lo-col`, `--daylight-col`, `--cloud-col`, `--rain-col`
+- `--allow-score-overrides` (only then read busy/ac/fl columns)
 
 ### Source files
 
@@ -70,23 +84,7 @@ Monthly climate data is maintained via CSV source files and then transformed int
 
 Each CSV row should represent one month and include:
 
-- Month
-- Average temperature
-- Average high
-- Average low
-- Daylight hours
-- Cloud cover
-- Rainfall
-
-### Transformation output
-
-- Transformed climate metrics are written to each location's `months` array in `data/locations/<id>.json`.
-- Existing non-climate month scoring fields (`busy`, `ac`, `fl`) should be preserved.
-
-### Month schema (documented fields)
-
-Use the following climate keys in each month object:
-
+- `month` (month number or month name)
 - `avg` (average temperature)
 - `hi` (average high)
 - `lo` (average low)
@@ -94,7 +92,13 @@ Use the following climate keys in each month object:
 - `cld` (cloud cover)
 - `rain` (rainfall)
 
-Example:
+### Transformation output
+
+- Transformed climate metrics are written to each location's `months` array in `data/locations/<id>.json`.
+- Existing non-climate month scoring fields (`busy`, `ac`, `fl`) are preserved unless `--allow-score-overrides` is provided.
+- The importer does not generate `rise` or `set`.
+
+### Month schema (documented fields)
 
 ```json
 {
@@ -104,6 +108,9 @@ Example:
   "lo": 9,
   "daylight": 9.8,
   "cld": 42,
-  "rain": 52
+  "rain": 52,
+  "busy": 3,
+  "ac": 3,
+  "fl": 3
 }
 ```
