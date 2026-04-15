@@ -1,11 +1,15 @@
 {
   "id": "gdansk",
   "source": {
-    "climateVerified": false,
-    "climateVerifiedOn": "",
-    "climateVerificationNote": "No exact climate source mapping has been confirmed yet for this location.",
-    "climate": [],
-    "importedFromCsv": ""
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/84138/Average-Weather-in-Gda%C5%84sk-Poland-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
   },
   "city": "Gdansk",
   "country": "Poland",
