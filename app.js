@@ -8,6 +8,7 @@ let S = {
   chart: null,
   query: ""
 };
+let chartResizeBound = false;
 
 const gl = () => LOC_CACHE[S.loc] || null;
 const clbls = ["", "Budget", "Low", "Mid", "High", "Peak"];
@@ -389,6 +390,13 @@ function initChart() {
       }
     }
   });
+
+  if (!chartResizeBound) {
+    window.addEventListener("resize", () => {
+      S.chart?.resize();
+    });
+    chartResizeBound = true;
+  }
 }
 
 async function selLoc(id) {
