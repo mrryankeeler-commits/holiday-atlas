@@ -33,6 +33,10 @@ Example aliases file:
    - `mode`:
      - `stage` = unknown/future locations go to `data/pending-locations/` only (not shown in app)
      - `create` = create missing `data/locations/<id>.json` and add to active index
+   - `fuzzy_cutoff`:
+     - default `0.84` (good misspelling tolerance)
+     - try `0.80` if your source has more spelling noise
+     - use `0.90+` if you want stricter matching
 5. Click **Run workflow**.
 
 ## 3) Review generated pull request

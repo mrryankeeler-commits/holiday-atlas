@@ -15,6 +15,10 @@ on:
           - stage
           - create
         default: stage
+      fuzzy_cutoff:
+        description: "Misspelling tolerance (0-1). Lower = more forgiving."
+        required: true
+        default: "0.84"
 
 permissions:
   contents: write
@@ -44,6 +48,7 @@ jobs:
         env:
           CSV_PATH: ${{ inputs.csv_path }}
           MODE: ${{ inputs.mode }}
+          FUZZY_CUTOFF: ${{ inputs.fuzzy_cutoff }}
         run: |
           set -euo pipefail
           if [ ! -f "$CSV_PATH" ]; then
@@ -61,6 +66,7 @@ jobs:
             --daylight-col "Daylight (h/day)"
             --cloud-col "Cloud Cover (%)"
             --rain-col "Rainfall (mm)"
+            --fuzzy-cutoff "$FUZZY_CUTOFF"
           )
 
           if [ -f "data/climate/aliases.json" ]; then

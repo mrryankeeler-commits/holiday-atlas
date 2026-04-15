@@ -14,6 +14,7 @@ import difflib
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 from typing import Any
 
@@ -134,8 +135,21 @@ def _score_value(row: dict[str, str], col: str, fallback: int) -> int:
 
 
 def _slugify(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value)
+    value = value.encode("ascii", "ignore").decode("ascii")
     value = re.sub(r"[^a-z0-9]+", "-", value.lower())
     return value.strip("-")
+
+
+def _token_key(value: str) -> str:
+    parts = [p for p in _slugify(value).split("-") if p]
+    return "-".join(sorted(parts))
+
+
+def _similarity(a: str, b: str) -> float:
+    direct = difflib.SequenceMatcher(None, a, b).ratio()
+    tokenized = difflib.SequenceMatcher(None, _token_key(a), _token_key(b)).ratio()
+    return max(direct, tokenized)
 
 
 def _load_aliases(args: argparse.Namespace) -> dict[str, str]:
@@ -347,10 +361,16 @@ def _resolve_location_id(
     if args.disable_fuzzy_match or not known_index:
         return None, "unknown"
 
-    match = difflib.get_close_matches(key, list(known_index.keys()), n=1, cutoff=args.fuzzy_cutoff)
-    if not match:
+    best_key = ""
+    best_score = -1.0
+    for candidate in known_index.keys():
+        score = _similarity(key, candidate)
+        if score > best_score:
+            best_key = candidate
+            best_score = score
+    if best_score < args.fuzzy_cutoff or not best_key:
         return None, "unknown"
-    return known_index[match[0]], "fuzzy"
+    return known_index[best_key], "fuzzy"
 
 
 def _stage_unknown_location(

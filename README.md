@@ -86,7 +86,7 @@ Useful flags:
 
 - `--month-col`, `--avg-col`, `--hi-col`, `--lo-col`, `--daylight-col`, `--cloud-col`, `--rain-col`
 - `--location-col`, `--id-col`, `--city-col`, `--country-col`, `--region-col` (for combined CSV imports)
-- `--aliases-file`, `--fuzzy-cutoff`, `--disable-fuzzy-match` (for typo handling and inferred matching)
+- `--aliases-file`, `--fuzzy-cutoff`, `--disable-fuzzy-match` (for typo handling and inferred matching; lower cutoff is more forgiving)
 - `--create-missing`, `--default-region`
 - `--stage-unknown-dir` (keeps unknown/future locations out of active `data/locations/`)
 - `--allow-score-overrides` (only then read busy/ac/fl columns)
