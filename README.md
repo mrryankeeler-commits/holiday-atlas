@@ -57,15 +57,53 @@ Within `prac`, include:
 - [ ] The `id` matches between manifest entry and filename.
 - [ ] Required keys are present in both manifest and full record.
 
-## Refreshing monthly climate data
+## Refreshing monthly climate data (CSV workflow)
 
-Use `scripts/update_climate.py` to refresh each location's `months` climate metrics from Open-Meteo historical data.
+Monthly climate data is maintained via CSV source files and then transformed into per-location JSON.
 
-```bash
-python scripts/update_climate.py
-# or target one location
-python scripts/update_climate.py --id athens
+### Source files
+
+- Store CSV inputs under `data/climate/` (one file per location).
+- Use the location id as the filename where possible (example: `data/climate/athens.csv`).
+
+### Expected CSV columns
+
+Each CSV row should represent one month and include:
+
+- Month
+- Average temperature
+- Average high
+- Average low
+- Daylight hours
+- Cloud cover
+- Rainfall
+
+### Transformation output
+
+- Transformed climate metrics are written to each location's `months` array in `data/locations/<id>.json`.
+- Existing non-climate month scoring fields (`busy`, `ac`, `fl`) should be preserved.
+
+### Month schema (documented fields)
+
+Use the following climate keys in each month object:
+
+- `avg` (average temperature)
+- `hi` (average high)
+- `lo` (average low)
+- `daylight` (daylight hours)
+- `cld` (cloud cover)
+- `rain` (rainfall)
+
+Example:
+
+```json
+{
+  "m": "Jan",
+  "avg": 13,
+  "hi": 16,
+  "lo": 9,
+  "daylight": 9.8,
+  "cld": 42,
+  "rain": 52
+}
 ```
-
-The script updates these monthly fields: `avg`, `hi`, `lo`, `sun`, `cld`, `rain`, `rise`, `set`.
-It preserves existing `busy`, `ac`, and `fl` scores.
