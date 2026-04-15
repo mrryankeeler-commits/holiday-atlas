@@ -23,6 +23,24 @@ MONTH_LOOKUP = {label.lower(): label for label in MONTH_LABELS}
 MONTH_LOOKUP.update({str(i): MONTH_LABELS[i - 1] for i in range(1, 13)})
 
 
+def _normalized_col_key(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", str(value).lower())
+
+
+def _row_get(row: dict[str, str], col: str, aliases: tuple[str, ...] = ()) -> str:
+    candidates = (col, *aliases)
+    for candidate in candidates:
+        if candidate in row:
+            return str(row.get(candidate, ""))
+
+    normalized_map = {_normalized_col_key(key): key for key in row.keys()}
+    for candidate in candidates:
+        mapped = normalized_map.get(_normalized_col_key(candidate))
+        if mapped is not None:
+            return str(row.get(mapped, ""))
+    return ""
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input-dir", type=Path, help="Directory containing one CSV per location (for example: data/climate).")
@@ -120,16 +138,16 @@ def normalize_month(raw: str) -> str:
 
 
 def _num(row: dict[str, str], col: str, cast: type[int] | type[float]) -> int | float:
-    raw = row.get(col)
-    if raw is None or str(raw).strip() == "":
+    raw = _row_get(row, col)
+    if str(raw).strip() == "":
         raise ValueError(f"Missing value in required column '{col}'")
     val = float(str(raw).strip())
     return int(round(val)) if cast is int else round(val, 1)
 
 
 def _score_value(row: dict[str, str], col: str, fallback: int) -> int:
-    raw = row.get(col)
-    if raw is None or str(raw).strip() == "":
+    raw = _row_get(row, col)
+    if str(raw).strip() == "":
         return fallback
     return int(round(float(str(raw).strip())))
 
@@ -184,12 +202,12 @@ def _build_known_location_index(locations_dir: Path) -> dict[str, str]:
 
 
 def _parse_location_fields(row: dict[str, str], args: argparse.Namespace) -> tuple[str, str]:
-    city = str(row.get(args.city_col, "")).strip()
-    country = str(row.get(args.country_col, "")).strip()
+    city = _row_get(row, args.city_col, ("City",)).strip()
+    country = _row_get(row, args.country_col, ("Country",)).strip()
     if city and country:
         return city, country
 
-    raw = str(row.get(args.location_col, "")).strip()
+    raw = _row_get(row, args.location_col, ("Requested location", "Location")).strip()
     if not raw:
         return city, country
     parts = [part.strip() for part in raw.split(",")]
@@ -300,7 +318,7 @@ def import_csv_to_location(csv_path: Path, location_path: Path, args: argparse.N
 
     imported: dict[str, dict[str, Any]] = {}
     for row in rows:
-        month = normalize_month(row.get(args.month_col, ""))
+        month = normalize_month(_row_get(row, args.month_col, ("Month",)))
         base = existing_by_month.get(month, {})
 
         item = {
@@ -332,7 +350,7 @@ def import_csv_to_location(csv_path: Path, location_path: Path, args: argparse.N
 
 
 def _location_id_from_row(row: dict[str, str], args: argparse.Namespace) -> str:
-    explicit = str(row.get(args.id_col, "")).strip()
+    explicit = _row_get(row, args.id_col, ("Id", "ID")).strip()
     if explicit:
         return explicit
     city, country = _parse_location_fields(row, args)
@@ -340,7 +358,7 @@ def _location_id_from_row(row: dict[str, str], args: argparse.Namespace) -> str:
         return _slugify(f"{city}-{country}")
     if city:
         return _slugify(city)
-    raw = str(row.get(args.location_col, "")).strip()
+    raw = _row_get(row, args.location_col, ("Requested location", "Location")).strip()
     if raw:
         return _slugify(raw)
     raise ValueError("Could not infer location id; provide id column or location/city values.")
