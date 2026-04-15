@@ -80,168 +80,144 @@
       "avg": 27,
       "hi": 30,
       "lo": 25,
-      "sun": 8,
       "cld": 35,
       "rain": 60,
-      "rise": "06:20",
-      "set": "17:45",
       "busy": 4,
       "ac": 5,
-      "fl": 5
+      "fl": 5,
+      "daylight": 8
     },
     {
       "m": "Feb",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 8.5,
       "cld": 34,
       "rain": 45,
-      "rise": "06:15",
-      "set": "17:55",
       "busy": 4,
       "ac": 5,
-      "fl": 5
+      "fl": 5,
+      "daylight": 8.5
     },
     {
       "m": "Mar",
       "avg": 29,
       "hi": 32,
       "lo": 27,
-      "sun": 8,
       "cld": 38,
       "rain": 70,
-      "rise": "06:00",
-      "set": "18:00",
       "busy": 4,
       "ac": 5,
-      "fl": 5
+      "fl": 5,
+      "daylight": 8
     },
     {
       "m": "Apr",
       "avg": 30,
       "hi": 33,
       "lo": 28,
-      "sun": 7,
       "cld": 46,
       "rain": 130,
-      "rise": "05:45",
-      "set": "18:05",
       "busy": 3,
       "ac": 3,
-      "fl": 4
+      "fl": 4,
+      "daylight": 7
     },
     {
       "m": "May",
       "avg": 29,
       "hi": 32,
       "lo": 27,
-      "sun": 6,
       "cld": 58,
       "rain": 210,
-      "rise": "05:35",
-      "set": "18:15",
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 3,
+      "daylight": 6
     },
     {
       "m": "Jun",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 5,
       "cld": 66,
       "rain": 240,
-      "rise": "05:30",
-      "set": "18:20",
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 3,
+      "daylight": 5
     },
     {
       "m": "Jul",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 5.5,
       "cld": 62,
       "rain": 190,
-      "rise": "05:35",
-      "set": "18:20",
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 3,
+      "daylight": 5.5
     },
     {
       "m": "Aug",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 5.5,
       "cld": 60,
       "rain": 180,
-      "rise": "05:40",
-      "set": "18:10",
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 3,
+      "daylight": 5.5
     },
     {
       "m": "Sep",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 5,
       "cld": 65,
       "rain": 250,
-      "rise": "05:45",
-      "set": "17:55",
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 3,
+      "daylight": 5
     },
     {
       "m": "Oct",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 5,
       "cld": 68,
       "rain": 280,
-      "rise": "05:50",
-      "set": "17:40",
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 3,
+      "daylight": 5
     },
     {
       "m": "Nov",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "sun": 5.5,
       "cld": 64,
       "rain": 260,
-      "rise": "06:00",
-      "set": "17:35",
       "busy": 3,
       "ac": 3,
-      "fl": 4
+      "fl": 4,
+      "daylight": 5.5
     },
     {
       "m": "Dec",
       "avg": 27,
       "hi": 30,
       "lo": 25,
-      "sun": 6.5,
       "cld": 50,
       "rain": 170,
-      "rise": "06:10",
-      "set": "17:35",
       "busy": 4,
       "ac": 5,
-      "fl": 5
+      "fl": 5,
+      "daylight": 6.5
     }
   ]
 }
