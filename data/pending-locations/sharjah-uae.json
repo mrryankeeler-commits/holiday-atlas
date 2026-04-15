@@ -1,0 +1,141 @@
+{
+  "id": "sharjah-uae",
+  "source": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+  "city": "Sharjah",
+  "country": "UAE",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Jan",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "15",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Feb",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "25.0",
+      "Avg Low (°C)": "15.6",
+      "Daylight (h/day)": "11.3",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "18",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Mar",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "15",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Apr",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "32.2",
+      "Avg Low (°C)": "21.1",
+      "Daylight (h/day)": "12.8",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "5",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "May",
+      "Avg Temp (°C)": "31.1",
+      "Avg High (°C)": "36.7",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "13.4",
+      "Cloud Cover (%)": "15",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Jun",
+      "Avg Temp (°C)": "32.8",
+      "Avg High (°C)": "38.9",
+      "Avg Low (°C)": "27.2",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "3",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Jul",
+      "Avg Temp (°C)": "35.0",
+      "Avg High (°C)": "40.0",
+      "Avg Low (°C)": "30.0",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "45",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Aug",
+      "Avg Temp (°C)": "35.0",
+      "Avg High (°C)": "40.0",
+      "Avg Low (°C)": "30.0",
+      "Daylight (h/day)": "13.0",
+      "Cloud Cover (%)": "37",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Sep",
+      "Avg Temp (°C)": "32.2",
+      "Avg High (°C)": "37.8",
+      "Avg Low (°C)": "27.2",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "18",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Oct",
+      "Avg Temp (°C)": "29.4",
+      "Avg High (°C)": "34.4",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "11.5",
+      "Cloud Cover (%)": "10",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Nov",
+      "Avg Temp (°C)": "25.0",
+      "Avg High (°C)": "30.0",
+      "Avg Low (°C)": "19.4",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "18",
+      "Rainfall (mm)": "5",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    },
+    {
+      "Location": "Sharjah, UAE",
+      "Month": "Dec",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "25.6",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "13",
+      "Source URL": "https://weatherspark.com/y/105471/Average-Weather-in-Sharjah-United-Arab-Emirates-Year-Round"
+    }
+  ]
+}

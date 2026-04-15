@@ -1,0 +1,141 @@
+{
+  "id": "reine-norway",
+  "source": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+  "city": "Reine",
+  "country": "Norway",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Reine, Norway",
+      "Month": "Jan",
+      "Avg Temp (°C)": "1.7",
+      "Avg High (°C)": "2.8",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "3.3",
+      "Cloud Cover (%)": "77",
+      "Rainfall (mm)": "69",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Feb",
+      "Avg Temp (°C)": "1.1",
+      "Avg High (°C)": "2.8",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "7.9",
+      "Cloud Cover (%)": "77",
+      "Rainfall (mm)": "61",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Mar",
+      "Avg Temp (°C)": "1.7",
+      "Avg High (°C)": "2.8",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "73",
+      "Rainfall (mm)": "53",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Apr",
+      "Avg Temp (°C)": "3.3",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "1.7",
+      "Daylight (h/day)": "15.9",
+      "Cloud Cover (%)": "66",
+      "Rainfall (mm)": "43",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "May",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "5.0",
+      "Daylight (h/day)": "21.0",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "36",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Jun",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "24.0",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "38",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Jul",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "22.5",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "51",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Aug",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "13.3",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "17.2",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "51",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Sep",
+      "Avg Temp (°C)": "10.0",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "13.1",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "74",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Oct",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "9.1",
+      "Cloud Cover (%)": "69",
+      "Rainfall (mm)": "86",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Nov",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "5.6",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "4.8",
+      "Cloud Cover (%)": "73",
+      "Rainfall (mm)": "84",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    },
+    {
+      "Location": "Reine, Norway",
+      "Month": "Dec",
+      "Avg Temp (°C)": "2.2",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "0.4",
+      "Cloud Cover (%)": "76",
+      "Rainfall (mm)": "79",
+      "Source URL": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+    }
+  ]
+}

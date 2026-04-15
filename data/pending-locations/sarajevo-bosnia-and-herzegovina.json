@@ -1,0 +1,141 @@
+{
+  "id": "sarajevo-bosnia-and-herzegovina",
+  "source": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-1.1",
+      "Avg High (°C)": "3.3",
+      "Avg Low (°C)": "-5",
+      "Daylight (h/day)": "9.3",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Feb",
+      "Avg Temp (°C)": "0.6",
+      "Avg High (°C)": "5.6",
+      "Avg Low (°C)": "-3.9",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "36",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Mar",
+      "Avg Temp (°C)": "5",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "41",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Apr",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "53",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "May",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "14.8",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "58",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Jun",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "15.4",
+      "Cloud Cover (%)": "37",
+      "Rainfall (mm)": "61",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Jul",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "43",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Aug",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "25",
+      "Rainfall (mm)": "46",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Sep",
+      "Avg Temp (°C)": "15",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "40",
+      "Rainfall (mm)": "64",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Oct",
+      "Avg Temp (°C)": "10",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "5",
+      "Daylight (h/day)": "11",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "66",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Nov",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "9.6",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "64",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Sarajevo, Bosnia and Herzegovina",
+      "Month": "Dec",
+      "Avg Temp (°C)": "0",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-3.3",
+      "Daylight (h/day)": "9",
+      "Cloud Cover (%)": "60",
+      "Rainfall (mm)": "46",
+      "Source URL": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+    }
+  ]
+}
