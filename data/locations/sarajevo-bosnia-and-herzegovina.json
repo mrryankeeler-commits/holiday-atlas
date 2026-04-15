@@ -1,0 +1,254 @@
+{
+  "id": "sarajevo-bosnia-and-herzegovina",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/83139/Average-Weather-in-Sarajevo-Bosnia-&-Herzegovina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "region": "Sarajevo Canton",
+  "desc": "Sarajevo blends Ottoman, Austro-Hungarian, and Yugoslav-era layers in a compact valley city with strong café culture and mountain access minutes from the center. Demand is highest in summer and around winter holiday periods, while late spring and early autumn generally offer the best mix of weather, prices, and manageable crowds.",
+  "hls": [
+    "Distinct Ottoman and Austro-Hungarian old-town contrast",
+    "Baščaršija bazaars, mosques, and historic coffee culture",
+    "Powerful 20th-century history and memorial sites",
+    "Short transfers from city center to mountain viewpoints",
+    "Strong value compared with many European capitals",
+    "Good base for Balkan multi-country itineraries"
+  ],
+  "todo": [
+    {
+      "name": "Baščaršija and Sebilj quarter",
+      "cat": "Heritage",
+      "desc": "Walk Sarajevo's Ottoman core for craft lanes, mosques, and traditional coffee stops."
+    },
+    {
+      "name": "Latin Bridge and old-city timeline",
+      "cat": "History",
+      "desc": "Connect key sites around the Miljacka to understand Sarajevo's pivotal modern history."
+    },
+    {
+      "name": "Tunnel of Hope Museum",
+      "cat": "Modern history",
+      "desc": "Visit the museum documenting Sarajevo's wartime siege logistics and resilience."
+    },
+    {
+      "name": "Yellow Fortress sunset",
+      "cat": "Scenic",
+      "desc": "Head to elevated viewpoints above the old town for golden-hour valley panoramas."
+    },
+    {
+      "name": "Trebević cable car and trails",
+      "cat": "Outdoor",
+      "desc": "Ride up for city views, light hiking, and traces of Olympic-era mountain venues."
+    },
+    {
+      "name": "Mostar day trip",
+      "cat": "Day trip",
+      "desc": "Take a full-day excursion south for the iconic Stari Most and Herzegovinian scenery."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "45–130 Mbps",
+      "note": "Reliable in central stays and cafés; mobile coverage is good for backup in the urban core."
+    },
+    "directGW": false,
+    "fltNote": "No regular nonstop Gatwick-Sarajevo route; UK itineraries are generally one-stop via major European hubs. Typical return fares are around £90-£180 off-peak, £180-£270 in shoulder demand, and £270+ during peak summer and year-end holiday periods.",
+    "airports": [
+      {
+        "name": "Sarajevo International Airport",
+        "code": "SJJ",
+        "km": 12,
+        "dgw": false
+      },
+      {
+        "name": "Tuzla International Airport",
+        "code": "TZL",
+        "km": 122,
+        "dgw": false
+      },
+      {
+        "name": "Mostar International Airport",
+        "code": "OMO",
+        "km": 126,
+        "dgw": false
+      }
+    ],
+    "currency": "Bosnia and Herzegovina convertible mark (BAM)",
+    "lang": "Bosnian, Croatian, Serbian",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Bosnia and Herzegovina is outside Schengen; UK and US passport holders can generally visit visa-free for short tourist stays, subject to standard passport-validity requirements.",
+    "bestFor": [
+      "History-focused city breaks",
+      "Budget-conscious Europe travel",
+      "Cultural and food itineraries",
+      "Mountain-and-city combinations",
+      "Balkan overland routes"
+    ],
+    "alerts": [
+      "Air quality can worsen during winter inversion periods in the valley.",
+      "Holiday weeks and major summer events can tighten central accommodation supply quickly.",
+      "Some mountain weather shifts quickly; check cable car and trail conditions before day trips."
+    ]
+  },
+  "sweet": "May-June and September are usually the strongest all-round months for comfortable sightseeing and better value than peak summer dates.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -1,
+      "hi": 3,
+      "lo": -5,
+      "daylight": 9.3,
+      "cld": 58,
+      "rain": 33,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 6,
+      "lo": -4,
+      "daylight": 10.5,
+      "cld": 59,
+      "rain": 36,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 5,
+      "hi": 11,
+      "lo": 0,
+      "daylight": 12.0,
+      "cld": 57,
+      "rain": 41,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 16,
+      "lo": 4,
+      "daylight": 13.5,
+      "cld": 55,
+      "rain": 53,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 21,
+      "lo": 8,
+      "daylight": 14.8,
+      "cld": 51,
+      "rain": 58,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 15.4,
+      "cld": 37,
+      "rain": 61,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 19,
+      "hi": 27,
+      "lo": 13,
+      "daylight": 15.1,
+      "cld": 22,
+      "rain": 43,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 27,
+      "lo": 13,
+      "daylight": 13.9,
+      "cld": 25,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 15,
+      "hi": 22,
+      "lo": 9,
+      "daylight": 12.5,
+      "cld": 40,
+      "rain": 64,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 10,
+      "hi": 16,
+      "lo": 5,
+      "daylight": 11.0,
+      "cld": 51,
+      "rain": 66,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 9,
+      "lo": 1,
+      "daylight": 9.6,
+      "cld": 58,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 0,
+      "hi": 4,
+      "lo": -3,
+      "daylight": 9.0,
+      "cld": 60,
+      "rain": 46,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

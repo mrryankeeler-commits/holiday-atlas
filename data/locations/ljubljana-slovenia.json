@@ -1,0 +1,254 @@
+{
+  "id": "ljubljana-slovenia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/77419/Average-Weather-in-Ljubljana-Slovenia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "region": "Central Slovenia",
+  "desc": "Ljubljana is a relaxed, river-centered capital with a pedestrian old town, strong café culture, and easy access to alpine and karst day trips, making it one of Europe's easiest compact city breaks. Demand peaks in summer and holiday windows, while late spring and early autumn usually deliver the best balance of weather, atmosphere, and accommodation value.",
+  "hls": [
+    "Car-free old town along the Ljubljanica river",
+    "Castle hill views above a compact historic core",
+    "Excellent café culture and market-to-table dining",
+    "Easy day trips to Lake Bled, caves, and alpine valleys",
+    "Strong value versus many Western European capitals",
+    "Highly walkable with good regional transport links"
+  ],
+  "todo": [
+    {
+      "name": "Ljubljana Castle and old-town loop",
+      "cat": "Heritage",
+      "desc": "Ride or walk up to the castle, then explore river bridges and baroque streets below."
+    },
+    {
+      "name": "Triple Bridge and Central Market",
+      "cat": "City life",
+      "desc": "Use the riverside market zone for local food, architecture, and people-watching."
+    },
+    {
+      "name": "Metelkova + creative districts",
+      "cat": "Culture",
+      "desc": "See Ljubljana's alternative art and nightlife areas beyond the postcard core."
+    },
+    {
+      "name": "Tivoli Park walk",
+      "cat": "Nature in city",
+      "desc": "Take an easy green break with gallery stops and wide promenades near the center."
+    },
+    {
+      "name": "Lake Bled day trip",
+      "cat": "Day trip",
+      "desc": "Do a full or half day at Slovenia's best-known alpine lake and viewpoints."
+    },
+    {
+      "name": "Postojna Cave & Predjama",
+      "cat": "Day trip",
+      "desc": "Pair the major karst cave complex with the dramatic cliffside castle nearby."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "90–220 Mbps",
+      "note": "Strong, consistent connectivity in central stays, cafés, and coworking options."
+    },
+    "directGW": false,
+    "fltNote": "No stable year-round nonstop Gatwick-Ljubljana schedule; UK trips usually connect via major European hubs. Typical return fares are around £90-£180 off-peak, £180-£280 in shoulder demand, and £280+ during summer and December holiday peaks.",
+    "airports": [
+      {
+        "name": "Ljubljana Jože Pučnik Airport",
+        "code": "LJU",
+        "km": 26,
+        "dgw": false
+      },
+      {
+        "name": "Trieste Airport",
+        "code": "TRS",
+        "km": 126,
+        "dgw": false
+      },
+      {
+        "name": "Zagreb Airport",
+        "code": "ZAG",
+        "km": 145,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Slovene",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Slovenia is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
+    "bestFor": [
+      "Compact capital city breaks",
+      "Food and café trips",
+      "Car-free weekend itineraries",
+      "Alpine + city combinations",
+      "Shoulder-season Europe travel"
+    ],
+    "alerts": [
+      "Summer weekends can push up central hotel rates, especially when paired with Bled-focused itineraries.",
+      "Autumn is wetter; pack rain layers for both city walks and day trips.",
+      "Popular cave and lake excursions can sell out in peak season without advance booking."
+    ]
+  },
+  "sweet": "May-June and September are generally the best all-round months for comfortable weather, active riverside atmosphere, and better value than peak summer weeks.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 0,
+      "hi": 4,
+      "lo": -3,
+      "daylight": 9.1,
+      "cld": 56,
+      "rain": 36,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 6,
+      "lo": -3,
+      "daylight": 10.4,
+      "cld": 55,
+      "rain": 41,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 11,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 56,
+      "rain": 51,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 10,
+      "hi": 16,
+      "lo": 5,
+      "daylight": 13.6,
+      "cld": 55,
+      "rain": 64,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 15.0,
+      "cld": 52,
+      "rain": 74,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 15.7,
+      "cld": 43,
+      "rain": 84,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 21,
+      "hi": 27,
+      "lo": 14,
+      "daylight": 15.3,
+      "cld": 31,
+      "rain": 71,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 20,
+      "hi": 26,
+      "lo": 14,
+      "daylight": 14.1,
+      "cld": 33,
+      "rain": 76,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 12.5,
+      "cld": 43,
+      "rain": 97,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 10.9,
+      "cld": 54,
+      "rain": 97,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 5,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 9.4,
+      "cld": 62,
+      "rain": 81,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 4,
+      "lo": -2,
+      "daylight": 8.7,
+      "cld": 60,
+      "rain": 56,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

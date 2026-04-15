@@ -1,0 +1,254 @@
+{
+  "id": "zakynthos-greece",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/150400/Average-Weather-in-Zakynthos-Greece-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Zakynthos",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "desc": "Zakynthos is a classic Ionian summer island with turquoise coves, boat-access cliffs, and resort towns that scale sharply by season. Visitor pressure and prices peak in July-August, while May-June and September are usually the strongest value months for warm sea conditions and more manageable crowd levels.",
+  "hls": [
+    "Iconic Navagio (Shipwreck) coast scenery",
+    "Warm Ionian swimming season from late spring",
+    "Mix of quiet villages and lively resort strips",
+    "Boat trips to caves, bays, and offshore viewpoints",
+    "Good shoulder-season value versus peak summer",
+    "Family, couple, and nightlife options in one island"
+  ],
+  "todo": [
+    {
+      "name": "Navagio viewpoint and coast cruise",
+      "cat": "Scenic",
+      "desc": "Combine clifftop viewpoints with a licensed boat route to key west-coast bays."
+    },
+    {
+      "name": "Blue Caves boat trip",
+      "cat": "Water activity",
+      "desc": "Take a small-boat excursion for sea caves, clear-water stops, and coastal photography."
+    },
+    {
+      "name": "Keri Lighthouse sunset",
+      "cat": "Viewpoint",
+      "desc": "Head to the southwest cliffs for sunset panoramas over sea arches and open Ionian water."
+    },
+    {
+      "name": "Laganas Bay turtle area",
+      "cat": "Nature",
+      "desc": "Explore marine-protected zones with responsible tour operators and seasonal guidance."
+    },
+    {
+      "name": "Old village and inland tavernas",
+      "cat": "Culture & food",
+      "desc": "Spend an evening inland for traditional tavernas beyond the beachfront strips."
+    },
+    {
+      "name": "North-coast beach circuit",
+      "cat": "Beach day",
+      "desc": "Use a car route to sample smaller coves and viewpoints away from busiest hubs."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35–110 Mbps",
+      "note": "Usually reliable in resorts and town accommodations, with occasional peak-season congestion."
+    },
+    "directGW": false,
+    "fltNote": "No stable year-round Gatwick-Zakynthos schedule; UK access is mostly seasonal nonstop capacity plus one-stop shoulder options. Typical return fares are around £80-£170 in shoulder/off-peak, £170-£300 in core season, and £300+ during peak summer school-holiday windows.",
+    "airports": [
+      {
+        "name": "Zakynthos International Airport",
+        "code": "ZTH",
+        "km": 5,
+        "dgw": false
+      },
+      {
+        "name": "Kefalonia International Airport",
+        "code": "EFL",
+        "km": 56,
+        "dgw": false
+      },
+      {
+        "name": "Athens International Airport",
+        "code": "ATH",
+        "km": 270,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Greek",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Greece is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
+    "bestFor": [
+      "Summer beach holidays",
+      "Boat-and-coastline trips",
+      "Family resort stays",
+      "Couples on shoulder season dates",
+      "Warm-weather Mediterranean breaks"
+    ],
+    "alerts": [
+      "July-August can bring heavy traffic and parking pressure near major viewpoints and ports.",
+      "Sea state can cancel or reroute smaller boat tours on exposed coast days.",
+      "Nightlife-heavy areas can be noisy at peak season; choose base location carefully."
+    ]
+  },
+  "sweet": "May-June and September are typically the best all-round months for warm sea temperatures, lower crowding, and better accommodation value than midsummer peaks.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 11,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 9.9,
+      "cld": 42,
+      "rain": 84,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 11,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 10.8,
+      "cld": 42,
+      "rain": 76,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 12,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 12.0,
+      "cld": 38,
+      "rain": 53,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 15,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 13.2,
+      "cld": 34,
+      "rain": 33,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 14.2,
+      "cld": 27,
+      "rain": 23,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 29,
+      "lo": 17,
+      "daylight": 14.7,
+      "cld": 13,
+      "rain": 10,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 32,
+      "lo": 20,
+      "daylight": 14.5,
+      "cld": 2,
+      "rain": 5,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 27,
+      "hi": 32,
+      "lo": 20,
+      "daylight": 13.5,
+      "cld": 6,
+      "rain": 10,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 23,
+      "hi": 28,
+      "lo": 17,
+      "daylight": 12.4,
+      "cld": 21,
+      "rain": 36,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 19,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 11.2,
+      "cld": 37,
+      "rain": 76,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 15,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 10.1,
+      "cld": 43,
+      "rain": 112,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 9.6,
+      "cld": 44,
+      "rain": 107,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dubai-uae",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/105470/Average-Weather-in-Dubai-United-Arab-Emirates-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Dubai Emirate",
+  "desc": "Dubai is a high-energy Gulf hub mixing iconic skyline attractions, beaches, shopping, and resort infrastructure with strong winter-season demand. November-March is the core comfort and peak-demand window, while late spring through early autumn is much hotter but can bring significant accommodation value outside holiday periods.",
+  "hls": [
+    "Landmark skyline and mega-attraction city breaks",
+    "Excellent winter sun accessibility from Europe",
+    "Wide range from luxury resorts to budget hotels",
+    "Strong family entertainment and dining breadth",
+    "Beach, desert, and urban experiences in one destination",
+    "High-capacity airport and transit infrastructure"
+  ],
+  "todo": [
+    {
+      "name": "Burj Khalifa and Downtown district",
+      "cat": "Landmark",
+      "desc": "Visit observation decks and surrounding promenades in Dubai's core skyline zone."
+    },
+    {
+      "name": "Old Dubai souks and creek",
+      "cat": "Culture",
+      "desc": "Explore spice/gold souks, traditional quarters, and short creek crossings."
+    },
+    {
+      "name": "Desert safari evening",
+      "cat": "Outdoor",
+      "desc": "Take a licensed operator trip for dunes, sunset stops, and camp-style dining."
+    },
+    {
+      "name": "Dubai Marina and JBR walk",
+      "cat": "City life",
+      "desc": "Use waterfront promenades for evening dining and skyline views."
+    },
+    {
+      "name": "Beach day at Kite or La Mer area",
+      "cat": "Beach",
+      "desc": "Pair city sightseeing with a beach segment in cooler months."
+    },
+    {
+      "name": "Day trip to Abu Dhabi",
+      "cat": "Day trip",
+      "desc": "Visit Sheikh Zayed Grand Mosque and Louvre Abu Dhabi on a full-day route."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "120–320 Mbps",
+      "note": "Very strong hotel and apartment connectivity across most business and leisure districts."
+    },
+    "directGW": true,
+    "fltNote": "Gatwick-Dubai is served year-round with frequent nonstop capacity. Typical return fares are around £280-£450 in hotter off-peak periods, £450-£700 in shoulder demand, and £700+ in Christmas/New Year and prime winter-sun windows.",
+    "airports": [
+      {
+        "name": "Dubai International Airport",
+        "code": "DXB",
+        "km": 9,
+        "dgw": true
+      },
+      {
+        "name": "Al Maktoum International Airport",
+        "code": "DWC",
+        "km": 45,
+        "dgw": false
+      },
+      {
+        "name": "Abu Dhabi International Airport",
+        "code": "AUH",
+        "km": 105,
+        "dgw": true
+      }
+    ],
+    "currency": "UAE dirham (AED)",
+    "lang": "Arabic (English widely used)",
+    "tz": "GST (UTC+4)",
+    "visa": "UK and US passport holders can generally enter the UAE for short tourist stays visa-on-arrival; always confirm current passport-validity and entry conditions before travel.",
+    "bestFor": [
+      "Winter sun trips",
+      "Luxury city breaks",
+      "Family holidays",
+      "Shopping and dining",
+      "Stopover itineraries"
+    ],
+    "alerts": [
+      "Heat and humidity are intense from May to September; plan outdoor activity timing carefully.",
+      "Major trade fairs and holiday periods can sharply increase hotel and flight pricing.",
+      "Transport times rise during peak commuting windows despite strong road and metro networks."
+    ]
+  },
+  "sweet": "November-March is best for outdoor comfort; April and October can offer good value between peak winter demand and extreme summer heat.",
+  "months": [
+    {"m": "Jan", "avg": 19, "hi": 24, "lo": 14, "daylight": 10.8, "cld": 22, "rain": 15, "busy": 9, "ac": 5, "fl": 5},
+    {"m": "Feb", "avg": 20, "hi": 26, "lo": 15, "daylight": 11.3, "cld": 22, "rain": 15, "busy": 9, "ac": 5, "fl": 5},
+    {"m": "Mar", "avg": 23, "hi": 29, "lo": 18, "daylight": 12.0, "cld": 27, "rain": 13, "busy": 8, "ac": 4, "fl": 4},
+    {"m": "Apr", "avg": 27, "hi": 34, "lo": 21, "daylight": 12.8, "cld": 27, "rain": 5, "busy": 7, "ac": 4, "fl": 4},
+    {"m": "May", "avg": 31, "hi": 38, "lo": 24, "daylight": 13.4, "cld": 16, "rain": 0, "busy": 4, "ac": 2, "fl": 3},
+    {"m": "Jun", "avg": 33, "hi": 40, "lo": 27, "daylight": 13.7, "cld": 25, "rain": 3, "busy": 3, "ac": 2, "fl": 2},
+    {"m": "Jul", "avg": 35, "hi": 41, "lo": 29, "daylight": 13.5, "cld": 46, "rain": 0, "busy": 2, "ac": 1, "fl": 1},
+    {"m": "Aug", "avg": 35, "hi": 41, "lo": 30, "daylight": 13.0, "cld": 38, "rain": 0, "busy": 2, "ac": 1, "fl": 1},
+    {"m": "Sep", "avg": 33, "hi": 38, "lo": 27, "daylight": 12.3, "cld": 18, "rain": 0, "busy": 3, "ac": 2, "fl": 2},
+    {"m": "Oct", "avg": 29, "hi": 35, "lo": 23, "daylight": 11.5, "cld": 10, "rain": 0, "busy": 6, "ac": 3, "fl": 3},
+    {"m": "Nov", "avg": 25, "hi": 31, "lo": 19, "daylight": 10.9, "cld": 18, "rain": 3, "busy": 8, "ac": 4, "fl": 4},
+    {"m": "Dec", "avg": 21, "hi": 26, "lo": 16, "daylight": 10.6, "cld": 22, "rain": 10, "busy": 10, "ac": 5, "fl": 5}
+  ]
+}

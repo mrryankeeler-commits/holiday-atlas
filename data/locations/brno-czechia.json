@@ -1,0 +1,254 @@
+{
+  "id": "brno-czechia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/81564/Average-Weather-in-Brno-Czechia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Brno",
+  "country": "Czechia",
+  "region": "South Moravia",
+  "desc": "Brno offers a compact, design-forward city break with strong café culture, modernist architecture, and Moravian wine access, but with lighter crowd pressure and lower prices than Prague. Demand is highest in late spring through early autumn and around major events, while winter is generally the cheapest period outside Christmas and New Year dates.",
+  "hls": [
+    "Lively old town with strong food and café scene",
+    "Villa Tugendhat and modernist architecture",
+    "Špilberk Castle and cathedral viewpoints",
+    "Excellent gateway to South Moravian wine towns",
+    "Good value compared with larger Central European capitals",
+    "Walkable center with strong rail links"
+  ],
+  "todo": [
+    {
+      "name": "Špilberk Castle and hill park",
+      "cat": "History",
+      "desc": "Visit the hilltop castle complex for exhibitions, fortifications, and broad city views."
+    },
+    {
+      "name": "Villa Tugendhat",
+      "cat": "Architecture",
+      "desc": "Tour the UNESCO-listed modernist villa; advance reservations are strongly recommended."
+    },
+    {
+      "name": "Cathedral of St. Peter and Paul",
+      "cat": "Landmark",
+      "desc": "Climb for views and explore the historic core around Zelný trh and Freedom Square."
+    },
+    {
+      "name": "Brno Underground",
+      "cat": "Culture",
+      "desc": "Explore the city's cellar and ossuary sites for a different side of Brno's history."
+    },
+    {
+      "name": "Moravian Karst and Macocha Gorge",
+      "cat": "Nature",
+      "desc": "Take a half-day trip north for cave systems, forest trails, and dramatic limestone scenery."
+    },
+    {
+      "name": "Mikulov wine day trip",
+      "cat": "Food & wine",
+      "desc": "Head to South Moravia for vineyards, cellar tastings, and small-town baroque streets."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "90–250 Mbps",
+      "note": "Very reliable in central hotels, apartments, and coworking spaces, with excellent mobile-data backup."
+    },
+    "directGW": false,
+    "fltNote": "No regular nonstop Gatwick-Brno route; most UK access is via Vienna or Prague, or one-stop flights to Brno. Return fares are often around £60-£130 off-peak, £130-£210 in shoulder demand, and £210+ around summer and December holiday peaks.",
+    "airports": [
+      {
+        "name": "Brno-Tuřany Airport",
+        "code": "BRQ",
+        "km": 10,
+        "dgw": false
+      },
+      {
+        "name": "Vienna International Airport",
+        "code": "VIE",
+        "km": 135,
+        "dgw": true
+      },
+      {
+        "name": "Václav Havel Airport Prague",
+        "code": "PRG",
+        "km": 210,
+        "dgw": true
+      }
+    ],
+    "currency": "Czech koruna (CZK)",
+    "lang": "Czech",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Czechia is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
+    "bestFor": [
+      "Lower-cost Central Europe breaks",
+      "Architecture and design",
+      "Food and wine weekends",
+      "Culture + nightlife",
+      "Rail-linked multi-city itineraries"
+    ],
+    "alerts": [
+      "Major conference and trade-fair dates can tighten hotel availability and raise prices quickly.",
+      "Villa Tugendhat and some specialist tours need advance booking in peak months.",
+      "Winter fog and occasional snow can slow regional road travel despite solid rail options."
+    ]
+  },
+  "sweet": "May-June and September are usually the best mix of pleasant weather, active city atmosphere, and better value than peak midsummer weekends.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -1,
+      "hi": 1,
+      "lo": -3,
+      "daylight": 8.8,
+      "cld": 61,
+      "rain": 13,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 0,
+      "hi": 3,
+      "lo": -3,
+      "daylight": 10.2,
+      "cld": 58,
+      "rain": 13,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 56,
+      "rain": 20,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 10,
+      "hi": 14,
+      "lo": 5,
+      "daylight": 13.8,
+      "cld": 52,
+      "rain": 28,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 15.4,
+      "cld": 49,
+      "rain": 48,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 16.2,
+      "cld": 45,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 20,
+      "hi": 24,
+      "lo": 14,
+      "daylight": 15.7,
+      "cld": 38,
+      "rain": 58,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 24,
+      "lo": 14,
+      "daylight": 14.3,
+      "cld": 39,
+      "rain": 48,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 15,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 12.5,
+      "cld": 46,
+      "rain": 43,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 10.7,
+      "cld": 54,
+      "rain": 28,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 7,
+      "lo": 1,
+      "daylight": 9.1,
+      "cld": 65,
+      "rain": 23,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 0,
+      "hi": 2,
+      "lo": -2,
+      "daylight": 8.3,
+      "cld": 64,
+      "rain": 15,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

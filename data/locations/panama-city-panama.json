@@ -1,0 +1,254 @@
+{
+  "id": "panama-city-panama",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/19385/Average-Weather-in-Panam%C3%A1-Panama-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Panama City",
+  "country": "Panama",
+  "region": "Pacific Panama",
+  "desc": "Panama City pairs a modern skyline with colonial Casco Viejo and easy Panama Canal access, making it one of Central Americas strongest urban stopovers. Dry-season months (roughly January-April) are generally best for city walking and excursions, while wetter months can still work with flexible planning.",
+  "hls": [
+    "Canal-zone history and engineering sites",
+    "Casco Viejo UNESCO district",
+    "Modern skyline and waterfront promenades",
+    "Gateway to rainforest and island day trips",
+    "Major regional air hub for multi-country routes",
+    "Good mix of business and leisure infrastructure"
+  ],
+  "todo": [
+    {
+      "name": "Miraflores locks visit",
+      "cat": "Landmark",
+      "desc": "Time your visit around vessel transit windows at the canal visitor center."
+    },
+    {
+      "name": "Casco Viejo walking route",
+      "cat": "Heritage",
+      "desc": "Explore restored streets, churches, and rooftop viewpoints."
+    },
+    {
+      "name": "Cinta Costera evening walk",
+      "cat": "City life",
+      "desc": "Use the waterfront for skyline views and sunset strolling."
+    },
+    {
+      "name": "Biomuseo and Amador Causeway",
+      "cat": "Culture",
+      "desc": "Pair canal/biogeography context with harbor-side cycling/walking."
+    },
+    {
+      "name": "Monkey Island or rainforest tour",
+      "cat": "Nature",
+      "desc": "Take a guided half-day into nearby tropical habitats."
+    },
+    {
+      "name": "Panama Canal Museum",
+      "cat": "Museum",
+      "desc": "Add historical context on trade and construction eras."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "60–170 Mbps",
+      "note": "Strong in central hotels and business districts; less consistent in fringe areas."
+    },
+    "directGW": false,
+    "fltNote": "No regular nonstop Gatwick-Panama City route; UK itineraries commonly connect via Madrid, Amsterdam, US, or Latin hubs.",
+    "airports": [
+      {
+        "name": "Tocumen International Airport",
+        "code": "PTY",
+        "km": 24,
+        "dgw": false
+      },
+      {
+        "name": "Albrook Gelabert Airport",
+        "code": "PAC",
+        "km": 7,
+        "dgw": false
+      },
+      {
+        "name": "Panamá Pacífico International Airport",
+        "code": "BLB",
+        "km": 15,
+        "dgw": false
+      }
+    ],
+    "currency": "Panamanian balboa (PAB) and US dollar (USD)",
+    "lang": "Spanish",
+    "tz": "EST (UTC-5)",
+    "visa": "UK and US passport holders can generally enter visa-free for short tourism stays, subject to onward-travel and document requirements.",
+    "bestFor": [
+      "Canal-focused stopovers",
+      "City + nature combinations",
+      "Business travel extensions",
+      "Regional flight connections",
+      "Short urban breaks"
+    ],
+    "alerts": [
+      "Rainy season can produce heavy afternoon downpours.",
+      "Urban traffic can be severe at rush hours; allow transfer buffers.",
+      "Humidity is high year-round."
+    ]
+  },
+  "sweet": "January-April is typically the best weather window for canal and city sightseeing.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 49,
+      "rain": 15,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 11.8,
+      "cld": 52,
+      "rain": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.1,
+      "cld": 58,
+      "rain": 10,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 28,
+      "hi": 32,
+      "lo": 25,
+      "daylight": 12.3,
+      "cld": 73,
+      "rain": 64,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.5,
+      "cld": 90,
+      "rain": 155,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 27,
+      "hi": 30,
+      "lo": 25,
+      "daylight": 12.6,
+      "cld": 94,
+      "rain": 173,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.6,
+      "cld": 95,
+      "rain": 152,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 12.4,
+      "cld": 95,
+      "rain": 160,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 93,
+      "rain": 175,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.9,
+      "cld": 89,
+      "rain": 190,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 79,
+      "rain": 180,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.6,
+      "cld": 58,
+      "rain": 84,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}
