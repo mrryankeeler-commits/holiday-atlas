@@ -1,5 +1,16 @@
 {
   "id": "goreme",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/98298/Average-Weather-in-G%C3%B6reme-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Göreme",
   "country": "Turkey",
   "region": "Straddling Europe & Asia",
