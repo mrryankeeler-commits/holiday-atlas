@@ -1,0 +1,254 @@
+{
+  "id": "kaunas-lithuania",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/90350/Average-Weather-in-Kaunas-Lithuania-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Kaunas",
+  "country": "Lithuania",
+  "region": "Central Lithuania",
+  "desc": "Kaunas is a compact Baltic city with interwar modernist architecture, riverfront walks, and a growing food-and-arts scene that feels less saturated than many capital-city breaks. Late spring to early autumn delivers the best weather and daylight, while winter can be excellent value for museums and short urban stays despite colder, cloudier conditions.",
+  "hls": [
+    "UNESCO-listed interwar modernist architecture",
+    "Compact old town around Town Hall Square",
+    "Confluence of the Neris and Nemunas rivers",
+    "Strong museums and contemporary culture venues",
+    "Lower crowd pressure than many Baltic capitals",
+    "Good value in shoulder and winter periods"
+  ],
+  "todo": [
+    {
+      "name": "Laisvės alėja + New Town modernism",
+      "cat": "Architecture",
+      "desc": "Walk Kaunas's modernist core to see key 1920s-30s buildings and design landmarks."
+    },
+    {
+      "name": "Old Town and Town Hall Square",
+      "cat": "Heritage",
+      "desc": "Explore Kaunas Castle area, historic churches, and riverside streets in the old center."
+    },
+    {
+      "name": "Nemunas & Neris confluence park",
+      "cat": "Scenic",
+      "desc": "Visit Santaka Park for river views and easy walking routes near the old town."
+    },
+    {
+      "name": "Čiurlionis National Art Museum",
+      "cat": "Museum",
+      "desc": "See Lithuania's major national art collections and works linked to M. K. Čiurlionis."
+    },
+    {
+      "name": "Ninth Fort Museum",
+      "cat": "History",
+      "desc": "Plan a dedicated visit to this important 20th-century memorial and museum complex."
+    },
+    {
+      "name": "Pažaislis Monastery and reservoir",
+      "cat": "Day trip",
+      "desc": "Combine baroque monastery architecture with lakeside walking in the Kaunas outskirts."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "70–180 Mbps",
+      "note": "Reliable in central accommodation and cafés; remote-work setup is usually straightforward."
+    },
+    "directGW": false,
+    "fltNote": "No regular nonstop Gatwick-Kaunas service; UK access is typically via Vilnius, Riga, or one-stop European routes. Typical return fares run around £60-£140 off-peak, £140-£220 in shoulder demand, and £220+ during peak summer and Christmas travel windows.",
+    "airports": [
+      {
+        "name": "Kaunas Airport",
+        "code": "KUN",
+        "km": 15,
+        "dgw": false
+      },
+      {
+        "name": "Vilnius Airport",
+        "code": "VNO",
+        "km": 100,
+        "dgw": true
+      },
+      {
+        "name": "Riga International Airport",
+        "code": "RIX",
+        "km": 270,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Lithuanian",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Lithuania is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
+    "bestFor": [
+      "Architecture and design trips",
+      "Lower-cost Baltic city breaks",
+      "Museum-focused weekends",
+      "Shoulder-season travel",
+      "Slow urban itineraries"
+    ],
+    "alerts": [
+      "Winters are cold and daylight is short; plan indoor attractions and layered clothing.",
+      "Peak summer weekends and festival dates increase central hotel prices and restaurant booking pressure.",
+      "Regional day trips are easier with a car outside core rail and bus corridors."
+    ]
+  },
+  "sweet": "May-June and August-September are typically the strongest balance of long days, comfortable temperatures, and manageable demand.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -3,
+      "hi": -1,
+      "lo": -6,
+      "daylight": 7.9,
+      "cld": 76,
+      "rain": 20,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -3,
+      "hi": 0,
+      "lo": -6,
+      "daylight": 9.7,
+      "cld": 73,
+      "rain": 18,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 1,
+      "hi": 5,
+      "lo": -3,
+      "daylight": 12.0,
+      "cld": 66,
+      "rain": 23,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "daylight": 14.2,
+      "cld": 57,
+      "rain": 30,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 18,
+      "lo": 7,
+      "daylight": 16.2,
+      "cld": 51,
+      "rain": 46,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 17.3,
+      "cld": 47,
+      "rain": 61,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "daylight": 16.7,
+      "cld": 44,
+      "rain": 66,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 14.8,
+      "cld": 46,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 12.6,
+      "cld": 53,
+      "rain": 46,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 7,
+      "hi": 11,
+      "lo": 4,
+      "daylight": 10.4,
+      "cld": 65,
+      "rain": 43,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 2,
+      "hi": 4,
+      "lo": 0,
+      "daylight": 8.4,
+      "cld": 76,
+      "rain": 36,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": 1,
+      "lo": -4,
+      "daylight": 7.3,
+      "cld": 77,
+      "rain": 25,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

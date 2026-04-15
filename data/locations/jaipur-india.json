@@ -1,0 +1,254 @@
+{
+  "id": "jaipur-india",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Jaipur",
+  "country": "India",
+  "region": "Rajasthan",
+  "desc": "Jaipur is one of Indias flagship heritage cities, known for forts, palace architecture, and dense artisan markets within a highly connected Golden Triangle route. The most comfortable season is roughly November-February, while pre-monsoon months are much hotter and monsoon weeks can affect day touring.",
+  "hls": [
+    "Amber Fort and hilltop heritage complexes",
+    "City Palace and Pink City architecture",
+    "Strong crafts, textiles, and gemstone markets",
+    "Golden Triangle connectivity (Delhi-Agra-Jaipur)",
+    "Vibrant food and culture scene",
+    "Large range of accommodation budgets"
+  ],
+  "todo": [
+    {
+      "name": "Amber Fort complex",
+      "cat": "Heritage",
+      "desc": "Plan an early visit to avoid peak heat and crowds at the main fort site."
+    },
+    {
+      "name": "City Palace + Jantar Mantar",
+      "cat": "History",
+      "desc": "Pair central royal architecture with the UNESCO observatory."
+    },
+    {
+      "name": "Hawa Mahal area walk",
+      "cat": "Landmark",
+      "desc": "Explore the Pink City facades and nearby bazaars on foot."
+    },
+    {
+      "name": "Johari/Bapu bazaar shopping",
+      "cat": "Culture",
+      "desc": "Browse textiles, jewelry, and crafts with fixed-time bargain discipline."
+    },
+    {
+      "name": "Nahargarh sunset viewpoint",
+      "cat": "Scenic",
+      "desc": "Use elevated fort viewpoints for late-day city panoramas."
+    },
+    {
+      "name": "Rajasthani dinner evening",
+      "cat": "Food",
+      "desc": "Book a reputable regional restaurant or cultural dinner venue."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35–110 Mbps",
+      "note": "Good in mid-range and premium hotels; patchier reliability in budget properties."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick-Jaipur service; UK itineraries usually connect via Delhi/Middle East hubs with domestic leg. Returns vary widely by season and connection choice.",
+    "airports": [
+      {
+        "name": "Jaipur International Airport",
+        "code": "JAI",
+        "km": 12,
+        "dgw": false
+      },
+      {
+        "name": "Indira Gandhi International Airport (Delhi)",
+        "code": "DEL",
+        "km": 280,
+        "dgw": false
+      },
+      {
+        "name": "Agra Airport",
+        "code": "AGR",
+        "km": 240,
+        "dgw": false
+      }
+    ],
+    "currency": "Indian rupee (INR)",
+    "lang": "Hindi (English widely used in tourism)",
+    "tz": "IST (UTC+5:30)",
+    "visa": "UK and US travelers generally require a valid Indian e-visa or visa before arrival.",
+    "bestFor": [
+      "Heritage city breaks",
+      "Golden Triangle itineraries",
+      "Architecture and photography",
+      "Food and market exploration",
+      "Winter-season travel"
+    ],
+    "alerts": [
+      "Heat can be extreme from April-June; schedule outdoor sightseeing early/late.",
+      "Traffic and travel times can be longer than expected; build buffers.",
+      "Monsoon showers can disrupt some day plans in July-September."
+    ]
+  },
+  "sweet": "November-February is usually best for comfort and full-day sightseeing.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 15,
+      "hi": 22,
+      "lo": 9,
+      "daylight": 10.7,
+      "cld": 16,
+      "rain": 5,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 18,
+      "hi": 25,
+      "lo": 12,
+      "daylight": 11.3,
+      "cld": 16,
+      "rain": 8,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 24,
+      "hi": 31,
+      "lo": 18,
+      "daylight": 12.0,
+      "cld": 22,
+      "rain": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 30,
+      "hi": 36,
+      "lo": 23,
+      "daylight": 12.8,
+      "cld": 19,
+      "rain": 8,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 33,
+      "hi": 39,
+      "lo": 27,
+      "daylight": 13.5,
+      "cld": 10,
+      "rain": 13,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 33,
+      "hi": 38,
+      "lo": 28,
+      "daylight": 13.8,
+      "cld": 21,
+      "rain": 43,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 30,
+      "hi": 34,
+      "lo": 26,
+      "daylight": 13.6,
+      "cld": 56,
+      "rain": 137,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 32,
+      "lo": 25,
+      "daylight": 13.0,
+      "cld": 56,
+      "rain": 140,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 33,
+      "lo": 24,
+      "daylight": 12.3,
+      "cld": 24,
+      "rain": 58,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 27,
+      "hi": 33,
+      "lo": 20,
+      "daylight": 11.5,
+      "cld": 8,
+      "rain": 13,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Nov",
+      "avg": 21,
+      "hi": 28,
+      "lo": 14,
+      "daylight": 10.8,
+      "cld": 11,
+      "rain": 3,
+      "busy": 9,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Dec",
+      "avg": 17,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 10.5,
+      "cld": 17,
+      "rain": 3,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}
