@@ -9,7 +9,11 @@
         "url": "https://weatherspark.com/y/83113/Average-Weather-in-Dubrovnik-Croatia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Dubrovnik",
   "country": "Croatia",
