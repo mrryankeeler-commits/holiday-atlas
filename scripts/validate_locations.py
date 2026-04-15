@@ -5,7 +5,8 @@ import argparse
 import json
 from pathlib import Path
 
-REQ = {"m", "avg", "hi", "lo", "sun", "cld", "rain", "rise", "set", "busy", "ac", "fl"}
+COMMON_REQ = {"m", "avg", "hi", "lo", "cld", "rain", "busy", "ac", "fl"}
+ALLOWED_KEYS = COMMON_REQ | {"sun", "daylight", "rise", "set"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -38,7 +39,10 @@ def main() -> None:
         months = data["months"]
         assert len(months) == 12, f"Expected 12 months in {file_path}"
         for row in months:
-            assert set(row.keys()) == REQ, f"Month schema mismatch in {file_path}: {set(row.keys())}"
+            keys = set(row.keys())
+            assert COMMON_REQ.issubset(keys), f"Missing required month keys in {file_path}: {COMMON_REQ - keys}"
+            assert ("sun" in keys) or ("daylight" in keys), f"Expected 'sun' or 'daylight' in {file_path}"
+            assert keys.issubset(ALLOWED_KEYS), f"Unexpected month keys in {file_path}: {keys - ALLOWED_KEYS}"
 
     print("validation OK")
 

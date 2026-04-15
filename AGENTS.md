@@ -33,6 +33,11 @@ Holiday Atlas is a static front-end app (`index.html`, `app.js`, `styles.css`) t
 - Every location file id matches filename
 - No duplicate ids
 
+### Month object climate schema
+- Climate fields: `m`, `avg`, `hi`, `lo`, `daylight`, `cld`, `rain`
+- Preserved scoring fields: `busy`, `ac`, `fl`
+- Do not generate `rise` or `set`
+
 ## Guardrails
 - Do not reintroduce a single monolithic destinations file.
 - Do not silently change schema; update this AGENTS.md when schema changes.
