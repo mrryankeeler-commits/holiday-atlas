@@ -114,6 +114,7 @@ Each CSV row should represent one month and include:
 - Existing non-climate month scoring fields (`busy`, `ac`, `fl`) are preserved unless `--allow-score-overrides` is provided.
 - When `--create-missing` is used for a new location, the importer estimates initial `busy`, `ac`, and `fl` values from climate seasonality and conditions.
 - Unknown locations can be staged under a pending folder (`--stage-unknown-dir`) so they are stored but not displayed in-app.
+- Staged payloads may include a `source` field for import provenance; treat it as internal metadata and never surface it in destination UI.
 - The importer does not generate `rise` or `set`.
 
 ### Month schema (documented fields)

@@ -388,6 +388,7 @@ def _stage_unknown_location(
     city, country = _parse_location_fields(first, args)
     payload = {
         "id": _slugify(unresolved_id),
+        # Keep provenance for staged records; this metadata is internal and not rendered in UI.
         "source": str(source_file),
         "city": city,
         "country": country,
