@@ -34,8 +34,8 @@ Holiday Atlas is a static front-end app (`index.html`, `app.js`, `styles.css`) t
 - No duplicate ids
 
 ### Month object climate schema
-- Climate fields: `m`, `avg`, `hi`, `lo`, `daylight`, `cld`, `rain`
-- Preserved scoring fields: `busy`, `ac`, `fl`
+- Required month keys (exact): `m`, `avg`, `hi`, `lo`, `daylight`, `cld`, `rain`, `busy`, `ac`, `fl`
+- `daylight` is the only daylight-hours key (do not use `sun`)
 - Do not generate `rise` or `set`
 
 ## Guardrails

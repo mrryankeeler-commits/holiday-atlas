@@ -100,6 +100,9 @@ Each CSV row should represent one month and include:
 
 ### Month schema (documented fields)
 
+Validator contract: month objects must use exactly these keys (including scoring), `daylight` replaces any legacy `sun` key, and `rise`/`set` are not allowed.
+
+
 ```json
 {
   "m": "Jan",
