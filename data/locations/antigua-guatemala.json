@@ -1,5 +1,17 @@
 {
   "id": "antigua-guatemala",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/11700/Average-Weather-in-Antigua-Guatemala-Guatemala-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "note": "Internal provenance metadata for climate verification; not rendered in the UI."
+  },
   "city": "Antigua",
   "country": "Guatemala",
   "region": "Sacatepéquez, Guatemalan Highlands",
