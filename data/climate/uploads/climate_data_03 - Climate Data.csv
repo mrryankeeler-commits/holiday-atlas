@@ -1,0 +1,133 @@
+Requested location,Proxy source location,Month,Avg temp (°C),Avg high (°C),Avg low (°C),Daylight (h/day),Cloud cover (%),Rainfall (mm),Source URL
+"Zermatt, Switzerland","Pian Rosa, Italy",Jan,-8.9,-5.6,-11.7,9.1,47,0.0,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Feb,-8.9,-6.1,-11.7,10.4,47,0.0,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Mar,-7.2,-4.4,-10.0,12.0,50,0.0,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Apr,-4.4,-1.7,-7.2,13.6,55,2.5,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",May,-0.6,2.2,-3.3,15.0,59,27.9,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Jun,2.8,5.6,0.0,15.7,49,53.3,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Jul,5.6,8.3,2.8,15.3,37,58.4,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Aug,5.6,7.8,2.8,14.0,40,58.4,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Sep,2.8,5.0,0.6,12.5,48,48.3,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Oct,0.0,1.7,-2.2,10.9,54,27.9,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Nov,-4.4,-2.2,-6.7,9.4,52,7.6,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Zermatt, Switzerland","Pian Rosa, Italy",Dec,-7.2,-5.0,-10.0,8.7,48,2.5,https://weatherspark.com/y/148070/Average-Weather-at-Pian-Rosa-Italy-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Jan,5.6,10.6,1.7,9.5,52,119.4,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Feb,6.1,11.1,2.2,10.6,52,127.0,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Mar,8.9,13.9,4.4,12.0,52,106.7,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Apr,12.8,17.8,7.8,13.4,49,99.1,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",May,17.2,22.2,11.7,14.6,43,68.6,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Jun,21.1,26.7,15.6,15.2,27,45.7,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Jul,24.4,30.0,17.8,14.9,14,27.9,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Aug,23.9,29.4,17.8,13.8,18,40.6,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Sep,19.4,25.0,14.4,12.4,32,91.4,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Oct,15.0,20.6,10.6,11.0,45,124.5,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Nov,10.6,15.0,6.1,9.8,52,157.5,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Kotor, Montenegro","Prčanj, Montenegro",Dec,6.7,11.1,2.8,9.1,53,142.2,https://weatherspark.com/y/83121/Average-Weather-in-Pr%C4%8Danj-Montenegro-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Jan,26.7,28.3,25.0,11.7,63,121.9,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Feb,27.2,28.9,25.0,11.9,59,71.1,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Mar,28.3,30.6,26.1,12.1,59,53.3,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Apr,29.4,31.7,26.7,12.3,73,76.2,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",May,30.0,32.8,27.2,12.5,84,71.1,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Jun,30.6,33.9,27.2,12.5,88,40.6,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Jul,30.0,33.3,26.7,12.5,89,38.1,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Aug,29.4,32.8,26.7,12.3,87,38.1,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Sep,28.9,32.2,26.1,12.2,83,66.0,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Oct,28.3,30.6,25.6,12.0,80,142.2,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Nov,27.2,29.4,25.0,11.8,77,210.8,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Pottuvil, Sri Lanka","Kalmunai, Sri Lanka",Dec,26.7,28.3,25.0,11.7,69,195.6,https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round
+"Meteora, Greece","Kastráki, Greece",Jan,4.4,8.9,0.6,9.7,47,40.6,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Feb,5.6,10.6,1.7,10.7,48,40.6,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Mar,8.9,13.9,3.9,12.0,47,38.1,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Apr,12.8,18.9,7.2,13.3,43,33.0,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",May,17.8,23.9,11.1,14.4,36,27.9,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Jun,22.8,29.4,15.6,14.9,20,17.8,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Jul,25.6,32.8,17.8,14.6,8,12.7,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Aug,25.0,32.2,17.2,13.7,11,17.8,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Sep,20.6,27.2,13.9,12.4,26,33.0,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Oct,15.0,21.1,9.4,11.1,42,58.4,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Nov,9.4,14.4,5.0,10.0,49,68.6,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Meteora, Greece","Kastráki, Greece",Dec,5.0,9.4,1.7,9.4,50,58.4,https://weatherspark.com/y/86709/Average-Weather-in-Kastr%C3%A1ki-Greece-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Jan,-5.6,-2.2,-8.9,8.7,65,7.6,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Feb,-4.4,-0.6,-8.3,10.2,67,7.6,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Mar,-0.6,3.9,-4.4,12.0,63,17.8,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Apr,5.0,10.0,0.0,13.8,58,38.1,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",May,10.0,15.0,4.4,15.4,55,78.7,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Jun,12.8,17.8,7.2,16.2,50,96.5,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Jul,15.0,20.0,8.9,15.7,42,101.6,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Aug,14.4,19.4,8.3,14.3,42,81.3,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Sep,10.0,15.0,5.0,12.5,53,66.0,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Oct,5.0,10.0,0.6,10.7,59,43.2,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Nov,0.0,3.3,-3.3,9.1,67,22.9,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Zakopane, Poland","Zakopane, Poland",Dec,-4.4,-1.1,-7.2,8.3,67,10.2,https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Jan,27.8,30.6,25.6,12.4,73,40.6,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Feb,27.8,30.6,25.6,12.3,73,40.6,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Mar,27.8,30.6,25.6,12.1,72,83.8,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Apr,27.2,29.4,25.0,12.0,62,160.0,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",May,26.7,28.9,25.0,11.8,44,114.3,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Jun,25.6,27.8,23.3,11.8,35,22.9,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Jul,24.4,27.2,22.2,11.8,27,7.6,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Aug,23.9,27.2,21.7,11.9,23,5.1,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Sep,24.4,27.2,21.7,12.1,27,5.1,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Oct,25.6,28.3,22.2,12.3,41,20.3,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Nov,26.1,28.9,23.9,12.4,48,48.3,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Makunduchi, Tanzania","Sokoni, Tanzania",Dec,27.8,30.0,25.0,12.5,62,55.9,https://weatherspark.com/y/101114/Average-Weather-in-Sokoni-Tanzania-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Jan,14.4,21.1,10.0,10.7,11,2.5,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Feb,16.1,23.3,11.1,11.3,11,7.6,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Mar,20.0,27.8,14.4,12.0,14,12.7,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Apr,23.9,30.6,18.3,12.8,17,38.1,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",May,25.6,31.7,21.1,13.5,18,73.7,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Jun,27.2,31.7,23.3,13.8,50,167.6,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Jul,26.7,30.0,23.9,13.6,82,279.4,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Aug,26.1,29.4,23.3,13.1,83,221.0,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Sep,25.0,28.3,22.2,12.3,60,144.8,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Oct,22.2,26.7,18.9,11.5,20,43.2,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Nov,18.9,24.4,15.0,10.8,10,5.1,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Darjeeling, India","Naya Bāzār, Sikkim, India",Dec,15.6,22.2,11.7,10.5,12,2.5,https://weatherspark.com/y/111639/Average-Weather-in-Naya-B%C4%81z%C4%81r-Sikkim-India-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Jan,11.7,21.1,3.9,10.7,21,2.5,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Feb,13.3,22.8,5.0,11.3,21,2.5,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Mar,17.2,26.1,8.3,12.0,22,2.5,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Apr,21.7,30.6,12.8,12.8,23,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",May,25.6,33.9,17.2,13.5,19,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Jun,28.3,36.1,19.4,13.8,5,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Jul,29.4,37.8,21.1,13.6,12,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Aug,30.0,37.8,21.7,13.0,10,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Sep,27.8,35.6,19.4,12.3,6,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Oct,23.9,31.7,15.6,11.5,14,0.0,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Nov,17.8,26.7,10.0,10.8,24,2.5,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Hegra, Saudi Arabia","Al-`Ula, Saudi Arabia",Dec,13.3,22.2,5.6,10.5,27,2.5,https://weatherspark.com/y/100173/Average-Weather-in-Al-%60Ula-Saudi-Arabia-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Jan,15.0,20.6,10.6,15.1,48,124.5,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Feb,15.0,20.6,10.6,13.9,46,104.1,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Mar,12.8,17.8,8.9,12.3,48,109.2,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Apr,10.0,14.4,6.7,10.8,54,99.1,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",May,7.2,10.6,4.4,9.5,58,109.2,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Jun,4.4,7.8,2.2,8.9,55,106.7,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Jul,3.3,7.2,1.7,9.2,53,86.4,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Aug,5.0,8.9,2.8,10.3,52,94.0,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Sep,7.2,11.7,3.9,11.8,50,96.5,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Oct,8.9,14.4,5.6,13.4,49,111.8,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Nov,11.1,16.7,7.2,14.8,49,111.8,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Tekapo, New Zealand","Wanaka, New Zealand",Dec,13.3,18.9,8.9,15.5,51,129.5,https://weatherspark.com/y/144803/Average-Weather-in-Wanaka-New-Zealand-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Jan,27.2,30.0,25.0,12.1,86,119.4,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Feb,27.2,30.0,25.0,12.1,83,127.0,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Mar,27.2,30.0,25.0,12.1,81,142.2,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Apr,27.2,30.0,25.0,12.1,81,165.1,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",May,27.2,30.0,25.0,12.1,80,203.2,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Jun,26.7,29.4,24.4,12.1,83,223.5,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Jul,26.7,28.9,24.4,12.1,82,215.9,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Aug,26.7,29.4,24.4,12.1,80,190.5,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Sep,26.7,29.4,24.4,12.1,81,160.0,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Oct,27.2,30.0,25.0,12.1,82,137.2,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Nov,27.2,30.0,25.0,12.1,84,132.1,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Waigeo, Indonesia","Saonek, Indonesia",Dec,27.2,30.0,25.0,12.1,86,129.5,https://weatherspark.com/y/142860/Average-Weather-in-Saonek-Indonesia-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Jan,27.2,28.9,25.0,11.5,64,45.7,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Feb,27.2,28.9,25.0,11.8,58,30.5,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Mar,27.8,30.0,25.6,12.1,58,30.5,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Apr,28.9,31.1,26.7,12.4,68,48.3,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",May,28.9,31.1,26.7,12.7,86,139.7,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Jun,28.3,30.6,26.1,12.8,92,276.9,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Jul,27.8,30.0,26.1,12.7,93,317.5,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Aug,27.8,30.0,26.1,12.5,93,307.3,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Sep,27.8,30.0,25.6,12.2,92,274.3,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Oct,27.8,30.0,25.6,11.9,87,256.5,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Nov,28.3,30.6,26.1,11.6,80,175.3,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
+"Malay, Philippines","Caticlan, Philippines",Dec,27.8,29.4,25.6,11.4,70,114.3,https://weatherspark.com/y/136508/Average-Weather-in-Caticlan-Philippines-Year-Round
