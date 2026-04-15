@@ -186,6 +186,12 @@
     "region": "Northern Vietnam"
   },
   {
+    "id": "hegra-saudi-arabia",
+    "city": "Hegra",
+    "country": "Saudi Arabia",
+    "region": "AlUla, Al Madinah Region"
+  },
+  {
     "id": "hurghada",
     "city": "Hurghada",
     "country": "Egypt",
@@ -256,6 +262,12 @@
     "city": "Makunduchi",
     "country": "Tanzania",
     "region": "Zanzibar"
+  },
+  {
+    "id": "malay-philippines",
+    "city": "Malay",
+    "country": "Philippines",
+    "region": "Aklan (Boracay gateway)"
   },
   {
     "id": "marrakech",
@@ -414,6 +426,12 @@
     "region": "South Caucasus"
   },
   {
+    "id": "tekapo-new-zealand",
+    "city": "Tekapo",
+    "country": "New Zealand",
+    "region": "Canterbury"
+  },
+  {
     "id": "tirana",
     "city": "Tirana",
     "country": "Albania",
@@ -460,6 +478,12 @@
     "city": "Vienna",
     "country": "Austria",
     "region": "Eastern Austria"
+  },
+  {
+    "id": "waigeo-indonesia",
+    "city": "Waigeo",
+    "country": "Indonesia",
+    "region": "Raja Ampat, Southwest Papua"
   },
   {
     "id": "zakopane",
