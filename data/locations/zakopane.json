@@ -3,7 +3,7 @@
   "source": {
     "climateVerified": false,
     "climateVerifiedOn": "",
-    "climateVerificationNote": "No exact climate source mapping has been confirmed yet for this location.",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
     "importedFromCsv": ""
   },
