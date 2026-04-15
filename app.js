@@ -1,5 +1,7 @@
 let INDEX = [];
 const LOC_CACHE = {};
+let locRailScrollLeft = 0;
+let lastSidebarLoc = null;
 
 let S = {
   loc: null,
@@ -23,6 +25,11 @@ const normalizeSearchText = value => String(value ?? "")
   .toLowerCase();
 
 function rSidebar() {
+  const locListEl = document.getElementById("loc-list");
+  const isMobile = window.matchMedia("(max-width: 900px)").matches;
+  const selectedChanged = lastSidebarLoc !== S.loc;
+  const priorRailScroll = isMobile && locListEl ? locListEl.scrollLeft : locRailScrollLeft;
+
   const query = normalizeSearchText(S.query);
   const filtered = INDEX.filter(l => {
     if (!query) return true;
@@ -39,7 +46,7 @@ function rSidebar() {
   `
     : "";
 
-  document.getElementById("loc-list").innerHTML = filtered.map(l => `
+  locListEl.innerHTML = filtered.map(l => `
     <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${l.id}')">
       <span class="loc-city">${l.city}</span>
       <span class="loc-ctry">${l.country}</span>
@@ -53,14 +60,28 @@ function rSidebar() {
   document.getElementById("dest-count").textContent = query
     ? `${filtered.length} of ${INDEX.length} destinations`
     : `${INDEX.length} destinations`;
-  scrollActiveLocIntoView();
+
+  if (isMobile) {
+    if (selectedChanged) {
+      scrollActiveLocIntoView();
+    } else {
+      locListEl.scrollLeft = priorRailScroll;
+      locRailScrollLeft = priorRailScroll;
+    }
+  }
+
+  lastSidebarLoc = S.loc;
 }
 
 function scrollActiveLocIntoView() {
   if (!window.matchMedia("(max-width: 900px)").matches) return;
+  const rail = document.getElementById("loc-list");
   const activeBtn = document.querySelector("#loc-list .loc-btn.active");
-  if (!activeBtn) return;
+  if (!activeBtn || !rail) return;
   activeBtn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+  window.setTimeout(() => {
+    locRailScrollLeft = rail.scrollLeft;
+  }, 250);
 }
 
 function rMain() {
@@ -591,6 +612,12 @@ async function init() {
     }
 
     S.loc = INDEX[0].id;
+    const locListEl = document.getElementById("loc-list");
+    if (locListEl) {
+      locListEl.addEventListener("scroll", () => {
+        locRailScrollLeft = locListEl.scrollLeft;
+      }, { passive: true });
+    }
     rSidebar();
 
     try {
