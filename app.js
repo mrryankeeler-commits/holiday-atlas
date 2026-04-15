@@ -35,7 +35,11 @@ function rMain() {
       <div class="loc-meta">${L.country} &middot; ${L.region}</div>
       <div class="tags">
         ${L.prac.directGW ? '<span class="tag g">✓ Direct from Gatwick</span>' : '<span class="tag w">✗ No direct Gatwick flight</span>'}
-        ${L.source?.climateVerified ? '<span class="tag g">✓ Climate verified</span>' : ""}
+        ${L.source?.climateVerified
+          ? '<span class="tag g">✓ Climate verified</span>'
+          : (L.source?.climate?.length || L.source?.climateVerificationNote)
+            ? '<span class="tag w">⚠ Climate unverified</span>'
+            : ""}
         <span class="tag">${L.prac.visa}</span>
         <span class="tag">${L.prac.currency}</span>
       </div>
@@ -84,6 +88,8 @@ function rClimate(L) {
   const verifiedOn = L.source?.climateVerifiedOn ? ` (${L.source.climateVerifiedOn})` : "";
   const verificationNote = L.source?.climateVerified
     ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">✓ Climate data verified via ${verifiedLabel}${verifiedOn}</div>`
+    : (climateSources.length || L.source?.climateVerificationNote)
+      ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">⚠ Climate data not yet verified${L.source?.climateVerificationNote ? ` — ${L.source.climateVerificationNote}` : ""}</div>`
     : "";
 
   return `
@@ -454,6 +460,7 @@ function sanitizeLocation(loc) {
     source: {
       climateVerified: Boolean(loc.source?.climateVerified),
       climateVerifiedOn: loc.source?.climateVerifiedOn ?? "",
+      climateVerificationNote: loc.source?.climateVerificationNote ?? "",
       climate: Array.isArray(loc.source?.climate)
         ? loc.source.climate.map(s => ({
             name: s?.name ?? "",
