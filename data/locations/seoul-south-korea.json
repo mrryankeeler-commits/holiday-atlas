@@ -1,0 +1,65 @@
+{
+  "id": "seoul-south-korea",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [{"name": "WeatherSpark", "url": "https://weatherspark.com/y/142033/Average-Weather-in-Seoul-South-Korea-Year-Round"}],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {"reviewedOn": "2026-04-15", "profile": "seasonality-inference-v1"}
+  },
+  "city": "Seoul",
+  "country": "South Korea",
+  "region": "Seoul Capital Area",
+  "desc": "Seoul is a major East Asian capital balancing palace heritage, dense food culture, shopping districts, and high-tech urban convenience. Spring and autumn are generally the strongest comfort seasons, while summer monsoon months are hot/wet and winter is colder but often clear and comparatively good value outside holiday peaks.",
+  "hls": [
+    "Palace districts and modern skyline contrast",
+    "Exceptional food range from street stalls to fine dining",
+    "Efficient metro-led city mobility",
+    "Strong shopping, nightlife, and café scene",
+    "Seasonal cherry blossom and autumn foliage appeal",
+    "Gateway to broader Korea rail itineraries"
+  ],
+  "todo": [
+    {"name": "Gyeongbokgung + Bukchon", "cat": "Heritage", "desc": "Pair the main palace complex with hanok alley walks in adjacent historic neighborhoods."},
+    {"name": "Myeongdong and Namsan area", "cat": "City life", "desc": "Combine shopping corridors with city viewpoints around N Seoul Tower."},
+    {"name": "Hongdae evening", "cat": "Lifestyle", "desc": "Explore youth-culture streets, live music spots, and late-night food hubs."},
+    {"name": "Insadong + Ikseon-dong", "cat": "Culture", "desc": "Mix traditional craft zones with modernized hanok dining streets."},
+    {"name": "DMZ or Suwon day trip", "cat": "Day trip", "desc": "Use guided transport for a structured day beyond central Seoul."},
+    {"name": "Han River parks", "cat": "Outdoor", "desc": "Cycle or picnic along riverside parks in spring and autumn shoulder weather."}
+  ],
+  "prac": {
+    "wifi": {"r": 5, "spd": "180–420 Mbps", "note": "Excellent citywide fixed and mobile connectivity; one of the easiest cities for reliable remote work."},
+    "directGW": false,
+    "fltNote": "No regular nonstop Gatwick-Seoul route; most UK access is nonstop from Heathrow or one-stop via major hubs. Typical returns are around £450-£700 off-peak, £700-£1,000 in shoulder demand, and £1,000+ around key holidays and summer peaks.",
+    "airports": [
+      {"name": "Incheon International Airport", "code": "ICN", "km": 52, "dgw": false},
+      {"name": "Gimpo International Airport", "code": "GMP", "km": 16, "dgw": false},
+      {"name": "Cheongju International Airport", "code": "CJJ", "km": 130, "dgw": false}
+    ],
+    "currency": "South Korean won (KRW)",
+    "lang": "Korean",
+    "tz": "KST (UTC+9)",
+    "visa": "UK and US passport holders can generally enter South Korea visa-free for short tourism stays, subject to current entry and pre-travel authorization rules.",
+    "bestFor": ["Urban culture trips", "Food-focused travel", "Shopping itineraries", "Spring/autumn city breaks", "Rail-linked Korea tours"],
+    "alerts": [
+      "July-August monsoon periods can bring heavy rain and humidity that impact outdoor plans.",
+      "Major holiday windows (e.g., Chuseok/Lunar New Year) can affect domestic transport and accommodation demand.",
+      "Winters are cold and dry; pack accordingly for long walking itineraries."
+    ]
+  },
+  "sweet": "April-May and late September-October are typically the best all-round months for comfort, walkability, and city atmosphere.",
+  "months": [
+    {"m":"Jan","avg":-2,"hi":1,"lo":-6,"daylight":9.9,"cld":34,"rain":13,"busy":3,"ac":2,"fl":2},
+    {"m":"Feb","avg":1,"hi":4,"lo":-3,"daylight":10.8,"cld":37,"rain":23,"busy":3,"ac":2,"fl":2},
+    {"m":"Mar","avg":6,"hi":10,"lo":3,"daylight":12.0,"cld":43,"rain":38,"busy":6,"ac":3,"fl":3},
+    {"m":"Apr","avg":13,"hi":17,"lo":9,"daylight":13.2,"cld":46,"rain":64,"busy":9,"ac":5,"fl":4},
+    {"m":"May","avg":18,"hi":23,"lo":14,"daylight":14.2,"cld":45,"rain":84,"busy":8,"ac":4,"fl":4},
+    {"m":"Jun","avg":22,"hi":26,"lo":19,"daylight":14.7,"cld":48,"rain":132,"busy":7,"ac":4,"fl":3},
+    {"m":"Jul","avg":25,"hi":28,"lo":22,"daylight":14.4,"cld":53,"rain":295,"busy":5,"ac":3,"fl":4},
+    {"m":"Aug","avg":26,"hi":29,"lo":23,"daylight":13.5,"cld":48,"rain":246,"busy":6,"ac":3,"fl":4},
+    {"m":"Sep","avg":21,"hi":25,"lo":17,"daylight":12.4,"cld":40,"rain":142,"busy":8,"ac":4,"fl":4},
+    {"m":"Oct","avg":15,"hi":19,"lo":11,"daylight":11.2,"cld":31,"rain":53,"busy":10,"ac":5,"fl":5},
+    {"m":"Nov","avg":7,"hi":11,"lo":3,"daylight":10.1,"cld":33,"rain":38,"busy":6,"ac":3,"fl":3},
+    {"m":"Dec","avg":1,"hi":4,"lo":-3,"daylight":9.6,"cld":33,"rain":18,"busy":4,"ac":2,"fl":3}
+  ]
+}

@@ -30,6 +30,12 @@
     "region": "Attica, Greece"
   },
   {
+    "id": "auckland-new-zealand",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "North Island"
+  },
+  {
     "id": "bergen",
     "city": "Bergen",
     "country": "Norway",
@@ -112,6 +118,12 @@
     "city": "Darjeeling",
     "country": "India",
     "region": "West Bengal, India"
+  },
+  {
+    "id": "dubai-uae",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Dubai Emirate"
   },
   {
     "id": "dubrovnik",
@@ -294,6 +306,12 @@
     "region": "Bohemia"
   },
   {
+    "id": "queenstown-new-zealand",
+    "city": "Queenstown",
+    "country": "New Zealand",
+    "region": "Otago, South Island"
+  },
+  {
     "id": "reine-norway",
     "city": "Reine",
     "country": "Norway",
@@ -330,10 +348,22 @@
     "region": "Sarajevo Canton"
   },
   {
+    "id": "seoul-south-korea",
+    "city": "Seoul",
+    "country": "South Korea",
+    "region": "Seoul Capital Area"
+  },
+  {
     "id": "seville",
     "city": "Seville",
     "country": "Spain",
     "region": "Andalusia"
+  },
+  {
+    "id": "sydney-australia",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "New South Wales"
   },
   {
     "id": "tallinn",
