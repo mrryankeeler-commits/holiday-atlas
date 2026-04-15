@@ -30,6 +30,10 @@
           placeholder="Search destinations"
           aria-label="Search destinations by city, country, or region"
         />
+        <div class="loc-rail-controls" id="loc-rail-controls" aria-hidden="true">
+          <button id="loc-rail-prev" class="loc-rail-btn" type="button" aria-label="Scroll destinations left">◀</button>
+          <button id="loc-rail-next" class="loc-rail-btn" type="button" aria-label="Scroll destinations right">▶</button>
+        </div>
         <div id="loc-list" aria-label="Destination list"></div>
         <div class="sidebar-actions">
           <button class="add-btn-sb" onclick="addLoc()">+ Add destination ↗</button>
