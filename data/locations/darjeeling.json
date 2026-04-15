@@ -1,5 +1,12 @@
 {
   "id": "darjeeling",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Darjeeling",
   "country": "India",
   "region": "West Bengal, India",

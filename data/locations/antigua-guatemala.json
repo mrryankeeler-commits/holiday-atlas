@@ -1,0 +1,238 @@
+{
+  "id": "antigua-guatemala",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/11700/Average-Weather-in-Antigua-Guatemala-Guatemala-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "note": "Internal provenance metadata for climate verification; not rendered in the UI."
+  },
+  "city": "Antigua",
+  "country": "Guatemala",
+  "region": "Sacatepéquez, Guatemalan Highlands",
+  "desc": "Antigua is a beautifully preserved colonial city ringed by volcanoes and coffee-growing hills. Cobbled streets, pastel facades, baroque churches, and rooftop views give it one of the most atmospheric city breaks in Central America, while nearby hikes and villages make it easy to mix culture, scenery, and soft adventure.",
+  "hls": [
+    "UNESCO colonial architecture",
+    "Volcano backdrops and viewpoints",
+    "Strong cafe and digital nomad scene",
+    "Excellent language schools",
+    "Great base for day trips",
+    "Compact, walkable historic core"
+  ],
+  "todo": [
+    {
+      "name": "Santa Catalina Arch",
+      "cat": "Landmark",
+      "desc": "The iconic yellow arch and surrounding streets are Antigua's postcard view, especially at sunrise with Volcán de Agua in the background."
+    },
+    {
+      "name": "Iglesia de La Merced",
+      "cat": "History & architecture",
+      "desc": "A richly ornamented baroque church with one of the city's most striking facades and photogenic courtyards."
+    },
+    {
+      "name": "Cerro de la Cruz viewpoint",
+      "cat": "Scenic",
+      "desc": "A short uphill walk to panoramic views across Antigua's rooftops to the surrounding volcanoes."
+    },
+    {
+      "name": "Volcán Pacaya hike",
+      "cat": "Adventure",
+      "desc": "Popular half-day excursion to active volcanic terrain with lava fields and wide valley views."
+    },
+    {
+      "name": "Coffee farm tour",
+      "cat": "Food & culture",
+      "desc": "Learn the full bean-to-cup process in one of Guatemala's best-known coffee regions."
+    },
+    {
+      "name": "Local markets & artisan workshops",
+      "cat": "Culture",
+      "desc": "Browse textiles, ceramics, and handcrafted goods in and around the old town."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "25–80 Mbps",
+      "note": "Reliable WiFi in most hotels and cafes in the historic center, with a growing remote-work community."
+    },
+    "directGW": false,
+    "fltNote": "No direct Gatwick flights. Typical UK routing is via Madrid, Amsterdam, Mexico City, or US hubs into Guatemala City (GUA), then road transfer to Antigua.",
+    "airports": [
+      {
+        "name": "La Aurora International Airport",
+        "code": "GUA",
+        "km": 40,
+        "dgw": false
+      }
+    ],
+    "currency": "Guatemalan Quetzal (GTQ)",
+    "lang": "Spanish",
+    "tz": "CST (UTC-6)",
+    "visa": "Visa-free short stays for UK citizens (check latest entry rules before travel).",
+    "bestFor": [
+      "Culture-focused city breaks",
+      "Digital nomads",
+      "Food and coffee lovers",
+      "Couples",
+      "Volcano and nature day trips"
+    ],
+    "alerts": [
+      "Altitude is around 1,500 m; stay hydrated for your first day.",
+      "Road transfer times from Guatemala City can vary significantly with traffic."
+    ]
+  },
+  "sweet": "November to April is generally the driest and sunniest period, with warm days and cooler evenings.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 16,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 11.4,
+      "cld": 23,
+      "rain": 3,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 17,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 11.7,
+      "cld": 24,
+      "rain": 3,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 12.1,
+      "cld": 32,
+      "rain": 8,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 19,
+      "hi": 26,
+      "lo": 14,
+      "daylight": 12.5,
+      "cld": 57,
+      "rain": 28,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 12.8,
+      "cld": 85,
+      "rain": 99,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 19,
+      "hi": 23,
+      "lo": 16,
+      "daylight": 13.0,
+      "cld": 93,
+      "rain": 175,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 23,
+      "lo": 15,
+      "daylight": 12.9,
+      "cld": 88,
+      "rain": 145,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 23,
+      "lo": 15,
+      "daylight": 12.6,
+      "cld": 87,
+      "rain": 157,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 18,
+      "hi": 23,
+      "lo": 16,
+      "daylight": 12.2,
+      "cld": 91,
+      "rain": 183,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 22,
+      "lo": 15,
+      "daylight": 11.8,
+      "cld": 82,
+      "rain": 124,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 17,
+      "hi": 22,
+      "lo": 13,
+      "daylight": 11.4,
+      "cld": 57,
+      "rain": 38,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 11.3,
+      "cld": 33,
+      "rain": 8,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

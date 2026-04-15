@@ -56,6 +56,9 @@ Within `prac`, include:
 - [ ] A matching file exists at `data/locations/<id>.json`.
 - [ ] The `id` matches between manifest entry and filename.
 - [ ] Required keys are present in both manifest and full record.
+- [ ] Climate provenance passes strict verification:
+  - `python3 scripts/verify_climate_provenance.py`
+  - Verified means linked CSV source data exists *and* matches JSON climate values shown in the app.
 
 ## Refreshing monthly climate data (CSV workflow)
 
@@ -116,6 +119,27 @@ Each CSV row should represent one month and include:
 - Unknown locations can be staged under a pending folder (`--stage-unknown-dir`) so they are stored but not displayed in-app.
 - Staged payloads may include a `source` field for import provenance; treat it as internal metadata and never surface it in destination UI.
 - The importer does not generate `rise` or `set`.
+
+### Automatic provenance verification
+
+After importing/updating climate data, run:
+
+- `python3 scripts/validate_locations.py`
+- `python3 scripts/verify_climate_provenance.py`
+
+If you need CI-style strictness that fails whenever any destination is still unverified:
+
+- `python3 scripts/verify_climate_provenance.py --fail-on-unverified`
+
+`verify_climate_provenance.py` enforces:
+
+- `source.climateVerified: true` is allowed only when linked CSV rows are present and climate fields (`avg`, `hi`, `lo`, `daylight`, `cld`, `rain`) match JSON.
+- Otherwise the location must be marked unverified with a note.
+
+## Batch policy for richer destination updates
+
+- Climate/provenance-only updates can be bulked.
+- In-depth destination enrichment (research-heavy practicals, costs/flights, activities, alerts) should be done in batches of up to **3 locations** for quality control.
 
 ### Month schema (documented fields)
 

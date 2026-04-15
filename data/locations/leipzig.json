@@ -1,5 +1,16 @@
 {
   "id": "leipzig",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/73745/Average-Weather-in-Leipzig-Saxony-Germany-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Leipzig",
   "country": "Germany",
   "region": "Central Europe",

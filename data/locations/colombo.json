@@ -1,5 +1,16 @@
 {
   "id": "colombo",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/109720/Average-Weather-in-Colombo-Sri-Lanka-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Colombo",
   "country": "Sri Lanka",
   "region": "Western Sri Lanka",

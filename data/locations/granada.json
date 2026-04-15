@@ -1,5 +1,16 @@
 {
   "id": "granada",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/36650/Average-Weather-in-Granada-Spain-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Granada",
   "country": "Spain",
   "region": "Andalusia",

@@ -1,5 +1,16 @@
 {
   "id": "vienna",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/81358/Average-Weather-in-Vienna-Austria-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Vienna",
   "country": "Austria",
   "region": "Eastern Austria",

@@ -1,5 +1,12 @@
 {
   "id": "meteora",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Meteora",
   "country": "Greece",
   "region": "Thessaly, Greece",

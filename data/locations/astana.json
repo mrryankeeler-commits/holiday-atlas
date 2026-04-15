@@ -1,5 +1,16 @@
 {
   "id": "astana",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/107257/Average-Weather-in-Astana-Kazakhstan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Astana",
   "country": "Kazakhstan",
   "region": "Northern Kazakhstan",

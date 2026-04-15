@@ -1,5 +1,12 @@
 {
   "id": "jambiani",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Jambiani",
   "country": "Tanzania",
   "region": "Zanzibar",

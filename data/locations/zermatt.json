@@ -1,5 +1,12 @@
 {
   "id": "zermatt",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Zermatt",
   "country": "Switzerland",
   "region": "Alps, Central Europe",
