@@ -124,9 +124,9 @@
       "daylight": 9.9,
       "cld": 42,
       "rain": 71,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -136,9 +136,9 @@
       "daylight": 10.8,
       "cld": 40,
       "rain": 66,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -148,9 +148,9 @@
       "daylight": 12.0,
       "cld": 38,
       "rain": 53,
-      "busy": 4,
+      "busy": 3,
       "ac": 2,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -174,7 +174,7 @@
       "rain": 23,
       "busy": 7,
       "ac": 4,
-      "fl": 4
+      "fl": 3
     },
     {
       "m": "Jun",
@@ -184,8 +184,8 @@
       "daylight": 14.8,
       "cld": 21,
       "rain": 10,
-      "busy": 8,
-      "ac": 4,
+      "busy": 9,
+      "ac": 5,
       "fl": 4
     },
     {
@@ -196,7 +196,7 @@
       "daylight": 14.5,
       "cld": 5,
       "rain": 5,
-      "busy": 9,
+      "busy": 10,
       "ac": 5,
       "fl": 5
     },
@@ -234,7 +234,7 @@
       "rain": 69,
       "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -256,7 +256,7 @@
       "daylight": 9.6,
       "cld": 42,
       "rain": 76,
-      "busy": 4,
+      "busy": 3,
       "ac": 2,
       "fl": 3
     }

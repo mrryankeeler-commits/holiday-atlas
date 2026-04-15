@@ -108,9 +108,9 @@
       "daylight": 9.7,
       "cld": 49,
       "rain": 23,
-      "busy": 3,
+      "busy": 1,
       "ac": 2,
-      "fl": 2
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -122,7 +122,7 @@
       "rain": 18,
       "busy": 3,
       "ac": 2,
-      "fl": 2
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -132,9 +132,9 @@
       "daylight": 12.0,
       "cld": 43,
       "rain": 18,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -144,9 +144,9 @@
       "daylight": 13.3,
       "cld": 41,
       "rain": 28,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 9,
+      "ac": 5,
+      "fl": 3
     },
     {
       "m": "May",
@@ -156,9 +156,9 @@
       "daylight": 14.4,
       "cld": 38,
       "rain": 28,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
     },
     {
       "m": "Jun",
@@ -168,9 +168,9 @@
       "daylight": 15.0,
       "cld": 27,
       "rain": 18,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
-      "fl": 4
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -180,8 +180,8 @@
       "daylight": 14.6,
       "cld": 12,
       "rain": 5,
-      "busy": 6,
-      "ac": 3,
+      "busy": 4,
+      "ac": 2,
       "fl": 4
     },
     {
@@ -192,9 +192,9 @@
       "daylight": 13.7,
       "cld": 18,
       "rain": 5,
-      "busy": 5,
-      "ac": 3,
-      "fl": 4
+      "busy": 3,
+      "ac": 1,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -204,9 +204,9 @@
       "daylight": 12.4,
       "cld": 33,
       "rain": 15,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
-      "fl": 4
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -216,9 +216,9 @@
       "daylight": 11.1,
       "cld": 45,
       "rain": 41,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 9,
+      "ac": 5,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -228,9 +228,9 @@
       "daylight": 10.0,
       "cld": 49,
       "rain": 36,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -242,7 +242,7 @@
       "rain": 28,
       "busy": 5,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     }
   ]
 }

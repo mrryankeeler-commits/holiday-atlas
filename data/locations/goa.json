@@ -108,7 +108,7 @@
       "daylight": 11.3,
       "cld": 32,
       "rain": 0,
-      "busy": 9,
+      "busy": 10,
       "ac": 5,
       "fl": 5
     },
@@ -120,9 +120,9 @@
       "daylight": 11.6,
       "cld": 28,
       "rain": 3,
-      "busy": 8,
+      "busy": 9,
       "ac": 5,
-      "fl": 5
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -134,7 +134,7 @@
       "rain": 5,
       "busy": 7,
       "ac": 4,
-      "fl": 4
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -144,9 +144,9 @@
       "daylight": 12.5,
       "cld": 45,
       "rain": 13,
-      "busy": 6,
+      "busy": 5,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "May",
@@ -156,9 +156,9 @@
       "daylight": 12.9,
       "cld": 65,
       "rain": 81,
-      "busy": 5,
+      "busy": 3,
       "ac": 2,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -168,9 +168,9 @@
       "daylight": 13.0,
       "cld": 82,
       "rain": 488,
-      "busy": 3,
+      "busy": 2,
       "ac": 1,
-      "fl": 2
+      "fl": 1
     },
     {
       "m": "Jul",
@@ -180,7 +180,7 @@
       "daylight": 12.9,
       "cld": 87,
       "rain": 564,
-      "busy": 3,
+      "busy": 1,
       "ac": 1,
       "fl": 2
     },
@@ -192,7 +192,7 @@
       "daylight": 12.6,
       "cld": 83,
       "rain": 384,
-      "busy": 3,
+      "busy": 1,
       "ac": 1,
       "fl": 2
     },
@@ -204,9 +204,9 @@
       "daylight": 12.2,
       "cld": 73,
       "rain": 193,
-      "busy": 3,
+      "busy": 2,
       "ac": 1,
-      "fl": 2
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -216,9 +216,9 @@
       "daylight": 11.8,
       "cld": 61,
       "rain": 99,
-      "busy": 5,
-      "ac": 3,
-      "fl": 4
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -228,9 +228,9 @@
       "daylight": 11.4,
       "cld": 49,
       "rain": 23,
-      "busy": 8,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Dec",

@@ -113,9 +113,9 @@
       "lo": 6,
       "cld": 48,
       "rain": 75,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1,
       "daylight": 5
     },
     {
@@ -126,8 +126,8 @@
       "cld": 45,
       "rain": 65,
       "busy": 2,
-      "ac": 2,
-      "fl": 2,
+      "ac": 1,
+      "fl": 1,
       "daylight": 6
     },
     {
@@ -137,7 +137,7 @@
       "lo": 9,
       "cld": 40,
       "rain": 50,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 2,
       "daylight": 7
@@ -149,8 +149,8 @@
       "lo": 12,
       "cld": 35,
       "rain": 40,
-      "busy": 5,
-      "ac": 3,
+      "busy": 8,
+      "ac": 4,
       "fl": 3,
       "daylight": 8
     },
@@ -161,9 +161,9 @@
       "lo": 16,
       "cld": 28,
       "rain": 30,
-      "busy": 7,
-      "ac": 4,
-      "fl": 4,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3,
       "daylight": 10
     },
     {
@@ -173,8 +173,8 @@
       "lo": 20,
       "cld": 18,
       "rain": 10,
-      "busy": 8,
-      "ac": 4,
+      "busy": 9,
+      "ac": 5,
       "fl": 4,
       "daylight": 11
     },
@@ -185,9 +185,9 @@
       "lo": 23,
       "cld": 12,
       "rain": 4,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
-      "fl": 4,
+      "fl": 5,
       "daylight": 12
     },
     {
@@ -197,9 +197,9 @@
       "lo": 23,
       "cld": 14,
       "rain": 6,
-      "busy": 7,
+      "busy": 5,
       "ac": 3,
-      "fl": 4,
+      "fl": 5,
       "daylight": 11
     },
     {
@@ -209,7 +209,7 @@
       "lo": 19,
       "cld": 24,
       "rain": 25,
-      "busy": 8,
+      "busy": 9,
       "ac": 4,
       "fl": 4,
       "daylight": 9
@@ -221,9 +221,9 @@
       "lo": 15,
       "cld": 38,
       "rain": 65,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
-      "fl": 4,
+      "fl": 2,
       "daylight": 7
     },
     {
@@ -234,8 +234,8 @@
       "cld": 46,
       "rain": 85,
       "busy": 4,
-      "ac": 3,
-      "fl": 3,
+      "ac": 2,
+      "fl": 2,
       "daylight": 5
     },
     {
@@ -247,7 +247,7 @@
       "rain": 85,
       "busy": 3,
       "ac": 2,
-      "fl": 2,
+      "fl": 3,
       "daylight": 4
     }
   ]
