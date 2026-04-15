@@ -122,16 +122,17 @@ jobs:
         run: |
           set -euo pipefail
           if [ "${{ steps.detect_changes.outputs.has_changes }}" = "true" ]; then
+            changed_files="${{ steps.detect_changes.outputs.changed_files }}"
             echo "### ✅ Climate import changed files" >> "$GITHUB_STEP_SUMMARY"
             echo "" >> "$GITHUB_STEP_SUMMARY"
             echo "A pull request was created: ${{ steps.create_pr.outputs.pull-request-url }}" >> "$GITHUB_STEP_SUMMARY"
             echo "" >> "$GITHUB_STEP_SUMMARY"
             echo "Changed files:" >> "$GITHUB_STEP_SUMMARY"
-            while IFS= read -r line; do
-              [ -n "$line" ] && echo "- \`$line\`" >> "$GITHUB_STEP_SUMMARY"
-            done << 'EOF'
-            ${{ steps.detect_changes.outputs.changed_files }}
-            EOF
+            if [ -n "$changed_files" ]; then
+              while IFS= read -r line; do
+                [ -n "$line" ] && echo "- \`$line\`" >> "$GITHUB_STEP_SUMMARY"
+              done <<< "$changed_files"
+            fi
           else
             echo "### ℹ️ Climate import produced no data changes" >> "$GITHUB_STEP_SUMMARY"
             echo "" >> "$GITHUB_STEP_SUMMARY"
