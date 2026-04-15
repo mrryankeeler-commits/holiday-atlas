@@ -60,3 +60,38 @@ When moving staged records from `data/pending-locations/` to `data/locations/`:
 - Climate-source/provenance updates may be done in larger batches.
 - Full destination enrichment (copy + practicals + costs/flights + todo research) should be done in small batches of up to **3 locations per task** to keep research quality high.
 - For enriched entries, include practical and pricing depth (busyness, accommodation, flights from UK/Ireland, direct-flight notes where available) and keep claims evidence-backed.
+
+## Seasonality scoring provenance + rubric
+When a location file includes month-level `busy`, `ac`, and `fl` values, keep a consistent provenance object at `source.scoring`.
+
+### `source.scoring` required structure
+- `reviewedOn`: ISO date (`YYYY-MM-DD`) for the most recent rubric/source review.
+- `profile`: shared scoring profile identifier (current: `seasonality-inference-v1`).
+- Optional `overrides`: only include when this location does **not** follow the default profile.
+  - May override `signals` sources and/or scoring notes for `busy`, `ac`, `fl`.
+
+### Default scoring profile (`seasonality-inference-v1`)
+Use this as the default for all destinations unless there is a clear exception.
+
+#### Source inputs by metric
+- `busy`: inferred from destination seasonality baseline + climate comfort window (`hi/lo`, `rain`, `cld`, `daylight`) + known event/holiday peaks when evidence exists.
+- `ac`: inferred from `busy` pattern, destination accommodation market seasonality, and shoulder/off-season compression.
+- `fl`: inferred from UK flight seasonality pattern (school holidays + summer peaks) and destination route seasonality context.
+
+#### Scoring rubric (keep criteria consistent)
+- `busy` (1–10): relative in-destination monthly tourism pressure (crowding/queue intensity).  
+  `1` = very quiet off-season, `10` = peak crowding month.
+- `ac` (1–5): relative in-destination monthly accommodation price pressure.  
+  `1` = lowest seasonal pricing pressure, `5` = highest.
+- `fl` (1–5): relative monthly UK-origin flight seasonality pressure for the destination.  
+  `1` = lowest UK flight price/competition pressure, `5` = highest.
+
+#### Normalization rule
+- Use destination-relative monthly normalization (within the same destination, not globally across all destinations):
+  1) rank the 12 monthly raw signals for each metric,  
+  2) bucket into ordinal bands,  
+  3) map to integer output scale (`busy`: 1–10, `ac`: 1–5, `fl`: 1–5),  
+  4) clamp outliers to scale bounds,  
+  5) keep ties in the same band.
+
+Store these definitions here in `AGENTS.md` (single source of truth). Location files should reference the shared profile and only add `overrides` when needed.
