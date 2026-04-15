@@ -1,5 +1,12 @@
 {
   "id": "zakopane",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No exact climate source mapping has been confirmed yet for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Zakopane",
   "country": "Poland",
   "region": "Lesser Poland",

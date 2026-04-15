@@ -1,5 +1,16 @@
 {
   "id": "sanya",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/120758/Average-Weather-in-Sanya-China-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Sanya",
   "country": "China",
   "region": "Hainan, South China",
