@@ -73,12 +73,22 @@ Monthly climate data is maintained from local CSV sources only (no external weat
   - `python scripts/import_climate_csv.py --input-file data/climate/batch.csv --location-col "Location" --month-col "Month" --avg-col "Avg Temp (°C)" --hi-col "Avg High (°C)" --lo-col "Avg Low (°C)" --daylight-col "Daylight (h/day)" --cloud-col "Cloud Cover (%)" --rain-col "Rainfall (mm)"`
 - Allow creation of new location files from the mixed CSV:
   - `python scripts/import_climate_csv.py --input-file data/climate/batch.csv --create-missing --default-region Europe`
+- Stage unknown/future locations without showing them in the app yet:
+  - `python scripts/import_climate_csv.py --input-file data/climate/batch.csv --stage-unknown-dir data/pending-locations`
+- Resolve known spelling variants/misspellings via alias map:
+  - `python scripts/import_climate_csv.py --input-file data/climate/batch.csv --aliases-file data/climate/aliases.json`
+
+If you use GitHub Web and do not want terminal commands, use the Actions workflow guide:
+
+- `docs/github-web-csv-import.md`
 
 Useful flags:
 
 - `--month-col`, `--avg-col`, `--hi-col`, `--lo-col`, `--daylight-col`, `--cloud-col`, `--rain-col`
 - `--location-col`, `--id-col`, `--city-col`, `--country-col`, `--region-col` (for combined CSV imports)
+- `--aliases-file`, `--fuzzy-cutoff`, `--disable-fuzzy-match` (for typo handling and inferred matching)
 - `--create-missing`, `--default-region`
+- `--stage-unknown-dir` (keeps unknown/future locations out of active `data/locations/`)
 - `--allow-score-overrides` (only then read busy/ac/fl columns)
 
 ### Source files
@@ -103,6 +113,7 @@ Each CSV row should represent one month and include:
 - Transformed climate metrics are written to each location's `months` array in `data/locations/<id>.json`.
 - Existing non-climate month scoring fields (`busy`, `ac`, `fl`) are preserved unless `--allow-score-overrides` is provided.
 - When `--create-missing` is used for a new location, the importer estimates initial `busy`, `ac`, and `fl` values from climate seasonality and conditions.
+- Unknown locations can be staged under a pending folder (`--stage-unknown-dir`) so they are stored but not displayed in-app.
 - The importer does not generate `rise` or `set`.
 
 ### Month schema (documented fields)
