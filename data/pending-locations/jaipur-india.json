@@ -1,0 +1,141 @@
+{
+  "id": "jaipur-india",
+  "source": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+  "city": "Jaipur",
+  "country": "India",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Jaipur, India",
+      "Month": "Jan",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "10.7",
+      "Cloud Cover (%)": "16",
+      "Rainfall (mm)": "5",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Feb",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "25.0",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "11.3",
+      "Cloud Cover (%)": "16",
+      "Rainfall (mm)": "8",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Mar",
+      "Avg Temp (°C)": "24.4",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "5",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Apr",
+      "Avg Temp (°C)": "30.0",
+      "Avg High (°C)": "36.1",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "12.8",
+      "Cloud Cover (%)": "19",
+      "Rainfall (mm)": "8",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "May",
+      "Avg Temp (°C)": "33.3",
+      "Avg High (°C)": "39.4",
+      "Avg Low (°C)": "27.2",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "10",
+      "Rainfall (mm)": "13",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Jun",
+      "Avg Temp (°C)": "33.3",
+      "Avg High (°C)": "38.3",
+      "Avg Low (°C)": "27.8",
+      "Daylight (h/day)": "13.8",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "43",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Jul",
+      "Avg Temp (°C)": "30.0",
+      "Avg High (°C)": "33.9",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "56",
+      "Rainfall (mm)": "137",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Aug",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "32.2",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "13.0",
+      "Cloud Cover (%)": "56",
+      "Rainfall (mm)": "140",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Sep",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "33.3",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "58",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Oct",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "32.8",
+      "Avg Low (°C)": "20.0",
+      "Daylight (h/day)": "11.5",
+      "Cloud Cover (%)": "8",
+      "Rainfall (mm)": "13",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Nov",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "11",
+      "Rainfall (mm)": "3",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    },
+    {
+      "Location": "Jaipur, India",
+      "Month": "Dec",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "17",
+      "Rainfall (mm)": "3",
+      "Source URL": "https://weatherspark.com/y/108316/Average-Weather-in-Jaipur-Rajasthan-India-Year-Round"
+    }
+  ]
+}
