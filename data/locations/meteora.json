@@ -5,12 +5,16 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Meteora",
   "country": "Greece",
   "region": "Thessaly, Greece",
-  "desc": "Meteora is one of Greece's most dramatic landscapes: monasteries perched on sandstone pillars above the plains of Thessaly. Travelers come for sunrise viewpoints, cliffside trails, and a mix of Orthodox heritage and outdoor adventure.",
+  "desc": "Meteora is one of Greece's most dramatic UNESCO landscapes, where monasteries sit atop towering sandstone pillars above Thessaly's plains. It rewards slow, scenic travel with sunrise viewpoints and monastery-hiking routes, with best conditions typically in spring and autumn.",
   "hls": [
     "UNESCO-listed cliff monasteries suspended above the valley",
     "Outstanding sunrise and sunset photography viewpoints",
@@ -64,11 +68,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "30–90 Mbps",
-      "note": "Usable for remote work in newer guesthouses, though speeds can vary in mountain-view properties."
+      "spd": "35–95 Mbps",
+      "note": "Most Kalabaka/Kastraki stays are workable for basic remote work, though mountain-facing properties can vary by network provider."
     },
     "directGW": false,
-    "fltNote": "There is no airport in Meteora; most visitors connect via Thessaloniki or Athens, then continue by train, bus, or car.",
+    "fltNote": "No airport at Meteora; most itineraries route via Thessaloniki or Athens then continue by rail/road. UK return fares to gateway airports are often ~£90–£210 off-peak, ~£210–£330 in shoulder demand, and ~£330+ in peak holiday periods.",
     "airports": [
       {
         "name": "Thessaloniki Airport",
@@ -85,21 +89,22 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Greek",
-    "tz": "EET (UTC+2), EEST (UTC+3) in summer",
-    "visa": "Greece is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Greece is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Scenic road trips",
-      "Hikers",
-      "Photographers",
-      "Spiritual heritage travel",
+      "Hiking",
+      "Photography",
+      "Spiritual heritage",
       "Slow travel itineraries"
     ],
     "alerts": [
-      "Monasteries have strict dress codes (covered shoulders/knees) and rotating closure days.",
-      "Public transport schedules are limited on Sundays and winter weekdays."
+      "Monastery dress codes and rotating closure days can affect itinerary order — check schedules in advance.",
+      "Public transport frequencies are limited on Sundays/winter periods.",
+      "Exposed trails and viewpoints are less comfortable in midsummer midday heat."
     ]
   },
-  "sweet": "April to June and September to October provide pleasant hiking temperatures for monastery viewpoints.",
+  "sweet": "April to June and September to October are usually best for hiking comfort, monastery access, and clear viewpoint conditions.",
   "months": [
     {
       "m": "Jan",
@@ -132,7 +137,7 @@
       "lo": 9,
       "cld": 40,
       "rain": 50,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2,
       "daylight": 7
@@ -144,7 +149,7 @@
       "lo": 12,
       "cld": 35,
       "rain": 40,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3,
       "daylight": 8
@@ -156,9 +161,9 @@
       "lo": 16,
       "cld": 28,
       "rain": 30,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4,
       "daylight": 10
     },
     {
@@ -168,9 +173,9 @@
       "lo": 20,
       "cld": 18,
       "rain": 10,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4,
       "daylight": 11
     },
     {
@@ -180,9 +185,9 @@
       "lo": 23,
       "cld": 12,
       "rain": 4,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3,
+      "fl": 4,
       "daylight": 12
     },
     {
@@ -192,9 +197,9 @@
       "lo": 23,
       "cld": 14,
       "rain": 6,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3,
+      "fl": 4,
       "daylight": 11
     },
     {
@@ -204,9 +209,9 @@
       "lo": 19,
       "cld": 24,
       "rain": 25,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4,
       "daylight": 9
     },
     {
@@ -216,9 +221,9 @@
       "lo": 15,
       "cld": 38,
       "rain": 65,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4,
       "daylight": 7
     },
     {
@@ -228,7 +233,7 @@
       "lo": 10,
       "cld": 46,
       "rain": 85,
-      "busy": 3,
+      "busy": 4,
       "ac": 3,
       "fl": 3,
       "daylight": 5
@@ -240,7 +245,7 @@
       "lo": 7,
       "cld": 50,
       "rain": 85,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2,
       "daylight": 4

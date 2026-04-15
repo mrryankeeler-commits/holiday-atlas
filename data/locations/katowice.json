@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/85111/Average-Weather-in-Katowice-Poland-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Katowice",
   "country": "Poland",
   "region": "Silesia, Poland",
-  "desc": "Katowice blends post-industrial Silesian heritage with contemporary culture, music venues, and efficient transport for an easy urban base in southern Poland.",
+  "desc": "Katowice is a practical, design-forward Silesian city where post-industrial heritage, major music venues, and excellent transport links create an easy urban base. Demand is steadier than in Kraków, but spring-autumn events and business traffic lift occupancy and flight pressure, while deep winter can bring colder air and quieter tourism streets.",
   "hls": [
-    "UNESCO City of Music credentials",
-    "Silesian Museum in former coal-mine grounds",
-    "Wide boulevards and modern cultural zone",
-    "Strong rail links across Upper Silesia",
-    "Good value hotels and dining",
-    "Year-round city-break practicality"
+    "Culture Zone (NOSPR, Spodek, Silesian Museum)",
+    "Distinct Silesian post-industrial identity",
+    "Nikiszowiec red-brick workers' district",
+    "Strong value versus higher-profile Polish city breaks",
+    "Excellent regional rail links across Upper Silesia",
+    "Useful dual-airport access via KTW and KRK"
   ],
   "todo": [
     {
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–180 Mbps",
-      "note": "Very solid in hotels, coworks, and cafés around Centrum and the Culture Zone."
+      "spd": "80–190 Mbps",
+      "note": "Very dependable around Centrum and business hotels; coworking options are good for short remote-work stays."
     },
     "directGW": true,
-    "fltNote": "Katowice Airport handles many UK and European routes; Kraków Airport is also a practical backup.",
+    "fltNote": "Gatwick access is usually via Katowice Airport (KTW), with Kraków (KRK) as a strong alternative. Return fares commonly run ~£35–£95 off-peak, ~£95–£165 in shoulder demand, and ~£165+ during school-holiday and major-event periods.",
     "airports": [
       {
         "name": "Katowice Airport",
@@ -75,24 +79,32 @@
         "code": "KRK",
         "km": 68,
         "dgw": true
+      },
+      {
+        "name": "Ostrava Leoš Janáček Airport",
+        "code": "OSR",
+        "km": 91,
+        "dgw": false
       }
     ],
     "currency": "Polish złoty (PLN)",
     "lang": "Polish",
-    "tz": "CET/CEST (UTC+1/UTC+2)",
-    "visa": "Poland is in Schengen; standard Schengen entry rules apply.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Poland is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any rolling 180-day period.",
     "bestFor": [
       "Urban culture",
-      "Music trips",
-      "Architecture",
-      "Remote-work city breaks",
-      "Rail-based itineraries"
+      "Music and events",
+      "Architecture interest",
+      "Value-focused city breaks",
+      "Regional rail itineraries"
     ],
     "alerts": [
-      "Air quality can worsen during still winter periods; check daily AQI if sensitive."
+      "Winter inversions can worsen local air quality; check AQI if you are sensitive.",
+      "Major concerts/events can spike central-room prices and late-night transport demand.",
+      "Business-travel weekdays can tighten hotel availability near the Culture Zone."
     ]
   },
-  "sweet": "May to September is most pleasant for urban sightseeing and day trips around Silesia.",
+  "sweet": "May to September gives the easiest weather window; autumn is still strong for culture-led trips with lower leisure crowding.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +114,7 @@
       "daylight": 8.6,
       "cld": 65,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +126,7 @@
       "daylight": 10.1,
       "cld": 64,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -126,7 +138,7 @@
       "daylight": 12.0,
       "cld": 59,
       "rain": 25,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -138,7 +150,7 @@
       "daylight": 13.9,
       "cld": 54,
       "rain": 33,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -150,9 +162,9 @@
       "daylight": 15.5,
       "cld": 50,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -162,9 +174,9 @@
       "daylight": 16.3,
       "cld": 46,
       "rain": 71,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -174,9 +186,9 @@
       "daylight": 15.9,
       "cld": 40,
       "rain": 74,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -186,9 +198,9 @@
       "daylight": 14.4,
       "cld": 42,
       "rain": 61,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -198,9 +210,9 @@
       "daylight": 12.5,
       "cld": 48,
       "rain": 51,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -210,7 +222,7 @@
       "daylight": 10.7,
       "cld": 55,
       "rain": 36,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -222,9 +234,9 @@
       "daylight": 9.0,
       "cld": 65,
       "rain": 28,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Dec",
@@ -234,9 +246,9 @@
       "daylight": 8.1,
       "cld": 66,
       "rain": 20,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }

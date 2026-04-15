@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/106430/Average-Weather-in-Samarqand-Uzbekistan-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Samarkand",
   "country": "Uzbekistan",
   "region": "Zerafshan Valley",
-  "desc": "Samarkand is one of Central Asia’s great Silk Road cities, celebrated for blue-tiled madrasas, Timurid monuments, and caravan-route history. Visit for monumental Islamic architecture, bustling bazaars, and a deep sense of historical continuity.",
+  "desc": "Samarkand is one of Central Asia's great Silk Road cities, celebrated for blue-tiled madrasas, Timurid monuments, and layered caravan-route history. It is strongest for architecture-first itineraries in spring and autumn, when temperatures are more manageable for long outdoor heritage circuits.",
   "hls": [
     "Registan square’s iconic madrasas",
     "Timurid-era mausoleums and mosques",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "20–70 Mbps",
-      "note": "Adequate in central hotels and cafés; mobile data is useful for maps and translation on day trips."
+      "spd": "25–80 Mbps",
+      "note": "Adequate in central hotels and cafés, with mobile data useful for translation, ride-hailing, and day-trip routing."
     },
     "directGW": false,
-    "fltNote": "No regular nonstop Gatwick service; common one-stop routings connect via Istanbul, Abu Dhabi, or Tashkent.",
+    "fltNote": "No regular Gatwick-Samarkand nonstop service; common routings connect via Istanbul, Abu Dhabi, or Tashkent. Return fares are often ~£260-£450 off-peak, ~£450-£650 in shoulder demand, and ~£650+ around peak holiday windows.",
     "airports": [
       {
         "name": "Samarkand International Airport",
@@ -80,7 +84,7 @@
     "currency": "Uzbekistani soʻm (UZS)",
     "lang": "Uzbek (Russian widely spoken)",
     "tz": "Uzbekistan Time (UTC+5)",
-    "visa": "Uzbekistan allows visa-free entry for many nationalities (including UK/EU) for short stays; verify latest permitted duration.",
+    "visa": "Uzbekistan allows visa-free entry for many nationalities including UK and EU for short stays; verify current permitted duration before departure.",
     "bestFor": [
       "Silk Road history",
       "Islamic architecture",
@@ -92,7 +96,7 @@
       "Some monuments close earlier in winter; start heritage visits in the morning."
     ]
   },
-  "sweet": "April to early June and September to October are best for Silk Road sightseeing in manageable temperatures.",
+  "sweet": "April-early June and September-October are usually best for Silk Road sightseeing in manageable temperatures.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +106,7 @@
       "daylight": 9.7,
       "cld": 56,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +118,7 @@
       "daylight": 10.7,
       "cld": 56,
       "rain": 20,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -126,7 +130,7 @@
       "daylight": 12.0,
       "cld": 54,
       "rain": 33,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -138,9 +142,9 @@
       "daylight": 13.3,
       "cld": 44,
       "rain": 33,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -150,7 +154,7 @@
       "daylight": 14.4,
       "cld": 28,
       "rain": 18,
-      "busy": 5,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -162,7 +166,7 @@
       "daylight": 14.9,
       "cld": 8,
       "rain": 5,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -174,7 +178,7 @@
       "daylight": 14.6,
       "cld": 2,
       "rain": 3,
-      "busy": 3,
+      "busy": 4,
       "ac": 3,
       "fl": 3
     },
@@ -186,7 +190,7 @@
       "daylight": 13.7,
       "cld": 2,
       "rain": 0,
-      "busy": 3,
+      "busy": 4,
       "ac": 3,
       "fl": 3
     },
@@ -198,9 +202,9 @@
       "daylight": 12.4,
       "cld": 7,
       "rain": 3,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -210,9 +214,9 @@
       "daylight": 11.1,
       "cld": 27,
       "rain": 8,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -222,7 +226,7 @@
       "daylight": 10.0,
       "cld": 45,
       "rain": 15,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -234,7 +238,7 @@
       "daylight": 9.4,
       "cld": 52,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     }

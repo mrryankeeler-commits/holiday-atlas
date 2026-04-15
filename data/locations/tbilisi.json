@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/103478/Average-Weather-in-Tbilisi-Georgia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Tbilisi",
   "country": "Georgia",
   "region": "South Caucasus",
-  "desc": "Tbilisi is one of the most atmospheric and genuinely captivating cities in the world — a labyrinthine old town of balconied wooden houses, ancient sulfur bathhouses, and cave monasteries carved into volcanic rock. The country sits at the crossroads of Europe and Asia, and its culture is entirely its own: the Georgian alphabet, polyphonic folk music, and the world's oldest wine tradition (8,000 years of viticulture) make it unlike any other destination. Mtskheta, the ancient capital, and the cave city of Uplistsikhe are extraordinary. The Caucasus mountains rise dramatically behind the city. All of this remains largely undiscovered — and exceptionally affordable.",
+  "desc": "Tbilisi is a deeply atmospheric capital where carved balconies, sulfur bathhouses, hilltop fortresses, and contemporary wine bars sit within a compact valley city at the Europe-Asia crossroads. It is a strong base for Georgian culture, food, and history, with easy extensions to Mtskheta, Kakheti, and mountain routes when weather is stable in spring and autumn.",
   "hls": [
     "8,000-year wine tradition",
     "Ancient cave cities & monasteries",
@@ -78,11 +82,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–60 Mbps",
-      "note": "Tbilisi has excellent internet infrastructure — one of the best in the region. Fast, reliable WiFi in cafes and hotels throughout the old town. A growing number of coworking spaces. No restrictions on internet access — all services available freely."
+      "spd": "45–90 Mbps",
+      "note": "Reliable across central neighborhoods, hotels, and coworking cafés, with solid mobile-data backup for regional day trips."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flight to Tbilisi (TBS). Best options: Wizz Air from London Luton (LTN) is direct; from Gatwick, connections typically route via Vienna, Warsaw, Riga or Istanbul. Turkish Airlines via Istanbul (IST) is a popular and well-priced option. Total journey 5–8 hrs.",
+    "fltNote": "No regular Gatwick-Tbilisi nonstop route; UK itineraries often connect via Istanbul, Warsaw, Riga, or Vienna (with occasional nonstop options from other London airports). Return fares are often ~£120-£260 off-peak, ~£260-£420 in shoulder demand, and ~£420+ around summer and holiday peaks.",
     "airports": [
       {
         "name": "Tbilisi International Airport",
@@ -94,7 +98,7 @@
     "currency": "Georgian Lari (GEL)",
     "lang": "Georgian",
     "tz": "GET (UTC+4)",
-    "visa": "Visa-free for UK citizens — up to 365 days",
+    "visa": "UK and US passport holders can generally enter Georgia visa-free for extended short-term stays (commonly up to 1 year; confirm current policy before travel).",
     "bestFor": [
       "History & culture lovers",
       "Wine enthusiasts",
@@ -104,10 +108,12 @@
       "Solo travellers"
     ],
     "alerts": [
-      "No direct Gatwick route — consider flying from Luton (Wizz Air direct) or connecting via Istanbul."
+      "No consistent Gatwick nonstop service — compare other London departures and one-stop options before booking.",
+      "Summer afternoons can be very hot; plan long hill walks and fortress climbs for morning/evening.",
+      "Mountain day-trip roads (Kazbegi and beyond) can be weather-sensitive outside stable-season windows."
     ]
   },
-  "sweet": "May, June and September are exceptional — warm and sunny with manageable crowds. Spring brings extraordinary blossom on the hillsides above the city.",
+  "sweet": "May-June and September-October are usually best for warm weather, clearer mountain access, and manageable city crowd levels.",
   "months": [
     {
       "m": "Jan",
@@ -117,7 +123,7 @@
       "daylight": 9.6,
       "cld": 48,
       "rain": 5,
-      "busy": 2,
+      "busy": 3,
       "ac": 1,
       "fl": 2
     },
@@ -129,7 +135,7 @@
       "daylight": 10.6,
       "cld": 51,
       "rain": 8,
-      "busy": 2,
+      "busy": 3,
       "ac": 1,
       "fl": 2
     },
@@ -141,7 +147,7 @@
       "daylight": 12.0,
       "cld": 51,
       "rain": 13,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -153,7 +159,7 @@
       "daylight": 13.4,
       "cld": 52,
       "rain": 30,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -165,7 +171,7 @@
       "daylight": 14.6,
       "cld": 44,
       "rain": 38,
-      "busy": 6,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -177,7 +183,7 @@
       "daylight": 15.2,
       "cld": 25,
       "rain": 36,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -189,9 +195,9 @@
       "daylight": 14.8,
       "cld": 10,
       "rain": 20,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Aug",
@@ -201,7 +207,7 @@
       "daylight": 13.8,
       "cld": 9,
       "rain": 20,
-      "busy": 8,
+      "busy": 9,
       "ac": 4,
       "fl": 4
     },
@@ -213,7 +219,7 @@
       "daylight": 12.4,
       "cld": 22,
       "rain": 18,
-      "busy": 6,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -225,8 +231,8 @@
       "daylight": 11.0,
       "cld": 43,
       "rain": 23,
-      "busy": 5,
-      "ac": 2,
+      "busy": 6,
+      "ac": 3,
       "fl": 3
     },
     {
@@ -237,7 +243,7 @@
       "daylight": 9.8,
       "cld": 49,
       "rain": 18,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -249,8 +255,8 @@
       "daylight": 9.2,
       "cld": 48,
       "rain": 8,
-      "busy": 2,
-      "ac": 1,
+      "busy": 3,
+      "ac": 2,
       "fl": 2
     }
   ]

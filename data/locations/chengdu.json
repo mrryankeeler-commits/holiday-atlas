@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/115333/Average-Weather-in-Chengdu-China-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Chengdu",
   "country": "China",
   "region": "Sichuan, Southwest China",
-  "desc": "Chengdu is one of China's most liveable and captivating cities — a place of extraordinary depth where 4,000 years of history sit alongside a thriving tea-house culture and the world's greatest giant panda research base. The city is the gateway to some of Asia's most spectacular landscapes: sacred Mount Emei, the world-heritage Leshan Giant Buddha, and Jiuzhaigou's rainbow-coloured lakes. The food scene — fiery hot pot, mapo tofu, dan dan noodles — is considered the finest in China.",
+  "desc": "Chengdu blends laid-back tea-house culture with major heritage sites and one of China's strongest food scenes, while also functioning as a gateway to western Sichuan mountain itineraries. Spring and autumn are generally the easiest windows for comfort and visibility; midsummer is hot-humid with heavier rain, and national-holiday weeks can create sharp domestic demand spikes.",
   "hls": [
-    "Giant pandas",
-    "Extraordinary food scene",
-    "Gateway to Tibet & mountains",
-    "4,000 years of history",
-    "Jiuzhaigou day trips",
-    "Very affordable"
+    "Giant Panda Base and conservation centres",
+    "Outstanding Sichuan food culture (hot pot, mapo tofu, noodles)",
+    "Historic lanes, teahouses, and relaxed urban pace",
+    "Strong base for Leshan, Mount Emei, and wider western Sichuan",
+    "Deep archaeology via Sanxingdui and Jinsha heritage",
+    "Good value for long-stay city exploration"
   ],
   "todo": [
     {
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 2,
-      "spd": "20–40 Mbps (heavily restricted)",
-      "note": "Important: The Great Firewall blocks Google, Gmail, WhatsApp, Slack and most Western business tools. A reliable VPN is essential — install and test before arriving as some are blocked at the border."
+      "spd": "20–50 Mbps (restricted ecosystem)",
+      "note": "Core hotel connectivity is usable, but many Western platforms/services are blocked by the Great Firewall. Set up and test any required business access tools before arrival."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flight. Best routes connect via Doha (Qatar Airways), Dubai (Emirates) or Hong Kong (Cathay Pacific). Total journey approx. 13–16 hrs. More connections from Heathrow (LHR) than Gatwick.",
+    "fltNote": "No direct Gatwick route; common UK routings connect via Doha, Dubai, Hong Kong, or major mainland hubs. Return fares are often ~£420–£650 off-peak, ~£650–£900 in shoulder demand, and ~£900+ around Chinese New Year, Golden Week, and summer peaks.",
     "airports": [
       {
         "name": "Chengdu Tianfu International",
@@ -90,21 +94,21 @@
     "currency": "Chinese Yuan / Renminbi (CNY)",
     "lang": "Mandarin Chinese",
     "tz": "CST (UTC+8)",
-    "visa": "15-day visa-free for UK citizens (policy since 2024 — verify before travel)",
+    "visa": "China entry rules vary by nationality and current bilateral policy; verify latest visa/visa-free terms before booking.",
     "bestFor": [
-      "Culture & history enthusiasts",
-      "Foodies",
-      "Wildlife lovers",
-      "Adventure travellers",
-      "Long-haul explorers"
+      "Food-led long-haul trips",
+      "Culture and archaeology",
+      "Panda visits",
+      "Gateway mountain itineraries",
+      "Value-focused city exploration"
     ],
     "alerts": [
-      "VPN essential for business use — install and test before travelling.",
-      "Cashless society: WeChat Pay & Alipay dominate. Carry some cash for markets.",
-      "15-day visa-free entry for UK citizens introduced 2024 — confirm current rules before booking."
+      "Platform restrictions can affect navigation, messaging, and payment apps; prepare alternatives in advance.",
+      "Golden Week and Chinese New Year periods can sharply increase transport/accommodation pressure.",
+      "Summer humidity and rain can reduce comfort for long outdoor days."
     ]
   },
-  "sweet": "March and November offer mild weather, lower costs and smaller crowds. Avoid Golden Week (1–7 Oct) when domestic tourism surges dramatically.",
+  "sweet": "March–May and October–November are typically the strongest balance of weather, visibility, and crowd pressure outside holiday spikes.",
   "months": [
     {
       "m": "Jan",
@@ -114,7 +118,7 @@
       "daylight": 10.4,
       "cld": 24,
       "rain": 0,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -126,9 +130,9 @@
       "daylight": 11.1,
       "cld": 30,
       "rain": 5,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -138,7 +142,7 @@
       "daylight": 12.0,
       "cld": 41,
       "rain": 13,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -150,7 +154,7 @@
       "daylight": 12.9,
       "cld": 50,
       "rain": 38,
-      "busy": 6,
+      "busy": 7,
       "ac": 4,
       "fl": 4
     },
@@ -162,7 +166,7 @@
       "daylight": 13.7,
       "cld": 46,
       "rain": 69,
-      "busy": 6,
+      "busy": 7,
       "ac": 4,
       "fl": 4
     },
@@ -174,7 +178,7 @@
       "daylight": 14.1,
       "cld": 53,
       "rain": 109,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     },
@@ -187,7 +191,7 @@
       "cld": 58,
       "rain": 188,
       "busy": 6,
-      "ac": 4,
+      "ac": 3,
       "fl": 4
     },
     {
@@ -210,7 +214,7 @@
       "daylight": 12.3,
       "cld": 47,
       "rain": 104,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     },
@@ -222,9 +226,9 @@
       "daylight": 11.4,
       "cld": 35,
       "rain": 28,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
-      "fl": 4
+      "fl": 5
     },
     {
       "m": "Nov",
@@ -234,7 +238,7 @@
       "daylight": 10.6,
       "cld": 26,
       "rain": 8,
-      "busy": 4,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -246,7 +250,7 @@
       "daylight": 10.2,
       "cld": 22,
       "rain": 3,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     }

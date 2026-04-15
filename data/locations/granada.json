@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/36650/Average-Weather-in-Granada-Spain-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Granada",
   "country": "Spain",
   "region": "Andalusia",
-  "desc": "Granada lies at the foot of the Sierra Nevada, where Moorish palace architecture, Albaicín lanes, and Spanish tapas culture meet. Visit for the Alhambra, mountain-backed viewpoints, and a layered Andalusian identity shaped by Islamic, Jewish, and Christian history.",
+  "desc": "Granada sits between the Sierra Nevada and Andalusia's plains, combining the Alhambra's world-class Islamic heritage with hilltop viewpoints, cave-flamenco traditions, and one of Spain's strongest tapas cultures. Demand is highest in spring and autumn when temperatures are comfortable, while midsummer is hotter but still active for evening-led city breaks.",
   "hls": [
-    "Alhambra and Generalife palace complex",
+    "Alhambra and Generalife palace-garden complex",
     "Albaicín and Sacromonte hillside districts",
     "Strong free-tapas bar culture",
-    "Sierra Nevada mountains nearby",
-    "Sunset views from Mirador de San Nicolás",
-    "Rich fusion of Moorish and Spanish heritage"
+    "Mirador viewpoints with Sierra Nevada backdrops",
+    "Easy pairing with Málaga/Córdoba/Seville itineraries",
+    "Distinct Moorish-Christian heritage layering"
   ],
   "todo": [
     {
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "60–140 Mbps",
-      "note": "Reliable in Albaicín and center stays; hillside properties can see weaker indoor coverage."
+      "spd": "70–150 Mbps",
+      "note": "Reliable in central and Albaicín accommodations; steeper hillside properties can have weaker indoor mobile coverage and variable room-by-room Wi-Fi strength."
     },
     "directGW": false,
-    "fltNote": "Granada Airport has limited international routes; many UK visitors fly to Málaga (AGP) then transfer by bus/train (about 2 hours).",
+    "fltNote": "Direct Gatwick–Granada options are limited, so many UK itineraries use Málaga (AGP) plus onward bus/train transfer (~2 hours). Return fares commonly run ~£45–£110 off-peak, ~£110–£180 in shoulder demand, and ~£180+ around Easter, summer peaks, and major holiday windows.",
     "airports": [
       {
         "name": "Federico García Lorca Granada Airport",
@@ -75,24 +79,32 @@
         "code": "AGP",
         "km": 135,
         "dgw": true
+      },
+      {
+        "name": "Seville Airport (San Pablo)",
+        "code": "SVQ",
+        "km": 252,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Spanish",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Spain is in Schengen; many non-EU travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Spain is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any rolling 180-day period.",
     "bestFor": [
       "Alhambra-focused trips",
-      "Tapas weekends",
-      "Andalusia rail loops",
-      "Culture + mountain combos",
-      "Shoulder-season city breaks"
+      "Culture + food weekends",
+      "Andalusia multi-city routes",
+      "Shoulder-season city breaks",
+      "Scenic viewpoints"
     ],
     "alerts": [
-      "Alhambra tickets often sell out days or weeks ahead in spring and autumn."
+      "Alhambra timed-entry inventory often sells out well ahead in spring/autumn; book before flights where possible.",
+      "Summer afternoons can be very hot on exposed uphill routes; schedule major walks early/late.",
+      "Sacromonte and Albaicín slopes are steep/cobbled — choose luggage-light stays or arrange taxi drop-offs."
     ]
   },
-  "sweet": "April to June and September to October avoid the harshest inland summer heat.",
+  "sweet": "Mid-April to June and September to October are the strongest all-round windows for comfort, crowds, and long sightseeing days.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +114,7 @@
       "daylight": 9.9,
       "cld": 42,
       "rain": 33,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +126,7 @@
       "daylight": 10.9,
       "cld": 42,
       "rain": 30,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -126,7 +138,7 @@
       "daylight": 12.0,
       "cld": 41,
       "rain": 25,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -138,9 +150,9 @@
       "daylight": 13.2,
       "cld": 40,
       "rain": 25,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -150,9 +162,9 @@
       "daylight": 14.2,
       "cld": 37,
       "rain": 18,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -162,9 +174,9 @@
       "daylight": 14.7,
       "cld": 22,
       "rain": 8,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -174,9 +186,9 @@
       "daylight": 14.4,
       "cld": 9,
       "rain": 3,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -186,9 +198,9 @@
       "daylight": 13.5,
       "cld": 15,
       "rain": 3,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -198,9 +210,9 @@
       "daylight": 12.4,
       "cld": 33,
       "rain": 13,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -210,9 +222,9 @@
       "daylight": 11.2,
       "cld": 44,
       "rain": 38,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -222,7 +234,7 @@
       "daylight": 10.2,
       "cld": 45,
       "rain": 46,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -234,9 +246,9 @@
       "daylight": 9.7,
       "cld": 46,
       "rain": 43,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 4,
+      "ac": 3,
+      "fl": 3
     }
   ]
 }

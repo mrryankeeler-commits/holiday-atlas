@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/78384/Average-Weather-in-Catania-Italy-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Catania",
   "country": "Italy",
   "region": "Southern Italy",
-  "desc": "Set between the Ionian Sea and Mount Etna, Catania mixes dramatic volcanic scenery with Baroque streets rebuilt in lava stone after the 1693 earthquake. It is one of Sicily's most energetic food cities, with bustling fish markets, late-night piazzas, and easy access to Etna villages and Cyclops Riviera beaches.",
+  "desc": "Catania is Sicily's gritty, high-energy east-coast hub where lava-stone baroque streets, seafood markets, and Mount Etna backdrops create one of Italy's most dramatic city settings. It works well year-round, but demand and price pressure rise sharply in late spring through early autumn as beach traffic, Etna excursions, and Sicily fly-drive itineraries converge.",
   "hls": [
-    "UNESCO-listed late Baroque core around Piazza del Duomo",
-    "Daily seafood action at La Pescheria market",
-    "Day trips to Mount Etna craters and wineries on volcanic slopes",
-    "Roman ruins embedded in the modern city (Teatro Romano, Odeon)",
-    "Black-lava coastline and seaside walks at Ognina and Aci Castello",
-    "Excellent Sicilian street food: arancini, cipollina, granita with brioche"
+    "Lava-stone Baroque center around Piazza del Duomo",
+    "La Pescheria market and standout Sicilian street-food scene",
+    "Fast access to Mount Etna craters, wineries, and lava landscapes",
+    "Roman theatre and monastery complex within the old town",
+    "Cyclops Riviera coast (Aci Castello/Aci Trezza) close by",
+    "Strong base for Taormina, Syracuse, and southeast Sicily"
   ],
   "todo": [
     {
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "80–180 Mbps",
-      "note": "Strong in central apartments and coworking-friendly cafés; verify speeds in older buildings."
+      "spd": "80–190 Mbps",
+      "note": "Generally reliable in central apartments/hotels and business cafés. In older stone buildings, confirm in-room signal quality if you need long video calls."
     },
     "directGW": false,
-    "fltNote": "London Gatwick service is usually seasonal or indirect; year-round routings are commonly via Rome, Milan, or other EU hubs.",
+    "fltNote": "Gatwick–Catania nonstop service is usually seasonal; outside peak months, one-stop routings via Rome, Milan, or major EU hubs are common. Return fares are often ~£60–£130 in off-peak, ~£130–£230 in shoulder demand, and ~£230+ around school-holiday summer peaks.",
     "airports": [
       {
         "name": "Catania–Fontanarossa Airport",
@@ -85,25 +89,32 @@
         "code": "CIY",
         "km": 95,
         "dgw": false
+      },
+      {
+        "name": "Palermo Falcone Borsellino Airport",
+        "code": "PMO",
+        "km": 210,
+        "dgw": false
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Italian",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Italy is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any rolling 180-day period.",
     "bestFor": [
-      "Food-first trips",
-      "Volcano and nature day trips",
-      "Shoulder-season sun",
-      "History lovers",
-      "Long weekend breaks"
+      "Volcano + coast itineraries",
+      "Street-food trips",
+      "Shoulder-season sun breaks",
+      "Sicily road-trip starts",
+      "History + nature combinations"
     ],
     "alerts": [
-      "Etna excursions can be canceled on short notice because of volcanic activity or weather.",
-      "Historic center streets around La Pescheria are lively at night; light sleepers should choose quieter blocks."
+      "Etna excursions can change quickly because of volcanic conditions, wind, or visibility; keep plans flexible.",
+      "August heat and holiday traffic raise transfer times and reduce daytime comfort for city walking.",
+      "Fish market and nightlife zones are lively late — choose accommodation a few streets back if you need quieter nights."
     ]
   },
-  "sweet": "April to June and September to October bring warm seas and easier Sicily sightseeing than August peak season.",
+  "sweet": "Late April to June and September to mid-October are the strongest all-round months for Etna access, sea temperatures, and manageable crowd pressure.",
   "months": [
     {
       "m": "Jan",
@@ -113,7 +124,7 @@
       "daylight": 9.9,
       "cld": 39,
       "rain": 56,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -125,7 +136,7 @@
       "daylight": 10.8,
       "cld": 37,
       "rain": 46,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -137,9 +148,9 @@
       "daylight": 12.0,
       "cld": 37,
       "rain": 36,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -149,9 +160,9 @@
       "daylight": 13.2,
       "cld": 36,
       "rain": 23,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -161,9 +172,9 @@
       "daylight": 14.2,
       "cld": 33,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -173,9 +184,9 @@
       "daylight": 14.7,
       "cld": 18,
       "rain": 5,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -185,7 +196,7 @@
       "daylight": 14.4,
       "cld": 4,
       "rain": 3,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -197,7 +208,7 @@
       "daylight": 13.5,
       "cld": 8,
       "rain": 8,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -209,9 +220,9 @@
       "daylight": 12.4,
       "cld": 26,
       "rain": 33,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -221,7 +232,7 @@
       "daylight": 11.2,
       "cld": 40,
       "rain": 48,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -233,7 +244,7 @@
       "daylight": 10.1,
       "cld": 40,
       "rain": 61,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -245,9 +256,9 @@
       "daylight": 9.6,
       "cld": 39,
       "rain": 64,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     }
   ]
 }

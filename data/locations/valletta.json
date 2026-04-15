@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/76280/Average-Weather-in-Valletta-Malta-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Valletta",
   "country": "Malta",
   "region": "Malta",
-  "desc": "Valletta is a compact fortified capital where Baroque streets, harbor bastions, and maritime history fit into a walkable peninsula. It is ideal for culture-first travelers who want museums and architecture by day, then sea views and restaurant terraces at night.",
+  "desc": "Valletta is a compact fortified capital of Baroque streets, harbor bastions, and maritime history, all wrapped into an easily walkable peninsula. It works particularly well for culture-rich short breaks, with strong shoulder-season conditions in spring and autumn and winter-sun appeal outside peak summer heat.",
   "hls": [
     "UNESCO-listed walled city built by the Knights of St John",
     "Grand Harbour panoramas from Upper Barrakka Gardens",
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "80–200 Mbps",
-      "note": "Strong connectivity across boutique hotels and apartments; mobile coverage is excellent around the harbor area."
+      "spd": "90–220 Mbps",
+      "note": "Strong connectivity across boutique hotels, apartments, and central cafés, with excellent mobile coverage around the harbor."
     },
     "directGW": true,
-    "fltNote": "London Gatwick serves Malta (MLA) with frequent nonstop flights year-round, with additional seasonal capacity.",
+    "fltNote": "Gatwick-Malta is commonly nonstop year-round with strong seasonal capacity. Return fares are often ~£45-£120 off-peak, ~£120-£210 in shoulder demand, and ~£210+ around summer school holidays and festive peaks.",
     "airports": [
       {
         "name": "Malta International Airport",
@@ -83,8 +87,8 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Maltese and English",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Malta is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Malta is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Culture-rich short breaks",
       "History enthusiasts",
@@ -94,10 +98,11 @@
     ],
     "alerts": [
       "Valletta's steep streets and steps can be tiring in midday heat; plan museum stops around noon.",
-      "Cruise ship days increase foot traffic in central lanes and major museums."
+      "Cruise ship days increase foot traffic in central lanes and major museums.",
+      "July-August heat can be intense on exposed limestone streets — carry water and prioritize shade breaks."
     ]
   },
-  "sweet": "April to June and October deliver warm sea-weather without the highest summer crowd levels.",
+  "sweet": "April-June and October are usually best for warm weather with less crowd pressure than midsummer peaks.",
   "months": [
     {
       "m": "Jan",
@@ -107,7 +112,7 @@
       "daylight": 10.0,
       "cld": 36,
       "rain": 56,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -119,7 +124,7 @@
       "daylight": 10.9,
       "cld": 34,
       "rain": 43,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -131,7 +136,7 @@
       "daylight": 12.0,
       "cld": 33,
       "rain": 33,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -143,7 +148,7 @@
       "daylight": 13.1,
       "cld": 32,
       "rain": 20,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -155,9 +160,9 @@
       "daylight": 14.1,
       "cld": 30,
       "rain": 13,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -167,9 +172,9 @@
       "daylight": 14.6,
       "cld": 16,
       "rain": 5,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -179,7 +184,7 @@
       "daylight": 14.3,
       "cld": 2,
       "rain": 3,
-      "busy": 3,
+      "busy": 9,
       "ac": 3,
       "fl": 3
     },
@@ -191,7 +196,7 @@
       "daylight": 13.4,
       "cld": 6,
       "rain": 8,
-      "busy": 3,
+      "busy": 9,
       "ac": 3,
       "fl": 3
     },
@@ -203,9 +208,9 @@
       "daylight": 12.4,
       "cld": 23,
       "rain": 36,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -215,9 +220,9 @@
       "daylight": 11.2,
       "cld": 39,
       "rain": 53,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -227,7 +232,7 @@
       "daylight": 10.3,
       "cld": 38,
       "rain": 64,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -239,7 +244,7 @@
       "daylight": 9.8,
       "cld": 36,
       "rain": 64,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     }

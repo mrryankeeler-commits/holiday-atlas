@@ -5,12 +5,16 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Jambiani",
   "country": "Tanzania",
   "region": "Zanzibar",
-  "desc": "Jambiani is a laid-back village on Zanzibar’s southeast coast, known for powdery tidal beaches, seaweed farms, and dhow-dotted horizons. Come for slow island rhythms, kitesurfing winds, Swahili culture, and easy ocean excursions.",
+  "desc": "Jambiani is a laid-back village on Zanzibar's southeast coast, known for broad tidal beaches, seaweed farms, and dhow-dotted horizons. It is best for slow island rhythms, kitesurfing seasons, and low-key beach stays rather than full-service resort nightlife.",
   "hls": [
     "Long white-sand beach with dramatic tides",
     "Authentic village atmosphere vs. larger resorts",
@@ -54,11 +58,11 @@
   "prac": {
     "wifi": {
       "r": 2,
-      "spd": "8–30 Mbps",
-      "note": "Beach lodges offer basic Wi-Fi; mobile data is often more dependable for work calls."
+      "spd": "10–35 Mbps",
+      "note": "Beach lodges typically provide basic Wi-Fi; mobile data is often the more dependable option for calls and uploads."
     },
     "directGW": false,
-    "fltNote": "Fly into Zanzibar’s Abeid Amani Karume Airport (ZNZ), then transfer roughly 1–1.5 hours by road to Jambiani.",
+    "fltNote": "Reach Jambiani via Zanzibar Airport (ZNZ), then transfer about 1-1.5 hours by road. UK routings are usually one-stop via major Gulf, East African, or European hubs. Return fares are often ~£420-£700 off-peak, ~£700-£980 in shoulder demand, and ~£980+ around festive peaks.",
     "airports": [
       {
         "name": "Abeid Amani Karume International Airport (Zanzibar)",
@@ -70,7 +74,7 @@
     "currency": "Tanzanian shilling (TZS)",
     "lang": "Swahili and English",
     "tz": "East Africa Time (UTC+3)",
-    "visa": "Most visitors need a Tanzania eVisa or visa on arrival; ensure passport validity and any required return/onward proof.",
+    "visa": "Most visitors need a Tanzania eVisa or visa on arrival; confirm current entry and insurance requirements before travel.",
     "bestFor": [
       "Kite surfing",
       "Quiet beach stays",
@@ -79,10 +83,12 @@
       "Low-key digital detox"
     ],
     "alerts": [
-      "Tidal swings are significant on the southeast coast; swimming windows shift by day."
+      "Tidal swings are significant on the southeast coast; swimming windows shift by day.",
+      "Monsoon periods can bring heavy rain, rough seas, and slower boat-based activities.",
+      "ATM access is limited in village areas — carry enough cash for smaller local services."
     ]
   },
-  "sweet": "June to October is generally drier and breezier in Zanzibar, ideal for kitesurfing and beach time.",
+  "sweet": "June-October is usually drier and breezier for kitesurfing, while December-February can also be good for warm beach conditions between rains.",
   "months": [
     {
       "m": "Jan",

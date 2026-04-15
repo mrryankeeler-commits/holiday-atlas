@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/91560/Average-Weather-in-Riga-Latvia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Riga",
   "country": "Latvia",
   "region": "Baltics",
-  "desc": "Riga combines grand Art Nouveau boulevards, a lively old town, and Baltic urban culture, with dramatic daylight swings shaping winter and summer travel styles.",
+  "desc": "Riga combines standout Art Nouveau boulevards, a lively old town, and a compact riverfront layout with strong Baltic café/bar culture. It is most comfortable from late spring through early autumn, while December offers festive atmosphere and short-day winter city-break appeal.",
   "hls": [
     "Outstanding Art Nouveau architecture district",
     "Old Town lanes with strong café/bar culture",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "90–250 Mbps",
-      "note": "Very strong in hotels and city cafés; eSIM and public Wi‑Fi coverage are widely available."
+      "spd": "100–280 Mbps",
+      "note": "Very strong in hotels, apartments, and city cafés, with wide eSIM/public-Wi-Fi availability."
     },
     "directGW": true,
-    "fltNote": "Riga is a regional Baltic hub with frequent UK/European service and easy public bus connections to center.",
+    "fltNote": "Gatwick-Riga is commonly available nonstop with strong frequency in peak periods. Return fares are often ~£35-£95 off-peak, ~£95-£170 in shoulder demand, and ~£170+ around midsummer and December festive peaks.",
     "airports": [
       {
         "name": "Riga International Airport",
@@ -74,7 +78,7 @@
     "currency": "Euro (EUR)",
     "lang": "Latvian (Russian widely understood in some settings)",
     "tz": "EET/EEST (UTC+2/UTC+3)",
-    "visa": "Latvia is in Schengen; standard Schengen entry rules apply.",
+    "visa": "Latvia is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Architecture trips",
       "Winter city escapes",
@@ -83,10 +87,12 @@
       "Budget-conscious Europe breaks"
     ],
     "alerts": [
-      "From late November to January, daylight is short; build itineraries around a 6–7 hour light window."
+      "From late November to January, daylight is short; plan outdoor sightseeing around a 6-7 hour light window.",
+      "Cruise arrivals can create temporary midday crowding in old-town lanes during summer.",
+      "Winter pavements may be icy — choose footwear suitable for freezing conditions."
     ]
   },
-  "sweet": "June to August brings long northern days and the best odds of mild Baltic weather.",
+  "sweet": "June-August usually offers the longest daylight and best weather odds, while September often balances value and comfort well.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 7.5,
       "cld": 74,
       "rain": 23,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 9.6,
       "cld": 71,
       "rain": 20,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 11.9,
       "cld": 64,
       "rain": 23,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 14.4,
       "cld": 57,
       "rain": 30,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -144,7 +150,7 @@
       "daylight": 16.6,
       "cld": 49,
       "rain": 43,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -156,9 +162,9 @@
       "daylight": 17.8,
       "cld": 47,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 17.1,
       "cld": 44,
       "rain": 58,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,9 +186,9 @@
       "daylight": 15.1,
       "cld": 47,
       "rain": 56,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,7 +198,7 @@
       "daylight": 12.7,
       "cld": 53,
       "rain": 48,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,7 +210,7 @@
       "daylight": 10.3,
       "cld": 62,
       "rain": 51,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -216,7 +222,7 @@
       "daylight": 8.1,
       "cld": 72,
       "rain": 41,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -228,9 +234,9 @@
       "daylight": 6.8,
       "cld": 74,
       "rain": 25,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/82100/Average-Weather-in-Mostar-Bosnia-&-Herzegovina-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Mostar",
   "country": "Bosnia & Herzegovina",
   "region": "Western Balkans",
-  "desc": "Mostar is one of the most visually arresting towns in Europe — a living relic of Ottoman Bosnia where the iconic Stari Most (Old Bridge) arches over the turquoise Neretva river between minarets and medieval stone towers. The old bazaar Kujundžiluk is a warren of copper workshops, rug merchants and traditional teahouses. The surrounding landscape is dramatic: limestone karst, emerald river canyons and the vine-terraced Herzegovinian countryside. Despite its UNESCO profile, Mostar remains genuinely unspoilt outside the brief July–August peak.",
+  "desc": "Mostar is one of the Balkans' most striking historic cities, centered on the iconic Stari Most arching above the Neretva and an atmospheric Ottoman-era bazaar quarter. It is compact, highly photogenic, and easy to pair with Blagaj, Počitelj, and Kravice on short regional loops, with strongest comfort in spring and early autumn before midsummer heat and day-trip crowding peak.",
   "hls": [
     "UNESCO Old Bridge",
     "Ottoman old town",
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "20–35 Mbps",
-      "note": "Adequate for video calls. Hotel and cafe WiFi reliable in the old town. No major coworking spaces, but local cafes work well."
+      "spd": "25–45 Mbps",
+      "note": "Usually adequate for remote work in central hotels and cafés, though reliability is less consistent than in larger regional capitals."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flight to Mostar (OMO). Best options: LGW → Split (SPU) with easyJet then ~2.5 hr drive; or LGW → Dubrovnik (DBV) with easyJet then ~2.5 hr drive. Both routes offer direct Gatwick connections.",
+    "fltNote": "No routine nonstop Gatwick service to Mostar (OMO). Most UK itineraries route via Split (SPU), Dubrovnik (DBV), or Sarajevo (SJJ) with onward road transfer. Return fares are often ~£60–£150 off-peak, ~£150–£260 in shoulder demand, and ~£260+ around summer and holiday peaks.",
     "airports": [
       {
         "name": "Mostar Airport",
@@ -102,7 +106,7 @@
     "currency": "Convertible Mark (BAM)",
     "lang": "Bosnian / Croatian / Serbian",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Visa-free for UK citizens — up to 90 days",
+    "visa": "UK and US passport holders can generally enter visa-free for short stays (commonly up to 90 days in 180 days).",
     "bestFor": [
       "History lovers",
       "Couples & romance",
@@ -110,9 +114,13 @@
       "Food & wine",
       "Budget travellers"
     ],
-    "alerts": []
+    "alerts": [
+      "Midday heat can be intense in July-August; plan bridge-area walking for early morning or evening.",
+      "Popular viewpoints and bridge approaches become crowded when cruise and coastal day-trip buses arrive.",
+      "Cross-border day trips toward Croatia can be slower in peak summer and holiday windows."
+    ]
   },
-  "sweet": "May and September are the sweet spot — Mediterranean warmth without July/August peak crowds or prices.",
+  "sweet": "May-June and September are usually best for warm weather, lower crowd pressure, and easier day-trip logistics than peak midsummer.",
   "months": [
     {
       "m": "Jan",

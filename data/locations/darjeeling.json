@@ -5,12 +5,16 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Darjeeling",
   "country": "India",
   "region": "West Bengal, India",
-  "desc": "Darjeeling offers classic Himalayan hill-station weather, with clear spring/autumn mountain views and a rain-heavy monsoon that affects roads and visibility.",
+  "desc": "Darjeeling is a classic Himalayan hill station centered on tea estates, mountain viewpoints, and heritage rail culture. Travel quality varies strongly by season: spring and autumn are best for clear Kanchenjunga views, while monsoon months bring lush scenery but frequent rain, cloud, and road disruption risk.",
   "hls": [
     "Iconic Himalayan hill-station atmosphere",
     "Best mountain views in spring/autumn",
@@ -54,33 +58,43 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "15–45 Mbps",
-      "note": "Good in central hotels; can be patchy during storms and power interruptions."
+      "spd": "20–55 Mbps",
+      "note": "Central hotels and cafés are workable, but speeds and uptime can drop during storms, power interruptions, and landslide-prone weather windows."
     },
     "directGW": false,
-    "fltNote": "Fly to Bagdogra (IXB), then continue about 70 km uphill to Darjeeling. Road transfers usually take 3–4 hours, but fog, landslides, or peak holiday traffic can push this longer.",
+    "fltNote": "Typical UK routing is Gatwick → major Indian hub → Bagdogra (IXB), then 3–4+ hour mountain transfer to Darjeeling. Return fares are often ~£420–£700 off-peak, ~£700–£980 in shoulder demand, and ~£980+ around peak holiday periods.",
     "airports": [
       {
         "name": "Bagdogra Airport",
         "code": "IXB",
         "km": 70,
         "dgw": false
+      },
+      {
+        "name": "Pakyong Airport",
+        "code": "PYG",
+        "km": 72,
+        "dgw": false
       }
     ],
     "currency": "Indian Rupee (INR)",
     "lang": "Nepali, Bengali, Hindi, English in tourism sectors",
-    "tz": "UTC+5:30",
-    "visa": "eVisa available for many nationalities; verify current category rules",
+    "tz": "IST (UTC+5:30)",
+    "visa": "India eVisa is available for many nationalities; confirm current category and validity rules before travel.",
     "bestFor": [
       "Hill-station escapes",
       "Tea tourism",
-      "Scenic rail heritage",
-      "Cool-weather summers",
-      "Photography"
+      "Mountain photography",
+      "Cool-summer breaks",
+      "Heritage rail enthusiasts"
     ],
-    "alerts": []
+    "alerts": [
+      "Monsoon rains can trigger landslides and significant transfer delays on hill roads.",
+      "Cloud cover can obscure mountain views for days in wet periods.",
+      "Peak domestic holiday windows raise room rates and reduce last-minute availability."
+    ]
   },
-  "sweet": "March to May and October to November usually offer clearer Himalayan views between monsoon and winter chill.",
+  "sweet": "March–May and October–November are usually the best windows for visibility, temperatures, and road reliability.",
   "months": [
     {
       "m": "Jan",
@@ -89,7 +103,7 @@
       "lo": 8,
       "cld": 34,
       "rain": 20,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 8
@@ -101,7 +115,7 @@
       "lo": 10,
       "cld": 36,
       "rain": 35,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 8
@@ -113,7 +127,7 @@
       "lo": 13,
       "cld": 44,
       "rain": 80,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4,
       "daylight": 7
@@ -125,9 +139,9 @@
       "lo": 15,
       "cld": 55,
       "rain": 180,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4,
       "daylight": 6
     },
     {
@@ -137,9 +151,9 @@
       "lo": 16,
       "cld": 70,
       "rain": 320,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4,
       "daylight": 4.5
     },
     {
@@ -149,7 +163,7 @@
       "lo": 16,
       "cld": 82,
       "rain": 520,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4,
       "daylight": 3
@@ -161,7 +175,7 @@
       "lo": 15,
       "cld": 88,
       "rain": 620,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3,
       "daylight": 2.5
@@ -173,7 +187,7 @@
       "lo": 15,
       "cld": 86,
       "rain": 560,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3,
       "daylight": 3
@@ -185,7 +199,7 @@
       "lo": 15,
       "cld": 78,
       "rain": 360,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4,
       "daylight": 4.5
@@ -197,7 +211,7 @@
       "lo": 14,
       "cld": 62,
       "rain": 140,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5,
       "daylight": 6
@@ -209,9 +223,9 @@
       "lo": 11,
       "cld": 44,
       "rain": 40,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4,
       "daylight": 7.5
     },
     {
@@ -221,7 +235,7 @@
       "lo": 9,
       "cld": 36,
       "rain": 18,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4,
       "daylight": 8

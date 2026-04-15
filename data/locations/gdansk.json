@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/84138/Average-Weather-in-Gda%C5%84sk-Poland-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Gdansk",
   "country": "Poland",
   "region": "Pomerania, Poland",
-  "desc": "Gdańsk is a maritime Hanseatic city of colorful facades, shipyard-era history, and Baltic-coast access, with a distinctly sea-shaped rhythm across the year.",
+  "desc": "Gdańsk is a characterful Baltic port where Hanseatic facades, shipyard history, and beach-oriented Tri-City life combine into a flexible city-and-coast break. Demand rises from late spring through summer when waterfront events and seaside travel peak, while winter is calmer, windier, and better for museum-heavy itineraries.",
   "hls": [
-    "Historic Long Market and waterfront crane",
-    "Solidarity and shipyard legacy sites",
-    "Tri-City access (Gdańsk, Sopot, Gdynia)",
-    "Baltic beaches and coastal walks",
-    "Amber craft and maritime cuisine",
-    "Cooler seaside summers than inland Poland"
+    "Hanseatic old town and Motława waterfront",
+    "Solidarity movement and shipyard heritage sites",
+    "Easy Tri-City access (Gdańsk, Sopot, Gdynia)",
+    "Baltic beaches, piers, and coastal rail links",
+    "Strong amber craft and maritime food culture",
+    "Cooler summers than inland Polish city breaks"
   ],
   "todo": [
     {
@@ -58,35 +62,43 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–170 Mbps",
-      "note": "Reliable in city stays and cafés; some beach zones have weaker coverage."
+      "spd": "80–180 Mbps",
+      "note": "Generally reliable in city apartments and cafés; seafront promenades and beach stretches can have more variable mobile performance during peak weekends."
     },
     "directGW": true,
-    "fltNote": "Gdańsk Airport serves many UK and Nordic routes and is efficient for Tri-City itineraries.",
+    "fltNote": "Gatwick–Gdańsk has regular direct options across much of the year, with additional UK routes supporting Tri-City breaks. Return fares are often ~£35–£90 off-peak, ~£90–£160 in shoulder demand, and ~£160+ around summer holidays and Christmas market windows.",
     "airports": [
       {
         "name": "Gdańsk Lech Wałęsa Airport",
         "code": "GDN",
         "km": 17,
         "dgw": true
+      },
+      {
+        "name": "Bydgoszcz Ignacy Jan Paderewski Airport",
+        "code": "BZG",
+        "km": 174,
+        "dgw": false
       }
     ],
     "currency": "Polish złoty (PLN)",
     "lang": "Polish",
-    "tz": "CET/CEST (UTC+1/UTC+2)",
-    "visa": "Poland is in Schengen; standard Schengen entry rules apply.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Poland is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any rolling 180-day period.",
     "bestFor": [
       "Maritime history",
-      "Cool-summer city breaks",
-      "Coastal rail trips",
+      "Summer city + beach trips",
+      "Cool-climate weekends",
       "Photography",
-      "Weekend + beach combos"
+      "Rail-linked coastal itineraries"
     ],
     "alerts": [
-      "Baltic wind can make shoulder-season temperatures feel several degrees colder."
+      "Baltic wind can make shoulder-season temperatures feel noticeably colder than the forecast headline.",
+      "Sopot and waterfront areas get significantly busier on summer weekends — book central accommodation early.",
+      "Rain and wind can disrupt coastal boat trips even in warm months; keep backup indoor plans."
     ]
   },
-  "sweet": "June to September has the best Baltic weather, while winter is darker, colder, and quieter.",
+  "sweet": "June to early September is best for beaches and long daylight; May and late September are quieter shoulder windows with decent weather.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +108,7 @@
       "daylight": 8.0,
       "cld": 67,
       "rain": 20,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +120,7 @@
       "daylight": 9.8,
       "cld": 65,
       "rain": 18,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +132,7 @@
       "daylight": 12.0,
       "cld": 59,
       "rain": 23,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,9 +144,9 @@
       "daylight": 14.2,
       "cld": 54,
       "rain": 25,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -144,7 +156,7 @@
       "daylight": 16.1,
       "cld": 49,
       "rain": 36,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -156,9 +168,9 @@
       "daylight": 17.1,
       "cld": 45,
       "rain": 46,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +180,7 @@
       "daylight": 16.5,
       "cld": 43,
       "rain": 56,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,7 +192,7 @@
       "daylight": 14.8,
       "cld": 44,
       "rain": 48,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -192,9 +204,9 @@
       "daylight": 12.6,
       "cld": 49,
       "rain": 43,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +216,7 @@
       "daylight": 10.4,
       "cld": 57,
       "rain": 36,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -216,7 +228,7 @@
       "daylight": 8.5,
       "cld": 67,
       "rain": 36,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -228,9 +240,9 @@
       "daylight": 7.4,
       "cld": 68,
       "rain": 28,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }

@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/97643/Average-Weather-in-Hurghada-Egypt-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Hurghada",
   "country": "Egypt",
   "region": "Red Sea Coast",
-  "desc": "Hurghada is Egypt’s classic Red Sea resort city, prized for warm water, coral reefs, and reliable sunshine. It suits beach holidays, beginner-to-advanced diving, and marine excursions to islands and protected snorkeling areas.",
+  "desc": "Hurghada is Egypt's classic Red Sea resort base, combining year-round sun with highly accessible reefs for snorkeling and diving. Demand is strongest in spring and autumn shoulder months plus winter-sun periods, while midsummer remains viable but very hot for land-based excursions.",
   "hls": [
     "Clear Red Sea water and coral reefs",
     "Strong dive infrastructure and liveaboards",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "12–45 Mbps",
-      "note": "Resort Wi-Fi is often uneven; eSIM/local data is useful for reliable connectivity."
+      "spd": "15–55 Mbps",
+      "note": "Connectivity in resorts is improving but still uneven; local SIM/eSIM data is advisable for dependable coverage."
     },
-    "directGW": false,
-    "fltNote": "Gatwick often has direct or charter-style nonstop flights to Hurghada, with extra frequencies in winter sun season.",
+    "directGW": true,
+    "fltNote": "Gatwick often has seasonal and package-led nonstop service to Hurghada, with one-stop alternatives year-round. Return fares are often ~£180–£380 off-peak, ~£380–£560 in shoulder demand, and ~£560+ during winter-sun and school-holiday peaks.",
     "airports": [
       {
         "name": "Hurghada International Airport",
@@ -73,20 +77,22 @@
     ],
     "currency": "Egyptian pound (EGP)",
     "lang": "Arabic (English widely spoken in resorts)",
-    "tz": "EET (UTC+2), EEST (UTC+3) in summer",
-    "visa": "Most travelers require an Egypt eVisa or visa on arrival; Red Sea package operators may provide current entry guidance.",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Most visitors require an Egypt eVisa or visa on arrival; verify current rules before booking.",
     "bestFor": [
       "Diving and snorkeling",
       "All-inclusive beach stays",
       "Winter sun",
       "Family resort breaks",
-      "Boat day trips"
+      "Boat excursions"
     ],
     "alerts": [
-      "Summer heat can exceed 40°C; schedule outdoor excursions early morning."
+      "Summer daytime heat can exceed comfort for desert tours; prioritize early departures.",
+      "Reef etiquette enforcement varies by operator — choose eco-compliant dive/snorkel providers.",
+      "Wind and sea conditions can alter boat itineraries at short notice."
     ]
   },
-  "sweet": "March to May and October to November offer warm Red Sea conditions without midsummer extremes.",
+  "sweet": "March to May and October to November are usually the strongest all-round periods for sea conditions and comfortable temperatures.",
   "months": [
     {
       "m": "Jan",
@@ -96,9 +102,9 @@
       "daylight": 10.6,
       "cld": 19,
       "rain": 0,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Feb",
@@ -108,7 +114,7 @@
       "daylight": 11.3,
       "cld": 18,
       "rain": 0,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -120,9 +126,9 @@
       "daylight": 12.0,
       "cld": 18,
       "rain": 0,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -132,9 +138,9 @@
       "daylight": 12.8,
       "cld": 20,
       "rain": 0,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -144,7 +150,7 @@
       "daylight": 13.5,
       "cld": 17,
       "rain": 0,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -156,7 +162,7 @@
       "daylight": 13.8,
       "cld": 4,
       "rain": 0,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -168,7 +174,7 @@
       "daylight": 13.7,
       "cld": 6,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -180,7 +186,7 @@
       "daylight": 13.1,
       "cld": 4,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -192,7 +198,7 @@
       "daylight": 12.3,
       "cld": 3,
       "rain": 0,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,9 +210,9 @@
       "daylight": 11.5,
       "cld": 11,
       "rain": 0,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -216,9 +222,9 @@
       "daylight": 10.8,
       "cld": 21,
       "rain": 0,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Dec",
@@ -228,7 +234,7 @@
       "daylight": 10.5,
       "cld": 24,
       "rain": 0,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     }

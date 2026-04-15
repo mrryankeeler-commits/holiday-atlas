@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/107537/Average-Weather-in-Goa-Velha-Goa-India-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Goa",
   "country": "India",
   "region": "Western India",
-  "desc": "Goa pairs strong dry-season beach weather with a pronounced southwest monsoon, creating clear differences in crowds, prices, and activity options through the year.",
+  "desc": "Goa is India's best-known beach destination, with clear seasonality: sunny, high-demand winter months versus a rain-heavy monsoon that brings quieter beaches and lower rates. It works for both short high-season breaks and slower shoulder/monsoon stays depending on priorities.",
   "hls": [
     "Best beach weather November–February",
     "Lower prices during monsoon",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "30–100 Mbps",
-      "note": "Good in major beach hubs; monsoon outages still happen in smaller villages."
+      "spd": "35–110 Mbps",
+      "note": "Good in major beach hubs and newer stays; outages still occur in smaller villages during heavy monsoon weather."
     },
     "directGW": false,
-    "fltNote": "Goa now has two useful airports: Manohar (GOX, North Goa) and Dabolim (GOI, South Goa). From either airport, transfers are usually 45–90 minutes to most beach zones, longer in peak-season traffic.",
+    "fltNote": "Gatwick routings usually connect via major Middle East or India hubs into GOX or GOI. Return fares are often ~£380–£620 off-peak, ~£620–£900 in shoulder demand, and ~£900+ around Christmas/New Year and winter peak weeks.",
     "airports": [
       {
         "name": "Manohar International Airport (Mopa)",
@@ -79,18 +83,22 @@
     ],
     "currency": "Indian Rupee (INR)",
     "lang": "Konkani, Marathi, Hindi, English widely used",
-    "tz": "UTC+5:30",
-    "visa": "eVisa available for many nationalities; verify current category rules",
+    "tz": "IST (UTC+5:30)",
+    "visa": "India eVisa is available for many nationalities; confirm current entry category and validity before travel.",
     "bestFor": [
       "Beach holidays",
       "Winter sun",
-      "Food trips",
-      "Nightlife",
-      "Long-stay slow travel"
+      "Food and nightlife",
+      "Long-stay remote breaks",
+      "Family resort trips"
     ],
-    "alerts": []
+    "alerts": [
+      "Monsoon seas can be rough with swim restrictions on some beaches.",
+      "Christmas/New Year periods have strong price spikes and transport demand.",
+      "Road traffic can be heavy around airport corridors and popular beach belts in peak season."
+    ]
   },
-  "sweet": "November to February is Goa’s classic beach season, while June to September is humid and monsoonal.",
+  "sweet": "November to February is the classic beach season; March and October can offer better value with still-usable weather.",
   "months": [
     {
       "m": "Jan",
@@ -100,7 +108,7 @@
       "daylight": 11.3,
       "cld": 32,
       "rain": 0,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -112,7 +120,7 @@
       "daylight": 11.6,
       "cld": 28,
       "rain": 3,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -124,8 +132,8 @@
       "daylight": 12.1,
       "cld": 31,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
+      "busy": 7,
+      "ac": 4,
       "fl": 4
     },
     {
@@ -136,8 +144,8 @@
       "daylight": 12.5,
       "cld": 45,
       "rain": 13,
-      "busy": 2,
-      "ac": 2,
+      "busy": 6,
+      "ac": 3,
       "fl": 3
     },
     {
@@ -148,7 +156,7 @@
       "daylight": 12.9,
       "cld": 65,
       "rain": 81,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 3
     },
@@ -160,9 +168,9 @@
       "daylight": 13.0,
       "cld": 82,
       "rain": 488,
-      "busy": 2,
-      "ac": 2,
-      "fl": 3
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
     },
     {
       "m": "Jul",
@@ -172,9 +180,9 @@
       "daylight": 12.9,
       "cld": 87,
       "rain": 564,
-      "busy": 2,
-      "ac": 2,
-      "fl": 3
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -184,9 +192,9 @@
       "daylight": 12.6,
       "cld": 83,
       "rain": 384,
-      "busy": 2,
-      "ac": 2,
-      "fl": 3
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
     },
     {
       "m": "Sep",
@@ -196,9 +204,9 @@
       "daylight": 12.2,
       "cld": 73,
       "rain": 193,
-      "busy": 2,
-      "ac": 2,
-      "fl": 3
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -208,7 +216,7 @@
       "daylight": 11.8,
       "cld": 61,
       "rain": 99,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4
     },
@@ -220,7 +228,7 @@
       "daylight": 11.4,
       "cld": 49,
       "rain": 23,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -232,7 +240,7 @@
       "daylight": 11.2,
       "cld": 38,
       "rain": 3,
-      "busy": 4,
+      "busy": 10,
       "ac": 5,
       "fl": 5
     }

@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/85104/Average-Weather-in-Krak%C3%B3w-Poland-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Krakow",
   "country": "Poland",
   "region": "Lesser Poland",
-  "desc": "Kraków pairs a beautifully preserved medieval core with major museums, café culture, and easy excursions, making it one of Central Europe's most complete city breaks.",
+  "desc": "Kraków combines a remarkably preserved medieval core with major museums, neighborhood food scenes, and easy regional day trips, making it one of Central Europe's most complete short breaks. Visitor pressure peaks in late spring, summer weekends, and festive December periods, while winter (outside holidays) is quieter and often better value.",
   "hls": [
-    "UNESCO-listed Old Town and Wawel setting",
-    "Deep history from medieval to modern eras",
-    "Strong museum and café culture",
-    "Lively evening atmosphere year-round",
-    "Good transport for Wieliczka/Auschwitz day trips",
-    "Christmas markets and festive winter appeal"
+    "UNESCO old town, Rynek Główny, and Wawel complex",
+    "Deep history from medieval Poland to modern-era memory sites",
+    "Strong museum range plus café and cellar-bar culture",
+    "Walkable districts including Kazimierz and Podgórze",
+    "Easy links to Wieliczka, Auschwitz, and Zakopane",
+    "Popular Christmas-market and festive-season city break"
   ],
   "todo": [
     {
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "90–220 Mbps",
-      "note": "Excellent in central stays, coworking spaces, and most cafés."
+      "spd": "90–240 Mbps",
+      "note": "Excellent in central hotels, apartments, and coworking hubs; one of the easiest regional cities for remote-work reliability."
     },
     "directGW": true,
-    "fltNote": "Kraków Airport is close to the center and has broad UK/EU connectivity, including frequent low-cost options.",
+    "fltNote": "Gatwick–Kraków is well served year-round with frequent low-cost competition. Return fares are often ~£30–£85 off-peak, ~£85–£150 in shoulder demand, and ~£150+ during Easter, summer weekends, and December market/holiday peaks.",
     "airports": [
       {
         "name": "Kraków John Paul II International Airport",
@@ -75,24 +79,32 @@
         "code": "KTW",
         "km": 108,
         "dgw": true
+      },
+      {
+        "name": "Rzeszów–Jasionka Airport",
+        "code": "RZE",
+        "km": 174,
+        "dgw": false
       }
     ],
     "currency": "Polish złoty (PLN)",
     "lang": "Polish",
-    "tz": "CET/CEST (UTC+1/UTC+2)",
-    "visa": "Poland is in Schengen; standard Schengen entry rules apply.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Poland is in Schengen; UK and US passport holders can typically visit visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
-      "First-time Poland visits",
-      "History lovers",
-      "Weekend city breaks",
-      "Museum itineraries",
-      "Shoulder-season travel"
+      "First-time Poland trips",
+      "History and museums",
+      "Long-weekend city breaks",
+      "Winter markets",
+      "Rail-connected itineraries"
     ],
     "alerts": [
-      "Old Town and main square pricing rises in peak summer and holiday weeks."
+      "Old Town accommodation and restaurant pricing rises quickly on festival and holiday weekends.",
+      "Popular day tours (Wieliczka/Auschwitz) can sell out in peak months; reserve slots in advance.",
+      "Cold snaps and occasional snow can slow morning transport in winter despite good core walkability."
     ]
   },
-  "sweet": "May, June, and September pair comfortable temperatures with active city life and fewer weather disruptions.",
+  "sweet": "May–June and September are the best all-round months; early December is strong for festive atmosphere if you prebook central stays.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +114,7 @@
       "daylight": 8.6,
       "cld": 63,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +126,7 @@
       "daylight": 10.1,
       "cld": 64,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -126,7 +138,7 @@
       "daylight": 12.0,
       "cld": 59,
       "rain": 25,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -138,7 +150,7 @@
       "daylight": 13.9,
       "cld": 54,
       "rain": 38,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -150,9 +162,9 @@
       "daylight": 15.5,
       "cld": 51,
       "rain": 64,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -162,9 +174,9 @@
       "daylight": 16.3,
       "cld": 46,
       "rain": 76,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -174,9 +186,9 @@
       "daylight": 15.8,
       "cld": 40,
       "rain": 79,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -186,9 +198,9 @@
       "daylight": 14.4,
       "cld": 41,
       "rain": 66,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -198,9 +210,9 @@
       "daylight": 12.5,
       "cld": 48,
       "rain": 53,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -210,7 +222,7 @@
       "daylight": 10.7,
       "cld": 54,
       "rain": 36,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -222,9 +234,9 @@
       "daylight": 9.0,
       "cld": 63,
       "rain": 25,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Dec",
@@ -234,9 +246,9 @@
       "daylight": 8.1,
       "cld": 64,
       "rain": 18,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

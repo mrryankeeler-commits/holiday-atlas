@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/98298/Average-Weather-in-G%C3%B6reme-Turkey-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Göreme",
   "country": "Turkey",
   "region": "Straddling Europe & Asia",
-  "desc": "Göreme is one of the most surreal landscapes on earth — a high Anatolian valley sculpted into soft volcanic tuff, where cone-shaped fairy chimneys rise between cave churches, monasteries and underground cities. This is the heart of Cappadocia: sunrise skies filled with hot-air balloons, rock-hewn homes and boutique cave hotels, and hiking trails that wind through pink, red and honey-coloured canyons. The Göreme Open-Air Museum preserves extraordinary Byzantine frescoes, while nearby Derinkuyu and Kaymaklı reveal multi-level underground settlements built for refuge and survival. It is dramatic, deeply historic, and unlike anywhere else in Europe or the Middle East.",
+  "desc": "Göreme is the heart of Cappadocia's surreal tuff landscape, where cave churches, underground cities, and sunrise balloon flights create one of Turkey's most distinctive travel experiences. Spring and autumn are the strongest all-round seasons for hiking and flight reliability, while winter brings quieter, photogenic conditions and summer delivers longer but hotter days.",
   "hls": [
     "Fairy chimneys & cave valleys",
     "Sunrise balloon flights",
@@ -78,11 +82,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "25–50 Mbps",
-      "note": "Solid WiFi in most cave hotels, cafes and cowork-friendly spots in Göreme and Uçhisar. Speeds vary by property due to old stone structures and valley topography; buying a local eSIM is useful for backup."
+      "spd": "30–60 Mbps",
+      "note": "Most cave hotels and central cafés are workable for remote tasks, though stone structures and valley layout can cause room-to-room signal variation."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flight to Cappadocia. Typical routes connect via Istanbul to Nevşehir (NAV) or Kayseri (ASR). From the airport, transfers to Göreme take about 40 min from NAV and 70 min from ASR.",
+    "fltNote": "No direct Gatwick flight to Cappadocia airports; most UK routings connect via Istanbul to Nevşehir (NAV) or Kayseri (ASR). Return fares are often ~£180–£340 off-peak, ~£340–£520 in shoulder demand, and ~£520+ around spring/autumn peak windows.",
     "airports": [
       {
         "name": "Nevşehir Kapadokya Airport",
@@ -100,22 +104,21 @@
     "currency": "Turkish Lira (TRY)",
     "lang": "Turkish",
     "tz": "TRT (UTC+3)",
-    "visa": "e-Visa required for UK citizens — apply online before travel",
+    "visa": "Entry requirements vary by nationality and policy period; check Turkey's latest visa/e-visa rules before travel.",
     "bestFor": [
-      "Couples",
       "Photographers",
+      "Couples",
       "Hikers",
       "History lovers",
-      "Adventure travellers",
-      "Short-break seekers"
+      "Adventure short breaks"
     ],
     "alerts": [
-      "Balloon flights are weather-dependent and can be cancelled at short notice — plan at least two mornings.",
-      "Book cave hotels and balloon slots well in advance for April–June and September–October.",
-      "Pack layers — daytime can be warm while mornings and evenings stay cool even in summer."
+      "Balloon flights are weather-dependent — keep at least two dawn windows in your plan.",
+      "Popular cave hotels and flight slots sell out fast in April–June and September–October.",
+      "Early mornings can be cold even in warm months; pack layers for sunrise activities."
     ]
   },
-  "sweet": "Late April to June and September to October are ideal — clear skies, comfortable hiking temperatures, and excellent conditions for balloon flights.",
+  "sweet": "Late April to June and September to October are usually ideal for balloon conditions, hiking temperatures, and stable logistics.",
   "months": [
     {
       "m": "Jan",
@@ -258,7 +261,7 @@
       "cld": 46,
       "rain": 20,
       "busy": 3,
-      "ac": 1,
+      "ac": 2,
       "fl": 2
     }
   ]

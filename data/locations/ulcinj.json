@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/84403/Average-Weather-in-Ulcinj-Montenegro-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Ulcinj",
   "country": "Montenegro",
   "region": "Western Balkans",
-  "desc": "Ulcinj sits on Montenegro's southern Adriatic edge near the Albanian border, blending old-town stone lanes with one of the longest sandy coasts in the region. The hilltop Stari Grad overlooks a broad bay, while Velika Plaža stretches for around 13 km and draws wind and kitesurfers through summer. Compared with busier Bay of Kotor towns, Ulcinj feels looser, sunnier and more beach-led, with strong Albanian-Montenegrin food culture and warm evening promenades.",
+  "desc": "Ulcinj is Montenegro's southern beach-and-wind town, known for long sandy shoreline, Ottoman-influenced old-town culture, and strong kitesurf seasonality. Compared with Kotor/Budva, it feels more spacious and value-focused, with biggest demand in midsummer and better room-to-price balance in shoulder months.",
   "hls": [
     "13 km Velika Plaža",
     "Sandy beaches (rarer in Montenegro)",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "20–45 Mbps",
-      "note": "Good in most apartments and cafes; mobile 4G coverage is strong along town beaches, weaker in some remote beach sections."
+      "spd": "25–55 Mbps",
+      "note": "Usable across town and main beachfront areas; speeds can vary in remote beach strips and smaller guesthouses."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flight to Ulcinj. Typical route: LGW → Podgorica (TGD) or Tivat (TIV) via one stop, then transfer by road (about 1.5–2.5 hrs depending on traffic and border flow in peak season).",
+    "fltNote": "No nonstop Gatwick route. Most arrivals use Podgorica or Tivat (or sometimes Tirana) then continue by road; return fares are often ~£90–£200 off-peak, ~£200–£330 in shoulder demand, and ~£330+ in peak summer weeks.",
     "airports": [
       {
         "name": "Podgorica Airport",
@@ -86,20 +90,21 @@
     "currency": "Euro (EUR)",
     "lang": "Montenegrin / Albanian",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Visa-free for UK citizens — up to 90 days in 180 days",
+    "visa": "Visa-free for UK citizens — up to 90 days in any 180-day period.",
     "bestFor": [
       "Beach-focused trips",
-      "Shoulder-season value",
-      "Water sports",
+      "Kitesurf holidays",
+      "Value-led summer breaks",
       "Families",
-      "Couples"
+      "Shoulder-season coastal stays"
     ],
     "alerts": [
-      "Road congestion can be heavy in late July and August, especially weekends.",
-      "Some beach clubs and services scale down outside May–September."
+      "Peak-season road traffic can significantly extend airport transfers.",
+      "Beach infrastructure and services scale down outside main season.",
+      "Wind conditions for kitesurf are best in-season; check daily forecasts and licensed operators."
     ]
   },
-  "sweet": "June and September are the sweet spot for warm sea conditions, active beach services and fewer crowds than peak July–August.",
+  "sweet": "June and September are usually the sweet spot for warm water, active beach services, and fewer crowds than July–August.",
   "months": [
     {
       "m": "Jan",
@@ -205,7 +210,7 @@
       "daylight": 12.4,
       "cld": 30,
       "rain": 81,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -217,7 +222,7 @@
       "daylight": 11.0,
       "cld": 42,
       "rain": 109,
-      "busy": 4,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },

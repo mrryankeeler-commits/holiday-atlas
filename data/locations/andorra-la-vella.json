@@ -5,12 +5,16 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Andorra la Vella",
   "country": "Andorra",
   "region": "Central Andorra",
-  "desc": "Set in a steep Pyrenean valley, Andorra la Vella combines mountain scenery with a compact capital center known for shopping, spa culture, and quick access to hiking and ski terrain. Visit for fresh alpine air, modern Caldea wellness facilities, and easy day trips to Romanesque villages and high passes.",
+  "desc": "Set high in a Pyrenean valley, Andorra la Vella combines compact capital convenience with quick access to ski slopes, summer trails, and one of Europe's best-known mountain spa complexes. It works best as an active short break or as a scenic base for duty-free shopping, road-trip stopovers, and multi-day alpine itineraries.",
   "hls": [
     "Pyrenean mountain setting at 1,000m+",
     "Duty-free shopping streets on Avinguda Meritxell",
@@ -54,11 +58,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "80–180 Mbps",
-      "note": "Solid in hotels and ski apartments; mountain roads and remote valleys can have patchy mobile data."
+      "spd": "90–200 Mbps",
+      "note": "Generally strong in town hotels, apartments, and cafés; coverage weakens quickly on higher mountain roads and in remote valleys."
     },
     "directGW": false,
-    "fltNote": "No commercial airport in Andorra; fly to Barcelona (BCN) or Toulouse (TLS) then continue by bus or rental car (about 3–4 hours).",
+    "fltNote": "Andorra has no major commercial airport; most UK routings use Barcelona (BCN) or Toulouse (TLS) plus a 3-4 hour coach/car transfer. Return flight fares are often ~£45–£130 off-peak, ~£130–£230 in shoulder demand, and ~£230+ around ski-holiday peaks.",
     "airports": [
       {
         "name": "Andorra–La Seu d’Urgell Airport",
@@ -81,8 +85,8 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Catalan (Spanish and French widely understood)",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Andorra is outside Schengen but accessed via France/Spain; most US/UK/EU travelers can visit up to 90 days visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Andorra is outside Schengen but typically entered via France or Spain; UK and US travelers can generally visit short-stay visa-free (subject to transit-country rules).",
     "bestFor": [
       "Ski weekends",
       "Mountain drives",
@@ -91,10 +95,12 @@
       "Family alpine trips"
     ],
     "alerts": [
-      "Winter snow can require chains or winter tires on mountain approaches."
+      "Winter approaches can require snow chains or winter tires on mountain roads.",
+      "Ski-holiday weeks (especially late December to February) can compress accommodation inventory and transfer availability.",
+      "Sunday and holiday opening times vary by district and season — check retail and transport schedules in advance."
     ]
   },
-  "sweet": "June to September are best for hiking and festivals, while December to March is prime for nearby Pyrenees skiing.",
+  "sweet": "June-September are usually best for hiking and open mountain roads, while December-March is the strongest period for nearby Pyrenees ski access.",
   "months": [
     {
       "m": "Jan",

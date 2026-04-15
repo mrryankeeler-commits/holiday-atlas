@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/91604/Average-Weather-in-Tallinn-Estonia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Tallinn",
   "country": "Estonia",
   "region": "Baltics",
-  "desc": "Tallinn mixes a storybook medieval center with Nordic design energy and seaside districts, where long summer evenings and very short winter days define the pace.",
+  "desc": "Tallinn blends a storybook medieval core with modern Nordic-Baltic creative districts and a compact seafront layout that is easy to explore without long transfers. The city is most comfortable for long outdoor days from late May to early September, while December adds festive atmosphere and stronger accommodation pressure.",
   "hls": [
     "Well-preserved medieval old town walls",
     "Creative Telliskivi and Kalamaja districts",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "120–300 Mbps",
-      "note": "Excellent citywide connectivity; Estonia is one of Europe's easiest bases for digital work."
+      "spd": "130–320 Mbps",
+      "note": "Excellent citywide connectivity with broad laptop-friendly café coverage; Estonia remains one of Europe's easiest digital-work bases."
     },
     "directGW": true,
-    "fltNote": "Tallinn Airport is close to center with efficient tram access and frequent links to major European hubs.",
+    "fltNote": "Gatwick-Tallinn is often available nonstop with seasonal frequency shifts. Return fares are often ~£40-£110 off-peak, ~£110-£190 in shoulder demand, and ~£190+ in midsummer or December festive peaks.",
     "airports": [
       {
         "name": "Tallinn Airport",
@@ -74,7 +78,7 @@
     "currency": "Euro (EUR)",
     "lang": "Estonian (English widely used in tourism)",
     "tz": "EET/EEST (UTC+2/UTC+3)",
-    "visa": "Estonia is in Schengen; standard Schengen entry rules apply.",
+    "visa": "Estonia is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
       "Short city breaks",
       "Winter atmosphere trips",
@@ -83,10 +87,12 @@
       "Nordic-Baltic routes"
     ],
     "alerts": [
-      "November–January daylight is very limited; some outdoor itineraries feel rushed without planning."
+      "November-January daylight is very limited; front-load outdoor sights near midday.",
+      "Winter pavements can be icy in old-town lanes — use footwear with good grip.",
+      "Cruise-ship days can create short-lived midday crowd spikes in the medieval core."
     ]
   },
-  "sweet": "June to August offers long daylight and the most comfortable old-town sightseeing conditions.",
+  "sweet": "June-August is usually best for long daylight and outdoor city walks, while September can offer better value with still-pleasant conditions.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 7.0,
       "cld": 72,
       "rain": 18,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 9.3,
       "cld": 70,
       "rain": 13,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 11.9,
       "cld": 63,
       "rain": 18,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 14.6,
       "cld": 58,
       "rain": 25,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -144,7 +150,7 @@
       "daylight": 17.1,
       "cld": 48,
       "rain": 36,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -156,9 +162,9 @@
       "daylight": 18.5,
       "cld": 45,
       "rain": 48,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 17.7,
       "cld": 42,
       "rain": 48,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,9 +186,9 @@
       "daylight": 15.4,
       "cld": 46,
       "rain": 53,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,7 +198,7 @@
       "daylight": 12.7,
       "cld": 50,
       "rain": 48,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,7 +210,7 @@
       "daylight": 10.1,
       "cld": 60,
       "rain": 51,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -216,7 +222,7 @@
       "daylight": 7.6,
       "cld": 69,
       "rain": 38,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -228,9 +234,9 @@
       "daylight": 6.2,
       "cld": 70,
       "rain": 20,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

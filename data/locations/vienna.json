@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/81358/Average-Weather-in-Vienna-Austria-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Vienna",
   "country": "Austria",
   "region": "Eastern Austria",
-  "desc": "Vienna blends imperial grandeur with everyday livability, from Habsburg palaces to contemporary museums and coffeehouse rituals. Visit for world-class classical music, elegant streets, and a high-quality urban rhythm along the Danube.",
+  "desc": "Vienna blends imperial architecture, world-class museums, and a highly livable urban rhythm, making it one of Europe's strongest all-season city breaks. Demand is highest in late spring, early autumn, and Advent weeks, while midsummer is warm but generally less compressed than festival and Christmas periods.",
   "hls": [
     "Schönbrunn and Hofburg imperial heritage",
     "Outstanding art museums and collections",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "130–280 Mbps",
-      "note": "Excellent citywide connectivity in hotels, cafés, and public transport hubs."
+      "spd": "140–300 Mbps",
+      "note": "Excellent citywide connectivity across hotels, cafés, coworking spaces, and major transit hubs."
     },
-    "directGW": false,
-    "fltNote": "Gatwick–Vienna has frequent nonstop flights year-round on multiple carriers.",
+    "directGW": true,
+    "fltNote": "Gatwick–Vienna is usually available nonstop year-round on multiple carriers. Return fares are often ~£55–£140 off-peak, ~£140–£230 in shoulder demand, and ~£230+ around Advent, Easter, and school-holiday peaks.",
     "airports": [
       {
         "name": "Vienna International Airport",
@@ -73,20 +77,22 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "German",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Austria is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Austria is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Classical music trips",
-      "Museum city breaks",
+      "Museum weekends",
       "Christmas markets",
-      "Family-friendly weekends",
-      "Rail-based Central Europe itineraries"
+      "Family city breaks",
+      "Rail-linked Central Europe itineraries"
     ],
     "alerts": [
-      "Major congress dates and Advent weekends can push hotel rates up quickly."
+      "Advent weekends and major congress dates can push hotel rates up quickly.",
+      "Popular concert/opera tickets often need prebooking well ahead.",
+      "Sunday trading is limited in many areas — plan shopping-heavy schedules accordingly."
     ]
   },
-  "sweet": "May to June and September are most comfortable for museums, parks, and café culture.",
+  "sweet": "May–June and September are usually best for comfortable weather and active city programming without peak holiday compression.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 8.9,
       "cld": 55,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 10.3,
       "cld": 55,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 12.0,
       "cld": 56,
       "rain": 23,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 13.7,
       "cld": 51,
       "rain": 30,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -144,9 +150,9 @@
       "daylight": 15.3,
       "cld": 49,
       "rain": 51,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -156,9 +162,9 @@
       "daylight": 16.0,
       "cld": 44,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 15.6,
       "cld": 36,
       "rain": 58,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -180,7 +186,7 @@
       "daylight": 14.2,
       "cld": 37,
       "rain": 58,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -192,9 +198,9 @@
       "daylight": 12.5,
       "cld": 45,
       "rain": 51,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +210,7 @@
       "daylight": 10.8,
       "cld": 51,
       "rain": 33,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -216,9 +222,9 @@
       "daylight": 9.2,
       "cld": 60,
       "rain": 28,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Dec",
@@ -228,9 +234,9 @@
       "daylight": 8.4,
       "cld": 59,
       "rain": 20,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

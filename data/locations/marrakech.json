@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/32742/Average-Weather-in-Marrakesh-Morocco-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Marrakech",
   "country": "Morocco",
   "region": "Central Morocco",
-  "desc": "Marrakech is a sensory-rich imperial city where medina souks, palace courtyards, and Atlas-framed light create a distinctive atmosphere. Visitors come for riad stays, craft traditions, historic monuments, and easy escapes to desert or mountain landscapes.",
+  "desc": "Marrakech is a sensory-rich imperial city of medina souks, palace courtyards, and Atlas-framed light, combining heritage landmarks with strong riad and hammam culture. It is best for warm-weather city breaks and desert/mountain add-ons, with peak comfort in spring and autumn outside intense midsummer heat.",
   "hls": [
     "Jemaa el-Fna square energy day and night",
     "Dense souk network with traditional crafts",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–110 Mbps",
-      "note": "Good in riads and modern hotels; medina properties can have weaker in-room signals due to old walls."
+      "spd": "45–130 Mbps",
+      "note": "Generally good in riads and modern hotels, though thicker medina walls can reduce in-room signal strength."
     },
     "directGW": false,
-    "fltNote": "Gatwick–Marrakech has regular nonstop service year-round, often with strong shoulder-season fares.",
+    "fltNote": "Gatwick-Marrakech is commonly nonstop year-round with strong leisure capacity. Return fares are often ~£55-£150 off-peak, ~£150-£260 in shoulder demand, and ~£260+ around school holidays and festive peaks.",
     "airports": [
       {
         "name": "Marrakesh Menara Airport",
@@ -74,7 +78,7 @@
     "currency": "Moroccan dirham (MAD)",
     "lang": "Moroccan Arabic and Tamazight (French widely used)",
     "tz": "GMT (UTC+0), GMT+1 during most of the year",
-    "visa": "Many passports (including US/UK/EU) can enter Morocco visa-free for up to 90 days; onward ticket evidence is recommended.",
+    "visa": "UK and US passport holders can generally enter Morocco visa-free for up to 90 days (confirm current rules and passport validity requirements before travel).",
     "bestFor": [
       "Winter sun city breaks",
       "Riads and hammams",
@@ -83,10 +87,12 @@
       "Short-haul weekend escapes"
     ],
     "alerts": [
-      "Friday prayer times and Ramadan hours can affect opening times for some shops and eateries."
+      "Friday prayer times and Ramadan schedules can affect opening hours for some shops and eateries.",
+      "Summer afternoons can be extremely hot; prioritize medina walking in morning/evening periods.",
+      "Popular riads in the old city can be difficult for taxis to reach directly — expect short walking transfers."
     ]
   },
-  "sweet": "March to May and October to November are best for medina exploring before and after peak summer heat.",
+  "sweet": "March-May and October-November are usually best for medina exploration, terrace dining, and day trips without peak summer heat.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 10.4,
       "cld": 36,
       "rain": 33,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 11.1,
       "cld": 34,
       "rain": 30,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -120,9 +126,9 @@
       "daylight": 12.0,
       "cld": 34,
       "rain": 30,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -132,7 +138,7 @@
       "daylight": 13.0,
       "cld": 30,
       "rain": 20,
-      "busy": 5,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -144,7 +150,7 @@
       "daylight": 13.8,
       "cld": 26,
       "rain": 8,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -156,7 +162,7 @@
       "daylight": 14.2,
       "cld": 14,
       "rain": 3,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -168,7 +174,7 @@
       "daylight": 14.0,
       "cld": 5,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -180,7 +186,7 @@
       "daylight": 13.2,
       "cld": 10,
       "rain": 3,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -192,7 +198,7 @@
       "daylight": 12.3,
       "cld": 28,
       "rain": 5,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,9 +210,9 @@
       "daylight": 11.4,
       "cld": 38,
       "rain": 18,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -216,9 +222,9 @@
       "daylight": 10.5,
       "cld": 37,
       "rain": 36,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Dec",
@@ -228,7 +234,7 @@
       "daylight": 10.1,
       "cld": 37,
       "rain": 28,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     }

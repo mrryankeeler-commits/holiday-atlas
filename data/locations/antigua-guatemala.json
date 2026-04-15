@@ -10,12 +10,16 @@
       }
     ],
     "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    },
     "note": "Internal provenance metadata for climate verification; not rendered in the UI."
   },
   "city": "Antigua",
   "country": "Guatemala",
   "region": "Sacatepéquez, Guatemalan Highlands",
-  "desc": "Antigua is a beautifully preserved colonial city ringed by volcanoes and coffee-growing hills. Cobbled streets, pastel facades, baroque churches, and rooftop views give it one of the most atmospheric city breaks in Central America, while nearby hikes and villages make it easy to mix culture, scenery, and soft adventure.",
+  "desc": "Antigua is a beautifully preserved highland colonial city ringed by volcanoes, coffee farms, and terraced hills. It combines UNESCO architecture and a strong café/remote-work scene with easy access to volcano hikes and local craft villages, making it one of Central America's strongest culture-plus-adventure short breaks.",
   "hls": [
     "UNESCO colonial architecture",
     "Volcano backdrops and viewpoints",
@@ -59,11 +63,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "25–80 Mbps",
-      "note": "Reliable WiFi in most hotels and cafes in the historic center, with a growing remote-work community."
+      "spd": "30–90 Mbps",
+      "note": "Generally reliable in central hotels and cafés, with multiple coworking-friendly venues and good mobile-data fallback."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flights. Typical UK routing is via Madrid, Amsterdam, Mexico City, or US hubs into Guatemala City (GUA), then road transfer to Antigua.",
+    "fltNote": "No routine Gatwick-Antigua nonstop route; UK itineraries usually connect into Guatemala City (GUA) via Madrid, Amsterdam, Mexico City, or major US hubs. Return fares are often ~£480-£760 off-peak, ~£760-£980 in shoulder demand, and ~£980+ around Christmas/Easter peaks.",
     "airports": [
       {
         "name": "La Aurora International Airport",
@@ -75,7 +79,7 @@
     "currency": "Guatemalan Quetzal (GTQ)",
     "lang": "Spanish",
     "tz": "CST (UTC-6)",
-    "visa": "Visa-free short stays for UK citizens (check latest entry rules before travel).",
+    "visa": "UK and US passport holders can generally enter Guatemala visa-free for short tourist stays (commonly up to 90 days; confirm latest policy before travel).",
     "bestFor": [
       "Culture-focused city breaks",
       "Digital nomads",
@@ -85,10 +89,11 @@
     ],
     "alerts": [
       "Altitude is around 1,500 m; stay hydrated for your first day.",
-      "Road transfer times from Guatemala City can vary significantly with traffic."
+      "Road transfer times from Guatemala City can vary significantly with traffic and weather.",
+      "Wet-season afternoons (roughly May-October) often bring heavy rain — schedule volcano hikes early."
     ]
   },
-  "sweet": "November to April is generally the driest and sunniest period, with warm days and cooler evenings.",
+  "sweet": "November-April is usually best for drier skies and clearer volcano views, while shoulder wet-season months can offer lower pricing.",
   "months": [
     {
       "m": "Jan",

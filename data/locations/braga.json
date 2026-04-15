@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/32470/Average-Weather-in-Braga-Portugal-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Braga",
   "country": "Portugal",
   "region": "Northern Portugal",
-  "desc": "Braga mixes deep religious heritage with a youthful university energy in Portugal’s green Minho region. Visit for ornate baroque churches, tiled facades, lively cafés, and easy wine-country and Peneda-Gerês nature excursions.",
+  "desc": "Braga blends deep ecclesiastical heritage with a youthful university-city energy in Portugal's green Minho region. It works well as a relaxed northern city break and as a rail-friendly base for Guimarães, Vinho Verde country, and Peneda-Gerês nature trips.",
   "hls": [
     "Bom Jesus staircase and hilltop sanctuary",
     "One of Portugal’s oldest cathedrals (Sé de Braga)",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "90–180 Mbps",
-      "note": "Strong in central hotels and cafés; generally dependable for remote work weekdays."
+      "spd": "90–190 Mbps",
+      "note": "Strong in central stays and cafés, with generally reliable weekday performance for remote-work routines."
     },
     "directGW": false,
-    "fltNote": "Fly to Porto (OPO) for the fastest access; Braga is about 45–60 minutes away by train, bus, or car.",
+    "fltNote": "Most UK travelers fly into Porto (OPO) and continue 45–60 minutes to Braga by rail/road. Return fares are often ~£45–£110 off-peak, ~£110–£190 in shoulder demand, and ~£190+ around summer/holiday peaks.",
     "airports": [
       {
         "name": "Francisco Sá Carneiro Airport (Porto)",
@@ -73,20 +77,22 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Portuguese",
-    "tz": "WET (UTC+0), WEST (UTC+1) in summer",
-    "visa": "Portugal is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "WET/WEST (UTC+0/+1)",
+    "visa": "Portugal is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Historic churches",
-      "Budget city breaks",
       "Northern Portugal rail trips",
-      "Food-focused weekends",
-      "Digital nomad pacing"
+      "Food weekends",
+      "Value city breaks",
+      "Digital-nomad pacing"
     ],
     "alerts": [
-      "Summer festivals can book out central accommodation early."
+      "Local and religious festivals can compress central-room supply and push weekend rates.",
+      "Rainfall is higher in cooler months — keep flexible indoor options for short stays.",
+      "Late-night dining is livelier near university quarters than in quieter old-town blocks."
     ]
   },
-  "sweet": "May to June and September are warm and bright without the peak heat and crowds of midsummer.",
+  "sweet": "May–June and September are typically best for bright weather and walkability without peak summer crowding.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 9.6,
       "cld": 56,
       "rain": 119,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 10.6,
       "cld": 53,
       "rain": 94,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 12.0,
       "cld": 50,
       "rain": 76,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 13.4,
       "cld": 48,
       "rain": 84,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -144,9 +150,9 @@
       "daylight": 14.6,
       "cld": 43,
       "rain": 64,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -156,9 +162,9 @@
       "daylight": 15.1,
       "cld": 32,
       "rain": 30,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,9 +174,9 @@
       "daylight": 14.8,
       "cld": 18,
       "rain": 13,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -180,9 +186,9 @@
       "daylight": 13.8,
       "cld": 23,
       "rain": 18,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,9 +198,9 @@
       "daylight": 12.4,
       "cld": 37,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +210,7 @@
       "daylight": 11.0,
       "cld": 50,
       "rain": 122,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -216,7 +222,7 @@
       "daylight": 9.8,
       "cld": 56,
       "rain": 135,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -228,7 +234,7 @@
       "daylight": 9.2,
       "cld": 58,
       "rain": 137,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     }

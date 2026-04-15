@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/77444/Average-Weather-in-Bled-Slovenia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Bled",
   "country": "Slovenia",
   "region": "Upper Carniola",
-  "desc": "Bled is Slovenia’s postcard alpine lake town, known for its island church, cliff-top castle, and Julian Alps backdrop. People come for relaxed lakeside walks, rowing to the island, nearby gorges, and easy links to Triglav National Park.",
+  "desc": "Bled is Slovenia's postcard alpine lake town, known for its island church, cliff-top castle, and Julian Alps backdrop. It works best from late spring through early autumn for lake loops and mountain access, while winter offers quieter scenery and a slower village pace.",
   "hls": [
     "Lake Bled island and pilgrimage church",
     "Medieval Bled Castle above turquoise water",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–110 Mbps",
-      "note": "Good around lakefront stays and cafés; weaker in rural guesthouses beyond central Bled."
+      "spd": "50–120 Mbps",
+      "note": "Good across lakefront stays and cafés, with some weaker performance in rural guesthouses beyond the core."
     },
     "directGW": false,
-    "fltNote": "Bled has no airport; most routes fly to Ljubljana (LJU) and transfer by bus, shuttle, or car in about 40 minutes.",
+    "fltNote": "Bled has no airport; most routes use Ljubljana (LJU) then transfer about 40-60 minutes by bus, shuttle, or car. Return fares are often ~£70-£170 off-peak, ~£170-£280 in shoulder demand, and ~£280+ around summer peaks.",
     "airports": [
       {
         "name": "Ljubljana Jože Pučnik Airport",
@@ -79,8 +83,8 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Slovene (English widely spoken in tourism)",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Slovenia is in Schengen; many non-EU visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Slovenia is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Lake scenery",
       "Easy hiking",
@@ -92,7 +96,7 @@
       "Lake Bled is very busy midday in summer; start activities early for lighter crowds."
     ]
   },
-  "sweet": "Late May to September offers mild lake weather and mountain access, with fewer gray days than late autumn.",
+  "sweet": "Late May-September is usually best for mild lake weather, long daylight, and reliable mountain access.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +106,7 @@
       "daylight": 9.1,
       "cld": 55,
       "rain": 25,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +118,7 @@
       "daylight": 10.4,
       "cld": 55,
       "rain": 30,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -126,7 +130,7 @@
       "daylight": 12.0,
       "cld": 57,
       "rain": 46,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -138,7 +142,7 @@
       "daylight": 13.6,
       "cld": 57,
       "rain": 61,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -150,7 +154,7 @@
       "daylight": 15.0,
       "cld": 54,
       "rain": 74,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -162,9 +166,9 @@
       "daylight": 15.7,
       "cld": 46,
       "rain": 91,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -174,7 +178,7 @@
       "daylight": 15.3,
       "cld": 35,
       "rain": 86,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -186,9 +190,9 @@
       "daylight": 14.1,
       "cld": 36,
       "rain": 89,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -198,9 +202,9 @@
       "daylight": 12.5,
       "cld": 46,
       "rain": 99,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -210,7 +214,7 @@
       "daylight": 10.8,
       "cld": 56,
       "rain": 94,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -222,7 +226,7 @@
       "daylight": 9.4,
       "cld": 61,
       "rain": 76,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -234,9 +238,9 @@
       "daylight": 8.7,
       "cld": 57,
       "rain": 43,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     }
   ]
 }

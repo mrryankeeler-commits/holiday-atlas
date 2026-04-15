@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/75057/Average-Weather-in-Trieste-Italy-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Trieste",
   "country": "Italy",
   "region": "Friuli Venezia Giulia",
-  "desc": "Trieste feels distinct from most Italian cities: a former Habsburg port with grand neoclassical facades, literary cafés, and a dramatic Adriatic waterfront framed by the Karst plateau. Its mix of Italian, Slovenian, and Central European influences makes it ideal for travelers who enjoy architecture, coffee culture, and windswept seaside walks.",
+  "desc": "Trieste is Italy's most Central European-feeling coastal city, with Habsburg-era architecture, literary cafés, and Adriatic promenades set against the Karst plateau. Tourism pressure is moderate versus headline Italian cities, peaking in late spring and summer when waterfront demand and regional road trips are strongest; winter is quieter but can be disrupted by bora winds.",
   "hls": [
-    "Austro-Hungarian architecture around Piazza Unità d'Italia",
-    "Historic literary cafés tied to Svevo and Joyce",
-    "Miramare Castle on the Gulf of Trieste",
-    "Karst plateau viewpoints and cave systems nearby",
-    "Distinct coffee culture and regional cuisine with Central European influences",
-    "Excellent base for visits to Duino, Grado, and Slovenian coast towns"
+    "Piazza Unità d'Italia and grand sea-facing architecture",
+    "Miramare Castle and Gulf panoramas",
+    "Historic literary cafés linked to Joyce and Svevo",
+    "Karst plateau caves, viewpoints, and cliff walks nearby",
+    "Distinct triestino coffee and cross-border cuisine",
+    "Convenient base for Duino, Grado, and Slovenian coast day trips"
   ],
   "todo": [
     {
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–170 Mbps",
-      "note": "Reliable in central hotels and apartments; bora wind events can occasionally disrupt local transport more than connectivity."
+      "spd": "70–180 Mbps",
+      "note": "Consistent in city-center hotels and apartments. Connectivity is usually stable, though severe bora episodes affect transport schedules more than internet access."
     },
     "directGW": false,
-    "fltNote": "No regular nonstop Gatwick route; typical options connect via Rome, Milan, Munich, or Venice with onward rail/bus links.",
+    "fltNote": "No regular nonstop Gatwick–Trieste route; most UK itineraries connect via Rome, Milan, Munich, or Venice. Return fares are commonly ~£70–£150 off-peak, ~£150–£240 in shoulder demand, and ~£240+ during midsummer and school-holiday windows.",
     "airports": [
       {
         "name": "Trieste Airport (Friuli Venezia Giulia)",
@@ -85,22 +89,32 @@
         "code": "VCE",
         "km": 150,
         "dgw": false
+      },
+      {
+        "name": "Ljubljana Jože Pučnik Airport",
+        "code": "LJU",
+        "km": 130,
+        "dgw": false
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Italian",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Italy is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
       "Architecture and history",
-      "Café culture",
+      "Café culture trips",
       "Coastal walks",
-      "Shoulder-season city breaks",
-      "Northeast Italy itineraries"
+      "Quieter shoulder-season breaks",
+      "Northeast Italy + Slovenia itineraries"
     ],
-    "alerts": []
+    "alerts": [
+      "Bora wind episodes can be very strong and may disrupt ferries, coastal walks, and occasional transport services.",
+      "Autumn can be wet despite mild temperatures — pack rain layers for Karst and waterfront outings.",
+      "Public-holiday weekends increase regional rail and hotel demand, especially with cross-border itineraries."
+    ]
   },
-  "sweet": "May to June and September are warm and breezy, with fewer crowds than August holidays.",
+  "sweet": "May–June and September are ideal for long daylight, active waterfront life, and manageable crowd levels before/after midsummer peak weeks.",
   "months": [
     {
       "m": "Jan",
@@ -110,7 +124,7 @@
       "daylight": 9.2,
       "cld": 54,
       "rain": 51,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -122,7 +136,7 @@
       "daylight": 10.4,
       "cld": 51,
       "rain": 53,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -134,7 +148,7 @@
       "daylight": 12.0,
       "cld": 52,
       "rain": 56,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -146,9 +160,9 @@
       "daylight": 13.6,
       "cld": 52,
       "rain": 64,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -158,8 +172,8 @@
       "daylight": 15.0,
       "cld": 49,
       "rain": 69,
-      "busy": 3,
-      "ac": 3,
+      "busy": 7,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -170,9 +184,9 @@
       "daylight": 15.6,
       "cld": 39,
       "rain": 69,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -182,9 +196,9 @@
       "daylight": 15.3,
       "cld": 27,
       "rain": 51,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -194,9 +208,9 @@
       "daylight": 14.0,
       "cld": 29,
       "rain": 61,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -206,9 +220,9 @@
       "daylight": 12.5,
       "cld": 40,
       "rain": 91,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -218,7 +232,7 @@
       "daylight": 10.9,
       "cld": 49,
       "rain": 97,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -230,7 +244,7 @@
       "daylight": 9.5,
       "cld": 56,
       "rain": 94,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -242,9 +256,9 @@
       "daylight": 8.8,
       "cld": 56,
       "rain": 71,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     }
   ]
 }

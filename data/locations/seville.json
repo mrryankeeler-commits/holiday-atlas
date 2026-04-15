@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/34152/Average-Weather-in-Sevilla-Spain-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Seville",
   "country": "Spain",
   "region": "Andalusia",
-  "desc": "Seville is Andalusia’s radiant capital, blending Moorish palaces, cathedral grandeur, and flamenco-rooted street life. Visitors come for orange-tree plazas, river walks, tapas culture, and a warm climate that keeps outdoor evenings lively.",
+  "desc": "Seville is Andalusia's flagship city break for palace architecture, cathedral landmarks, flamenco heritage, and long evening street life. It is busiest in spring and autumn when weather is comfortable and festival demand is strongest; midsummer remains lively but shifts toward late-night schedules due to extreme daytime heat.",
   "hls": [
-    "Real Alcázar palace complex",
-    "Giralda tower and Seville Cathedral",
-    "Triana neighborhood flamenco heritage",
-    "Tapas hopping and late-night dining culture",
-    "Guadalquivir riverfront promenades",
-    "Distinctive Mudéjar and baroque architecture"
+    "Real Alcázar, Cathedral, and Giralda landmarks",
+    "Triana flamenco and ceramics heritage",
+    "Tapas culture across Santa Cruz, Arenal, and Alameda",
+    "Guadalquivir waterfront walks and river sunsets",
+    "Excellent rail links to Córdoba, Madrid, and Cádiz",
+    "Classic spring festival city-break atmosphere"
   ],
   "todo": [
     {
@@ -58,35 +62,49 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–160 Mbps",
-      "note": "Good in central hotels and coworking cafés; many venues maintain strong daytime speeds."
+      "spd": "80–180 Mbps",
+      "note": "Strong in central hotels, serviced apartments, and coworking cafés; daytime reliability is good, though outdoor terrace usage can be slower in peak evening hours."
     },
-    "directGW": false,
-    "fltNote": "Gatwick–Seville has frequent nonstop options in most seasons, with additional frequencies in spring and autumn.",
+    "directGW": true,
+    "fltNote": "Gatwick–Seville typically has regular nonstop capacity, especially in spring/autumn demand periods. Return fares are often ~£40–£100 off-peak, ~£100–£170 in shoulder demand, and ~£170+ around Easter/Feria weeks, summer holidays, and Christmas peaks.",
     "airports": [
       {
         "name": "Seville Airport (San Pablo)",
         "code": "SVQ",
         "km": 10,
         "dgw": true
+      },
+      {
+        "name": "Jerez Airport",
+        "code": "XRY",
+        "km": 91,
+        "dgw": false
+      },
+      {
+        "name": "Málaga-Costa del Sol Airport",
+        "code": "AGP",
+        "km": 218,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Spanish",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Spain is in Schengen; many non-EU travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Spain is in Schengen; UK and US passport holders can generally visit visa-free up to 90 days in any 180-day period.",
     "bestFor": [
-      "Spring city breaks",
-      "Tapas and flamenco trips",
-      "Long-weekend culture",
-      "Andalusia multi-city routes",
-      "Mild winter escapes"
+      "Spring/autumn city breaks",
+      "Flamenco and food travel",
+      "Architecture-led itineraries",
+      "Long weekends",
+      "Andalusia rail loops"
     ],
     "alerts": [
-      "Summer afternoon heat is intense; many locals shift activities to evenings."
+      "July–August daytime heat can exceed safe comfort for long outdoor visits; use early starts and siesta timing.",
+      "Major spring event periods (Semana Santa/Feria) can sharply increase hotel and flight prices.",
+      "Real Alcázar timed entries can sell out early during peak months; prebook essential sites."
     ]
   },
-  "sweet": "March to May and October are the sweet spots before and after Seville’s intense summer heat.",
+  "sweet": "March to May and October to early November offer the best balance of pleasant temperatures, event atmosphere, and manageable logistics.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +114,7 @@
       "daylight": 9.9,
       "cld": 41,
       "rain": 51,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +126,7 @@
       "daylight": 10.8,
       "cld": 41,
       "rain": 41,
-      "busy": 3,
+      "busy": 4,
       "ac": 3,
       "fl": 3
     },
@@ -120,9 +138,9 @@
       "daylight": 12.0,
       "cld": 39,
       "rain": 33,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -132,7 +150,7 @@
       "daylight": 13.2,
       "cld": 37,
       "rain": 38,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -144,7 +162,7 @@
       "daylight": 14.2,
       "cld": 33,
       "rain": 23,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -156,9 +174,9 @@
       "daylight": 14.7,
       "cld": 21,
       "rain": 8,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,9 +186,9 @@
       "daylight": 14.4,
       "cld": 8,
       "rain": 3,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -180,9 +198,9 @@
       "daylight": 13.5,
       "cld": 14,
       "rain": 3,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,9 +210,9 @@
       "daylight": 12.4,
       "cld": 31,
       "rain": 18,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +222,7 @@
       "daylight": 11.2,
       "cld": 42,
       "rain": 58,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -216,7 +234,7 @@
       "daylight": 10.1,
       "cld": 43,
       "rain": 69,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -228,9 +246,9 @@
       "daylight": 9.6,
       "cld": 44,
       "rain": 66,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     }
   ]
 }

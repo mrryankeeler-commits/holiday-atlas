@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/74001/Average-Weather-in-Copenhagen-Denmark-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Copenhagen",
   "country": "Denmark",
   "region": "Zealand",
-  "desc": "Copenhagen pairs clean Nordic design with bike-friendly streets, canal districts, and a famously strong food scene. It is ideal for city breaks thanks to compact neighborhoods, waterfront culture, and easy access to museums, parks, and day trips.",
+  "desc": "Copenhagen combines design-led neighborhoods, easy cycling infrastructure, and a compact harbor-centered layout that works exceptionally well for short city breaks. Late spring through early autumn brings the strongest outdoor rhythm, while December adds festive demand and pricing pressure around Christmas markets and winter events.",
   "hls": [
     "Colorful Nyhavn canal front",
     "World-class Danish design and architecture",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "150–320 Mbps",
-      "note": "Very reliable in hotels, cafés, and public spaces; excellent for remote work."
+      "spd": "170–340 Mbps",
+      "note": "Very reliable in hotels, cafés, coworking spaces, and major transport hubs; excellent for remote work."
     },
-    "directGW": false,
-    "fltNote": "Gatwick–Copenhagen has regular nonstop service on multiple carriers throughout the year.",
+    "directGW": true,
+    "fltNote": "Gatwick-Copenhagen is commonly nonstop year-round on multiple carriers. Return fares are often ~£45-£120 off-peak, ~£120-£220 in shoulder demand, and ~£220+ during summer peaks and major December market weeks.",
     "airports": [
       {
         "name": "Copenhagen Airport, Kastrup",
@@ -73,8 +77,8 @@
     ],
     "currency": "Danish krone (DKK)",
     "lang": "Danish (English widely spoken)",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Denmark is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Denmark is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
       "Design lovers",
       "Cycling city breaks",
@@ -83,10 +87,12 @@
       "Conference travel"
     ],
     "alerts": [
-      "Hotel prices rise sharply during summer festivals and large trade events."
+      "Hotel pricing can rise sharply during summer festivals, major congress dates, and high-demand design/food events.",
+      "Popular dining reservations can require booking several weeks ahead in peak weekends.",
+      "Winter weather is manageable but windy waterfront conditions can make long walking routes feel colder than forecast highs."
     ]
   },
-  "sweet": "June to August has long days and waterfront life at its best, while shoulder months are cooler but calmer.",
+  "sweet": "May-June and September are usually the best-balanced months for long days, active waterfront life, and lower pricing pressure than midsummer peaks.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 7.8,
       "cld": 69,
       "rain": 36,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 9.7,
       "cld": 65,
       "rain": 28,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 12.0,
       "cld": 62,
       "rain": 28,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 14.3,
       "cld": 55,
       "rain": 28,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -144,7 +150,7 @@
       "daylight": 16.3,
       "cld": 48,
       "rain": 36,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -156,9 +162,9 @@
       "daylight": 17.4,
       "cld": 44,
       "rain": 51,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 16.8,
       "cld": 43,
       "rain": 51,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,9 +186,9 @@
       "daylight": 14.9,
       "cld": 47,
       "rain": 53,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,7 +198,7 @@
       "daylight": 12.7,
       "cld": 50,
       "rain": 48,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,7 +210,7 @@
       "daylight": 10.4,
       "cld": 58,
       "rain": 51,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -216,7 +222,7 @@
       "daylight": 8.3,
       "cld": 67,
       "rain": 48,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -228,9 +234,9 @@
       "daylight": 7.1,
       "cld": 70,
       "rain": 43,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

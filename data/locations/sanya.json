@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/120758/Average-Weather-in-Sanya-China-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Sanya",
   "country": "China",
   "region": "Hainan, South China",
-  "desc": "Sanya is tropical Hainan’s flagship beach city, known for warm seas, palm-lined bays, and resort infrastructure. It works for winter sun, water sports, and nature outings to islands, rainforests, and coastal viewpoints.",
+  "desc": "Sanya is Hainan's tropical resort hub, known for warm water, large beach complexes, and winter-sun demand from across China and wider Asia. Peak pressure is strongest in late autumn through early spring, while summer and early autumn are wetter and more storm-prone but often better value.",
   "hls": [
     "Year-round tropical beach climate",
     "Yalong Bay and Haitang Bay resort zones",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "30–90 Mbps",
-      "note": "Resort Wi-Fi is usually stable, though speeds can dip during evening peaks in large beach hotels."
+      "spd": "40–120 Mbps",
+      "note": "Resort Wi-Fi is generally stable, but large hotels can slow during evening peaks; remote-work users should verify room-level speeds."
     },
     "directGW": false,
-    "fltNote": "From Gatwick, Sanya is typically reached via one or two connections through major Asian hubs (e.g., Shanghai, Guangzhou, Hong Kong).",
+    "fltNote": "No direct Gatwick service; most routings connect via mainland China or regional Asian hubs. Return fares are often ~£480–£760 off-peak, ~£760–£1,050 in shoulder demand, and ~£1,050+ around winter-holiday peaks.",
     "airports": [
       {
         "name": "Sanya Phoenix International Airport",
@@ -80,19 +84,21 @@
     "currency": "Chinese yuan renminbi (CNY)",
     "lang": "Mandarin Chinese",
     "tz": "China Standard Time (UTC+8)",
-    "visa": "China entry rules vary by passport; check current visa requirements or approved visa-free transit/policy options before flying.",
+    "visa": "China/Hainan entry eligibility can vary by nationality and policy period; verify current rules before booking.",
     "bestFor": [
+      "Winter sun",
       "Beach resorts",
-      "Winter sun in East Asia",
       "Family holidays",
-      "Water sports",
-      "Spa-focused breaks"
+      "Marine activities",
+      "Spa and wellness breaks"
     ],
     "alerts": [
-      "Typhoon season (roughly July to October) can cause short-notice flight changes."
+      "Typhoon risk is higher roughly July–October and may affect flights/boat excursions.",
+      "Winter holiday peaks can drive sharp rises in accommodation pricing.",
+      "Sea conditions can change quickly during storm periods; follow local safety advisories."
     ]
   },
-  "sweet": "November to April is warm and comparatively drier, making it the most reliable beach season.",
+  "sweet": "November to April is typically the most reliable beach window; shoulder months can offer better value outside peak holiday dates.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +108,7 @@
       "daylight": 11.2,
       "cld": 40,
       "rain": 8,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -114,7 +120,7 @@
       "daylight": 11.6,
       "cld": 37,
       "rain": 5,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -126,7 +132,7 @@
       "daylight": 12.1,
       "cld": 43,
       "rain": 15,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -138,9 +144,9 @@
       "daylight": 12.6,
       "cld": 60,
       "rain": 51,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -150,7 +156,7 @@
       "daylight": 13.0,
       "cld": 87,
       "rain": 112,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     },
@@ -162,7 +168,7 @@
       "daylight": 13.2,
       "cld": 93,
       "rain": 157,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -174,7 +180,7 @@
       "daylight": 13.1,
       "cld": 89,
       "rain": 175,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -186,7 +192,7 @@
       "daylight": 12.7,
       "cld": 90,
       "rain": 190,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -198,7 +204,7 @@
       "daylight": 12.2,
       "cld": 81,
       "rain": 259,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -210,7 +216,7 @@
       "daylight": 11.7,
       "cld": 65,
       "rain": 274,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4
     },
@@ -222,7 +228,7 @@
       "daylight": 11.3,
       "cld": 50,
       "rain": 86,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -234,7 +240,7 @@
       "daylight": 11.1,
       "cld": 40,
       "rain": 23,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     }
