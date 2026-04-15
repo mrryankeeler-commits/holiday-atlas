@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/52849/Average-Weather-in-Bergen-Norway-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Bergen",
   "country": "Norway",
   "region": "Western Norway",
-  "desc": "Bergen is Norway’s rain-washed gateway to the fjords, framed by seven mountains and a historic harbor. Visit for colorful Bryggen lanes, seafood markets, scenic funicular viewpoints, and easy access to some of Scandinavia’s most dramatic coastal landscapes.",
+  "desc": "Bergen is Norway's rain-washed fjord gateway, framed by seven mountains and a historic harbor city center. It combines UNESCO heritage, strong seafood culture, and easy access to dramatic coastal landscapes, with highest visitor pressure in long-day summer months and calmer shoulder-season value in spring/autumn.",
   "hls": [
     "UNESCO-listed Bryggen wharf district",
     "Mount Fløyen and Ulriken viewpoints",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "120–250 Mbps",
-      "note": "Excellent in city hotels and cafés; reliable enough for video calls even on rainy days."
+      "spd": "130–280 Mbps",
+      "note": "Excellent across city hotels and cafés, with reliable remote-work performance in central districts."
     },
     "directGW": false,
-    "fltNote": "Seasonal nonstop Gatwick flights may run; otherwise connect via Oslo, Amsterdam, or Copenhagen.",
+    "fltNote": "Gatwick-Bergen nonstop service is often seasonal; many itineraries connect via Oslo, Amsterdam, or Copenhagen. Return fares are often ~£80-£170 off-peak, ~£170-£290 in shoulder demand, and ~£290+ in peak fjord season.",
     "airports": [
       {
         "name": "Bergen Airport, Flesland",
@@ -73,8 +77,8 @@
     ],
     "currency": "Norwegian krone (NOK)",
     "lang": "Norwegian (English widely spoken)",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Norway is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Norway is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Fjord gateways",
       "Rainy-season city breaks",
@@ -83,10 +87,12 @@
       "Shoulder-season escapes"
     ],
     "alerts": [
-      "Frequent rain and wind can disrupt fjord cruises and mountain cable car operations."
+      "Frequent rain and wind can affect fjord cruise schedules and mountain cable-car operations.",
+      "Summer accommodation near Bryggen and the harbor can book out early during cruise-heavy periods.",
+      "Weather can change quickly in a single day — bring waterproof layers even in peak season."
     ]
   },
-  "sweet": "May to August has the longest days and best hiking windows, though showers remain possible year-round.",
+  "sweet": "May-August is usually best for long-day hiking and fjord access, while September can offer better value with still-good daylight.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 6.8,
       "cld": 75,
       "rain": 236,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 9.2,
       "cld": 74,
       "rain": 188,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 11.9,
       "cld": 71,
       "rain": 170,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 14.7,
       "cld": 62,
       "rain": 117,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -144,7 +150,7 @@
       "daylight": 17.4,
       "cld": 55,
       "rain": 97,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -156,9 +162,9 @@
       "daylight": 18.9,
       "cld": 53,
       "rain": 104,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 18.0,
       "cld": 55,
       "rain": 119,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,9 +186,9 @@
       "daylight": 15.5,
       "cld": 59,
       "rain": 152,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,7 +198,7 @@
       "daylight": 12.8,
       "cld": 64,
       "rain": 208,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,7 +210,7 @@
       "daylight": 10.0,
       "cld": 69,
       "rain": 226,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -216,7 +222,7 @@
       "daylight": 7.4,
       "cld": 72,
       "rain": 241,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -228,9 +234,9 @@
       "daylight": 5.9,
       "cld": 74,
       "rain": 244,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     }
   ]
 }

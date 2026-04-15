@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/84331/Average-Weather-in-Tirana-Albania-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Tirana",
   "country": "Albania",
   "region": "Balkans",
-  "desc": "Tirana is one of Europe's most underrated capitals — a city of vivid contrasts where communist-era brutalism meets Ottoman elegance and freshly painted pastel facades. The Bunk'Art museums, former nuclear bunkers repurposed as immersive galleries, are utterly unlike anything else in Europe. Mount Dajti looms overhead and is reachable by cable car, offering sweeping panoramas across terracotta rooftops. Day trips to hilltop Krujë Castle, ancient Apollonia, and the Adriatic at Durrës make this an exceptional base for exploration.",
+  "desc": "Tirana is a fast-changing Balkan capital where Ottoman-era landmarks, communist history, and youthful café districts coexist in a compact, affordable city break. It works well year-round, with strongest comfort in spring and autumn and lively summer evenings before mountain/coast side trips.",
   "hls": [
     "Scenic mountain backdrop",
     "Rich Balkan history",
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–50 Mbps",
-      "note": "Reliable broadband and strong 4G throughout. Cafes and hotels in Blloku are remote-work-friendly. Growing coworking scene."
+      "spd": "35–70 Mbps",
+      "note": "Generally reliable across central districts and business cafés; local eSIM data is a useful backup for regional day trips."
     },
     "directGW": true,
-    "fltNote": "easyJet operates direct LGW → TIA. Flight time approx. 2 h 30 min. Frequency increases in summer.",
+    "fltNote": "Gatwick–Tirana nonstop service is typically available with stronger summer frequency. Return fares are often ~£40–£110 off-peak, ~£110–£190 in shoulder demand, and ~£190+ around summer and major holiday peaks.",
     "airports": [
       {
         "name": "Tirana International (Nënë Tereza)",
@@ -84,17 +88,21 @@
     "currency": "Albanian Lek (ALL)",
     "lang": "Albanian",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Visa-free for UK citizens — up to 90 days",
+    "visa": "Visa-free for UK citizens for short stays (typically up to 90 days in a 180-day period).",
     "bestFor": [
-      "History lovers",
-      "Hikers & nature",
+      "Budget city breaks",
+      "History and culture",
       "Remote workers",
-      "Budget travellers",
-      "Couples & solo"
+      "Balkan road-trip starts",
+      "Mountain/coast add-ons"
     ],
-    "alerts": []
+    "alerts": [
+      "Summer traffic can slow city-to-coast transfers, especially weekend departures.",
+      "Card acceptance is improving but still uneven outside central zones — keep some local cash.",
+      "Heat and sun exposure can be significant on hilltop day trips in midsummer."
+    ]
   },
-  "sweet": "April–May and October offer warm weather at moderate cost with manageable crowds.",
+  "sweet": "April–May and October are usually the best-value windows for warm weather and manageable city crowds.",
   "months": [
     {
       "m": "Jan",
@@ -212,7 +220,7 @@
       "daylight": 11.0,
       "cld": 43,
       "rain": 79,
-      "busy": 4,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },

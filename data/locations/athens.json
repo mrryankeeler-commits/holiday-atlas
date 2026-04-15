@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/89228/Average-Weather-in-Athens-Greece-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Athens",
   "country": "Greece",
   "region": "Attica, Greece",
-  "desc": "Athens combines blockbuster antiquities with creative neighborhoods, rooftop dining, and quick escapes to the Aegean coast. It's ideal for travelers who want classical history by day and lively tavernas, bars, and street life after dark.",
+  "desc": "Athens pairs world-class antiquities with lively modern districts, rooftop dining, and easy Aegean add-ons. It is busiest in late spring and early autumn, while midsummer remains active but hotter and less comfortable for long daytime site walks.",
   "hls": [
     "Acropolis and Acropolis Museum in one compact historic core",
     "Layered neighborhoods from Plaka and Monastiraki to edgy Psyrri",
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–180 Mbps",
-      "note": "Reliable in most apartments and coworking cafés; verify host speeds if you need frequent video calls."
+      "spd": "80–200 Mbps",
+      "note": "Generally strong in central stays and coworking cafés; older buildings can have weaker in-room signal in upper floors."
     },
     "directGW": true,
-    "fltNote": "London Gatwick to Athens (ATH) is served nonstop year-round by multiple carriers, with additional frequency in summer.",
+    "fltNote": "Gatwick–Athens is well served nonstop across the year with expanded summer capacity. Return fares are often ~£70–£170 off-peak, ~£170–£280 in shoulder demand, and ~£280+ around Easter, high summer, and holiday peaks.",
     "airports": [
       {
         "name": "Athens International Airport",
@@ -83,21 +87,22 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Greek",
-    "tz": "EET (UTC+2), EEST (UTC+3) in summer",
-    "visa": "Greece is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Greece is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "History lovers",
       "Food-focused city breaks",
-      "First-time Greece itineraries",
-      "Couples",
-      "Shoulder-season travel"
+      "First-time Greece trips",
+      "Shoulder-season travel",
+      "Island-connection itineraries"
     ],
     "alerts": [
-      "Acropolis-area queues become long after 10:00 in spring and summer; prebook timed tickets.",
-      "Heatwaves can be severe in July and August; plan major walking earlier in the day."
+      "Acropolis and museum timed entries sell out during spring and autumn peaks — prebook where possible.",
+      "Heatwaves in July–August can significantly affect comfort/safety for exposed archaeological walks.",
+      "City protests/strikes occasionally affect transport; check local advisories for short visits."
     ]
   },
-  "sweet": "April to June and September to October balance warm weather, lower heat stress, and fewer crowds than midsummer.",
+  "sweet": "April to June and September to October usually give the best balance of weather, site comfort, and crowd levels.",
   "months": [
     {
       "m": "Jan",
@@ -107,7 +112,7 @@
       "daylight": 9.9,
       "cld": 40,
       "rain": 46,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -119,7 +124,7 @@
       "daylight": 10.8,
       "cld": 41,
       "rain": 43,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -131,7 +136,7 @@
       "daylight": 12.0,
       "cld": 39,
       "rain": 41,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -143,7 +148,7 @@
       "daylight": 13.2,
       "cld": 35,
       "rain": 25,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -155,9 +160,9 @@
       "daylight": 14.3,
       "cld": 28,
       "rain": 15,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -167,9 +172,9 @@
       "daylight": 14.8,
       "cld": 12,
       "rain": 10,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -179,9 +184,9 @@
       "daylight": 14.5,
       "cld": 2,
       "rain": 5,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -191,9 +196,9 @@
       "daylight": 13.6,
       "cld": 4,
       "rain": 5,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -203,9 +208,9 @@
       "daylight": 12.4,
       "cld": 17,
       "rain": 13,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -215,9 +220,9 @@
       "daylight": 11.2,
       "cld": 35,
       "rain": 36,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -227,7 +232,7 @@
       "daylight": 10.1,
       "cld": 42,
       "rain": 61,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -239,7 +244,7 @@
       "daylight": 9.6,
       "cld": 44,
       "rain": 56,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     }

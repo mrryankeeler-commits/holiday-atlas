@@ -9,60 +9,74 @@
         "url": "https://weatherspark.com/y/55583/Average-Weather-in-Turin-Italy-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Turin",
   "country": "Italy",
   "region": "Piedmont, Northern Italy",
-  "desc": "Turin sits beneath the Alps with grand boulevards, baroque piazzas, and a strong museum-and-café culture. It rewards visitors with elegant architecture, royal residences, chocolate traditions, and easy access to Piedmont wine country.",
+  "desc": "Turin blends baroque grandeur, serious museums, and a lived-in café culture against an Alpine backdrop. It is less overtouristed than Rome or Florence, with strongest visitor demand in mild spring/autumn months and ski-linked winter weekends, while summer is generally easier for availability despite warm afternoons.",
   "hls": [
-    "Mole Antonelliana city symbol",
-    "Top-tier Egyptian Museum collection",
-    "Arcaded streets and refined café culture",
-    "Savoy royal palaces and squares",
-    "Gateway to Langhe and Piedmont wines",
-    "Alpine backdrop visible from the city"
+    "Mole Antonelliana and National Cinema Museum",
+    "World-class Museo Egizio collection",
+    "Elegant arcaded boulevards and Savoy architecture",
+    "Strong chocolate, aperitivo, and Piedmont cuisine culture",
+    "Easy access to Langhe wine country and Alpine valleys",
+    "Good rail links to Milan, Genoa, and French-border routes"
   ],
   "todo": [
     {
-      "name": "Mole Antonelliana and Cinema Museum",
-      "cat": "Landmark",
-      "desc": "Ride the panoramic lift and explore film-history exhibits inside Turin’s iconic building."
+      "name": "Mole Antonelliana panoramic lift + Cinema Museum",
+      "cat": "Landmark & museum",
+      "desc": "Go early for shorter lift queues and skyline views to the Alps on clear days."
     },
     {
-      "name": "Egyptian Museum (Museo Egizio)",
+      "name": "Museo Egizio deep-dive visit",
       "cat": "Museum",
-      "desc": "Dedicate significant time to one of the world’s most important Egyptology collections."
+      "desc": "Plan a half day for one of Europe's strongest Egyptology collections."
     },
     {
-      "name": "Royal Palace and Piazza Castello",
+      "name": "Royal Palace, Armory, and Piazza Castello arcades",
       "cat": "History",
-      "desc": "Visit Savoy interiors and walk Turin’s ceremonial heart framed by arcaded architecture."
+      "desc": "See Savoy ceremonial spaces and Turin's monumental civic core in one walkable cluster."
     },
     {
-      "name": "Mercato di Porta Palazzo",
-      "cat": "Food market",
-      "desc": "Browse one of Europe’s largest open-air markets for produce, cheeses, and multicultural stalls."
+      "name": "Porta Palazzo market + Quadrilatero food stops",
+      "cat": "Food & local life",
+      "desc": "Pair market browsing with casual Piedmont tastings and aperitivo bars."
     },
     {
-      "name": "Bicerin and gianduiotto tasting",
-      "cat": "Food & drink",
-      "desc": "Try Turin’s signature chocolate-hazelnut sweets and coffee traditions in historic cafés."
-    },
-    {
-      "name": "Superga Basilica viewpoint",
+      "name": "Superga Basilica tram/rail trip",
       "cat": "Scenic",
-      "desc": "Reach the hilltop basilica for broad views over Turin and, on clear days, the Alpine chain."
+      "desc": "Climb above the city for broad valley and mountain panoramas."
+    },
+    {
+      "name": "Parco del Valentino and Po riverside cycle",
+      "cat": "Outdoor",
+      "desc": "Low-stress green corridor for a break between museums and cafés."
+    },
+    {
+      "name": "Juventus Museum & stadium tour",
+      "cat": "Sports",
+      "desc": "Popular for football fans; prebook on match weekends."
+    },
+    {
+      "name": "Langhe (Alba/Barolo) day trip",
+      "cat": "Wine & countryside",
+      "desc": "Use Turin as a base for vineyard towns and Piedmont food routes."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "90–180 Mbps",
-      "note": "Strong in central business hotels and cafés; generally dependable for remote work."
+      "spd": "90–190 Mbps",
+      "note": "Generally dependable in central hotels/apartments and university districts; coworking choices are smaller than Milan but workable for short remote stays."
     },
     "directGW": false,
-    "fltNote": "Direct Gatwick service to Turin can be seasonal; Milan airports are reliable alternatives with onward rail links.",
+    "fltNote": "Direct Gatwick–Turin flights are typically seasonal, so year-round routing often uses Milan Malpensa/Linate/Bergamo with onward rail. Return fares are often ~£50–£120 in off-peak, ~£120–£200 in shoulder demand, and ~£200+ around ski season Saturdays and school-holiday peaks.",
     "airports": [
       {
         "name": "Turin Airport",
@@ -75,24 +89,32 @@
         "code": "MXP",
         "km": 137,
         "dgw": true
+      },
+      {
+        "name": "Milan Linate Airport",
+        "code": "LIN",
+        "km": 150,
+        "dgw": false
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Italian",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Italy is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy is in Schengen; UK and US passport holders can generally visit visa-free up to 90 days in any 180-day period.",
     "bestFor": [
-      "City + Alps combinations",
+      "Museum-heavy weekends",
       "Food and aperitivo trips",
-      "Museum weekends",
+      "City + Alpine combinations",
       "Football travel",
-      "Northern Italy rail itineraries"
+      "Quieter northern-Italy breaks"
     ],
     "alerts": [
-      "Winter weekends see heavier rail demand from ski traffic in the Piedmont region."
+      "Ski-season weekends can tighten rail and hotel availability due to Alpine traffic flows.",
+      "Autumn fair/event periods (including truffle and food circuits in wider Piedmont) can raise regional accommodation demand.",
+      "Winter fog and occasional snow can affect road transfers more than rail services."
     ]
   },
-  "sweet": "April to June and September to October are best for city breaks and Alpine day trips.",
+  "sweet": "May–June and September–October are the strongest all-round windows; December to February suits city + ski combinations if you book transport early.",
   "months": [
     {
       "m": "Jan",
@@ -102,9 +124,9 @@
       "daylight": 9.2,
       "cld": 44,
       "rain": 23,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     },
     {
       "m": "Feb",
@@ -114,9 +136,9 @@
       "daylight": 10.5,
       "cld": 44,
       "rain": 28,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     },
     {
       "m": "Mar",
@@ -126,7 +148,7 @@
       "daylight": 12.0,
       "cld": 46,
       "rain": 38,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -138,7 +160,7 @@
       "daylight": 13.6,
       "cld": 50,
       "rain": 69,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -150,9 +172,9 @@
       "daylight": 14.9,
       "cld": 51,
       "rain": 79,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Jun",
@@ -162,9 +184,9 @@
       "daylight": 15.6,
       "cld": 39,
       "rain": 56,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -174,7 +196,7 @@
       "daylight": 15.2,
       "cld": 27,
       "rain": 38,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -186,7 +208,7 @@
       "daylight": 14.0,
       "cld": 30,
       "rain": 46,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -198,9 +220,9 @@
       "daylight": 12.5,
       "cld": 39,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -210,9 +232,9 @@
       "daylight": 10.9,
       "cld": 50,
       "rain": 71,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 6,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -222,9 +244,9 @@
       "daylight": 9.5,
       "cld": 50,
       "rain": 64,
-      "busy": 3,
+      "busy": 4,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -234,9 +256,9 @@
       "daylight": 8.8,
       "cld": 45,
       "rain": 33,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }

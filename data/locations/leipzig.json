@@ -9,7 +9,11 @@
         "url": "https://weatherspark.com/y/73745/Average-Weather-in-Leipzig-Saxony-Germany-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Leipzig",
   "country": "Germany",
@@ -72,7 +76,7 @@
       "note": "Reliable hotel and cafe WiFi in the centre; excellent 4G/5G coverage and several coworking options in Mitte and Plagwitz."
     },
     "directGW": false,
-    "fltNote": "No regular direct LGW flights. Typical routes connect via Frankfurt, Munich, or Berlin; rail from Berlin Airport is also straightforward.",
+    "fltNote": "No consistent Gatwick-Leipzig nonstop schedule; most UK itineraries connect via Frankfurt, Munich, or Berlin (then rail). Return fares are often ~£90-£180 off-peak, ~£180-£280 in shoulder demand, and ~£280+ around major fairs and festive peaks.",
     "airports": [
       {
         "name": "Leipzig/Halle Airport",
@@ -90,7 +94,7 @@
     "currency": "Euro (EUR)",
     "lang": "German",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Visa-free for UK citizens for short stays in the Schengen Area (up to 90 days in any 180-day period)",
+    "visa": "Germany is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Culture and music lovers",
       "City-break couples",
@@ -98,9 +102,13 @@
       "Remote workers",
       "Value-focused weekend travellers"
     ],
-    "alerts": []
+    "alerts": [
+      "Accommodation rates can jump during Leipzig Book Fair, music festivals, and major conference dates.",
+      "Some Sunday retail closures may affect shopping-heavy itineraries outside station/airport zones.",
+      "Winter can feel damp and grey; plan a mix of indoor museums, passages, and music venues."
+    ]
   },
-  "sweet": "May–June and September are the sweet spot for a Leipzig city break: mild weather, long days, and lively cafe and park culture without peak summer crowding.",
+  "sweet": "May-June and September are usually best for mild weather, active café/park life, and better value than high-event weekends.",
   "months": [
     {
       "m": "Jan",

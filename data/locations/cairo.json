@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/96939/Average-Weather-in-Cairo-Egypt-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Cairo",
   "country": "Egypt",
   "region": "Lower Egypt",
-  "desc": "Cairo is a vast, kinetic megacity on the Nile where ancient monuments and modern urban life collide. Visitors come for the pyramids of Giza, world-class antiquities, historic Islamic quarters, and the energy of one of the Arab world’s cultural capitals.",
+  "desc": "Cairo is a high-intensity Nile megacity where Pharaonic sites, Islamic-era quarters, and modern urban life sit side by side. It's best approached with deliberate pacing: cooler-season months are strongest for major site days, while summer heat pushes activity toward early mornings and evenings.",
   "hls": [
     "Pyramids and Sphinx on the city edge",
     "Grand Egyptian Museum and key antiquities collections",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "20–70 Mbps",
-      "note": "Usable in major hotels and cafés; speeds vary widely and backup mobile data is recommended."
+      "spd": "25–80 Mbps",
+      "note": "Major hotels and business cafés are generally workable, but performance varies by district; keep local mobile data as backup."
     },
     "directGW": false,
-    "fltNote": "Gatwick to Cairo is often available nonstop or one-stop via major Middle East and European hubs.",
+    "fltNote": "Gatwick to Cairo is commonly available nonstop or one-stop depending on season. Return fares are often ~£220–£420 off-peak, ~£420–£620 in shoulder demand, and ~£620+ around Easter, winter-holiday, and school-break peaks.",
     "airports": [
       {
         "name": "Cairo International Airport",
@@ -79,20 +83,22 @@
     ],
     "currency": "Egyptian pound (EGP)",
     "lang": "Arabic (Egyptian Arabic; English common in tourism)",
-    "tz": "EET (UTC+2), EEST (UTC+3) in summer",
-    "visa": "Most travelers need an eVisa or visa on arrival for Egypt; passport validity and fee rules should be checked before departure.",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Most visitors require an Egypt eVisa or visa on arrival; check current nationality-specific rules before travel.",
     "bestFor": [
       "Ancient history",
       "Museum trips",
-      "Urban culture",
       "Nile stopovers",
+      "Urban culture",
       "Guided first-time Egypt visits"
     ],
     "alerts": [
-      "Traffic is heavy year-round; allow large transfer buffers for airport and day-tour pickups."
+      "Traffic can add significant transfer time — build buffers around flights and timed entries.",
+      "Summer heat can be extreme; schedule outdoor monuments early and carry water/sun protection.",
+      "Touts around major sites are common; prebook licensed guides/transport where possible."
     ]
   },
-  "sweet": "October to April is best for sightseeing, with warm days and far less heat than late spring and summer.",
+  "sweet": "October to April is generally the best sightseeing window for Cairo, with lower heat stress and longer comfortable walking periods.",
   "months": [
     {
       "m": "Jan",
@@ -102,9 +108,9 @@
       "daylight": 10.5,
       "cld": 23,
       "rain": 3,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Feb",
@@ -114,9 +120,9 @@
       "daylight": 11.1,
       "cld": 21,
       "rain": 3,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -126,9 +132,9 @@
       "daylight": 12.0,
       "cld": 19,
       "rain": 5,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -138,9 +144,9 @@
       "daylight": 12.9,
       "cld": 23,
       "rain": 3,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -150,7 +156,7 @@
       "daylight": 13.7,
       "cld": 18,
       "rain": 0,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -162,7 +168,7 @@
       "daylight": 14.1,
       "cld": 3,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -174,7 +180,7 @@
       "daylight": 13.8,
       "cld": 1,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -186,7 +192,7 @@
       "daylight": 13.2,
       "cld": 1,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -198,7 +204,7 @@
       "daylight": 12.3,
       "cld": 2,
       "rain": 0,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -210,7 +216,7 @@
       "daylight": 11.4,
       "cld": 13,
       "rain": 3,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -222,9 +228,9 @@
       "daylight": 10.6,
       "cld": 24,
       "rain": 5,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Dec",
@@ -234,9 +240,9 @@
       "daylight": 10.2,
       "cld": 27,
       "rain": 5,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

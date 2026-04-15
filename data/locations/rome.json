@@ -9,70 +9,74 @@
         "url": "https://weatherspark.com/y/71779/Average-Weather-in-Rome-Italy-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Rome",
   "country": "Italy",
   "region": "Lazio, Central Italy",
-  "desc": "Rome layers imperial ruins, Renaissance art, and everyday neighborhood life across a city that still feels monumental and lived-in at the same time. Beyond the Colosseum and Vatican, the appeal is wandering piazzas, trattoria districts like Trastevere and Testaccio, and a constant mix of archaeology and contemporary city energy.",
+  "desc": "Rome is a year-round capital of antiquity and street life where blockbuster monuments coexist with lived-in neighborhoods, market streets, and late-night piazza culture. The city is at its most comfortable in spring and early autumn, while high summer brings intense heat and slower local rhythms, and winter offers shorter queues at major museums.",
   "hls": [
-    "World-class ancient sites: Colosseum, Roman Forum, Pantheon",
-    "Vatican Museums and St. Peter's Basilica masterpieces",
-    "Walkable neighborhoods with distinct character (Trastevere, Monti, Testaccio)",
-    "Iconic piazzas and fountains from Piazza Navona to Trevi",
-    "Outstanding museum depth from Capitoline to Borghese",
-    "Frequent high-speed rail links for day trips to Florence or Naples"
+    "Ancient Rome icons: Colosseum, Forum, Pantheon",
+    "Vatican Museums and St Peter's Basilica",
+    "Layered neighborhoods from Centro Storico to Trastevere",
+    "Deep museum bench (Borghese, Capitoline, Baths of Caracalla)",
+    "Strong food scene from trattorie to specialty coffee",
+    "Excellent rail hub for Florence, Naples, and beyond"
   ],
   "todo": [
     {
-      "name": "Colosseum, Roman Forum & Palatine Hill",
+      "name": "Colosseum, Forum & Palatine at opening time",
       "cat": "Archaeology",
-      "desc": "Book timed entry to Rome's core ancient complex and allow at least half a day."
+      "desc": "Book an early slot and pair the three sites in one morning before midday heat and tour-group peaks."
     },
     {
-      "name": "Vatican Museums & Sistine Chapel",
-      "cat": "Art museum",
-      "desc": "Reserve ahead for one of Europe's top collections and Michelangelo's frescoes."
+      "name": "Vatican Museums + St Peter's combo day",
+      "cat": "Art & religion",
+      "desc": "Use prebooked timed entry, then cross to the basilica and dome for city panoramas."
     },
     {
-      "name": "St. Peter's Basilica dome climb",
-      "cat": "Religious site",
-      "desc": "Climb for panoramic views and tour the basilica's monumental interiors."
-    },
-    {
-      "name": "Pantheon and Piazza Navona walk",
+      "name": "Pantheon, Piazza Navona, Campo de' Fiori loop",
       "cat": "Historic center walk",
-      "desc": "Link two signature landmarks with cafés and Baroque streets in between."
+      "desc": "A compact walking circuit linking Rome's baroque core, fountains, and café stops."
     },
     {
-      "name": "Borghese Gallery",
-      "cat": "Art museum",
-      "desc": "See Bernini sculptures and Caravaggio works with mandatory timed tickets."
+      "name": "Borghese Gallery reservation slot",
+      "cat": "Museum",
+      "desc": "Secure tickets well ahead for Bernini and Caravaggio highlights in a manageable two-hour visit."
     },
     {
-      "name": "Trastevere evening food crawl",
-      "cat": "Food & nightlife",
-      "desc": "Sample Roman classics such as cacio e pepe, supplì, and artichokes."
+      "name": "Appian Way cycle + Catacombs",
+      "cat": "Outdoor history",
+      "desc": "Half-day route that combines Roman road engineering with early-Christian underground sites."
     },
     {
-      "name": "Appian Way and Catacombs",
-      "cat": "Cycling & history",
-      "desc": "Rent a bike or take a guided route along ancient paving and early Christian sites."
+      "name": "Testaccio food evening",
+      "cat": "Food",
+      "desc": "Focus on Roman classics in a local district less polished than central tourist corridors."
     },
     {
-      "name": "Baths of Caracalla or Capitoline Museums",
-      "cat": "History museum",
-      "desc": "Choose between vast Roman bath ruins or curated sculpture collections near the Forum."
+      "name": "Baths of Caracalla and Circus Maximus corridor",
+      "cat": "Ancient Rome",
+      "desc": "Explore monumental ruins with more space than the Forum area."
+    },
+    {
+      "name": "Tivoli day trip (Villa d'Este or Hadrian's Villa)",
+      "cat": "Day trip",
+      "desc": "Easy rail/bus escape for Renaissance gardens or imperial archaeology outside city crowds."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "90–220 Mbps",
-      "note": "Generally solid in hotels and apartments; coworking options are extensive in central districts."
+      "spd": "90–240 Mbps",
+      "note": "Apartments and business hotels are usually reliable; 5G is strong across central districts. Ask hosts for router placement in older palazzo buildings where interior walls can reduce room-to-room speeds."
     },
     "directGW": true,
-    "fltNote": "London Gatwick has frequent nonstop service to Rome year-round, typically to Fiumicino with additional options depending on season.",
+    "fltNote": "London Gatwick–Rome (mainly FCO) is served year-round by multiple carriers. Typical return fares are often ~£45–£110 in deep off-peak, ~£110–£190 in shoulder months, and ~£190+ around Easter, summer school holidays, and late-December peaks.",
     "airports": [
       {
         "name": "Leonardo da Vinci–Fiumicino Airport",
@@ -85,22 +89,32 @@
         "code": "CIA",
         "km": 15,
         "dgw": false
+      },
+      {
+        "name": "Naples International Airport",
+        "code": "NAP",
+        "km": 225,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Italian",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Italy is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy is in Schengen; UK and US passport holders can typically visit visa-free for up to 90 days in any rolling 180-day period.",
     "bestFor": [
-      "First-time Italy trips",
-      "Art and archaeology",
-      "City-break weekends",
-      "Food-focused travel",
-      "Train-based multi-city itineraries"
+      "First-time Italy itineraries",
+      "Ancient history and art",
+      "Food-led city breaks",
+      "Train-based multi-city trips",
+      "Shoulder-season long weekends"
     ],
-    "alerts": []
+    "alerts": [
+      "Major sites now rely on timed-entry inventory — prebook Colosseum/Vatican/Borghese slots before arrival.",
+      "July–August heat can exceed comfort for midday walking on exposed archaeology sites; start early and plan indoor breaks.",
+      "Around Easter, long Italian weekends, and Christmas/New Year, central-room rates and flight prices rise quickly."
+    ]
   },
-  "sweet": "April to June and late September to October are ideal for ruins and piazzas outside peak summer heat.",
+  "sweet": "Mid-April to June and mid-September to late October balance warm weather, long sightseeing windows, and fewer heat-related disruptions than peak summer.",
   "months": [
     {
       "m": "Jan",
@@ -110,7 +124,7 @@
       "daylight": 9.5,
       "cld": 47,
       "rain": 53,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -122,7 +136,7 @@
       "daylight": 10.6,
       "cld": 44,
       "rain": 61,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -134,9 +148,9 @@
       "daylight": 12.0,
       "cld": 44,
       "rain": 48,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -146,9 +160,9 @@
       "daylight": 13.4,
       "cld": 43,
       "rain": 48,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -158,9 +172,9 @@
       "daylight": 14.6,
       "cld": 39,
       "rain": 38,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -170,9 +184,9 @@
       "daylight": 15.2,
       "cld": 25,
       "rain": 25,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -182,9 +196,9 @@
       "daylight": 14.8,
       "cld": 13,
       "rain": 18,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -194,9 +208,9 @@
       "daylight": 13.8,
       "cld": 18,
       "rain": 23,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -206,9 +220,9 @@
       "daylight": 12.4,
       "cld": 32,
       "rain": 61,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -218,9 +232,9 @@
       "daylight": 11.0,
       "cld": 43,
       "rain": 86,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -230,7 +244,7 @@
       "daylight": 9.8,
       "cld": 47,
       "rain": 94,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -242,9 +256,9 @@
       "daylight": 9.2,
       "cld": 46,
       "rain": 71,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }

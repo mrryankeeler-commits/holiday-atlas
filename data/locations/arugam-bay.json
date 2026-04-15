@@ -5,12 +5,16 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Arugam Bay",
   "country": "Sri Lanka",
   "region": "Eastern Sri Lanka",
-  "desc": "Arugam Bay is Sri Lanka's classic right-hand point-break destination, with a sharply seasonal surf economy and quieter inter-monsoon months.",
+  "desc": "Arugam Bay is Sri Lanka's flagship east-coast surf town with a pronounced seasonal rhythm: dry, cleaner-swell months in mid-year and wetter, quieter off-season periods. It suits surfers, slow beach stays, and wildlife add-ons when you plan around monsoon timing.",
   "hls": [
     "World-known right-hand point breaks",
     "Peak surf season June–September",
@@ -54,11 +58,11 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "15–50 Mbps",
-      "note": "Solid enough for basics, but speeds vary by power cuts, rain, and guesthouse setup."
+      "spd": "20–60 Mbps",
+      "note": "Adequate for basic remote tasks in most guesthouses, but rain, power cuts, and local infrastructure can reduce reliability."
     },
     "directGW": false,
-    "fltNote": "Closest practical airport is Colombo Bandaranaike (CMB), then a long overland transfer to Arugam Bay (~320 km; usually 7–9+ hours by private car). Some travelers connect domestically to Batticaloa (BTC) and continue 3–4 hours by road when schedules align.",
+    "fltNote": "Usual route is Gatwick to Colombo (CMB) then long overland transfer to Arugam Bay (often 7–9+ hours). Return fares are often ~£500–£780 off-peak, ~£780–£1,020 in shoulder demand, and ~£1,020+ around major holiday peaks.",
     "airports": [
       {
         "name": "Bandaranaike International Airport (Colombo)",
@@ -75,18 +79,22 @@
     ],
     "currency": "Sri Lankan Rupee (LKR)",
     "lang": "Tamil, Sinhala, English common in surf tourism",
-    "tz": "UTC+5:30",
-    "visa": "Most visitors need an eVisa/ETA before arrival",
+    "tz": "SLST (UTC+5:30)",
+    "visa": "Most visitors require an ETA/eVisa before arrival; confirm current Sri Lanka entry rules before travel.",
     "bestFor": [
       "Surf trips",
       "Beach lifestyle",
       "Budget-to-mid stays",
-      "Digital detox",
-      "Wildlife add-ons"
+      "Wildlife add-ons",
+      "Slow travel"
     ],
-    "alerts": []
+    "alerts": [
+      "Long transfer times from Colombo are the norm; avoid tight same-day flight connections.",
+      "Off-season rain and swell shifts can limit surf consistency at some breaks.",
+      "Power interruptions still occur in some areas — keep offline backups for navigation/work."
+    ]
   },
-  "sweet": "May to September is driest on Sri Lanka’s east coast, with cleaner surf and calmer beach days than the wet-season months.",
+  "sweet": "May to September is generally best for east-coast surf conditions and drier beach weather.",
   "months": [
     {
       "m": "Jan",
@@ -95,7 +103,7 @@
       "lo": 24,
       "cld": 58,
       "rain": 230,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 6
@@ -107,7 +115,7 @@
       "lo": 25,
       "cld": 50,
       "rain": 160,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 7
@@ -119,7 +127,7 @@
       "lo": 26,
       "cld": 44,
       "rain": 120,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 8
@@ -131,7 +139,7 @@
       "lo": 27,
       "cld": 35,
       "rain": 55,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3,
       "daylight": 9
@@ -143,7 +151,7 @@
       "lo": 28,
       "cld": 28,
       "rain": 20,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4,
       "daylight": 10
@@ -155,8 +163,8 @@
       "lo": 28,
       "cld": 24,
       "rain": 10,
-      "busy": 4,
-      "ac": 5,
+      "busy": 8,
+      "ac": 4,
       "fl": 5,
       "daylight": 10
     },
@@ -167,7 +175,7 @@
       "lo": 27,
       "cld": 28,
       "rain": 20,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5,
       "daylight": 9
@@ -179,7 +187,7 @@
       "lo": 27,
       "cld": 32,
       "rain": 30,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5,
       "daylight": 8.5
@@ -191,8 +199,8 @@
       "lo": 27,
       "cld": 40,
       "rain": 90,
-      "busy": 4,
-      "ac": 5,
+      "busy": 8,
+      "ac": 4,
       "fl": 5,
       "daylight": 7
     },
@@ -203,7 +211,7 @@
       "lo": 27,
       "cld": 55,
       "rain": 240,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4,
       "daylight": 6
@@ -215,7 +223,7 @@
       "lo": 26,
       "cld": 64,
       "rain": 310,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 5.5
@@ -227,7 +235,7 @@
       "lo": 25,
       "cld": 65,
       "rain": 300,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3,
       "daylight": 5.5

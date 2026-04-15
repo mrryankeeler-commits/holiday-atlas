@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/74359/Average-Weather-in-Palermo-Italy-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Palermo",
   "country": "Italy",
   "region": "Sicily, Southern Italy",
-  "desc": "Palermo is Sicily's layered capital, where Arab-Norman churches, Spanish-era palaces, and vibrant street markets sit within walking distance of the Tyrrhenian coast. The city is big, gritty, and deeply rewarding for travelers interested in architecture, street food, and day trips to beaches, Monreale, or Cefalù.",
+  "desc": "Palermo is Sicily's most layered urban experience: Arab-Norman monuments, opera-era boulevards, chaotic markets, and beach access all within one city break. It remains rewarding in every season, with strongest visitor pressure from late spring to early autumn when coast-focused demand and Sicily touring circuits overlap.",
   "hls": [
-    "Arab-Norman monuments (Palatine Chapel, cathedral, Norman Palace)",
-    "Legendary street-food culture in Ballarò and Vucciria",
-    "Grand Belle Époque avenue life around Teatro Massimo and Politeama",
-    "Easy access to Mondello beach and Monte Pellegrino viewpoints",
-    "Unique fusion of Byzantine, Islamic, and Latin art traditions",
-    "Strong base for side trips to Monreale, Cefalù, and Segesta"
+    "Arab-Norman UNESCO landmarks and mosaic-heavy church interiors",
+    "Ballarò, Capo, and Vucciria market culture",
+    "Teatro Massimo and Belle Époque avenues",
+    "Easy city-beach access at Mondello",
+    "Strong launch point for Monreale, Cefalù, and Segesta day trips",
+    "Distinct Sicilian food identity from panelle to sfincione"
   ],
   "todo": [
     {
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–160 Mbps",
-      "note": "Good in central accommodations and modern cafés; speeds vary in older palazzi."
+      "spd": "70–170 Mbps",
+      "note": "Usually good in central stays and modern cafés; bandwidth can vary in heritage buildings and budget guesthouses, so request recent speed tests for remote-work stays."
     },
     "directGW": false,
-    "fltNote": "Direct Gatwick links are often seasonal; outside summer, many itineraries connect through Rome, Milan, or other European gateways.",
+    "fltNote": "Gatwick–Palermo direct capacity is typically seasonal, with one-stop itineraries common in winter. Return fares often sit around ~£60–£140 off-peak, ~£140–£240 in shoulder demand, and ~£240+ for July–August and major holiday periods.",
     "airports": [
       {
         "name": "Falcone Borsellino Airport (Palermo)",
@@ -85,25 +89,32 @@
         "code": "TPS",
         "km": 105,
         "dgw": false
+      },
+      {
+        "name": "Catania–Fontanarossa Airport",
+        "code": "CTA",
+        "km": 210,
+        "dgw": false
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Italian",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Italy is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy is in Schengen; UK and US passport holders can usually visit visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
-      "Architecture enthusiasts",
-      "Street-food travelers",
-      "City + beach combos",
-      "Cultural short breaks",
-      "Sicily first-timers"
+      "Architecture and history",
+      "Street-food focused travel",
+      "City + beach combinations",
+      "First Sicily urban base",
+      "Shoulder-season Mediterranean breaks"
     ],
     "alerts": [
-      "Traffic can be chaotic in central Palermo; walking and official taxis are often easier than self-driving in the core.",
-      "Popular market lanes get crowded at lunch; keep valuables secure in dense areas."
+      "Traffic and parking are difficult in the historic core; walk, use public transport, or book official taxis.",
+      "Summer heat plus market density can be intense at midday — schedule core walks early and reserve afternoons for indoor sites.",
+      "Beach clubs at Mondello can sell out in peak weeks; prebook loungers if beach time is a priority."
     ]
   },
-  "sweet": "May to June and September to October deliver warm seas and lower crowd pressure than August.",
+  "sweet": "May–June and September–October deliver warm sea conditions, active city life, and better value than top-peak August demand.",
   "months": [
     {
       "m": "Jan",
@@ -113,7 +124,7 @@
       "daylight": 9.9,
       "cld": 42,
       "rain": 71,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -125,7 +136,7 @@
       "daylight": 10.8,
       "cld": 40,
       "rain": 66,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -137,9 +148,9 @@
       "daylight": 12.0,
       "cld": 38,
       "rain": 53,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -149,9 +160,9 @@
       "daylight": 13.2,
       "cld": 37,
       "rain": 41,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -161,9 +172,9 @@
       "daylight": 14.3,
       "cld": 34,
       "rain": 23,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -173,9 +184,9 @@
       "daylight": 14.8,
       "cld": 21,
       "rain": 10,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -185,7 +196,7 @@
       "daylight": 14.5,
       "cld": 5,
       "rain": 5,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -197,7 +208,7 @@
       "daylight": 13.6,
       "cld": 10,
       "rain": 10,
-      "busy": 4,
+      "busy": 10,
       "ac": 5,
       "fl": 5
     },
@@ -209,9 +220,9 @@
       "daylight": 12.4,
       "cld": 28,
       "rain": 43,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -221,7 +232,7 @@
       "daylight": 11.2,
       "cld": 42,
       "rain": 69,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -233,7 +244,7 @@
       "daylight": 10.1,
       "cld": 42,
       "rain": 74,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -245,9 +256,9 @@
       "daylight": 9.6,
       "cld": 42,
       "rain": 76,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
-      "fl": 2
+      "fl": 3
     }
   ]
 }

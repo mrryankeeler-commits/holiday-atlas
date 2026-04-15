@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/32777/Average-Weather-in-Faro-Portugal-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Faro",
   "country": "Portugal",
   "region": "Algarve",
-  "desc": "Faro is the Algarve’s understated capital, mixing a walled old town with wetlands, island beaches, and excellent seafood. It works well as both a relaxed city break and a practical base for exploring the Ria Formosa lagoon and nearby coastal towns.",
+  "desc": "Faro is the Algarve's gateway city, combining a compact walled center with easy access to Ria Formosa islands, beaches, and regional rail links. It's useful for both short breaks and wider Algarve itineraries, with strongest balance in late spring and early autumn.",
   "hls": [
     "Historic Cidade Velha with Arco da Vila gate",
     "Ria Formosa lagoon ecosystem and birdlife",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "70–160 Mbps",
-      "note": "Strong in central Faro and resort areas; some rural Algarve properties still have slower DSL."
+      "spd": "80–170 Mbps",
+      "note": "Generally strong in city stays and modern apartments; outlying rural properties can still have slower legacy connections."
     },
-    "directGW": false,
-    "fltNote": "Gatwick–Faro has frequent nonstop flights, especially from spring through autumn.",
+    "directGW": true,
+    "fltNote": "Gatwick–Faro has frequent nonstop service, especially from spring through autumn. Return fares are often ~£45–£120 off-peak, ~£120–£220 in shoulder demand, and ~£220+ during July–August and holiday peaks.",
     "airports": [
       {
         "name": "Faro Airport",
@@ -73,20 +77,22 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Portuguese",
-    "tz": "WET (UTC+0), WEST (UTC+1) in summer",
-    "visa": "Portugal is in Schengen; many travelers (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "WET/WEST (UTC+0/+1)",
+    "visa": "Portugal is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Beach breaks",
-      "Golf trips",
       "Family holidays",
       "Winter sun",
-      "Base for Algarve road trips"
+      "Birding and lagoon trips",
+      "Algarve road-trip base"
     ],
     "alerts": [
-      "Rental cars and beach accommodation sell out quickly in July and August."
+      "Summer availability can tighten quickly for island-beach ferries and rental cars.",
+      "Shoulder and winter weather is milder but windier; sea conditions can affect small-boat outings.",
+      "Historic-center nightlife is calmer than resort strips — choose base according to trip style."
     ]
   },
-  "sweet": "May to June and September are sunny and warm with fewer crowds than July and August.",
+  "sweet": "May–June and September offer warm sea-adjacent weather with fewer crowds and better value than July–August peaks.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 10.0,
       "cld": 41,
       "rain": 51,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 10.9,
       "cld": 40,
       "rain": 43,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 12.0,
       "cld": 38,
       "rain": 36,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,9 +138,9 @@
       "daylight": 13.2,
       "cld": 35,
       "rain": 36,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -144,9 +150,9 @@
       "daylight": 14.2,
       "cld": 30,
       "rain": 20,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -156,9 +162,9 @@
       "daylight": 14.7,
       "cld": 19,
       "rain": 5,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 14.4,
       "cld": 7,
       "rain": 0,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,7 +186,7 @@
       "daylight": 13.5,
       "cld": 13,
       "rain": 3,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -192,9 +198,9 @@
       "daylight": 12.4,
       "cld": 30,
       "rain": 18,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +210,7 @@
       "daylight": 11.2,
       "cld": 42,
       "rain": 56,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -216,7 +222,7 @@
       "daylight": 10.2,
       "cld": 42,
       "rain": 79,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -228,7 +234,7 @@
       "daylight": 9.7,
       "cld": 44,
       "rain": 79,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     }

@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/110087/Average-Weather-in-Kandy-Sri-Lanka-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Kandy",
   "country": "Sri Lanka",
   "region": "Central Sri Lanka",
-  "desc": "Kandy blends highland culture, temple heritage, and cooler evenings, making it a practical stop between Colombo and Sri Lanka's tea-country rail routes.",
+  "desc": "Kandy is Sri Lanka's cultural highland city, known for temple heritage, lake views, and rail/road links into tea-country itineraries. It works well as a 2–4 day stop, with better reliability in drier months and higher rain risk through inter-monsoon periods.",
   "hls": [
     "Temple city with strong cultural identity",
     "Convenient gateway to central highlands",
@@ -58,33 +62,43 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "30–80 Mbps",
-      "note": "Good in hotels/cafés; occasional rain-related slowdowns in peak monsoon spells."
+      "spd": "35–90 Mbps",
+      "note": "Usually solid in town hotels/cafés, though heavy rain spells can reduce network stability."
     },
     "directGW": false,
-    "fltNote": "No commercial airport in Kandy. Fly into Colombo Bandaranaike (CMB), then continue ~115 km by car (about 3.5–4.5 hours) or combine airport transfer to Colombo Fort with train/bus onward to Kandy (typically 4–6+ hours total).",
+    "fltNote": "Kandy has no commercial airport; most arrivals route via Colombo (CMB) then continue by road or rail. Return fare patterns to Sri Lanka are often ~£520–£790 off-peak, ~£790–£1,050 in shoulder demand, and ~£1,050+ during major holiday peaks.",
     "airports": [
       {
         "name": "Bandaranaike International Airport (Colombo)",
         "code": "CMB",
         "km": 115,
         "dgw": false
+      },
+      {
+        "name": "Mattala Rajapaksa International Airport",
+        "code": "HRI",
+        "km": 265,
+        "dgw": false
       }
     ],
     "currency": "Sri Lankan Rupee (LKR)",
     "lang": "Sinhala, Tamil, English widely used in tourism",
-    "tz": "UTC+5:30",
-    "visa": "Most visitors need an eVisa/ETA before arrival",
+    "tz": "SLST (UTC+5:30)",
+    "visa": "Most visitors require an ETA/eVisa before arrival; confirm latest Sri Lanka entry requirements.",
     "bestFor": [
-      "Culture",
-      "Rail-and-highland itineraries",
-      "Shoulder-season value",
+      "Culture and temples",
+      "Hill-country connections",
+      "Slow travel",
       "Couples",
-      "Slow travel"
+      "Rail itineraries"
     ],
-    "alerts": []
+    "alerts": [
+      "Road travel from Colombo can be lengthy in traffic; leave buffer for onward connections.",
+      "Temple entry times and dress expectations are strict — plan attire accordingly.",
+      "Rain-heavy months can affect visibility and day-trip reliability into surrounding highlands."
+    ]
   },
-  "sweet": "December to April is usually the most reliable window for temple visits and hill-country day trips.",
+  "sweet": "December to April is usually the most dependable window for temple visits and central-highland day trips.",
   "months": [
     {
       "m": "Jan",
@@ -94,8 +108,8 @@
       "daylight": 11.8,
       "cld": 63,
       "rain": 91,
-      "busy": 4,
-      "ac": 5,
+      "busy": 7,
+      "ac": 4,
       "fl": 5
     },
     {
@@ -106,8 +120,8 @@
       "daylight": 11.9,
       "cld": 59,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
+      "busy": 7,
+      "ac": 4,
       "fl": 5
     },
     {
@@ -118,8 +132,8 @@
       "daylight": 12.1,
       "cld": 60,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
+      "busy": 7,
+      "ac": 4,
       "fl": 5
     },
     {
@@ -130,8 +144,8 @@
       "daylight": 12.3,
       "cld": 75,
       "rain": 102,
-      "busy": 4,
-      "ac": 5,
+      "busy": 7,
+      "ac": 4,
       "fl": 5
     },
     {
@@ -142,7 +156,7 @@
       "daylight": 12.5,
       "cld": 84,
       "rain": 99,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     },
@@ -154,7 +168,7 @@
       "daylight": 12.5,
       "cld": 88,
       "rain": 66,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -166,7 +180,7 @@
       "daylight": 12.5,
       "cld": 89,
       "rain": 53,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -178,7 +192,7 @@
       "daylight": 12.3,
       "cld": 88,
       "rain": 53,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -190,7 +204,7 @@
       "daylight": 12.2,
       "cld": 84,
       "rain": 81,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -202,7 +216,7 @@
       "daylight": 12.0,
       "cld": 82,
       "rain": 165,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -214,7 +228,7 @@
       "daylight": 11.8,
       "cld": 79,
       "rain": 198,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -226,7 +240,7 @@
       "daylight": 11.7,
       "cld": 71,
       "rain": 152,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     }

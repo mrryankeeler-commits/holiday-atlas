@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/143399/Average-Weather-in-Osaka-Japan-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Osaka",
   "country": "Japan",
   "region": "Kansai",
-  "desc": "Osaka is Japan’s outgoing kitchen city, famous for street food, canal-lit nightlife, and easy Kansai access. It blends castle history with neon districts and practical transport, making it ideal for travelers who want energy, flavor, and regional day trips.",
+  "desc": "Osaka is Japan's outgoing kitchen city, known for street-food culture, canal-lit nightlife, and efficient Kansai rail access. It works well for high-energy urban itineraries plus easy day trips to Kyoto, Nara, and Kobe, with strongest comfort in spring and autumn and high demand around blossom, Golden Week, and late-year holiday windows.",
   "hls": [
     "Dotonbori neon and canal atmosphere",
     "Top-tier street food culture (takoyaki, okonomiyaki)",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "100–240 Mbps",
-      "note": "Very reliable in hotels, stations, and cafés; pocket Wi-Fi/eSIM options are easy to arrange."
+      "spd": "120–280 Mbps",
+      "note": "Very reliable across hotels, transport hubs, and cafés, with simple eSIM/pocket-Wi-Fi options for visitors."
     },
     "directGW": false,
-    "fltNote": "No routine nonstop Gatwick–Osaka service; most itineraries connect via Tokyo, Seoul, Hong Kong, or Middle East hubs.",
+    "fltNote": "No consistent Gatwick-Osaka nonstop schedule; UK itineraries usually connect via Tokyo, Seoul, Hong Kong, or Gulf hubs. Return fares are often ~£520-£780 off-peak, ~£780-£1,050 in shoulder demand, and ~£1,050+ around blossom, summer school holidays, and year-end peaks.",
     "airports": [
       {
         "name": "Kansai International Airport",
@@ -89,10 +93,12 @@
       "Spring and autumn visits"
     ],
     "alerts": [
-      "Golden Week and New Year periods bring high domestic demand and fuller trains/hotels."
+      "Golden Week and year-end holiday periods bring very high domestic demand and tighter rail/hotel availability.",
+      "June-July rainy-season weather and summer humidity can reduce daytime comfort for long walking plans.",
+      "Universal Studios Japan timed-entry rules can change by season — check access windows before arrival."
     ]
   },
-  "sweet": "March to May and October to November are usually the most comfortable seasons for city exploration.",
+  "sweet": "Late March-May and October-November are usually best for comfortable city walking and strong day-trip conditions.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +108,7 @@
       "daylight": 10.1,
       "cld": 30,
       "rain": 48,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +120,7 @@
       "daylight": 11.0,
       "cld": 37,
       "rain": 71,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -126,9 +132,9 @@
       "daylight": 12.0,
       "cld": 45,
       "rain": 104,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -138,7 +144,7 @@
       "daylight": 13.1,
       "cld": 50,
       "rain": 122,
-      "busy": 5,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -150,7 +156,7 @@
       "daylight": 14.0,
       "cld": 56,
       "rain": 142,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -162,7 +168,7 @@
       "daylight": 14.4,
       "cld": 68,
       "rain": 188,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -174,7 +180,7 @@
       "daylight": 14.2,
       "cld": 65,
       "rain": 173,
-      "busy": 2,
+      "busy": 7,
       "ac": 2,
       "fl": 2
     },
@@ -186,7 +192,7 @@
       "daylight": 13.4,
       "cld": 51,
       "rain": 124,
-      "busy": 2,
+      "busy": 7,
       "ac": 2,
       "fl": 2
     },
@@ -198,7 +204,7 @@
       "daylight": 12.4,
       "cld": 49,
       "rain": 175,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -210,9 +216,9 @@
       "daylight": 11.3,
       "cld": 37,
       "rain": 130,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -222,9 +228,9 @@
       "daylight": 10.3,
       "cld": 30,
       "rain": 76,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Dec",
@@ -234,9 +240,9 @@
       "daylight": 9.9,
       "cld": 25,
       "rain": 53,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

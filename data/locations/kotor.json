@@ -5,12 +5,16 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Kotor",
   "country": "Montenegro",
   "region": "Western Balkans",
-  "desc": "Kotor is a fortified Adriatic town enclosed by dramatic limestone mountains and the fjord-like Bay of Kotor. Its UNESCO-listed old town is a compact maze of Venetian palaces, tiny squares, and Romanesque churches, while steep stone steps climb to St. John Fortress for one of the Balkans’ best coastal panoramas. Kotor’s beauty is undeniable, but timing matters: cruise-ship arrivals can flood the old town midday in peak season, whereas shoulder months offer calmer streets, easier restaurant bookings, and better value.",
+  "desc": "Kotor is Montenegro's dramatic bay town of fortified lanes, Venetian architecture, and mountain-backed panoramas. It's spectacular year-round, but cruise arrivals and summer traffic create strong peak pressure; spring and autumn are generally calmer and better for fortress hikes and old-town exploration.",
   "hls": [
     "UNESCO old town",
     "Bay of Kotor panoramas",
@@ -64,11 +68,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–70 Mbps",
-      "note": "Most apartments, hotels, and cafes offer reliable internet; old-town stone buildings can weaken mobile signal indoors."
+      "spd": "35–75 Mbps",
+      "note": "Old-town apartments and cafés are usually reliable, though thick stone walls can reduce in-room mobile signal quality."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick flight to Tivat (TIV). Common routes are one-stop flights to Tivat or Dubrovnik/Podgorica plus overland transfer; travel times vary strongly by summer traffic and border queues.",
+    "fltNote": "No routine Gatwick nonstop to nearby airports. Most UK itineraries connect to Tivat, Dubrovnik, or Podgorica; return fares are often ~£95–£210 off-peak, ~£210–£340 in shoulder demand, and ~£340+ in peak summer/cruise season windows.",
     "airports": [
       {
         "name": "Tivat Airport",
@@ -92,21 +96,21 @@
     "currency": "Euro (EUR)",
     "lang": "Montenegrin",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Visa-free for UK citizens — up to 90 days in a 180-day period",
+    "visa": "Visa-free for UK citizens — up to 90 days in any 180-day period.",
     "bestFor": [
-      "Scenic breaks",
+      "Scenic city breaks",
+      "History and architecture",
       "Couples",
-      "Photographers",
-      "History lovers",
-      "Shoulder-season travellers"
+      "Photography",
+      "Shoulder-season travel"
     ],
     "alerts": [
-      "Cruise arrivals can make the old town extremely busy from late morning to mid-afternoon in peak season.",
-      "Summer road access can be slow around the bay; allow extra time for airport transfers.",
-      "Fortress climb is exposed with limited shade — carry water and avoid midday heat in July/August."
+      "Cruise ship schedules can overwhelm the old town midday in high season.",
+      "Fortress climbs are exposed with limited shade — avoid midday summer heat.",
+      "Bay road traffic and border queues (if arriving via Croatia) can add major transfer delays."
     ]
   },
-  "sweet": "Late April–June and September–October balance warm weather with fewer cruise crowds and better prices than peak summer.",
+  "sweet": "Late April to June and September to October are strongest for scenery, walking comfort, and lower crowd pressure than peak summer.",
   "months": [
     {
       "m": "Jan",

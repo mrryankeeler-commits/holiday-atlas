@@ -5,19 +5,23 @@
     "climateVerifiedOn": "",
     "climateVerificationNote": "No climate source URL is linked for this location.",
     "climate": [],
-    "importedFromCsv": ""
+    "importedFromCsv": "",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Zakopane",
   "country": "Poland",
   "region": "Lesser Poland",
-  "desc": "Zakopane is Poland's Tatra resort town: a mountain base for ski season, alpine hiking, wooden highlander culture, and dramatic views year-round.",
+  "desc": "Zakopane is Poland's mountain-resort base for Tatra hiking, winter skiing, and Góral highlander culture, with a strong domestic-holiday rhythm that shifts sharply by season. Peak pressure arrives in ski months and summer hiking holidays, while shoulder seasons are quieter but more weather-variable.",
   "hls": [
-    "Tatra Mountains access from town",
-    "Strong winter ski and snow scene",
-    "Summer hiking and cable-car panoramas",
-    "Distinct Góral architecture and food",
-    "Thermal baths nearby for shoulder months",
-    "Easy rail/bus links from Kraków"
+    "Gateway town to Tatra National Park",
+    "Strong ski-season atmosphere and winter sports access",
+    "Summer cable-car and alpine trail network",
+    "Distinct Góral wooden architecture and regional food",
+    "Thermal baths and wellness options nearby",
+    "Convenient onward links from Kraków"
   ],
   "todo": [
     {
@@ -54,11 +58,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–100 Mbps",
-      "note": "Good in hotels and central cafés; mountain huts and outlying valleys can be patchy."
+      "spd": "50–120 Mbps",
+      "note": "Good in central hotels/apartments and cafés; speeds drop in remote valleys, mountain huts, and during severe weather events."
     },
     "directGW": false,
-    "fltNote": "No commercial airport in town; fly to Kraków (or occasionally Poprad) and continue by road/rail to Zakopane.",
+    "fltNote": "Zakopane has no airport; most UK itineraries fly Gatwick to Kraków (KRK) then transfer by coach/rail/road (typically 2–3 hours depending on traffic). Return fares are often ~£35–£95 off-peak, ~£95–£170 in shoulder demand, and ~£170+ for Christmas/New Year, half-term ski weeks, and peak summer weekends.",
     "airports": [
       {
         "name": "Kraków John Paul II International Airport",
@@ -71,25 +75,32 @@
         "code": "TAT",
         "km": 70,
         "dgw": false
+      },
+      {
+        "name": "Katowice Airport",
+        "code": "KTW",
+        "km": 177,
+        "dgw": true
       }
     ],
     "currency": "Polish złoty (PLN)",
     "lang": "Polish",
-    "tz": "CET/CEST (UTC+1/UTC+2)",
-    "visa": "Poland is in Schengen; standard Schengen entry rules apply.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Poland is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any rolling 180-day period.",
     "bestFor": [
-      "Ski trips",
+      "Ski holidays",
       "Mountain hiking",
-      "Winter scenery",
-      "Active couples",
-      "Nature-focused weekends"
+      "Nature-focused weekends",
+      "Winter scenery trips",
+      "Active families and couples"
     ],
     "alerts": [
-      "Book early for Christmas/New Year and school-holiday ski weeks.",
-      "Mountain weather changes quickly; check avalanche and trail notices before heading out."
+      "Road traffic from Kraków can be heavy on Friday evenings and Sunday returns during ski/summer peak weeks.",
+      "Mountain weather changes rapidly; follow official avalanche and trail-status bulletins before high routes.",
+      "Popular cable cars and national-park trailheads can queue heavily in July–August and holiday snow periods."
     ]
   },
-  "sweet": "June to September suits hiking and outdoor activities, while winter is best for snow sports.",
+  "sweet": "June to September is best for hiking; January to early March is best for snow-sport trips if booked well ahead.",
   "months": [
     {
       "m": "Jan",
@@ -98,7 +109,7 @@
       "lo": -8,
       "cld": 70,
       "rain": 85,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5,
       "daylight": 3
@@ -110,7 +121,7 @@
       "lo": -7,
       "cld": 66,
       "rain": 75,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5,
       "daylight": 4
@@ -122,9 +133,9 @@
       "lo": -3,
       "cld": 60,
       "rain": 85,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4,
       "daylight": 5
     },
     {
@@ -134,9 +145,9 @@
       "lo": 2,
       "cld": 56,
       "rain": 105,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2,
       "daylight": 6
     },
     {
@@ -146,7 +157,7 @@
       "lo": 7,
       "cld": 52,
       "rain": 130,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2,
       "daylight": 7
@@ -158,7 +169,7 @@
       "lo": 11,
       "cld": 48,
       "rain": 150,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3,
       "daylight": 8
@@ -170,7 +181,7 @@
       "lo": 13,
       "cld": 46,
       "rain": 150,
-      "busy": 5,
+      "busy": 9,
       "ac": 5,
       "fl": 5,
       "daylight": 8
@@ -182,7 +193,7 @@
       "lo": 13,
       "cld": 48,
       "rain": 140,
-      "busy": 5,
+      "busy": 9,
       "ac": 5,
       "fl": 5,
       "daylight": 7
@@ -194,7 +205,7 @@
       "lo": 9,
       "cld": 54,
       "rain": 110,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3,
       "daylight": 6
@@ -206,7 +217,7 @@
       "lo": 4,
       "cld": 60,
       "rain": 95,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2,
       "daylight": 5
@@ -218,9 +229,9 @@
       "lo": -2,
       "cld": 68,
       "rain": 95,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2,
       "daylight": 3.5
     },
     {
@@ -230,7 +241,7 @@
       "lo": -6,
       "cld": 72,
       "rain": 90,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5,
       "daylight": 3

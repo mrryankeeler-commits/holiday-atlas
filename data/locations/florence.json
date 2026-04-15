@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/69010/Average-Weather-in-Florence-Italy-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Florence",
   "country": "Italy",
   "region": "Tuscany, Central Italy",
-  "desc": "Florence is a compact Renaissance city where masterpieces by Michelangelo, Botticelli, and Brunelleschi are part of the daily streetscape. The historic core is walkable, intensely cultural, and ideal for travelers who want museum-heavy days balanced by Tuscan food, river views, and quick rail access to nearby towns.",
+  "desc": "Florence is a compact Renaissance powerhouse where headline galleries, frescoed churches, and artisan streets all sit within a walkable historic core. It stays attractive year-round, but crowd pressure is strongest in spring and early autumn; midsummer is hotter with more midday slowdown, while winter gives easier museum access and lower lodging pressure.",
   "hls": [
-    "Renaissance icons: Duomo, Uffizi, Accademia, Ponte Vecchio",
-    "Dense, walkable center with major sights close together",
-    "Top-tier art collections and church fresco cycles",
-    "Excellent Tuscan cuisine and wine bars in Oltrarno",
-    "Panoramic viewpoints from Piazzale Michelangelo and San Miniato",
-    "Easy day trips to Siena, Pisa, Lucca, and Chianti"
+    "Renaissance landmarks: Duomo, Uffizi, Accademia, Ponte Vecchio",
+    "Highly walkable center with dense cultural coverage",
+    "Excellent Tuscan dining and wine-bar scene in Oltrarno",
+    "Strong base for Siena, Chianti, Lucca, and Bologna day trips",
+    "Classic skyline viewpoints from Piazzale Michelangelo",
+    "High-speed rail links to Rome, Milan, Venice, and Naples"
   ],
   "todo": [
     {
@@ -69,10 +73,10 @@
     "wifi": {
       "r": 4,
       "spd": "80–200 Mbps",
-      "note": "Reliable in central stays and coworking spaces; older historic buildings can have weaker in-room signals."
+      "note": "Good in most central stays and coworking hubs; historic buildings can have weak signal in upper floors or rear rooms, so request confirmed in-room speeds for work trips."
     },
     "directGW": false,
-    "fltNote": "Direct Gatwick flights to Florence are limited and seasonal; many travelers route via Pisa, Bologna, Milan, or Rome and continue by train.",
+    "fltNote": "Nonstop Gatwick–Florence service is limited/seasonal, so many UK travelers compare Florence (FLR) with Pisa (PSA) or Bologna (BLQ) and continue by train. Return fares commonly cluster around ~£60–£130 off-peak, ~£130–£220 in shoulder demand, and ~£220+ in summer-holiday or major-event weeks.",
     "airports": [
       {
         "name": "Florence Airport (Amerigo Vespucci)",
@@ -85,22 +89,32 @@
         "code": "PSA",
         "km": 85,
         "dgw": false
+      },
+      {
+        "name": "Bologna Guglielmo Marconi Airport",
+        "code": "BLQ",
+        "km": 106,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Italian",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Italy is in the Schengen Area; many non-EU visitors (e.g., US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy is in Schengen; UK and US passport holders can usually stay visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
-      "Art-focused travel",
-      "Museum weekends",
-      "Walkable city breaks",
-      "Food and wine trips",
-      "Rail-based Tuscany itineraries"
+      "Art-first short breaks",
+      "Museums and architecture",
+      "Food + wine weekends",
+      "Rail-based Tuscany itineraries",
+      "Shoulder-season city walking"
     ],
-    "alerts": []
+    "alerts": [
+      "Accademia and Uffizi timed-entry inventory can sell out days ahead during spring/autumn peaks.",
+      "Historic-center pavements and limited shade make July–August afternoons feel significantly hotter than shoulder months.",
+      "Major fair weeks (e.g., Pitti events) can compress central hotel availability and push rates up."
+    ]
   },
-  "sweet": "April to June and September to October are best for museums and walking before/after peak summer heat.",
+  "sweet": "Late April to June and September to mid-October are best for long walking days, active museum schedules, and stronger value than top-peak weeks.",
   "months": [
     {
       "m": "Jan",
@@ -110,7 +124,7 @@
       "daylight": 9.4,
       "cld": 57,
       "rain": 41,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -122,7 +136,7 @@
       "daylight": 10.5,
       "cld": 53,
       "rain": 43,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -134,9 +148,9 @@
       "daylight": 12.0,
       "cld": 51,
       "rain": 43,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -146,9 +160,9 @@
       "daylight": 13.5,
       "cld": 51,
       "rain": 51,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -158,9 +172,9 @@
       "daylight": 14.8,
       "cld": 46,
       "rain": 46,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -170,9 +184,9 @@
       "daylight": 15.4,
       "cld": 33,
       "rain": 38,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -182,9 +196,9 @@
       "daylight": 15.0,
       "cld": 19,
       "rain": 25,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -194,9 +208,9 @@
       "daylight": 13.9,
       "cld": 24,
       "rain": 33,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -206,9 +220,9 @@
       "daylight": 12.4,
       "cld": 37,
       "rain": 61,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -218,9 +232,9 @@
       "daylight": 11.0,
       "cld": 49,
       "rain": 79,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -230,7 +244,7 @@
       "daylight": 9.6,
       "cld": 57,
       "rain": 81,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -242,9 +256,9 @@
       "daylight": 9.0,
       "cld": 58,
       "rain": 53,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 4,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }

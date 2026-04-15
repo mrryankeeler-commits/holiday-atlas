@@ -9,7 +9,11 @@
         "url": "https://weatherspark.com/y/82397/Average-Weather-in-Bratislava-Slovakia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Bratislava",
   "country": "Slovakia",
@@ -62,7 +66,7 @@
       "note": "Reliable around Old Town stays and coworking spaces; mobile coverage is strong on cross-border routes."
     },
     "directGW": false,
-    "fltNote": "Bratislava has limited UK frequencies; many travelers use Vienna (VIE) and transfer 45–75 minutes by bus or train.",
+    "fltNote": "Bratislava has limited UK nonstop frequency; many travelers use Vienna (VIE) then transfer about 45-75 minutes by bus or train. Return fares are often ~£40-£120 via Vienna off-peak, ~£120-£200 in shoulder demand, and ~£200+ around peak holiday periods.",
     "airports": [
       {
         "name": "M. R. Štefánik Airport Bratislava",
@@ -79,8 +83,8 @@
     ],
     "currency": "Euro (EUR)",
     "lang": "Slovak",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Slovakia is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Slovakia is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Danube city breaks",
       "Weekend old-town walks",
@@ -92,7 +96,7 @@
       "Cross-border rail and bus services to Vienna can be crowded on Friday evenings and Sundays."
     ]
   },
-  "sweet": "May, June, and September are warm and lively for city walks without peak summer heat.",
+  "sweet": "May-June and September are usually best for warm city walks and lively riverside evenings without peak midsummer heat.",
   "months": [
     {
       "m": "Jan",
@@ -102,7 +106,7 @@
       "daylight": 8.9,
       "cld": 59,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -114,7 +118,7 @@
       "daylight": 10.3,
       "cld": 57,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -126,7 +130,7 @@
       "daylight": 12.0,
       "cld": 56,
       "rain": 23,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -138,7 +142,7 @@
       "daylight": 13.7,
       "cld": 51,
       "rain": 30,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -150,9 +154,9 @@
       "daylight": 15.2,
       "cld": 48,
       "rain": 46,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -162,9 +166,9 @@
       "daylight": 16.0,
       "cld": 42,
       "rain": 51,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -174,7 +178,7 @@
       "daylight": 15.6,
       "cld": 35,
       "rain": 51,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -186,7 +190,7 @@
       "daylight": 14.2,
       "cld": 36,
       "rain": 51,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -198,9 +202,9 @@
       "daylight": 12.5,
       "cld": 44,
       "rain": 48,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -210,7 +214,7 @@
       "daylight": 10.8,
       "cld": 51,
       "rain": 33,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -222,7 +226,7 @@
       "daylight": 9.2,
       "cld": 62,
       "rain": 30,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -234,9 +238,9 @@
       "daylight": 8.4,
       "cld": 63,
       "rain": 20,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     }
   ]
 }

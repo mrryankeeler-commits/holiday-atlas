@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/94446/Average-Weather-in-Varna-Bulgaria-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Varna",
   "country": "Bulgaria",
   "region": "Balkans",
-  "desc": "Varna is Bulgaria's maritime capital — a laid-back Black Sea city where Roman ruins, Belle Époque facades and long urban beaches meet one of the country's best food scenes. The Sea Garden stretches for kilometres along the coast, while the Archaeological Museum holds the world's oldest processed gold from the Varna Necropolis. In summer, Varna is a lively beach base with easy access to quiet coves, coastal monasteries and the dramatic stone forest formations inland.",
+  "desc": "Varna is Bulgaria's maritime capital, blending long Black Sea beaches with Roman heritage sites, broad waterfront parks, and a lively warm-season food scene. It works as both a city break and a coastal base, with strongest overall balance in June and September when sea conditions are good but peak July-August crowd pressure is lower.",
   "hls": [
     "Black Sea city beaches",
     "Huge Sea Garden waterfront",
@@ -68,11 +72,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "35–60 Mbps",
-      "note": "Reliable broadband across central Varna and beach districts, with strong 4G/5G coverage and many laptop-friendly cafes."
+      "spd": "40–90 Mbps",
+      "note": "Reliable in central districts and most beach-area accommodations, with good mobile data coverage for remote work backup."
     },
     "directGW": false,
-    "fltNote": "No routine direct LGW → Varna service year-round. Typical options are one-stop flights via Sofia or major European hubs; seasonal UK charters can appear in peak summer.",
+    "fltNote": "No consistent year-round Gatwick nonstop schedule to Varna; most itineraries are one-stop via Sofia or European hubs, with extra seasonal UK capacity in summer. Return fares are often ~£70–£170 off-peak, ~£170–£280 in shoulder demand, and ~£280+ in peak summer windows.",
     "airports": [
       {
         "name": "Varna Airport",
@@ -90,7 +94,7 @@
     "currency": "Bulgarian Lev (BGN)",
     "lang": "Bulgarian",
     "tz": "EET/EEST (UTC+2/+3)",
-    "visa": "Visa-free for UK citizens — up to 90 days in any 180-day period",
+    "visa": "Bulgaria is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
     "bestFor": [
       "Beach breaks",
       "History lovers",
@@ -100,10 +104,11 @@
     ],
     "alerts": [
       "July and August are the busiest months on the Black Sea coast — book beachfront stays early for best value.",
-      "Some beach clubs and seasonal restaurants close quickly after mid-September outside school-holiday periods."
+      "Some beach clubs and seasonal restaurants close quickly after mid-September outside school-holiday periods.",
+      "Road transfers to major resorts can slow considerably on summer weekend turnover days."
     ]
   },
-  "sweet": "June and September are the sweet spot — warm sea temperatures and beach weather with fewer crowds than July–August.",
+  "sweet": "June and September are usually the best-value months for warm sea conditions with less crowding than July-August peaks.",
   "months": [
     {
       "m": "Jan",

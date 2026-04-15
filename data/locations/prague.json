@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/77807/Average-Weather-in-Prague-Czechia-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Prague",
   "country": "Czechia",
   "region": "Bohemia",
-  "desc": "Prague is a storybook capital of Gothic spires, baroque facades, and riverside viewpoints, with a lively contemporary food and beer scene. It is ideal for walkable history, atmospheric neighborhoods, and culturally rich evenings.",
+  "desc": "Prague is a highly walkable Central European capital of Gothic towers, baroque streetscapes, and vibrant beer-and-food culture. Visitor demand peaks in late spring, summer, and festive December periods, while shoulder months usually balance atmosphere and value more effectively.",
   "hls": [
     "Charles Bridge and Vltava skyline",
     "Prague Castle complex and cathedral",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 5,
-      "spd": "100–220 Mbps",
-      "note": "Strong and consistent in hotels, cafés, and coworking spaces across the center."
+      "spd": "110–230 Mbps",
+      "note": "Very strong and consistent in central accommodations, cafés, and coworking spaces."
     },
-    "directGW": false,
-    "fltNote": "Gatwick–Prague is typically nonstop year-round with multiple daily options.",
+    "directGW": true,
+    "fltNote": "Gatwick–Prague is commonly nonstop year-round with high frequency. Return fares are often ~£45–£120 off-peak, ~£120–£210 in shoulder demand, and ~£210+ around high summer and Christmas-market peaks.",
     "airports": [
       {
         "name": "Václav Havel Airport Prague",
@@ -73,20 +77,22 @@
     ],
     "currency": "Czech koruna (CZK)",
     "lang": "Czech",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Czechia is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Czechia is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
       "Weekend city breaks",
-      "Architecture lovers",
+      "Architecture",
       "Beer tourism",
       "Riverfront walks",
       "Remote-work months"
     ],
     "alerts": [
-      "Historic center crowds are heaviest from late morning to sunset in peak season."
+      "Historic-core crowding is heaviest late morning to evening in peak months.",
+      "Old Town accommodation can command large premiums versus tram-connected outer districts.",
+      "Seasonal events and Christmas markets tighten availability well in advance."
     ]
   },
-  "sweet": "May to June and September are best for walkable weather and lively cafés without summer crowd peaks.",
+  "sweet": "May–June and September are typically best for walkability and atmosphere with less crowd pressure than midsummer peaks.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 8.6,
       "cld": 60,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 10.1,
       "cld": 58,
       "rain": 15,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 12.0,
       "cld": 58,
       "rain": 20,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 13.9,
       "cld": 54,
       "rain": 25,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -144,9 +150,9 @@
       "daylight": 15.5,
       "cld": 52,
       "rain": 46,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -156,9 +162,9 @@
       "daylight": 16.3,
       "cld": 48,
       "rain": 58,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 15.8,
       "cld": 43,
       "rain": 66,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -180,7 +186,7 @@
       "daylight": 14.4,
       "cld": 43,
       "rain": 56,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -192,9 +198,9 @@
       "daylight": 12.5,
       "cld": 48,
       "rain": 38,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +210,7 @@
       "daylight": 10.7,
       "cld": 57,
       "rain": 28,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -216,7 +222,7 @@
       "daylight": 9.0,
       "cld": 65,
       "rain": 25,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -228,9 +234,9 @@
       "daylight": 8.1,
       "cld": 64,
       "rain": 20,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

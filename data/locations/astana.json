@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/107257/Average-Weather-in-Astana-Kazakhstan-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Astana",
   "country": "Kazakhstan",
   "region": "Northern Kazakhstan",
-  "desc": "Astana rises from the Kazakh steppe as a futuristic capital of bold architecture, broad boulevards, and severe continental seasons. Go for landmark modern design, museums on national identity, and a striking contrast between winter ice and warm-season riverside parks.",
+  "desc": "Astana rises from the Kazakh steppe as a futuristic capital of monumental architecture, broad boulevards, and one of the world's sharpest seasonal contrasts. It is best for design-focused city breaks and museum itineraries in warmer months, while winter delivers a dramatic but logistically demanding cold-weather experience.",
   "hls": [
     "Iconic modern skyline on the Ishim River",
     "Baiterek Tower and Norman Foster landmarks",
@@ -58,11 +62,11 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "60–140 Mbps",
-      "note": "Fast in modern hotels, malls, and business districts; speed can drop in extreme weather or outer districts."
+      "spd": "70–170 Mbps",
+      "note": "Fast in modern hotels, malls, and business districts, with occasional variability in outer areas during severe weather."
     },
     "directGW": false,
-    "fltNote": "No nonstop Gatwick service is typical; most itineraries connect via Istanbul, Frankfurt, Warsaw, or Doha into Astana.",
+    "fltNote": "No regular Gatwick-Astana nonstop route; most UK itineraries connect via Istanbul, Frankfurt, Warsaw, or Doha. Return fares are often ~£260-£480 off-peak, ~£480-£700 in shoulder demand, and ~£700+ around summer and year-end peaks.",
     "airports": [
       {
         "name": "Nursultan Nazarbayev International Airport",
@@ -74,7 +78,7 @@
     "currency": "Kazakhstani tenge (KZT)",
     "lang": "Kazakh and Russian",
     "tz": "UTC+5 (no DST)",
-    "visa": "Kazakhstan offers visa-free entry for many passports (including US/UK) for short stays; check current day limits before travel.",
+    "visa": "Kazakhstan allows visa-free entry for many passports including UK and US for short stays (policy windows can change; verify current limits before departure).",
     "bestFor": [
       "Modern architecture",
       "Winter city breaks",
@@ -83,10 +87,12 @@
       "Museum and boulevard walks"
     ],
     "alerts": [
-      "Winter cold is severe; temperatures below -25°C are common from December to February."
+      "Winter cold is severe and windy; temperatures below -25°C are common from December to February.",
+      "Outdoor sightseeing windows can be short in winter due to wind chill and reduced comfort.",
+      "Shoulder-season weather can shift quickly between warm sun and cold steppe winds in the same day."
     ]
   },
-  "sweet": "Late May to September has the most comfortable temperatures and long daylight, while winter is severe and windy.",
+  "sweet": "Late May-September is usually best for comfortable temperatures and long daylight, while winter suits only well-prepared cold-weather travelers.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +102,7 @@
       "daylight": 8.5,
       "cld": 82,
       "rain": 0,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +114,7 @@
       "daylight": 10.0,
       "cld": 80,
       "rain": 0,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +126,7 @@
       "daylight": 12.0,
       "cld": 67,
       "rain": 5,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -132,7 +138,7 @@
       "daylight": 13.9,
       "cld": 48,
       "rain": 13,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -144,7 +150,7 @@
       "daylight": 15.6,
       "cld": 42,
       "rain": 23,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -156,9 +162,9 @@
       "daylight": 16.5,
       "cld": 37,
       "rain": 25,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,7 +174,7 @@
       "daylight": 16.0,
       "cld": 34,
       "rain": 33,
-      "busy": 4,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -180,9 +186,9 @@
       "daylight": 14.5,
       "cld": 32,
       "rain": 18,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,9 +198,9 @@
       "daylight": 12.6,
       "cld": 41,
       "rain": 15,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,7 +210,7 @@
       "daylight": 10.6,
       "cld": 55,
       "rain": 15,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },

@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/121829/Average-Weather-in-Guilin-China-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Guilin",
   "country": "China",
   "region": "Guangxi, South China",
-  "desc": "Guilin is famed for karst peaks rising above rivers and rice countryside, making it one of China’s most scenic regions. Travelers come for Li River cruises, reed-flute caves, and nearby Yangshuo’s biking and rafting landscapes.",
+  "desc": "Guilin is one of China's signature karst destinations, pairing river cruises, cave systems, and rice-terrace excursions with easy onward access to Yangshuo. The scenery is year-round, but spring and autumn tend to balance visibility and comfort best, while late spring and early summer bring heavier rainfall and humidity.",
   "hls": [
     "Iconic karst mountain scenery",
     "Li River boat journeys to Yangshuo",
@@ -58,35 +62,43 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "20–80 Mbps",
-      "note": "Hotel Wi-Fi is common, but some global apps require roaming solutions or approved VPN access."
+      "spd": "25–90 Mbps",
+      "note": "Most midrange and upscale stays have stable Wi-Fi, though cross-border app access may require preplanned connectivity tools."
     },
     "directGW": false,
-    "fltNote": "From Gatwick, routes usually connect via major hubs (e.g., Beijing, Shanghai, Guangzhou, or Doha) before onward domestic service to Guilin.",
+    "fltNote": "From Gatwick, Guilin is usually reached via one or two connections through major hubs (e.g., Doha, Guangzhou, Shanghai, Beijing). Return fares are often ~£450–£700 off-peak, ~£700–£980 in shoulder demand, and ~£980+ around major holiday travel periods.",
     "airports": [
       {
         "name": "Guilin Liangjiang International Airport",
         "code": "KWL",
         "km": 30,
         "dgw": false
+      },
+      {
+        "name": "Liuzhou Bailian Airport",
+        "code": "LZH",
+        "km": 160,
+        "dgw": false
       }
     ],
     "currency": "Chinese yuan renminbi (CNY)",
-    "lang": "Mandarin Chinese (local dialects also spoken)",
+    "lang": "Mandarin Chinese (with local dialects)",
     "tz": "China Standard Time (UTC+8)",
-    "visa": "China entry rules vary by nationality and transit policy; apply for the correct visa or confirm current visa-free transit eligibility before travel.",
+    "visa": "China entry requirements vary by passport and policy period; confirm current visa or transit-eligibility rules before departure.",
     "bestFor": [
-      "Karst scenery",
-      "River cruises",
-      "Photography trips",
-      "Nature + culture itineraries",
-      "Slow-paced China exploration"
+      "Karst landscapes",
+      "River cruising",
+      "Photography",
+      "Nature-first itineraries",
+      "Yangshuo active travel"
     ],
     "alerts": [
-      "National holiday weeks (especially early October) bring heavy domestic travel demand."
+      "Late spring/early summer can bring very heavy rain that affects river conditions and visibility.",
+      "National-holiday windows, especially early October, drive significant domestic demand.",
+      "Rural day-trip logistics are easiest with pre-booked transfers or guided transport."
     ]
   },
-  "sweet": "April to May and October are typically best for karst scenery with milder temperatures than peak summer.",
+  "sweet": "April–May and October–November usually offer the best mix of scenery, river conditions, and manageable heat.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +108,7 @@
       "daylight": 10.8,
       "cld": 40,
       "rain": 41,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +120,7 @@
       "daylight": 11.3,
       "cld": 41,
       "rain": 61,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +132,7 @@
       "daylight": 12.0,
       "cld": 42,
       "rain": 99,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -132,9 +144,9 @@
       "daylight": 12.8,
       "cld": 49,
       "rain": 165,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -144,9 +156,9 @@
       "daylight": 13.4,
       "cld": 60,
       "rain": 244,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -156,7 +168,7 @@
       "daylight": 13.7,
       "cld": 75,
       "rain": 287,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -168,9 +180,9 @@
       "daylight": 13.5,
       "cld": 77,
       "rain": 165,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Aug",
@@ -180,9 +192,9 @@
       "daylight": 13.0,
       "cld": 70,
       "rain": 112,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Sep",
@@ -192,7 +204,7 @@
       "daylight": 12.3,
       "cld": 49,
       "rain": 69,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -204,8 +216,8 @@
       "daylight": 11.5,
       "cld": 34,
       "rain": 56,
-      "busy": 4,
-      "ac": 5,
+      "busy": 8,
+      "ac": 4,
       "fl": 5
     },
     {
@@ -216,7 +228,7 @@
       "daylight": 10.9,
       "cld": 29,
       "rain": 58,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -228,7 +240,7 @@
       "daylight": 10.6,
       "cld": 28,
       "rain": 30,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     }

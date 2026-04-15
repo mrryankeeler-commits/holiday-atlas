@@ -9,19 +9,23 @@
         "url": "https://weatherspark.com/y/35355/Average-Weather-in-Toledo-Spain-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Toledo",
   "country": "Spain",
   "region": "Castile-La Mancha",
-  "desc": "Toledo crowns a hill above the Tagus River and preserves one of Spain’s richest medieval cityscapes. Known as the “City of Three Cultures,” it offers layered Christian, Jewish, and Islamic heritage in a dense maze of stone streets.",
+  "desc": "Toledo rises above the Tagus as Spain's classic 'City of Three Cultures', where Christian, Jewish, and Islamic layers are compressed into a compact hilltop maze of cathedrals, synagogues, convents, and fortress views. Demand is strongest in spring and autumn for walkability, while midsummer remains busy but heat makes steep daytime routes more demanding.",
   "hls": [
-    "UNESCO-listed walled hill city",
-    "Toledo Cathedral and El Greco heritage",
-    "Strong Christian-Jewish-Muslim historical layers",
-    "Dramatic river-gorge viewpoints",
-    "Traditional sword and damascene craft legacy",
-    "Excellent day trip from Madrid"
+    "UNESCO-listed fortified hill city",
+    "Toledo Cathedral, Alcázar, and El Greco legacy",
+    "Dense Christian-Jewish-Muslim heritage layers",
+    "Classic skyline panoramas from Mirador del Valle",
+    "Strong day-trip access from Madrid high-speed rail",
+    "Traditional marzipan and damascene craft culture"
   ],
   "todo": [
     {
@@ -58,35 +62,43 @@
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "50–130 Mbps",
-      "note": "Reliable in historic-center hotels and cafés, though old stone buildings can reduce in-room signal strength."
+      "spd": "60–140 Mbps",
+      "note": "Usually dependable in old-town hotels and cafés, but heavy stone walls can reduce room-level signal consistency in historic buildings."
     },
     "directGW": false,
-    "fltNote": "Toledo has no airport; fly to Madrid-Barajas (MAD) then continue by high-speed train (~35 minutes from Madrid Atocha).",
+    "fltNote": "Toledo has no commercial airport; most UK arrivals route via Madrid-Barajas (MAD) then continue by high-speed rail (~35 minutes from Atocha). Return fare patterns are often ~£40–£110 off-peak, ~£110–£180 in shoulder demand, and ~£180+ around Easter, summer holidays, and Christmas peaks.",
     "airports": [
       {
         "name": "Adolfo Suárez Madrid-Barajas Airport",
         "code": "MAD",
         "km": 96,
         "dgw": true
+      },
+      {
+        "name": "Valencia Airport",
+        "code": "VLC",
+        "km": 372,
+        "dgw": true
       }
     ],
     "currency": "Euro (EUR)",
     "lang": "Spanish",
-    "tz": "CET (UTC+1), CEST (UTC+2) in summer",
-    "visa": "Spain is in Schengen; many visitors (including US/UK) can stay up to 90 days in any 180-day period visa-free.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Spain is in Schengen; UK and US passport holders can generally stay visa-free for up to 90 days in any rolling 180-day period.",
     "bestFor": [
-      "Historic day trips",
-      "Short cultural breaks",
-      "Madrid add-ons",
-      "Architecture and history",
-      "Slow weekend travel"
+      "Madrid side trips",
+      "History-focused short breaks",
+      "Architecture lovers",
+      "Shoulder-season walking",
+      "Cultural weekends"
     ],
     "alerts": [
-      "Steep cobbled streets and summer heat can make midday walking demanding."
+      "Steep cobbles and stairways can be tiring in summer heat; plan shaded midday breaks.",
+      "Popular landmarks and day-trip trains are busiest on weekends/holidays — prebook timed entries.",
+      "Some small old-town stays have limited vehicle access, so check taxi drop-off logistics before arrival."
     ]
   },
-  "sweet": "April to June and September to October are better for hilltop walking than midsummer afternoons.",
+  "sweet": "April to June and September to October offer the best balance of weather, crowd levels, and comfortable hill-city walking.",
   "months": [
     {
       "m": "Jan",
@@ -96,7 +108,7 @@
       "daylight": 9.7,
       "cld": 49,
       "rain": 23,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -108,7 +120,7 @@
       "daylight": 10.7,
       "cld": 45,
       "rain": 18,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -120,7 +132,7 @@
       "daylight": 12.0,
       "cld": 43,
       "rain": 18,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -132,9 +144,9 @@
       "daylight": 13.3,
       "cld": 41,
       "rain": 28,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -144,9 +156,9 @@
       "daylight": 14.4,
       "cld": 38,
       "rain": 28,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -156,9 +168,9 @@
       "daylight": 15.0,
       "cld": 27,
       "rain": 18,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -168,9 +180,9 @@
       "daylight": 14.6,
       "cld": 12,
       "rain": 5,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -180,9 +192,9 @@
       "daylight": 13.7,
       "cld": 18,
       "rain": 5,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -192,9 +204,9 @@
       "daylight": 12.4,
       "cld": 33,
       "rain": 15,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -204,9 +216,9 @@
       "daylight": 11.1,
       "cld": 45,
       "rain": 41,
-      "busy": 4,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -216,7 +228,7 @@
       "daylight": 10.0,
       "cld": 49,
       "rain": 36,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -228,9 +240,9 @@
       "daylight": 9.4,
       "cld": 51,
       "rain": 28,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
     }
   ]
 }

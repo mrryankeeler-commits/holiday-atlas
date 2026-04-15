@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/115263/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-H%C3%A0-Giang-Vietnam-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Ha Giang",
   "country": "Vietnam",
   "region": "Northern Vietnam",
-  "desc": "Ha Giang is Vietnam's dramatic northern highland circuit, with distinct cool-season riding conditions and a wet summer monsoon that changes road and visibility risks.",
+  "desc": "Ha Giang is Vietnam's most dramatic northern highland loop, where karst passes, minority villages, and deep river canyons create one of Southeast Asia's standout road-trip routes. Conditions vary strongly by season, with spring/autumn generally best for visibility and road reliability while monsoon months increase landslide and riding-risk exposure.",
   "hls": [
     "Legendary mountain loop routes",
     "Best riding in spring and autumn",
@@ -58,8 +62,8 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "20–60 Mbps",
-      "note": "Reliable in Ha Giang City; patchy signal in remote loop sections."
+      "spd": "25–70 Mbps",
+      "note": "Reliable in Ha Giang City and larger loop towns, but patchy in remote mountain sections."
     },
     "directGW": false,
     "fltNote": "There is no commercial airport in Ha Giang. Fly to Hanoi Noi Bai (HAN), then continue roughly 280–300 km by limousine van/private car (about 6–8 hours) or overnight bus before starting the loop.",
@@ -74,7 +78,7 @@
     "currency": "Vietnamese Dong (VND)",
     "lang": "Vietnamese; English limited outside tourism hubs",
     "tz": "UTC+7",
-    "visa": "eVisa available for many nationalities; confirm duration and entry point rules",
+    "visa": "Vietnam eVisa is available for many nationalities; confirm current duration and valid entry-point rules before travel.",
     "bestFor": [
       "Motorbike road trips",
       "Mountain scenery",
@@ -82,7 +86,11 @@
       "Adventure travel",
       "Cultural markets"
     ],
-    "alerts": []
+    "alerts": [
+      "Road conditions can change quickly in wet months due to rain, fog, and occasional landslides.",
+      "If self-riding, ensure you have valid licensing/insurance and route experience for mountain roads.",
+      "Fuel and cash access is limited in remote stretches — plan refuel and ATM stops in advance."
+    ]
   },
   "sweet": "September to November and March to April are best for dry roads, views, and comfortable loop riding.",
   "months": [
@@ -94,7 +102,7 @@
       "daylight": 10.9,
       "cld": 43,
       "rain": 10,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -106,7 +114,7 @@
       "daylight": 11.4,
       "cld": 38,
       "rain": 10,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4
     },
@@ -118,9 +126,9 @@
       "daylight": 12.0,
       "cld": 35,
       "rain": 25,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -130,9 +138,9 @@
       "daylight": 12.7,
       "cld": 44,
       "rain": 51,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -142,7 +150,7 @@
       "daylight": 13.2,
       "cld": 65,
       "rain": 112,
-      "busy": 3,
+      "busy": 5,
       "ac": 3,
       "fl": 4
     },
@@ -154,7 +162,7 @@
       "daylight": 13.5,
       "cld": 86,
       "rain": 157,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3
     },
@@ -166,7 +174,7 @@
       "daylight": 13.4,
       "cld": 87,
       "rain": 188,
-      "busy": 2,
+      "busy": 3,
       "ac": 2,
       "fl": 3
     },
@@ -178,7 +186,7 @@
       "daylight": 12.9,
       "cld": 82,
       "rain": 185,
-      "busy": 3,
+      "busy": 4,
       "ac": 3,
       "fl": 4
     },
@@ -190,9 +198,9 @@
       "daylight": 12.3,
       "cld": 65,
       "rain": 112,
-      "busy": 5,
-      "ac": 5,
-      "fl": 5
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -202,7 +210,7 @@
       "daylight": 11.6,
       "cld": 47,
       "rain": 56,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -214,7 +222,7 @@
       "daylight": 11.0,
       "cld": 35,
       "rain": 33,
-      "busy": 5,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -226,7 +234,7 @@
       "daylight": 10.8,
       "cld": 33,
       "rain": 13,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     }

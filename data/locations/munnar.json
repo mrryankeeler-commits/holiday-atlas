@@ -9,12 +9,16 @@
         "url": "https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Munnar",
   "country": "India",
   "region": "Kerala, South India",
-  "desc": "Munnar is Kerala's flagship hill station, with cool tea-country weather, foggy monsoon months, and clear highland views in the drier season.",
+  "desc": "Munnar is Kerala's highland tea-country escape, prized for cooler temperatures, plantation scenery, and wildlife access. It sees dual seasonality: winter and holiday peaks for clear viewpoints, and greener but rainier monsoon months with lower crowd pressure.",
   "hls": [
     "Cooler climate than Kerala lowlands",
     "Tea-estate landscapes year-round",
@@ -58,33 +62,43 @@
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "15–50 Mbps",
-      "note": "Usable in town hotels; weaker in estate stays and during heavy rain."
+      "spd": "20–60 Mbps",
+      "note": "Town hotels are usually workable, but estate stays and heavy-rain periods can reduce speed and stability."
     },
     "directGW": false,
-    "fltNote": "Nearest major airport is Kochi (COK). Munnar sits in the hills about 125 km away; expect 4–5 hours by road (often longer on weekends/holidays due to mountain traffic and weather).",
+    "fltNote": "Typical UK routings connect into Kochi (COK) before a 4–5+ hour mountain-road transfer. Return fares are often ~£420–£690 off-peak, ~£690–£940 in shoulder demand, and ~£940+ around December–January holiday peaks.",
     "airports": [
       {
         "name": "Cochin International Airport",
         "code": "COK",
         "km": 125,
         "dgw": false
+      },
+      {
+        "name": "Coimbatore International Airport",
+        "code": "CJB",
+        "km": 160,
+        "dgw": false
       }
     ],
     "currency": "Indian Rupee (INR)",
     "lang": "Malayalam, Tamil, English common in tourism",
-    "tz": "UTC+5:30",
-    "visa": "eVisa available for many nationalities; verify current category rules",
+    "tz": "IST (UTC+5:30)",
+    "visa": "India eVisa is available for many nationalities; verify current rules before departure.",
     "bestFor": [
-      "Hill-station breaks",
       "Tea landscapes",
+      "Cool-weather breaks",
       "Nature photography",
-      "Cool-weather escapes",
-      "Families"
+      "Family hill-station trips",
+      "Kerala add-on itineraries"
     ],
-    "alerts": []
+    "alerts": [
+      "Monsoon rain and fog can affect road safety and reduce visibility at key viewpoints.",
+      "Holiday weekends can produce heavy traffic on approach roads from Kochi.",
+      "National-park slots and popular viewpoint entries may require advance booking in peak months."
+    ]
   },
-  "sweet": "December to March is coolest and clearest for tea-country viewpoints, with heavy rains in monsoon months.",
+  "sweet": "December to March is best for clearer views and cooler weather; monsoon months suit green-season stays if you accept rain disruption risk.",
   "months": [
     {
       "m": "Jan",
@@ -94,7 +108,7 @@
       "daylight": 11.6,
       "cld": 51,
       "rain": 15,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -106,7 +120,7 @@
       "daylight": 11.8,
       "cld": 48,
       "rain": 18,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -118,7 +132,7 @@
       "daylight": 12.1,
       "cld": 55,
       "rain": 30,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -130,7 +144,7 @@
       "daylight": 12.4,
       "cld": 74,
       "rain": 66,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     },
@@ -142,7 +156,7 @@
       "daylight": 12.6,
       "cld": 87,
       "rain": 145,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 3
     },
@@ -154,7 +168,7 @@
       "daylight": 12.7,
       "cld": 94,
       "rain": 254,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -166,7 +180,7 @@
       "daylight": 12.6,
       "cld": 95,
       "rain": 203,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -178,7 +192,7 @@
       "daylight": 12.4,
       "cld": 94,
       "rain": 155,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -190,7 +204,7 @@
       "daylight": 12.2,
       "cld": 90,
       "rain": 155,
-      "busy": 2,
+      "busy": 4,
       "ac": 2,
       "fl": 3
     },
@@ -202,7 +216,7 @@
       "daylight": 11.9,
       "cld": 83,
       "rain": 203,
-      "busy": 2,
+      "busy": 5,
       "ac": 2,
       "fl": 3
     },
@@ -214,7 +228,7 @@
       "daylight": 11.7,
       "cld": 72,
       "rain": 132,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 4
     },
@@ -226,7 +240,7 @@
       "daylight": 11.5,
       "cld": 60,
       "rain": 38,
-      "busy": 4,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     }
