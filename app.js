@@ -70,7 +70,7 @@ function rTab() {
 function rClimate(L) {
   const filters = [
     { id: "warm", lbl: "Warmest", fn: d => d.avg >= 20 },
-    { id: "sunny", lbl: "Sunniest", fn: d => d.sun >= 7 },
+    { id: "sunny", lbl: "Longest daylight", fn: d => d.daylight >= 12 },
     { id: "dry", lbl: "Driest", fn: d => d.rain < 35 },
     { id: "cheap", lbl: "Cheapest", fn: d => d.ac <= 2 && d.fl <= 2 },
     { id: "quiet", lbl: "Quietest", fn: d => d.busy <= 3 }
@@ -102,8 +102,8 @@ function rClimate(L) {
         <thead>
           <tr>
             <th>Month</th><th>Avg °C</th><th>High °C</th><th>Low °C</th>
-            <th>Sun hrs/day</th><th>Cloud cover</th><th>Rainfall mm</th>
-            <th>Sunrise</th><th>Sunset</th><th>Busyness</th>
+            <th>Daylight hrs/day</th><th>Cloud cover</th><th>Rainfall mm</th>
+            <th>Busyness</th>
           </tr>
         </thead>
         <tbody>
@@ -117,7 +117,7 @@ function rClimate(L) {
                 <td>${d.avg}°</td>
                 <td style="color:#D85A30;font-weight:500">${d.hi}°</td>
                 <td style="color:#378ADD">${d.lo}°</td>
-                <td>${d.sun.toFixed(1)}</td>
+                <td>${d.daylight.toFixed(1)}</td>
                 <td>
                   <div style="display:flex;align-items:center;gap:6px">
                     <div style="width:44px;height:5px;border-radius:3px;background:var(--color-border-tertiary);overflow:hidden">
@@ -127,8 +127,6 @@ function rClimate(L) {
                   </div>
                 </td>
                 <td>${d.rain}</td>
-                <td style="font-size:11px;font-variant-numeric:tabular-nums">${d.rise}</td>
-                <td style="font-size:11px;font-variant-numeric:tabular-nums">${d.set}</td>
                 <td>
                   <div style="display:flex;align-items:center;gap:6px">
                     <div style="display:flex;gap:1px">
