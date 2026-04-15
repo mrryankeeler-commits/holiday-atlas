@@ -156,6 +156,12 @@
     "region": "Andalusia"
   },
   {
+    "id": "graz-austria",
+    "city": "Graz",
+    "country": "Austria",
+    "region": "Styria"
+  },
+  {
     "id": "guilin",
     "city": "Guilin",
     "country": "China",
@@ -220,6 +226,12 @@
     "city": "Leipzig",
     "country": "Germany",
     "region": "Central Europe"
+  },
+  {
+    "id": "ljubljana-slovenia",
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "region": "Central Slovenia"
   },
   {
     "id": "marrakech",
