@@ -157,7 +157,7 @@ function rMain() {
         ["todo", "Things to do"],
         ["prac", "Practical info"]
       ].map(([id, lbl]) => `
-        <button class="tab-btn ${id === S.tab ? "active" : ""}" onclick="swTab('${id}')">${lbl}</button>
+        <button class="tab-btn ${id === S.tab ? "active" : ""}" data-tab="${id}" aria-selected="${id === S.tab}" onclick="swTab('${id}')">${lbl}</button>
       `).join("")}
     </div>
     <div class="tab-body" id="tab-body">${rTab()}</div>
@@ -505,6 +505,7 @@ async function selLoc(id) {
 function swTab(t) {
   S.tab = t;
   S.filter = null;
+  syncTabNavState();
   document.getElementById("tab-body").innerHTML = rTab();
   if (S.tab === "climate") initChart();
   resetMainHorizontalOffsets();
@@ -517,6 +518,15 @@ function setF(f) {
   document.getElementById("tab-body").innerHTML = rClimate(L);
   initChart();
   resetMainHorizontalOffsets();
+}
+
+function syncTabNavState() {
+  document.querySelectorAll(".tab-nav .tab-btn").forEach(btn => {
+    const isActive = btn.dataset.tab === S.tab;
+
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-selected", String(isActive));
+  });
 }
 
 function addLoc() {
