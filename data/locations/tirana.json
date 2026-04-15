@@ -1,5 +1,16 @@
 {
   "id": "tirana",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/84331/Average-Weather-in-Tirana-Albania-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Tirana",
   "country": "Albania",
   "region": "Balkans",
