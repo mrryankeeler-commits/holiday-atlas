@@ -1,5 +1,16 @@
 {
   "id": "catania",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/78384/Average-Weather-in-Catania-Italy-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Catania",
   "country": "Italy",
   "region": "Southern Italy",

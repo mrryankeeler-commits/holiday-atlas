@@ -1,5 +1,16 @@
 {
   "id": "istanbul",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/95434/Average-Weather-in-%C4%B0stanbul-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Istanbul",
   "country": "Turkey",
   "region": "Straddling Europe & Asia",

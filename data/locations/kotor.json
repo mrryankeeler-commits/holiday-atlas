@@ -1,5 +1,12 @@
 {
   "id": "kotor",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Kotor",
   "country": "Montenegro",
   "region": "Western Balkans",

@@ -1,5 +1,12 @@
 {
   "id": "andorra-la-vella",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No climate source URL is linked for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Andorra la Vella",
   "country": "Andorra",
   "region": "Central Andorra",

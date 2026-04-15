@@ -1,5 +1,16 @@
 {
   "id": "tbilisi",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/103478/Average-Weather-in-Tbilisi-Georgia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Tbilisi",
   "country": "Georgia",
   "region": "South Caucasus",

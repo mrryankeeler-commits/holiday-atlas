@@ -1,5 +1,16 @@
 {
   "id": "ha-giang",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/115263/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-H%C3%A0-Giang-Vietnam-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Ha Giang",
   "country": "Vietnam",
   "region": "Northern Vietnam",

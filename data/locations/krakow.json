@@ -1,5 +1,16 @@
 {
   "id": "krakow",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/85104/Average-Weather-in-Krak%C3%B3w-Poland-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Krakow",
   "country": "Poland",
   "region": "Lesser Poland",
