@@ -2,6 +2,7 @@ let INDEX = [];
 const LOC_CACHE = {};
 let locRailScrollLeft = 0;
 let lastSidebarLoc = null;
+let locRailControlsBound = false;
 
 let S = {
   loc: null,
@@ -10,7 +11,6 @@ let S = {
   chart: null,
   query: ""
 };
-let chartResizeBound = false;
 
 const gl = () => LOC_CACHE[S.loc] || null;
 const clbls = ["", "Budget", "Low", "Mid", "High", "Peak"];
@@ -69,6 +69,7 @@ function rSidebar() {
       locRailScrollLeft = priorRailScroll;
     }
   }
+  updateLocRailControls();
 
   lastSidebarLoc = S.loc;
 }
@@ -81,7 +82,48 @@ function scrollActiveLocIntoView() {
   activeBtn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   window.setTimeout(() => {
     locRailScrollLeft = rail.scrollLeft;
+    updateLocRailControls();
   }, 250);
+}
+
+function updateLocRailControls() {
+  const controls = document.getElementById("loc-rail-controls");
+  const rail = document.getElementById("loc-list");
+  const prev = document.getElementById("loc-rail-prev");
+  const next = document.getElementById("loc-rail-next");
+  const isRailMode = window.matchMedia("(max-width: 900px)").matches;
+
+  if (!controls || !rail || !prev || !next) return;
+
+  if (!isRailMode) {
+    controls.hidden = true;
+    return;
+  }
+
+  const maxLeft = Math.max(0, rail.scrollWidth - rail.clientWidth);
+  const hasOverflow = maxLeft > 2;
+  controls.hidden = !hasOverflow;
+  controls.setAttribute("aria-hidden", String(!hasOverflow));
+
+  if (!hasOverflow) return;
+  prev.disabled = rail.scrollLeft <= 1;
+  next.disabled = rail.scrollLeft >= maxLeft - 1;
+}
+
+function scrollLocRailByPage(direction) {
+  const rail = document.getElementById("loc-list");
+  if (!rail) return;
+  const amount = Math.max(160, Math.floor(rail.clientWidth * 0.8));
+  rail.scrollBy({ left: direction * amount, behavior: "smooth" });
+  window.setTimeout(updateLocRailControls, 260);
+}
+
+function resetMainHorizontalOffsets() {
+  const mainEl = document.getElementById("main");
+  if (mainEl) mainEl.scrollLeft = 0;
+  document.querySelectorAll("#main .tscroll, #main .chart-scroll").forEach(el => {
+    el.scrollLeft = 0;
+  });
 }
 
 function rMain() {
@@ -119,6 +161,7 @@ function rMain() {
   `;
 
   if (S.tab === "climate") initChart();
+  resetMainHorizontalOffsets();
 }
 
 function rTab() {
@@ -158,10 +201,14 @@ function rClimate(L) {
       <span class="lg-item"><span class="lg-dot" style="background:#378ADD"></span>Low</span>
     </div>
 
-    <div class="chart-wrap">
-      <canvas id="tc" role="img" aria-label="Monthly temperature chart for ${L.city}.">
-        ${L.city} monthly temperatures.
-      </canvas>
+    <div class="chart-scroll">
+      <div class="chart-wrap">
+        <div class="chart-inner">
+          <canvas id="tc" role="img" aria-label="Monthly temperature chart for ${L.city}.">
+            ${L.city} monthly temperatures.
+          </canvas>
+        </div>
+      </div>
     </div>
 
     <div class="filter-row">
@@ -425,12 +472,6 @@ function initChart() {
     }
   });
 
-  if (!chartResizeBound) {
-    window.addEventListener("resize", () => {
-      S.chart?.resize();
-    });
-    chartResizeBound = true;
-  }
 }
 
 async function selLoc(id) {
@@ -442,6 +483,7 @@ async function selLoc(id) {
   try {
     await loadLocation(id);
     rMain();
+    resetMainHorizontalOffsets();
   } catch (err) {
     rLocError(id, err);
     console.error(err);
@@ -453,6 +495,7 @@ function swTab(t) {
   S.filter = null;
   document.getElementById("tab-body").innerHTML = rTab();
   if (S.tab === "climate") initChart();
+  resetMainHorizontalOffsets();
 }
 
 function setF(f) {
@@ -461,6 +504,7 @@ function setF(f) {
   if (!L) return;
   document.getElementById("tab-body").innerHTML = rClimate(L);
   initChart();
+  resetMainHorizontalOffsets();
 }
 
 function addLoc() {
@@ -616,7 +660,22 @@ async function init() {
     if (locListEl) {
       locListEl.addEventListener("scroll", () => {
         locRailScrollLeft = locListEl.scrollLeft;
+        updateLocRailControls();
       }, { passive: true });
+    }
+    if (!locRailControlsBound) {
+      document.getElementById("loc-rail-prev")?.addEventListener("click", () => {
+        scrollLocRailByPage(-1);
+      });
+      document.getElementById("loc-rail-next")?.addEventListener("click", () => {
+        scrollLocRailByPage(1);
+      });
+      window.addEventListener("resize", () => {
+        updateLocRailControls();
+        resetMainHorizontalOffsets();
+        S.chart?.resize();
+      });
+      locRailControlsBound = true;
     }
     rSidebar();
 
