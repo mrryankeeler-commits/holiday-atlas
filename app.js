@@ -120,8 +120,11 @@ function scrollLocRailByPage(direction) {
 
 function resetMainHorizontalOffsets() {
   const mainEl = document.getElementById("main");
-  if (mainEl) mainEl.scrollLeft = 0;
-  document.querySelectorAll("#main .tscroll, #main .chart-scroll").forEach(el => {
+  if (mainEl) {
+    mainEl.scrollLeft = 0;
+    mainEl.style.transform = "none";
+  }
+  document.querySelectorAll("#main .tscroll, #main .chart-scroll, #main .tab-nav").forEach(el => {
     el.scrollLeft = 0;
   });
 }
@@ -218,13 +221,13 @@ function rClimate(L) {
     </div>
     ${verificationNote}
 
-    <div class="tscroll">
-      <table class="dt">
+    <div class="tscroll climate-table-scroll">
+      <table class="dt dt-climate">
         <thead>
           <tr>
-            <th>Month</th><th>Avg °C</th><th>High °C</th><th>Low °C</th>
-            <th>Daylight hrs/day</th><th>Cloud cover</th><th>Rainfall mm</th>
-            <th>Busyness</th>
+            <th>Month</th><th>Avg</th><th>High</th><th>Low</th>
+            <th>Daylight</th><th>Cloud</th><th>Rain</th>
+            <th>Busy</th>
           </tr>
         </thead>
         <tbody>
@@ -234,12 +237,12 @@ function rClimate(L) {
 
             return `
               <tr class="${h}">
-                <td style="font-weight:500">${d.m}</td>
-                <td>${d.avg}°</td>
-                <td style="color:#D85A30;font-weight:500">${d.hi}°</td>
-                <td style="color:#378ADD">${d.lo}°</td>
-                <td>${d.daylight.toFixed(1)}</td>
-                <td>
+                <td data-label="Month" style="font-weight:500">${d.m}</td>
+                <td data-label="Avg">${d.avg}°</td>
+                <td data-label="High" style="color:#D85A30;font-weight:500">${d.hi}°</td>
+                <td data-label="Low" style="color:#378ADD">${d.lo}°</td>
+                <td data-label="Daylight">${d.daylight.toFixed(1)}</td>
+                <td data-label="Cloud">
                   <div style="display:flex;align-items:center;gap:6px">
                     <div style="width:44px;height:5px;border-radius:3px;background:var(--color-border-tertiary);overflow:hidden">
                       <div style="width:${d.cld}%;height:100%;background:#B4B2A9;border-radius:3px"></div>
@@ -247,8 +250,8 @@ function rClimate(L) {
                     <span>${d.cld}%</span>
                   </div>
                 </td>
-                <td>${d.rain}</td>
-                <td>
+                <td data-label="Rain">${d.rain}</td>
+                <td data-label="Busy">
                   <div style="display:flex;align-items:center;gap:6px">
                     <div style="display:flex;gap:1px">
                       ${Array.from({ length: 10 }).map((_, i) => `
@@ -287,7 +290,7 @@ function rCosts(L) {
 
             return `
               <tr>
-                <td style="font-weight:500">${d.m}</td>
+                <td data-label="Month" style="font-weight:500">${d.m}</td>
                 <td><span class="${cpc(d.ac)}">${clbls[d.ac]}</span></td>
                 <td><span class="${cpc(d.fl)}">${clbls[d.fl]}</span></td>
                 <td><span class="${cpc(ov)}">${clbls[ov]}</span></td>
@@ -392,13 +395,15 @@ function initChart() {
     S.chart = null;
   }
 
+  const isMobile = window.matchMedia("(max-width: 900px)").matches;
   const gc = "rgba(0,0,0,.06)";
   const tc = "#888780";
+  const labels = L.months.map(m => m.m);
 
   S.chart = new Chart(c, {
     type: "line",
     data: {
-      labels: L.months.map(m => m.m),
+      labels,
       datasets: [
         {
           label: "High",
@@ -407,9 +412,9 @@ function initChart() {
           backgroundColor: "rgba(216,90,48,0.08)",
           fill: true,
           tension: 0.4,
-          borderWidth: 2,
-          pointRadius: 3,
-          pointHoverRadius: 5
+          borderWidth: isMobile ? 1.8 : 2,
+          pointRadius: isMobile ? 2 : 3,
+          pointHoverRadius: isMobile ? 3 : 5
         },
         {
           label: "Avg",
@@ -417,8 +422,8 @@ function initChart() {
           borderColor: "#C9973A",
           backgroundColor: "transparent",
           tension: 0.4,
-          borderWidth: 2,
-          pointRadius: 3,
+          borderWidth: isMobile ? 1.8 : 2,
+          pointRadius: isMobile ? 2 : 3,
           borderDash: [5, 3]
         },
         {
@@ -428,9 +433,9 @@ function initChart() {
           backgroundColor: "rgba(55,138,221,0.07)",
           fill: true,
           tension: 0.4,
-          borderWidth: 2,
-          pointRadius: 3,
-          pointHoverRadius: 5
+          borderWidth: isMobile ? 1.8 : 2,
+          pointRadius: isMobile ? 2 : 3,
+          pointHoverRadius: isMobile ? 3 : 5
         }
       ]
     },
@@ -450,19 +455,26 @@ function initChart() {
       scales: {
         x: {
           grid: { color: gc },
-          ticks: { color: tc, font: { size: 11 }, autoSkip: false },
+          ticks: {
+            color: tc,
+            font: { size: isMobile ? 10 : 11 },
+            maxRotation: 0,
+            autoSkip: true,
+            maxTicksLimit: isMobile ? 6 : 12,
+            callback: (value, index) => isMobile ? labels[index].slice(0, 3) : labels[index]
+          },
           border: { color: gc }
         },
         y: {
           grid: { color: gc },
           ticks: {
             color: tc,
-            font: { size: 11 },
-            callback: v => v + "°C"
+            font: { size: isMobile ? 10 : 11 },
+            callback: v => v + "°"
           },
           border: { color: gc },
           title: {
-            display: true,
+            display: !isMobile,
             text: "Temperature (°C)",
             color: tc,
             font: { size: 11 }
