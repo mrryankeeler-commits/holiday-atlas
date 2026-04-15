@@ -15,23 +15,36 @@ const clbls = ["", "Budget", "Low", "Mid", "High", "Peak"];
 const bclr = v => v <= 2 ? "#639922" : v <= 4 ? "#97C459" : v <= 6 ? "#C9973A" : v <= 8 ? "#EF9F27" : v <= 9 ? "#D85A30" : "#A32D2D";
 const blbl = v => v <= 2 ? "Quiet" : v <= 4 ? "Low" : v <= 6 ? "Moderate" : v <= 8 ? "Busy" : v <= 9 ? "Very busy" : "Peak";
 const cpc = v => `pill p${v}`;
+const normalizeSearchText = value => String(value ?? "")
+  .normalize("NFD")
+  .replace(/\p{Diacritic}/gu, "")
+  .trim()
+  .replace(/\s+/g, " ")
+  .toLowerCase();
 
 function rSidebar() {
-  const query = (S.query || "").trim().toLowerCase();
+  const query = normalizeSearchText(S.query);
   const filtered = INDEX.filter(l => {
     if (!query) return true;
     return [l.city, l.country, l.region]
       .filter(Boolean)
-      .some(v => String(v).toLowerCase().includes(query));
+      .some(v => normalizeSearchText(v).includes(query));
   });
   const activeMissing = Boolean(S.loc) && !filtered.some(l => l.id === S.loc);
+  const emptyState = query && filtered.length === 0
+    ? `
+    <div class="loc-filter-hint" role="status">
+      No destinations match ‘${S.query}’.
+    </div>
+  `
+    : "";
 
   document.getElementById("loc-list").innerHTML = filtered.map(l => `
     <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${l.id}')">
       <span class="loc-city">${l.city}</span>
       <span class="loc-ctry">${l.country}</span>
     </button>
-  `).join("") + (activeMissing ? `
+  `).join("") + emptyState + (activeMissing ? `
     <div class="loc-filter-hint" role="status">
       Selected destination is not in current filter.
     </div>
@@ -558,10 +571,23 @@ async function init() {
 
     const searchInput = document.getElementById("loc-search");
     if (searchInput) {
-      searchInput.addEventListener("input", e => {
+      let isComposing = false;
+      const onSearchInput = e => {
+        if (isComposing) return;
+        S.query = e.target.value;
+        rSidebar();
+      };
+
+      searchInput.addEventListener("compositionstart", () => {
+        isComposing = true;
+      });
+      searchInput.addEventListener("compositionend", e => {
+        isComposing = false;
         S.query = e.target.value;
         rSidebar();
       });
+      searchInput.addEventListener("input", onSearchInput);
+      searchInput.addEventListener("search", onSearchInput);
     }
 
     S.loc = INDEX[0].id;
