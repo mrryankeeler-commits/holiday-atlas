@@ -6,6 +6,12 @@
     "region": "Central Andorra"
   },
   {
+    "id": "antigua-guatemala",
+    "city": "Antigua",
+    "country": "Guatemala",
+    "region": "Sacatepéquez, Guatemalan Highlands"
+  },
+  {
     "id": "arugam-bay",
     "city": "Arugam Bay",
     "country": "Sri Lanka",
