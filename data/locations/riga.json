@@ -102,9 +102,9 @@
       "daylight": 7.5,
       "cld": 74,
       "rain": 23,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -114,9 +114,9 @@
       "daylight": 9.6,
       "cld": 71,
       "rain": 20,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -126,7 +126,7 @@
       "daylight": 11.9,
       "cld": 64,
       "rain": 23,
-      "busy": 4,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -139,8 +139,8 @@
       "cld": 57,
       "rain": 30,
       "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -150,8 +150,8 @@
       "daylight": 16.6,
       "cld": 49,
       "rain": 43,
-      "busy": 6,
-      "ac": 3,
+      "busy": 7,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -162,8 +162,8 @@
       "daylight": 17.8,
       "cld": 47,
       "rain": 58,
-      "busy": 8,
-      "ac": 4,
+      "busy": 9,
+      "ac": 5,
       "fl": 4
     },
     {
@@ -174,7 +174,7 @@
       "daylight": 17.1,
       "cld": 44,
       "rain": 58,
-      "busy": 9,
+      "busy": 10,
       "ac": 5,
       "fl": 5
     },
@@ -186,7 +186,7 @@
       "daylight": 15.1,
       "cld": 47,
       "rain": 56,
-      "busy": 8,
+      "busy": 9,
       "ac": 4,
       "fl": 4
     },
@@ -198,8 +198,8 @@
       "daylight": 12.7,
       "cld": 53,
       "rain": 48,
-      "busy": 6,
-      "ac": 3,
+      "busy": 7,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -210,8 +210,8 @@
       "daylight": 10.3,
       "cld": 62,
       "rain": 51,
-      "busy": 4,
-      "ac": 2,
+      "busy": 5,
+      "ac": 3,
       "fl": 2
     },
     {
@@ -222,9 +222,9 @@
       "daylight": 8.1,
       "cld": 72,
       "rain": 41,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -234,9 +234,9 @@
       "daylight": 6.8,
       "cld": 74,
       "rain": 25,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
-      "fl": 4
+      "fl": 5
     }
   ]
 }

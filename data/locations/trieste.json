@@ -124,9 +124,9 @@
       "daylight": 9.2,
       "cld": 54,
       "rain": 51,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -136,9 +136,9 @@
       "daylight": 10.4,
       "cld": 51,
       "rain": 53,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -160,7 +160,7 @@
       "daylight": 13.6,
       "cld": 52,
       "rain": 64,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -172,7 +172,7 @@
       "daylight": 15.0,
       "cld": 49,
       "rain": 69,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
       "fl": 3
     },
@@ -184,8 +184,8 @@
       "daylight": 15.6,
       "cld": 39,
       "rain": 69,
-      "busy": 8,
-      "ac": 4,
+      "busy": 9,
+      "ac": 5,
       "fl": 4
     },
     {
@@ -196,9 +196,9 @@
       "daylight": 15.3,
       "cld": 27,
       "rain": 51,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Aug",
@@ -208,9 +208,9 @@
       "daylight": 14.0,
       "cld": 29,
       "rain": 61,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -220,9 +220,9 @@
       "daylight": 12.5,
       "cld": 40,
       "rain": 91,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -232,9 +232,9 @@
       "daylight": 10.9,
       "cld": 49,
       "rain": 97,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -244,7 +244,7 @@
       "daylight": 9.5,
       "cld": 56,
       "rain": 94,
-      "busy": 4,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -256,9 +256,9 @@
       "daylight": 8.8,
       "cld": 56,
       "rain": 71,
-      "busy": 3,
-      "ac": 2,
-      "fl": 3
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }
