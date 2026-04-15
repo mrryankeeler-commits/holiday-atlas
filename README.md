@@ -69,10 +69,16 @@ Monthly climate data is maintained from local CSV sources only (no external weat
   - `python scripts/import_climate_csv.py --input-dir data/climate --id athens`
 - Import one explicit file:
   - `python scripts/import_climate_csv.py --input-file data/climate/athens.csv --id athens`
+- Import a single mixed CSV containing many locations:
+  - `python scripts/import_climate_csv.py --input-file data/climate/batch.csv --location-col "Location" --month-col "Month" --avg-col "Avg Temp (°C)" --hi-col "Avg High (°C)" --lo-col "Avg Low (°C)" --daylight-col "Daylight (h/day)" --cloud-col "Cloud Cover (%)" --rain-col "Rainfall (mm)"`
+- Allow creation of new location files from the mixed CSV:
+  - `python scripts/import_climate_csv.py --input-file data/climate/batch.csv --create-missing --default-region Europe`
 
 Useful flags:
 
 - `--month-col`, `--avg-col`, `--hi-col`, `--lo-col`, `--daylight-col`, `--cloud-col`, `--rain-col`
+- `--location-col`, `--id-col`, `--city-col`, `--country-col`, `--region-col` (for combined CSV imports)
+- `--create-missing`, `--default-region`
 - `--allow-score-overrides` (only then read busy/ac/fl columns)
 
 ### Source files
@@ -85,7 +91,7 @@ Useful flags:
 Each CSV row should represent one month and include:
 
 - `month` (month number or month name)
-- `avg` (average temperature)
+- `avg` (average temperature, required)
 - `hi` (average high)
 - `lo` (average low)
 - `daylight` (daylight hours)
@@ -96,6 +102,7 @@ Each CSV row should represent one month and include:
 
 - Transformed climate metrics are written to each location's `months` array in `data/locations/<id>.json`.
 - Existing non-climate month scoring fields (`busy`, `ac`, `fl`) are preserved unless `--allow-score-overrides` is provided.
+- When `--create-missing` is used for a new location, the importer estimates initial `busy`, `ac`, and `fl` values from climate seasonality and conditions.
 - The importer does not generate `rise` or `set`.
 
 ### Month schema (documented fields)

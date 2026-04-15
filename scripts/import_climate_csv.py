@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import per-location climate CSV files into `data/locations/<id>.json` months arrays.
+"""Import climate CSV files into `data/locations/<id>.json` month arrays.
 
 This script is intentionally provider-agnostic and does not call external APIs.
 It updates climate metrics (`avg`, `hi`, `lo`, `daylight`, `cld`, `rain`) and preserves
@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -25,6 +26,25 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--input-dir", type=Path, help="Directory containing one CSV per location (for example: data/climate).")
     parser.add_argument("--input-file", type=Path, help="Single CSV file to import.")
     parser.add_argument("--id", dest="location_id", help="Location id to import. Required with --input-dir for single-location runs.")
+    parser.add_argument(
+        "--location-col",
+        default="location",
+        help="CSV column that identifies location in a combined multi-location CSV.",
+    )
+    parser.add_argument("--city-col", default="city", help="CSV city column for creating missing location files.")
+    parser.add_argument("--country-col", default="country", help="CSV country column for creating missing location files.")
+    parser.add_argument("--region-col", default="region", help="CSV region column for creating missing location files.")
+    parser.add_argument("--id-col", default="id", help="CSV id column for combined CSV mode.")
+    parser.add_argument(
+        "--create-missing",
+        action="store_true",
+        help="Create a new location file when one does not exist yet.",
+    )
+    parser.add_argument(
+        "--default-region",
+        default="Other",
+        help="Fallback region value when creating a new location file and no region column is available.",
+    )
     parser.add_argument(
         "--locations-dir",
         type=Path,
@@ -89,17 +109,125 @@ def _score_value(row: dict[str, str], col: str, fallback: int) -> int:
     return int(round(float(str(raw).strip())))
 
 
-def import_csv_to_location(csv_path: Path, location_path: Path, args: argparse.Namespace) -> None:
-    payload = json.loads(location_path.read_text(encoding="utf-8"))
-    existing_by_month = {
-        str(m.get("m")): m
-        for m in payload.get("months", [])
-        if isinstance(m, dict) and isinstance(m.get("m"), str)
+def _slugify(value: str) -> str:
+    value = re.sub(r"[^a-z0-9]+", "-", value.lower())
+    return value.strip("-")
+
+
+def _parse_location_fields(row: dict[str, str], args: argparse.Namespace) -> tuple[str, str]:
+    city = str(row.get(args.city_col, "")).strip()
+    country = str(row.get(args.country_col, "")).strip()
+    if city and country:
+        return city, country
+
+    raw = str(row.get(args.location_col, "")).strip()
+    if not raw:
+        return city, country
+    parts = [part.strip() for part in raw.split(",")]
+    if not city:
+        city = parts[0]
+    if not country and len(parts) > 1:
+        country = ", ".join(parts[1:]).strip()
+    return city, country
+
+
+def _infer_scores(month_item: dict[str, Any]) -> tuple[int, int, int]:
+    avg = float(month_item["avg"])
+    hi = float(month_item["hi"])
+    lo = float(month_item["lo"])
+    daylight = float(month_item["daylight"])
+    cld = float(month_item["cld"])
+    rain = float(month_item["rain"])
+
+    seasonality = max(0.0, hi - lo)
+    comfort = max(0.0, 10.0 - abs(avg - 22.0) / 2.0)
+    weather_penalty = (rain / 35.0) + (cld / 30.0)
+    daylight_bonus = max(0.0, (daylight - 10.0) / 1.8)
+
+    busy = round(max(1.0, min(5.0, 1.7 + comfort * 0.23 + daylight_bonus * 0.28 - weather_penalty * 0.35 + seasonality * 0.06)))
+    ac = round(max(1.0, min(5.0, 2.4 + comfort * 0.18 + (5.0 - weather_penalty) * 0.18 + seasonality * 0.08)))
+    fl = round(max(1.0, min(5.0, 2.7 + comfort * 0.12 + seasonality * 0.04 - (busy - 3.0) * 0.10)))
+    return int(busy), int(ac), int(fl)
+
+
+def _build_new_location_payload(
+    location_id: str,
+    rows: list[dict[str, str]],
+    imported_by_month: dict[str, dict[str, Any]],
+    args: argparse.Namespace,
+) -> dict[str, Any]:
+    first = rows[0] if rows else {}
+    city, country = _parse_location_fields(first, args)
+    if not city:
+        city = location_id.replace("-", " ").title()
+    if not country:
+        country = "Unknown"
+    region = str(first.get(args.region_col, "")).strip() or args.default_region
+
+    months: list[dict[str, Any]] = []
+    for m in MONTH_LABELS:
+        base = dict(imported_by_month[m])
+        busy, ac, fl = _infer_scores(base)
+        base.update({"busy": busy, "ac": ac, "fl": fl})
+        months.append(base)
+
+    return {
+        "id": location_id,
+        "city": city,
+        "country": country,
+        "region": region,
+        "desc": f"{city} travel guide.",
+        "hls": [],
+        "todo": [],
+        "prac": {
+            "directGW": "",
+            "visa": "",
+            "currency": "",
+            "alerts": [],
+            "wifi": {"r": "", "notes": ""},
+            "sim": "",
+            "safety": "",
+            "lang": "",
+            "power": "",
+        },
+        "sweet": "Apr-Jun,Sep-Oct",
+        "months": months,
     }
 
+
+def _upsert_index_entry(location_path: Path, args: argparse.Namespace) -> None:
+    payload = json.loads(location_path.read_text(encoding="utf-8"))
+    index_path = args.locations_dir / "index.json"
+    if not index_path.exists():
+        return
+
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    entry = {k: payload[k] for k in ("id", "city", "country", "region")}
+    existing_idx = next((i for i, row in enumerate(index) if row.get("id") == payload["id"]), None)
+    if existing_idx is None:
+        index.append(entry)
+    else:
+        index[existing_idx].update(entry)
+    index.sort(key=lambda row: str(row.get("id", "")))
+    index_path.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def import_csv_to_location(csv_path: Path, location_path: Path, args: argparse.Namespace) -> None:
     rows = list(csv.DictReader(csv_path.read_text(encoding="utf-8").splitlines()))
     if not rows:
         raise ValueError(f"CSV is empty: {csv_path}")
+
+    payload: dict[str, Any] = {}
+    existing_by_month: dict[str, dict[str, Any]] = {}
+    if location_path.exists():
+        payload = json.loads(location_path.read_text(encoding="utf-8"))
+        existing_by_month = {
+            str(m.get("m")): m
+            for m in payload.get("months", [])
+            if isinstance(m, dict) and isinstance(m.get("m"), str)
+        }
+    elif not args.create_missing:
+        raise FileNotFoundError(f"Missing location JSON for id '{location_path.stem}': {location_path}")
 
     imported: dict[str, dict[str, Any]] = {}
     for row in rows:
@@ -126,8 +254,53 @@ def import_csv_to_location(csv_path: Path, location_path: Path, args: argparse.N
     if missing:
         raise ValueError(f"Missing months in {csv_path}: {missing}")
 
-    payload["months"] = [imported[m] for m in MONTH_LABELS]
+    if not payload:
+        payload = _build_new_location_payload(location_path.stem, rows, imported, args)
+    else:
+        payload["months"] = [imported[m] for m in MONTH_LABELS]
     location_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _upsert_index_entry(location_path, args)
+
+
+def _location_id_from_row(row: dict[str, str], args: argparse.Namespace) -> str:
+    explicit = str(row.get(args.id_col, "")).strip()
+    if explicit:
+        return explicit
+    city, country = _parse_location_fields(row, args)
+    if city and country:
+        return _slugify(f"{city}-{country}")
+    if city:
+        return _slugify(city)
+    raw = str(row.get(args.location_col, "")).strip()
+    if raw:
+        return _slugify(raw)
+    raise ValueError("Could not infer location id; provide id column or location/city values.")
+
+
+def import_combined_csv(input_file: Path, args: argparse.Namespace) -> list[str]:
+    rows = list(csv.DictReader(input_file.read_text(encoding="utf-8").splitlines()))
+    if not rows:
+        raise ValueError(f"CSV is empty: {input_file}")
+
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        loc_id = _location_id_from_row(row, args)
+        grouped.setdefault(loc_id, []).append(row)
+
+    updated: list[str] = []
+    for loc_id, loc_rows in sorted(grouped.items()):
+        tmp_csv = input_file.with_name(f".{input_file.stem}.{loc_id}.tmp.csv")
+        try:
+            with tmp_csv.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=list(loc_rows[0].keys()))
+                writer.writeheader()
+                writer.writerows(loc_rows)
+            location_path = args.locations_dir / f"{loc_id}.json"
+            import_csv_to_location(csv_path=tmp_csv, location_path=location_path, args=args)
+            updated.append(loc_id)
+        finally:
+            tmp_csv.unlink(missing_ok=True)
+    return updated
 
 
 def resolve_targets(args: argparse.Namespace) -> list[tuple[str, Path]]:
@@ -146,6 +319,12 @@ def resolve_targets(args: argparse.Namespace) -> list[tuple[str, Path]]:
 
 def main() -> int:
     args = parse_args()
+    if args.input_file and not args.location_id:
+        updated = import_combined_csv(args.input_file, args)
+        for loc_id in updated:
+            print(f"updated {loc_id} from {args.input_file}")
+        return 0
+
     targets = resolve_targets(args)
     if not targets:
         print("No CSV files found to import.", file=sys.stderr)
@@ -153,8 +332,6 @@ def main() -> int:
 
     for loc_id, csv_path in targets:
         location_path = args.locations_dir / f"{loc_id}.json"
-        if not location_path.exists():
-            raise FileNotFoundError(f"Missing location JSON for id '{loc_id}': {location_path}")
         import_csv_to_location(csv_path=csv_path, location_path=location_path, args=args)
         print(f"updated {loc_id} from {csv_path}")
 
