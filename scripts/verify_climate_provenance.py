@@ -11,6 +11,24 @@ from pathlib import Path
 CLIMATE_KEYS = ("avg", "hi", "lo", "daylight", "cld", "rain")
 
 
+def _normalized_col_key(value: str) -> str:
+    return "".join(ch for ch in str(value).lower() if ch.isalnum())
+
+
+def _row_get(row: dict[str, str], col: str, aliases: tuple[str, ...] = ()) -> str:
+    candidates = (col, *aliases)
+    for candidate in candidates:
+        if candidate in row:
+            return str(row.get(candidate, ""))
+
+    normalized_map = {_normalized_col_key(key): key for key in row.keys()}
+    for candidate in candidates:
+        mapped = normalized_map.get(_normalized_col_key(candidate))
+        if mapped is not None:
+            return str(row.get(mapped, ""))
+    return ""
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -32,31 +50,30 @@ def load_rows_by_url(csv_files: list[Path]) -> dict[str, dict[str, dict[str, str
     for csv_file in csv_files:
         with csv_file.open(encoding="utf-8", newline="") as handle:
             for row in csv.DictReader(handle):
-                url = (row.get("Source URL") or row.get("Source") or "").strip()
+                url = _row_get(row, "Source URL", ("Source",)).strip()
                 if not url:
                     continue
-                rows_by_url.setdefault(url, {})[row["Month"]] = row
+                month = _row_get(row, "Month").strip()
+                if month:
+                    rows_by_url.setdefault(url, {})[month] = row
     return rows_by_url
 
 
 def expected_month(row: dict[str, str]) -> dict[str, int | float]:
     return {
-        "avg": round(float(row["Avg Temp (°C)"])),
-        "hi": round(float(row["Avg High (°C)"])),
-        "lo": round(float(row["Avg Low (°C)"])),
-        "daylight": round(float(row["Daylight (h/day)"]), 1),
-        "cld": round(float(row["Cloud Cover (%)"])),
-        "rain": round(float(row["Rainfall (mm)"])),
+        "avg": round(float(_row_get(row, "Avg Temp (°C)", ("Avg temp (°C)",)))),
+        "hi": round(float(_row_get(row, "Avg High (°C)", ("Avg high (°C)",)))),
+        "lo": round(float(_row_get(row, "Avg Low (°C)", ("Avg low (°C)",)))),
+        "daylight": round(float(_row_get(row, "Daylight (h/day)")), 1),
+        "cld": round(float(_row_get(row, "Cloud Cover (%)", ("Cloud cover (%)",)))),
+        "rain": round(float(_row_get(row, "Rainfall (mm)"))),
     }
 
 
 def main() -> None:
     args = parse_args()
     locations_dir = args.repo_root / "data" / "locations"
-    csv_files = [
-        args.repo_root / "data" / "climate" / "uploads" / "monthly_climate_01.csv",
-        args.repo_root / "data" / "climate" / "uploads" / "monthly_climate_02 - Climate Data.csv",
-    ]
+    csv_files = sorted((args.repo_root / "data" / "climate" / "uploads").glob("*.csv"))
 
     rows_by_url = load_rows_by_url(csv_files)
     verified = 0

@@ -12,12 +12,6 @@
     "region": "Sacatepéquez, Guatemalan Highlands"
   },
   {
-    "id": "arugam-bay",
-    "city": "Arugam Bay",
-    "country": "Sri Lanka",
-    "region": "Eastern Sri Lanka"
-  },
-  {
     "id": "astana",
     "city": "Astana",
     "country": "Kazakhstan",
@@ -216,12 +210,6 @@
     "region": "Rajasthan"
   },
   {
-    "id": "jambiani",
-    "city": "Jambiani",
-    "country": "Tanzania",
-    "region": "Zanzibar"
-  },
-  {
     "id": "kandy",
     "city": "Kandy",
     "country": "Sri Lanka",
@@ -262,6 +250,12 @@
     "city": "Ljubljana",
     "country": "Slovenia",
     "region": "Central Slovenia"
+  },
+  {
+    "id": "makunduchi",
+    "city": "Makunduchi",
+    "country": "Tanzania",
+    "region": "Zanzibar"
   },
   {
     "id": "marrakech",
@@ -328,6 +322,12 @@
     "city": "Plovdiv",
     "country": "Bulgaria",
     "region": "Upper Thracian Plain"
+  },
+  {
+    "id": "pottuvil",
+    "city": "Pottuvil",
+    "country": "Sri Lanka",
+    "region": "Eastern Sri Lanka"
   },
   {
     "id": "prague",
