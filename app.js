@@ -401,6 +401,68 @@ function isValidLocation(loc, id) {
   );
 }
 
+function sanitizeLocation(loc) {
+  const months = Array.isArray(loc.months)
+    ? loc.months.map(m => ({
+        m: m.m,
+        avg: m.avg,
+        hi: m.hi,
+        lo: m.lo,
+        daylight: m.daylight,
+        cld: m.cld,
+        rain: m.rain,
+        busy: m.busy,
+        ac: m.ac,
+        fl: m.fl
+      }))
+    : [];
+
+  const todo = Array.isArray(loc.todo)
+    ? loc.todo.map(t => ({
+        cat: t.cat,
+        name: t.name,
+        desc: t.desc
+      }))
+    : [];
+
+  const airports = Array.isArray(loc.prac?.airports)
+    ? loc.prac.airports.map(a => ({
+        name: a.name,
+        code: a.code,
+        km: a.km,
+        dgw: Boolean(a.dgw)
+      }))
+    : [];
+
+  return {
+    id: loc.id,
+    city: loc.city,
+    country: loc.country,
+    region: loc.region,
+    desc: loc.desc,
+    hls: Array.isArray(loc.hls) ? loc.hls : [],
+    sweet: loc.sweet ?? "",
+    months,
+    todo,
+    prac: {
+      directGW: Boolean(loc.prac?.directGW),
+      visa: loc.prac?.visa ?? "",
+      currency: loc.prac?.currency ?? "",
+      alerts: Array.isArray(loc.prac?.alerts) ? loc.prac.alerts : [],
+      wifi: {
+        r: Number(loc.prac?.wifi?.r) || 0,
+        spd: loc.prac?.wifi?.spd ?? "",
+        note: loc.prac?.wifi?.note ?? ""
+      },
+      fltNote: loc.prac?.fltNote ?? "",
+      airports,
+      lang: loc.prac?.lang ?? "",
+      tz: loc.prac?.tz ?? "",
+      bestFor: Array.isArray(loc.prac?.bestFor) ? loc.prac.bestFor : []
+    }
+  };
+}
+
 function rLocError(id, err) {
   document.getElementById("main").innerHTML = `
     <div style="padding:20px;font-family:system-ui,sans-serif;color:#8b2e2e;">
@@ -421,8 +483,8 @@ async function loadLocation(id) {
     throw new Error(`Invalid location payload for ${id}.`);
   }
 
-  LOC_CACHE[id] = loc;
-  return loc;
+  LOC_CACHE[id] = sanitizeLocation(loc);
+  return LOC_CACHE[id];
 }
 
 async function init() {
