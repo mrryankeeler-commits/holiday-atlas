@@ -288,6 +288,12 @@
     "region": "Bohemia"
   },
   {
+    "id": "reine-norway",
+    "city": "Reine",
+    "country": "Norway",
+    "region": "Lofoten, Nordland"
+  },
+  {
     "id": "riga",
     "city": "Riga",
     "country": "Latvia",
@@ -310,6 +316,12 @@
     "city": "Sanya",
     "country": "China",
     "region": "Hainan, South China"
+  },
+  {
+    "id": "sarajevo-bosnia-and-herzegovina",
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "region": "Sarajevo Canton"
   },
   {
     "id": "seville",
