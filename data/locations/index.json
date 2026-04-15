@@ -30,6 +30,12 @@
     "region": "Attica, Greece"
   },
   {
+    "id": "auckland-new-zealand",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "North Island"
+  },
+  {
     "id": "bergen",
     "city": "Bergen",
     "country": "Norway",
@@ -42,16 +48,34 @@
     "region": "Upper Carniola"
   },
   {
+    "id": "bolivar-venezuela",
+    "city": "Bolívar",
+    "country": "Venezuela",
+    "region": "Guayana Region"
+  },
+  {
     "id": "braga",
     "city": "Braga",
     "country": "Portugal",
     "region": "Northern Portugal"
   },
   {
+    "id": "brasov-romania",
+    "city": "Brașov",
+    "country": "Romania",
+    "region": "Transylvania"
+  },
+  {
     "id": "bratislava",
     "city": "Bratislava",
     "country": "Slovakia",
     "region": "Western Slovakia"
+  },
+  {
+    "id": "brno-czechia",
+    "city": "Brno",
+    "country": "Czechia",
+    "region": "South Moravia"
   },
   {
     "id": "budapest",
@@ -102,6 +126,12 @@
     "region": "West Bengal, India"
   },
   {
+    "id": "dubai-uae",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Dubai Emirate"
+  },
+  {
     "id": "dubrovnik",
     "city": "Dubrovnik",
     "country": "Croatia",
@@ -144,6 +174,12 @@
     "region": "Andalusia"
   },
   {
+    "id": "graz-austria",
+    "city": "Graz",
+    "country": "Austria",
+    "region": "Styria"
+  },
+  {
     "id": "guilin",
     "city": "Guilin",
     "country": "China",
@@ -162,10 +198,22 @@
     "region": "Red Sea Coast"
   },
   {
+    "id": "ilha-de-sao-miguel-azores-portugal",
+    "city": "Ilha de São Miguel",
+    "country": "Portugal",
+    "region": "Azores, North Atlantic"
+  },
+  {
     "id": "istanbul",
     "city": "Istanbul",
     "country": "Turkey",
     "region": "Straddling Europe & Asia"
+  },
+  {
+    "id": "jaipur-india",
+    "city": "Jaipur",
+    "country": "India",
+    "region": "Rajasthan"
   },
   {
     "id": "jambiani",
@@ -186,6 +234,12 @@
     "region": "Silesia, Poland"
   },
   {
+    "id": "kaunas-lithuania",
+    "city": "Kaunas",
+    "country": "Lithuania",
+    "region": "Central Lithuania"
+  },
+  {
     "id": "kotor",
     "city": "Kotor",
     "country": "Montenegro",
@@ -204,10 +258,22 @@
     "region": "Central Europe"
   },
   {
+    "id": "ljubljana-slovenia",
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "region": "Central Slovenia"
+  },
+  {
     "id": "marrakech",
     "city": "Marrakech",
     "country": "Morocco",
     "region": "Central Morocco"
+  },
+  {
+    "id": "merida-yucatan-mexico",
+    "city": "Mérida",
+    "country": "Mexico",
+    "region": "Yucatán Peninsula"
   },
   {
     "id": "meteora",
@@ -228,6 +294,12 @@
     "region": "Kerala, South India"
   },
   {
+    "id": "oia-greece",
+    "city": "Oia",
+    "country": "Greece",
+    "region": "Santorini, Cyclades"
+  },
+  {
     "id": "osaka",
     "city": "Osaka",
     "country": "Japan",
@@ -240,16 +312,40 @@
     "region": "Sicily, Southern Italy"
   },
   {
+    "id": "panama-city-panama",
+    "city": "Panama City",
+    "country": "Panama",
+    "region": "Pacific Panama"
+  },
+  {
     "id": "paphos",
     "city": "Paphos",
     "country": "Cyprus",
     "region": "Southwestern Cyprus"
   },
   {
+    "id": "plovdiv-bulgaria",
+    "city": "Plovdiv",
+    "country": "Bulgaria",
+    "region": "Upper Thracian Plain"
+  },
+  {
     "id": "prague",
     "city": "Prague",
     "country": "Czechia",
     "region": "Bohemia"
+  },
+  {
+    "id": "queenstown-new-zealand",
+    "city": "Queenstown",
+    "country": "New Zealand",
+    "region": "Otago, South Island"
+  },
+  {
+    "id": "reine-norway",
+    "city": "Reine",
+    "country": "Norway",
+    "region": "Lofoten, Nordland"
   },
   {
     "id": "riga",
@@ -276,10 +372,34 @@
     "region": "Hainan, South China"
   },
   {
+    "id": "sarajevo-bosnia-and-herzegovina",
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "region": "Sarajevo Canton"
+  },
+  {
+    "id": "seoul-south-korea",
+    "city": "Seoul",
+    "country": "South Korea",
+    "region": "Seoul Capital Area"
+  },
+  {
     "id": "seville",
     "city": "Seville",
     "country": "Spain",
     "region": "Andalusia"
+  },
+  {
+    "id": "sharjah-uae",
+    "city": "Sharjah",
+    "country": "United Arab Emirates",
+    "region": "Sharjah Emirate"
+  },
+  {
+    "id": "sydney-australia",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "New South Wales"
   },
   {
     "id": "tallinn",
@@ -348,9 +468,27 @@
     "region": "Lesser Poland"
   },
   {
+    "id": "zakynthos-greece",
+    "city": "Zakynthos",
+    "country": "Greece",
+    "region": "Ionian Islands"
+  },
+  {
     "id": "zermatt",
     "city": "Zermatt",
     "country": "Switzerland",
     "region": "Alps, Central Europe"
+  },
+  {
+    "id": "zhangjiajie-hunan-china",
+    "city": "Zhangjiajie",
+    "country": "China",
+    "region": "Hunan Province"
+  },
+  {
+    "id": "zhangye-china",
+    "city": "Zhangye",
+    "country": "China",
+    "region": "Gansu Corridor"
   }
 ]

@@ -1,0 +1,254 @@
+{
+  "id": "bolivar-venezuela",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/28386/Average-Weather-in-Ciudad-Bol%C3%ADvar-Venezuela-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bolívar",
+  "country": "Venezuela",
+  "region": "Guayana Region",
+  "desc": "Ciudad Bolívar works as an Orinoco gateway city with colonial core streets and logistics links into southeastern Venezuela, often used as a practical stop before nature-focused itineraries. The drier season (roughly December-April) is usually most comfortable for sightseeing and onward river travel.",
+  "hls": [
+    "Historic center along the Orinoco River",
+    "Gateway role for Guayana/Gran Sabana routes",
+    "Warm year-round tropical climate",
+    "Lower international tourist density",
+    "Riverfront views and local market life",
+    "Useful staging point for overland journeys"
+  ],
+  "todo": [
+    {
+      "name": "Orinoco riverfront walk",
+      "cat": "Scenic",
+      "desc": "Explore riverside viewpoints and the old-town edge near the main embankments."
+    },
+    {
+      "name": "Historic center churches",
+      "cat": "Heritage",
+      "desc": "Visit central plazas, churches, and colonial-era streets on a compact walking route."
+    },
+    {
+      "name": "Local market circuit",
+      "cat": "Culture",
+      "desc": "Use daytime market areas for regional produce and daily-life snapshots."
+    },
+    {
+      "name": "Angostura bridge views",
+      "cat": "Landmark",
+      "desc": "Stop at viewpoints linked to the citys strategic river crossing."
+    },
+    {
+      "name": "Canaima logistics planning",
+      "cat": "Practical",
+      "desc": "Use the city as a planning stop for onward flights/ground transport where available."
+    },
+    {
+      "name": "Evening plaza loop",
+      "cat": "Lifestyle",
+      "desc": "Finish with cooler evening walks around central squares and cafés."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "25–70 Mbps",
+      "note": "Variable by property; strongest reliability is typically in better business hotels and cowork-friendly cafés."
+    },
+    "directGW": false,
+    "fltNote": "No regular Gatwick-Ciudad Bolívar route; UK access typically involves multi-stop itineraries via Caracas and domestic onward travel. Fares can vary widely due to routing complexity and availability.",
+    "airports": [
+      {
+        "name": "Tomás de Heres Airport",
+        "code": "CBL",
+        "km": 4,
+        "dgw": false
+      },
+      {
+        "name": "Manuel Carlos Piar Airport (Puerto Ordaz)",
+        "code": "PZO",
+        "km": 116,
+        "dgw": false
+      },
+      {
+        "name": "Simón Bolívar International Airport (Caracas)",
+        "code": "CCS",
+        "km": 530,
+        "dgw": false
+      }
+    ],
+    "currency": "Venezuelan bolívar (VES), with USD often used in tourism transactions",
+    "lang": "Spanish",
+    "tz": "VET (UTC-4)",
+    "visa": "Entry requirements vary by nationality and can change quickly; travelers should verify official Venezuelan consular guidance before booking.",
+    "bestFor": [
+      "Regional overland travelers",
+      "River gateways",
+      "Off-mainstream itineraries",
+      "Warm-weather travel",
+      "History plus logistics stop"
+    ],
+    "alerts": [
+      "Operational conditions and payment acceptance can change rapidly; carry backup payment options.",
+      "Transport reliability may vary; keep buffers for onward connections.",
+      "Check current safety and consular advisories before travel."
+    ]
+  },
+  "sweet": "December-March is generally the most comfortable window for lower rainfall and easier overland/river logistics.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 11.7,
+      "cld": 69,
+      "rain": 18,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 28,
+      "hi": 34,
+      "lo": 23,
+      "daylight": 11.9,
+      "cld": 70,
+      "rain": 10,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 29,
+      "hi": 35,
+      "lo": 24,
+      "daylight": 12.1,
+      "cld": 74,
+      "rain": 13,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 29,
+      "hi": 35,
+      "lo": 25,
+      "daylight": 12.3,
+      "cld": 78,
+      "rain": 38,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 29,
+      "hi": 33,
+      "lo": 25,
+      "daylight": 12.5,
+      "cld": 74,
+      "rain": 89,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.6,
+      "cld": 62,
+      "rain": 145,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.5,
+      "cld": 57,
+      "rain": 160,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.4,
+      "cld": 62,
+      "rain": 140,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 33,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 65,
+      "rain": 89,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 33,
+      "lo": 24,
+      "daylight": 11.9,
+      "cld": 69,
+      "rain": 71,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 73,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 32,
+      "lo": 23,
+      "daylight": 11.7,
+      "cld": 73,
+      "rain": 33,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    }
+  ]
+}

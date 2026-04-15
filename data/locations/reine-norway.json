@@ -1,0 +1,254 @@
+{
+  "id": "reine-norway",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/76223/Average-Weather-in-Reine-Norway-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Reine",
+  "country": "Norway",
+  "region": "Lofoten, Nordland",
+  "desc": "Reine is one of the Lofoten archipelago's signature fishing-village bases, known for dramatic granite peaks, cold-water fjord scenery, and highly seasonal daylight extremes from polar night to midnight sun. Summer and shoulder aurora seasons draw the most visitor demand, while deep winter can be quiet but weather-volatile and transport-sensitive.",
+  "hls": [
+    "Iconic Lofoten fjord-and-peak scenery",
+    "Classic red rorbuer fishing-cabin stays",
+    "Major hiking and photo base in a compact village setting",
+    "Midnight sun in summer and aurora potential in darker months",
+    "Access to nearby fishing villages and beaches",
+    "Distinct Arctic seasonal atmosphere year-round"
+  ],
+  "todo": [
+    {
+      "name": "Reinebringen viewpoint hike",
+      "cat": "Hiking",
+      "desc": "Climb the famous stepped trail for one of Lofoten's most recognizable panoramas."
+    },
+    {
+      "name": "Hamnøy and Sakrisøy photo loop",
+      "cat": "Scenic drive",
+      "desc": "Cover nearby bridges and villages for classic fjord, cabin, and mountain viewpoints."
+    },
+    {
+      "name": "Å village and Norwegian Fishing Village Museum",
+      "cat": "Culture",
+      "desc": "Explore the end-of-road settlement and learn the region's cod-fishing heritage."
+    },
+    {
+      "name": "Bunes Beach excursion",
+      "cat": "Outdoor",
+      "desc": "Take boat-plus-hike access (seasonal) to one of Lofoten's most dramatic beaches."
+    },
+    {
+      "name": "Kayak or fjord RIB trip",
+      "cat": "Adventure",
+      "desc": "Get on the water for close mountain-wall views and wildlife-spotting potential."
+    },
+    {
+      "name": "Aurora and winter photography",
+      "cat": "Seasonal",
+      "desc": "In darker months, target clear nights for northern lights viewing from low-light spots."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–120 Mbps",
+      "note": "Generally dependable in rorbuer and guesthouses, though severe weather can affect resilience."
+    },
+    "directGW": false,
+    "fltNote": "No Gatwick nonstop access; UK trips typically route via Oslo and Bodø, then connect by flight/ferry/drive into Lofoten. Typical return itineraries are often £180-£320 off-peak, £320-£500 in shoulder demand, and £500+ in peak summer and holiday windows.",
+    "airports": [
+      {
+        "name": "Leknes Airport",
+        "code": "LKN",
+        "km": 55,
+        "dgw": false
+      },
+      {
+        "name": "Svolvær Airport",
+        "code": "SVJ",
+        "km": 130,
+        "dgw": false
+      },
+      {
+        "name": "Harstad/Narvik Airport (Evenes)",
+        "code": "EVE",
+        "km": 260,
+        "dgw": false
+      }
+    ],
+    "currency": "Norwegian krone (NOK)",
+    "lang": "Norwegian",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Norway is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
+    "bestFor": [
+      "Landscape photography",
+      "Hiking and outdoor adventure",
+      "Midnight-sun experiences",
+      "Aurora-season trips",
+      "Slow scenic road itineraries"
+    ],
+    "alerts": [
+      "Weather disruptions can affect flights, ferries, and road conditions, especially from October to March.",
+      "Accommodation and car-rental inventory can sell out early in June-August.",
+      "Winter daylight is very limited; activity planning depends heavily on local forecasts and road safety."
+    ]
+  },
+  "sweet": "Late May-July is best for long daylight and hiking, while September-October and February-March are usually best for balancing aurora potential with workable transport conditions.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 2,
+      "hi": 3,
+      "lo": 0,
+      "daylight": 3.3,
+      "cld": 77,
+      "rain": 69,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 3,
+      "lo": 0,
+      "daylight": 7.9,
+      "cld": 77,
+      "rain": 61,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 2,
+      "hi": 3,
+      "lo": 0,
+      "daylight": 11.9,
+      "cld": 73,
+      "rain": 53,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 3,
+      "hi": 4,
+      "lo": 2,
+      "daylight": 15.9,
+      "cld": 66,
+      "rain": 43,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 7,
+      "hi": 8,
+      "lo": 5,
+      "daylight": 21.0,
+      "cld": 57,
+      "rain": 36,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 9,
+      "hi": 11,
+      "lo": 8,
+      "daylight": 24.0,
+      "cld": 55,
+      "rain": 38,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 12,
+      "hi": 14,
+      "lo": 10,
+      "daylight": 22.5,
+      "cld": 59,
+      "rain": 51,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 12,
+      "hi": 13,
+      "lo": 11,
+      "daylight": 17.2,
+      "cld": 59,
+      "rain": 51,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 10,
+      "hi": 11,
+      "lo": 8,
+      "daylight": 13.1,
+      "cld": 64,
+      "rain": 74,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 7,
+      "hi": 8,
+      "lo": 6,
+      "daylight": 9.1,
+      "cld": 69,
+      "rain": 86,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 6,
+      "lo": 3,
+      "daylight": 4.8,
+      "cld": 73,
+      "rain": 84,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 2,
+      "hi": 4,
+      "lo": 1,
+      "daylight": 0.4,
+      "cld": 76,
+      "rain": 79,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

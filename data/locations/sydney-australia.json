@@ -1,0 +1,54 @@
+{
+  "id": "sydney-australia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [{"name": "WeatherSpark", "url": "https://weatherspark.com/y/144544/Average-Weather-in-Sydney-New-South-Wales-Australia-Year-Round"}],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {"reviewedOn": "2026-04-15", "profile": "seasonality-inference-v1"}
+  },
+  "city": "Sydney",
+  "country": "Australia",
+  "region": "New South Wales",
+  "desc": "Sydney combines iconic harbor scenery, major beaches, and a broad urban culture scene with year-round city-break viability. Southern-hemisphere summer (December-February) is peak demand, while spring and autumn often deliver the strongest balance of comfortable weather and value.",
+  "hls": ["Harbour Bridge and Opera House waterfront core", "Bondi and coastal-walk lifestyle", "Excellent dining and café depth", "Mix of beaches, neighborhoods, and green spaces", "Strong public-transport coverage", "Reliable year-round city-break appeal"],
+  "todo": [
+    {"name":"Circular Quay + Opera House","cat":"Landmark","desc":"Anchor first-day orientation around Sydney's signature harbor front."},
+    {"name":"Bondi to Coogee coastal walk","cat":"Outdoor","desc":"Do the iconic cliff-and-bay route with multiple beach stops."},
+    {"name":"Manly ferry crossing","cat":"Scenic transport","desc":"Use a harbor ferry for skyline views and a beach-town day segment."},
+    {"name":"The Rocks and museums","cat":"History","desc":"Explore colonial-era lanes and nearby cultural institutions."},
+    {"name":"Blue Mountains day trip","cat":"Day trip","desc":"Take rail or guided transfer for escarpment viewpoints and hiking."},
+    {"name":"Newtown/Surry Hills food evening","cat":"Food","desc":"Sample diverse dining corridors beyond the CBD core."}
+  ],
+  "prac": {
+    "wifi": {"r": 5, "spd": "120–300 Mbps", "note": "Strong and consistent in city hotels/apartments, with excellent mobile backup."},
+    "directGW": false,
+    "fltNote": "No nonstop Gatwick-Sydney route; UK access is typically one-stop long-haul via Middle East or Asia hubs. Typical returns are around £750-£1,050 off-peak, £1,050-£1,450 in shoulder demand, and £1,450+ in Christmas/New Year and school-holiday peaks.",
+    "airports": [
+      {"name":"Sydney Kingsford Smith Airport","code":"SYD","km":8,"dgw":false},
+      {"name":"Western Sydney International (when operational for commercial schedules)","code":"WSI","km":45,"dgw":false},
+      {"name":"Newcastle Airport","code":"NTL","km":175,"dgw":false}
+    ],
+    "currency": "Australian dollar (AUD)",
+    "lang": "English",
+    "tz": "AEST/AEDT (UTC+10/+11)",
+    "visa": "UK and US passport holders generally require an approved electronic travel authorization/visa before arrival in Australia.",
+    "bestFor": ["Urban + beach combinations", "Long-haul flagship city trips", "Food and culture itineraries", "Shoulder-season escapes", "Australia first-time visits"],
+    "alerts": ["Summer holiday periods can push accommodation prices and beach crowding sharply higher.", "Weather can shift quickly with heavy rain events at times despite mild annual averages.", "Major events can fill central hotels early."]
+  },
+  "sweet": "March-April and September-November are typically the best all-round windows for weather comfort and crowd balance.",
+  "months": [
+    {"m":"Jan","avg":23,"hi":27,"lo":20,"daylight":14.1,"cld":30,"rain":81,"busy":9,"ac":5,"fl":5},
+    {"m":"Feb","avg":23,"hi":26,"lo":20,"daylight":13.3,"cld":29,"rain":102,"busy":8,"ac":4,"fl":4},
+    {"m":"Mar","avg":22,"hi":25,"lo":18,"daylight":12.3,"cld":27,"rain":79,"busy":7,"ac":4,"fl":4},
+    {"m":"Apr","avg":19,"hi":22,"lo":15,"daylight":11.2,"cld":30,"rain":79,"busy":6,"ac":3,"fl":3},
+    {"m":"May","avg":16,"hi":20,"lo":12,"daylight":10.4,"cld":34,"rain":69,"busy":4,"ac":2,"fl":2},
+    {"m":"Jun","avg":13,"hi":17,"lo":9,"daylight":9.9,"cld":32,"rain":66,"busy":3,"ac":2,"fl":2},
+    {"m":"Jul","avg":12,"hi":17,"lo":8,"daylight":10.2,"cld":25,"rain":48,"busy":3,"ac":1,"fl":2},
+    {"m":"Aug","avg":14,"hi":18,"lo":9,"daylight":10.9,"cld":22,"rain":51,"busy":4,"ac":2,"fl":2},
+    {"m":"Sep","avg":16,"hi":21,"lo":12,"daylight":11.9,"cld":24,"rain":46,"busy":6,"ac":3,"fl":3},
+    {"m":"Oct","avg":18,"hi":23,"lo":14,"daylight":13.0,"cld":31,"rain":58,"busy":7,"ac":4,"fl":3},
+    {"m":"Nov","avg":20,"hi":24,"lo":17,"daylight":13.9,"cld":37,"rain":74,"busy":8,"ac":4,"fl":4},
+    {"m":"Dec","avg":22,"hi":26,"lo":18,"daylight":14.4,"cld":33,"rain":64,"busy":10,"ac":5,"fl":5}
+  ]
+}
