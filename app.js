@@ -23,6 +23,14 @@ function rSidebar() {
   `).join("");
 
   document.getElementById("dest-count").textContent = `${INDEX.length} destinations`;
+  scrollActiveLocIntoView();
+}
+
+function scrollActiveLocIntoView() {
+  if (!window.matchMedia("(max-width: 900px)").matches) return;
+  const activeBtn = document.querySelector("#loc-list .loc-btn.active");
+  if (!activeBtn) return;
+  activeBtn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
 }
 
 function rMain() {
