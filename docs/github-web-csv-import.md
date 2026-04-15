@@ -42,6 +42,18 @@ The workflow opens a PR automatically if changes were generated.
 - Review changed files.
 - Merge when ready.
 
+## How to tell whether anything changed
+
+After the run finishes, open the run **Summary** page:
+
+- If data changed, you will see a **✅ Climate import changed files** summary plus a PR link.
+- If nothing changed, you will see **ℹ️ Climate import produced no data changes**.
+
+In the job steps:
+
+- **Create pull request with imports** = run only when changes exist.
+- **No-op summary** = run only when no changes exist.
+
 ## Notes
 
 - Existing locations keep `busy/ac/fl` unchanged unless explicit score override columns are used with override flags.

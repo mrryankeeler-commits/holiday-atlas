@@ -86,12 +86,17 @@ jobs:
           set -euo pipefail
           if [ -n "$(git status --porcelain)" ]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "changed_files<<EOF" >> "$GITHUB_OUTPUT"
+            git diff --name-only >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
             git status --short
+            git diff --name-only
           else
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Create pull request with imports
+        id: create_pr
         if: steps.detect_changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
@@ -104,6 +109,28 @@ jobs:
             - Source CSV: `${{ inputs.csv_path }}`
             - Mode: `${{ inputs.mode }}`
             - Uses alias map when present at `data/climate/aliases.json`
+
+      - name: Write run summary
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${{ steps.detect_changes.outputs.has_changes }}" = "true" ]; then
+            echo "### ✅ Climate import changed files" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "A pull request was created: ${{ steps.create_pr.outputs.pull-request-url }}" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Changed files:" >> "$GITHUB_STEP_SUMMARY"
+            while IFS= read -r line; do
+              [ -n "$line" ] && echo "- \`$line\`" >> "$GITHUB_STEP_SUMMARY"
+            done << 'EOF'
+${{ steps.detect_changes.outputs.changed_files }}
+EOF
+          else
+            echo "### ℹ️ Climate import produced no data changes" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "No files were modified by this run." >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: No-op summary
         if: steps.detect_changes.outputs.has_changes != 'true'
