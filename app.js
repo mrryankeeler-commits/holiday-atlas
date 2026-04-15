@@ -35,6 +35,7 @@ function rMain() {
       <div class="loc-meta">${L.country} &middot; ${L.region}</div>
       <div class="tags">
         ${L.prac.directGW ? '<span class="tag g">✓ Direct from Gatwick</span>' : '<span class="tag w">✗ No direct Gatwick flight</span>'}
+        ${L.source?.climateVerified ? '<span class="tag g">✓ Climate verified</span>' : ""}
         <span class="tag">${L.prac.visa}</span>
         <span class="tag">${L.prac.currency}</span>
       </div>
@@ -77,6 +78,13 @@ function rClimate(L) {
   ];
 
   const af = filters.find(f => f.id === S.filter);
+  const climateSources = Array.isArray(L.source?.climate) ? L.source.climate : [];
+  const sourceNames = climateSources.map(s => s.name).filter(Boolean);
+  const verifiedLabel = sourceNames.length ? sourceNames.join(", ") : "source";
+  const verifiedOn = L.source?.climateVerifiedOn ? ` (${L.source.climateVerifiedOn})` : "";
+  const verificationNote = L.source?.climateVerified
+    ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">✓ Climate data verified via ${verifiedLabel}${verifiedOn}</div>`
+    : "";
 
   return `
     <div class="legend">
@@ -96,6 +104,7 @@ function rClimate(L) {
       ${filters.map(f => `<button class="fb ${S.filter === f.id ? "act" : ""}" onclick="setF('${f.id}')">${f.lbl}</button>`).join("")}
       ${S.filter ? `<button class="fb act" onclick="setF(null)">✕ Clear</button>` : ""}
     </div>
+    ${verificationNote}
 
     <div class="tscroll">
       <table class="dt">
@@ -442,6 +451,16 @@ function sanitizeLocation(loc) {
     desc: loc.desc,
     hls: Array.isArray(loc.hls) ? loc.hls : [],
     sweet: loc.sweet ?? "",
+    source: {
+      climateVerified: Boolean(loc.source?.climateVerified),
+      climateVerifiedOn: loc.source?.climateVerifiedOn ?? "",
+      climate: Array.isArray(loc.source?.climate)
+        ? loc.source.climate.map(s => ({
+            name: s?.name ?? "",
+            url: s?.url ?? ""
+          }))
+        : []
+    },
     months,
     todo,
     prac: {
