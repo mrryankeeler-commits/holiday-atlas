@@ -1,5 +1,12 @@
 {
   "id": "arugam-bay",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": "",
+    "climateVerificationNote": "No exact climate source mapping has been confirmed yet for this location.",
+    "climate": [],
+    "importedFromCsv": ""
+  },
   "city": "Arugam Bay",
   "country": "Sri Lanka",
   "region": "Eastern Sri Lanka",

@@ -1,5 +1,16 @@
 {
   "id": "rome",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/71779/Average-Weather-in-Rome-Italy-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Rome",
   "country": "Italy",
   "region": "Lazio, Central Italy",

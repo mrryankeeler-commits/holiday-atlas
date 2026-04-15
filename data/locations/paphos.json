@@ -1,5 +1,16 @@
 {
   "id": "paphos",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/97275/Average-Weather-in-Paphos-Cyprus-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv"
+  },
   "city": "Paphos",
   "country": "Cyprus",
   "region": "Southwestern Cyprus",
