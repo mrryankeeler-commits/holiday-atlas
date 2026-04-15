@@ -180,6 +180,12 @@
     "region": "Silesia, Poland"
   },
   {
+    "id": "kotor",
+    "city": "Kotor",
+    "country": "Montenegro",
+    "region": "Western Balkans"
+  },
+  {
     "id": "krakow",
     "city": "Krakow",
     "country": "Poland",
@@ -334,5 +340,11 @@
     "city": "Zakopane",
     "country": "Poland",
     "region": "Lesser Poland"
+  },
+  {
+    "id": "zermatt",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "region": "Alps, Central Europe"
   }
 ]
