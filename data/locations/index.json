@@ -48,10 +48,22 @@
     "region": "Northern Portugal"
   },
   {
+    "id": "brasov-romania",
+    "city": "Brașov",
+    "country": "Romania",
+    "region": "Transylvania"
+  },
+  {
     "id": "bratislava",
     "city": "Bratislava",
     "country": "Slovakia",
     "region": "Western Slovakia"
+  },
+  {
+    "id": "brno-czechia",
+    "city": "Brno",
+    "country": "Czechia",
+    "region": "South Moravia"
   },
   {
     "id": "budapest",

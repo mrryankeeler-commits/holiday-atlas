@@ -1,0 +1,254 @@
+{
+  "id": "brasov-romania",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-15",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/92386/Average-Weather-in-Bra%C5%9Fov-Romania-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Brașov",
+  "country": "Romania",
+  "region": "Transylvania",
+  "desc": "Brașov is a compact Transylvanian city framed by Carpathian foothills, with a handsome medieval core, cable-car viewpoints, and quick access to castles and mountain towns. Demand is strongest in midsummer weekends and the December ski-and-festive window, while late spring and early autumn are usually the best balance of weather, value, and lighter crowds.",
+  "hls": [
+    "Colorful medieval old town around Council Square",
+    "Tâmpa Mountain viewpoint above the city",
+    "Strong base for Bran, Peleș, and mountain day trips",
+    "Excellent shoulder-season value versus Western Europe",
+    "Good mix of heritage streets and outdoor access",
+    "Winter access to nearby ski areas"
+  ],
+  "todo": [
+    {
+      "name": "Council Square and Black Church",
+      "cat": "Heritage",
+      "desc": "Start in Piața Sfatului, then visit the Gothic Black Church and surrounding old-town lanes."
+    },
+    {
+      "name": "Tâmpa cable car + viewpoint",
+      "cat": "Scenic",
+      "desc": "Ride or hike up Tâmpa for panoramic views over Brașov and the surrounding Carpathians."
+    },
+    {
+      "name": "Rope Street and Șchei district",
+      "cat": "City walk",
+      "desc": "Explore one of Europe's narrowest streets and the historic Romanian quarter beyond the walls."
+    },
+    {
+      "name": "Bran Castle day trip",
+      "cat": "Day trip",
+      "desc": "Visit the region's best-known castle and pair it with nearby mountain villages."
+    },
+    {
+      "name": "Peleș Castle from Sinaia",
+      "cat": "Day trip",
+      "desc": "See one of Romania's most ornate royal palaces in the Prahova Valley."
+    },
+    {
+      "name": "Poiana Brașov mountain day",
+      "cat": "Outdoor",
+      "desc": "Use nearby resort lifts and trails for hiking in summer or skiing in winter."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "60–160 Mbps",
+      "note": "Generally reliable across central hotels and apartments, with strong 4G/5G backup in town."
+    },
+    "directGW": false,
+    "fltNote": "No consistent nonstop Gatwick-Brașov service; most UK trips route via Bucharest or one-stop European hubs. Typical returns are around £70-£150 in low season, £150-£240 in shoulder demand, and £240+ around summer peaks and Christmas/New Year windows.",
+    "airports": [
+      {
+        "name": "Brașov-Ghimbav International Airport",
+        "code": "GHV",
+        "km": 11,
+        "dgw": false
+      },
+      {
+        "name": "Henri Coandă International Airport (Bucharest)",
+        "code": "OTP",
+        "km": 160,
+        "dgw": true
+      },
+      {
+        "name": "Sibiu International Airport",
+        "code": "SBZ",
+        "km": 145,
+        "dgw": false
+      }
+    ],
+    "currency": "Romanian leu (RON)",
+    "lang": "Romanian",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Romania is in Schengen; UK and US passport holders can generally visit visa-free for up to 90 days in any 180-day period.",
+    "bestFor": [
+      "Historic city breaks",
+      "Carpathian hiking",
+      "Castle-focused itineraries",
+      "Winter snow trips",
+      "Value-focused Central/Eastern Europe travel"
+    ],
+    "alerts": [
+      "December holidays and ski weekends raise accommodation prices quickly in the Brașov-Poiana zone.",
+      "Some mountain roads and hiking routes are weather-sensitive in late autumn and winter.",
+      "Weekend rail and bus services to popular day-trip sites can fill up in summer."
+    ]
+  },
+  "sweet": "May-June and September are usually the strongest all-round months; early December is atmospheric but pricier due to festive and ski demand.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -3,
+      "hi": 0,
+      "lo": -7,
+      "daylight": 9.2,
+      "cld": 58,
+      "rain": 8,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -2,
+      "hi": 2,
+      "lo": -6,
+      "daylight": 10.4,
+      "cld": 59,
+      "rain": 8,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 3,
+      "hi": 7,
+      "lo": -2,
+      "daylight": 12.0,
+      "cld": 56,
+      "rain": 15,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 13,
+      "lo": 3,
+      "daylight": 13.6,
+      "cld": 55,
+      "rain": 33,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "daylight": 15.0,
+      "cld": 50,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 17,
+      "hi": 22,
+      "lo": 11,
+      "daylight": 15.6,
+      "cld": 39,
+      "rain": 71,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "daylight": 15.3,
+      "cld": 24,
+      "rain": 66,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 14.0,
+      "cld": 25,
+      "rain": 51,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 12.5,
+      "cld": 40,
+      "rain": 41,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 13,
+      "lo": 4,
+      "daylight": 10.9,
+      "cld": 49,
+      "rain": 33,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 3,
+      "hi": 7,
+      "lo": -1,
+      "daylight": 9.5,
+      "cld": 56,
+      "rain": 18,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": 2,
+      "lo": -4,
+      "daylight": 8.8,
+      "cld": 58,
+      "rain": 13,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}
