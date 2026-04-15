@@ -5,7 +5,8 @@ let S = {
   loc: null,
   tab: "climate",
   filter: null,
-  chart: null
+  chart: null,
+  query: ""
 };
 
 const gl = () => LOC_CACHE[S.loc] || null;
@@ -15,14 +16,29 @@ const blbl = v => v <= 2 ? "Quiet" : v <= 4 ? "Low" : v <= 6 ? "Moderate" : v <=
 const cpc = v => `pill p${v}`;
 
 function rSidebar() {
-  document.getElementById("loc-list").innerHTML = INDEX.map(l => `
+  const query = (S.query || "").trim().toLowerCase();
+  const filtered = INDEX.filter(l => {
+    if (!query) return true;
+    return [l.city, l.country, l.region]
+      .filter(Boolean)
+      .some(v => String(v).toLowerCase().includes(query));
+  });
+  const activeMissing = Boolean(S.loc) && !filtered.some(l => l.id === S.loc);
+
+  document.getElementById("loc-list").innerHTML = filtered.map(l => `
     <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${l.id}')">
       <span class="loc-city">${l.city}</span>
       <span class="loc-ctry">${l.country}</span>
     </button>
-  `).join("");
+  `).join("") + (activeMissing ? `
+    <div class="loc-filter-hint" role="status">
+      Selected destination is not in current filter.
+    </div>
+  ` : "");
 
-  document.getElementById("dest-count").textContent = `${INDEX.length} destinations`;
+  document.getElementById("dest-count").textContent = query
+    ? `${filtered.length} of ${INDEX.length} destinations`
+    : `${INDEX.length} destinations`;
   scrollActiveLocIntoView();
 }
 
@@ -530,6 +546,14 @@ async function init() {
 
     if (!Array.isArray(INDEX) || INDEX.length === 0) {
       throw new Error("Location index data is empty or invalid.");
+    }
+
+    const searchInput = document.getElementById("loc-search");
+    if (searchInput) {
+      searchInput.addEventListener("input", e => {
+        S.query = e.target.value;
+        rSidebar();
+      });
     }
 
     S.loc = INDEX[0].id;
