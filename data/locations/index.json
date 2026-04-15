@@ -198,6 +198,12 @@
     "region": "Silesia, Poland"
   },
   {
+    "id": "kaunas-lithuania",
+    "city": "Kaunas",
+    "country": "Lithuania",
+    "region": "Central Lithuania"
+  },
+  {
     "id": "kotor",
     "city": "Kotor",
     "country": "Montenegro",
@@ -256,6 +262,12 @@
     "city": "Paphos",
     "country": "Cyprus",
     "region": "Southwestern Cyprus"
+  },
+  {
+    "id": "plovdiv-bulgaria",
+    "city": "Plovdiv",
+    "country": "Bulgaria",
+    "region": "Upper Thracian Plain"
   },
   {
     "id": "prague",
