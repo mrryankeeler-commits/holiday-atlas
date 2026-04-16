@@ -944,8 +944,22 @@ function initChart() {
   const gc = "rgba(0,0,0,.06)";
   const tc = "#888780";
   const labels = L.months.map(m => m.m);
+  const ChartCtor = window.Chart;
 
-  S.chart = new Chart(c, {
+  if (typeof ChartCtor !== "function") {
+    const chartWrap = c.closest(".chart-inner");
+    if (chartWrap) {
+      chartWrap.insertAdjacentHTML(
+        "beforeend",
+        `<p style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">
+          Climate chart unavailable right now. Monthly climate table is still available below.
+        </p>`
+      );
+    }
+    return;
+  }
+
+  S.chart = new ChartCtor(c, {
     type: "line",
     data: {
       labels,
