@@ -76,7 +76,7 @@
       "note": "Core hotel connectivity is usable, but many Western platforms/services are blocked by the Great Firewall. Set up and test any required business access tools before arrival."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick route; common UK routings connect via Doha, Dubai, Hong Kong, or major mainland hubs. Return fares are often ~£420–£650 off-peak, ~£650–£900 in shoulder demand, and ~£900+ around Chinese New Year, Golden Week, and summer peaks.",
+    "fltNote": "No direct London departures; common UK routings connect via Doha, Dubai, Hong Kong, or major mainland hubs. Return fares are often ~£420–£650 off-peak, ~£650–£900 in shoulder demand, and ~£900+ around Chinese New Year, Golden Week, and summer peaks.",
     "airports": [
       {
         "name": "Chengdu Tianfu International",

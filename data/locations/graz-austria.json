@@ -66,7 +66,7 @@
       "note": "Very reliable across central hotels, apartments, and coworking options, with strong mobile-data backup."
     },
     "directGW": false,
-    "fltNote": "No regular nonstop Gatwick-Graz route; most UK itineraries connect via Vienna, Frankfurt, or other hubs. Typical return fares are around £90-£180 in low season, £180-£280 in shoulder demand, and £280+ during summer and December holiday peaks.",
+    "fltNote": "No direct London departures; most UK itineraries connect via Vienna, Frankfurt, or other hubs. Typical return fares are around £90-£180 in low season, £180-£280 in shoulder demand, and £280+ during summer and December holiday peaks.",
     "airports": [
       {
         "name": "Graz Airport",

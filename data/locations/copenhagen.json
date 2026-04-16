@@ -66,7 +66,7 @@
       "note": "Very reliable in hotels, cafés, coworking spaces, and major transport hubs; excellent for remote work."
     },
     "directGW": true,
-    "fltNote": "Gatwick-Copenhagen is commonly nonstop year-round on multiple carriers. Return fares are often ~£45-£120 off-peak, ~£120-£220 in shoulder demand, and ~£220+ during summer peaks and major December market weeks.",
+    "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection. Return fares are often ~£45-£120 off-peak, ~£120-£220 in shoulder demand, and ~£220+ during summer peaks and major December market weeks.",
     "airports": [
       {
         "name": "Copenhagen Airport, Kastrup",

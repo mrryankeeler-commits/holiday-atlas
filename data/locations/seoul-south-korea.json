@@ -30,7 +30,7 @@
   "prac": {
     "wifi": {"r": 5, "spd": "180–420 Mbps", "note": "Excellent citywide fixed and mobile connectivity; one of the easiest cities for reliable remote work."},
     "directGW": false,
-    "fltNote": "No regular nonstop Gatwick-Seoul route; most UK access is nonstop from Heathrow or one-stop via major hubs. Typical returns are around £450-£700 off-peak, £700-£1,000 in shoulder demand, and £1,000+ around key holidays and summer peaks.",
+    "fltNote": "No direct London departures; most UK access is nonstop from Heathrow or one-stop via major hubs. Typical returns are around £450-£700 off-peak, £700-£1,000 in shoulder demand, and £1,000+ around key holidays and summer peaks.",
     "airports": [
       {"name": "Incheon International Airport", "code": "ICN", "km": 52, "dgw": false},
       {"name": "Gimpo International Airport", "code": "GMP", "km": 16, "dgw": false},

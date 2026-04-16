@@ -66,7 +66,7 @@
       "note": "Resort Wi-Fi is generally stable, but large hotels can slow during evening peaks; remote-work users should verify room-level speeds."
     },
     "directGW": false,
-    "fltNote": "No direct Gatwick service; most routings connect via mainland China or regional Asian hubs. Return fares are often ~£480–£760 off-peak, ~£760–£1,050 in shoulder demand, and ~£1,050+ around winter-holiday peaks.",
+    "fltNote": "No direct London departures; most routings connect via mainland China or regional Asian hubs. Return fares are often ~£480–£760 off-peak, ~£760–£1,050 in shoulder demand, and ~£1,050+ around winter-holiday peaks.",
     "airports": [
       {
         "name": "Sanya Phoenix International Airport",

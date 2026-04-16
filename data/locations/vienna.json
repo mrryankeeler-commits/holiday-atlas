@@ -66,7 +66,7 @@
       "note": "Excellent citywide connectivity across hotels, cafés, coworking spaces, and major transit hubs."
     },
     "directGW": true,
-    "fltNote": "Gatwick–Vienna is usually available nonstop year-round on multiple carriers. Return fares are often ~£55–£140 off-peak, ~£140–£230 in shoulder demand, and ~£230+ around Advent, Easter, and school-holiday peaks.",
+    "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection. Return fares are often ~£55–£140 off-peak, ~£140–£230 in shoulder demand, and ~£230+ around Advent, Easter, and school-holiday peaks.",
     "airports": [
       {
         "name": "Vienna International Airport",

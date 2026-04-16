@@ -86,7 +86,7 @@
       "note": "Reliable across central neighborhoods, hotels, and coworking cafés, with solid mobile-data backup for regional day trips."
     },
     "directGW": false,
-    "fltNote": "No regular Gatwick-Tbilisi nonstop route; UK itineraries often connect via Istanbul, Warsaw, Riga, or Vienna (with occasional nonstop options from other London airports). Return fares are often ~£120-£260 off-peak, ~£260-£420 in shoulder demand, and ~£420+ around summer and holiday peaks.",
+    "fltNote": "No direct London departures; UK itineraries often connect via Istanbul, Warsaw, Riga, or Vienna (with occasional nonstop options from other London airports). Return fares are often ~£120-£260 off-peak, ~£260-£420 in shoulder demand, and ~£420+ around summer and holiday peaks.",
     "airports": [
       {
         "name": "Tbilisi International Airport",

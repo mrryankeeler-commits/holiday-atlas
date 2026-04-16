@@ -23,7 +23,7 @@
   "prac": {
     "wifi": {"r": 5, "spd": "120–300 Mbps", "note": "Strong and consistent in city hotels/apartments, with excellent mobile backup."},
     "directGW": false,
-    "fltNote": "No nonstop Gatwick-Sydney route; UK access is typically one-stop long-haul via Middle East or Asia hubs. Typical returns are around £750-£1,050 off-peak, £1,050-£1,450 in shoulder demand, and £1,450+ in Christmas/New Year and school-holiday peaks.",
+    "fltNote": "No direct London departures; UK access is typically one-stop long-haul via Middle East or Asia hubs. Typical returns are around £750-£1,050 off-peak, £1,050-£1,450 in shoulder demand, and £1,450+ in Christmas/New Year and school-holiday peaks.",
     "airports": [
       {"name":"Sydney Kingsford Smith Airport","code":"SYD","km":8,"dgw":false},
       {"name":"Western Sydney International (when operational for commercial schedules)","code":"WSI","km":45,"dgw":false},

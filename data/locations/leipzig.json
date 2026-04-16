@@ -76,7 +76,7 @@
       "note": "Reliable hotel and cafe WiFi in the centre; excellent 4G/5G coverage and several coworking options in Mitte and Plagwitz."
     },
     "directGW": false,
-    "fltNote": "No consistent Gatwick-Leipzig nonstop schedule; most UK itineraries connect via Frankfurt, Munich, or Berlin (then rail). Return fares are often ~£90-£180 off-peak, ~£180-£280 in shoulder demand, and ~£280+ around major fairs and festive peaks.",
+    "fltNote": "No direct London departures; most UK itineraries connect via Frankfurt, Munich, or Berlin (then rail). Return fares are often ~£90-£180 off-peak, ~£180-£280 in shoulder demand, and ~£280+ around major fairs and festive peaks.",
     "airports": [
       {
         "name": "Leipzig/Halle Airport",
