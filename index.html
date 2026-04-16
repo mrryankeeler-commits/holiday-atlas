@@ -22,8 +22,8 @@
       <div class="app-title">✈ Holiday atlas</div>
       <div class="app-hdr-right">
         <div class="app-hdr-actions" aria-label="App navigation">
-          <button id="home-btn" class="hdr-btn" type="button" onclick="goHome()">Home</button>
-          <button id="explore-btn" class="hdr-btn" type="button" onclick="goExplorer()">Explore</button>
+          <button id="home-btn" class="hdr-btn" type="button">Home</button>
+          <button id="explore-btn" class="hdr-btn" type="button">Explore</button>
         </div>
         <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
       </div>
@@ -48,7 +48,7 @@
         </div>
         <div id="loc-list" aria-label="Destination list"></div>
         <div class="sidebar-actions">
-          <button class="add-btn-sb" onclick="addLoc()">+ Add destination ↗</button>
+          <button class="add-btn-sb">+ Add destination ↗</button>
         </div>
       </nav>
 
@@ -73,6 +73,6 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""
   ></script>
-  <script src="./app.js"></script>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>
