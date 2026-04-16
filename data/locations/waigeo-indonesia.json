@@ -25,9 +25,21 @@
     "Excellent birding, including birds-of-paradise habitats"
   ],
   "todo": [
-    "Snorkel or dive in protected reef sites",
-    "Take an island-hopping longboat day trip",
-    "Join an early birdwatching excursion inland"
+    {
+      "cat": "Snorkeling & diving",
+      "name": "Reef sessions in Raja Ampat",
+      "desc": "Join guided snorkel or dive trips to coral-rich sites with strong marine biodiversity."
+    },
+    {
+      "cat": "Island-hopping",
+      "name": "Karst viewpoint boat day",
+      "desc": "Take a longboat route to limestone viewpoints and lagoons around nearby islets."
+    },
+    {
+      "cat": "Wildlife",
+      "name": "Bird-of-paradise excursion",
+      "desc": "Start pre-dawn with a local guide for inland birdwatching on Waigeo."
+    }
   ],
   "prac": {
     "directGW": false,
@@ -43,10 +55,34 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Indonesian (Bahasa Indonesia) plus local Papuan languages",
     "power": "Type C/F, 230V",
-    "fltNote": "No direct UK flights; most routes connect via Jakarta, Bali, or regional Southeast Asian hubs before Sorong/Raja Ampat transfers.",
-    "airports": [],
+    "fltNote": "No direct London Gatwick flights; practical routing is UK to Jakarta/Manado/Makassar, onward to Sorong (SOQ), then ferry or speedboat to Waigeo.",
+    "airports": [
+      {
+        "name": "Domine Eduard Osok Airport (Sorong)",
+        "code": "SOQ",
+        "km": 70,
+        "dgw": false
+      },
+      {
+        "name": "Rendani Airport (Manokwari)",
+        "code": "MKW",
+        "km": 230,
+        "dgw": false
+      },
+      {
+        "name": "Pattimura Airport (Ambon)",
+        "code": "AMQ",
+        "km": 430,
+        "dgw": false
+      }
+    ],
     "tz": "",
-    "bestFor": []
+    "bestFor": [
+      "Divers",
+      "Snorkelers",
+      "Marine wildlife",
+      "Remote island adventure"
+    ]
   },
   "sweet": "Oct-Apr",
   "months": [
