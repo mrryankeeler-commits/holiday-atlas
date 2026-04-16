@@ -18,6 +18,13 @@ const FEATURE_FLAGS = {
 const DEFAULT_MAP_CENTER = [20, 0];
 const DEFAULT_MAP_ZOOM = 2;
 const LOCATION_FOCUS_MIN_ZOOM = 5;
+const MARKER_REGION_VARIANTS = [
+  "variant-region-1",
+  "variant-region-2",
+  "variant-region-3",
+  "variant-region-4",
+  "variant-region-5"
+];
 
 let S = {
   view: "welcome",
@@ -45,13 +52,37 @@ const normalizeSearchText = value => String(value ?? "")
   .replace(/\s+/g, " ")
   .toLowerCase();
 
-function mapIcon(isActive) {
+const markerVariantCache = new Map();
+
+function mapIcon({ isActive = false, variant = "variant-default" } = {}) {
   return L.divIcon({
     className: "",
-    html: `<span class="dest-marker ${isActive ? "active" : ""}" aria-hidden="true"></span>`,
+    html: `<span class="dest-marker ${variant} ${isActive ? "active" : ""}" aria-hidden="true"></span>`,
     iconSize: [18, 18],
     iconAnchor: [9, 9]
   });
+}
+
+function getMarkerVariantForLocation(loc) {
+  const id = loc?.id;
+  if (!id) return "variant-default";
+  if (markerVariantCache.has(id)) return markerVariantCache.get(id);
+
+  const normalizedRegion = normalizeSearchText(loc?.region);
+  let hash = 0;
+  for (let i = 0; i < normalizedRegion.length; i += 1) {
+    hash = (hash * 31 + normalizedRegion.charCodeAt(i)) % 2147483647;
+  }
+  const variant = MARKER_REGION_VARIANTS[hash % MARKER_REGION_VARIANTS.length];
+  markerVariantCache.set(id, variant);
+  return variant;
+}
+
+function getMarkerVariantById(id) {
+  if (!id) return "variant-default";
+  if (markerVariantCache.has(id)) return markerVariantCache.get(id);
+  const loc = INDEX.find(item => item.id === id);
+  return getMarkerVariantForLocation(loc);
 }
 
 function showMapFallback(message) {
@@ -149,8 +180,9 @@ function initMap() {
     const points = INDEX.filter(isValidCoordinatePair);
 
     points.forEach(loc => {
+      const markerVariant = getMarkerVariantForLocation(loc);
       const marker = L.marker([loc.lat, loc.lng], {
-        icon: mapIcon(loc.id === S.loc),
+        icon: mapIcon({ isActive: loc.id === S.loc, variant: markerVariant }),
         keyboard: true,
         title: `${loc.city}, ${loc.country}`
       }).addTo(map);
@@ -183,10 +215,16 @@ function initMap() {
 function highlightMapMarker(id) {
   if (!mapReady) return;
   if (highlightedMarkerId && mapMarkers.has(highlightedMarkerId)) {
-    mapMarkers.get(highlightedMarkerId).setIcon(mapIcon(false));
+    mapMarkers.get(highlightedMarkerId).setIcon(mapIcon({
+      isActive: false,
+      variant: getMarkerVariantById(highlightedMarkerId)
+    }));
   }
   if (id && visibleMapMarkerIds.has(id) && mapMarkers.has(id)) {
-    mapMarkers.get(id).setIcon(mapIcon(true));
+    mapMarkers.get(id).setIcon(mapIcon({
+      isActive: true,
+      variant: getMarkerVariantById(id)
+    }));
     highlightedMarkerId = id;
     return;
   }
