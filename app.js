@@ -100,6 +100,11 @@ const clbls = ["", "Budget", "Low", "Mid", "High", "Peak"];
 const bclr = v => v <= 2 ? "#639922" : v <= 4 ? "#97C459" : v <= 6 ? "#C9973A" : v <= 8 ? "#EF9F27" : v <= 9 ? "#D85A30" : "#A32D2D";
 const blbl = v => v <= 2 ? "Quiet" : v <= 4 ? "Low" : v <= 6 ? "Moderate" : v <= 8 ? "Busy" : v <= 9 ? "Very busy" : "Peak";
 const cpc = v => `pill p${v}`;
+const DEPARTURE_AIRPORTS = [
+  { code: "LGW", label: "Gatwick" },
+  { code: "LCY", label: "London City" }
+];
+const DEPARTURE_AIRPORT_CODES = DEPARTURE_AIRPORTS.map(a => a.code);
 const normalizeSearchText = value => String(value ?? "")
   .normalize("NFD")
   .replace(/\p{Diacritic}/gu, "")
@@ -172,6 +177,25 @@ function formatMarkerAccessibleLabel(loc) {
 
 function formatMarkerTooltipLabel(loc) {
   return String(loc?.city || "").trim();
+}
+
+function normalizeDirectFrom(rawMap, legacyLGWValue = false) {
+  const normalized = {};
+  const source = rawMap && typeof rawMap === "object" ? rawMap : {};
+
+  DEPARTURE_AIRPORT_CODES.forEach(code => {
+    normalized[code] = Boolean(source[code]);
+  });
+
+  if (legacyLGWValue) {
+    normalized.LGW = true;
+  }
+
+  return normalized;
+}
+
+function getDirectAirportCodes(directFromMap) {
+  return DEPARTURE_AIRPORT_CODES.filter(code => Boolean(directFromMap?.[code]));
 }
 
 function showMapFallback(message) {
@@ -631,7 +655,13 @@ function rMain() {
       <div class="loc-name">${L.city}</div>
       <div class="loc-meta">${L.country} &middot; ${L.region}</div>
       <div class="tags">
-        ${L.prac.directGW ? '<span class="tag g">✓ Direct from Gatwick</span>' : '<span class="tag w">✗ No direct Gatwick flight</span>'}
+        ${(() => {
+          const directCodes = getDirectAirportCodes(L.prac.directFrom);
+          if (directCodes.length) {
+            return directCodes.map(code => `<span class="tag g">✓ Direct ${code}</span>`).join("");
+          }
+          return '<span class="tag w">✗ No direct flights from configured London airports</span>';
+        })()}
         ${L.source?.climateVerified
           ? '<span class="tag g">✓ Climate verified</span>'
           : (L.source?.climate?.length || L.source?.climateVerificationNote)
@@ -824,6 +854,8 @@ function rTodo(L) {
 
 function rPrac(L) {
   const p = L.prac;
+  const routeDirectCodes = getDirectAirportCodes(p.directFrom);
+  const routeDirectLabel = DEPARTURE_AIRPORTS.map(a => a.label).join(" / ");
 
   return `
     ${p.alerts.map(a => `<div class="alert-box">⚠ ${a}</div>`).join("")}
@@ -840,9 +872,11 @@ function rPrac(L) {
       </div>
 
       <div class="pc">
-        <div class="pt">Flights from Gatwick</div>
-        <div class="pv" style="color:${p.directGW ? "var(--color-text-success)" : "var(--color-text-warning)"}">
-          ${p.directGW ? "✓ Direct flights available" : "✗ No direct flights"}
+        <div class="pt">Flights from ${routeDirectLabel}</div>
+        <div class="pv" style="color:${routeDirectCodes.length ? "var(--color-text-success)" : "var(--color-text-warning)"}">
+          ${routeDirectCodes.length
+            ? routeDirectCodes.map(code => `<span class="dbadge">Direct ${code}</span>`).join(" ")
+            : "✗ No direct flights from configured London airports"}
         </div>
         <div class="pn" style="margin-top:5px">${p.fltNote}</div>
       </div>
@@ -855,7 +889,10 @@ function rPrac(L) {
               <span style="font-weight:500">${a.name}</span>
               <span style="font-size:11px;color:var(--color-text-secondary)">(${a.code}) · ${a.km} km</span>
             </div>
-            ${a.dgw ? '<span class="dbadge">Direct LGW</span>' : ""}
+            ${(() => {
+              const directCodes = getDirectAirportCodes(a.directFrom);
+              return directCodes.map(code => `<span class="dbadge">Direct ${code}</span>`).join("");
+            })()}
           </div>
         `).join("")}
       </div>
@@ -1092,7 +1129,7 @@ function sanitizeLocation(loc) {
         name: a.name,
         code: a.code,
         km: a.km,
-        dgw: Boolean(a.dgw)
+        directFrom: normalizeDirectFrom(a.directFrom, a.dgw)
       }))
     : [];
 
@@ -1118,7 +1155,7 @@ function sanitizeLocation(loc) {
     months,
     todo,
     prac: {
-      directGW: Boolean(loc.prac?.directGW),
+      directFrom: normalizeDirectFrom(loc.prac?.directFrom, loc.prac?.directGW),
       visa: loc.prac?.visa ?? "",
       currency: loc.prac?.currency ?? "",
       alerts: Array.isArray(loc.prac?.alerts) ? loc.prac.alerts : [],
