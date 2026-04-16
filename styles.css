@@ -34,8 +34,47 @@ body{padding:24px;background:#fafafa}
 .app{font-family:var(--font-sans);color:var(--color-text-primary);font-size:14px;line-height:1.5;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden;background:#fff;display:flex;flex-direction:column;max-height:calc(100vh - 48px);min-height:580px}
 .app-hdr{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary)}
 .app-title{font-size:15px;font-weight:500}
-.app-body{display:grid;grid-template-columns:190px minmax(0,1fr);min-height:0;flex:1}
+.app-body{display:grid;grid-template-columns:190px minmax(280px,36vw) minmax(0,1fr);min-height:0;flex:1}
 .sidebar{border-right:0.5px solid var(--color-border-tertiary);background:var(--color-background-secondary);overflow-y:auto;min-height:0}
+.map-panel{
+  border-right:0.5px solid var(--color-border-tertiary);
+  background:var(--color-background-secondary);
+  min-height:0;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+.map-canvas{
+  flex:1;
+  min-height:260px;
+}
+.map-fallback{
+  margin:12px;
+  padding:10px 12px;
+  border-radius:10px;
+  border:0.5px solid var(--color-border-warning);
+  background:var(--color-background-warning);
+  color:var(--color-text-warning);
+  font-size:12px;
+  line-height:1.5;
+}
+.leaflet-container{
+  font-family:var(--font-sans);
+}
+.dest-marker{
+  width:12px;
+  height:12px;
+  border:2px solid #fff;
+  border-radius:50%;
+  background:#2f74d0;
+  box-shadow:0 0 0 1px rgba(0,0,0,0.25);
+  transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+.dest-marker.active{
+  background:#d85a30;
+  transform:scale(1.35);
+  box-shadow:0 0 0 2px rgba(216,90,48,0.35);
+}
 .sb-lbl{font-size:10px;font-weight:500;color:var(--color-text-secondary);padding:12px 12px 6px;letter-spacing:.07em;text-transform:uppercase}
 .loc-search{
   display:block;
@@ -166,6 +205,14 @@ body{padding:24px;background:#fafafa}
     border-bottom:0.5px solid var(--color-border-tertiary);
     padding:6px 10px 4px;
     background:var(--color-background-primary);
+  }
+  .map-panel{
+    border-right:none;
+    border-bottom:0.5px solid var(--color-border-tertiary);
+  }
+  .map-canvas{
+    min-height:220px;
+    max-height:38vh;
   }
   .loc-rail-controls{
     display:flex;
