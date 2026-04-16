@@ -134,6 +134,12 @@ function getMarkerVariantById(id) {
   return getMarkerVariantForLocation(loc);
 }
 
+function formatMarkerAccessibleLabel(loc) {
+  const city = String(loc?.city || "").trim();
+  const country = String(loc?.country || "").trim();
+  return `${city}, ${country} (country shown in text)`;
+}
+
 function showMapFallback(message) {
   const fallback = document.getElementById("map-fallback");
   if (!fallback) return;
@@ -235,9 +241,9 @@ function initMap() {
       const marker = L.marker([loc.lat, loc.lng], {
         icon: mapIcon({ isActive: loc.id === S.loc, markerPalette: markerVariant }),
         keyboard: true,
-        title: `${loc.city}, ${loc.country}`
+        title: formatMarkerAccessibleLabel(loc)
       }).addTo(map);
-      marker.bindTooltip(`${loc.city}, ${loc.country}`, {
+      marker.bindTooltip(formatMarkerAccessibleLabel(loc), {
         direction: "top",
         offset: [0, -8]
       });
