@@ -8,6 +8,12 @@ let mapReady = false;
 let mapInitAttempted = false;
 const mapMarkers = new Map();
 let highlightedMarkerId = null;
+let mapRolloutState = { enabled: false, reason: "" };
+
+const FEATURE_FLAGS = {
+  enableMap: true,
+  requireMapCoordinateReadinessInProduction: true
+};
 
 let S = {
   view: "welcome",
@@ -51,7 +57,69 @@ function showMapFallback(message) {
   fallback.hidden = false;
 }
 
+function hideMapFallback() {
+  const fallback = document.getElementById("map-fallback");
+  if (!fallback) return;
+  fallback.hidden = true;
+}
+
+function isValidCoordinatePair(loc) {
+  return Number.isFinite(loc?.lat)
+    && Number.isFinite(loc?.lng)
+    && loc.lat >= -90
+    && loc.lat <= 90
+    && loc.lng >= -180
+    && loc.lng <= 180;
+}
+
+function allIndexLocationsHaveValidCoordinates() {
+  return INDEX.every(isValidCoordinatePair);
+}
+
+function isProductionRuntime() {
+  const protocol = window.location.protocol;
+  const host = window.location.hostname;
+  return protocol !== "file:" && !["localhost", "127.0.0.1"].includes(host);
+}
+
+function getMapRolloutState() {
+  if (!FEATURE_FLAGS.enableMap) {
+    return {
+      enabled: false,
+      reason: "Map rollout is currently disabled via feature flag. Browse destinations from the list."
+    };
+  }
+
+  if (
+    FEATURE_FLAGS.requireMapCoordinateReadinessInProduction
+    && isProductionRuntime()
+    && !allIndexLocationsHaveValidCoordinates()
+  ) {
+    return {
+      enabled: false,
+      reason: "Map is temporarily disabled until all destination coordinates pass the production readiness gate."
+    };
+  }
+
+  return { enabled: true, reason: "" };
+}
+
+function applyMapRolloutState(state) {
+  const mapEl = document.getElementById("map");
+  if (!mapEl) return;
+
+  mapEl.hidden = !state.enabled;
+
+  if (state.enabled) {
+    hideMapFallback();
+    return;
+  }
+
+  showMapFallback(state.reason);
+}
+
 function initMap() {
+  if (!mapRolloutState.enabled) return;
   if (mapInitAttempted) return;
   mapInitAttempted = true;
 
@@ -74,7 +142,7 @@ function initMap() {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    const points = INDEX.filter(l => Number.isFinite(l.lat) && Number.isFinite(l.lng));
+    const points = INDEX.filter(isValidCoordinatePair);
 
     points.forEach(loc => {
       const marker = L.marker([loc.lat, loc.lng], {
@@ -843,6 +911,8 @@ async function init() {
       lat: Number(loc.lat),
       lng: Number(loc.lng)
     }));
+    mapRolloutState = getMapRolloutState();
+    applyMapRolloutState(mapRolloutState);
 
     const searchInput = document.getElementById("loc-search");
     if (searchInput) {
@@ -890,7 +960,7 @@ async function init() {
       locRailControlsBound = true;
     }
     applySelectionRenderHooks({ panMap: false });
-    initMap();
+    if (mapRolloutState.enabled) initMap();
 
     try {
       await loadLocation(S.loc);
