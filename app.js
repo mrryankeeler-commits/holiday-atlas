@@ -15,6 +15,9 @@ const FEATURE_FLAGS = {
   enableMap: true,
   requireMapCoordinateReadinessInProduction: true
 };
+const DEFAULT_MAP_CENTER = [20, 0];
+const DEFAULT_MAP_ZOOM = 2;
+const LOCATION_FOCUS_MIN_ZOOM = 5;
 
 let S = {
   view: "welcome",
@@ -136,7 +139,7 @@ function initMap() {
     map = L.map(mapEl, {
       zoomControl: true,
       scrollWheelZoom: true
-    }).setView([20, 0], 2);
+    }).setView(DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
@@ -195,9 +198,15 @@ function focusMapOnLocation(id, options = {}) {
   const marker = mapMarkers.get(id);
   const { pan = true } = options;
   if (pan) {
-    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 4), { duration: 0.55 });
+    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), LOCATION_FOCUS_MIN_ZOOM), { duration: 0.55 });
   }
   highlightMapMarker(id);
+}
+
+function resetMapToHomeViewport() {
+  if (!mapReady) return;
+  map.flyTo(DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, { duration: 0.55 });
+  highlightMapMarker(null);
 }
 
 function applySelectionRenderHooks(options = {}) {
@@ -377,6 +386,9 @@ function setView(view, options = {}) {
   if (!options.skipHashSync) syncViewHash();
   rMain();
   syncHeaderNavState();
+  if (S.view === "welcome") {
+    resetMapToHomeViewport();
+  }
 
   if (!changed && options.preserveFocus) return;
 
