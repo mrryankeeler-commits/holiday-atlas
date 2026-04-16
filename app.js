@@ -111,6 +111,12 @@ const normalizeSearchText = value => String(value ?? "")
   .trim()
   .replace(/\s+/g, " ")
   .toLowerCase();
+const escapeHtml = value => String(value ?? "")
+  .replace(/&/g, "&amp;")
+  .replace(/</g, "&lt;")
+  .replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;")
+  .replace(/'/g, "&#39;");
 
 const markerVariantCache = new Map();
 
@@ -439,15 +445,15 @@ function rSidebar() {
   const emptyState = query && filtered.length === 0
     ? `
     <div class="loc-filter-hint" role="status">
-      No destinations match ‘${S.query}’.
+      No destinations match ‘${escapeHtml(S.query)}’.
     </div>
   `
     : "";
 
   locListEl.innerHTML = filtered.map(l => `
-    <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${l.id}')">
-      <span class="loc-city">${l.city}</span>
-      <span class="loc-ctry">${l.country}</span>
+    <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${escapeHtml(l.id)}')">
+      <span class="loc-city">${escapeHtml(l.city)}</span>
+      <span class="loc-ctry">${escapeHtml(l.country)}</span>
     </button>
   `).join("") + emptyState + (activeMissing ? `
     <div class="loc-filter-hint" role="status">
@@ -649,29 +655,26 @@ function rMain() {
 
   const L = gl();
   if (!L) return;
+  const directCodes = getDirectAirportCodes(L.prac.directFrom);
 
   document.getElementById("main").innerHTML = `
     <div class="hero">
-      <div class="loc-name">${L.city}</div>
-      <div class="loc-meta">${L.country} &middot; ${L.region}</div>
+      <div class="loc-name">${escapeHtml(L.city)}</div>
+      <div class="loc-meta">${escapeHtml(L.country)} &middot; ${escapeHtml(L.region)}</div>
       <div class="tags">
-        ${(() => {
-          const directCodes = getDirectAirportCodes(L.prac.directFrom);
-          if (directCodes.length) {
-            return directCodes.map(code => `<span class="tag g">✓ Direct ${code}</span>`).join("");
-          }
-          return '<span class="tag w">✗ No direct flights from configured London airports</span>';
-        })()}
+        ${directCodes.length
+          ? directCodes.map(code => `<span class="tag g">✓ Direct ${escapeHtml(code)}</span>`).join("")
+          : '<span class="tag w">✗ No direct flights from configured London airports</span>'}
         ${L.source?.climateVerified
           ? '<span class="tag g">✓ Climate verified</span>'
           : (L.source?.climate?.length || L.source?.climateVerificationNote)
             ? '<span class="tag w">⚠ Climate unverified</span>'
             : ""}
-        <span class="tag">${L.prac.visa}</span>
-        <span class="tag">${L.prac.currency}</span>
+        <span class="tag">${escapeHtml(L.prac.visa)}</span>
+        <span class="tag">${escapeHtml(L.prac.currency)}</span>
       </div>
-      <div class="desc">${L.desc}</div>
-      <div class="hls">${L.hls.map(h => `<span class="hl">◆ ${h}</span>`).join("")}</div>
+      <div class="desc">${escapeHtml(L.desc)}</div>
+      <div class="hls">${L.hls.map(h => `<span class="hl">◆ ${escapeHtml(h)}</span>`).join("")}</div>
     </div>
     <div class="tab-nav">
       ${[
@@ -680,7 +683,7 @@ function rMain() {
         ["todo", "Things to do"],
         ["prac", "Practical info"]
       ].map(([id, lbl]) => `
-        <button class="tab-btn ${id === S.tab ? "active" : ""}" data-tab="${id}" aria-selected="${id === S.tab}" onclick="swTab('${id}')">${lbl}</button>
+        <button class="tab-btn ${id === S.tab ? "active" : ""}" data-tab="${escapeHtml(id)}" aria-selected="${id === S.tab}" onclick="swTab('${escapeHtml(id)}')">${escapeHtml(lbl)}</button>
       `).join("")}
     </div>
     <div class="tab-body" id="tab-body">${rTab()}</div>
@@ -711,14 +714,14 @@ function rClimate(L) {
 
   const af = filters.find(f => f.id === S.filter);
   const climateSources = Array.isArray(L.source?.climate) ? L.source.climate : [];
-  const sourceNames = climateSources.map(s => s.name).filter(Boolean);
+  const sourceNames = climateSources.map(s => escapeHtml(s.name)).filter(Boolean);
   const verifiedLabel = sourceNames.length ? sourceNames.join(", ") : "source";
-  const verifiedOn = L.source?.climateVerifiedOn ? ` (${L.source.climateVerifiedOn})` : "";
+  const verifiedOn = L.source?.climateVerifiedOn ? ` (${escapeHtml(L.source.climateVerifiedOn)})` : "";
   const verificationNote = L.source?.climateVerified
     ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">✓ Climate data verified via ${verifiedLabel}${verifiedOn}</div>`
     : (climateSources.length || L.source?.climateVerificationNote)
-      ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">⚠ Climate data not yet verified${L.source?.climateVerificationNote ? ` — ${L.source.climateVerificationNote}` : ""}</div>`
-    : "";
+      ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">⚠ Climate data not yet verified${L.source?.climateVerificationNote ? ` — ${escapeHtml(L.source.climateVerificationNote)}` : ""}</div>`
+      : "";
 
   return `
     <div class="legend">
@@ -730,8 +733,8 @@ function rClimate(L) {
     <div class="chart-scroll">
       <div class="chart-wrap">
         <div class="chart-inner">
-          <canvas id="tc" role="img" aria-label="Monthly temperature chart for ${L.city}.">
-            ${L.city} monthly temperatures.
+          <canvas id="tc" role="img" aria-label="Monthly temperature chart for ${escapeHtml(L.city)}.">
+            ${escapeHtml(L.city)} monthly temperatures.
           </canvas>
         </div>
       </div>
@@ -739,7 +742,7 @@ function rClimate(L) {
 
     <div class="filter-row">
       <span class="fl-lbl">Highlight months:</span>
-      ${filters.map(f => `<button class="fb ${S.filter === f.id ? "act" : ""}" onclick="setF('${f.id}')">${f.lbl}</button>`).join("")}
+      ${filters.map(f => `<button class="fb ${S.filter === f.id ? "act" : ""}" onclick="setF('${escapeHtml(f.id)}')">${escapeHtml(f.lbl)}</button>`).join("")}
       ${S.filter ? `<button class="fb act" onclick="setF(null)">✕ Clear</button>` : ""}
     </div>
     ${verificationNote}
@@ -756,32 +759,40 @@ function rClimate(L) {
         <tbody>
           ${L.months.map(d => {
             const h = af && af.fn(d) ? "hi-row" : "";
-            const bc = bclr(d.busy);
+            const avg = Number(d.avg);
+            const hi = Number(d.hi);
+            const lo = Number(d.lo);
+            const daylight = Number(d.daylight);
+            const cld = Number(d.cld);
+            const rain = Number(d.rain);
+            const busy = Number(d.busy);
+            const bc = bclr(busy);
+            const daylightLabel = Number.isFinite(daylight) ? daylight.toFixed(1) : "0.0";
 
             return `
               <tr class="${h}">
-                <td data-label="Month" style="font-weight:500">${d.m}</td>
-                <td data-label="Avg">${d.avg}°</td>
-                <td data-label="High" style="color:#D85A30;font-weight:500">${d.hi}°</td>
-                <td data-label="Low" style="color:#378ADD">${d.lo}°</td>
-                <td data-label="Daylight">${d.daylight.toFixed(1)}</td>
+                <td data-label="Month" style="font-weight:500">${escapeHtml(d.m)}</td>
+                <td data-label="Avg">${avg}°</td>
+                <td data-label="High" style="color:#D85A30;font-weight:500">${hi}°</td>
+                <td data-label="Low" style="color:#378ADD">${lo}°</td>
+                <td data-label="Daylight">${daylightLabel}</td>
                 <td data-label="Cloud">
                   <div style="display:flex;align-items:center;gap:6px">
                     <div style="width:44px;height:5px;border-radius:3px;background:var(--color-border-tertiary);overflow:hidden">
-                      <div style="width:${d.cld}%;height:100%;background:#B4B2A9;border-radius:3px"></div>
+                      <div style="width:${cld}%;height:100%;background:#B4B2A9;border-radius:3px"></div>
                     </div>
-                    <span>${d.cld}%</span>
+                    <span>${cld}%</span>
                   </div>
                 </td>
-                <td data-label="Rain">${d.rain}</td>
+                <td data-label="Rain">${rain}</td>
                 <td data-label="Busy">
                   <div style="display:flex;align-items:center;gap:6px">
                     <div style="display:flex;gap:1px">
                       ${Array.from({ length: 10 }).map((_, i) => `
-                        <div style="width:5px;height:10px;border-radius:1px;background:${i < d.busy ? bc : "var(--color-border-tertiary)"}"></div>
+                        <div style="width:5px;height:10px;border-radius:1px;background:${i < busy ? bc : "var(--color-border-tertiary)"}"></div>
                       `).join("")}
                     </div>
-                    <span style="font-size:11px;color:var(--color-text-secondary)">${blbl(d.busy)}</span>
+                    <span style="font-size:11px;color:var(--color-text-secondary)">${escapeHtml(blbl(busy))}</span>
                   </div>
                 </td>
               </tr>
@@ -808,23 +819,26 @@ function rCosts(L) {
         </thead>
         <tbody>
           ${L.months.map(d => {
-            const ov = Math.round((d.ac + d.fl) / 2);
-            const bc = bclr(d.busy);
+            const ac = Number(d.ac);
+            const fl = Number(d.fl);
+            const busy = Number(d.busy);
+            const ov = Math.round((ac + fl) / 2);
+            const bc = bclr(busy);
 
             return `
               <tr>
-                <td data-label="Month" style="font-weight:500">${d.m}</td>
-                <td><span class="${cpc(d.ac)}">${clbls[d.ac]}</span></td>
-                <td><span class="${cpc(d.fl)}">${clbls[d.fl]}</span></td>
+                <td data-label="Month" style="font-weight:500">${escapeHtml(d.m)}</td>
+                <td><span class="${cpc(ac)}">${escapeHtml(clbls[ac] || "")}</span></td>
+                <td><span class="${cpc(fl)}">${escapeHtml(clbls[fl] || "")}</span></td>
                 <td><span class="${cpc(ov)}">${clbls[ov]}</span></td>
                 <td>
                   <div style="display:flex;align-items:center;gap:5px">
                     <div style="display:flex;gap:1px">
                       ${Array.from({ length: 10 }).map((_, i) => `
-                        <div style="width:5px;height:10px;border-radius:1px;background:${i < d.busy ? bc : "var(--color-border-tertiary)"}"></div>
+                        <div style="width:5px;height:10px;border-radius:1px;background:${i < busy ? bc : "var(--color-border-tertiary)"}"></div>
                       `).join("")}
                     </div>
-                    <span style="font-size:11px;color:var(--color-text-secondary)">${blbl(d.busy)}</span>
+                    <span style="font-size:11px;color:var(--color-text-secondary)">${escapeHtml(blbl(busy))}</span>
                   </div>
                 </td>
               </tr>
@@ -834,7 +848,7 @@ function rCosts(L) {
       </table>
     </div>
 
-    <div class="hl-tip"><span style="font-weight:500;color:var(--color-text-primary)">Sweet spot:</span> ${L.sweet}</div>
+    <div class="hl-tip"><span style="font-weight:500;color:var(--color-text-primary)">Sweet spot:</span> ${escapeHtml(L.sweet)}</div>
   `;
 }
 
@@ -843,9 +857,9 @@ function rTodo(L) {
     <div class="todo-grid">
       ${L.todo.map(t => `
         <div class="tc">
-          <div class="tc-cat">${t.cat}</div>
-          <div class="tc-name">${t.name}</div>
-          <div class="tc-desc">${t.desc}</div>
+          <div class="tc-cat">${escapeHtml(t.cat)}</div>
+          <div class="tc-name">${escapeHtml(t.name)}</div>
+          <div class="tc-desc">${escapeHtml(t.desc)}</div>
         </div>
       `).join("")}
     </div>
@@ -854,31 +868,32 @@ function rTodo(L) {
 
 function rPrac(L) {
   const p = L.prac;
+  const wifiRating = Number(p.wifi.r);
   const routeDirectCodes = getDirectAirportCodes(p.directFrom);
   const routeDirectLabel = DEPARTURE_AIRPORTS.map(a => a.label).join(" / ");
 
   return `
-    ${p.alerts.map(a => `<div class="alert-box">⚠ ${a}</div>`).join("")}
+    ${p.alerts.map(a => `<div class="alert-box">⚠ ${escapeHtml(a)}</div>`).join("")}
     <div class="pgrid">
       <div class="pc">
         <div class="pt">WiFi &amp; remote work</div>
         <div style="display:flex;gap:3px;margin-bottom:6px">
           ${Array.from({ length: 5 }).map((_, i) => `
-            <div style="width:11px;height:11px;border-radius:50%;background:${i < p.wifi.r ? "#639922" : "var(--color-border-tertiary)"}"></div>
+            <div style="width:11px;height:11px;border-radius:50%;background:${i < wifiRating ? "#639922" : "var(--color-border-tertiary)"}"></div>
           `).join("")}
         </div>
-        <div class="pv">${p.wifi.spd}</div>
-        <div class="pn">${p.wifi.note}</div>
+        <div class="pv">${escapeHtml(p.wifi.spd)}</div>
+        <div class="pn">${escapeHtml(p.wifi.note)}</div>
       </div>
 
       <div class="pc">
         <div class="pt">Flights from ${routeDirectLabel}</div>
         <div class="pv" style="color:${routeDirectCodes.length ? "var(--color-text-success)" : "var(--color-text-warning)"}">
           ${routeDirectCodes.length
-            ? routeDirectCodes.map(code => `<span class="dbadge">Direct ${code}</span>`).join(" ")
+            ? routeDirectCodes.map(code => `<span class="dbadge">Direct ${escapeHtml(code)}</span>`).join(" ")
             : "✗ No direct flights from configured London airports"}
         </div>
-        <div class="pn" style="margin-top:5px">${p.fltNote}</div>
+        <div class="pn" style="margin-top:5px">${escapeHtml(p.fltNote)}</div>
       </div>
 
       <div class="pc">
@@ -886,12 +901,12 @@ function rPrac(L) {
         ${p.airports.map(a => `
           <div class="ar">
             <div>
-              <span style="font-weight:500">${a.name}</span>
-              <span style="font-size:11px;color:var(--color-text-secondary)">(${a.code}) · ${a.km} km</span>
+              <span style="font-weight:500">${escapeHtml(a.name)}</span>
+              <span style="font-size:11px;color:var(--color-text-secondary)">(${escapeHtml(a.code)}) · ${Number(a.km)} km</span>
             </div>
             ${(() => {
               const directCodes = getDirectAirportCodes(a.directFrom);
-              return directCodes.map(code => `<span class="dbadge">Direct ${code}</span>`).join("");
+              return directCodes.map(code => `<span class="dbadge">Direct ${escapeHtml(code)}</span>`).join("");
             })()}
           </div>
         `).join("")}
@@ -899,16 +914,16 @@ function rPrac(L) {
 
       <div class="pc">
         <div class="pt">Entry &amp; essentials</div>
-        <div class="ir"><span class="il">Visa</span><span style="text-align:right;max-width:60%">${p.visa}</span></div>
-        <div class="ir"><span class="il">Currency</span><span style="text-align:right;max-width:60%">${p.currency}</span></div>
-        <div class="ir"><span class="il">Language</span><span>${p.lang}</span></div>
-        <div class="ir"><span class="il">Timezone</span><span>${p.tz}</span></div>
+        <div class="ir"><span class="il">Visa</span><span style="text-align:right;max-width:60%">${escapeHtml(p.visa)}</span></div>
+        <div class="ir"><span class="il">Currency</span><span style="text-align:right;max-width:60%">${escapeHtml(p.currency)}</span></div>
+        <div class="ir"><span class="il">Language</span><span>${escapeHtml(p.lang)}</span></div>
+        <div class="ir"><span class="il">Timezone</span><span>${escapeHtml(p.tz)}</span></div>
       </div>
 
       <div class="pc">
         <div class="pt">Best suited for</div>
         <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:4px">
-          ${p.bestFor.map(b => `<span class="tag">${b}</span>`).join("")}
+          ${p.bestFor.map(b => `<span class="tag">${escapeHtml(b)}</span>`).join("")}
         </div>
       </div>
     </div>
@@ -1177,7 +1192,7 @@ function rLocError(id, err) {
   document.getElementById("main").innerHTML = `
     <div style="padding:20px;font-family:system-ui,sans-serif;color:#8b2e2e;">
       <strong>Could not load destination details.</strong><br><br>
-      ${id}: ${err.message}
+      ${escapeHtml(id)}: ${escapeHtml(err?.message)}
     </div>
   `;
 }
@@ -1282,7 +1297,7 @@ async function init() {
     document.getElementById("main").innerHTML = `
       <div style="padding:20px;font-family:system-ui,sans-serif;color:#8b2e2e;">
         <strong>Could not load destination data.</strong><br><br>
-        ${err.message}
+        ${escapeHtml(err?.message)}
       </div>
     `;
     console.error(err);
