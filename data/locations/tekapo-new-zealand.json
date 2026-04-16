@@ -30,7 +30,7 @@
     "Soak in hot pools after sunset"
   ],
   "prac": {
-    "directGW": true,
+    "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "New Zealand Dollar (NZD)",
     "alerts": [],
@@ -43,7 +43,7 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "English and Māori",
     "power": "Type I, 230V",
-    "fltNote": "",
+    "fltNote": "No direct UK flights to Tekapo; fly via Christchurch (or Queenstown) with one or more long-haul connections.",
     "airports": [],
     "tz": "",
     "bestFor": []

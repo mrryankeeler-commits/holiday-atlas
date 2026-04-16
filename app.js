@@ -610,7 +610,7 @@ function sanitizeLocation(loc) {
       wifi: {
         r: Number(loc.prac?.wifi?.r) || 0,
         spd: loc.prac?.wifi?.spd ?? "",
-        note: loc.prac?.wifi?.note ?? ""
+        note: loc.prac?.wifi?.note ?? loc.prac?.wifi?.notes ?? ""
       },
       fltNote: loc.prac?.fltNote ?? "",
       airports,

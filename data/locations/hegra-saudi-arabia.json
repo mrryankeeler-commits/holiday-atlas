@@ -30,7 +30,7 @@
     "Plan a sunset stop at a desert viewpoint"
   ],
   "prac": {
-    "directGW": true,
+    "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Saudi Riyal (SAR)",
     "alerts": [],
@@ -43,7 +43,7 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Arabic (English common in tourism settings)",
     "power": "Type G, 230V",
-    "fltNote": "",
+    "fltNote": "No direct UK flights to AlUla/Hegra; typically connect via Riyadh or Jeddah.",
     "airports": [],
     "tz": "",
     "bestFor": []

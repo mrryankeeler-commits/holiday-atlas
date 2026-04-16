@@ -30,7 +30,7 @@
     "Join an early birdwatching excursion inland"
   ],
   "prac": {
-    "directGW": true,
+    "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Indonesian Rupiah (IDR)",
     "alerts": [],
@@ -43,7 +43,7 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Indonesian (Bahasa Indonesia) plus local Papuan languages",
     "power": "Type C/F, 230V",
-    "fltNote": "",
+    "fltNote": "No direct UK flights; most routes connect via Jakarta, Bali, or regional Southeast Asian hubs before Sorong/Raja Ampat transfers.",
     "airports": [],
     "tz": "",
     "bestFor": []
