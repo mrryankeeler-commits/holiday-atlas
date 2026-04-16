@@ -87,7 +87,13 @@ let S = {
   tab: "climate",
   filter: null,
   chart: null,
-  query: ""
+  query: "",
+  prefs: {
+    weather: 4,
+    budget: 3,
+    crowds: 3,
+    direct: 2
+  }
 };
 
 const VIEW_HASH = {
@@ -113,6 +119,103 @@ const normalizeSearchText = value => String(value ?? "")
   .toLowerCase();
 
 const markerVariantCache = new Map();
+const RECOMMENDATION_METRICS = ["weather", "budget", "crowds", "direct"];
+
+const clamp01 = n => Math.min(1, Math.max(0, n));
+const isFiniteNumber = n => Number.isFinite(Number(n));
+
+function normalizeValue(value, min, max, { invert = false } = {}) {
+  if (!isFiniteNumber(value) || !isFiniteNumber(min) || !isFiniteNumber(max) || max === min) return 0.5;
+  const raw = (value - min) / (max - min);
+  const normalized = clamp01(raw);
+  return invert ? 1 - normalized : normalized;
+}
+
+function getFieldRange(months, key) {
+  const values = months.map(m => Number(m?.[key])).filter(Number.isFinite);
+  if (!values.length) return { min: 0, max: 1 };
+  return { min: Math.min(...values), max: Math.max(...values) };
+}
+
+function computeWeatherComfort(month, ranges) {
+  if (!isFiniteNumber(month?.avg) || !isFiniteNumber(month?.rain) || !isFiniteNumber(month?.cld) || !isFiniteNumber(month?.daylight)) {
+    return { value: null, reason: "missing climate fields" };
+  }
+
+  const avgTemp = Number(month.avg);
+  const rain = Number(month.rain);
+  const cloud = Number(month.cld);
+  const daylight = Number(month.daylight);
+
+  const tempComfort = clamp01(1 - (Math.abs(avgTemp - 22) / 16));
+  const rainComfort = normalizeValue(rain, ranges.rain.min, ranges.rain.max, { invert: true });
+  const cloudComfort = clamp01(1 - (cloud / 100));
+  const daylightComfort = clamp01(1 - (Math.abs(daylight - 11) / 6));
+  const weather = (tempComfort * 0.4) + (rainComfort * 0.25) + (cloudComfort * 0.2) + (daylightComfort * 0.15);
+
+  return { value: weather, reason: "" };
+}
+
+function computeRecommendationScores(location, prefs = S.prefs) {
+  const months = Array.isArray(location?.months) ? location.months : [];
+  const ranges = {
+    ac: getFieldRange(months, "ac"),
+    fl: getFieldRange(months, "fl"),
+    busy: getFieldRange(months, "busy"),
+    rain: getFieldRange(months, "rain")
+  };
+  const hasDirectFlight = getDirectAirportCodes(location?.prac?.directFrom).length > 0;
+  const metricWeights = {
+    weather: Number(prefs.weather) || 0,
+    budget: Number(prefs.budget) || 0,
+    crowds: Number(prefs.crowds) || 0,
+    direct: Number(prefs.direct) || 0
+  };
+
+  return months.map(month => {
+    const weather = computeWeatherComfort(month, ranges);
+    const budgetValue = (isFiniteNumber(month?.ac) && isFiniteNumber(month?.fl))
+      ? ((normalizeValue(month.ac, ranges.ac.min, ranges.ac.max, { invert: true }) * 0.55)
+        + (normalizeValue(month.fl, ranges.fl.min, ranges.fl.max, { invert: true }) * 0.45))
+      : null;
+    const crowdsValue = isFiniteNumber(month?.busy)
+      ? normalizeValue(month.busy, ranges.busy.min, ranges.busy.max, { invert: true })
+      : null;
+    const directValue = hasDirectFlight ? 1 : 0.3;
+
+    const metrics = {
+      weather: weather.value,
+      budget: budgetValue,
+      crowds: crowdsValue,
+      direct: directValue
+    };
+
+    const weightedParts = RECOMMENDATION_METRICS
+      .filter(metric => metricWeights[metric] > 0 && metrics[metric] !== null);
+    const numerator = weightedParts.reduce((sum, metric) => sum + (metrics[metric] * metricWeights[metric]), 0);
+    const denominator = weightedParts.reduce((sum, metric) => sum + metricWeights[metric], 0);
+    const score = denominator > 0 ? Math.round((numerator / denominator) * 100) : 0;
+
+    const availableCount = RECOMMENDATION_METRICS.filter(metric => metrics[metric] !== null).length;
+    const coverage = availableCount / RECOMMENDATION_METRICS.length;
+    const confidence = coverage >= 1 ? "High" : coverage >= 0.75 ? "Medium" : "Low";
+    const rationale = [
+      metrics.weather !== null && metrics.weather >= 0.66 ? "comfortable weather" : "",
+      metrics.budget !== null && metrics.budget >= 0.66 ? "moderate costs" : "",
+      metrics.crowds !== null && metrics.crowds >= 0.66 ? "low crowds" : "",
+      hasDirectFlight && metricWeights.direct > 0 ? "direct-flight friendly" : ""
+    ].filter(Boolean);
+
+    return {
+      month: month.m,
+      score,
+      metrics,
+      coverage,
+      confidence,
+      rationale: rationale.length ? rationale.slice(0, 3).join(" + ") : "mixed trade-offs"
+    };
+  }).sort((a, b) => b.score - a.score);
+}
 
 function mapIcon({ isActive = false, markerPalette } = {}) {
   const palette = markerPalette || { token: "variant-default", fill: "#2f74d0", halo: "rgba(255,255,255,0.72)" };
@@ -719,8 +822,55 @@ function rClimate(L) {
     : (climateSources.length || L.source?.climateVerificationNote)
       ? `<div style="margin:8px 0 0;font-size:12px;color:var(--color-text-secondary)">⚠ Climate data not yet verified${L.source?.climateVerificationNote ? ` — ${L.source.climateVerificationNote}` : ""}</div>`
     : "";
+  const recommendations = computeRecommendationScores(L, S.prefs);
+  const topRecommendations = recommendations.slice(0, 4);
+  const averageCoverage = recommendations.length
+    ? recommendations.reduce((sum, r) => sum + r.coverage, 0) / recommendations.length
+    : 0;
+  const coverageLabel = averageCoverage >= 1 ? "Complete" : averageCoverage >= 0.75 ? "Mostly complete" : "Partial";
 
   return `
+    <section class="best-months-panel" aria-label="Best months for you">
+      <div class="best-months-head">
+        <h3>Best months for you</h3>
+        <p>Adjust what matters most and we’ll re-rank months instantly for ${L.city}.</p>
+      </div>
+      <div class="pref-grid" role="group" aria-label="Recommendation preferences">
+        <label class="pref-item">Weather comfort
+          <input type="range" min="0" max="5" step="1" value="${S.prefs.weather}" oninput="setPref('weather', this.value)" />
+          <span class="pref-val">${S.prefs.weather}</span>
+        </label>
+        <label class="pref-item">Budget
+          <input type="range" min="0" max="5" step="1" value="${S.prefs.budget}" oninput="setPref('budget', this.value)" />
+          <span class="pref-val">${S.prefs.budget}</span>
+        </label>
+        <label class="pref-item">Low crowds
+          <input type="range" min="0" max="5" step="1" value="${S.prefs.crowds}" oninput="setPref('crowds', this.value)" />
+          <span class="pref-val">${S.prefs.crowds}</span>
+        </label>
+        <label class="pref-item">Direct-flight preference
+          <input type="range" min="0" max="5" step="1" value="${S.prefs.direct}" oninput="setPref('direct', this.value)" />
+          <span class="pref-val">${S.prefs.direct}</span>
+        </label>
+      </div>
+      <div class="rec-chip-row">
+        ${topRecommendations.map((rec, idx) => `
+          <article class="rec-chip">
+            <div class="rec-top">
+              <span class="rec-rank">#${idx + 1}</span>
+              <span class="rec-month">${rec.month}</span>
+              <span class="rec-score">${rec.score}</span>
+            </div>
+            <p class="rec-why">${rec.rationale}</p>
+            <div class="rec-meta">${rec.confidence} confidence · ${(rec.coverage * 100).toFixed(0)}% data coverage</div>
+          </article>
+        `).join("")}
+      </div>
+      <div class="rec-coverage ${coverageLabel === "Complete" ? "ok" : "warn"}">
+        Coverage: ${coverageLabel} (${(averageCoverage * 100).toFixed(0)}% monthly signal completeness).
+      </div>
+    </section>
+
     <div class="legend">
       <span class="lg-item"><span class="lg-dot" style="background:#D85A30"></span>High</span>
       <span class="lg-item"><span class="lg-dot" style="background:#C9973A"></span>Average</span>
@@ -1072,6 +1222,16 @@ function setF(f) {
   resetMainHorizontalOffsets();
 }
 
+function setPref(key, value) {
+  if (!RECOMMENDATION_METRICS.includes(key)) return;
+  S.prefs[key] = Math.max(0, Math.min(5, Number(value) || 0));
+  const L = gl();
+  if (!L || S.tab !== "climate") return;
+  document.getElementById("tab-body").innerHTML = rClimate(L);
+  initChart();
+  resetMainHorizontalOffsets();
+}
+
 function syncTabNavState() {
   document.querySelectorAll(".tab-nav .tab-btn").forEach(btn => {
     const isActive = btn.dataset.tab === S.tab;
@@ -1292,3 +1452,4 @@ async function init() {
 init();
 
 window.selLocFromDeepLink = selLocFromDeepLink;
+window.setPref = setPref;

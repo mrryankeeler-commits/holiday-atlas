@@ -298,6 +298,57 @@ body{padding:24px;background:#fafafa}
 .tab-btn:hover{color:var(--color-text-primary)}
 .tab-btn.active{color:var(--color-text-primary);font-weight:500;border-bottom-color:var(--color-text-primary)}
 .tab-body{padding:18px 20px}
+.best-months-panel{
+  border:0.5px solid var(--color-border-tertiary);
+  border-radius:var(--border-radius-lg);
+  background:var(--color-background-secondary);
+  padding:12px;
+  margin-bottom:12px;
+}
+.best-months-head h3{font-size:14px;font-weight:600;margin-bottom:2px}
+.best-months-head p{font-size:11px;color:var(--color-text-secondary);margin-bottom:10px}
+.pref-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:8px;
+  margin-bottom:10px;
+}
+.pref-item{
+  display:grid;
+  grid-template-columns:1fr auto;
+  align-items:center;
+  gap:4px 8px;
+  font-size:11px;
+  color:var(--color-text-secondary);
+}
+.pref-item input[type="range"]{grid-column:1/-1;width:100%}
+.pref-val{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:18px;
+  font-size:11px;
+  border-radius:999px;
+  padding:1px 6px;
+  background:#ececec;
+  color:var(--color-text-primary);
+}
+.rec-chip-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+.rec-chip{
+  border:0.5px solid var(--color-border-secondary);
+  border-radius:10px;
+  background:var(--color-background-primary);
+  padding:8px;
+}
+.rec-top{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.rec-rank{font-size:10px;color:var(--color-text-secondary)}
+.rec-month{font-size:13px;font-weight:600}
+.rec-score{margin-left:auto;font-size:12px;font-weight:600}
+.rec-why{font-size:11px;color:var(--color-text-primary);line-height:1.4;margin-bottom:4px}
+.rec-meta{font-size:10px;color:var(--color-text-secondary)}
+.rec-coverage{font-size:11px;margin-top:8px;color:var(--color-text-secondary)}
+.rec-coverage.ok{color:var(--color-text-success)}
+.rec-coverage.warn{color:var(--color-text-warning)}
 .chart-scroll{overflow-x:hidden;overflow-y:hidden;max-width:100%;margin-bottom:14px}
 .chart-wrap{position:relative;width:100%;height:210px}
 .chart-inner{position:relative;width:100%;height:100%}
@@ -488,6 +539,9 @@ body{padding:24px;background:#fafafa}
     margin-right:12px;
   }
   .tab-body{padding:12px 14px 14px}
+  .best-months-panel{padding:10px}
+  .best-months-head h3{font-size:13px}
+  .rec-chip-row{grid-template-columns:repeat(2,minmax(0,1fr))}
   .legend{gap:10px;flex-wrap:wrap;font-size:11px;margin-bottom:8px}
   .chart-scroll{margin-bottom:10px}
   .chart-wrap{height:178px}
