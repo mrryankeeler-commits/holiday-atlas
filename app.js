@@ -8,6 +8,8 @@ let mapReady = false;
 let mapInitAttempted = false;
 const mapMarkers = new Map();
 const visibleMapMarkerIds = new Set();
+const hoveredMapMarkerIds = new Set();
+const focusedMapMarkerIds = new Set();
 let highlightedMarkerId = null;
 let mapRolloutState = { enabled: false, reason: "" };
 
@@ -186,6 +188,34 @@ function initMap() {
         keyboard: true,
         title: `${loc.city}, ${loc.country}`
       }).addTo(map);
+      marker.bindTooltip(`${loc.city}, ${loc.country}`, {
+        direction: "top",
+        offset: [0, -8]
+      });
+
+      marker.on("mouseover", () => {
+        hoveredMapMarkerIds.add(loc.id);
+        syncMarkerInteractiveState(loc.id);
+        marker.openTooltip();
+      });
+
+      marker.on("mouseout", () => {
+        hoveredMapMarkerIds.delete(loc.id);
+        syncMarkerInteractiveState(loc.id);
+        if (!focusedMapMarkerIds.has(loc.id)) marker.closeTooltip();
+      });
+
+      marker.on("focus", () => {
+        focusedMapMarkerIds.add(loc.id);
+        syncMarkerInteractiveState(loc.id);
+        marker.openTooltip();
+      });
+
+      marker.on("blur", () => {
+        focusedMapMarkerIds.delete(loc.id);
+        syncMarkerInteractiveState(loc.id);
+        if (!hoveredMapMarkerIds.has(loc.id)) marker.closeTooltip();
+      });
 
       marker.on("click", () => {
         selLoc(loc.id);
@@ -212,19 +242,38 @@ function initMap() {
   }
 }
 
+function syncMarkerInteractiveState(id) {
+  if (!mapMarkers.has(id)) return;
+  const marker = mapMarkers.get(id);
+  const markerEl = marker.getElement();
+  if (!markerEl) return;
+  const isHovered = hoveredMapMarkerIds.has(id);
+  const isFocused = focusedMapMarkerIds.has(id);
+  markerEl.classList.toggle("is-hovered", isHovered);
+  markerEl.classList.toggle("is-focused", isFocused);
+  const markerDot = markerEl.querySelector(".dest-marker");
+  if (markerDot) {
+    markerDot.classList.toggle("is-hovered", isHovered);
+    markerDot.classList.toggle("is-focused", isFocused);
+  }
+}
+
+function updateMarkerSelectionState(id, isActive) {
+  if (!mapMarkers.has(id)) return;
+  mapMarkers.get(id).setIcon(mapIcon({
+    isActive,
+    variant: getMarkerVariantById(id)
+  }));
+  syncMarkerInteractiveState(id);
+}
+
 function highlightMapMarker(id) {
   if (!mapReady) return;
   if (highlightedMarkerId && mapMarkers.has(highlightedMarkerId)) {
-    mapMarkers.get(highlightedMarkerId).setIcon(mapIcon({
-      isActive: false,
-      variant: getMarkerVariantById(highlightedMarkerId)
-    }));
+    updateMarkerSelectionState(highlightedMarkerId, false);
   }
   if (id && visibleMapMarkerIds.has(id) && mapMarkers.has(id)) {
-    mapMarkers.get(id).setIcon(mapIcon({
-      isActive: true,
-      variant: getMarkerVariantById(id)
-    }));
+    updateMarkerSelectionState(id, true);
     highlightedMarkerId = id;
     return;
   }
