@@ -1,4 +1,4 @@
-const FEATURE_FLAGS = {
+export const FEATURE_FLAGS = {
   enableMap: true,
   requireMapCoordinateReadinessInProduction: true,
   mapClustering: true,
@@ -9,6 +9,33 @@ const FEATURE_FLAGS = {
 const DEFAULT_MAP_CENTER = [20, 0];
 const DEFAULT_MAP_ZOOM = 2;
 const LOCATION_FOCUS_MIN_ZOOM = 5;
+
+
+export const isValidCoordinatePair = loc => Number.isFinite(loc?.lat)
+  && Number.isFinite(loc?.lng)
+  && loc.lat >= -90
+  && loc.lat <= 90
+  && loc.lng >= -180
+  && loc.lng <= 180;
+
+export const isProductionRuntime = ({ protocol, hostname }) => protocol !== "file:"
+  && !["localhost", "127.0.0.1"].includes(hostname);
+
+export const getMapRolloutState = ({ featureFlags, protocol, hostname, index }) => {
+  if (!featureFlags.enableMap) {
+    return { enabled: false, reason: "Map rollout is currently disabled via feature flag. Browse destinations from the list." };
+  }
+
+  if (
+    featureFlags.requireMapCoordinateReadinessInProduction
+    && isProductionRuntime({ protocol, hostname })
+    && !index.every(isValidCoordinatePair)
+  ) {
+    return { enabled: false, reason: "Map is temporarily disabled until all destination coordinates pass the production readiness gate." };
+  }
+
+  return { enabled: true, reason: "" };
+};
 
 export function createMapController({ getState, getIndex, onMarkerSelect }) {
   let map = null;
@@ -52,28 +79,13 @@ export function createMapController({ getState, getIndex, onMarkerSelect }) {
     fallback.hidden = true;
   };
 
-  const isValidCoordinatePair = loc => Number.isFinite(loc?.lat)
-    && Number.isFinite(loc?.lng)
-    && loc.lat >= -90
-    && loc.lat <= 90
-    && loc.lng >= -180
-    && loc.lng <= 180;
 
-  const isProductionRuntime = () => {
-    const protocol = window.location.protocol;
-    const host = window.location.hostname;
-    return protocol !== "file:" && !["localhost", "127.0.0.1"].includes(host);
-  };
-
-  const getMapRolloutState = () => {
-    if (!FEATURE_FLAGS.enableMap) {
-      return { enabled: false, reason: "Map rollout is currently disabled via feature flag. Browse destinations from the list." };
-    }
-    if (FEATURE_FLAGS.requireMapCoordinateReadinessInProduction && isProductionRuntime() && !getIndex().every(isValidCoordinatePair)) {
-      return { enabled: false, reason: "Map is temporarily disabled until all destination coordinates pass the production readiness gate." };
-    }
-    return { enabled: true, reason: "" };
-  };
+  const getMapRolloutStateForRuntime = () => getMapRolloutState({
+    featureFlags: FEATURE_FLAGS,
+    protocol: window.location.protocol,
+    hostname: window.location.hostname,
+    index: getIndex()
+  });
 
   const applyMapRolloutState = (rolloutState) => {
     const mapEl = document.getElementById("map");
@@ -173,7 +185,7 @@ export function createMapController({ getState, getIndex, onMarkerSelect }) {
 
   return {
     initMap() {
-      const rolloutState = getMapRolloutState();
+      const rolloutState = getMapRolloutStateForRuntime();
       applyMapRolloutState(rolloutState);
       if (!rolloutState.enabled || mapInitAttempted) return;
       mapInitAttempted = true;

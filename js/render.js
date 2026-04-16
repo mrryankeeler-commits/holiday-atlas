@@ -9,6 +9,7 @@ import {
   clbls,
   escapeHtml
 } from "./utils.js";
+import { filterLocations } from "./filtering.js";
 
 export function createRenderer({ getState, getIndex, getLocation, actions, mapController }) {
   let lastSidebarLoc = null;
@@ -17,12 +18,7 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
   const getFilteredLocations = (
     normalizedQuery = normalizeSearchText(getState().query),
     regionFilter = getState().region
-  ) => getIndex().filter(l => {
-    const matchesRegion = regionFilter === "all" || l.region === regionFilter;
-    if (!matchesRegion) return false;
-    if (!normalizedQuery) return true;
-    return [l.city, l.country, l.region].filter(Boolean).some(v => normalizeSearchText(v).includes(normalizedQuery));
-  });
+  ) => filterLocations(getIndex(), { query: normalizedQuery, region: regionFilter });
 
   const resetMainHorizontalOffsets = () => {
     const mainEl = document.getElementById("main");

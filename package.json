@@ -1,0 +1,11 @@
+{
+  "name": "holiday-atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node --check app.js js/*.js tests/unit/*.test.js",
+    "format:check": "node scripts/check_format.mjs",
+    "test:unit": "node --test tests/unit/*.test.js",
+    "test:smoke": "npx -y playwright@1.55.0 test tests/e2e/smoke.spec.js"
+  }
+}

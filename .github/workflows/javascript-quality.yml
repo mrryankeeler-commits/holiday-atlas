@@ -1,0 +1,59 @@
+name: JavaScript quality pipeline
+
+on:
+  pull_request:
+    paths:
+      - "app.js"
+      - "js/**"
+      - "index.html"
+      - "styles.css"
+      - "docs/**/*.md"
+      - "README.md"
+      - "package.json"
+      - "playwright.config.js"
+      - "scripts/check_format.mjs"
+      - "tests/**"
+      - ".github/workflows/javascript-quality.yml"
+  workflow_dispatch:
+
+jobs:
+  lint-format-unit:
+    name: Lint, format, and unit tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Format check
+        run: npm run format:check
+
+      - name: Unit tests
+        run: npm run test:unit
+
+  browser-smoke:
+    name: Browser smoke tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Playwright browser
+        run: npx -y playwright@1.55.0 install --with-deps chromium
+
+      - name: Browser smoke tests
+        run: npm run test:smoke
