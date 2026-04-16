@@ -26,6 +26,12 @@ export const normalizeSearchText = value => String(value ?? "")
 
 export const clamp01 = n => Math.min(1, Math.max(0, n));
 export const isFiniteNumber = n => Number.isFinite(Number(n));
+export const escapeHtml = value => String(value ?? "")
+  .replace(/&/g, "&amp;")
+  .replace(/</g, "&lt;")
+  .replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;")
+  .replace(/'/g, "&#39;");
 
 export function normalizeValue(value, min, max, { invert = false } = {}) {
   if (!isFiniteNumber(value) || !isFiniteNumber(min) || !isFiniteNumber(max) || max === min) return 0.5;

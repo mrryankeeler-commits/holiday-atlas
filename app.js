@@ -14,6 +14,26 @@ const syncViewHash = () => {
 
 let renderer;
 
+const renderErrorState = (message, detail = "") => {
+  const main = document.getElementById("main");
+  if (!main) return;
+
+  const container = document.createElement("div");
+  container.style.padding = "20px";
+  container.style.color = "#8b2e2e";
+
+  const title = document.createElement("strong");
+  title.textContent = message;
+  container.append(title);
+
+  if (detail) {
+    container.append(document.createElement("br"), document.createElement("br"));
+    container.append(document.createTextNode(detail));
+  }
+
+  main.replaceChildren(container);
+};
+
 const setView = (view, { skipHashSync = false } = {}) => {
   stateStore.setView(view);
   if (!skipHashSync) syncViewHash();
@@ -34,7 +54,8 @@ const selectLocation = async (id, options = {}) => {
     await dataStore.loadLocation(id);
     if (stateStore.state.view === "explorer") renderer.renderMain();
   } catch (err) {
-    document.getElementById("main").innerHTML = `<div style="padding:20px;color:#8b2e2e;"><strong>Could not load destination details.</strong><br><br>${id}: ${err.message}</div>`;
+    const detail = `${id}: ${err?.message ?? "Unknown error"}`;
+    renderErrorState("Could not load destination details.", detail);
   }
 };
 
@@ -102,7 +123,7 @@ async function init() {
       stateStore.state.chart?.resize();
     });
   } catch (err) {
-    document.getElementById("main").innerHTML = `<div style="padding:20px;color:#8b2e2e;"><strong>Could not load destination data.</strong><br><br>${err.message}</div>`;
+    renderErrorState("Could not load destination data.", err?.message ?? "Unknown error");
   }
 }
 

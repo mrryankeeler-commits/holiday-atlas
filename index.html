@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://*.tile.openstreetmap.org; connect-src 'self' https://*.tile.openstreetmap.org; font-src 'self' data:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'"
+  />
   <title>Holiday atlas</title>
   <link
     rel="stylesheet"
@@ -25,7 +29,7 @@
           <button id="home-btn" class="hdr-btn" type="button">Home</button>
           <button id="explore-btn" class="hdr-btn" type="button">Explore</button>
         </div>
-        <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
+        <span id="dest-count" class="dest-count">0 destinations</span>
       </div>
     </div>
 
@@ -60,7 +64,7 @@
       </section>
 
       <main class="main" id="main">
-        <div style="padding:20px;font-family:system-ui,sans-serif;color:#666;">
+        <div class="main-loading">
           Loading…
         </div>
       </main>

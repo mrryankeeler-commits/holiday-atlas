@@ -11,6 +11,7 @@ Use this checklist every time you add new destinations.
   - `m`, `avg`, `hi`, `lo`, `daylight`, `cld`, `rain`, `busy`, `ac`, `fl`
 - Do not use `sun`, `rise`, or `set` month keys.
 - Keep enrichment batches small: **max 3 locations per task**.
+- Treat all location JSON as untrusted at render time; never add UI code that writes location fields into `innerHTML` without escaping.
 
 ---
 
@@ -109,6 +110,7 @@ Also manually confirm:
 2. Click each newly added location.
 3. Confirm no “Could not load destination details”.
 4. Confirm tabs load, climate table shows 12 months, and practical info renders.
+5. Confirm data-bearing UI strings render as plain text (no HTML execution from JSON values).
 
 ---
 
