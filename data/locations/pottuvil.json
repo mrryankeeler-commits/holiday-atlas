@@ -1,11 +1,15 @@
 {
   "id": "pottuvil",
   "source": {
-    "climateVerified": false,
-    "climateVerifiedOn": "",
-    "climateVerificationNote": "No climate source URL is linked for this location.",
-    "climate": [],
-    "importedFromCsv": "",
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-16",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/110319/Average-Weather-in-Kalmunai-Sri-Lanka-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_03 - Climate Data.csv",
     "scoring": {
       "reviewedOn": "2026-04-15",
       "profile": "seasonality-inference-v1"
@@ -98,147 +102,147 @@
   "months": [
     {
       "m": "Jan",
-      "avg": 26,
-      "hi": 29,
-      "lo": 24,
-      "cld": 58,
-      "rain": 230,
+      "avg": 27,
+      "hi": 28,
+      "lo": 25,
+      "cld": 63,
+      "rain": 122,
       "busy": 2,
       "ac": 1,
       "fl": 2,
-      "daylight": 6
+      "daylight": 11.7
     },
     {
       "m": "Feb",
       "avg": 27,
-      "hi": 30,
+      "hi": 29,
       "lo": 25,
-      "cld": 50,
-      "rain": 160,
+      "cld": 59,
+      "rain": 71,
       "busy": 2,
       "ac": 1,
       "fl": 2,
-      "daylight": 7
+      "daylight": 11.9
     },
     {
       "m": "Mar",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "cld": 44,
-      "rain": 120,
+      "cld": 59,
+      "rain": 53,
       "busy": 3,
       "ac": 2,
       "fl": 2,
-      "daylight": 8
+      "daylight": 12.1
     },
     {
       "m": "Apr",
       "avg": 29,
       "hi": 32,
       "lo": 27,
-      "cld": 35,
-      "rain": 55,
+      "cld": 73,
+      "rain": 76,
       "busy": 5,
       "ac": 3,
       "fl": 3,
-      "daylight": 9
+      "daylight": 12.3
     },
     {
       "m": "May",
       "avg": 30,
       "hi": 33,
-      "lo": 28,
-      "cld": 28,
-      "rain": 20,
+      "lo": 27,
+      "cld": 84,
+      "rain": 71,
       "busy": 8,
       "ac": 4,
       "fl": 4,
-      "daylight": 10
+      "daylight": 12.5
     },
     {
       "m": "Jun",
-      "avg": 30,
-      "hi": 33,
-      "lo": 28,
-      "cld": 24,
-      "rain": 10,
+      "avg": 31,
+      "hi": 34,
+      "lo": 27,
+      "cld": 88,
+      "rain": 41,
       "busy": 10,
       "ac": 5,
       "fl": 4,
-      "daylight": 10
+      "daylight": 12.5
     },
     {
       "m": "Jul",
-      "avg": 29,
-      "hi": 32,
+      "avg": 30,
+      "hi": 33,
       "lo": 27,
-      "cld": 28,
-      "rain": 20,
+      "cld": 89,
+      "rain": 38,
       "busy": 9,
       "ac": 5,
       "fl": 5,
-      "daylight": 9
+      "daylight": 12.5
     },
     {
       "m": "Aug",
       "avg": 29,
-      "hi": 32,
+      "hi": 33,
       "lo": 27,
-      "cld": 32,
-      "rain": 30,
+      "cld": 87,
+      "rain": 38,
       "busy": 9,
       "ac": 4,
       "fl": 5,
-      "daylight": 8.5
+      "daylight": 12.3
     },
     {
       "m": "Sep",
       "avg": 29,
       "hi": 32,
-      "lo": 27,
-      "cld": 40,
-      "rain": 90,
+      "lo": 26,
+      "cld": 83,
+      "rain": 66,
       "busy": 7,
       "ac": 3,
       "fl": 4,
-      "daylight": 7
+      "daylight": 12.2
     },
     {
       "m": "Oct",
-      "avg": 29,
-      "hi": 32,
-      "lo": 27,
-      "cld": 55,
-      "rain": 240,
-      "busy": 4,
-      "ac": 2,
-      "fl": 3,
-      "daylight": 6
-    },
-    {
-      "m": "Nov",
       "avg": 28,
       "hi": 31,
       "lo": 26,
-      "cld": 64,
-      "rain": 310,
+      "cld": 80,
+      "rain": 142,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3,
+      "daylight": 12.0
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 29,
+      "lo": 25,
+      "cld": 77,
+      "rain": 211,
       "busy": 1,
       "ac": 1,
       "fl": 1,
-      "daylight": 5.5
+      "daylight": 11.8
     },
     {
       "m": "Dec",
       "avg": 27,
-      "hi": 30,
+      "hi": 28,
       "lo": 25,
-      "cld": 65,
-      "rain": 300,
+      "cld": 69,
+      "rain": 196,
       "busy": 1,
       "ac": 1,
       "fl": 3,
-      "daylight": 5.5
+      "daylight": 11.7
     }
   ]
 }

@@ -1,11 +1,15 @@
 {
   "id": "zakopane",
   "source": {
-    "climateVerified": false,
-    "climateVerifiedOn": "",
-    "climateVerificationNote": "No climate source URL is linked for this location.",
-    "climate": [],
-    "importedFromCsv": "",
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-16",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/84820/Average-Weather-in-Zakopane-Poland-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_03 - Climate Data.csv",
     "scoring": {
       "reviewedOn": "2026-04-15",
       "profile": "seasonality-inference-v1"
@@ -104,147 +108,147 @@
   "months": [
     {
       "m": "Jan",
-      "avg": -4,
-      "hi": -1,
-      "lo": -8,
-      "cld": 70,
-      "rain": 85,
+      "avg": -6,
+      "hi": -2,
+      "lo": -9,
+      "cld": 65,
+      "rain": 8,
       "busy": 9,
       "ac": 5,
       "fl": 4,
-      "daylight": 3
+      "daylight": 8.7
     },
     {
       "m": "Feb",
-      "avg": -3,
-      "hi": 0,
-      "lo": -7,
-      "cld": 66,
-      "rain": 75,
+      "avg": -4,
+      "hi": -1,
+      "lo": -8,
+      "cld": 67,
+      "rain": 8,
       "busy": 10,
       "ac": 5,
       "fl": 5,
-      "daylight": 4
+      "daylight": 10.2
     },
     {
       "m": "Mar",
-      "avg": 1,
+      "avg": -1,
       "hi": 4,
-      "lo": -3,
-      "cld": 60,
-      "rain": 85,
+      "lo": -4,
+      "cld": 63,
+      "rain": 18,
       "busy": 7,
       "ac": 4,
       "fl": 3,
-      "daylight": 5
+      "daylight": 12.0
     },
     {
       "m": "Apr",
-      "avg": 6,
-      "hi": 9,
-      "lo": 2,
-      "cld": 56,
-      "rain": 105,
+      "avg": 5,
+      "hi": 10,
+      "lo": 0,
+      "cld": 58,
+      "rain": 38,
       "busy": 4,
       "ac": 2,
       "fl": 2,
-      "daylight": 6
+      "daylight": 13.8
     },
     {
       "m": "May",
-      "avg": 11,
-      "hi": 14,
-      "lo": 7,
-      "cld": 52,
-      "rain": 130,
+      "avg": 10,
+      "hi": 15,
+      "lo": 4,
+      "cld": 55,
+      "rain": 79,
       "busy": 2,
       "ac": 1,
       "fl": 1,
-      "daylight": 7
+      "daylight": 15.4
     },
     {
       "m": "Jun",
-      "avg": 15,
+      "avg": 13,
       "hi": 18,
-      "lo": 11,
-      "cld": 48,
-      "rain": 150,
+      "lo": 7,
+      "cld": 50,
+      "rain": 96,
       "busy": 5,
       "ac": 2,
       "fl": 2,
-      "daylight": 8
+      "daylight": 16.2
     },
     {
       "m": "Jul",
-      "avg": 17,
+      "avg": 15,
       "hi": 20,
-      "lo": 13,
-      "cld": 46,
-      "rain": 150,
+      "lo": 9,
+      "cld": 42,
+      "rain": 102,
       "busy": 8,
       "ac": 4,
       "fl": 3,
-      "daylight": 8
+      "daylight": 15.7
     },
     {
       "m": "Aug",
-      "avg": 17,
-      "hi": 20,
-      "lo": 13,
-      "cld": 48,
-      "rain": 140,
+      "avg": 14,
+      "hi": 19,
+      "lo": 8,
+      "cld": 42,
+      "rain": 81,
       "busy": 8,
       "ac": 4,
       "fl": 4,
-      "daylight": 7
+      "daylight": 14.3
     },
     {
       "m": "Sep",
-      "avg": 13,
-      "hi": 16,
-      "lo": 9,
-      "cld": 54,
-      "rain": 110,
+      "avg": 10,
+      "hi": 15,
+      "lo": 5,
+      "cld": 53,
+      "rain": 66,
       "busy": 5,
       "ac": 3,
       "fl": 2,
-      "daylight": 6
+      "daylight": 12.5
     },
     {
       "m": "Oct",
-      "avg": 8,
-      "hi": 11,
-      "lo": 4,
-      "cld": 60,
-      "rain": 95,
+      "avg": 5,
+      "hi": 10,
+      "lo": 1,
+      "cld": 59,
+      "rain": 43,
       "busy": 3,
       "ac": 2,
       "fl": 1,
-      "daylight": 5
+      "daylight": 10.7
     },
     {
       "m": "Nov",
-      "avg": 2,
-      "hi": 5,
-      "lo": -2,
-      "cld": 68,
-      "rain": 95,
+      "avg": 0,
+      "hi": 3,
+      "lo": -3,
+      "cld": 67,
+      "rain": 23,
       "busy": 1,
       "ac": 1,
       "fl": 1,
-      "daylight": 3.5
+      "daylight": 9.1
     },
     {
       "m": "Dec",
-      "avg": -2,
-      "hi": 1,
-      "lo": -6,
-      "cld": 72,
-      "rain": 90,
+      "avg": -4,
+      "hi": -1,
+      "lo": -7,
+      "cld": 67,
+      "rain": 10,
       "busy": 8,
       "ac": 4,
       "fl": 4,
-      "daylight": 3
+      "daylight": 8.3
     }
   ]
 }
