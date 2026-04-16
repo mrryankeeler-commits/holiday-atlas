@@ -20,6 +20,8 @@ const FEATURE_FLAGS = {
 const DEFAULT_MAP_CENTER = [20, 0];
 const DEFAULT_MAP_ZOOM = 2;
 const LOCATION_FOCUS_MIN_ZOOM = 5;
+const MAP_ZOOM_LOW_MAX = 3;
+const MAP_ZOOM_MID_MAX = 6;
 const MARKER_REGION_VARIANTS = [
   "variant-region-1",
   "variant-region-2",
@@ -63,6 +65,22 @@ function mapIcon({ isActive = false, variant = "variant-default" } = {}) {
     iconSize: [18, 18],
     iconAnchor: [9, 9]
   });
+}
+
+function getMapZoomBand(zoomLevel) {
+  if (!Number.isFinite(zoomLevel)) return "zoom-low";
+  if (zoomLevel <= MAP_ZOOM_LOW_MAX) return "zoom-low";
+  if (zoomLevel <= MAP_ZOOM_MID_MAX) return "zoom-mid";
+  return "zoom-high";
+}
+
+function applyMapZoomClass() {
+  if (!map) return;
+  const mapEl = document.getElementById("map");
+  if (!mapEl) return;
+  const zoomBand = getMapZoomBand(map.getZoom());
+  mapEl.classList.remove("zoom-low", "zoom-mid", "zoom-high");
+  mapEl.classList.add(zoomBand);
 }
 
 function getMarkerVariantForLocation(loc) {
@@ -173,6 +191,8 @@ function initMap() {
       zoomControl: true,
       scrollWheelZoom: true
     }).setView(DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM);
+    applyMapZoomClass();
+    map.on("zoomend", applyMapZoomClass);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
