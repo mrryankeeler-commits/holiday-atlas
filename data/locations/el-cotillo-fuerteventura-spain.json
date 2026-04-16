@@ -1,0 +1,235 @@
+{
+  "id": "el-cotillo-fuerteventura-spain",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-16",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "El Cotillo",
+  "country": "Spain",
+  "region": "Fuerteventura",
+  "desc": "El Cotillo is a strong base for exploring Spain with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "hls": [
+    "Seasonal climate profile benchmarked for El Cotillo",
+    "Year-round planning with monthly trade-offs",
+    "Balanced mix of culture, food, and day-trip potential",
+    "Works for both short breaks and longer stays",
+    "Shoulder-season windows can improve value",
+    "Monthly data supports weather-first trip timing"
+  ],
+  "todo": [
+    {
+      "name": "Walk central El Cotillo",
+      "cat": "City walk",
+      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+    },
+    {
+      "name": "Museum and heritage stop",
+      "cat": "Culture",
+      "desc": "Anchor one cultural visit to understand local history and identity."
+    },
+    {
+      "name": "Local food circuit",
+      "cat": "Food",
+      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+    },
+    {
+      "name": "Scenic viewpoint session",
+      "cat": "Scenic",
+      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+    },
+    {
+      "name": "Nature or coast day trip",
+      "cat": "Nature",
+      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+    },
+    {
+      "name": "Flexible slow day",
+      "cat": "Pacing",
+      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–150 Mbps",
+      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+    },
+    "directGW": false,
+    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
+    "airports": [],
+    "currency": "Check live exchange rates before booking.",
+    "lang": "Local language plus variable English in tourist zones.",
+    "tz": "See destination local timezone.",
+    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "bestFor": [
+      "Weather-timed trips",
+      "Shoulder-season value",
+      "Culture + food",
+      "Flexible itineraries",
+      "Mixed pace travel"
+    ],
+    "alerts": [
+      "Re-check seasonal rainfall and heat risk before locking dates.",
+      "Peak-holiday periods can tighten accommodation inventory early.",
+      "Local transport frequency may drop outside peak season."
+    ]
+  },
+  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 18,
+      "hi": 20,
+      "lo": 15,
+      "daylight": 10.6,
+      "cld": 31,
+      "rain": 10,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 18,
+      "hi": 21,
+      "lo": 15,
+      "daylight": 11.2,
+      "cld": 27,
+      "rain": 13,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 12.0,
+      "cld": 26,
+      "rain": 8,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 19,
+      "hi": 22,
+      "lo": 17,
+      "daylight": 12.9,
+      "cld": 24,
+      "rain": 5,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 21,
+      "hi": 23,
+      "lo": 18,
+      "daylight": 13.6,
+      "cld": 21,
+      "rain": 0,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 22,
+      "hi": 25,
+      "lo": 19,
+      "daylight": 13.9,
+      "cld": 9,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 23,
+      "hi": 27,
+      "lo": 21,
+      "daylight": 13.7,
+      "cld": 2,
+      "rain": 0,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 27,
+      "lo": 22,
+      "daylight": 13.1,
+      "cld": 7,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 24,
+      "hi": 27,
+      "lo": 22,
+      "daylight": 12.3,
+      "cld": 22,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 23,
+      "hi": 26,
+      "lo": 20,
+      "daylight": 11.4,
+      "cld": 34,
+      "rain": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 21,
+      "hi": 23,
+      "lo": 18,
+      "daylight": 10.7,
+      "cld": 36,
+      "rain": 10,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 19,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 10.3,
+      "cld": 34,
+      "rain": 15,
+      "busy": 3,
+      "ac": 2,
+      "fl": 5
+    }
+  ]
+}
