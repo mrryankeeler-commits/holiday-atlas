@@ -49,8 +49,8 @@ function mapIcon(isActive) {
   return L.divIcon({
     className: "",
     html: `<span class="dest-marker ${isActive ? "active" : ""}" aria-hidden="true"></span>`,
-    iconSize: [16, 16],
-    iconAnchor: [8, 8]
+    iconSize: [18, 18],
+    iconAnchor: [9, 9]
   });
 }
 
