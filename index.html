@@ -3,10 +3,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta
-    http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://*.tile.openstreetmap.org; connect-src 'self' https://*.tile.openstreetmap.org; font-src 'self' data:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'"
-  />
   <title>Holiday atlas</title>
   <link
     rel="stylesheet"
@@ -26,10 +22,10 @@
       <div class="app-title">✈ Holiday atlas</div>
       <div class="app-hdr-right">
         <div class="app-hdr-actions" aria-label="App navigation">
-          <button id="home-btn" class="hdr-btn" type="button">Home</button>
-          <button id="explore-btn" class="hdr-btn" type="button">Explore</button>
+          <button id="home-btn" class="hdr-btn" type="button" onclick="goHome()">Home</button>
+          <button id="explore-btn" class="hdr-btn" type="button" onclick="goExplorer()">Explore</button>
         </div>
-        <span id="dest-count" class="dest-count">0 destinations</span>
+        <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
       </div>
     </div>
 
@@ -46,14 +42,13 @@
           placeholder="Search destinations"
           aria-label="Search destinations by city, country, or region"
         />
-        <div id="region-filter" class="region-filter-row" role="toolbar" aria-label="Filter destinations by region" hidden></div>
         <div class="loc-rail-controls" id="loc-rail-controls" aria-hidden="true">
           <button id="loc-rail-prev" class="loc-rail-btn" type="button" aria-label="Scroll destinations left">◀</button>
           <button id="loc-rail-next" class="loc-rail-btn" type="button" aria-label="Scroll destinations right">▶</button>
         </div>
         <div id="loc-list" aria-label="Destination list"></div>
         <div class="sidebar-actions">
-          <button class="add-btn-sb">+ Add destination ↗</button>
+          <button class="add-btn-sb" onclick="addLoc()">+ Add destination ↗</button>
         </div>
       </nav>
 
@@ -65,7 +60,7 @@
       </section>
 
       <main class="main" id="main">
-        <div class="main-loading">
+        <div style="padding:20px;font-family:system-ui,sans-serif;color:#666;">
           Loading…
         </div>
       </main>
@@ -78,6 +73,6 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""
   ></script>
-  <script type="module" src="./app.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>

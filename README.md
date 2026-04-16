@@ -13,28 +13,6 @@ When adding a location, use this structure:
 - `id` **must** be URL-safe lowercase and use dashes only (example: `lisbon-portugal`).
 - `id` in data **must exactly match** the filename (`<id>.json`) and the manifest entry `id`.
 
-## Security: trust boundaries and rendering contract
-
-Location payloads (`data/locations/index.json` and `data/locations/<id>.json`) are repository-controlled content, but they must still be treated as **untrusted input at render time**.
-
-### Trust boundaries
-
-- Trusted:
-  - static app markup in `index.html`
-  - hardcoded UI strings in JavaScript modules
-- Untrusted by default:
-  - all location JSON fields (`city`, `country`, `region`, `desc`, `hls`, `todo`, `prac`, `months`, and any future fields)
-  - URL/hash/search-driven state
-  - error messages from failed fetch/parse operations
-
-### Safe rendering contract (mandatory)
-
-- Prefer DOM construction (`document.createElement`) + `textContent` for data-driven text.
-- If template strings are used, every interpolated data value must be escaped via `escapeHtml` from `js/utils.js` before being inserted into `innerHTML`.
-- Never insert raw JSON values or raw error messages directly into `innerHTML`.
-- Keep interactive behavior in JS modules (event delegation/listeners), not inline HTML event attributes.
-- Keep CSP compatible with the above rules; do not relax `script-src` with `'unsafe-inline'` or `'unsafe-eval'`.
-
 ### Required fields
 
 #### `data/locations/index.json` (manifest entry)
