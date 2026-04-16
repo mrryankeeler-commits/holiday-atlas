@@ -20,7 +20,13 @@
   <div class="app">
     <div class="app-hdr">
       <div class="app-title">✈ Holiday atlas</div>
-      <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
+      <div class="app-hdr-right">
+        <div class="app-hdr-actions" aria-label="App navigation">
+          <button id="home-btn" class="hdr-btn" type="button" onclick="goHome()">Home</button>
+          <button id="explore-btn" class="hdr-btn" type="button" onclick="goExplorer()">Explore</button>
+        </div>
+        <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
+      </div>
     </div>
 
     <div class="app-body">

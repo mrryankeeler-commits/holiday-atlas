@@ -7,6 +7,7 @@ let map = null;
 let mapReady = false;
 let mapInitAttempted = false;
 const mapMarkers = new Map();
+const visibleMapMarkerIds = new Set();
 let highlightedMarkerId = null;
 let mapRolloutState = { enabled: false, reason: "" };
 
@@ -14,6 +15,9 @@ const FEATURE_FLAGS = {
   enableMap: true,
   requireMapCoordinateReadinessInProduction: true
 };
+const DEFAULT_MAP_CENTER = [20, 0];
+const DEFAULT_MAP_ZOOM = 2;
+const LOCATION_FOCUS_MIN_ZOOM = 5;
 
 let S = {
   view: "welcome",
@@ -135,7 +139,7 @@ function initMap() {
     map = L.map(mapEl, {
       zoomControl: true,
       scrollWheelZoom: true
-    }).setView([20, 0], 2);
+    }).setView(DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
@@ -156,6 +160,7 @@ function initMap() {
       });
 
       mapMarkers.set(loc.id, marker);
+      visibleMapMarkerIds.add(loc.id);
     });
 
     if (points.length > 1) {
@@ -165,6 +170,7 @@ function initMap() {
     }
 
     mapReady = true;
+    applyMapFilter(getFilteredLocations(), normalizeSearchText(S.query));
     focusMapOnLocation(S.loc, { pan: false });
     window.setTimeout(() => map?.invalidateSize(), 60);
   } catch (err) {
@@ -179,7 +185,7 @@ function highlightMapMarker(id) {
   if (highlightedMarkerId && mapMarkers.has(highlightedMarkerId)) {
     mapMarkers.get(highlightedMarkerId).setIcon(mapIcon(false));
   }
-  if (id && mapMarkers.has(id)) {
+  if (id && visibleMapMarkerIds.has(id) && mapMarkers.has(id)) {
     mapMarkers.get(id).setIcon(mapIcon(true));
     highlightedMarkerId = id;
     return;
@@ -188,13 +194,19 @@ function highlightMapMarker(id) {
 }
 
 function focusMapOnLocation(id, options = {}) {
-  if (!mapReady || !id || !mapMarkers.has(id)) return;
+  if (!mapReady || !id || !mapMarkers.has(id) || !visibleMapMarkerIds.has(id)) return;
   const marker = mapMarkers.get(id);
   const { pan = true } = options;
   if (pan) {
-    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 4), { duration: 0.55 });
+    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), LOCATION_FOCUS_MIN_ZOOM), { duration: 0.55 });
   }
   highlightMapMarker(id);
+}
+
+function resetMapToHomeViewport() {
+  if (!mapReady) return;
+  map.flyTo(DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, { duration: 0.55 });
+  highlightMapMarker(null);
 }
 
 function applySelectionRenderHooks(options = {}) {
@@ -210,12 +222,7 @@ function rSidebar() {
   const priorRailScroll = isMobile && locListEl ? locListEl.scrollLeft : locRailScrollLeft;
 
   const query = normalizeSearchText(S.query);
-  const filtered = INDEX.filter(l => {
-    if (!query) return true;
-    return [l.city, l.country, l.region]
-      .filter(Boolean)
-      .some(v => normalizeSearchText(v).includes(query));
-  });
+  const filtered = getFilteredLocations(query);
   const activeMissing = Boolean(S.loc) && !filtered.some(l => l.id === S.loc);
   const emptyState = query && filtered.length === 0
     ? `
@@ -239,6 +246,7 @@ function rSidebar() {
   document.getElementById("dest-count").textContent = query
     ? `${filtered.length} of ${INDEX.length} destinations`
     : `${INDEX.length} destinations`;
+  applyMapFilter(filtered, query);
 
   if (isMobile) {
     if (selectedChanged) {
@@ -251,6 +259,51 @@ function rSidebar() {
   updateLocRailControls();
 
   lastSidebarLoc = S.loc;
+}
+
+function getFilteredLocations(normalizedQuery = normalizeSearchText(S.query)) {
+  return INDEX.filter(l => {
+    if (!normalizedQuery) return true;
+    return [l.city, l.country, l.region]
+      .filter(Boolean)
+      .some(v => normalizeSearchText(v).includes(normalizedQuery));
+  });
+}
+
+function applyMapFilter(filteredLocations, normalizedQuery) {
+  if (!mapReady) return;
+  const activeQuery = normalizedQuery ?? normalizeSearchText(S.query);
+  const hasQuery = Boolean(activeQuery);
+  const filteredIds = new Set(filteredLocations.map(loc => loc.id));
+  const visiblePoints = [];
+
+  visibleMapMarkerIds.clear();
+
+  mapMarkers.forEach((marker, id) => {
+    const visible = !hasQuery || filteredIds.has(id);
+    marker.setOpacity(visible ? 1 : 0);
+    if (visible) visibleMapMarkerIds.add(id);
+    const markerEl = marker.getElement();
+    if (markerEl) {
+      markerEl.style.pointerEvents = visible ? "auto" : "none";
+      markerEl.style.visibility = visible ? "visible" : "hidden";
+    }
+    if (visible) visiblePoints.push(marker.getLatLng());
+  });
+
+  if (!visibleMapMarkerIds.has(S.loc)) {
+    highlightMapMarker(null);
+  } else {
+    highlightMapMarker(S.loc);
+  }
+
+  if (!hasQuery || visiblePoints.length === 0) return;
+
+  if (visiblePoints.length === 1) {
+    map.setView(visiblePoints[0], Math.max(map.getZoom(), 4));
+    return;
+  }
+  map.fitBounds(visiblePoints, { padding: [26, 26] });
 }
 
 function scrollActiveLocIntoView() {
@@ -332,6 +385,10 @@ function setView(view, options = {}) {
 
   if (!options.skipHashSync) syncViewHash();
   rMain();
+  syncHeaderNavState();
+  if (S.view === "welcome") {
+    resetMapToHomeViewport();
+  }
 
   if (!changed && options.preserveFocus) return;
 
@@ -343,6 +400,18 @@ function setView(view, options = {}) {
   }
 
   document.getElementById("loc-search")?.focus();
+}
+
+function syncHeaderNavState() {
+  const homeBtn = document.getElementById("home-btn");
+  const exploreBtn = document.getElementById("explore-btn");
+  if (!homeBtn || !exploreBtn) return;
+
+  const onWelcome = S.view === "welcome";
+  homeBtn.classList.toggle("active", onWelcome);
+  exploreBtn.classList.toggle("active", !onWelcome);
+  homeBtn.setAttribute("aria-current", onWelcome ? "page" : "false");
+  exploreBtn.setAttribute("aria-current", !onWelcome ? "page" : "false");
 }
 
 function rWelcome() {
@@ -723,12 +792,15 @@ function initChart() {
 }
 
 async function setSelectedLocation(id, options = {}) {
-  const { panMap = true } = options;
+  const { panMap = true, switchToExplorer = true } = options;
   if (!id || !INDEX.some(loc => loc.id === id)) return;
 
   S.loc = id;
   S.filter = null;
   S.tab = "climate";
+  if (switchToExplorer && S.view !== "explorer") {
+    setView("explorer", { preserveFocus: true });
+  }
   applySelectionRenderHooks({ panMap });
 
   try {
@@ -746,7 +818,7 @@ async function selLoc(id) {
 }
 
 async function selLocFromDeepLink(id) {
-  return setSelectedLocation(id, { panMap: false });
+  return setSelectedLocation(id, { panMap: false, switchToExplorer: false });
 }
 
 function swTab(t) {
@@ -760,6 +832,10 @@ function swTab(t) {
 
 function goExplorer() {
   setView("explorer");
+}
+
+function goHome() {
+  setView("welcome");
 }
 
 function setF(f) {
