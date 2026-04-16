@@ -1,0 +1,565 @@
+Location,Month,Avg temp (°C),Avg high (°C),Avg low (°C),Daylight (h/day),Cloud cover (%),Rainfall (mm),Source URL
+"Cartagena, Colombia",Jan,26.7,30.6,24.4,11.6,49.0,2.5,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Feb,27.2,30.6,24.4,11.8,52.0,2.5,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Mar,27.2,30.6,25.0,12.1,61.0,2.5,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Apr,27.8,30.6,25.6,12.4,80.0,25.4,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",May,28.3,31.1,26.1,12.6,93.0,86.4,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Jun,28.3,31.1,26.1,12.7,94.0,86.4,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Jul,28.3,31.1,26.1,12.7,93.0,91.4,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Aug,28.3,31.1,26.1,12.4,94.0,101.6,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Sep,28.3,31.1,26.1,12.2,95.0,121.9,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Oct,27.8,30.6,25.6,11.9,92.0,154.9,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Nov,27.8,30.6,25.6,11.6,83.0,109.2,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Cartagena, Colombia",Dec,27.2,30.6,25.0,11.5,65.0,35.6,https://weatherspark.com/y/22604/Average-Weather-in-Cartagena-Colombia-Year-Round
+"Rio de Janeiro, Brazil",Jan,27.2,30.6,23.9,13.4,69.0,175.3,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Feb,27.2,31.1,24.4,12.8,65.0,132.1,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Mar,26.7,30.0,23.9,12.2,58.0,129.5,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Apr,25.6,28.3,22.8,11.5,39.0,88.9,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",May,23.3,26.7,20.6,11.0,33.0,61.0,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Jun,22.2,25.6,19.4,10.7,32.0,45.7,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Jul,21.7,25.0,18.9,10.9,30.0,38.1,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Aug,22.2,25.6,18.9,11.4,27.0,35.6,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Sep,22.2,26.1,19.4,12.0,34.0,66.0,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Oct,23.3,26.7,21.1,12.7,49.0,88.9,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Nov,24.4,28.3,22.2,13.2,59.0,147.3,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Rio de Janeiro, Brazil",Dec,26.1,29.4,23.3,13.5,67.0,177.8,https://weatherspark.com/y/30563/Average-Weather-in-Rio-de-Janeiro-Brazil-Year-Round
+"Ghent, Belgium",Jan,3.9,6.1,1.7,8.5,69.0,48.3,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Feb,3.9,6.7,1.7,10.1,64.0,40.6,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Mar,7.2,10.0,3.9,12.0,61.0,38.1,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Apr,10.0,13.9,6.1,13.9,54.0,33.0,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",May,13.3,17.8,9.4,15.6,53.0,43.2,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Jun,16.1,20.0,12.2,16.5,48.0,50.8,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Jul,18.3,22.2,13.9,16.0,43.0,50.8,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Aug,18.3,22.2,13.9,14.4,44.0,48.3,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Sep,15.6,18.9,11.7,12.6,50.0,50.8,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Oct,11.7,14.4,8.3,10.6,58.0,50.8,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Nov,7.2,10.0,5.0,8.9,68.0,53.3,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Ghent, Belgium",Dec,4.4,6.7,2.8,8.0,70.0,55.9,https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round
+"Madeira, Portugal",Jan,16.7,18.9,15.0,10.3,49.0,22.9,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Feb,16.1,18.3,14.4,11.0,45.0,27.9,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Mar,16.7,18.9,14.4,12.0,41.0,22.9,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Apr,17.2,20.0,15.6,13.0,35.0,12.7,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",May,18.9,21.1,16.7,13.9,27.0,7.6,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Jun,20.6,23.3,18.3,14.3,17.0,2.5,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Jul,22.2,25.0,20.0,14.0,6.0,0.0,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Aug,23.3,26.1,21.1,13.3,10.0,2.5,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Sep,22.8,25.6,20.6,12.3,28.0,7.6,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Oct,21.7,23.9,19.4,11.3,43.0,22.9,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Nov,19.4,21.7,17.2,10.5,48.0,30.5,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Madeira, Portugal",Dec,17.8,20.0,16.1,10.0,51.0,33.0,https://weatherspark.com/y/150434/Average-Weather-in-Ilha-da-Madeira-Portugal-Year-Round
+"Tokyo, Japan",Jan,5.6,9.4,2.8,10.1,28.0,48.3,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Feb,6.1,10.0,3.3,10.9,35.0,63.5,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Mar,9.4,12.8,6.1,12.0,45.0,99.1,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Apr,14.4,18.3,11.1,13.1,52.0,111.8,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",May,18.9,22.2,16.1,14.1,58.0,116.8,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Jun,22.2,25.0,20.0,14.5,69.0,152.4,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Jul,25.6,28.9,23.3,14.3,66.0,134.6,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Aug,27.2,30.0,24.4,13.4,52.0,127.0,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Sep,23.9,26.7,21.1,12.4,53.0,185.4,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Oct,18.3,21.1,15.0,11.3,42.0,154.9,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Nov,12.8,16.1,9.4,10.3,34.0,83.8,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Tokyo, Japan",Dec,8.3,11.7,5.0,9.8,26.0,48.3,https://weatherspark.com/y/143809/Average-Weather-in-Tokyo-Japan-Year-Round
+"Phoenix, Arizona, United States",Jan,12.8,19.4,7.8,10.2,34.0,25.4,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Feb,15.0,21.7,9.4,11.0,37.0,27.9,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Mar,18.3,25.6,12.2,12.0,30.0,22.9,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Apr,22.8,30.0,16.1,13.1,25.0,7.6,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",May,27.8,35.0,21.1,13.9,21.0,2.5,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Jun,33.3,40.0,26.1,14.3,16.0,2.5,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Jul,35.0,41.1,29.4,14.1,30.0,15.2,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Aug,33.9,40.0,28.9,13.3,29.0,25.4,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Sep,31.1,37.2,25.0,12.3,16.0,17.8,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Oct,24.4,31.1,18.3,11.3,20.0,12.7,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Nov,17.2,23.9,11.7,10.4,28.0,17.8,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Phoenix, Arizona, United States",Dec,12.8,18.9,7.8,10.0,34.0,25.4,https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round
+"Belize City, Belize",Jan,23.9,27.2,21.7,11.2,23.0,63.5,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Feb,25.0,27.8,22.2,11.6,22.0,35.6,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Mar,25.6,28.9,23.3,12.1,26.0,25.4,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Apr,27.2,30.0,24.4,12.6,40.0,25.4,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",May,28.3,30.6,25.6,13.0,65.0,71.1,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Jun,28.3,31.1,26.1,13.2,83.0,139.7,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Jul,28.3,31.1,26.1,13.0,79.0,111.8,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Aug,28.3,31.1,26.1,12.7,78.0,104.1,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Sep,28.3,31.1,25.6,12.2,83.0,147.3,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Oct,27.2,30.0,24.4,11.7,71.0,160.0,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Nov,25.6,28.9,22.8,11.3,48.0,111.8,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Belize City, Belize",Dec,24.4,27.8,22.2,11.1,32.0,81.3,https://weatherspark.com/y/13042/Average-Weather-in-Belize-City-Belize-Year-Round
+"Bodrum, Turkey",Jan,11.7,14.4,9.4,10.0,40.0,109.2,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Feb,11.7,14.4,9.4,10.9,39.0,104.1,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Mar,13.3,16.7,10.6,12.0,35.0,66.0,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Apr,16.7,20.0,13.3,13.2,32.0,35.6,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",May,20.6,24.4,17.2,14.2,24.0,17.8,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Jun,25.0,28.9,21.1,14.7,7.0,2.5,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Jul,27.2,31.7,23.3,14.4,1.0,0.0,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Aug,27.2,31.1,23.9,13.5,1.0,0.0,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Sep,24.4,27.8,21.1,12.4,11.0,12.7,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Oct,20.6,23.9,17.2,11.2,28.0,38.1,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Nov,16.1,18.9,13.9,10.2,38.0,86.4,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"Bodrum, Turkey",Dec,13.3,15.6,10.6,9.7,41.0,121.9,https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round
+"San Pedro La Laguna, Guatemala",Jan,15.6,22.8,10.0,11.4,23.0,2.5,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Feb,16.7,23.9,10.6,11.7,25.0,5.1,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Mar,17.8,25.0,11.7,12.1,32.0,17.8,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Apr,18.9,25.0,12.8,12.5,57.0,53.3,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",May,18.9,24.4,14.4,12.8,86.0,142.2,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Jun,18.3,23.3,14.4,13.0,94.0,236.2,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Jul,18.3,23.3,13.9,12.9,89.0,200.7,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Aug,18.3,23.3,13.9,12.6,89.0,215.9,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Sep,17.8,22.8,14.4,12.2,92.0,261.6,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Oct,17.8,22.8,13.9,11.8,83.0,190.5,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Nov,16.7,22.8,12.2,11.4,58.0,61.0,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"San Pedro La Laguna, Guatemala",Dec,16.1,22.8,10.6,11.3,33.0,10.2,https://weatherspark.com/y/11148/Average-Weather-in-San-Pedro-La-Laguna-Guatemala-Year-Round
+"Medellín, Colombia",Jan,20.6,25.0,16.7,11.8,81.0,111.8,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Feb,20.6,25.0,17.2,11.9,85.0,116.8,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Mar,20.6,25.6,17.2,12.1,90.0,139.7,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Apr,21.1,25.6,17.8,12.3,94.0,236.2,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",May,21.1,25.6,17.8,12.4,95.0,266.7,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Jun,21.1,25.6,17.2,12.5,90.0,215.9,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Jul,20.6,25.6,16.7,12.4,86.0,190.5,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Aug,20.6,25.6,16.7,12.3,88.0,210.8,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Sep,20.6,25.6,16.7,12.1,92.0,231.1,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Oct,20.0,25.0,17.2,12.0,95.0,261.6,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Nov,20.6,25.0,17.2,11.8,94.0,236.2,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Medellín, Colombia",Dec,20.6,25.0,17.2,11.8,86.0,160.0,https://weatherspark.com/y/22535/Average-Weather-in-Medell%C3%ADn-Colombia-Year-Round
+"Puno, Peru",Jan,10.0,15.0,5.6,12.9,83.0,63.5,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Feb,10.0,15.0,5.0,12.6,82.0,63.5,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Mar,9.4,15.0,4.4,12.2,76.0,43.2,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Apr,8.9,15.0,2.8,11.7,60.0,17.8,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",May,7.8,15.0,-0.6,11.4,45.0,2.5,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Jun,6.1,14.4,-3.3,11.2,39.0,2.5,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Jul,5.6,14.4,-3.9,11.3,31.0,0.0,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Aug,6.7,15.0,-2.2,11.6,33.0,2.5,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Sep,8.3,15.6,1.1,12.0,48.0,10.2,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Oct,10.0,16.1,3.9,12.5,62.0,15.2,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Nov,10.6,16.7,5.0,12.9,69.0,20.3,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Puno, Peru",Dec,10.0,16.1,5.6,13.1,77.0,35.6,https://weatherspark.com/y/26593/Average-Weather-in-Puno-Peru-Year-Round
+"Arequipa, Peru",Jan,16.1,21.1,11.7,13.0,76.0,15.2,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Feb,16.1,21.1,12.2,12.6,78.0,17.8,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Mar,16.1,21.7,11.7,12.2,71.0,10.2,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Apr,16.1,22.2,11.1,11.7,53.0,2.5,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",May,15.6,22.2,10.0,11.3,39.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Jun,15.0,22.2,9.4,11.2,36.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Jul,15.0,21.7,8.9,11.3,29.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Aug,15.6,22.2,9.4,11.6,29.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Sep,16.1,22.8,10.0,12.0,38.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Oct,16.1,22.8,10.6,12.5,50.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Nov,16.1,22.2,10.6,12.9,57.0,0.0,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Arequipa, Peru",Dec,16.1,21.7,11.1,13.1,68.0,2.5,https://weatherspark.com/y/25845/Average-Weather-in-Arequipa-Peru-Year-Round
+"Quetzaltenango, Guatemala",Jan,11.7,18.9,5.6,11.4,24.0,2.5,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Feb,12.2,20.0,6.1,11.7,26.0,5.1,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Mar,13.3,20.6,7.2,12.1,33.0,17.8,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Apr,14.4,21.1,8.9,12.5,59.0,53.3,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",May,14.4,20.0,10.0,12.8,87.0,142.2,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Jun,13.9,18.9,10.6,13.0,95.0,236.2,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Jul,13.9,18.9,10.0,12.9,91.0,198.1,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Aug,13.9,19.4,10.0,12.6,91.0,215.9,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Sep,13.9,18.9,10.6,12.2,94.0,264.2,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Oct,13.3,18.3,9.4,11.8,85.0,188.0,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Nov,12.8,18.9,7.8,11.4,60.0,61.0,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quetzaltenango, Guatemala",Dec,11.7,18.9,6.1,11.3,35.0,10.2,https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round
+"Quito, Ecuador",Jan,13.3,17.8,9.4,11.8,85.0,104.1,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Feb,13.3,17.8,9.4,11.9,90.0,129.5,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Mar,13.3,17.8,9.4,12.1,90.0,147.3,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Apr,13.3,17.8,9.4,12.3,87.0,160.0,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",May,13.3,18.3,9.4,12.4,75.0,96.5,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Jun,13.3,18.3,8.9,12.5,60.0,40.6,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Jul,13.3,18.3,8.9,12.4,53.0,17.8,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Aug,13.3,18.9,8.9,12.3,54.0,15.2,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Sep,13.3,18.9,8.9,12.1,66.0,35.6,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Oct,12.8,18.3,8.9,12.0,79.0,58.4,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Nov,12.8,18.3,8.9,11.8,85.0,66.0,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Quito, Ecuador",Dec,12.8,18.3,9.4,11.8,85.0,76.2,https://weatherspark.com/y/20030/Average-Weather-in-Quito-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Jan,25.0,26.1,23.9,12.2,45.0,27.9,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Feb,26.1,27.2,25.0,12.1,50.0,58.4,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Mar,26.7,27.2,25.6,12.1,49.0,53.3,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Apr,26.1,26.7,25.0,12.1,44.0,48.3,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",May,25.0,26.1,24.4,12.1,45.0,22.9,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Jun,23.9,25.0,23.3,12.1,44.0,12.7,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Jul,22.8,23.9,22.2,12.1,40.0,5.1,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Aug,22.2,22.8,21.1,12.1,38.0,2.5,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Sep,21.7,22.8,21.1,12.1,42.0,0.0,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Oct,22.2,23.3,21.1,12.1,43.0,2.5,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Nov,22.8,23.9,21.7,12.2,41.0,5.1,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Puerto Ayora, Ecuador",Dec,23.3,24.4,22.8,12.2,41.0,15.2,https://weatherspark.com/y/11615/Average-Weather-in-Puerto-Ayora-Ecuador-Year-Round
+"Hội An, Vietnam",Jan,21.7,24.4,19.4,11.3,52,35.6,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Feb,22.8,26.1,20.6,11.6,46,12.7,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Mar,24.4,28.3,22.2,12.1,51,12.7,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Apr,26.7,30.6,23.9,12.5,68,25.4,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",May,28.3,32.8,25.6,12.9,89,58.4,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Jun,29.4,33.9,26.1,13.1,95,61,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Jul,29.4,33.9,26.1,13,93,58.4,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Aug,28.9,33.3,25.6,12.6,94,116.8,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Sep,27.8,31.1,24.4,12.2,88,281.9,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Oct,26.1,28.9,23.3,11.8,75,444.5,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Nov,24.4,27.2,22.2,11.4,62,299.7,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Hội An, Vietnam",Dec,22.2,25,20.6,11.2,56,139.7,https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Jan,15.6,21.1,11.1,11.5,62,10.2,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Feb,16.7,23.3,11.7,11.8,56,2.5,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Mar,18.3,25,13.3,12.1,60,10.2,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Apr,20,26.1,15,12.4,76,20.3,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",May,20,25.6,15.6,12.7,93,63.5,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Jun,19.4,24.4,15.6,12.8,96,73.7,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Jul,19.4,23.9,15.6,12.7,95,71.1,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Aug,18.9,23.9,15.6,12.5,97,76.2,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Sep,18.3,23.3,14.4,12.2,95,119.4,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Oct,17.8,22.2,13.9,11.9,86,142.2,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Nov,16.7,21.1,12.8,11.6,77,114.3,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Đà Lạt, Vietnam",Dec,15.6,20.6,11.7,11.4,68,50.8,https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round
+"Makassar, Indonesia",Jan,26.7,29.4,24.4,12.4,91,368.3,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Feb,26.7,29.4,23.9,12.3,89,307.3,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Mar,26.7,30,23.9,12.1,83,203.2,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Apr,27.2,31.1,24.4,12,79,134.6,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",May,27.8,31.7,24.4,11.9,70,63.5,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Jun,27.2,31.7,23.3,11.8,62,43.2,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Jul,26.7,31.7,22.8,11.9,55,20.3,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Aug,27.2,32.2,22.2,12,52,7.6,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Sep,27.8,32.8,22.8,12.1,57,17.8,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Oct,27.8,32.2,23.3,12.2,71,53.3,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Nov,27.2,31.1,23.9,12.4,85,157.5,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Makassar, Indonesia",Dec,26.7,29.4,24.4,12.4,90,337.8,https://weatherspark.com/y/133108/Average-Weather-in-Makassar-Indonesia-Year-Round
+"Manado, Indonesia",Jan,26.1,29.4,23.3,12,82,218.4,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Feb,26.1,29.4,23.3,12.1,78,195.6,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Mar,26.7,30,23.3,12.1,77,162.6,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Apr,26.7,31.1,23.3,12.1,78,160,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",May,27.2,31.7,23.3,12.2,79,157.5,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Jun,26.7,31.7,23.3,12.2,80,147.3,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Jul,27.2,31.7,23.3,12.2,79,104.1,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Aug,27.2,31.7,23.3,12.2,75,63.5,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Sep,27.2,32.2,22.8,12.1,76,66,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Oct,27.2,31.7,22.8,12.1,79,109.2,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Nov,26.7,31.1,23.3,12.1,85,154.9,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Manado, Indonesia",Dec,26.7,30,23.3,12,86,175.3,https://weatherspark.com/y/140365/Average-Weather-in-Manado-Indonesia-Year-Round
+"Kampot, Cambodia",Jan,26.1,28.9,23.9,11.6,56,12.7,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Feb,26.7,29.4,24.4,11.8,53,15.2,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Mar,27.8,30.6,25.6,12.1,61,35.6,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Apr,28.9,31.7,26.7,12.4,81,86.4,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",May,29.4,32.2,27.2,12.6,91,172.7,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Jun,28.9,31.7,27.2,12.7,92,304.8,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Jul,28.9,31.1,26.7,12.7,91,325.1,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Aug,28.3,30.6,26.7,12.5,92,345.4,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Sep,27.8,30,26.1,12.2,90,332.7,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Oct,28.3,30,26.1,11.9,84,213.4,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Nov,27.8,29.4,25.6,11.6,72,91.4,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",Dec,26.7,28.9,24.4,11.5,60,25.4,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Ronda, Spain",Jan,6.7,11.7,2.8,10,40,53.3,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Feb,7.8,12.8,3.3,10.9,40,48.3,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Mar,10,15.6,5,12,39,40.6,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Apr,11.7,17.2,6.7,13.2,37,38.1,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",May,15,21.1,9.4,14.2,34,20.3,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Jun,18.9,25,12.8,14.6,20,5.1,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Jul,21.7,28.3,15.6,14.4,7,0,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Aug,22.2,28.3,16.1,13.5,13,2.5,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Sep,18.9,25,13.9,12.4,32,15.2,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Oct,15,20,10.6,11.2,43,53.3,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Nov,10,15,6.1,10.2,43,73.7,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Ronda, Spain",Dec,7.8,12.2,3.9,9.7,43,71.1,https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Jan,17.8,20,15.6,11.1,35,12.7,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Feb,18.3,20.6,16.7,11.5,33,10.2,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Mar,20.6,22.8,18.9,12.1,37,22.9,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Apr,23.9,26.7,21.7,12.6,52,43.2,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",May,27.2,30.6,25,13.1,80,114.3,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Jun,29.4,32.8,26.7,13.3,94,132.1,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Jul,29.4,32.8,26.7,13.2,91,165.1,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Aug,28.9,31.7,26.7,12.8,90,215.9,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Sep,28.3,31.1,25.6,12.2,75,213.4,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Oct,26.1,28.9,23.9,11.7,56,119.4,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Nov,23.3,25.6,20.6,11.2,41,50.8,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Hoa Lư / Ninh Bình, Vietnam",Dec,19.4,22.2,17.2,10.9,34,12.7,https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round
+"Tangalla, Sri Lanka",Jan,27.2,30.6,23.9,11.8,65,71.1,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Feb,27.8,31.1,24.4,11.9,61,48.3,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Mar,28.3,31.7,25,12.1,61,61,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Apr,28.3,31.7,25.6,12.3,75,106.7,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",May,28.3,31.1,26.7,12.4,86,111.8,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Jun,28.3,30.6,26.1,12.5,87,66,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Jul,27.8,30.6,26.1,12.4,87,48.3,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Aug,27.8,30,25.6,12.3,86,61,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Sep,27.8,30,25.6,12.1,80,91.4,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Oct,27.2,30,25,12,79,152.4,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Nov,27.2,30,24.4,11.8,78,193,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Tangalla, Sri Lanka",Dec,26.7,30,23.9,11.8,72,127,https://weatherspark.com/y/110071/Average-Weather-in-Tangalla-Sri-Lanka-Year-Round
+"Berat, Albania",Jan,5.6,10.6,1.7,9.6,50,66,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Feb,6.7,11.7,2.2,10.7,50,68.6,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Mar,10,15,4.4,12,48,55.9,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Apr,13.3,18.9,8.3,13.4,45,50.8,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",May,18.3,23.9,12.2,14.5,38,35.6,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Jun,22.8,29.4,15.6,15,22,22.9,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Jul,25.6,32.8,18.3,14.7,8,12.7,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Aug,25,32.2,17.8,13.7,13,22.9,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Sep,20.6,27.2,14.4,12.4,28,55.9,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Oct,15.6,21.7,10.6,11.1,42,81.3,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Nov,10.6,16.1,6.1,9.9,49,101.6,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Berat, Albania",Dec,6.7,11.7,2.8,9.3,51,91.4,https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round
+"Luang Prabang, Laos",Jan,19.4,26.7,14.4,11.1,28,5.1,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Feb,22.2,30.6,15.6,11.5,25,5.1,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Mar,25,32.8,18.9,12.1,34,17.8,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Apr,27.2,33.3,21.7,12.6,52,45.7,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",May,27.2,32.2,23.3,13.1,78,86.4,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Jun,27.2,31.1,23.9,13.3,91,99.1,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Jul,26.7,30.6,23.9,13.2,92,142.2,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Aug,26.7,30.6,23.9,12.8,91,162.6,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Sep,26.1,30.6,23.3,12.2,80,109.2,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Oct,24.4,29.4,21.1,11.7,62,38.1,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Nov,21.7,27.8,17.8,11.2,41,17.8,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Luang Prabang, Laos",Dec,18.9,25.6,14.4,11,30,5.1,https://weatherspark.com/y/114340/Average-Weather-in-Luang-Prabang-Laos-Year-Round
+"Ometepe, Nicaragua",Jan,26.1,29.4,22.8,11.5,26,0,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Feb,26.1,30,22.8,11.8,31,2.5,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Mar,27.2,31.1,23.3,12.1,37,2.5,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Apr,28.3,32.2,24.4,12.4,58,12.7,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",May,28.3,31.7,25,12.7,81,86.4,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Jun,27.8,30.6,25,12.8,87,111.8,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Jul,27.2,30,25,12.7,82,66,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Aug,27.2,30.6,24.4,12.5,82,94,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Sep,27.2,30.6,24.4,12.2,83,160,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Oct,27.2,30,24.4,11.9,80,149.9,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Nov,26.7,30,23.9,11.6,60,48.3,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Ometepe, Nicaragua",Dec,26.7,29.4,23.3,11.5,34,7.6,https://weatherspark.com/y/14926/Average-Weather-in-Altagracia-Nicaragua-Year-Round
+"Barranquilla, Colombia",Jan,26.7,30,24.4,11.6,49,0,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Feb,26.7,30,24.4,11.8,53,0,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Mar,27.2,30.6,25,12.1,61,2.5,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Apr,27.8,31.7,25.6,12.4,80,17.8,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",May,28.3,31.7,25.6,12.6,92,61,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Jun,28.3,31.7,25.6,12.8,92,58.4,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Jul,27.8,31.7,25.6,12.7,89,50.8,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Aug,27.8,31.7,25.6,12.5,92,66,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Sep,27.8,31.7,25,12.2,95,94,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Oct,27.2,31.1,25,11.9,92,121.9,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Nov,27.8,31.1,25,11.6,82,76.2,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Barranquilla, Colombia",Dec,27.2,30.6,25,11.5,65,20.3,https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round
+"Minca, Colombia",Jan,27.8,32.2,23.9,11.6,52,0,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Feb,28.3,32.2,25,11.8,55,0,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Mar,28.9,32.8,25.6,12.1,64,2.5,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Apr,28.9,32.2,26.7,12.4,83,17.8,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",May,29.4,32.2,27.2,12.6,93,61,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Jun,29.4,32.2,26.7,12.8,92,58.4,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Jul,28.9,32.2,26.7,12.7,89,45.7,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Aug,28.9,31.7,26.1,12.5,91,61,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Sep,28.3,31.7,26.1,12.2,95,88.9,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Oct,28.3,31.1,25.6,11.9,93,116.8,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Nov,27.8,31.1,25.6,11.6,84,71.1,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Minca, Colombia",Dec,27.8,31.7,24.4,11.5,67,20.3,https://weatherspark.com/y/149856/Average-Weather-at-Sim%C3%B3n-Bol%C3%ADvar-International-Airport-Colombia-Year-Round
+"Santa Marta, Colombia",Jan,27.2,31.1,23.9,11.6,50,0,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Feb,27.2,31.1,24.4,11.8,54,0,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Mar,27.8,31.1,25,12.1,63,2.5,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Apr,28.3,31.1,26.1,12.4,81,20.3,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",May,28.9,31.1,26.7,12.7,93,66,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Jun,28.9,31.1,26.7,12.8,91,66,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Jul,28.3,31.1,26.1,12.7,87,50.8,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Aug,28.3,31.1,26.1,12.5,91,66,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Sep,28.3,31.1,26.1,12.2,94,101.6,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Oct,27.8,30.6,25.6,11.9,93,134.6,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Nov,27.8,30.6,25.6,11.6,83,78.7,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Santa Marta, Colombia",Dec,27.2,30.6,24.4,11.5,66,22.9,https://weatherspark.com/y/23482/Average-Weather-in-Santa-Marta-Colombia-Year-Round
+"Asunción, Paraguay",Jan,27.8,33.3,22.8,13.5,45,124.5,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Feb,27.2,32.2,22.8,12.9,42,134.6,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Mar,26.1,31.1,21.7,12.2,33,119.4,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Apr,23.3,28.3,18.9,11.5,31,154.9,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",May,19.4,24.4,16.1,10.9,32,114.3,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Jun,17.8,22.8,14.4,10.6,37,73.7,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Jul,17.8,23.3,13.3,10.7,35,48.3,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Aug,19.4,25.6,15,11.3,32,43.2,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Sep,21.1,27.2,16.7,12,32,71.1,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Oct,23.9,29.4,18.9,12.7,38,129.5,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Nov,25.6,31.1,20.6,13.4,38,157.5,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Asunción, Paraguay",Dec,27.2,32.2,22.2,13.7,42,144.8,https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round
+"Bacalar, Mexico",Jan,23.3,28.3,19.4,11.2,23,58.4,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Feb,24.4,29.4,20.6,11.6,22,30.5,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Mar,26.1,30.6,22.2,12.1,25,22.9,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Apr,27.8,31.7,23.9,12.6,37,30.5,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",May,28.3,32.2,25,13,59,81.3,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Jun,28.3,31.7,25.6,13.2,80,154.9,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Jul,28.3,31.7,25,13.1,77,116.8,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Aug,28.3,32.2,25,12.7,77,121.9,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Sep,27.8,31.7,24.4,12.2,81,167.6,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Oct,26.7,30.6,22.8,11.7,67,149.9,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Nov,25,29.4,21.1,11.2,45,83.8,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Bacalar, Mexico",Dec,23.9,28.3,20,11,31,58.4,https://weatherspark.com/y/13050/Average-Weather-in-Bacalar-Mexico-Year-Round
+"Tilcara, Argentina",Jan,11.1,16.1,6.7,13.4,53,147.3,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Feb,11.1,15.6,6.7,12.9,49,147.3,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Mar,10.6,15,5.6,12.2,39,111.8,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Apr,7.8,13.3,2.2,11.5,28,40.6,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",May,4.4,10.6,-1.1,11,28,7.6,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Jun,2.2,9.4,-3.3,10.7,31,2.5,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Jul,2.2,9.4,-4.4,10.9,26,0,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Aug,3.9,11.7,-2.8,11.3,21,2.5,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Sep,6.1,13.9,-0.6,12,21,5.1,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Oct,8.9,15.6,2.2,12.7,27,25.4,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Nov,10.6,16.7,3.9,13.3,31,61,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Tilcara, Argentina",Dec,11.1,16.7,6.1,13.6,42,114.3,https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round
+"Lima, Peru",Jan,22.2,26.1,20,12.7,75,3,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Feb,23.3,26.7,20.6,12.5,79,4,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Mar,22.8,26.7,20,12.1,76,3,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Apr,21.1,24.4,18.3,11.8,53,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",May,18.9,22.2,16.7,11.6,38,0,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Jun,17.8,20.6,16.1,11.4,37,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Jul,17.2,19.4,15.6,11.5,30,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Aug,16.7,19.4,15,11.7,28,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Sep,17.2,19.4,15.6,12,37,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Oct,17.8,20.6,16.1,12.4,51,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Nov,18.9,22.2,17.2,12.7,59,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Lima, Peru",Dec,21.1,24.4,18.3,12.8,69,1,https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/
+"Århus, Denmark",Jan,1.1,2.8,-1.1,7.7,67,35.6,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Feb,1.1,3.3,-1.1,9.6,65,27.9,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Mar,2.8,6.1,0,12,63,30.5,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Apr,6.7,11.1,2.8,14.3,56,27.9,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",May,11.7,15.6,6.7,16.4,49,38.1,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Jun,14.4,18.3,9.4,17.6,46,53.3,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Jul,16.7,20.6,11.7,16.9,44,53.3,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Aug,16.7,20,11.7,15,48,55.9,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Sep,13.3,16.7,9.4,12.7,51,55.9,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Oct,8.9,11.7,6.1,10.3,58,55.9,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Nov,5,7.2,2.8,8.2,66,48.3,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Århus, Denmark",Dec,2.2,3.9,0,7,68,40.6,https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round
+"Kutaisi, Georgia",Jan,5,9.4,1.1,9.5,62,66,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Feb,5.6,11.1,1.1,10.6,61,58.4,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Mar,8.3,14.4,3.9,12,59,55.9,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Apr,13.3,19.4,8.3,13.4,57,53.3,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",May,17.8,23.9,12.8,14.6,48,50.8,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Jun,21.7,27.2,16.7,15.2,28,63.5,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Jul,23.9,29.4,19.4,14.9,10,55.9,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Aug,24.4,29.4,19.4,13.8,9,55.9,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Sep,20.6,26.1,15.6,12.4,25,76.2,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Oct,15.6,20.6,11.1,11,46,86.4,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Nov,10,14.4,5.6,9.8,56,96.5,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Kutaisi, Georgia",Dec,5.6,10.6,2.2,9.1,60,68.6,https://weatherspark.com/y/102441/Average-Weather-in-Kutaisi-Georgia-Year-Round
+"Bishkek, Kyrgyzstan",Jan,-3.9,1.1,-8.3,9.4,58,2.5,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Feb,-2.2,3.3,-6.1,10.6,58,5.1,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Mar,5.6,10.6,0,12,57,20.3,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Apr,12.8,18.3,6.7,13.4,51,33,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",May,17.8,23.9,11.7,14.7,43,35.6,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Jun,22.8,28.9,16.1,15.3,28,22.9,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Jul,25,31.1,17.8,15,15,12.7,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Aug,23.9,30.6,16.1,13.8,11,7.6,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Sep,18.3,25,11.1,12.4,19,12.7,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Oct,11.1,17.2,5,11,37,22.9,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Nov,3.9,9.4,-1.1,9.7,49,17.8,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Bishkek, Kyrgyzstan",Dec,-2.2,3.3,-6.1,9.1,53,5.1,https://weatherspark.com/y/108097/Average-Weather-in-Bishkek-Kyrgyzstan-Year-Round
+"Leh, Kashmir, India",Jan,-9.4,-3.3,-15.6,10.2,55,0,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Feb,-8.3,-2.2,-15,11,61,0,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Mar,-3.3,2.2,-10,12,57,2.5,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Apr,2.8,8.3,-2.8,13.1,48,5.1,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",May,7.2,13.3,1.7,14,32,5.1,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Jun,11.7,18.9,5,14.4,13,7.6,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Jul,15.6,23.3,8.3,14.2,13,12.7,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Aug,15.6,22.8,7.8,13.4,14,15.2,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Sep,10.6,17.8,3.3,12.3,7,7.6,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Oct,3.3,9.4,-1.7,11.3,16,2.5,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Nov,-1.7,3.9,-7.2,10.4,30,0,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Leh, Kashmir, India",Dec,-6.7,-0.6,-12.2,9.9,45,0,https://weatherspark.com/y/109277/Average-Weather-in-Leh-Kashmir-India-Year-Round
+"Reckong Peo, India",Jan,3.9,10,-1.7,10.4,37,15.2,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Feb,5,11.7,-0.6,11.1,40,25.4,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Mar,8.9,15.6,2.8,12,40,22.9,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Apr,13.9,21.1,7.8,13,30,20.3,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",May,18.3,25,11.7,13.8,15,25.4,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Jun,21.1,27.2,15,14.2,12,76.2,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Jul,21.7,26.7,17.2,14,37,157.5,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Aug,20.6,25,16.7,13.2,42,154.9,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Sep,17.8,23.3,12.8,12.3,13,83.8,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Oct,13.3,19.4,7.8,11.4,7,15.2,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Nov,9.4,16.1,4.4,10.5,18,2.5,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Reckong Peo, India",Dec,6.1,12.8,1.1,10.1,31,7.6,https://weatherspark.com/y/109265/Average-Weather-in-Sar%C4%81han-Himachal-Pradesh-India-Year-Round
+"Munnar, Kerala, India",Jan,16.1,21.1,12.2,11.6,51,15.2,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Feb,17.8,23.3,12.8,11.8,48,17.8,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Mar,20,25.6,14.4,12.1,55,30.5,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Apr,20.6,26.1,16.1,12.4,74,66,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",May,20,24.4,16.1,12.6,87,144.8,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Jun,17.8,21.7,15,12.7,94,254,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Jul,17.2,20.6,15,12.6,95,203.2,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Aug,17.2,21.1,15,12.4,94,154.9,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Sep,17.8,21.7,15,12.2,90,154.9,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Oct,17.8,21.7,14.4,11.9,83,203.2,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Nov,17.2,20.6,13.9,11.7,72,132.1,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Munnar, Kerala, India",Dec,16.1,20,12.8,11.5,60,38.1,https://weatherspark.com/y/108945/Average-Weather-in-Munnar-Kerala-India-Year-Round
+"Ulaanbaatar, Mongolia",Jan,-22.8,-16.1,-27.8,8.9,42,0,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Feb,-17.8,-10.6,-24.4,10.3,41,0,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Mar,-8.3,-1.1,-15,12,43,0,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Apr,2.2,8.9,-4.4,13.7,45,2.5,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",May,10,16.7,3.3,15.2,47,15.2,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Jun,16.1,21.7,9.4,16,48,38.1,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Jul,18.3,23.9,12.2,15.5,45,53.3,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Aug,16.1,21.7,9.4,14.2,43,45.7,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Sep,8.9,15.6,2.2,12.5,39,20.3,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Oct,0,6.7,-6.7,10.8,39,5.1,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Nov,-12.2,-6.1,-18.3,9.3,41,0,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Ulaanbaatar, Mongolia",Dec,-20,-14.4,-25,8.5,44,0,https://weatherspark.com/y/117604/Average-Weather-in-Ulan-Bator-Mongolia-Year-Round
+"Antalya, Turkey",Jan,9.4,14.4,5.6,10,41,132.1,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Feb,10,15,6.1,10.9,39,106.7,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Mar,12.8,17.8,7.8,12,34,66,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Apr,16.1,21.1,11.1,13.2,31,48.3,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",May,20.6,25.6,15,14.2,23,27.9,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Jun,25.6,31.1,20,14.7,7,10.2,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Jul,28.9,33.9,22.8,14.4,1,2.5,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Aug,28.9,33.9,22.8,13.5,1,2.5,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Sep,25,31.1,19.4,12.4,8,15.2,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Oct,20.6,26.1,15,11.2,26,50.8,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Nov,14.4,20.6,10,10.2,36,91.4,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"Antalya, Turkey",Dec,11.1,16.1,6.7,9.7,42,137.2,https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round
+"El Cotillo, Fuerteventura, Spain",Jan,17.8,20,15,10.6,31,10.2,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Feb,17.8,20.6,15,11.2,27,12.7,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Mar,18.3,21.1,15.6,12,26,7.6,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Apr,18.9,22.2,16.7,12.9,24,5.1,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",May,20.6,23.3,17.8,13.6,21,0,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Jun,22.2,25,19.4,13.9,9,0,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Jul,23.3,26.7,21.1,13.7,2,0,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Aug,24.4,27.2,21.7,13.1,7,2.5,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Sep,23.9,26.7,21.7,12.3,22,2.5,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Oct,22.8,25.6,20,11.4,34,5.1,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Nov,21.1,23.3,18.3,10.7,36,10.2,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"El Cotillo, Fuerteventura, Spain",Dec,18.9,21.1,16.1,10.3,34,15.2,https://weatherspark.com/y/31764/Average-Weather-in-El-Cotillo-Spain-Year-Round
+"Punta Cana, Dominican Republic",Jan,25,28.3,22.8,11.2,19,30.5,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Feb,25,28.3,22.2,11.6,20,25.4,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Mar,25.6,28.9,22.8,12.1,21,22.9,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Apr,26.1,29.4,23.3,12.6,33,38.1,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",May,26.7,30,24.4,13,62,66,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Jun,27.8,30.6,25,13.2,71,48.3,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Jul,27.8,30.6,25.6,13.1,64,43.2,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Aug,27.8,31.1,25.6,12.7,67,50.8,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Sep,27.8,31.1,25,12.2,70,58.4,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Oct,27.2,30.6,24.4,11.7,66,58.4,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Nov,26.7,29.4,23.9,11.3,46,61,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Punta Cana, Dominican Republic",Dec,25.6,28.3,23.3,11,28,35.6,https://weatherspark.com/y/27410/Average-Weather-in-Punta-Cana-Dominican-Republic-Year-Round
+"Viñales, Cuba",Jan,22.2,25,20.6,10.9,27,35.6,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Feb,22.8,25.6,20.6,11.4,23,33,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Mar,23.3,26.7,21.1,12.1,25,33,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Apr,25,27.8,22.2,12.7,32,35.6,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",May,26.1,28.9,23.9,13.2,48,83.8,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Jun,27.2,30,25,13.5,72,116.8,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Jul,28.3,30.6,25.6,13.4,69,81.3,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Aug,28.3,31.1,25.6,12.9,70,96.5,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Sep,27.8,30.6,25.6,12.2,72,119.4,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Oct,26.7,28.9,24.4,11.6,56,88.9,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Nov,24.4,26.7,22.8,11,39,40.6,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Viñales, Cuba",Dec,23.3,25.6,21.7,10.8,32,25.4,https://weatherspark.com/y/16174/Average-Weather-in-Vi%C3%B1ales-Cuba-Year-Round
+"Havana, Cuba",Jan,21.7,25.6,17.8,10.9,28,33,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Feb,22.2,26.1,18.3,11.4,23,33,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Mar,22.8,27.2,18.9,12.1,26,33,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Apr,24.4,28.3,20.6,12.7,32,33,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",May,25.6,30,22.2,13.3,48,66,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Jun,26.7,30.6,23.9,13.5,70,96.5,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Jul,27.2,31.7,23.9,13.4,67,63.5,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Aug,27.2,31.7,23.9,12.9,67,81.3,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Sep,26.7,31.1,23.9,12.2,69,96.5,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Oct,25.6,29.4,22.8,11.6,55,81.3,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Nov,23.9,27.8,20.6,11,38,45.7,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Havana, Cuba",Dec,22.2,26.1,18.9,10.7,32,30.5,https://weatherspark.com/y/16780/Average-Weather-in-Havana-Cuba-Year-Round
+"Placencia, Belize",Jan,23.9,26.7,22.2,11.3,24,86.4,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Feb,24.4,27.2,22.8,11.6,23,58.4,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Mar,25.6,27.8,23.3,12.1,26,40.6,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Apr,26.7,28.9,24.4,12.5,44,33,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",May,27.8,30,25.6,12.9,70,63.5,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Jun,28.3,30.6,26.1,13.1,85,124.5,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Jul,27.8,30,26.1,13,80,127,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Aug,27.8,30.6,26.1,12.6,79,116.8,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Sep,27.8,30.6,25.6,12.2,85,139.7,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Oct,27.2,30,25,11.7,74,157.5,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Nov,25.6,28.3,23.9,11.4,51,132.1,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Placencia, Belize",Dec,25,27.2,22.8,11.2,32,109.2,https://weatherspark.com/y/13038/Average-Weather-in-Placencia-Belize-Year-Round
+"Dahab, Egypt",Jan,17.2,22.8,11.7,10.6,19,2.5,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Feb,18.3,23.9,12.8,11.2,18,2.5,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Mar,21.7,27.2,16.1,12,17,2.5,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Apr,25.6,31.1,20,12.9,20,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",May,28.9,34.4,23.3,13.6,17,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Jun,31.7,37.2,26.1,13.9,3,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Jul,33.3,38.9,27.8,13.7,3,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Aug,33.3,38.9,28.3,13.1,3,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Sep,31.7,36.7,26.7,12.3,2,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Oct,27.8,32.8,22.8,11.4,12,0,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Nov,22.8,27.8,17.2,10.7,21,2.5,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
+"Dahab, Egypt",Dec,18.3,23.9,12.8,10.4,23,2.5,https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round
