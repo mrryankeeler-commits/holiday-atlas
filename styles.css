@@ -79,18 +79,36 @@ body{padding:24px;background:#fafafa}
   font-family:var(--font-sans);
 }
 .dest-marker{
-  width:12px;
-  height:12px;
-  border:2px solid #fff;
+  width:18px;
+  height:18px;
+  border:3px solid #fff;
   border-radius:50%;
   background:#2f74d0;
-  box-shadow:0 0 0 1px rgba(0,0,0,0.25);
-  transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease;
+  box-shadow:
+    0 0 0 2px rgba(10,16,26,0.68),
+    0 0 0 5px rgba(255,255,255,0.82);
+  transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, border-color .18s ease;
 }
 .dest-marker.active{
-  background:#d85a30;
-  transform:scale(1.35);
-  box-shadow:0 0 0 2px rgba(216,90,48,0.35);
+  background:#7a1f13;
+  border-color:#ffd8cc;
+  transform:scale(1.5);
+  box-shadow:
+    0 0 0 3px rgba(122,31,19,0.86),
+    0 0 0 7px rgba(255,238,233,0.95);
+}
+.dest-marker:hover{
+  transform:scale(1.2);
+  box-shadow:
+    0 0 0 2px rgba(10,16,26,0.78),
+    0 0 0 6px rgba(255,255,255,0.92);
+}
+.leaflet-marker-icon:focus-visible .dest-marker{
+  transform:scale(1.26);
+  border-color:#fff7b1;
+  box-shadow:
+    0 0 0 3px rgba(22,34,54,0.85),
+    0 0 0 7px rgba(255,247,177,0.95);
 }
 .sb-lbl{font-size:10px;font-weight:500;color:var(--color-text-secondary);padding:12px 12px 6px;letter-spacing:.07em;text-transform:uppercase}
 .loc-search{
