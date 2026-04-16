@@ -159,6 +159,23 @@ def _slugify(value: str) -> str:
     return value.strip("-")
 
 
+def _sanitize_location_id(raw_id: str, *, allow_existing_slug: bool = True) -> str:
+    """Return a safe kebab-case id suitable for file paths."""
+    text = str(raw_id).strip()
+    if not text:
+        raise ValueError("Location id cannot be empty")
+    if "/" in text or "\\" in text:
+        raise ValueError(f"Location id must not contain path separators: {raw_id!r}")
+    sanitized = _slugify(text)
+    if not sanitized:
+        raise ValueError(f"Location id is invalid after sanitization: {raw_id!r}")
+    if allow_existing_slug:
+        return sanitized
+    if sanitized != text:
+        raise ValueError(f"Location id must already be kebab-case: {raw_id!r}")
+    return sanitized
+
+
 def _token_key(value: str) -> str:
     parts = [p for p in _slugify(value).split("-") if p]
     return "-".join(sorted(parts))
@@ -267,15 +284,16 @@ def _build_new_location_payload(
         "hls": [],
         "todo": [],
         "prac": {
-            "directGW": "",
+            "directGW": False,
             "visa": "",
             "currency": "",
             "alerts": [],
-            "wifi": {"r": "", "notes": ""},
-            "sim": "",
-            "safety": "",
+            "wifi": {"r": 0, "spd": "", "note": ""},
+            "fltNote": "",
+            "airports": [],
             "lang": "",
-            "power": "",
+            "tz": "",
+            "bestFor": [],
         },
         "sweet": "Apr-Jun,Sep-Oct",
         "months": months,
@@ -405,9 +423,9 @@ def _stage_unknown_location(
     first = rows[0] if rows else {}
     city, country = _parse_location_fields(first, args)
     payload = {
-        "id": _slugify(unresolved_id),
+        "id": _sanitize_location_id(unresolved_id),
         # Keep provenance for staged records; this metadata is internal and not rendered in UI.
-        "source": str(source_file),
+        "source": source_file.name,
         "city": city,
         "country": country,
         "region": str(first.get(args.region_col, "")).strip() or "",
@@ -442,7 +460,7 @@ def import_combined_csv(input_file: Path, args: argparse.Namespace) -> list[str]
             continue
 
         if args.create_missing:
-            grouped_resolved.setdefault(_slugify(loc_id), []).extend(loc_rows)
+            grouped_resolved.setdefault(_sanitize_location_id(loc_id), []).extend(loc_rows)
             continue
 
         staged_path = _stage_unknown_location(loc_id, loc_rows, input_file, args)
@@ -468,16 +486,17 @@ def import_combined_csv(input_file: Path, args: argparse.Namespace) -> list[str]
 
 def resolve_targets(args: argparse.Namespace) -> list[tuple[str, Path]]:
     if args.input_file:
-        loc_id = args.location_id or args.input_file.stem
+        loc_id = _sanitize_location_id(args.location_id or args.input_file.stem)
         return [(loc_id, args.input_file)]
 
     if args.location_id:
-        target = args.input_dir / f"{args.location_id}.csv"
+        location_id = _sanitize_location_id(args.location_id)
+        target = args.input_dir / f"{location_id}.csv"
         if not target.exists():
-            raise FileNotFoundError(f"Missing CSV for id '{args.location_id}': {target}")
-        return [(args.location_id, target)]
+            raise FileNotFoundError(f"Missing CSV for id '{location_id}': {target}")
+        return [(location_id, target)]
 
-    return sorted((path.stem, path) for path in args.input_dir.glob("*.csv"))
+    return sorted((_sanitize_location_id(path.stem), path) for path in args.input_dir.glob("*.csv"))
 
 
 def main() -> int:

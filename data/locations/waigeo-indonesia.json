@@ -30,18 +30,23 @@
     "Join an early birdwatching excursion inland"
   ],
   "prac": {
-    "directGW": "No direct UK flights; common access via Jakarta or Makassar to Sorong, then ferry/boat.",
+    "directGW": true,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Indonesian Rupiah (IDR)",
     "alerts": [],
     "wifi": {
-      "r": "Moderate",
-      "notes": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
+      "r": 0,
+      "spd": "",
+      "note": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
     },
     "sim": "Buy an eSIM/local SIM in arrival city for best coverage and data value.",
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Indonesian (Bahasa Indonesia) plus local Papuan languages",
-    "power": "Type C/F, 230V"
+    "power": "Type C/F, 230V",
+    "fltNote": "",
+    "airports": [],
+    "tz": "",
+    "bestFor": []
   },
   "sweet": "Oct-Apr",
   "months": [

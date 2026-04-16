@@ -30,18 +30,23 @@
     "Soak in hot pools after sunset"
   ],
   "prac": {
-    "directGW": "No direct UK flights; route via Auckland/Christchurch then domestic transfer.",
+    "directGW": true,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "New Zealand Dollar (NZD)",
     "alerts": [],
     "wifi": {
-      "r": "Moderate",
-      "notes": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
+      "r": 0,
+      "spd": "",
+      "note": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
     },
     "sim": "Buy an eSIM/local SIM in arrival city for best coverage and data value.",
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "English and Māori",
-    "power": "Type I, 230V"
+    "power": "Type I, 230V",
+    "fltNote": "",
+    "airports": [],
+    "tz": "",
+    "bestFor": []
   },
   "sweet": "Nov-Mar",
   "months": [
