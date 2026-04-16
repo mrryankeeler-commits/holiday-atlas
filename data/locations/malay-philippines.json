@@ -25,9 +25,21 @@
     "Easy island-hopping and short boat transfers"
   ],
   "todo": [
-    "Spend a day on White Beach and nearby coves",
-    "Try snorkeling or paddleboarding in calmer months",
-    "Take a sunset paraw-style sailing trip"
+    {
+      "cat": "Beach",
+      "name": "White Beach day",
+      "desc": "Base on Boracay for swimming, shoreline walks, and sunset viewpoints along White Beach."
+    },
+    {
+      "cat": "Water sports",
+      "name": "Snorkel or paddleboard",
+      "desc": "Use calmer-season mornings for reef snorkeling, SUP, or beginner-friendly sessions."
+    },
+    {
+      "cat": "Boat trip",
+      "name": "Sunset paraw sailing",
+      "desc": "Take a traditional paraw cruise for sunset photography and breezier evening conditions."
+    }
   ],
   "prac": {
     "directGW": false,
@@ -43,10 +55,34 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Filipino and English",
     "power": "Type A/B/C, 220V",
-    "fltNote": "No direct UK flights to Malay/Boracay access airports; typical itineraries connect via Manila, Cebu, or regional hubs.",
-    "airports": [],
+    "fltNote": "No direct London Gatwick flights; most UK itineraries connect via Manila or Cebu, then continue to Caticlan (MPH) or Kalibo (KLO).",
+    "airports": [
+      {
+        "name": "Godofredo P. Ramos Airport (Caticlan)",
+        "code": "MPH",
+        "km": 6,
+        "dgw": false
+      },
+      {
+        "name": "Kalibo International Airport",
+        "code": "KLO",
+        "km": 58,
+        "dgw": false
+      },
+      {
+        "name": "Mactan-Cebu International Airport",
+        "code": "CEB",
+        "km": 180,
+        "dgw": false
+      }
+    ],
     "tz": "",
-    "bestFor": []
+    "bestFor": [
+      "Beach holidays",
+      "Couples",
+      "Water activities",
+      "Short transfer trips"
+    ]
   },
   "sweet": "Dec-May",
   "months": [

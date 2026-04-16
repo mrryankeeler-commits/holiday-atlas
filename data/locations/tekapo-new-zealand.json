@@ -25,9 +25,21 @@
     "Day trips to Aoraki / Mount Cook tracks and viewpoints"
   ],
   "todo": [
-    "Stargaze from Mount John at night",
-    "Walk sections of the Hooker Valley Track on a clear day",
-    "Soak in hot pools after sunset"
+    {
+      "cat": "Stargazing",
+      "name": "Mount John night session",
+      "desc": "Join a dark-sky stargazing or observatory session when skies are clear and moonlight is low."
+    },
+    {
+      "cat": "Hiking",
+      "name": "Hooker Valley Track day trip",
+      "desc": "Drive to Aoraki / Mount Cook and walk the valley track for suspension bridges and glacier views."
+    },
+    {
+      "cat": "Wellness",
+      "name": "Tekapo Springs soak",
+      "desc": "Use evening hot pools after outdoor activities, especially in cooler shoulder and winter months."
+    }
   ],
   "prac": {
     "directGW": false,
@@ -43,10 +55,34 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "English and Māori",
     "power": "Type I, 230V",
-    "fltNote": "No direct UK flights to Tekapo; fly via Christchurch (or Queenstown) with one or more long-haul connections.",
-    "airports": [],
+    "fltNote": "No direct London Gatwick flights; typical routing is UK to Christchurch (CHC) via one or two long-haul connections, then a 3-hour drive/shuttle.",
+    "airports": [
+      {
+        "name": "Richard Pearse Airport (Timaru)",
+        "code": "TIU",
+        "km": 103,
+        "dgw": false
+      },
+      {
+        "name": "Christchurch International Airport",
+        "code": "CHC",
+        "km": 226,
+        "dgw": false
+      },
+      {
+        "name": "Queenstown Airport",
+        "code": "ZQN",
+        "km": 256,
+        "dgw": false
+      }
+    ],
     "tz": "",
-    "bestFor": []
+    "bestFor": [
+      "Stargazing",
+      "Road trips",
+      "Alpine scenery",
+      "Hikers"
+    ]
   },
   "sweet": "Nov-Mar",
   "months": [

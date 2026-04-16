@@ -25,9 +25,21 @@
     "AlUla region experiences and guided heritage tours"
   ],
   "todo": [
-    "Visit Qasr al-Farid and key tomb clusters",
-    "Take a guided heritage interpretation tour",
-    "Plan a sunset stop at a desert viewpoint"
+    {
+      "cat": "Heritage",
+      "name": "Explore Hegra tomb clusters",
+      "desc": "Visit Qasr al-Farid and nearby Nabataean facades with marked heritage stops."
+    },
+    {
+      "cat": "Guided tour",
+      "name": "Book an archaeological guide",
+      "desc": "Join a licensed interpretation tour to understand inscriptions, trade routes, and conservation rules."
+    },
+    {
+      "cat": "Scenic",
+      "name": "Sunset desert viewpoint",
+      "desc": "Plan a late-afternoon stop at a sandstone overlook for cooler temperatures and golden-hour light."
+    }
   ],
   "prac": {
     "directGW": false,
@@ -43,10 +55,34 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Arabic (English common in tourism settings)",
     "power": "Type G, 230V",
-    "fltNote": "No direct UK flights to AlUla/Hegra; typically connect via Riyadh or Jeddah.",
-    "airports": [],
+    "fltNote": "No direct London Gatwick flights; practical routing is LGW/UK to Riyadh or Jeddah, then a domestic hop to AlUla (ULH).",
+    "airports": [
+      {
+        "name": "Prince Abdul Majeed bin Abdulaziz International Airport (AlUla)",
+        "code": "ULH",
+        "km": 28,
+        "dgw": false
+      },
+      {
+        "name": "Prince Mohammad bin Abdulaziz International Airport (Madinah)",
+        "code": "MED",
+        "km": 330,
+        "dgw": false
+      },
+      {
+        "name": "King Abdulaziz International Airport (Jeddah)",
+        "code": "JED",
+        "km": 640,
+        "dgw": false
+      }
+    ],
     "tz": "",
-    "bestFor": []
+    "bestFor": [
+      "Archaeology fans",
+      "Desert landscapes",
+      "Photographers",
+      "Guided heritage trips"
+    ]
   },
   "sweet": "Nov-Mar",
   "months": [
