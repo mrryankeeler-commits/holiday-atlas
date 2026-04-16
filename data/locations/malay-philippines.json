@@ -20,36 +20,59 @@
   "region": "Aklan (Boracay gateway)",
   "desc": "Malay municipality includes Boracay access points and nearby coastal areas, combining beach time, water activities, and island transfers.",
   "hls": [
-    "Gateway to Boracay's White Beach and water sports",
-    "Mix of dry-season beach weather and shoulder-season value windows",
-    "Easy island-hopping and short boat transfers"
+    "Gateway to Boracay via Caticlan with short boat transfers",
+    "White Beach sunsets, calm-water swimming, and long sandy walks",
+    "Bulabog Beach wind season for kiteboarding and watersports",
+    "Island-hopping to coves, snorkeling spots, and cliff viewpoints",
+    "Lively dining and nightlife balanced by quieter shoulder months",
+    "Wide range of stays from hostels to upscale beachfront resorts"
   ],
   "todo": [
     {
       "cat": "Beach",
-      "name": "White Beach day",
-      "desc": "Base on Boracay for swimming, shoreline walks, and sunset viewpoints along White Beach."
+      "name": "Sunrise walk on White Beach",
+      "desc": "Start early before crowds build, then swim while sea conditions are usually calmer."
     },
     {
       "cat": "Water sports",
-      "name": "Snorkel or paddleboard",
-      "desc": "Use calmer-season mornings for reef snorkeling, SUP, or beginner-friendly sessions."
+      "name": "Try kitesurfing at Bulabog Beach",
+      "desc": "Book a beginner lesson in windy season months when side-onshore conditions are most reliable."
     },
     {
-      "cat": "Boat trip",
-      "name": "Sunset paraw sailing",
-      "desc": "Take a traditional paraw cruise for sunset photography and breezier evening conditions."
+      "cat": "Snorkeling",
+      "name": "Join a Crocodile Island boat trip",
+      "desc": "Take a half-day island-hopping route with guided reef stops and gear included."
+    },
+    {
+      "cat": "Wellness",
+      "name": "Puka Beach and north-coast chill day",
+      "desc": "Head north for a less built-up shoreline and slower pace away from central stations."
+    },
+    {
+      "cat": "Sunset cruise",
+      "name": "Ride a traditional paraw",
+      "desc": "Sail at golden hour for skyline views, then return for dinner on the beachfront path."
+    },
+    {
+      "cat": "Food",
+      "name": "Sample D'Mall and Station 2 eateries",
+      "desc": "Plan a casual food crawl mixing Filipino grills, seafood, and late-night dessert spots."
     }
   ],
   "prac": {
     "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Philippine Peso (PHP)",
-    "alerts": [],
+    "alerts": [
+      "Southwest monsoon (roughly June to October) can bring rough seas, rain interruptions, and occasional canceled boat activities.",
+      "Christmas, Lunar New Year, Holy Week, and long Philippine holiday weekends push room rates up sharply.",
+      "Caticlan jetty queues and terminal fees add transfer time; allow buffer when connecting to flights.",
+      "Beach management rules (smoking/drinking zones, closures for weather) are enforced and can affect plans."
+    ],
     "wifi": {
-      "r": 0,
-      "spd": "",
-      "note": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
+      "r": 4,
+      "spd": "30–150 Mbps",
+      "note": "Most Boracay hotels, cafes, and cowork-friendly spots offer solid fiber or 5G internet, though brownouts and weather can cause brief drops during stormy months."
     },
     "sim": "Buy an eSIM/local SIM in arrival city for best coverage and data value.",
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
@@ -76,12 +99,14 @@
         "dgw": false
       }
     ],
-    "tz": "",
+    "tz": "PHT (UTC+8)",
     "bestFor": [
       "Beach holidays",
       "Couples",
       "Water activities",
-      "Short transfer trips"
+      "Short transfer trips",
+      "Friends getaways",
+      "Remote-work beach weeks"
     ]
   },
   "sweet": "Dec-May",

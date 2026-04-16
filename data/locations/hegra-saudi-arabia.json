@@ -20,36 +20,59 @@
   "region": "AlUla, Al Madinah Region",
   "desc": "Hegra (Madain Salih) is Saudi Arabia's first UNESCO World Heritage Site, with monumental Nabataean tombs set in desert landscapes.",
   "hls": [
-    "Nabataean carved tomb facades and desert archaeology",
-    "Dramatic sandstone outcrops and sunrise/sunset light",
-    "AlUla region experiences and guided heritage tours"
+    "UNESCO-listed Nabataean tomb facades at Hegra (Madain Salih)",
+    "Iconic Qasr al-Farid monolith tomb in open desert scenery",
+    "Dadan and Jabal Ikmah inscriptions in the wider AlUla heritage zone",
+    "Dramatic sandstone canyons and golden-hour desert photography",
+    "Luxury desert camps and design-led resorts around AlUla oasis",
+    "Low light pollution for crisp desert night skies in cooler months"
   ],
   "todo": [
     {
-      "cat": "Heritage",
-      "name": "Explore Hegra tomb clusters",
-      "desc": "Visit Qasr al-Farid and nearby Nabataean facades with marked heritage stops."
+      "cat": "Archaeology",
+      "name": "Take the Hegra vintage Land Rover tour",
+      "desc": "Book the official guided route between major tomb clusters to hear Nabataean history and conservation context."
     },
     {
-      "cat": "Guided tour",
-      "name": "Book an archaeological guide",
-      "desc": "Join a licensed interpretation tour to understand inscriptions, trade routes, and conservation rules."
+      "cat": "Heritage",
+      "name": "Visit Dadan and Jabal Ikmah",
+      "desc": "Combine ancient kingdoms ruins with open-air inscriptions and rock art in the AlUla valley."
     },
     {
       "cat": "Scenic",
-      "name": "Sunset desert viewpoint",
-      "desc": "Plan a late-afternoon stop at a sandstone overlook for cooler temperatures and golden-hour light."
+      "name": "Sunrise at Harrat Viewpoint",
+      "desc": "Arrive early for cooler temperatures and wide volcanic plateau panoramas over AlUla oasis."
+    },
+    {
+      "cat": "Adventure",
+      "name": "Walk AlUla Old Town and Oasis Trail",
+      "desc": "Pair restored mudbrick lanes with a shaded palm-grove walk before late-afternoon heat."
+    },
+    {
+      "cat": "Culture",
+      "name": "Attend an evening performance at Maraya area",
+      "desc": "Check seasonal events for concerts, exhibitions, or cultural programming in the AlUla calendar."
+    },
+    {
+      "cat": "Stargazing",
+      "name": "Desert astronomy session",
+      "desc": "Join a guided telescope or storytelling session after dinner in a low-light desert camp."
     }
   ],
   "prac": {
     "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Saudi Riyal (SAR)",
-    "alerts": [],
+    "alerts": [
+      "Outdoor sightseeing is toughest from June to September; start at dawn and avoid exposed sites at midday.",
+      "Hegra access is controlled via timed tickets and licensed transport; same-day slots can sell out in peak winter weeks.",
+      "Ramadan and Eid periods can shift opening hours, dining schedules, and internal flight prices.",
+      "Domestic flights to AlUla are limited; weather or operational delays can affect tight onward connections."
+    ],
     "wifi": {
-      "r": 0,
-      "spd": "",
-      "note": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
+      "r": 3,
+      "spd": "15–80 Mbps",
+      "note": "Hotels and cafes in AlUla town usually have workable 4G/5G-backed Wi-Fi, but speeds drop on heritage shuttles and in remote desert camps around Hegra."
     },
     "sim": "Buy an eSIM/local SIM in arrival city for best coverage and data value.",
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
@@ -76,12 +99,14 @@
         "dgw": false
       }
     ],
-    "tz": "",
+    "tz": "AST (UTC+3)",
     "bestFor": [
       "Archaeology fans",
       "Desert landscapes",
       "Photographers",
-      "Guided heritage trips"
+      "Guided heritage trips",
+      "Luxury soft-adventure",
+      "Culture-focused short breaks"
     ]
   },
   "sweet": "Nov-Mar",

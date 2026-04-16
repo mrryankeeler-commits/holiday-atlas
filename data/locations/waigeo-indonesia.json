@@ -20,36 +20,59 @@
   "region": "Raja Ampat, Southwest Papua",
   "desc": "Waigeo is one of the main Raja Ampat islands, popular for coral-rich diving, limestone karst scenery, and wildlife encounters.",
   "hls": [
-    "World-class Raja Ampat reefs and marine biodiversity",
-    "Piaynemo/Wayag-style karst viewpoints (by boat trips)",
-    "Excellent birding, including birds-of-paradise habitats"
+    "Raja Ampat coral gardens with exceptional marine biodiversity",
+    "Manta ray, reef shark, and turtle sightings on guided snorkel/dives",
+    "Piaynemo-style limestone karst panoramas and lagoon lookouts",
+    "Dawn bird-of-paradise watching in Waigeo forest habitats",
+    "Remote eco-resorts and homestays over clear shallow reefs",
+    "Rich macro life and healthy soft corals for underwater photographers"
   ],
   "todo": [
     {
-      "cat": "Snorkeling & diving",
-      "name": "Reef sessions in Raja Ampat",
-      "desc": "Join guided snorkel or dive trips to coral-rich sites with strong marine biodiversity."
+      "cat": "Diving",
+      "name": "Two-tank day trip from Waigeo",
+      "desc": "Head to guide-selected sites based on current and visibility for pelagic action and reef walls."
     },
     {
-      "cat": "Island-hopping",
-      "name": "Karst viewpoint boat day",
-      "desc": "Take a longboat route to limestone viewpoints and lagoons around nearby islets."
+      "cat": "Snorkeling",
+      "name": "Friwen or Yenbuba reef drift",
+      "desc": "Join a local boat for current-aware snorkeling over shallow coral gardens and fish schools."
+    },
+    {
+      "cat": "Viewpoint",
+      "name": "Piaynemo karst climb",
+      "desc": "Start early for cooler weather and fewer boats at the iconic staircase panorama."
     },
     {
       "cat": "Wildlife",
-      "name": "Bird-of-paradise excursion",
-      "desc": "Start pre-dawn with a local guide for inland birdwatching on Waigeo."
+      "name": "Bird-of-paradise dawn trek",
+      "desc": "Meet local guides before sunrise for forest hides and best chances of courtship displays."
+    },
+    {
+      "cat": "Culture",
+      "name": "Visit a Papuan village homestay",
+      "desc": "Learn local fishing rhythms, sago-based meals, and community-led conservation projects."
+    },
+    {
+      "cat": "Kayaking",
+      "name": "Paddle mangrove channels",
+      "desc": "Use calm morning windows to kayak through limestone-fringed inlets and hidden coves."
     }
   ],
   "prac": {
     "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Indonesian Rupiah (IDR)",
-    "alerts": [],
+    "alerts": [
+      "Heavy rain and choppy seas (often June to September) can delay speedboats and reduce underwater visibility.",
+      "Inter-island logistics depend on Sorong arrivals; missed domestic connections may force overnight stays.",
+      "Diving permits, marine park fees, and boat fuel surcharges can significantly raise trip costs.",
+      "Cash access is limited outside Sorong/Waisai; many remote properties do not accept cards reliably."
+    ],
     "wifi": {
-      "r": 0,
-      "spd": "",
-      "note": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
+      "r": 2,
+      "spd": "5–30 Mbps",
+      "note": "Internet on Waigeo is usable in Sorong-facing resorts and some homestays, but many islands rely on patchy mobile signal, generator hours, and weather-affected links."
     },
     "sim": "Buy an eSIM/local SIM in arrival city for best coverage and data value.",
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
@@ -76,12 +99,14 @@
         "dgw": false
       }
     ],
-    "tz": "",
+    "tz": "WIT (UTC+9)",
     "bestFor": [
       "Divers",
       "Snorkelers",
       "Marine wildlife",
-      "Remote island adventure"
+      "Remote island adventure",
+      "Underwater photographers",
+      "Eco-travelers"
     ]
   },
   "sweet": "Oct-Apr",
