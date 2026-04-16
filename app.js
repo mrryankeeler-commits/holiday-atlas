@@ -3,6 +3,11 @@ const LOC_CACHE = {};
 let locRailScrollLeft = 0;
 let lastSidebarLoc = null;
 let locRailControlsBound = false;
+let map = null;
+let mapReady = false;
+let mapInitAttempted = false;
+const mapMarkers = new Map();
+let highlightedMarkerId = null;
 
 let S = {
   view: "welcome",
@@ -29,6 +34,100 @@ const normalizeSearchText = value => String(value ?? "")
   .trim()
   .replace(/\s+/g, " ")
   .toLowerCase();
+
+function mapIcon(isActive) {
+  return L.divIcon({
+    className: "",
+    html: `<span class="dest-marker ${isActive ? "active" : ""}" aria-hidden="true"></span>`,
+    iconSize: [16, 16],
+    iconAnchor: [8, 8]
+  });
+}
+
+function showMapFallback(message) {
+  const fallback = document.getElementById("map-fallback");
+  if (!fallback) return;
+  fallback.textContent = message;
+  fallback.hidden = false;
+}
+
+function initMap() {
+  if (mapInitAttempted) return;
+  mapInitAttempted = true;
+
+  const mapEl = document.getElementById("map");
+  if (!mapEl) return;
+
+  if (!window.L) {
+    showMapFallback("Map library failed to load. You can still browse destinations from the list.");
+    return;
+  }
+
+  try {
+    map = L.map(mapEl, {
+      zoomControl: true,
+      scrollWheelZoom: true
+    }).setView([20, 0], 2);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    const points = INDEX.filter(l => Number.isFinite(l.lat) && Number.isFinite(l.lng));
+
+    points.forEach(loc => {
+      const marker = L.marker([loc.lat, loc.lng], {
+        icon: mapIcon(loc.id === S.loc),
+        keyboard: true,
+        title: `${loc.city}, ${loc.country}`
+      }).addTo(map);
+
+      marker.on("click", () => {
+        selLoc(loc.id);
+      });
+
+      mapMarkers.set(loc.id, marker);
+    });
+
+    if (points.length > 1) {
+      map.fitBounds(points.map(loc => [loc.lat, loc.lng]), { padding: [26, 26] });
+    } else if (points.length === 1) {
+      map.setView([points[0].lat, points[0].lng], 7);
+    }
+
+    mapReady = true;
+    focusMapOnLocation(S.loc, { pan: false });
+    window.setTimeout(() => map?.invalidateSize(), 60);
+  } catch (err) {
+    console.error(err);
+    showMapFallback("Map failed to initialize. You can still browse destinations from the list.");
+    mapReady = false;
+  }
+}
+
+function highlightMapMarker(id) {
+  if (!mapReady) return;
+  if (highlightedMarkerId && mapMarkers.has(highlightedMarkerId)) {
+    mapMarkers.get(highlightedMarkerId).setIcon(mapIcon(false));
+  }
+  if (id && mapMarkers.has(id)) {
+    mapMarkers.get(id).setIcon(mapIcon(true));
+    highlightedMarkerId = id;
+    return;
+  }
+  highlightedMarkerId = null;
+}
+
+function focusMapOnLocation(id, options = {}) {
+  if (!mapReady || !id || !mapMarkers.has(id)) return;
+  const marker = mapMarkers.get(id);
+  const { pan = true } = options;
+  if (pan) {
+    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 4), { duration: 0.55 });
+  }
+  highlightMapMarker(id);
+}
 
 function rSidebar() {
   const locListEl = document.getElementById("loc-list");
@@ -554,6 +653,7 @@ async function selLoc(id) {
   S.filter = null;
   S.tab = "climate";
   rSidebar();
+  focusMapOnLocation(id);
 
   try {
     await loadLocation(id);
@@ -722,6 +822,11 @@ async function init() {
     if (!Array.isArray(INDEX) || INDEX.length === 0) {
       throw new Error("Location index data is empty or invalid.");
     }
+    INDEX = INDEX.map(loc => ({
+      ...loc,
+      lat: Number(loc.lat),
+      lng: Number(loc.lng)
+    }));
 
     const searchInput = document.getElementById("loc-search");
     if (searchInput) {
@@ -764,10 +869,12 @@ async function init() {
         updateLocRailControls();
         resetMainHorizontalOffsets();
         S.chart?.resize();
+        map?.invalidateSize();
       });
       locRailControlsBound = true;
     }
     rSidebar();
+    initMap();
 
     try {
       await loadLocation(S.loc);
