@@ -18,7 +18,7 @@
   "city": "Makunduchi",
   "country": "Tanzania",
   "region": "Zanzibar",
-  "desc": "Jambiani is a laid-back village on Zanzibar's southeast coast, known for broad tidal beaches, seaweed farms, and dhow-dotted horizons. It is best for slow island rhythms, kitesurfing seasons, and low-key beach stays rather than full-service resort nightlife.",
+  "desc": "Makunduchi is a laid-back area on Zanzibar's southeast coast, known for broad tidal beaches, seaweed farms, and dhow-dotted horizons. It is best for slow island rhythms, kitesurfing seasons, and low-key beach stays rather than full-service resort nightlife.",
   "hls": [
     "Long white-sand beach with dramatic tides",
     "Authentic village atmosphere vs. larger resorts",
@@ -29,7 +29,7 @@
   ],
   "todo": [
     {
-      "name": "Walk Jambiani beach at low tide",
+      "name": "Walk the southeast coast beach at low tide",
       "cat": "Nature",
       "desc": "See turquoise shallows and local seaweed farms exposed by the wide tidal range."
     },
@@ -66,7 +66,7 @@
       "note": "Beach lodges typically provide basic Wi-Fi; mobile data is often the more dependable option for calls and uploads."
     },
     "directGW": false,
-    "fltNote": "Reach Jambiani via Zanzibar Airport (ZNZ), then transfer about 1-1.5 hours by road. UK routings are usually one-stop via major Gulf, East African, or European hubs. Return fares are often ~£420-£700 off-peak, ~£700-£980 in shoulder demand, and ~£980+ around festive peaks.",
+    "fltNote": "Reach Makunduchi via Zanzibar Airport (ZNZ), then transfer about 1-1.5 hours by road. UK routings are usually one-stop via major Gulf, East African, or European hubs. Return fares are often ~£420-£700 off-peak, ~£700-£980 in shoulder demand, and ~£980+ around festive peaks.",
     "airports": [
       {
         "name": "Abeid Amani Karume International Airport (Zanzibar)",
