@@ -61,6 +61,140 @@ Roll out map functionality safely while preserving the current destination-list 
 - If enhanced controls regress UX/performance, fall back to Phase 2 read-only marker experience.
 - Preserve map/list synchronization contract even when enhancements are disabled.
 
+### Phase 3 execution tickets (prioritized)
+
+Delivery order:
+1. Marker visibility/differentiation
+2. Clustering
+3. Region filters
+4. Responsive split tuning
+
+#### P3-1 — Marker prominence refresh
+**Priority:** P0 (ship first)
+
+**Engineering tasks**
+- Increase default marker legibility at baseline zoom (size, stroke/contrast, z-index layering).
+- Add explicit selected-marker prominence treatment that remains visible over nearby markers.
+- Ensure list-selection to marker-selection sync is instant and idempotent.
+- Keep fallback behavior unchanged when map enhancements are disabled.
+
+**Measurable acceptance criteria**
+- At initial `#explorer` load, ≥95% of non-overlapping markers are visually distinguishable at default zoom.
+- Selecting from list or map updates the same destination state within one interaction (no double-click required).
+- Selected marker style remains visually distinct against surrounding markers at all desktop breakpoints.
+- With enhancement toggle off, Phase 2 marker rendering and list browsing still function without JS errors (fallback integrity).
+
+**QA checklist (manual in `#explorer`)**
+1. Open `#explorer` with marker enhancements enabled.
+2. Without zooming, visually confirm markers are readable against the basemap.
+3. Click a list item; verify the corresponding marker becomes highlighted immediately.
+4. Click a different marker; verify sidebar selection and detail panel update to the same destination.
+5. Disable marker-enhancement toggle; reload `#explorer`; verify Phase 2 behavior still works and no console errors appear.
+
+**Completion notes / rollback toggle**
+- Shipped increment: Marker prominence baseline and selected-state contrast refresh.
+- Rollback toggle used: `featureFlags.mapMarkerProminence` (set `false` to return to Phase 2 marker styling).
+
+#### P3-2 — Marker differentiation
+**Priority:** P0 (ship first, paired with P3-1)
+
+**Engineering tasks**
+- Differentiate marker states (`default`, `hover`, `selected`, `filtered-out`) with non-color-only cues.
+- Ensure state legend/tooltip copy (if present) aligns with marker semantics.
+- Preserve keyboard reachability to selected destination context when state changes originate from keyboard navigation.
+
+**Measurable acceptance criteria**
+- Each marker state is distinguishable by at least two signals (e.g., size + outline, not only color).
+- Keyboard selection of list items updates marker state and keeps focused list item visible.
+- Filtered-out markers are either hidden or de-emphasized consistently with active filter state, with no stale highlighted marker.
+- With differentiation toggle off, map remains usable with base Phase 2 interaction model (fallback integrity).
+
+**QA checklist (manual in `#explorer`)**
+1. Open `#explorer` and Tab into destination list.
+2. Use keyboard to change selected destination; verify marker selected-state updates.
+3. Hover/click markers and verify `default/hover/selected` visual differences are clear.
+4. Apply and clear a region filter; verify filtered marker states update consistently and no stale highlight remains.
+5. Disable marker-differentiation toggle; reload and verify Phase 2 interactions still work.
+
+**Completion notes / rollback toggle**
+- Shipped increment: Marker state differentiation for hover/selected/filtered semantics.
+- Rollback toggle used: `featureFlags.mapMarkerDifferentiation` (set `false` to use Phase 2 state styling).
+
+#### P3-3 — Clustering
+**Priority:** P1 (ship after marker visibility/differentiation)
+
+**Engineering tasks**
+- Add cluster layer for dense marker regions with click-to-expand behavior.
+- Keep selected destination discoverable when cluster state changes (zoom/pan/filter).
+- Ensure cluster feature is independently toggleable from base marker rendering.
+
+**Measurable acceptance criteria**
+- At zoom levels where marker collisions exceed threshold, clusters render and reduce overlap.
+- Selecting a destination from list while clustered resolves to visible selected context (auto-zoom, expansion, or focus cue).
+- Keyboard users can still reach selected destination context and return focus to list controls.
+- With clustering toggle off, map reverts cleanly to non-clustered Phase 2 marker mode (fallback integrity).
+
+**QA checklist (manual in `#explorer`)**
+1. Open `#explorer` at default zoom with clustering enabled.
+2. Verify dense areas show cluster symbols instead of stacked overlapping markers.
+3. Click a cluster; verify expansion/zoom behavior reveals child markers.
+4. Select a destination from the list that is in a clustered area; verify selected destination becomes discoverable on map.
+5. Disable clustering toggle; reload and confirm individual markers render without cluster artifacts.
+
+**Completion notes / rollback toggle**
+- Shipped increment: Cluster rendering and expand interaction for dense map areas.
+- Rollback toggle used: `featureFlags.mapClustering` (set `false` to revert to unclustered markers).
+
+#### P3-4 — Region filter sync
+**Priority:** P1 (ship after clustering)
+
+**Engineering tasks**
+- Add region filter controls and bind filter state to both list and map layers.
+- Synchronize selected destination behavior when active selection becomes filtered out.
+- Preserve keyboard navigation order and announcements/context for filter-driven updates.
+
+**Measurable acceptance criteria**
+- Changing region filter updates visible list rows and markers in the same render cycle.
+- Selection sync rule is deterministic when filter excludes active destination (clear selection or move to first visible item per spec, consistently).
+- Keyboard users can tab to filters, apply/change filters, and continue to list items without focus loss.
+- With region-filter toggle off, explorer retains Phase 2 selection + map/list sync behavior (fallback integrity).
+
+**QA checklist (manual in `#explorer`)**
+1. Open `#explorer`; note currently selected destination.
+2. Apply a region filter that includes the selected destination; verify list and markers both narrow to that region.
+3. Apply a region filter that excludes selected destination; verify deterministic selection behavior per spec.
+4. Use keyboard only (Tab/Shift+Tab/Enter/Space) to change filters and then select a list item; verify focus continuity.
+5. Disable region-filter toggle; reload and verify full list/marker set returns with Phase 2 behavior.
+
+**Completion notes / rollback toggle**
+- Shipped increment: Region filter controls with synchronized map/list filtering.
+- Rollback toggle used: `featureFlags.mapRegionFilters` (set `false` to disable filters and restore full set).
+
+#### P3-5 — Responsive split tuning
+**Priority:** P2 (ship last)
+
+**Engineering tasks**
+- Tune desktop split ratios and mobile stacking so key explorer controls remain visible.
+- Remove clipping/overflow regressions in map panel, list panel, and detail content.
+- Validate keyboard reachability across responsive breakpoints after layout changes.
+
+**Measurable acceptance criteria**
+- No horizontal clipping in `#explorer` at common widths (320, 375, 768, 900, 1280).
+- Map and list remain independently usable at mobile widths; critical controls stay visible without overlap.
+- Keyboard tab sequence reaches filters, list, selected destination context, and detail tabs at each tested breakpoint.
+- With split-tuning toggle off, prior Phase 3 layout remains available and functional (fallback integrity).
+
+**QA checklist (manual in `#explorer`)**
+1. Open `#explorer` and test widths: 1280, 900, 768, 375, 320.
+2. At each width, verify no clipped controls/text in map panel, filter bar, list, and detail area.
+3. At each width, complete keyboard tab pass across filters → list → selected destination context → tabs.
+4. Trigger selection changes from both map and list; verify no overlap/overflow occurs during updates.
+5. Disable split-tuning toggle; reload and verify previous layout mode renders correctly.
+
+**Completion notes / rollback toggle**
+- Shipped increment: Responsive split and overflow corrections across desktop/mobile explorer layouts.
+- Rollback toggle used: `featureFlags.mapResponsiveSplitTuning` (set `false` to restore prior split behavior).
+
 ---
 
 ## Production data readiness gate
