@@ -3,516 +3,688 @@
     "id": "andorra-la-vella",
     "city": "Andorra la Vella",
     "country": "Andorra",
-    "region": "Central Andorra"
+    "region": "Central Andorra",
+    "lat": 42.5063,
+    "lng": 1.5218
   },
   {
     "id": "antigua-guatemala",
     "city": "Antigua",
     "country": "Guatemala",
-    "region": "Sacatepéquez, Guatemalan Highlands"
+    "region": "Sacatepéquez, Guatemalan Highlands",
+    "lat": 14.5597,
+    "lng": -90.7347
   },
   {
     "id": "astana",
     "city": "Astana",
     "country": "Kazakhstan",
-    "region": "Northern Kazakhstan"
+    "region": "Northern Kazakhstan",
+    "lat": 51.1694,
+    "lng": 71.4491
   },
   {
     "id": "athens",
     "city": "Athens",
     "country": "Greece",
-    "region": "Attica, Greece"
+    "region": "Attica, Greece",
+    "lat": 37.9838,
+    "lng": 23.7275
   },
   {
     "id": "auckland-new-zealand",
     "city": "Auckland",
     "country": "New Zealand",
-    "region": "North Island"
+    "region": "North Island",
+    "lat": -36.8509,
+    "lng": 174.7645
   },
   {
     "id": "bergen",
     "city": "Bergen",
     "country": "Norway",
-    "region": "Western Norway"
+    "region": "Western Norway",
+    "lat": 60.3913,
+    "lng": 5.3221
   },
   {
     "id": "bled",
     "city": "Bled",
     "country": "Slovenia",
-    "region": "Upper Carniola"
+    "region": "Upper Carniola",
+    "lat": 46.3692,
+    "lng": 14.1136
   },
   {
     "id": "bolivar-venezuela",
     "city": "Bolívar",
     "country": "Venezuela",
-    "region": "Guayana Region"
+    "region": "Guayana Region",
+    "lat": 8.1222,
+    "lng": -63.5497
   },
   {
     "id": "braga",
     "city": "Braga",
     "country": "Portugal",
-    "region": "Northern Portugal"
+    "region": "Northern Portugal",
+    "lat": 41.5454,
+    "lng": -8.4265
   },
   {
     "id": "brasov-romania",
     "city": "Brașov",
     "country": "Romania",
-    "region": "Transylvania"
+    "region": "Transylvania",
+    "lat": 45.6579,
+    "lng": 25.6012
   },
   {
     "id": "bratislava",
     "city": "Bratislava",
     "country": "Slovakia",
-    "region": "Western Slovakia"
+    "region": "Western Slovakia",
+    "lat": 48.1486,
+    "lng": 17.1077
   },
   {
     "id": "brno-czechia",
     "city": "Brno",
     "country": "Czechia",
-    "region": "South Moravia"
+    "region": "South Moravia",
+    "lat": 49.1951,
+    "lng": 16.6068
   },
   {
     "id": "budapest",
     "city": "Budapest",
     "country": "Hungary",
-    "region": "Central Hungary"
+    "region": "Central Hungary",
+    "lat": 47.4979,
+    "lng": 19.0402
   },
   {
     "id": "budva",
     "city": "Budva",
     "country": "Montenegro",
-    "region": "Montenegrin Coast"
+    "region": "Montenegrin Coast",
+    "lat": 42.2864,
+    "lng": 18.84
   },
   {
     "id": "cairo",
     "city": "Cairo",
     "country": "Egypt",
-    "region": "Lower Egypt"
+    "region": "Lower Egypt",
+    "lat": 30.0444,
+    "lng": 31.2357
   },
   {
     "id": "catania",
     "city": "Catania",
     "country": "Italy",
-    "region": "Southern Italy"
+    "region": "Southern Italy",
+    "lat": 37.5079,
+    "lng": 15.083
   },
   {
     "id": "chengdu",
     "city": "Chengdu",
     "country": "China",
-    "region": "Sichuan, Southwest China"
+    "region": "Sichuan, Southwest China",
+    "lat": 30.5728,
+    "lng": 104.0668
   },
   {
     "id": "colombo",
     "city": "Colombo",
     "country": "Sri Lanka",
-    "region": "Western Sri Lanka"
+    "region": "Western Sri Lanka",
+    "lat": 6.9271,
+    "lng": 79.8612
   },
   {
     "id": "copenhagen",
     "city": "Copenhagen",
     "country": "Denmark",
-    "region": "Zealand"
+    "region": "Zealand",
+    "lat": 55.6761,
+    "lng": 12.5683
   },
   {
     "id": "darjeeling",
     "city": "Darjeeling",
     "country": "India",
-    "region": "West Bengal, India"
+    "region": "West Bengal, India",
+    "lat": 27.041,
+    "lng": -88.2663
   },
   {
     "id": "dubai-uae",
     "city": "Dubai",
     "country": "United Arab Emirates",
-    "region": "Dubai Emirate"
+    "region": "Dubai Emirate",
+    "lat": 25.2048,
+    "lng": 55.2708
   },
   {
     "id": "dubrovnik",
     "city": "Dubrovnik",
     "country": "Croatia",
-    "region": "Adriatic Balkans"
+    "region": "Adriatic Balkans",
+    "lat": 42.6507,
+    "lng": 18.0944
   },
   {
     "id": "faro",
     "city": "Faro",
     "country": "Portugal",
-    "region": "Algarve"
+    "region": "Algarve",
+    "lat": 37.0194,
+    "lng": -7.9304
   },
   {
     "id": "florence",
     "city": "Florence",
     "country": "Italy",
-    "region": "Tuscany, Central Italy"
+    "region": "Tuscany, Central Italy",
+    "lat": 43.7696,
+    "lng": 11.2558
   },
   {
     "id": "gdansk",
     "city": "Gdansk",
     "country": "Poland",
-    "region": "Pomerania, Poland"
+    "region": "Pomerania, Poland",
+    "lat": 54.352,
+    "lng": 18.6466
   },
   {
     "id": "goa",
     "city": "Goa",
     "country": "India",
-    "region": "Western India"
+    "region": "Western India",
+    "lat": 15.2993,
+    "lng": 74.124
   },
   {
     "id": "goreme",
     "city": "Göreme",
     "country": "Turkey",
-    "region": "Straddling Europe & Asia"
+    "region": "Straddling Europe & Asia",
+    "lat": 38.6431,
+    "lng": 34.8284
   },
   {
     "id": "granada",
     "city": "Granada",
     "country": "Spain",
-    "region": "Andalusia"
+    "region": "Andalusia",
+    "lat": 37.1773,
+    "lng": -3.5986
   },
   {
     "id": "graz-austria",
     "city": "Graz",
     "country": "Austria",
-    "region": "Styria"
+    "region": "Styria",
+    "lat": 47.0707,
+    "lng": 15.4395
   },
   {
     "id": "guilin",
     "city": "Guilin",
     "country": "China",
-    "region": "Guangxi, South China"
+    "region": "Guangxi, South China",
+    "lat": 25.2742,
+    "lng": 110.29
   },
   {
     "id": "ha-giang",
     "city": "Ha Giang",
     "country": "Vietnam",
-    "region": "Northern Vietnam"
+    "region": "Northern Vietnam",
+    "lat": 22.8233,
+    "lng": 104.9836
   },
   {
     "id": "hegra-saudi-arabia",
     "city": "Hegra",
     "country": "Saudi Arabia",
-    "region": "AlUla, Al Madinah Region"
+    "region": "AlUla, Al Madinah Region",
+    "lat": 26.7987,
+    "lng": 37.9572
   },
   {
     "id": "hurghada",
     "city": "Hurghada",
     "country": "Egypt",
-    "region": "Red Sea Coast"
+    "region": "Red Sea Coast",
+    "lat": 27.2579,
+    "lng": 33.8116
   },
   {
     "id": "ilha-de-sao-miguel-azores-portugal",
     "city": "Ilha de São Miguel",
     "country": "Portugal",
-    "region": "Azores, North Atlantic"
+    "region": "Azores, North Atlantic",
+    "lat": 37.7412,
+    "lng": -25.6756
   },
   {
     "id": "istanbul",
     "city": "Istanbul",
     "country": "Turkey",
-    "region": "Straddling Europe & Asia"
+    "region": "Straddling Europe & Asia",
+    "lat": 41.0082,
+    "lng": 28.9784
   },
   {
     "id": "jaipur-india",
     "city": "Jaipur",
     "country": "India",
-    "region": "Rajasthan"
+    "region": "Rajasthan",
+    "lat": 26.9124,
+    "lng": 75.7873
   },
   {
     "id": "kandy",
     "city": "Kandy",
     "country": "Sri Lanka",
-    "region": "Central Sri Lanka"
+    "region": "Central Sri Lanka",
+    "lat": 7.2906,
+    "lng": 80.6337
   },
   {
     "id": "katowice",
     "city": "Katowice",
     "country": "Poland",
-    "region": "Silesia, Poland"
+    "region": "Silesia, Poland",
+    "lat": 50.2649,
+    "lng": 19.0238
   },
   {
     "id": "kaunas-lithuania",
     "city": "Kaunas",
     "country": "Lithuania",
-    "region": "Central Lithuania"
+    "region": "Central Lithuania",
+    "lat": 54.8985,
+    "lng": 23.9036
   },
   {
     "id": "kotor",
     "city": "Kotor",
     "country": "Montenegro",
-    "region": "Western Balkans"
+    "region": "Western Balkans",
+    "lat": 42.4247,
+    "lng": 18.7712
   },
   {
     "id": "krakow",
     "city": "Krakow",
     "country": "Poland",
-    "region": "Lesser Poland"
+    "region": "Lesser Poland",
+    "lat": 50.0647,
+    "lng": 19.945
   },
   {
     "id": "leipzig",
     "city": "Leipzig",
     "country": "Germany",
-    "region": "Central Europe"
+    "region": "Central Europe",
+    "lat": 51.3397,
+    "lng": 12.3731
   },
   {
     "id": "ljubljana-slovenia",
     "city": "Ljubljana",
     "country": "Slovenia",
-    "region": "Central Slovenia"
+    "region": "Central Slovenia",
+    "lat": 46.0569,
+    "lng": 14.5058
   },
   {
     "id": "makunduchi",
     "city": "Makunduchi",
     "country": "Tanzania",
-    "region": "Zanzibar"
+    "region": "Zanzibar",
+    "lat": -6.2236,
+    "lng": 39.4649
   },
   {
     "id": "malay-philippines",
     "city": "Malay",
     "country": "Philippines",
-    "region": "Aklan (Boracay gateway)"
+    "region": "Aklan (Boracay gateway)",
+    "lat": 11.9674,
+    "lng": 121.9248
   },
   {
     "id": "marrakech",
     "city": "Marrakech",
     "country": "Morocco",
-    "region": "Central Morocco"
+    "region": "Central Morocco",
+    "lat": 31.6295,
+    "lng": -7.9811
   },
   {
     "id": "merida-yucatan-mexico",
     "city": "Mérida",
     "country": "Mexico",
-    "region": "Yucatán Peninsula"
+    "region": "Yucatán Peninsula",
+    "lat": 20.9674,
+    "lng": -89.5926
   },
   {
     "id": "meteora",
     "city": "Meteora",
     "country": "Greece",
-    "region": "Thessaly, Greece"
+    "region": "Thessaly, Greece",
+    "lat": 39.7217,
+    "lng": 21.6301
   },
   {
     "id": "mostar",
     "city": "Mostar",
     "country": "Bosnia & Herzegovina",
-    "region": "Western Balkans"
+    "region": "Western Balkans",
+    "lat": 43.3438,
+    "lng": 17.8078
   },
   {
     "id": "munnar",
     "city": "Munnar",
     "country": "India",
-    "region": "Kerala, South India"
+    "region": "Kerala, South India",
+    "lat": 10.0889,
+    "lng": 77.0595
   },
   {
     "id": "oia-greece",
     "city": "Oia",
     "country": "Greece",
-    "region": "Santorini, Cyclades"
+    "region": "Santorini, Cyclades",
+    "lat": 36.4618,
+    "lng": 25.3753
   },
   {
     "id": "osaka",
     "city": "Osaka",
     "country": "Japan",
-    "region": "Kansai"
+    "region": "Kansai",
+    "lat": 34.6937,
+    "lng": 135.5023
   },
   {
     "id": "palermo",
     "city": "Palermo",
     "country": "Italy",
-    "region": "Sicily, Southern Italy"
+    "region": "Sicily, Southern Italy",
+    "lat": 38.1157,
+    "lng": 13.3615
   },
   {
     "id": "panama-city-panama",
     "city": "Panama City",
     "country": "Panama",
-    "region": "Pacific Panama"
+    "region": "Pacific Panama",
+    "lat": 8.9824,
+    "lng": -79.5199
   },
   {
     "id": "paphos",
     "city": "Paphos",
     "country": "Cyprus",
-    "region": "Southwestern Cyprus"
+    "region": "Southwestern Cyprus",
+    "lat": 34.7754,
+    "lng": 32.4245
   },
   {
     "id": "plovdiv-bulgaria",
     "city": "Plovdiv",
     "country": "Bulgaria",
-    "region": "Upper Thracian Plain"
+    "region": "Upper Thracian Plain",
+    "lat": 42.1354,
+    "lng": 24.7453
   },
   {
     "id": "pottuvil",
     "city": "Pottuvil",
     "country": "Sri Lanka",
-    "region": "Eastern Sri Lanka"
+    "region": "Eastern Sri Lanka",
+    "lat": 6.8756,
+    "lng": 81.8346
   },
   {
     "id": "prague",
     "city": "Prague",
     "country": "Czechia",
-    "region": "Bohemia"
+    "region": "Bohemia",
+    "lat": 50.0755,
+    "lng": 14.4378
   },
   {
     "id": "queenstown-new-zealand",
     "city": "Queenstown",
     "country": "New Zealand",
-    "region": "Otago, South Island"
+    "region": "Otago, South Island",
+    "lat": -45.0312,
+    "lng": 168.6626
   },
   {
     "id": "reine-norway",
     "city": "Reine",
     "country": "Norway",
-    "region": "Lofoten, Nordland"
+    "region": "Lofoten, Nordland",
+    "lat": 67.9327,
+    "lng": 13.0894
   },
   {
     "id": "riga",
     "city": "Riga",
     "country": "Latvia",
-    "region": "Baltics"
+    "region": "Baltics",
+    "lat": 56.9496,
+    "lng": 24.1052
   },
   {
     "id": "rome",
     "city": "Rome",
     "country": "Italy",
-    "region": "Lazio, Central Italy"
+    "region": "Lazio, Central Italy",
+    "lat": 41.9028,
+    "lng": 12.4964
   },
   {
     "id": "samarkand",
     "city": "Samarkand",
     "country": "Uzbekistan",
-    "region": "Zerafshan Valley"
+    "region": "Zerafshan Valley",
+    "lat": 39.6542,
+    "lng": 66.9597
   },
   {
     "id": "sanya",
     "city": "Sanya",
     "country": "China",
-    "region": "Hainan, South China"
+    "region": "Hainan, South China",
+    "lat": 18.2528,
+    "lng": 109.5119
   },
   {
     "id": "sarajevo-bosnia-and-herzegovina",
     "city": "Sarajevo",
     "country": "Bosnia and Herzegovina",
-    "region": "Sarajevo Canton"
+    "region": "Sarajevo Canton",
+    "lat": 43.8563,
+    "lng": 18.4131
   },
   {
     "id": "seoul-south-korea",
     "city": "Seoul",
     "country": "South Korea",
-    "region": "Seoul Capital Area"
+    "region": "Seoul Capital Area",
+    "lat": 37.5665,
+    "lng": 126.978
   },
   {
     "id": "seville",
     "city": "Seville",
     "country": "Spain",
-    "region": "Andalusia"
+    "region": "Andalusia",
+    "lat": 37.3891,
+    "lng": -5.9845
   },
   {
     "id": "sharjah-uae",
     "city": "Sharjah",
     "country": "United Arab Emirates",
-    "region": "Sharjah Emirate"
+    "region": "Sharjah Emirate",
+    "lat": 25.3463,
+    "lng": 55.4209
   },
   {
     "id": "sydney-australia",
     "city": "Sydney",
     "country": "Australia",
-    "region": "New South Wales"
+    "region": "New South Wales",
+    "lat": -33.8688,
+    "lng": 151.2093
   },
   {
     "id": "tallinn",
     "city": "Tallinn",
     "country": "Estonia",
-    "region": "Baltics"
+    "region": "Baltics",
+    "lat": 59.437,
+    "lng": 24.7536
   },
   {
     "id": "tbilisi",
     "city": "Tbilisi",
     "country": "Georgia",
-    "region": "South Caucasus"
+    "region": "South Caucasus",
+    "lat": 41.7151,
+    "lng": 44.8271
   },
   {
     "id": "tekapo-new-zealand",
     "city": "Tekapo",
     "country": "New Zealand",
-    "region": "Canterbury"
+    "region": "Canterbury",
+    "lat": -44.0047,
+    "lng": 170.479
   },
   {
     "id": "tirana",
     "city": "Tirana",
     "country": "Albania",
-    "region": "Balkans"
+    "region": "Balkans",
+    "lat": 41.3275,
+    "lng": 19.8187
   },
   {
     "id": "toledo",
     "city": "Toledo",
     "country": "Spain",
-    "region": "Castile-La Mancha"
+    "region": "Castile-La Mancha",
+    "lat": 39.8628,
+    "lng": -4.0273
   },
   {
     "id": "trieste",
     "city": "Trieste",
     "country": "Italy",
-    "region": "Friuli Venezia Giulia"
+    "region": "Friuli Venezia Giulia",
+    "lat": 45.6495,
+    "lng": 13.7768
   },
   {
     "id": "turin",
     "city": "Turin",
     "country": "Italy",
-    "region": "Piedmont, Northern Italy"
+    "region": "Piedmont, Northern Italy",
+    "lat": 45.0703,
+    "lng": 7.6869
   },
   {
     "id": "ulcinj",
     "city": "Ulcinj",
     "country": "Montenegro",
-    "region": "Western Balkans"
+    "region": "Western Balkans",
+    "lat": 41.92,
+    "lng": 19.2244
   },
   {
     "id": "valletta",
     "city": "Valletta",
     "country": "Malta",
-    "region": "Malta"
+    "region": "Malta",
+    "lat": 35.8989,
+    "lng": 14.5146
   },
   {
     "id": "varna",
     "city": "Varna",
     "country": "Bulgaria",
-    "region": "Balkans"
+    "region": "Balkans",
+    "lat": 43.2141,
+    "lng": 27.9147
   },
   {
     "id": "vienna",
     "city": "Vienna",
     "country": "Austria",
-    "region": "Eastern Austria"
+    "region": "Eastern Austria",
+    "lat": 48.2082,
+    "lng": 16.3738
   },
   {
     "id": "waigeo-indonesia",
     "city": "Waigeo",
     "country": "Indonesia",
-    "region": "Raja Ampat, Southwest Papua"
+    "region": "Raja Ampat, Southwest Papua",
+    "lat": -0.15,
+    "lng": 130.6
   },
   {
     "id": "zakopane",
     "city": "Zakopane",
     "country": "Poland",
-    "region": "Lesser Poland"
+    "region": "Lesser Poland",
+    "lat": 49.2992,
+    "lng": 19.9496
   },
   {
     "id": "zakynthos-greece",
     "city": "Zakynthos",
     "country": "Greece",
-    "region": "Ionian Islands"
+    "region": "Ionian Islands",
+    "lat": 37.787,
+    "lng": 20.8999
   },
   {
     "id": "zermatt",
     "city": "Zermatt",
     "country": "Switzerland",
-    "region": "Alps, Central Europe"
+    "region": "Alps, Central Europe",
+    "lat": 46.0207,
+    "lng": 7.7491
   },
   {
     "id": "zhangjiajie-hunan-china",
     "city": "Zhangjiajie",
     "country": "China",
-    "region": "Hunan Province"
+    "region": "Hunan Province",
+    "lat": 29.1171,
+    "lng": 110.4792
   },
   {
     "id": "zhangye-china",
     "city": "Zhangye",
     "country": "China",
-    "region": "Gansu Corridor"
+    "region": "Gansu Corridor",
+    "lat": 38.9259,
+    "lng": 100.4498
   }
 ]

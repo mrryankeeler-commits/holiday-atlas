@@ -42,7 +42,8 @@ For each location promoted from pending:
 1. Create/update `data/locations/<id>.json`.
 2. Add/update entry in `data/locations/index.json`.
 3. Ensure full live schema exists:
-   - Top-level: `id`, `city`, `country`, `region`, `desc`, `hls`, `todo`, `prac`, `sweet`, `months`
+   - Manifest entry (`data/locations/index.json`): `id`, `city`, `country`, `region`, `lat`, `lng`
+   - Top-level location file (`data/locations/<id>.json`): `id`, `city`, `country`, `region`, `desc`, `hls`, `todo`, `prac`, `sweet`, `months`
 4. Ensure `prac` is complete:
    - `directGW` (boolean)
    - `visa`, `currency`, `lang`, `tz`, `fltNote`
