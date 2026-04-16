@@ -1,5 +1,17 @@
 # Holiday Atlas
 
+## Front-end dependency pinning policy
+
+Holiday Atlas is a static app, so third-party front-end dependencies are loaded either from pinned CDN URLs or from versioned files committed in-repo. To keep releases reproducible and secure:
+
+- Always pin an explicit version in the asset URL (never use floating tags like `latest`).
+- For externally hosted scripts/styles, always include Subresource Integrity (`integrity`) and `crossorigin` attributes.
+- When upgrading a dependency version, update **both**:
+  - the version in the URL/path, and
+  - the corresponding SRI hash value in `index.html`.
+- Treat SRI updates as part of the same change as the version bump; do not merge a version upgrade without a matching integrity refresh.
+- If a dependency cannot be loaded with SRI from the network environment, vendor the exact versioned artifact in-repo and reference it locally instead.
+
 ## Contributor note: adding a new location
 
 This repository is transitioning from a single `data/destinations.json` file to per-location files.
