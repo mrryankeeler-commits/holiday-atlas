@@ -115,35 +115,11 @@ body{padding:24px;background:#fafafa}
 .dest-marker.variant-default{
   background:#2f74d0;
 }
-.dest-marker.variant-region-1{
-  background:#1f7a5c;
+.dest-marker.variant-country{
+  background:var(--marker-fill, #2f74d0);
   box-shadow:
     0 0 0 1.5px rgba(10,16,26,0.58),
-    0 0 0 3.5px rgba(217,247,237,0.78);
-}
-.dest-marker.variant-region-2{
-  background:#8c2f75;
-  box-shadow:
-    0 0 0 1.5px rgba(10,16,26,0.58),
-    0 0 0 3.5px rgba(248,222,244,0.78);
-}
-.dest-marker.variant-region-3{
-  background:#9a5300;
-  box-shadow:
-    0 0 0 1.5px rgba(10,16,26,0.58),
-    0 0 0 3.5px rgba(255,231,200,0.78);
-}
-.dest-marker.variant-region-4{
-  background:#205f9e;
-  box-shadow:
-    0 0 0 1.5px rgba(10,16,26,0.58),
-    0 0 0 3.5px rgba(218,235,255,0.8);
-}
-.dest-marker.variant-region-5{
-  background:#5f3f95;
-  box-shadow:
-    0 0 0 1.5px rgba(10,16,26,0.58),
-    0 0 0 3.5px rgba(230,221,249,0.78);
+    0 0 0 3.5px var(--marker-halo, rgba(255,255,255,0.72));
 }
 .dest-marker.active{
   background:#7a1f13;

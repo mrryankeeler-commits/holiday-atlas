@@ -22,13 +22,34 @@ const DEFAULT_MAP_ZOOM = 2;
 const LOCATION_FOCUS_MIN_ZOOM = 5;
 const MAP_ZOOM_LOW_MAX = 3;
 const MAP_ZOOM_MID_MAX = 6;
-const MARKER_REGION_VARIANTS = [
-  "variant-region-1",
-  "variant-region-2",
-  "variant-region-3",
-  "variant-region-4",
-  "variant-region-5"
+const MARKER_FALLBACK_PALETTES = [
+  { token: "palette-fallback-1", fill: "#1f7a5c", halo: "rgba(217,247,237,0.78)" },
+  { token: "palette-fallback-2", fill: "#8c2f75", halo: "rgba(248,222,244,0.78)" },
+  { token: "palette-fallback-3", fill: "#9a5300", halo: "rgba(255,231,200,0.78)" },
+  { token: "palette-fallback-4", fill: "#205f9e", halo: "rgba(218,235,255,0.8)" },
+  { token: "palette-fallback-5", fill: "#5f3f95", halo: "rgba(230,221,249,0.78)" }
 ];
+const COUNTRY_MARKER_PALETTES = new Map([
+  ["australia", { token: "palette-australia", fill: "linear-gradient(140deg, #012169 0 65%, #ffffff 65% 78%, #e4002b 78% 100%)", halo: "rgba(216,229,255,0.84)" }],
+  ["austria", { token: "palette-austria", fill: "linear-gradient(180deg, #ed2939 0 33%, #ffffff 33% 66%, #ed2939 66% 100%)", halo: "rgba(255,232,235,0.86)" }],
+  ["croatia", { token: "palette-croatia", fill: "linear-gradient(180deg, #ff0000 0 33%, #ffffff 33% 66%, #171796 66% 100%)", halo: "rgba(234,239,255,0.84)" }],
+  ["germany", { token: "palette-germany", fill: "linear-gradient(180deg, #000000 0 33%, #dd0000 33% 66%, #ffce00 66% 100%)", halo: "rgba(255,242,201,0.84)" }],
+  ["greece", { token: "palette-greece", fill: "linear-gradient(135deg, #0d5eaf 0 62%, #ffffff 62% 80%, #0d5eaf 80% 100%)", halo: "rgba(220,237,255,0.84)" }],
+  ["india", { token: "palette-india", fill: "linear-gradient(180deg, #ff9933 0 34%, #ffffff 34% 68%, #138808 68% 100%)", halo: "rgba(234,248,220,0.84)" }],
+  ["indonesia", { token: "palette-indonesia", fill: "linear-gradient(180deg, #ce1126 0 50%, #ffffff 50% 100%)", halo: "rgba(255,234,238,0.86)" }],
+  ["italy", { token: "palette-italy", fill: "linear-gradient(90deg, #009246 0 33%, #ffffff 33% 66%, #ce2b37 66% 100%)", halo: "rgba(232,246,236,0.86)" }],
+  ["japan", { token: "palette-japan", fill: "radial-gradient(circle at 50% 50%, #bc002d 0 34%, #ffffff 35% 100%)", halo: "rgba(255,236,241,0.86)" }],
+  ["mexico", { token: "palette-mexico", fill: "linear-gradient(90deg, #006847 0 33%, #ffffff 33% 66%, #ce1126 66% 100%)", halo: "rgba(233,246,240,0.84)" }],
+  ["poland", { token: "palette-poland", fill: "linear-gradient(180deg, #ffffff 0 50%, #dc143c 50% 100%)", halo: "rgba(255,236,241,0.86)" }],
+  ["portugal", { token: "palette-portugal", fill: "linear-gradient(90deg, #006600 0 44%, #ff0000 44% 100%)", halo: "rgba(239,245,223,0.84)" }],
+  ["saudi arabia", { token: "palette-saudi-arabia", fill: "#006c35", halo: "rgba(223,248,236,0.84)" }],
+  ["south korea", { token: "palette-south-korea", fill: "linear-gradient(140deg, #c60c30 0 48%, #003478 52% 100%)", halo: "rgba(234,238,247,0.86)" }],
+  ["spain", { token: "palette-spain", fill: "linear-gradient(180deg, #aa151b 0 25%, #f1bf00 25% 75%, #aa151b 75% 100%)", halo: "rgba(255,242,205,0.84)" }],
+  ["switzerland", { token: "palette-switzerland", fill: "#d52b1e", halo: "rgba(255,226,224,0.86)" }],
+  ["turkey", { token: "palette-turkey", fill: "radial-gradient(circle at 40% 45%, #ffffff 0 18%, #e30a17 19% 100%)", halo: "rgba(255,231,233,0.84)" }],
+  ["united arab emirates", { token: "palette-united-arab-emirates", fill: "linear-gradient(90deg, #ff0000 0 25%, #00732f 25% 50%, #ffffff 50% 75%, #000000 75% 100%)", halo: "rgba(236,242,236,0.84)" }],
+  ["vietnam", { token: "palette-vietnam", fill: "radial-gradient(circle at 50% 50%, #ffdd00 0 28%, #da251d 29% 100%)", halo: "rgba(255,236,214,0.84)" }]
+]);
 
 let S = {
   view: "welcome",
@@ -58,10 +79,12 @@ const normalizeSearchText = value => String(value ?? "")
 
 const markerVariantCache = new Map();
 
-function mapIcon({ isActive = false, variant = "variant-default" } = {}) {
+function mapIcon({ isActive = false, markerPalette } = {}) {
+  const palette = markerPalette || { token: "variant-default", fill: "#2f74d0", halo: "rgba(255,255,255,0.72)" };
+  const markerStyle = `--marker-fill:${palette.fill}; --marker-halo:${palette.halo};`;
   return L.divIcon({
     className: "",
-    html: `<span class="dest-marker ${variant} ${isActive ? "active" : ""}" aria-hidden="true"></span>`,
+    html: `<span class="dest-marker variant-country ${palette.token} ${isActive ? "active" : ""}" style="${markerStyle}" aria-hidden="true"></span>`,
     iconSize: [18, 18],
     iconAnchor: [9, 9]
   });
@@ -85,21 +108,27 @@ function applyMapZoomClass() {
 
 function getMarkerVariantForLocation(loc) {
   const id = loc?.id;
-  if (!id) return "variant-default";
+  if (!id) return { token: "variant-default", fill: "#2f74d0", halo: "rgba(255,255,255,0.72)" };
   if (markerVariantCache.has(id)) return markerVariantCache.get(id);
 
-  const normalizedRegion = normalizeSearchText(loc?.region);
-  let hash = 0;
-  for (let i = 0; i < normalizedRegion.length; i += 1) {
-    hash = (hash * 31 + normalizedRegion.charCodeAt(i)) % 2147483647;
+  const normalizedCountry = normalizeSearchText(loc?.country);
+  if (COUNTRY_MARKER_PALETTES.has(normalizedCountry)) {
+    const mappedPalette = COUNTRY_MARKER_PALETTES.get(normalizedCountry);
+    markerVariantCache.set(id, mappedPalette);
+    return mappedPalette;
   }
-  const variant = MARKER_REGION_VARIANTS[hash % MARKER_REGION_VARIANTS.length];
-  markerVariantCache.set(id, variant);
-  return variant;
+
+  let hash = 0;
+  for (let i = 0; i < normalizedCountry.length; i += 1) {
+    hash = (hash * 31 + normalizedCountry.charCodeAt(i)) % 2147483647;
+  }
+  const fallbackPalette = MARKER_FALLBACK_PALETTES[hash % MARKER_FALLBACK_PALETTES.length];
+  markerVariantCache.set(id, fallbackPalette);
+  return fallbackPalette;
 }
 
 function getMarkerVariantById(id) {
-  if (!id) return "variant-default";
+  if (!id) return { token: "variant-default", fill: "#2f74d0", halo: "rgba(255,255,255,0.72)" };
   if (markerVariantCache.has(id)) return markerVariantCache.get(id);
   const loc = INDEX.find(item => item.id === id);
   return getMarkerVariantForLocation(loc);
@@ -204,7 +233,7 @@ function initMap() {
     points.forEach(loc => {
       const markerVariant = getMarkerVariantForLocation(loc);
       const marker = L.marker([loc.lat, loc.lng], {
-        icon: mapIcon({ isActive: loc.id === S.loc, variant: markerVariant }),
+        icon: mapIcon({ isActive: loc.id === S.loc, markerPalette: markerVariant }),
         keyboard: true,
         title: `${loc.city}, ${loc.country}`
       }).addTo(map);
@@ -282,7 +311,7 @@ function updateMarkerSelectionState(id, isActive) {
   if (!mapMarkers.has(id)) return;
   mapMarkers.get(id).setIcon(mapIcon({
     isActive,
-    variant: getMarkerVariantById(id)
+    markerPalette: getMarkerVariantById(id)
   }));
   syncMarkerInteractiveState(id);
 }
