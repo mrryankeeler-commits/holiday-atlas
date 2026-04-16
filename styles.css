@@ -78,49 +78,62 @@ body{padding:24px;background:#fafafa}
 .leaflet-container{
   font-family:var(--font-sans);
 }
+#map .leaflet-marker-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
 .dest-marker{
-  width:18px;
-  height:18px;
-  border:3px solid #fff;
+  --marker-ring-size:1px;
+  --marker-halo-size:3px;
+  --marker-halo-color:rgba(255,255,255,0.82);
+  display:block;
+  width:12px;
+  height:12px;
+  border:2px solid #fff;
   border-radius:50%;
   background:#2f74d0;
   box-shadow:
-    0 0 0 2px rgba(10,16,26,0.68),
-    0 0 0 5px rgba(255,255,255,0.82);
+    0 0 0 var(--marker-ring-size) rgba(10,16,26,0.68),
+    0 0 0 var(--marker-halo-size) var(--marker-halo-color);
   transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, border-color .18s ease;
+}
+#map.zoom-mid .dest-marker{
+  --marker-ring-size:2px;
+  --marker-halo-size:4px;
+  width:15px;
+  height:15px;
+  border-width:2px;
+}
+#map.zoom-high .dest-marker{
+  --marker-ring-size:2px;
+  --marker-halo-size:5px;
+  width:18px;
+  height:18px;
+  border-width:3px;
 }
 .dest-marker.variant-default{
   background:#2f74d0;
 }
 .dest-marker.variant-region-1{
   background:#1f7a5c;
-  box-shadow:
-    0 0 0 2px rgba(10,16,26,0.68),
-    0 0 0 5px rgba(217,247,237,0.9);
+  --marker-halo-color:rgba(217,247,237,0.9);
 }
 .dest-marker.variant-region-2{
   background:#8c2f75;
-  box-shadow:
-    0 0 0 2px rgba(10,16,26,0.68),
-    0 0 0 5px rgba(248,222,244,0.9);
+  --marker-halo-color:rgba(248,222,244,0.9);
 }
 .dest-marker.variant-region-3{
   background:#9a5300;
-  box-shadow:
-    0 0 0 2px rgba(10,16,26,0.68),
-    0 0 0 5px rgba(255,231,200,0.9);
+  --marker-halo-color:rgba(255,231,200,0.9);
 }
 .dest-marker.variant-region-4{
   background:#205f9e;
-  box-shadow:
-    0 0 0 2px rgba(10,16,26,0.68),
-    0 0 0 5px rgba(218,235,255,0.92);
+  --marker-halo-color:rgba(218,235,255,0.92);
 }
 .dest-marker.variant-region-5{
   background:#5f3f95;
-  box-shadow:
-    0 0 0 2px rgba(10,16,26,0.68),
-    0 0 0 5px rgba(230,221,249,0.9);
+  --marker-halo-color:rgba(230,221,249,0.9);
 }
 .dest-marker.active{
   background:#7a1f13;
