@@ -9,7 +9,7 @@ REQ_MONTH_KEYS = {"m", "avg", "hi", "lo", "daylight", "cld", "rain", "busy", "ac
 REQUIRED_TOP_LEVEL = {"id", "city", "country", "region", "desc", "hls", "todo", "prac", "sweet", "months"}
 REQUIRED_PRAC_ARRAYS = {"alerts", "airports", "bestFor"}
 OPTIONAL_PRAC_STRING_FIELDS = {"visa", "currency", "fltNote", "lang", "tz"}
-INDEX_REQUIRED_FIELDS = {"id", "city", "country", "region"}
+INDEX_REQUIRED_FIELDS = {"id", "city", "country", "region", "lat", "lng"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -54,6 +54,18 @@ def validate_index(index_path: Path, locations_root: Path, errors: list[str]) ->
         if not isinstance(loc_id, str) or not loc_id:
             add_error(errors, index_path, f"{entry_label} has invalid id (expected non-empty string)")
             continue
+
+        for coord_key, min_value, max_value in (("lat", -90, 90), ("lng", -180, 180)):
+            coord_value = row.get(coord_key)
+            if isinstance(coord_value, bool) or not isinstance(coord_value, (int, float)):
+                add_error(errors, index_path, f"{entry_label} has invalid {coord_key} (expected number)")
+                continue
+            if not (min_value <= coord_value <= max_value):
+                add_error(
+                    errors,
+                    index_path,
+                    f"{entry_label} has out-of-range {coord_key} ({coord_value}; expected {min_value}..{max_value})",
+                )
 
         ids.append(loc_id)
 

@@ -22,7 +22,7 @@ Holiday Atlas is a static front-end app (`index.html`, `app.js`, `styles.css`) t
 
 ## Data contract
 ### index.json required fields
-- `id`, `city`, `country`, `region`
+- `id`, `city`, `country`, `region`, `lat`, `lng`
 
 ### <id>.json required fields
 - `id`, `city`, `country`, `region`, `desc`, `hls`, `todo`, `prac`, `sweet`, `months`

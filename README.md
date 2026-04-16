@@ -22,7 +22,8 @@ Each entry should include at minimum:
 - `city`
 - `country`
 - `region`
-- `desc`
+- `lat` (number, -90..90)
+- `lng` (number, -180..180)
 
 #### `data/locations/<id>.json` (full record)
 Each full location file should include at minimum:
