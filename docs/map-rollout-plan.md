@@ -42,22 +42,20 @@ Roll out map functionality safely while preserving the current destination-list 
 
 ---
 
-## Phase 3 — Enhanced UX (clusters, region filters, map/list split tuning)
+## Phase 3 — Enhanced UX (region filters, map/list split tuning)
 
 ### Scope
-- Add marker clustering for dense destination sets.
 - Add region filters that coordinate between sidebar list and map markers.
 - Tune responsive map/list layout split for desktop and mobile.
 
 ### Acceptance criteria
-- Cluster behavior reduces marker overlap without hiding discoverability.
 - Region filter updates both visible list items and plotted markers consistently.
 - Selection state remains stable when filters are toggled.
 - Desktop and mobile split layouts avoid clipping/overflow regressions.
 - Keyboard users can reach filters, list items, and selected map destination context.
 
 ### Rollback / fallback
-- Feature-toggle clusters and region filters independently from base map.
+- Feature-toggle region filters independently from base map.
 - If enhanced controls regress UX/performance, fall back to Phase 2 read-only marker experience.
 - Preserve map/list synchronization contract even when enhancements are disabled.
 
@@ -65,9 +63,8 @@ Roll out map functionality safely while preserving the current destination-list 
 
 Delivery order:
 1. Marker visibility/differentiation
-2. Clustering
-3. Region filters
-4. Responsive split tuning
+2. Region filters
+3. Responsive split tuning
 
 #### P3-1 — Marker prominence refresh
 **Priority:** P0 (ship first)
@@ -120,33 +117,8 @@ Delivery order:
 - Shipped increment: Marker state differentiation for hover/selected/filtered semantics.
 - Rollback toggle used: `featureFlags.mapMarkerDifferentiation` (set `false` to use Phase 2 state styling).
 
-#### P3-3 — Clustering
+#### P3-3 — Region filter sync
 **Priority:** P1 (ship after marker visibility/differentiation)
-
-**Engineering tasks**
-- Add cluster layer for dense marker regions with click-to-expand behavior.
-- Keep selected destination discoverable when cluster state changes (zoom/pan/filter).
-- Ensure cluster feature is independently toggleable from base marker rendering.
-
-**Measurable acceptance criteria**
-- At zoom levels where marker collisions exceed threshold, clusters render and reduce overlap.
-- Selecting a destination from list while clustered resolves to visible selected context (auto-zoom, expansion, or focus cue).
-- Keyboard users can still reach selected destination context and return focus to list controls.
-- With clustering toggle off, map reverts cleanly to non-clustered Phase 2 marker mode (fallback integrity).
-
-**QA checklist (manual in `#explorer`)**
-1. Open `#explorer` at default zoom with clustering enabled.
-2. Verify dense areas show cluster symbols instead of stacked overlapping markers.
-3. Click a cluster; verify expansion/zoom behavior reveals child markers.
-4. Select a destination from the list that is in a clustered area; verify selected destination becomes discoverable on map.
-5. Disable clustering toggle; reload and confirm individual markers render without cluster artifacts.
-
-**Completion notes / rollback toggle**
-- Shipped increment: Cluster rendering and expand interaction for dense map areas.
-- Rollback toggle used: `featureFlags.mapClustering` (set `false` to revert to unclustered markers).
-
-#### P3-4 — Region filter sync
-**Priority:** P1 (ship after clustering)
 
 **Engineering tasks**
 - Add region filter controls and bind filter state to both list and map layers.
@@ -170,7 +142,7 @@ Delivery order:
 - Shipped increment: Region filter controls with synchronized map/list filtering.
 - Rollback toggle used: `featureFlags.mapRegionFilters` (set `false` to disable filters and restore full set).
 
-#### P3-5 — Responsive split tuning
+#### P3-4 — Responsive split tuning
 **Priority:** P2 (ship last)
 
 **Engineering tasks**
