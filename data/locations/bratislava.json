@@ -31,32 +31,32 @@
     {
       "name": "Bratislava Castle and hill walk",
       "cat": "Landmark",
-      "desc": "Tour castle exhibitions and enjoy broad views over the Danube and neighboring countries."
+      "desc": "Use the castle side entrances before 10:00 to avoid coach groups, and combine with the baroque gardens while the upper paths are still cool."
     },
     {
       "name": "Old Town lanes and Main Square",
       "cat": "City walk",
-      "desc": "Explore pastel facades, courtyards, and street sculptures around Hlavné námestie and adjacent alleys."
+      "desc": "Start on a weekday morning for quieter streets, then return after 18:00 when most day-trippers leave and restaurant tables open up."
     },
     {
       "name": "St. Martin’s Cathedral visit",
       "cat": "History",
-      "desc": "See the coronation church where Hungarian kings were crowned during the Ottoman era."
+      "desc": "Check service times in advance because sightseeing access pauses during mass; allow 30-45 minutes and dress modestly for interior entry."
     },
     {
       "name": "UFO Tower sunset drink",
       "cat": "Scenic",
-      "desc": "Ride up for panoramic evening views of bridges, river curves, and the old-town skyline."
+      "desc": "Reserve a timed table around golden hour in summer, when elevator queues grow and walk-in waits can exceed 30 minutes."
     },
     {
       "name": "Blue Church and modern districts",
       "cat": "Architecture",
-      "desc": "Combine Art Nouveau at St. Elisabeth Church with a look at newer city neighborhoods."
+      "desc": "Visit Blue Church early for unobstructed photos, then use tram links to continue into newer districts without backtracking through Old Town."
     },
     {
       "name": "Devín Castle outing",
       "cat": "Day trip",
-      "desc": "Visit dramatic ruins above the Danube-Morava confluence, reachable by bus, bike, or seasonal boat."
+      "desc": "Bus 29 is the simplest year-round option, while seasonal boats can be suspended by Danube water levels or wind, so keep a bus return backup."
     }
   ],
   "prac": {
@@ -93,7 +93,9 @@
       "Budget Europe hops"
     ],
     "alerts": [
-      "Cross-border rail and bus services to Vienna can be crowded on Friday evenings and Sundays."
+      "Vienna-Bratislava trains and buses sell out fastest on Friday evenings, Sunday afternoons, and Advent weekends, so reserve cross-border legs early.",
+      "Many Old Town bars and terraces run peak-event pricing during Christmas markets and major festivals; central rooms can jump sharply on those dates.",
+      "Summer Danube heat can exceed 30°C with limited shade on castle hill routes, so schedule uphill walks early and keep water on hand."
     ]
   },
   "sweet": "May-June and September are usually best for warm city walks and lively riverside evenings without peak midsummer heat.",

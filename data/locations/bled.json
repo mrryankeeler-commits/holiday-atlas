@@ -31,32 +31,32 @@
     {
       "name": "Row or take a pletna to Bled Island",
       "cat": "Lake experience",
-      "desc": "Cross to the tiny island, ring the wishing bell, and enjoy views back toward the castle cliffs."
+      "desc": "Shared pletna boats usually leave from lakeside stands every 30-60 minutes; go before 10:00 in July-August to avoid queues and rougher afternoon water."
     },
     {
       "name": "Tour Bled Castle",
       "cat": "History",
-      "desc": "Visit museum exhibits and the terrace café for one of the best panoramas over Lake Bled."
+      "desc": "Prebook online in summer and aim for opening hour or late afternoon, when terrace viewpoints are less crowded and photography is clearer."
     },
     {
       "name": "Walk the full lakeshore circuit",
       "cat": "Scenic walk",
-      "desc": "The mostly flat 6 km loop offers changing angles of the island and mountain backdrop."
+      "desc": "Allow 1.5-2.5 hours for the 6 km loop, start clockwise from Mlino to keep mountain views ahead of you, and carry a light rain layer for fast weather changes."
     },
     {
       "name": "Sunrise or sunset at Ojstrica viewpoint",
       "cat": "Photography",
-      "desc": "Take the short but steep trail for Bled’s signature elevated postcard perspective."
+      "desc": "Trail time is about 20-30 minutes each way but steep and rooty; use grippy shoes and a headlamp for dawn/sunset returns."
     },
     {
       "name": "Vintgar Gorge boardwalk",
       "cat": "Nature",
-      "desc": "Follow wooden paths above turquoise rapids and pools in a dramatic limestone canyon."
+      "desc": "Book a timed ticket and shuttle in peak season, then pair the gorge with nearby trails because route control usually makes the boardwalk one-way."
     },
     {
       "name": "Day trip to Lake Bohinj",
       "cat": "Day trip",
-      "desc": "Visit a wilder, less developed alpine lake with cable-car access to high mountain viewpoints."
+      "desc": "Buses run frequently in summer but can be full after 09:30; take an early departure and bundle Vogel cable car tickets if you want high-alpine views."
     }
   ],
   "prac": {
@@ -93,7 +93,9 @@
       "Low-stress first Slovenia trip"
     ],
     "alerts": [
-      "Lake Bled is very busy midday in summer; start activities early for lighter crowds."
+      "July-August lakefront and car parks fill quickly; book lakeside hotels and pletna departures 6-10 weeks ahead for weekend stays.",
+      "Vintgar Gorge often uses timed-entry management in peak months; reserve the first slots to avoid one-way boardwalk bottlenecks.",
+      "Afternoon thunderstorms are common from late spring to early autumn in the Julian Alps, which can pause lifts, boating, and exposed hikes such as Ojstrica."
     ]
   },
   "sweet": "Late May-September is usually best for mild lake weather, long daylight, and reliable mountain access.",

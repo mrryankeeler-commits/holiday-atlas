@@ -31,32 +31,32 @@
     {
       "name": "Registan ensemble visit",
       "cat": "World heritage",
-      "desc": "Spend time at all three madrasas to appreciate scale, geometry, and restored mosaics."
+      "desc": "Buy entry as gates open and plan 1.5-2 hours across all three madrasas, then return after sunset for illuminated façades and lighter crowds."
     },
     {
       "name": "Shah-i-Zinda necropolis walk",
       "cat": "Architecture",
-      "desc": "Follow the processional lane of mausoleums known for extraordinary turquoise tile detail."
+      "desc": "Arrive before coach groups (usually before 09:30), wear shoulders-and-knees-covering clothing, and allow slow uphill walking on uneven steps."
     },
     {
       "name": "Gur-e-Amir Mausoleum",
       "cat": "History",
-      "desc": "Visit Timur’s resting place and learn about the dynasty that shaped the city’s golden era."
+      "desc": "Pair this stop with Registan in the same district and visit near dusk when tile colors are strongest and daytime heat drops."
     },
     {
       "name": "Bibi-Khanym Mosque and Siab Bazaar",
       "cat": "Culture & market",
-      "desc": "Pair monumental ruins with nearby produce and bread markets at the city’s daily social hub."
+      "desc": "Go early: bazaar produce activity is best before noon, and the mosque forecourt has minimal shade later in the day."
     },
     {
       "name": "Ulugh Beg Observatory",
       "cat": "Science history",
-      "desc": "See remains of the 15th-century observatory tied to major advances in astronomical measurement."
+      "desc": "Use a taxi app or prearranged driver for the short uphill transfer from central Samarkand, then budget 45-60 minutes for museum and site."
     },
     {
       "name": "Traditional plov dinner and folk show",
       "cat": "Food & culture",
-      "desc": "Sample Uzbek staples while enjoying regional music and dance performances."
+      "desc": "Reserve at least 24-48 hours ahead for popular folklore restaurants, especially on Thursday-Saturday evenings when local groups book large tables."
     }
   ],
   "prac": {
@@ -93,7 +93,9 @@
       "Photographic trips"
     ],
     "alerts": [
-      "Some monuments close earlier in winter; start heritage visits in the morning."
+      "Registan, Shah-i-Zinda, and Gur-e-Amir ticket lines are longest in April-May and September-October; start at opening time for cooler conditions and shorter waits.",
+      "Summer daytime heat regularly pushes above 35°C, making exposed plaza visits uncomfortable from midday to late afternoon.",
+      "Afrosiyob high-speed train seats between Tashkent and Samarkand can sell out several days ahead around holidays, so secure rail tickets as soon as dates are fixed."
     ]
   },
   "sweet": "April-early June and September-October are usually best for Silk Road sightseeing in manageable temperatures.",
