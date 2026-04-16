@@ -36,6 +36,7 @@ body{padding:24px;background:#fafafa}
 .app-title{font-size:15px;font-weight:500}
 .app-hdr-right{display:flex;align-items:center;gap:12px}
 .app-hdr-actions{display:flex;align-items:center;gap:6px}
+.dest-count{font-size:11px;color:var(--color-text-secondary)}
 .hdr-btn{
   border:0.5px solid var(--color-border-secondary);
   border-radius:999px;
@@ -254,6 +255,7 @@ body{padding:24px;background:#fafafa}
 .add-btn-sb{display:block;width:100%;text-align:left;padding:8px 12px;border:none;background:none;cursor:pointer;font-size:12px;color:var(--color-text-secondary);font-family:var(--font-sans);margin-top:4px}
 .add-btn-sb:hover{color:var(--color-text-primary)}
 .main{overflow-x:hidden;overflow-y:auto;min-width:0;background:var(--color-background-primary);min-height:0}
+.main-loading{padding:20px;font-family:var(--font-sans);color:var(--color-text-secondary)}
 .welcome-panel{
   padding:28px 24px;
   max-width:680px;

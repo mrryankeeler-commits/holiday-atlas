@@ -6,7 +6,8 @@ import {
   bclr,
   blbl,
   cpc,
-  clbls
+  clbls,
+  escapeHtml
 } from "./utils.js";
 
 export function createRenderer({ getState, getIndex, getLocation, actions, mapController }) {
@@ -36,7 +37,7 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
     </section>
   `;
 
-  const rTodo = L => `<div class="todo-grid">${L.todo.map(t => `<div class="tc"><div class="tc-cat">${t.cat}</div><div class="tc-name">${t.name}</div><div class="tc-desc">${t.desc}</div></div>`).join("")}</div>`;
+  const rTodo = L => `<div class="todo-grid">${L.todo.map(t => `<div class="tc"><div class="tc-cat">${escapeHtml(t.cat)}</div><div class="tc-name">${escapeHtml(t.name)}</div><div class="tc-desc">${escapeHtml(t.desc)}</div></div>`).join("")}</div>`;
 
   const rCosts = L => `
     <p style="font-size:13px;color:var(--color-text-secondary);margin-bottom:14px;max-width:600px;line-height:1.6">Cost ratings reflect relative pricing within the year.</p>
@@ -44,17 +45,17 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
       <tbody>${L.months.map(d => {
         const ov = Math.round((d.ac + d.fl) / 2);
         const bc = bclr(d.busy);
-        return `<tr><td data-label="Month" style="font-weight:500">${d.m}</td><td><span class="${cpc(d.ac)}">${clbls[d.ac]}</span></td><td><span class="${cpc(d.fl)}">${clbls[d.fl]}</span></td><td><span class="${cpc(ov)}">${clbls[ov]}</span></td><td><div style="display:flex;align-items:center;gap:5px"><div style="display:flex;gap:1px">${Array.from({ length: 10 }).map((_, i) => `<div style="width:5px;height:10px;border-radius:1px;background:${i < d.busy ? bc : "var(--color-border-tertiary)"}"></div>`).join("")}</div><span style="font-size:11px;color:var(--color-text-secondary)">${blbl(d.busy)}</span></div></td></tr>`;
+        return `<tr><td data-label="Month" style="font-weight:500">${escapeHtml(d.m)}</td><td><span class="${cpc(d.ac)}">${escapeHtml(clbls[d.ac])}</span></td><td><span class="${cpc(d.fl)}">${escapeHtml(clbls[d.fl])}</span></td><td><span class="${cpc(ov)}">${escapeHtml(clbls[ov])}</span></td><td><div style="display:flex;align-items:center;gap:5px"><div style="display:flex;gap:1px">${Array.from({ length: 10 }).map((_, i) => `<div style="width:5px;height:10px;border-radius:1px;background:${i < d.busy ? bc : "var(--color-border-tertiary)"}"></div>`).join("")}</div><span style="font-size:11px;color:var(--color-text-secondary)">${escapeHtml(blbl(d.busy))}</span></div></td></tr>`;
       }).join("")}</tbody></table></div>
-    <div class="hl-tip"><span style="font-weight:500;color:var(--color-text-primary)">Sweet spot:</span> ${L.sweet}</div>
+    <div class="hl-tip"><span style="font-weight:500;color:var(--color-text-primary)">Sweet spot:</span> ${escapeHtml(L.sweet)}</div>
   `;
 
   const rPrac = L => {
     const p = L.prac;
     const routeDirectCodes = getDirectAirportCodes(p.directFrom);
     const routeDirectLabel = DEPARTURE_AIRPORTS.map(a => a.label).join(" / ");
-    return `${p.alerts.map(a => `<div class="alert-box">⚠ ${a}</div>`).join("")}
-    <div class="pgrid"><div class="pc"><div class="pt">Flights from ${routeDirectLabel}</div><div class="pv">${routeDirectCodes.length ? routeDirectCodes.map(code => `<span class="dbadge">Direct ${code}</span>`).join(" ") : "✗ No direct flights from configured London airports"}</div><div class="pn" style="margin-top:5px">${p.fltNote}</div></div></div>`;
+    return `${p.alerts.map(a => `<div class="alert-box">⚠ ${escapeHtml(a)}</div>`).join("")}
+    <div class="pgrid"><div class="pc"><div class="pt">Flights from ${escapeHtml(routeDirectLabel)}</div><div class="pv">${routeDirectCodes.length ? routeDirectCodes.map(code => `<span class="dbadge">Direct ${escapeHtml(code)}</span>`).join(" ") : "✗ No direct flights from configured London airports"}</div><div class="pn" style="margin-top:5px">${escapeHtml(p.fltNote)}</div></div></div>`;
   };
 
   const rClimate = L => {
@@ -72,12 +73,12 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
         <div class="pref-grid" role="group" aria-label="Recommendation preferences">
           ${["weather", "budget", "crowds", "direct"].map(key => `
             <label class="pref-item">${key}
-              <input type="range" min="0" max="5" step="1" value="${getState().prefs[key]}" data-pref-key="${key}" />
-              <span class="pref-val">${getState().prefs[key]}</span>
+              <input type="range" min="0" max="5" step="1" value="${escapeHtml(getState().prefs[key])}" data-pref-key="${key}" />
+              <span class="pref-val">${escapeHtml(getState().prefs[key])}</span>
             </label>
           `).join("")}
         </div>
-        <div class="rec-chip-row">${recommendations.map((rec, idx) => `<article class="rec-chip"><div class="rec-top"><span class="rec-rank">#${idx + 1}</span><span class="rec-month">${rec.month}</span><span class="rec-score">${rec.score}</span></div><p class="rec-why">${rec.rationale}</p></article>`).join("")}</div>
+        <div class="rec-chip-row">${recommendations.map((rec, idx) => `<article class="rec-chip"><div class="rec-top"><span class="rec-rank">#${idx + 1}</span><span class="rec-month">${escapeHtml(rec.month)}</span><span class="rec-score">${escapeHtml(rec.score)}</span></div><p class="rec-why">${escapeHtml(rec.rationale)}</p></article>`).join("")}</div>
       </section>
       <div class="filter-row"><span class="fl-lbl">Highlight months:</span>
         ${filters.map(f => `<button class="fb ${getState().filter === f.id ? "act" : ""}" data-action="set-filter" data-filter="${f.id}">${f.lbl}</button>`).join("")}
@@ -116,7 +117,7 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
     const L = getLocation();
     if (!L) return;
     document.getElementById("main").innerHTML = `
-      <div class="hero"><div class="loc-name">${L.city}</div><div class="loc-meta">${L.country} &middot; ${L.region}</div></div>
+      <div class="hero"><div class="loc-name">${escapeHtml(L.city)}</div><div class="loc-meta">${escapeHtml(L.country)} &middot; ${escapeHtml(L.region)}</div></div>
       <div class="tab-nav">${[["climate", "Climate"], ["costs", "Costs & flights"], ["todo", "Things to do"], ["prac", "Practical info"]].map(([id, lbl]) => `<button class="tab-btn ${id === getState().tab ? "active" : ""}" data-action="switch-tab" data-tab="${id}">${lbl}</button>`).join("")}</div>
       <div class="tab-body" id="tab-body">${rTab(L)}</div>`;
     if (getState().tab === "climate") initChart();
@@ -127,7 +128,23 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
     const locListEl = document.getElementById("loc-list");
     const query = normalizeSearchText(getState().query);
     const filtered = getFilteredLocations(query);
-    locListEl.innerHTML = filtered.map(l => `<button class="loc-btn ${l.id === getState().loc ? "active" : ""}" data-action="select-loc" data-id="${l.id}"><span class="loc-city">${l.city}</span><span class="loc-ctry">${l.country}</span></button>`).join("");
+    locListEl.replaceChildren(...filtered.map(l => {
+      const button = document.createElement("button");
+      button.className = `loc-btn ${l.id === getState().loc ? "active" : ""}`;
+      button.dataset.action = "select-loc";
+      button.dataset.id = l.id;
+
+      const city = document.createElement("span");
+      city.className = "loc-city";
+      city.textContent = l.city;
+
+      const country = document.createElement("span");
+      country.className = "loc-ctry";
+      country.textContent = l.country;
+
+      button.append(city, country);
+      return button;
+    }));
     document.getElementById("dest-count").textContent = query ? `${filtered.length} of ${getIndex().length} destinations` : `${getIndex().length} destinations`;
     mapController.applyFilter(filtered, query);
     lastSidebarLoc = getState().loc;
