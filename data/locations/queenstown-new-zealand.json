@@ -23,7 +23,7 @@
   "prac":{
     "wifi":{"r":4,"spd":"60–160 Mbps","note":"Usually stable in central accommodation, though peaks can strain smaller properties."},
     "directGW":false,
-    "fltNote":"No nonstop Gatwick-Queenstown access; UK itineraries usually connect via Auckland/Christchurch plus domestic legs. Typical returns are around £950-£1,350 off-peak, £1,350-£1,900 in shoulder demand, and £1,900+ in peak holiday and ski-season windows.",
+    "fltNote":"No direct London departures; UK itineraries usually connect via Auckland/Christchurch plus domestic legs. Typical returns are around £950-£1,350 off-peak, £1,350-£1,900 in shoulder demand, and £1,900+ in peak holiday and ski-season windows.",
     "airports":[
       {"name":"Queenstown Airport","code":"ZQN","km":8,"dgw":false},
       {"name":"Wanaka Airport","code":"WKA","km":65,"dgw":false},

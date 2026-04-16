@@ -23,7 +23,7 @@
   "prac": {
     "wifi": {"r": 4, "spd": "70–180 Mbps", "note": "Generally reliable in central stays and cafés, with strong mobile backup."},
     "directGW": false,
-    "fltNote": "No nonstop Gatwick-Auckland route; itineraries are typically one-stop long-haul via Asia or Middle East hubs. Typical return fares are around £850-£1,200 off-peak, £1,200-£1,700 in shoulder demand, and £1,700+ during December-January peaks.",
+    "fltNote": "No direct London departures; itineraries are typically one-stop long-haul via Asia or Middle East hubs. Typical return fares are around £850-£1,200 off-peak, £1,200-£1,700 in shoulder demand, and £1,700+ during December-January peaks.",
     "airports": [
       {"name":"Auckland Airport","code":"AKL","km":21,"dgw":false},
       {"name":"Hamilton Airport","code":"HLZ","km":125,"dgw":false},

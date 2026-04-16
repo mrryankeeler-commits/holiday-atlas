@@ -66,7 +66,7 @@
       "note": "Generally reliable across central hotels and apartments, with strong 4G/5G backup in town."
     },
     "directGW": false,
-    "fltNote": "No consistent nonstop Gatwick-Brașov service; most UK trips route via Bucharest or one-stop European hubs. Typical returns are around £70-£150 in low season, £150-£240 in shoulder demand, and £240+ around summer peaks and Christmas/New Year windows.",
+    "fltNote": "No direct London departures; most UK trips route via Bucharest or one-stop European hubs. Typical returns are around £70-£150 in low season, £150-£240 in shoulder demand, and £240+ around summer peaks and Christmas/New Year windows.",
     "airports": [
       {
         "name": "Brașov-Ghimbav International Airport",

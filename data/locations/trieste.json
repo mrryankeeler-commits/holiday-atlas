@@ -76,7 +76,7 @@
       "note": "Consistent in city-center hotels and apartments. Connectivity is usually stable, though severe bora episodes affect transport schedules more than internet access."
     },
     "directGW": false,
-    "fltNote": "No regular nonstop Gatwick–Trieste route; most UK itineraries connect via Rome, Milan, Munich, or Venice. Return fares are commonly ~£70–£150 off-peak, ~£150–£240 in shoulder demand, and ~£240+ during midsummer and school-holiday windows.",
+    "fltNote": "No direct London departures; most UK itineraries connect via Rome, Milan, Munich, or Venice. Return fares are commonly ~£70–£150 off-peak, ~£150–£240 in shoulder demand, and ~£240+ during midsummer and school-holiday windows.",
     "airports": [
       {
         "name": "Trieste Airport (Friuli Venezia Giulia)",

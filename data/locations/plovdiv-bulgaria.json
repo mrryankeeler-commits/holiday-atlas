@@ -66,7 +66,7 @@
       "note": "Stable in central stays and coworking-friendly cafés, with good mobile coverage as backup."
     },
     "directGW": false,
-    "fltNote": "No consistent nonstop Gatwick-Plovdiv schedule; most UK routes connect via Sofia or other European hubs. Typical return fares are around £70-£150 off-peak, £150-£240 in shoulder demand, and £240+ around peak summer and holiday periods.",
+    "fltNote": "No direct London departures; most UK routes connect via Sofia or other European hubs. Typical return fares are around £70-£150 off-peak, £150-£240 in shoulder demand, and £240+ around peak summer and holiday periods.",
     "airports": [
       {
         "name": "Plovdiv Airport",

@@ -66,7 +66,7 @@
       "note": "Generally dependable in rorbuer and guesthouses, though severe weather can affect resilience."
     },
     "directGW": false,
-    "fltNote": "No Gatwick nonstop access; UK trips typically route via Oslo and Bodø, then connect by flight/ferry/drive into Lofoten. Typical return itineraries are often £180-£320 off-peak, £320-£500 in shoulder demand, and £500+ in peak summer and holiday windows.",
+    "fltNote": "No direct London departures; UK trips typically route via Oslo and Bodø, then connect by flight/ferry/drive into Lofoten. Typical return itineraries are often £180-£320 off-peak, £320-£500 in shoulder demand, and £500+ in peak summer and holiday windows.",
     "airports": [
       {
         "name": "Leknes Airport",
