@@ -5,11 +5,17 @@ let lastSidebarLoc = null;
 let locRailControlsBound = false;
 
 let S = {
+  view: "welcome",
   loc: null,
   tab: "climate",
   filter: null,
   chart: null,
   query: ""
+};
+
+const VIEW_HASH = {
+  welcome: "#welcome",
+  explorer: "#explorer"
 };
 
 const gl = () => LOC_CACHE[S.loc] || null;
@@ -129,7 +135,64 @@ function resetMainHorizontalOffsets() {
   });
 }
 
+function normalizeViewMode(view) {
+  return view === "explorer" ? "explorer" : "welcome";
+}
+
+function viewFromHash(hash = window.location.hash) {
+  if (hash === VIEW_HASH.explorer) return "explorer";
+  if (hash === VIEW_HASH.welcome) return "welcome";
+  return null;
+}
+
+function syncViewHash() {
+  const desired = VIEW_HASH[S.view];
+  if (window.location.hash !== desired) {
+    history.replaceState(null, "", desired);
+  }
+}
+
+function setView(view, options = {}) {
+  const next = normalizeViewMode(view);
+  const changed = S.view !== next;
+  S.view = next;
+
+  if (!options.skipHashSync) syncViewHash();
+  rMain();
+
+  if (!changed && options.preserveFocus) return;
+
+  if (S.view === "welcome") {
+    const welcomeHeading = document.getElementById("welcome-heading");
+    const welcomeCta = document.getElementById("welcome-cta");
+    (welcomeHeading || welcomeCta)?.focus();
+    return;
+  }
+
+  document.getElementById("loc-search")?.focus();
+}
+
+function rWelcome() {
+  return `
+    <section class="welcome-panel" aria-labelledby="welcome-heading">
+      <h1 id="welcome-heading" class="welcome-title" tabindex="-1">Plan your next trip with confidence.</h1>
+      <p class="welcome-copy">
+        Holiday Atlas helps you compare climate, costs, flights, and practical details month by month.
+      </p>
+      <button id="welcome-cta" class="welcome-cta" type="button" onclick="goExplorer()">
+        Explore map
+      </button>
+    </section>
+  `;
+}
+
 function rMain() {
+  if (S.view === "welcome") {
+    document.getElementById("main").innerHTML = rWelcome();
+    resetMainHorizontalOffsets();
+    return;
+  }
+
   const L = gl();
   if (!L) return;
 
@@ -511,6 +574,10 @@ function swTab(t) {
   resetMainHorizontalOffsets();
 }
 
+function goExplorer() {
+  setView("explorer");
+}
+
 function setF(f) {
   S.filter = f;
   const L = gl();
@@ -678,6 +745,7 @@ async function init() {
     }
 
     S.loc = INDEX[0].id;
+    S.view = normalizeViewMode(viewFromHash() || "welcome");
     const locListEl = document.getElementById("loc-list");
     if (locListEl) {
       locListEl.addEventListener("scroll", () => {
@@ -703,7 +771,15 @@ async function init() {
 
     try {
       await loadLocation(S.loc);
-      rMain();
+      if (!window.__holidayAtlasHashBound) {
+        window.addEventListener("hashchange", () => {
+          const hashView = viewFromHash();
+          if (!hashView) return;
+          setView(hashView, { skipHashSync: true, preserveFocus: true });
+        });
+        window.__holidayAtlasHashBound = true;
+      }
+      setView(S.view);
     } catch (err) {
       rLocError(S.loc, err);
       console.error(err);
