@@ -20,36 +20,59 @@
   "region": "Canterbury",
   "desc": "Tekapo is a South Island alpine-lake base known for dark skies, mountain panoramas, and easy access to scenic drives and hikes.",
   "hls": [
-    "Dark Sky Reserve stargazing and observatory sessions",
-    "Lupin season colours around Lake Tekapo (late spring/early summer)",
-    "Day trips to Aoraki / Mount Cook tracks and viewpoints"
+    "Aoraki Mackenzie International Dark Sky Reserve stargazing",
+    "Turquoise Lake Tekapo backdrop and Church of the Good Shepherd",
+    "Mount John Observatory experiences and astro-photography access",
+    "Road-trip base for Aoraki / Mount Cook National Park day trips",
+    "Tekapo Springs hot pools, sauna, and winter snow tubing",
+    "Seasonal lupin blooms and broad South Island alpine panoramas"
   ],
   "todo": [
     {
       "cat": "Stargazing",
-      "name": "Mount John night session",
-      "desc": "Join a dark-sky stargazing or observatory session when skies are clear and moonlight is low."
+      "name": "Mount John guided night tour",
+      "desc": "Reserve an evening observatory slot and dress for cold wind even in summer shoulder nights."
+    },
+    {
+      "cat": "Scenic walk",
+      "name": "Lakeshore to Church of the Good Shepherd",
+      "desc": "Photograph the iconic stone church and continue around the shoreline for quieter viewpoints."
     },
     {
       "cat": "Hiking",
       "name": "Hooker Valley Track day trip",
-      "desc": "Drive to Aoraki / Mount Cook and walk the valley track for suspension bridges and glacier views."
+      "desc": "Drive to Aoraki / Mount Cook village for suspension bridges and glacier-lake views."
     },
     {
       "cat": "Wellness",
-      "name": "Tekapo Springs soak",
-      "desc": "Use evening hot pools after outdoor activities, especially in cooler shoulder and winter months."
+      "name": "Soak at Tekapo Springs",
+      "desc": "Book twilight pools after hikes; winter sessions are popular and can sell out."
+    },
+    {
+      "cat": "Cycling",
+      "name": "Ride a section of the Alps 2 Ocean trail",
+      "desc": "Use local bike hire or shuttle support to tackle scenic canals and open-country segments."
+    },
+    {
+      "cat": "Scenic drive",
+      "name": "Lake Pukaki and High Country viewpoints",
+      "desc": "Plan a half-day drive for vivid blue-water photo stops and mountain reflections."
     }
   ],
   "prac": {
     "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "New Zealand Dollar (NZD)",
-    "alerts": [],
+    "alerts": [
+      "Winter black ice and occasional snow-chain requirements affect State Highway 8 and alpine side roads.",
+      "Peak southern summer (December to February) increases self-drive demand, with higher rates for cars and lakeside stays.",
+      "Cloud cover can cancel stargazing tours at short notice; keep a flexible backup night.",
+      "Fuel and grocery options are limited late at night compared with bigger South Island towns."
+    ],
     "wifi": {
-      "r": 0,
-      "spd": "",
-      "note": "Reliable in main stays/towns; speeds vary on transfers and remote islands."
+      "r": 3,
+      "spd": "20–100 Mbps",
+      "note": "Town-center accommodation generally has dependable Wi-Fi, but speeds can dip at busy evening times and mobile data weakens on highways toward Mount Cook."
     },
     "sim": "Buy an eSIM/local SIM in arrival city for best coverage and data value.",
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
@@ -76,12 +99,14 @@
         "dgw": false
       }
     ],
-    "tz": "",
+    "tz": "NZST/NZDT (UTC+12/+13)",
     "bestFor": [
       "Stargazing",
       "Road trips",
       "Alpine scenery",
-      "Hikers"
+      "Hikers",
+      "Photography trips",
+      "Couples seeking quiet escapes"
     ]
   },
   "sweet": "Nov-Mar",
