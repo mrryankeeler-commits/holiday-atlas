@@ -1,0 +1,189 @@
+{
+  "id": "da-lat-vietnam",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/119901/Average-Weather-in-%C3%90%C3%A0-L%E1%BA%A1t-Vietnam-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Đà Lạt",
+  "country": "Vietnam",
+  "region": "Asia",
+  "desc": "Đà Lạt destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 11.5,
+      "cld": 62,
+      "rain": 10,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 17,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 11.8,
+      "cld": 56,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 12.1,
+      "cld": 60,
+      "rain": 10,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 20,
+      "hi": 26,
+      "lo": 15,
+      "daylight": 12.4,
+      "cld": 76,
+      "rain": 20,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 20,
+      "hi": 26,
+      "lo": 16,
+      "daylight": 12.7,
+      "cld": 93,
+      "rain": 64,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 19,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 12.8,
+      "cld": 96,
+      "rain": 74,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 19,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 12.7,
+      "cld": 95,
+      "rain": 71,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 12.5,
+      "cld": 97,
+      "rain": 76,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 18,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 12.2,
+      "cld": 95,
+      "rain": 119,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 11.9,
+      "cld": 86,
+      "rain": 142,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 11.6,
+      "cld": 77,
+      "rain": 114,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 16,
+      "hi": 21,
+      "lo": 12,
+      "daylight": 11.4,
+      "cld": 68,
+      "rain": 51,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

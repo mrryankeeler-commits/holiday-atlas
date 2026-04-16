@@ -1,0 +1,189 @@
+{
+  "id": "barranquilla-colombia",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/23451/Average-Weather-in-Barranquilla-Colombia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Barranquilla",
+  "country": "Colombia",
+  "region": "Americas",
+  "desc": "Barranquilla destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 11.6,
+      "cld": 49,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 11.8,
+      "cld": 53,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.1,
+      "cld": 61,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.4,
+      "cld": 80,
+      "rain": 18,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.6,
+      "cld": 92,
+      "rain": 61,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.8,
+      "cld": 92,
+      "rain": 58,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.7,
+      "cld": 89,
+      "rain": 51,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.5,
+      "cld": 92,
+      "rain": 66,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 32,
+      "lo": 25,
+      "daylight": 12.2,
+      "cld": 95,
+      "rain": 94,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 11.9,
+      "cld": 92,
+      "rain": 122,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 11.6,
+      "cld": 82,
+      "rain": 76,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 11.5,
+      "cld": 65,
+      "rain": 20,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

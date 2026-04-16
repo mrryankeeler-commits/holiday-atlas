@@ -1,0 +1,189 @@
+{
+  "id": "tilcara-argentina",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/27954/Average-Weather-in-Tilcara-Argentina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Tilcara",
+  "country": "Argentina",
+  "region": "Americas",
+  "desc": "Tilcara destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 13.4,
+      "cld": 53,
+      "rain": 147,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 12.9,
+      "cld": 49,
+      "rain": 147,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 15,
+      "lo": 6,
+      "daylight": 12.2,
+      "cld": 39,
+      "rain": 112,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 13,
+      "lo": 2,
+      "daylight": 11.5,
+      "cld": 28,
+      "rain": 41,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 4,
+      "hi": 11,
+      "lo": -1,
+      "daylight": 11.0,
+      "cld": 28,
+      "rain": 8,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 2,
+      "hi": 9,
+      "lo": -3,
+      "daylight": 10.7,
+      "cld": 31,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 2,
+      "hi": 9,
+      "lo": -4,
+      "daylight": 10.9,
+      "cld": 26,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 4,
+      "hi": 12,
+      "lo": -3,
+      "daylight": 11.3,
+      "cld": 21,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 6,
+      "hi": 14,
+      "lo": -1,
+      "daylight": 12.0,
+      "cld": 21,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 16,
+      "lo": 2,
+      "daylight": 12.7,
+      "cld": 27,
+      "rain": 25,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 11,
+      "hi": 17,
+      "lo": 4,
+      "daylight": 13.3,
+      "cld": 31,
+      "rain": 61,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 11,
+      "hi": 17,
+      "lo": 6,
+      "daylight": 13.6,
+      "cld": 42,
+      "rain": 114,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

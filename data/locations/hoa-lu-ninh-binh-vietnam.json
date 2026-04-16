@@ -1,0 +1,189 @@
+{
+  "id": "hoa-lu-ninh-binh-vietnam",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/115959/Average-Weather-in-Th%C3%A0nh-Ph%E1%BB%91-Ninh-B%C3%ACnh-Vietnam-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Hoa Lư / Ninh Bình",
+  "country": "Vietnam",
+  "region": "Asia",
+  "desc": "Hoa Lư / Ninh Bình destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 18,
+      "hi": 20,
+      "lo": 16,
+      "daylight": 11.1,
+      "cld": 35,
+      "rain": 13,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 18,
+      "hi": 21,
+      "lo": 17,
+      "daylight": 11.5,
+      "cld": 33,
+      "rain": 10,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 21,
+      "hi": 23,
+      "lo": 19,
+      "daylight": 12.1,
+      "cld": 37,
+      "rain": 23,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 24,
+      "hi": 27,
+      "lo": 22,
+      "daylight": 12.6,
+      "cld": 52,
+      "rain": 43,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 13.1,
+      "cld": 80,
+      "rain": 114,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 29,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 13.3,
+      "cld": 94,
+      "rain": 132,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 13.2,
+      "cld": 91,
+      "rain": 165,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 32,
+      "lo": 27,
+      "daylight": 12.8,
+      "cld": 90,
+      "rain": 216,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 31,
+      "lo": 26,
+      "daylight": 12.2,
+      "cld": 75,
+      "rain": 213,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 26,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 56,
+      "rain": 119,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 23,
+      "hi": 26,
+      "lo": 21,
+      "daylight": 11.2,
+      "cld": 41,
+      "rain": 51,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 19,
+      "hi": 22,
+      "lo": 17,
+      "daylight": 10.9,
+      "cld": 34,
+      "rain": 13,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

@@ -8,6 +8,14 @@
     "lng": 1.5218
   },
   {
+    "id": "antalya-turkey",
+    "city": "Antalya",
+    "country": "Turkey",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "antigua-guatemala",
     "city": "Antigua",
     "country": "Guatemala",
@@ -16,12 +24,36 @@
     "lng": -90.7347
   },
   {
+    "id": "arequipa-peru",
+    "city": "Arequipa",
+    "country": "Peru",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "arhus-denmark",
+    "city": "Århus",
+    "country": "Denmark",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "astana",
     "city": "Astana",
     "country": "Kazakhstan",
     "region": "Northern Kazakhstan",
     "lat": 51.1694,
     "lng": 71.4491
+  },
+  {
+    "id": "asuncion-paraguay",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "athens",
@@ -40,6 +72,38 @@
     "lng": 174.7645
   },
   {
+    "id": "bacalar-mexico",
+    "city": "Bacalar",
+    "country": "Mexico",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "barranquilla-colombia",
+    "city": "Barranquilla",
+    "country": "Colombia",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "belize-city-belize",
+    "city": "Belize City",
+    "country": "Belize",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "berat-albania",
+    "city": "Berat",
+    "country": "Albania",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "bergen",
     "city": "Bergen",
     "country": "Norway",
@@ -48,12 +112,28 @@
     "lng": 5.3221
   },
   {
+    "id": "bishkek-kyrgyzstan",
+    "city": "Bishkek",
+    "country": "Kyrgyzstan",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "bled",
     "city": "Bled",
     "country": "Slovenia",
     "region": "Upper Carniola",
     "lat": 46.3692,
     "lng": 14.1136
+  },
+  {
+    "id": "bodrum-turkey",
+    "city": "Bodrum",
+    "country": "Turkey",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "bolivar-venezuela",
@@ -120,6 +200,14 @@
     "lng": 31.2357
   },
   {
+    "id": "cartagena-colombia",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "catania",
     "city": "Catania",
     "country": "Italy",
@@ -150,6 +238,14 @@
     "region": "Zealand",
     "lat": 55.6761,
     "lng": 12.5683
+  },
+  {
+    "id": "da-lat-vietnam",
+    "city": "Đà Lạt",
+    "country": "Vietnam",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "darjeeling",
@@ -198,6 +294,14 @@
     "region": "Pomerania, Poland",
     "lat": 54.352,
     "lng": 18.6466
+  },
+  {
+    "id": "ghent-belgium",
+    "city": "Ghent",
+    "country": "Belgium",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "goa",
@@ -256,6 +360,22 @@
     "lng": 37.9572
   },
   {
+    "id": "hoa-lu-ninh-binh-vietnam",
+    "city": "Hoa Lư / Ninh Bình",
+    "country": "Vietnam",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "hoi-an-vietnam",
+    "city": "Hội An",
+    "country": "Vietnam",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "hurghada",
     "city": "Hurghada",
     "country": "Egypt",
@@ -286,6 +406,14 @@
     "region": "Rajasthan",
     "lat": 26.9124,
     "lng": 75.7873
+  },
+  {
+    "id": "kampot-cambodia",
+    "city": "Kampot",
+    "country": "Cambodia",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "kandy",
@@ -328,6 +456,22 @@
     "lng": 19.945
   },
   {
+    "id": "kutaisi-georgia",
+    "city": "Kutaisi",
+    "country": "Georgia",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "leh-india",
+    "city": "Leh",
+    "country": "India",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "leipzig",
     "city": "Leipzig",
     "country": "Germany",
@@ -336,12 +480,44 @@
     "lng": 12.3731
   },
   {
+    "id": "lima-peru",
+    "city": "Lima",
+    "country": "Peru",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "ljubljana-slovenia",
     "city": "Ljubljana",
     "country": "Slovenia",
     "region": "Central Slovenia",
     "lat": 46.0569,
     "lng": 14.5058
+  },
+  {
+    "id": "luang-prabang-laos",
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "madeira-portugal",
+    "city": "Madeira",
+    "country": "Portugal",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "makassar-indonesia",
+    "city": "Makassar",
+    "country": "Indonesia",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "makunduchi",
@@ -360,12 +536,28 @@
     "lng": 121.9248
   },
   {
+    "id": "manado-indonesia",
+    "city": "Manado",
+    "country": "Indonesia",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "marrakech",
     "city": "Marrakech",
     "country": "Morocco",
     "region": "Central Morocco",
     "lat": 31.6295,
     "lng": -7.9811
+  },
+  {
+    "id": "medellin-colombia",
+    "city": "Medellín",
+    "country": "Colombia",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "merida-yucatan-mexico",
@@ -382,6 +574,14 @@
     "region": "Thessaly, Greece",
     "lat": 39.7217,
     "lng": 21.6301
+  },
+  {
+    "id": "minca-colombia",
+    "city": "Minca",
+    "country": "Colombia",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "mostar",
@@ -406,6 +606,14 @@
     "region": "Santorini, Cyclades",
     "lat": 36.4618,
     "lng": 25.3753
+  },
+  {
+    "id": "ometepe-nicaragua",
+    "city": "Ometepe",
+    "country": "Nicaragua",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "osaka",
@@ -440,6 +648,14 @@
     "lng": 32.4245
   },
   {
+    "id": "phoenix-united-states",
+    "city": "Phoenix",
+    "country": "United States",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "plovdiv-bulgaria",
     "city": "Plovdiv",
     "country": "Bulgaria",
@@ -464,12 +680,52 @@
     "lng": 14.4378
   },
   {
+    "id": "puerto-ayora-ecuador",
+    "city": "Puerto Ayora",
+    "country": "Ecuador",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "puno-peru",
+    "city": "Puno",
+    "country": "Peru",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "queenstown-new-zealand",
     "city": "Queenstown",
     "country": "New Zealand",
     "region": "Otago, South Island",
     "lat": -45.0312,
     "lng": 168.6626
+  },
+  {
+    "id": "quetzaltenango-guatemala",
+    "city": "Quetzaltenango",
+    "country": "Guatemala",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "quito-ecuador",
+    "city": "Quito",
+    "country": "Ecuador",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "reckong-peo-india",
+    "city": "Reckong Peo",
+    "country": "India",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "reine-norway",
@@ -488,6 +744,14 @@
     "lng": 24.1052
   },
   {
+    "id": "rio-de-janeiro-brazil",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "rome",
     "city": "Rome",
     "country": "Italy",
@@ -496,12 +760,36 @@
     "lng": 12.4964
   },
   {
+    "id": "ronda-spain",
+    "city": "Ronda",
+    "country": "Spain",
+    "region": "Europe",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "samarkand",
     "city": "Samarkand",
     "country": "Uzbekistan",
     "region": "Zerafshan Valley",
     "lat": 39.6542,
     "lng": 66.9597
+  },
+  {
+    "id": "san-pedro-la-laguna-guatemala",
+    "city": "San Pedro La Laguna",
+    "country": "Guatemala",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "id": "santa-marta-colombia",
+    "city": "Santa Marta",
+    "country": "Colombia",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "sanya",
@@ -560,6 +848,14 @@
     "lng": 24.7536
   },
   {
+    "id": "tangalla-sri-lanka",
+    "city": "Tangalla",
+    "country": "Sri Lanka",
+    "region": "Other",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "tbilisi",
     "city": "Tbilisi",
     "country": "Georgia",
@@ -576,12 +872,28 @@
     "lng": 170.479
   },
   {
+    "id": "tilcara-argentina",
+    "city": "Tilcara",
+    "country": "Argentina",
+    "region": "Americas",
+    "lat": 0,
+    "lng": 0
+  },
+  {
     "id": "tirana",
     "city": "Tirana",
     "country": "Albania",
     "region": "Balkans",
     "lat": 41.3275,
     "lng": 19.8187
+  },
+  {
+    "id": "tokyo-japan",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "toledo",
@@ -606,6 +918,14 @@
     "region": "Piedmont, Northern Italy",
     "lat": 45.0703,
     "lng": 7.6869
+  },
+  {
+    "id": "ulaanbaatar-mongolia",
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "region": "Asia",
+    "lat": 0,
+    "lng": 0
   },
   {
     "id": "ulcinj",

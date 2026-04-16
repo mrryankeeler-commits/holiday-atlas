@@ -1,0 +1,189 @@
+{
+  "id": "asuncion-paraguay",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/29167/Average-Weather-in-Asunci%C3%B3n-Paraguay-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Asunción",
+  "country": "Paraguay",
+  "region": "Americas",
+  "desc": "Asunción destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 28,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 13.5,
+      "cld": 45,
+      "rain": 124,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 32,
+      "lo": 23,
+      "daylight": 12.9,
+      "cld": 42,
+      "rain": 135,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 26,
+      "hi": 31,
+      "lo": 22,
+      "daylight": 12.2,
+      "cld": 33,
+      "rain": 119,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 23,
+      "hi": 28,
+      "lo": 19,
+      "daylight": 11.5,
+      "cld": 31,
+      "rain": 155,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 10.9,
+      "cld": 32,
+      "rain": 114,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 10.6,
+      "cld": 37,
+      "rain": 74,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "daylight": 10.7,
+      "cld": 35,
+      "rain": 48,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 26,
+      "lo": 15,
+      "daylight": 11.3,
+      "cld": 32,
+      "rain": 43,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 27,
+      "lo": 17,
+      "daylight": 12.0,
+      "cld": 32,
+      "rain": 71,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 24,
+      "hi": 29,
+      "lo": 19,
+      "daylight": 12.7,
+      "cld": 38,
+      "rain": 130,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 26,
+      "hi": 31,
+      "lo": 21,
+      "daylight": 13.4,
+      "cld": 38,
+      "rain": 158,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 32,
+      "lo": 22,
+      "daylight": 13.7,
+      "cld": 42,
+      "rain": 145,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

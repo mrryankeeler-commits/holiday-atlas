@@ -1,0 +1,189 @@
+{
+  "id": "lima-peru",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/20441/Average-Weather-in-Lima-Peru-Year-Round ; https://www.weather-atlas.com/en/peru/lima-climate ; https://www.weather2travel.com/peru/lima/climate/"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Lima",
+  "country": "Peru",
+  "region": "Americas",
+  "desc": "Lima destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 22,
+      "hi": 26,
+      "lo": 20,
+      "daylight": 12.7,
+      "cld": 75,
+      "rain": 3,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 23,
+      "hi": 27,
+      "lo": 21,
+      "daylight": 12.5,
+      "cld": 79,
+      "rain": 4,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 23,
+      "hi": 27,
+      "lo": 20,
+      "daylight": 12.1,
+      "cld": 76,
+      "rain": 3,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 21,
+      "hi": 24,
+      "lo": 18,
+      "daylight": 11.8,
+      "cld": 53,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 22,
+      "lo": 17,
+      "daylight": 11.6,
+      "cld": 38,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 11.4,
+      "cld": 37,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 19,
+      "lo": 16,
+      "daylight": 11.5,
+      "cld": 30,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 19,
+      "lo": 15,
+      "daylight": 11.7,
+      "cld": 28,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 17,
+      "hi": 19,
+      "lo": 16,
+      "daylight": 12.0,
+      "cld": 37,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 12.4,
+      "cld": 51,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 19,
+      "hi": 22,
+      "lo": 17,
+      "daylight": 12.7,
+      "cld": 59,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 21,
+      "hi": 24,
+      "lo": 18,
+      "daylight": 12.8,
+      "cld": 69,
+      "rain": 1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

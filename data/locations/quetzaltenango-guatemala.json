@@ -1,0 +1,189 @@
+{
+  "id": "quetzaltenango-guatemala",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/11183/Average-Weather-in-Quetzaltenango-Guatemala-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Quetzaltenango",
+  "country": "Guatemala",
+  "region": "Americas",
+  "desc": "Quetzaltenango destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 12,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 11.4,
+      "cld": 24,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 12,
+      "hi": 20,
+      "lo": 6,
+      "daylight": 11.7,
+      "cld": 26,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 13,
+      "hi": 21,
+      "lo": 7,
+      "daylight": 12.1,
+      "cld": 33,
+      "rain": 18,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 14,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 12.5,
+      "cld": 59,
+      "rain": 53,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 20,
+      "lo": 10,
+      "daylight": 12.8,
+      "cld": 87,
+      "rain": 142,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 13.0,
+      "cld": 95,
+      "rain": 236,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 12.9,
+      "cld": 91,
+      "rain": 198,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 12.6,
+      "cld": 91,
+      "rain": 216,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 12.2,
+      "cld": 94,
+      "rain": 264,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 11.8,
+      "cld": 85,
+      "rain": 188,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 11.4,
+      "cld": 60,
+      "rain": 61,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 12,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 11.3,
+      "cld": 35,
+      "rain": 10,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

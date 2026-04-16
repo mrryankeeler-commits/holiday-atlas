@@ -1,0 +1,189 @@
+{
+  "id": "phoenix-united-states",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/2460/Average-Weather-in-Phoenix-Arizona-United-States-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Phoenix",
+  "country": "United States",
+  "region": "Americas",
+  "desc": "Phoenix destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 13,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 10.2,
+      "cld": 34,
+      "rain": 25,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 15,
+      "hi": 22,
+      "lo": 9,
+      "daylight": 11.0,
+      "cld": 37,
+      "rain": 28,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 26,
+      "lo": 12,
+      "daylight": 12.0,
+      "cld": 30,
+      "rain": 23,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 23,
+      "hi": 30,
+      "lo": 16,
+      "daylight": 13.1,
+      "cld": 25,
+      "rain": 8,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 28,
+      "hi": 35,
+      "lo": 21,
+      "daylight": 13.9,
+      "cld": 21,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 33,
+      "hi": 40,
+      "lo": 26,
+      "daylight": 14.3,
+      "cld": 16,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 35,
+      "hi": 41,
+      "lo": 29,
+      "daylight": 14.1,
+      "cld": 30,
+      "rain": 15,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 34,
+      "hi": 40,
+      "lo": 29,
+      "daylight": 13.3,
+      "cld": 29,
+      "rain": 25,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 31,
+      "hi": 37,
+      "lo": 25,
+      "daylight": 12.3,
+      "cld": 16,
+      "rain": 18,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 24,
+      "hi": 31,
+      "lo": 18,
+      "daylight": 11.3,
+      "cld": 20,
+      "rain": 13,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 17,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 10.4,
+      "cld": 28,
+      "rain": 18,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 13,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 10.0,
+      "cld": 34,
+      "rain": 25,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

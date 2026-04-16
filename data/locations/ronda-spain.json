@@ -1,0 +1,189 @@
+{
+  "id": "ronda-spain",
+  "source": {
+    "climateVerified": false,
+    "climateVerifiedOn": null,
+    "climateVerificationNote": "Phase 1 skeleton from CSV import; climate values not yet provenance-verified against canonical source rows.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/34092/Average-Weather-in-Ronda-Spain-Year-Round"
+      }
+    ],
+    "importedFromCsv": "climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-16",
+      "profile": "seasonality-inference-v1",
+      "notes": "Phase 1 skeleton defaults busy/ac/fl to neutral pending enrichment batch review."
+    }
+  },
+  "city": "Ronda",
+  "country": "Spain",
+  "region": "Europe",
+  "desc": "Ronda destination profile pending enrichment.",
+  "hls": [],
+  "todo": [],
+  "prac": {
+    "directGW": false,
+    "visa": "",
+    "currency": "",
+    "alerts": [],
+    "wifi": {
+      "r": 0,
+      "spd": "",
+      "note": ""
+    },
+    "fltNote": "",
+    "airports": [],
+    "lang": "",
+    "tz": "",
+    "bestFor": []
+  },
+  "sweet": "",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 7,
+      "hi": 12,
+      "lo": 3,
+      "daylight": 10.0,
+      "cld": 40,
+      "rain": 53,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 8,
+      "hi": 13,
+      "lo": 3,
+      "daylight": 10.9,
+      "cld": 40,
+      "rain": 48,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 10,
+      "hi": 16,
+      "lo": 5,
+      "daylight": 12.0,
+      "cld": 39,
+      "rain": 41,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 13.2,
+      "cld": 37,
+      "rain": 38,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 14.2,
+      "cld": 34,
+      "rain": 20,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 19,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 14.6,
+      "cld": 20,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 22,
+      "hi": 28,
+      "lo": 16,
+      "daylight": 14.4,
+      "cld": 7,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 22,
+      "hi": 28,
+      "lo": 16,
+      "daylight": 13.5,
+      "cld": 13,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 19,
+      "hi": 25,
+      "lo": 14,
+      "daylight": 12.4,
+      "cld": 32,
+      "rain": 15,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 15,
+      "hi": 20,
+      "lo": 11,
+      "daylight": 11.2,
+      "cld": 43,
+      "rain": 53,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 10,
+      "hi": 15,
+      "lo": 6,
+      "daylight": 10.2,
+      "cld": 43,
+      "rain": 74,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "daylight": 9.7,
+      "cld": 43,
+      "rain": 71,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}
