@@ -127,6 +127,8 @@ After importing/updating climate data, run:
 - `python3 scripts/validate_locations.py`
 - `python3 scripts/verify_climate_provenance.py`
 
+`scripts/validate_locations.py` is a **mandatory pre-merge contract check** and is enforced in CI via `.github/workflows/location-data-validation.yml` on pull requests that touch location data.
+
 If you need CI-style strictness that fails whenever any destination is still unverified:
 
 - `python3 scripts/verify_climate_provenance.py --fail-on-unverified`

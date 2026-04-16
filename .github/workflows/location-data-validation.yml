@@ -1,0 +1,29 @@
+name: Location data validation
+
+on:
+  pull_request:
+    paths:
+      - "data/locations/**"
+      - "scripts/validate_locations.py"
+      - ".github/workflows/location-data-validation.yml"
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  validate-locations:
+    name: Validate location payload contract
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run mandatory location validator
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_locations.py
