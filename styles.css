@@ -136,9 +136,9 @@ body{padding:24px;background:#fafafa}
     0 0 0 6.2px rgba(255,255,255,0.96);
 }
 .dest-marker.is-dimmed{
-  opacity:.48;
+  opacity:1;
   filter:none;
-  transform:scale(.92);
+  transform:none;
 }
 .dest-marker:hover{
   transform:scale(1.08);

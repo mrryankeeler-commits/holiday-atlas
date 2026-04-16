@@ -29,6 +29,58 @@ const MARKER_FALLBACK_PALETTES = [
   { token: "palette-fallback-4", fill: "#205f9e", halo: "rgba(218,235,255,0.8)" },
   { token: "palette-fallback-5", fill: "#5f3f95", halo: "rgba(230,221,249,0.78)" }
 ];
+const COUNTRY_FLAG_PALETTES = {
+  "albania": { token: "flag-albania", fill: "linear-gradient(90deg, #e41e26 0 100%)", halo: "rgba(255,224,224,0.82)" },
+  "andorra": { token: "flag-andorra", fill: "linear-gradient(90deg, #1f4fb3 0 33.33%, #f6d34e 33.33% 66.66%, #c7362c 66.66% 100%)", halo: "rgba(232,238,255,0.85)" },
+  "australia": { token: "flag-australia", fill: "linear-gradient(90deg, #0a2f7a 0 100%)", halo: "rgba(222,232,255,0.82)" },
+  "austria": { token: "flag-austria", fill: "linear-gradient(180deg, #d81e2c 0 33.33%, #ffffff 33.33% 66.66%, #d81e2c 66.66% 100%)", halo: "rgba(255,230,230,0.84)" },
+  "bosnia & herzegovina": { token: "flag-bosnia", fill: "linear-gradient(130deg, #1d3f8a 0 74%, #f2c94c 74% 100%)", halo: "rgba(224,233,255,0.84)" },
+  "bosnia and herzegovina": { token: "flag-bosnia", fill: "linear-gradient(130deg, #1d3f8a 0 74%, #f2c94c 74% 100%)", halo: "rgba(224,233,255,0.84)" },
+  "bulgaria": { token: "flag-bulgaria", fill: "linear-gradient(180deg, #ffffff 0 33.33%, #2f8d47 33.33% 66.66%, #d0342c 66.66% 100%)", halo: "rgba(232,255,238,0.84)" },
+  "china": { token: "flag-china", fill: "linear-gradient(90deg, #de2910 0 100%)", halo: "rgba(255,226,219,0.82)" },
+  "croatia": { token: "flag-croatia", fill: "linear-gradient(180deg, #d3202c 0 33.33%, #ffffff 33.33% 66.66%, #1f4ea3 66.66% 100%)", halo: "rgba(230,236,255,0.84)" },
+  "cyprus": { token: "flag-cyprus", fill: "linear-gradient(90deg, #ffffff 0 100%)", halo: "rgba(255,250,232,0.84)" },
+  "czechia": { token: "flag-czechia", fill: "linear-gradient(180deg, #ffffff 0 50%, #d91d2a 50% 100%)", halo: "rgba(230,238,255,0.84)" },
+  "denmark": { token: "flag-denmark", fill: "linear-gradient(90deg, #c8102e 0 100%)", halo: "rgba(255,228,233,0.82)" },
+  "egypt": { token: "flag-egypt", fill: "linear-gradient(180deg, #ce1126 0 33.33%, #ffffff 33.33% 66.66%, #000000 66.66% 100%)", halo: "rgba(244,244,244,0.84)" },
+  "estonia": { token: "flag-estonia", fill: "linear-gradient(180deg, #4891d9 0 33.33%, #111111 33.33% 66.66%, #ffffff 66.66% 100%)", halo: "rgba(226,242,255,0.84)" },
+  "georgia": { token: "flag-georgia", fill: "linear-gradient(90deg, #ffffff 0 100%)", halo: "rgba(255,228,228,0.84)" },
+  "germany": { token: "flag-germany", fill: "linear-gradient(180deg, #000000 0 33.33%, #dd0000 33.33% 66.66%, #ffce00 66.66% 100%)", halo: "rgba(255,243,214,0.84)" },
+  "greece": { token: "flag-greece", fill: "linear-gradient(180deg, #0d5eaf 0 50%, #ffffff 50% 100%)", halo: "rgba(228,240,255,0.84)" },
+  "guatemala": { token: "flag-guatemala", fill: "linear-gradient(90deg, #6ec1e4 0 33.33%, #ffffff 33.33% 66.66%, #6ec1e4 66.66% 100%)", halo: "rgba(228,247,255,0.84)" },
+  "hungary": { token: "flag-hungary", fill: "linear-gradient(180deg, #ce2939 0 33.33%, #ffffff 33.33% 66.66%, #477050 66.66% 100%)", halo: "rgba(231,255,238,0.84)" },
+  "india": { token: "flag-india", fill: "linear-gradient(180deg, #ff9933 0 33.33%, #ffffff 33.33% 66.66%, #138808 66.66% 100%)", halo: "rgba(255,238,220,0.84)" },
+  "indonesia": { token: "flag-indonesia", fill: "linear-gradient(180deg, #ce1126 0 50%, #ffffff 50% 100%)", halo: "rgba(255,229,229,0.84)" },
+  "italy": { token: "flag-italy", fill: "linear-gradient(90deg, #009246 0 33.33%, #ffffff 33.33% 66.66%, #ce2b37 66.66% 100%)", halo: "rgba(229,255,238,0.84)" },
+  "japan": { token: "flag-japan", fill: "radial-gradient(circle at 50% 50%, #bc002d 0 37%, #ffffff 38% 100%)", halo: "rgba(255,230,236,0.84)" },
+  "kazakhstan": { token: "flag-kazakhstan", fill: "linear-gradient(90deg, #00afca 0 100%)", halo: "rgba(220,248,255,0.84)" },
+  "latvia": { token: "flag-latvia", fill: "linear-gradient(180deg, #9e3039 0 42%, #ffffff 42% 58%, #9e3039 58% 100%)", halo: "rgba(255,232,235,0.84)" },
+  "lithuania": { token: "flag-lithuania", fill: "linear-gradient(180deg, #fdb913 0 33.33%, #006a44 33.33% 66.66%, #c1272d 66.66% 100%)", halo: "rgba(255,245,213,0.84)" },
+  "malta": { token: "flag-malta", fill: "linear-gradient(90deg, #ffffff 0 50%, #cf142b 50% 100%)", halo: "rgba(255,231,235,0.84)" },
+  "mexico": { token: "flag-mexico", fill: "linear-gradient(90deg, #006847 0 33.33%, #ffffff 33.33% 66.66%, #ce1126 66.66% 100%)", halo: "rgba(226,255,239,0.84)" },
+  "montenegro": { token: "flag-montenegro", fill: "linear-gradient(90deg, #c40308 0 100%)", halo: "rgba(255,225,225,0.82)" },
+  "morocco": { token: "flag-morocco", fill: "linear-gradient(90deg, #c1272d 0 100%)", halo: "rgba(255,227,227,0.82)" },
+  "new zealand": { token: "flag-new-zealand", fill: "linear-gradient(90deg, #00247d 0 100%)", halo: "rgba(224,233,255,0.82)" },
+  "norway": { token: "flag-norway", fill: "linear-gradient(90deg, #ba0c2f 0 100%)", halo: "rgba(255,227,233,0.82)" },
+  "panama": { token: "flag-panama", fill: "linear-gradient(90deg, #ffffff 0 50%, #d21034 50% 100%)", halo: "rgba(232,240,255,0.84)" },
+  "philippines": { token: "flag-philippines", fill: "linear-gradient(180deg, #0038a8 0 50%, #ce1126 50% 100%)", halo: "rgba(230,238,255,0.84)" },
+  "poland": { token: "flag-poland", fill: "linear-gradient(180deg, #ffffff 0 50%, #dc143c 50% 100%)", halo: "rgba(255,231,237,0.84)" },
+  "portugal": { token: "flag-portugal", fill: "linear-gradient(90deg, #046a38 0 40%, #da291c 40% 100%)", halo: "rgba(225,255,236,0.84)" },
+  "romania": { token: "flag-romania", fill: "linear-gradient(90deg, #002b7f 0 33.33%, #fcd116 33.33% 66.66%, #ce1126 66.66% 100%)", halo: "rgba(226,236,255,0.84)" },
+  "saudi arabia": { token: "flag-saudi-arabia", fill: "linear-gradient(90deg, #006c35 0 100%)", halo: "rgba(223,255,236,0.84)" },
+  "slovakia": { token: "flag-slovakia", fill: "linear-gradient(180deg, #ffffff 0 33.33%, #0b4ea2 33.33% 66.66%, #ee1c25 66.66% 100%)", halo: "rgba(229,238,255,0.84)" },
+  "slovenia": { token: "flag-slovenia", fill: "linear-gradient(180deg, #ffffff 0 33.33%, #0056a3 33.33% 66.66%, #d50032 66.66% 100%)", halo: "rgba(228,238,255,0.84)" },
+  "south korea": { token: "flag-south-korea", fill: "radial-gradient(circle at 50% 50%, #cd2e3a 0 24%, #0047a0 24% 48%, #ffffff 49% 100%)", halo: "rgba(230,240,255,0.84)" },
+  "spain": { token: "flag-spain", fill: "linear-gradient(180deg, #aa151b 0 25%, #f1bf00 25% 75%, #aa151b 75% 100%)", halo: "rgba(255,245,213,0.84)" },
+  "sri lanka": { token: "flag-sri-lanka", fill: "linear-gradient(90deg, #ffb700 0 18%, #8d153a 18% 100%)", halo: "rgba(255,241,212,0.84)" },
+  "switzerland": { token: "flag-switzerland", fill: "linear-gradient(90deg, #d52b1e 0 100%)", halo: "rgba(255,226,223,0.82)" },
+  "tanzania": { token: "flag-tanzania", fill: "linear-gradient(135deg, #1eb53a 0 46%, #fcd116 46% 49%, #000000 49% 51%, #00a3dd 51% 100%)", halo: "rgba(227,255,236,0.84)" },
+  "turkey": { token: "flag-turkey", fill: "linear-gradient(90deg, #e30a17 0 100%)", halo: "rgba(255,224,227,0.82)" },
+  "united arab emirates": { token: "flag-uae", fill: "linear-gradient(180deg, #00732f 0 33.33%, #ffffff 33.33% 66.66%, #000000 66.66% 100%)", halo: "rgba(232,255,239,0.84)" },
+  "uzbekistan": { token: "flag-uzbekistan", fill: "linear-gradient(180deg, #1eb5e6 0 31%, #ffffff 31% 62%, #1aac4b 62% 100%)", halo: "rgba(225,247,255,0.84)" },
+  "venezuela": { token: "flag-venezuela", fill: "linear-gradient(180deg, #f4d900 0 33.33%, #0033a0 33.33% 66.66%, #d52b1e 66.66% 100%)", halo: "rgba(255,247,212,0.84)" },
+  "vietnam": { token: "flag-vietnam", fill: "linear-gradient(90deg, #da251d 0 100%)", halo: "rgba(255,227,224,0.82)" }
+};
 let S = {
   view: "welcome",
   loc: null,
@@ -90,6 +142,12 @@ function getMarkerVariantForLocation(loc) {
   if (markerVariantCache.has(id)) return markerVariantCache.get(id);
 
   const normalizedCountry = normalizeSearchText(loc?.country);
+  if (COUNTRY_FLAG_PALETTES[normalizedCountry]) {
+    const palette = COUNTRY_FLAG_PALETTES[normalizedCountry];
+    markerVariantCache.set(id, palette);
+    return palette;
+  }
+
   let hash = 0;
   for (let i = 0; i < normalizedCountry.length; i += 1) {
     hash = (hash * 31 + normalizedCountry.charCodeAt(i)) % 2147483647;
@@ -290,14 +348,12 @@ function syncMarkerInteractiveState(id) {
 }
 
 function applyMarkerContrastState() {
-  const hasHighlightedMarker = Boolean(highlightedMarkerId) && visibleMapMarkerIds.has(highlightedMarkerId);
   mapMarkers.forEach((marker, id) => {
     const markerEl = marker.getElement();
     if (!markerEl) return;
-    const shouldDim = hasHighlightedMarker && visibleMapMarkerIds.has(id) && id !== highlightedMarkerId;
-    markerEl.classList.toggle("is-dimmed", shouldDim);
+    markerEl.classList.remove("is-dimmed");
     const markerDot = markerEl.querySelector(".dest-marker");
-    if (markerDot) markerDot.classList.toggle("is-dimmed", shouldDim);
+    if (markerDot) markerDot.classList.remove("is-dimmed");
   });
 }
 
