@@ -129,6 +129,12 @@ function focusMapOnLocation(id, options = {}) {
   highlightMapMarker(id);
 }
 
+function applySelectionRenderHooks(options = {}) {
+  const { panMap = true } = options;
+  rSidebar();
+  focusMapOnLocation(S.loc, { pan: panMap });
+}
+
 function rSidebar() {
   const locListEl = document.getElementById("loc-list");
   const isMobile = window.matchMedia("(max-width: 900px)").matches;
@@ -648,21 +654,31 @@ function initChart() {
 
 }
 
-async function selLoc(id) {
+async function setSelectedLocation(id, options = {}) {
+  const { panMap = true } = options;
+  if (!id || !INDEX.some(loc => loc.id === id)) return;
+
   S.loc = id;
   S.filter = null;
   S.tab = "climate";
-  rSidebar();
-  focusMapOnLocation(id);
+  applySelectionRenderHooks({ panMap });
 
   try {
     await loadLocation(id);
-    rMain();
+    if (S.view === "explorer") rMain();
     resetMainHorizontalOffsets();
   } catch (err) {
     rLocError(id, err);
     console.error(err);
   }
+}
+
+async function selLoc(id) {
+  return setSelectedLocation(id, { panMap: true });
+}
+
+async function selLocFromDeepLink(id) {
+  return setSelectedLocation(id, { panMap: false });
 }
 
 function swTab(t) {
@@ -873,7 +889,7 @@ async function init() {
       });
       locRailControlsBound = true;
     }
-    rSidebar();
+    applySelectionRenderHooks({ panMap: false });
     initMap();
 
     try {
@@ -903,3 +919,5 @@ async function init() {
 }
 
 init();
+
+window.selLocFromDeepLink = selLocFromDeepLink;
