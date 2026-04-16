@@ -30,7 +30,7 @@
     "Take a sunset paraw-style sailing trip"
   ],
   "prac": {
-    "directGW": true,
+    "directGW": false,
     "visa": "Check latest entry requirements based on your passport before booking.",
     "currency": "Philippine Peso (PHP)",
     "alerts": [],
@@ -43,7 +43,7 @@
     "safety": "Use standard travel precautions and follow local weather/sea-condition guidance.",
     "lang": "Filipino and English",
     "power": "Type A/B/C, 220V",
-    "fltNote": "",
+    "fltNote": "No direct UK flights to Malay/Boracay access airports; typical itineraries connect via Manila, Cebu, or regional hubs.",
     "airports": [],
     "tz": "",
     "bestFor": []
