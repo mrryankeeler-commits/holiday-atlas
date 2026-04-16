@@ -1,11 +1,15 @@
 {
   "id": "andorra-la-vella",
   "source": {
-    "climateVerified": false,
-    "climateVerifiedOn": "",
-    "climateVerificationNote": "No climate source URL is linked for this location.",
-    "climate": [],
-    "importedFromCsv": "",
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-16",
+    "climate": [
+      {
+        "name": "Climate-Data.org",
+        "url": "https://en.climate-data.org/europe/andorra/andorra-la-vella/andorra-la-vella-12720/"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_03 - Climate Data.csv",
     "scoring": {
       "reviewedOn": "2026-04-15",
       "profile": "seasonality-inference-v1"
@@ -104,147 +108,147 @@
   "months": [
     {
       "m": "Jan",
-      "avg": -4,
-      "hi": -1,
-      "lo": -8,
-      "cld": 70,
-      "rain": 85,
+      "avg": -3,
+      "hi": 2,
+      "lo": -6,
+      "cld": 47,
+      "rain": 62,
       "busy": 9,
       "ac": 5,
       "fl": 4,
-      "daylight": 3
+      "daylight": 5.0
     },
     {
       "m": "Feb",
       "avg": -3,
-      "hi": 0,
+      "hi": 2,
       "lo": -7,
-      "cld": 66,
-      "rain": 75,
+      "cld": 47,
+      "rain": 34,
       "busy": 10,
       "ac": 5,
       "fl": 5,
-      "daylight": 4
+      "daylight": 6.0
     },
     {
       "m": "Mar",
-      "avg": 1,
-      "hi": 4,
-      "lo": -3,
-      "cld": 60,
-      "rain": 85,
+      "avg": 0,
+      "hi": 5,
+      "lo": -4,
+      "cld": 46,
+      "rain": 65,
       "busy": 8,
       "ac": 4,
       "fl": 4,
-      "daylight": 5
+      "daylight": 7.0
     },
     {
       "m": "Apr",
-      "avg": 6,
-      "hi": 9,
-      "lo": 2,
-      "cld": 56,
-      "rain": 105,
+      "avg": 3,
+      "hi": 8,
+      "lo": -1,
+      "cld": 51,
+      "rain": 80,
       "busy": 4,
       "ac": 2,
       "fl": 3,
-      "daylight": 6
+      "daylight": 7.0
     },
     {
       "m": "May",
-      "avg": 11,
-      "hi": 14,
-      "lo": 7,
-      "cld": 52,
-      "rain": 130,
+      "avg": 8,
+      "hi": 13,
+      "lo": 2,
+      "cld": 43,
+      "rain": 72,
       "busy": 2,
       "ac": 1,
       "fl": 2,
-      "daylight": 7
+      "daylight": 9.0
     },
     {
       "m": "Jun",
-      "avg": 15,
-      "hi": 18,
-      "lo": 11,
-      "cld": 48,
-      "rain": 150,
+      "avg": 12,
+      "hi": 17,
+      "lo": 6,
+      "cld": 37,
+      "rain": 72,
       "busy": 5,
       "ac": 2,
       "fl": 3,
-      "daylight": 8
+      "daylight": 10.0
     },
     {
       "m": "Jul",
-      "avg": 17,
-      "hi": 20,
-      "lo": 13,
-      "cld": 46,
-      "rain": 150,
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "cld": 28,
+      "rain": 63,
       "busy": 8,
       "ac": 4,
       "fl": 4,
-      "daylight": 8
+      "daylight": 11.0
     },
     {
       "m": "Aug",
-      "avg": 17,
-      "hi": 20,
-      "lo": 13,
-      "cld": 48,
-      "rain": 140,
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "cld": 29,
+      "rain": 60,
       "busy": 7,
       "ac": 4,
       "fl": 4,
-      "daylight": 7
+      "daylight": 9.0
     },
     {
       "m": "Sep",
-      "avg": 13,
+      "avg": 11,
       "hi": 16,
-      "lo": 9,
-      "cld": 54,
-      "rain": 110,
+      "lo": 5,
+      "cld": 34,
+      "rain": 54,
       "busy": 5,
       "ac": 3,
       "fl": 2,
-      "daylight": 6
+      "daylight": 8.0
     },
     {
       "m": "Oct",
-      "avg": 8,
-      "hi": 11,
-      "lo": 4,
-      "cld": 60,
-      "rain": 95,
+      "avg": 7,
+      "hi": 13,
+      "lo": 3,
+      "cld": 35,
+      "rain": 86,
       "busy": 3,
       "ac": 2,
       "fl": 1,
-      "daylight": 5
+      "daylight": 7.0
     },
     {
       "m": "Nov",
-      "avg": 2,
-      "hi": 5,
+      "avg": 1,
+      "hi": 6,
       "lo": -2,
-      "cld": 68,
-      "rain": 95,
+      "cld": 44,
+      "rain": 64,
       "busy": 1,
       "ac": 1,
       "fl": 1,
-      "daylight": 3.5
+      "daylight": 5.0
     },
     {
       "m": "Dec",
       "avg": -2,
-      "hi": 1,
-      "lo": -6,
-      "cld": 72,
-      "rain": 90,
+      "hi": 4,
+      "lo": -4,
+      "cld": 38,
+      "rain": 41,
       "busy": 9,
       "ac": 5,
       "fl": 5,
-      "daylight": 3
+      "daylight": 5.0
     }
   ]
 }
