@@ -6,6 +6,11 @@ import { viewFromHash, VIEW_HASH } from "./js/utils.js";
 
 const dataStore = createDataStore();
 const stateStore = createStateStore();
+let mapEnhancementFlags = {
+  mapClustering: false,
+  mapRegionFilters: false,
+  mapResponsiveSplitTuning: false
+};
 
 const syncViewHash = () => {
   const desired = VIEW_HASH[stateStore.state.view];
@@ -43,6 +48,13 @@ const setView = (view, { skipHashSync = false } = {}) => {
 };
 
 const getLocation = () => dataStore.getLocationFromCache(stateStore.state.loc);
+const getFilteredLocations = () => renderer.getFilteredLocations();
+
+const refreshExplorerSync = ({ shouldFocusMap = false } = {}) => {
+  renderer.renderSidebar();
+  if (stateStore.state.view === "explorer") renderer.renderMain();
+  if (shouldFocusMap) mapController.focusLocation(stateStore.state.loc, { pan: false });
+};
 
 const selectLocation = async (id, options = {}) => {
   if (!id || !dataStore.getIndex().some(loc => loc.id === id)) return;
@@ -91,6 +103,16 @@ renderer = createRenderer({
     setQuery: query => {
       stateStore.setQuery(query);
       renderer.renderSidebar();
+    },
+    setRegionFilter: region => {
+      if (!mapEnhancementFlags.mapRegionFilters) return;
+      stateStore.setRegion(region);
+      const filtered = getFilteredLocations();
+      if (!filtered.some(loc => loc.id === stateStore.state.loc)) {
+        const nextLocation = filtered[0]?.id || dataStore.getIndex()[0]?.id || null;
+        if (nextLocation) stateStore.setLocation(nextLocation);
+      }
+      refreshExplorerSync({ shouldFocusMap: true });
     }
   }
 });
@@ -105,6 +127,8 @@ async function init() {
     document.getElementById("home-btn")?.setAttribute("data-action", "go-home");
     document.getElementById("explore-btn")?.setAttribute("data-action", "go-explorer");
     document.querySelector(".add-btn-sb")?.setAttribute("data-action", "open-add");
+    mapEnhancementFlags = mapController.getEnhancementFlags();
+    document.body.classList.toggle("ff-responsive-split-tuning", Boolean(mapEnhancementFlags.mapResponsiveSplitTuning));
 
     renderer.renderSidebar();
     mapController.initMap();

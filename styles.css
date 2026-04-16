@@ -82,6 +82,19 @@ body{padding:24px;background:#fafafa}
   font-size:12px;
   line-height:1.5;
 }
+.cluster-marker{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  border:2px solid #f0f6ff;
+  background:#1f4f96;
+  color:#fff;
+  font:700 12px/1 var(--font-sans);
+  box-shadow:0 0 0 2px rgba(7,19,36,.3);
+}
 .leaflet-container{
   font-family:var(--font-sans);
 }
@@ -246,6 +259,26 @@ body{padding:24px;background:#fafafa}
   font-size:11px;
   color:var(--color-text-secondary);
 }
+.region-filter-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  padding:0 12px 8px;
+}
+.region-filter-btn{
+  border:0.5px solid var(--color-border-secondary);
+  border-radius:999px;
+  background:var(--color-background-primary);
+  color:var(--color-text-secondary);
+  font:500 11px var(--font-sans);
+  padding:3px 10px;
+  cursor:pointer;
+}
+.region-filter-btn.active{
+  border-color:var(--color-text-primary);
+  background:var(--color-text-primary);
+  color:var(--color-background-primary);
+}
 .loc-btn{display:block;width:100%;text-align:left;padding:8px 12px;border:none;background:none;cursor:pointer;font-family:var(--font-sans);color:var(--color-text-primary);border-left:2px solid transparent}
 .loc-btn:hover{background:var(--color-background-primary)}
 .loc-btn.active{background:var(--color-background-primary);border-left-color:var(--color-text-primary)}
@@ -402,6 +435,9 @@ body{padding:24px;background:#fafafa}
   .app-hdr-actions{gap:5px}
   .hdr-btn{padding:3px 8px;font-size:10px}
   .app-body{grid-template-columns:1fr}
+  body.ff-responsive-split-tuning .app-body{
+    grid-template-rows:auto minmax(220px,40vh) minmax(220px,1fr);
+  }
   .sidebar{
     position:sticky;
     top:0;
@@ -418,6 +454,10 @@ body{padding:24px;background:#fafafa}
   .map-canvas{
     min-height:220px;
     max-height:38vh;
+  }
+  body.ff-responsive-split-tuning .map-canvas{
+    min-height:240px;
+    max-height:42vh;
   }
   .map-marker-legend{
     margin:8px 10px 0;
@@ -458,6 +498,15 @@ body{padding:24px;background:#fafafa}
     margin:0 0 8px;
     padding:8px 10px;
     font-size:14px;
+  }
+  .region-filter-row{
+    padding:0 0 8px;
+    overflow-x:auto;
+    white-space:nowrap;
+    flex-wrap:nowrap;
+  }
+  .region-filter-btn{
+    flex:0 0 auto;
   }
   .loc-filter-hint{
     display:inline-flex;
@@ -565,5 +614,50 @@ body{padding:24px;background:#fafafa}
   }
   .dt-climate td{
     padding:5px 8px;
+  }
+}
+
+@media (max-width: 768px){
+  body.ff-responsive-split-tuning .app{
+    min-height:0;
+    border-radius:12px;
+  }
+  body.ff-responsive-split-tuning .main{
+    min-height:260px;
+  }
+}
+
+@media (max-width: 375px){
+  body.ff-responsive-split-tuning .app-hdr{
+    padding:8px;
+  }
+  body.ff-responsive-split-tuning .app-hdr-right{
+    gap:5px;
+  }
+  body.ff-responsive-split-tuning .dest-count{
+    font-size:10px;
+  }
+  body.ff-responsive-split-tuning .loc-btn{
+    min-width:120px;
+    max-width:120px;
+  }
+  body.ff-responsive-split-tuning .tab-btn{
+    margin-right:9px;
+  }
+}
+
+@media (max-width: 320px){
+  body.ff-responsive-split-tuning .app-title{
+    font-size:13px;
+  }
+  body.ff-responsive-split-tuning .hdr-btn{
+    padding:2px 7px;
+  }
+  body.ff-responsive-split-tuning .loc-search{
+    font-size:13px;
+    padding:7px 8px;
+  }
+  body.ff-responsive-split-tuning .tab-body{
+    padding:10px 10px 12px;
   }
 }

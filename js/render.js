@@ -12,8 +12,14 @@ import {
 
 export function createRenderer({ getState, getIndex, getLocation, actions, mapController }) {
   let lastSidebarLoc = null;
+  const mapEnhancements = mapController.getEnhancementFlags();
 
-  const getFilteredLocations = (normalizedQuery = normalizeSearchText(getState().query)) => getIndex().filter(l => {
+  const getFilteredLocations = (
+    normalizedQuery = normalizeSearchText(getState().query),
+    regionFilter = getState().region
+  ) => getIndex().filter(l => {
+    const matchesRegion = regionFilter === "all" || l.region === regionFilter;
+    if (!matchesRegion) return false;
     if (!normalizedQuery) return true;
     return [l.city, l.country, l.region].filter(Boolean).some(v => normalizeSearchText(v).includes(normalizedQuery));
   });
@@ -126,8 +132,35 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
 
   const renderSidebar = () => {
     const locListEl = document.getElementById("loc-list");
+    const regionFilterEl = document.getElementById("region-filter");
     const query = normalizeSearchText(getState().query);
-    const filtered = getFilteredLocations(query);
+    const filtered = getFilteredLocations(query, getState().region);
+
+    if (regionFilterEl) {
+      if (mapEnhancements.mapRegionFilters) {
+        const regionOptions = ["all", ...new Set(getIndex().map(l => l.region).filter(Boolean))].sort((a, b) => {
+          if (a === "all") return -1;
+          if (b === "all") return 1;
+          return a.localeCompare(b);
+        });
+        regionFilterEl.replaceChildren(...regionOptions.map(region => {
+          const btn = document.createElement("button");
+          const isAll = region === "all";
+          const isActive = getState().region === region;
+          btn.type = "button";
+          btn.className = `region-filter-btn ${isActive ? "active" : ""}`;
+          btn.dataset.action = "set-region-filter";
+          btn.dataset.region = region;
+          btn.textContent = isAll ? "All regions" : region;
+          return btn;
+        }));
+        regionFilterEl.hidden = false;
+      } else {
+        regionFilterEl.hidden = true;
+        regionFilterEl.replaceChildren();
+      }
+    }
+
     locListEl.replaceChildren(...filtered.map(l => {
       const button = document.createElement("button");
       button.className = `loc-btn ${l.id === getState().loc ? "active" : ""}`;
@@ -145,7 +178,8 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
       button.append(city, country);
       return button;
     }));
-    document.getElementById("dest-count").textContent = query ? `${filtered.length} of ${getIndex().length} destinations` : `${getIndex().length} destinations`;
+    const hasActiveFilter = Boolean(query) || getState().region !== "all";
+    document.getElementById("dest-count").textContent = hasActiveFilter ? `${filtered.length} of ${getIndex().length} destinations` : `${getIndex().length} destinations`;
     mapController.applyFilter(filtered, query);
     lastSidebarLoc = getState().loc;
   };
@@ -170,6 +204,7 @@ export function createRenderer({ getState, getIndex, getLocation, actions, mapCo
       if (action === "select-loc") actions.selectLocation(target.dataset.id);
       if (action === "switch-tab") actions.switchTab(target.dataset.tab);
       if (action === "set-filter") actions.setFilter(target.dataset.filter || null);
+      if (action === "set-region-filter") actions.setRegionFilter(target.dataset.region || "all");
     });
 
     document.addEventListener("input", (event) => {

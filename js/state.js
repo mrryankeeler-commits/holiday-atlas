@@ -8,6 +8,7 @@ export function createStateStore(initialLoc = null) {
     filter: null,
     chart: null,
     query: "",
+    region: "all",
     prefs: {
       weather: 4,
       budget: 3,
@@ -35,6 +36,9 @@ export function createStateStore(initialLoc = null) {
     },
     setQuery(query) {
       state.query = query;
+    },
+    setRegion(region) {
+      state.region = region || "all";
     },
     setPref(key, value) {
       if (!RECOMMENDATION_METRICS.includes(key)) return;
