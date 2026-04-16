@@ -451,7 +451,7 @@ function rSidebar() {
     : "";
 
   locListEl.innerHTML = filtered.map(l => `
-    <button class="loc-btn ${l.id === S.loc ? "active" : ""}" onclick="selLoc('${escapeHtml(l.id)}')">
+    <button class="loc-btn ${l.id === S.loc ? "active" : ""}" type="button" data-loc-id="${escapeHtml(l.id)}">
       <span class="loc-city">${escapeHtml(l.city)}</span>
       <span class="loc-ctry">${escapeHtml(l.country)}</span>
     </button>
@@ -639,7 +639,7 @@ function rWelcome() {
       <p class="welcome-copy">
         Holiday Atlas helps you compare climate, costs, flights, and practical details month by month.
       </p>
-      <button id="welcome-cta" class="welcome-cta" type="button" onclick="goExplorer()">
+      <button id="welcome-cta" class="welcome-cta" type="button">
         Explore map
       </button>
     </section>
@@ -683,7 +683,7 @@ function rMain() {
         ["todo", "Things to do"],
         ["prac", "Practical info"]
       ].map(([id, lbl]) => `
-        <button class="tab-btn ${id === S.tab ? "active" : ""}" data-tab="${escapeHtml(id)}" aria-selected="${id === S.tab}" onclick="swTab('${escapeHtml(id)}')">${escapeHtml(lbl)}</button>
+        <button class="tab-btn ${id === S.tab ? "active" : ""}" type="button" data-tab="${escapeHtml(id)}" aria-selected="${id === S.tab}">${escapeHtml(lbl)}</button>
       `).join("")}
     </div>
     <div class="tab-body" id="tab-body">${rTab()}</div>
@@ -742,8 +742,8 @@ function rClimate(L) {
 
     <div class="filter-row">
       <span class="fl-lbl">Highlight months:</span>
-      ${filters.map(f => `<button class="fb ${S.filter === f.id ? "act" : ""}" onclick="setF('${escapeHtml(f.id)}')">${escapeHtml(f.lbl)}</button>`).join("")}
-      ${S.filter ? `<button class="fb act" onclick="setF(null)">✕ Clear</button>` : ""}
+      ${filters.map(f => `<button class="fb ${S.filter === f.id ? "act" : ""}" type="button" data-filter-id="${escapeHtml(f.id)}">${escapeHtml(f.lbl)}</button>`).join("")}
+      ${S.filter ? `<button class="fb act" type="button" data-filter-clear="true">✕ Clear</button>` : ""}
     </div>
     ${verificationNote}
 
@@ -1231,6 +1231,10 @@ async function init() {
     applyMapRolloutState(mapRolloutState);
 
     const searchInput = document.getElementById("loc-search");
+    const homeBtn = document.getElementById("home-btn");
+    const exploreBtn = document.getElementById("explore-btn");
+    const addDestinationBtn = document.getElementById("add-destination-btn");
+    const mainEl = document.getElementById("main");
     if (searchInput) {
       let isComposing = false;
       const onSearchInput = e => {
@@ -1250,11 +1254,47 @@ async function init() {
       searchInput.addEventListener("input", onSearchInput);
       searchInput.addEventListener("search", onSearchInput);
     }
+    homeBtn?.addEventListener("click", goHome);
+    exploreBtn?.addEventListener("click", goExplorer);
+    addDestinationBtn?.addEventListener("click", addLoc);
+    mainEl?.addEventListener("click", e => {
+      const target = e.target instanceof Element ? e.target : null;
+      if (!target) return;
+
+      const welcomeCtaBtn = target.closest("#welcome-cta");
+      if (welcomeCtaBtn) {
+        goExplorer();
+        return;
+      }
+
+      const tabBtn = target.closest(".tab-btn[data-tab]");
+      if (tabBtn) {
+        swTab(tabBtn.dataset.tab);
+        return;
+      }
+
+      const clearFilterBtn = target.closest(".fb[data-filter-clear='true']");
+      if (clearFilterBtn) {
+        setF(null);
+        return;
+      }
+
+      const filterBtn = target.closest(".fb[data-filter-id]");
+      if (filterBtn) {
+        setF(filterBtn.dataset.filterId);
+      }
+    });
 
     S.loc = INDEX[0].id;
     S.view = normalizeViewMode(viewFromHash() || "welcome");
     const locListEl = document.getElementById("loc-list");
     if (locListEl) {
+      locListEl.addEventListener("click", e => {
+        const target = e.target instanceof Element ? e.target : null;
+        const button = target?.closest(".loc-btn[data-loc-id]");
+        if (!button) return;
+        selLoc(button.dataset.locId);
+      });
       locListEl.addEventListener("scroll", () => {
         locRailScrollLeft = locListEl.scrollLeft;
         updateLocRailControls();

@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https://*.tile.openstreetmap.org; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+  />
   <title>Holiday atlas</title>
   <link
     rel="stylesheet"
@@ -22,8 +26,8 @@
       <div class="app-title">✈ Holiday atlas</div>
       <div class="app-hdr-right">
         <div class="app-hdr-actions" aria-label="App navigation">
-          <button id="home-btn" class="hdr-btn" type="button" onclick="goHome()">Home</button>
-          <button id="explore-btn" class="hdr-btn" type="button" onclick="goExplorer()">Explore</button>
+          <button id="home-btn" class="hdr-btn" type="button">Home</button>
+          <button id="explore-btn" class="hdr-btn" type="button">Explore</button>
         </div>
         <span id="dest-count" style="font-size:11px;color:var(--color-text-secondary)">0 destinations</span>
       </div>
@@ -48,7 +52,7 @@
         </div>
         <div id="loc-list" aria-label="Destination list"></div>
         <div class="sidebar-actions">
-          <button class="add-btn-sb" onclick="addLoc()">+ Add destination ↗</button>
+          <button id="add-destination-btn" class="add-btn-sb" type="button">+ Add destination ↗</button>
         </div>
       </nav>
 
