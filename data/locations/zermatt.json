@@ -31,42 +31,42 @@
     {
       "name": "Gornergrat Railway",
       "cat": "Scenic railway",
-      "desc": "Ride Europe's highest open-air cog railway to sweeping Matterhorn panoramas and glacier views."
+      "desc": "Reserve early morning departures in peak seasons for clearer Matterhorn views, and buy combined rail-hike tickets if you plan to descend on foot."
     },
     {
       "name": "Matterhorn Glacier Paradise",
       "cat": "High alpine",
-      "desc": "Cable car to Klein Matterhorn for year-round snow, panoramic terraces, and glacier scenery."
+      "desc": "Book the first cable-car wave on stable-weather days, and carry warm layers year-round because summit wind chill is severe even in summer."
     },
     {
       "name": "Five Lakes Walk (5-Seenweg)",
       "cat": "Hiking",
-      "desc": "Classic summer trail linking photogenic alpine lakes, with famous Matterhorn reflections in calm weather."
+      "desc": "This route is best from late June to September once snow patches clear; start before 09:00 for calmer lakes and fewer bottlenecks on narrow sections."
     },
     {
       "name": "Sunnegga & Rothorn area",
       "cat": "Hiking / skiing",
-      "desc": "Family-friendly lifts and trails in summer, and broad intermediate ski terrain in winter."
+      "desc": "Check lift status at breakfast because wind holds are common; in winter prebook ski-school slots and in summer pair lifts to avoid long descents."
     },
     {
       "name": "Zermatt old village",
       "cat": "Culture",
-      "desc": "Explore traditional Valais wooden barns, chapels, and local history in the historic center."
+      "desc": "Use this as a low-weather backup block: museums and historic lanes are walkable from station hotels when high lifts are storm-affected."
     },
     {
       "name": "Ski the Theodul Glacier",
       "cat": "Skiing",
-      "desc": "High-altitude slopes with one of the longest reliable snow windows in the Alps."
+      "desc": "Aim for early runs when snow is firmest, and track Italy-side connection times if you intend to cross lifts toward Cervinia."
     },
     {
       "name": "Mountain hut lunch",
       "cat": "Food & scenery",
-      "desc": "Have rösti or fondue on a sunny terrace with panoramic peaks all around."
+      "desc": "Reserve terrace tables on bluebird weekends and carry cash backup, as some smaller huts have limited card connectivity in poor weather."
     },
     {
       "name": "Charles Kuonen Suspension Bridge day trip",
       "cat": "Adventure",
-      "desc": "A dramatic suspension bridge hike in the nearby Mattertal valley for confident walkers."
+      "desc": "Reach the trailhead by train to Randa, then allow 4-6 hours round trip with alpine footwear; avoid this hike during thunderstorm forecasts."
     }
   ],
   "prac": {
@@ -109,8 +109,9 @@
       "Photographers"
     ],
     "alerts": [
-      "Very high accommodation and dining costs, especially in peak ski weeks.",
-      "Village is car-free: pack for train/electric-taxi access from Täsch/Zermatt station."
+      "Zermatt is car-free, so arrivals require train plus short transfer from Täsch; pack light enough for station-to-hotel walks or prebook electric taxi.",
+      "Ski holidays (Christmas-New Year, February half-term, Easter) and prime July-August hiking weeks often need 3-6 months accommodation lead time.",
+      "High-alpine lifts and trails can close at short notice for wind, lightning, or avalanche control, so check morning operations reports before committing to routes."
     ]
   },
   "sweet": "Late January-March is usually best for ski conditions, while July-September is strongest for open trails and long alpine days.",

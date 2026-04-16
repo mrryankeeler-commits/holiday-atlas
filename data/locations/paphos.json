@@ -31,42 +31,42 @@
     {
       "name": "Kato Paphos Archaeological Park",
       "cat": "Archaeology",
-      "desc": "Tour Roman villas and intricate mosaics, including the Houses of Dionysos and Theseus."
+      "desc": "Arrive at opening time to see mosaics before heat builds, and wear a hat because shade is sparse across the larger villa compounds."
     },
     {
       "name": "Paphos Castle and harbor walk",
       "cat": "Historic waterfront",
-      "desc": "Stroll the seafront, climb the small fortress, and watch sunset over the marina."
+      "desc": "Do the harbor promenade in late afternoon, then climb the castle near sunset when temperatures ease and the marina light is best."
     },
     {
       "name": "Tombs of the Kings",
       "cat": "Ancient site",
-      "desc": "Explore Hellenistic and Roman-era rock-cut tombs north of the city center."
+      "desc": "Allow 60-90 minutes for the full site and bring water, as paths are exposed and the nearest cafés are outside the main gate."
     },
     {
       "name": "Coral Bay swim day",
       "cat": "Beach",
-      "desc": "Spend a half day at one of the area's easiest sandy beaches with calm, swimmable water."
+      "desc": "Buses from Kato Paphos are frequent but crowded by late morning in summer; arrive before 10:30 to secure loungers and calmer water."
     },
     {
       "name": "Akamas Peninsula jeep or boat tour",
       "cat": "Nature",
-      "desc": "Visit sea caves, coastal viewpoints, and the Blue Lagoon on a guided day outing."
+      "desc": "Book licensed operators 2-3 days ahead in peak season and confirm pickup points, as many tours depart from Latchi rather than central Paphos."
     },
     {
       "name": "Aphrodite's Rock stop",
       "cat": "Scenic landmark",
-      "desc": "Pause at Petra tou Romiou, linked to mythic origins of Aphrodite, for photos and a short coastal walk."
+      "desc": "Visit around sunrise or sunset for safer road-side parking and softer light, and use water shoes if you plan to enter the pebly shoreline."
     },
     {
       "name": "Old Town (Ktima) food evening",
       "cat": "Food & culture",
-      "desc": "Try meze, halloumi dishes, and Cypriot wines in a less touristy hilltop district."
+      "desc": "Reserve meze restaurants for Friday-Sunday nights and use a short taxi uphill from the harbor to avoid the steep return walk."
     },
     {
       "name": "Troodos winery village loop",
       "cat": "Day trip",
-      "desc": "Drive inland to mountain villages such as Omodos for cellar tastings and traditional lanes."
+      "desc": "A rental car is most practical; start before 09:00 to combine Omodos and at least one winery tasting without rushing mountain driving after dark."
     }
   ],
   "prac": {
@@ -103,8 +103,9 @@
       "Multi-generational trips"
     ],
     "alerts": [
-      "Some archaeological zones have limited shade; carry water and sun protection from late spring onward.",
-      "Car hire is useful for Akamas and mountain villages where public transport is sparse."
+      "July-August heat and UV levels are intense, with limited shade at coastal ruins; schedule archaeological visits for opening hours and rest midday.",
+      "Akamas Blue Lagoon boat and jeep tours can be cancelled by sea state or wildfire restrictions, so keep a flexible backup day.",
+      "Direct UK flights and family resorts price up quickly for school-holiday weeks; book flights and beachfront stays 8-12 weeks ahead."
     ]
   },
   "sweet": "April to June and late September to October are sunny, warm, and less crowded than peak midsummer.",
