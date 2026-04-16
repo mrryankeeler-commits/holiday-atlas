@@ -112,6 +112,10 @@ function formatMarkerAccessibleLabel(loc) {
   return `${city}, ${country}`;
 }
 
+function formatMarkerTooltipLabel(loc) {
+  return String(loc?.city || "").trim();
+}
+
 function showMapFallback(message) {
   const fallback = document.getElementById("map-fallback");
   if (!fallback) return;
@@ -215,7 +219,7 @@ function initMap() {
         keyboard: true,
         title: formatMarkerAccessibleLabel(loc)
       }).addTo(map);
-      marker.bindTooltip(formatMarkerAccessibleLabel(loc), {
+      marker.bindTooltip(formatMarkerTooltipLabel(loc), {
         direction: "top",
         offset: [0, -8]
       });
