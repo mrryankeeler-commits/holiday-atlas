@@ -1,0 +1,214 @@
+{
+  "id": "bodrum-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-17",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bodrum",
+  "country": "Turkey",
+  "region": "Turkish Riviera (Aegean Coast)",
+  "desc": "Bodrum is a whitewashed Aegean peninsula town known for beach clubs, castle views, and easy boat days around sheltered bays.",
+  "hls": [
+    "Monthly climate fields are imported from the shared climate CSV and verified against source rows.",
+    "Shoulder seasons typically provide the best comfort-to-crowd trade-off for most visitors.",
+    "Peak-season periods raise crowding and accommodation pressure, so booking ahead helps."
+  ],
+  "todo": [
+    {
+      "name": "Historic core walk",
+      "cat": "City walk",
+      "desc": "Start with an orientation walk through the most characterful central districts."
+    },
+    {
+      "name": "Top local food stop",
+      "cat": "Food",
+      "desc": "Plan one meal around regional specialties in a well-reviewed local venue."
+    },
+    {
+      "name": "Half-day nature or coast outing",
+      "cat": "Nature",
+      "desc": "Keep one flexible half-day for a nearby scenic area or waterfront route."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-120 Mbps",
+      "note": "City-center accommodations and cafés are usually dependable; confirm speed if you need to work remotely."
+    },
+    "directGW": false,
+    "fltNote": "Direct UK routes and seasonal capacity vary by month; compare shoulder-season options for better value.",
+    "airports": [],
+    "currency": "Check current local currency usage and card acceptance before departure.",
+    "lang": "Local language is dominant; English support is strongest in tourism-facing venues.",
+    "tz": "Confirm local UTC offset and daylight-saving rules for your exact travel dates.",
+    "visa": "Entry requirements depend on nationality and can change; verify official guidance before booking.",
+    "bestFor": [
+      "Shoulder-season breaks",
+      "Culture and food",
+      "Flexible pace itineraries"
+    ],
+    "alerts": [
+      "Reserve popular attractions early in peak months.",
+      "Keep one flexible day for weather-dependent plans."
+    ]
+  },
+  "sweet": "May-June and September-October usually balance warm sea weather with lighter crowds than peak summer.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.0,
+      "cld": 40,
+      "rain": 109,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.9,
+      "cld": 39,
+      "rain": 104,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 13,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 12.0,
+      "cld": 35,
+      "rain": 66,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 17,
+      "hi": 20,
+      "lo": 13,
+      "daylight": 13.2,
+      "cld": 32,
+      "rain": 36,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 21,
+      "hi": 24,
+      "lo": 17,
+      "daylight": 14.2,
+      "cld": 24,
+      "rain": 18,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Jun",
+      "avg": 25,
+      "hi": 29,
+      "lo": 21,
+      "daylight": 14.7,
+      "cld": 7,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 32,
+      "lo": 23,
+      "daylight": 14.4,
+      "cld": 1,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 13.5,
+      "cld": 1,
+      "rain": 0,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 24,
+      "hi": 28,
+      "lo": 21,
+      "daylight": 12.4,
+      "cld": 11,
+      "rain": 13,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 21,
+      "hi": 24,
+      "lo": 17,
+      "daylight": 11.2,
+      "cld": 28,
+      "rain": 38,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 16,
+      "hi": 19,
+      "lo": 14,
+      "daylight": 10.2,
+      "cld": 38,
+      "rain": 86,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 13,
+      "hi": 16,
+      "lo": 11,
+      "daylight": 9.7,
+      "cld": 41,
+      "rain": 122,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

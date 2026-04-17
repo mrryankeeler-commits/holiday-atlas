@@ -1,11 +1,11 @@
 # Missing Set v1 (Frozen, normalized)
-- Finalized on: 2026-04-17
+- Finalized on: 2026-04-17 (updated 2026-04-17)
 - Live visibility source: `data/locations/index.json`
 - Intake source: all CSV uploads in `data/climate/uploads/`
 - Normalization method: `scripts/import_climate_csv.py` resolution (`exact`/`alias`/`fuzzy`) with `fuzzy_cutoff=0.84` and `data/climate/aliases.json`.
 - Intake raw candidate IDs: 133
 - Canonical LIVE IDs covered by intake: 129 / 129
-- MISSING after normalization: 4
+- MISSING after normalization: 1
 
 ## Intake candidate checklist (raw → normalized)
 
@@ -28,7 +28,7 @@
 | `bergen-norway` | `bergen` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `bishkek-kyrgyzstan` | `bishkek-kyrgyzstan` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `bled-slovenia` | `bled` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
-| `bodrum-turkey` | `bodrum-turkey` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `bodrum-turkey` | `bodrum-turkey` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `bolivar-venezuela` | `bolivar-venezuela` | ✅ LIVE | `exact` | `monthly_climate_02 - Climate Data.csv` |
 | `braga-portugal` | `braga` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `brasov-romania` | `brasov-romania` | ✅ LIVE | `exact` | `monthly_climate_02 - Climate Data.csv` |
@@ -42,7 +42,7 @@
 | `chengdu-china` | `chengdu` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `colombo-sri-lanka` | `colombo` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `copenhagen-denmark` | `copenhagen` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
-| `dahab-egypt` | `dahab-egypt` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `dahab-egypt` | `dahab-egypt` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `darjeeling-india` | `darjeeling` | ✅ LIVE | `exact` | `climate_data_03 - Climate Data.csv` |
 | `dubai-uae` | `dubai-uae` | ✅ LIVE | `exact` | `monthly_climate_02 - Climate Data.csv` |
 | `dubrovnik-croatia` | `dubrovnik` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
@@ -50,7 +50,7 @@
 | `faro-portugal` | `faro` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `florence-italy` | `florence` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `gdansk-poland` | `gdansk` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
-| `ghent-belgium` | `ghent-belgium` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `ghent-belgium` | `ghent-belgium` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `goa-india` | `goa` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `goreme-turkey` | `goreme` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `granada-spain` | `granada` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
@@ -278,10 +278,4 @@
 
 ## Missing Set v1
 
-- `antalya-turkey`
-- `arhus-denmark`
-- `berat-albania`
-- `bodrum-turkey`
-- `dahab-egypt`
-- `ghent-belgium`
 - `munnar-kerala-india`
