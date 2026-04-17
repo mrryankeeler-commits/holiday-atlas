@@ -20,43 +20,43 @@
   "region": "Rivière Noire District (west coast)",
   "lat": -20.325,
   "lng": 57.3706,
-  "desc": "Tamarin is a west-coast Mauritius base known for surf, dolphin cruises, and easier access to Black River Gorges and Le Morne than the busier north.",
+  "desc": "Tamarin is a west-coast Mauritius base that balances surf, calm-lagoon swimming, and easy road access to Le Morne and Black River Gorges without the busier north-coast resort pace.",
   "hls": [
-    "Sunset-facing west-coast beaches",
-    "Gateway to Black River Gorges hikes",
-    "Surf breaks and lagoon watersports",
-    "Strong villa and aparthotel stock for longer stays"
+    "Sunset-facing west-coast beaches with calmer evening sea conditions",
+    "Short access to Le Morne, Black River Gorges, and Chamarel day trips",
+    "Consistent beginner/intermediate surf options around Tamarin Bay",
+    "Strong villa/aparthotel inventory for longer, self-catered stays"
   ],
   "todo": [
     {
-      "name": "Tamarin Bay sunrise paddle",
+      "name": "Tamarin Bay dawn paddle",
       "cat": "Water",
-      "desc": "Join an early-morning paddle or kayak before winds build."
+      "desc": "Join a licensed dawn paddle or kayak slot before trade winds strengthen."
     },
     {
-      "name": "Le Morne day trip",
+      "name": "Le Morne + lagoon combo day",
       "cat": "Scenic",
-      "desc": "Pair beach time with mountain viewpoints on the southwest peninsula."
+      "desc": "Pair Le Morne viewpoints with an afternoon swim stop on the southwest lagoon."
     },
     {
-      "name": "Black River Gorges hike",
+      "name": "Black River Gorges trail half-day",
       "cat": "Nature",
-      "desc": "Choose a half-day trail with endemic forest lookouts."
+      "desc": "Choose a marked trail for endemic forest lookouts and cooler inland temperatures."
     },
     {
-      "name": "Casela nature park activity block",
-      "cat": "Adventure",
-      "desc": "Add zipline or safari-style activities nearby."
+      "name": "Chamarel geopark detour",
+      "cat": "Nature",
+      "desc": "Add Seven Coloured Earth and nearby rum/coffee stops on the same inland loop."
     },
     {
-      "name": "Flic-en-Flac evening food stop",
+      "name": "Flic-en-Flac evening food run",
       "cat": "Food",
-      "desc": "Sample street snacks and Creole seafood plates."
+      "desc": "Go after sunset for street snacks, seafood grills, and a broader dining mix."
     },
     {
-      "name": "Dolphin-watch boat outing",
+      "name": "Responsible dolphin-watch outing",
       "cat": "Wildlife",
-      "desc": "Book licensed operators with responsible wildlife distance policies."
+      "desc": "Use operators that cap boat numbers and enforce no-chase wildlife distance rules."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Good in most villas/hotels; verify speeds for remote work stays."
     },
     "directGW": true,
-    "fltNote": "Mauritius is primarily served via MRU, with regular nonstop London flights plus one-stop UK/Ireland options through Gulf and European hubs. Reunion (RUN) can be used as an alternate regional gateway only when paired with a short onward flight to Mauritius, so it adds an extra connection risk. Demand is usually highest during European school holidays and December festive weeks.",
+    "fltNote": "Mauritius itineraries almost always route through MRU: nonstop London service is strongest in winter-sun/festive windows, while many UK/Ireland departures in shoulder months connect via Gulf or major European hubs (for example Doha, Dubai, Paris, or Istanbul). Reunion (RUN) only works as a backup when paired with a separate inter-island hop, so missed-connection risk and baggage recheck time are higher. UK demand pressure is usually highest in late July-August and late December.",
     "airports": [
       {
         "name": "Sir Seewoosagur Ramgoolam International Airport",
@@ -92,10 +92,10 @@
       "Long-stay Mauritius"
     ],
     "alerts": [
-      "Lagoon excursions are weather and swell dependent; avoid fixed schedules for marine activities.",
-      "Road traffic toward Port Louis can be heavy on weekday mornings and evenings.",
-      "Sun and UV are intense year-round—plan midday shade even in cooler months.",
-      "When using Reunion as backup gateway, protect minimum connection time because inter-island disruptions can affect same-day arrival plans."
+      "Dolphin excursions in Tamarin Bay should use licensed operators with no-chase policies; avoid boats that crowd pods.",
+      "Cyclone-season systems (typically Nov-Apr) can cancel lagoon and boat plans at short notice; keep swap activities ready.",
+      "West-coast roads toward Port Louis and Ebene can slow heavily on weekday commute windows; avoid tight same-day flight plans.",
+      "Reef/rock sections near some beach entries become slippery at low tide—pack reef shoes for dawn/sunset sessions."
     ]
   },
   "sweet": "May-Nov for drier, less humid conditions and reliable west-coast sunsets.",
@@ -108,9 +108,9 @@
       "daylight": 13.2,
       "cld": 58,
       "rain": 89,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Feb",
@@ -120,7 +120,7 @@
       "daylight": 12.8,
       "cld": 58,
       "rain": 114,
-      "busy": 6,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -132,9 +132,9 @@
       "daylight": 12.2,
       "cld": 51,
       "rain": 84,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -144,9 +144,9 @@
       "daylight": 11.6,
       "cld": 37,
       "rain": 53,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -156,9 +156,9 @@
       "daylight": 11.1,
       "cld": 18,
       "rain": 20,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jun",
@@ -168,9 +168,9 @@
       "daylight": 10.9,
       "cld": 11,
       "rain": 8,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jul",
@@ -180,9 +180,9 @@
       "daylight": 11.0,
       "cld": 11,
       "rain": 8,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
     },
     {
       "m": "Aug",
@@ -192,9 +192,9 @@
       "daylight": 11.5,
       "cld": 10,
       "rain": 10,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -206,7 +206,7 @@
       "rain": 10,
       "busy": 3,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -217,7 +217,7 @@
       "cld": 18,
       "rain": 10,
       "busy": 3,
-      "ac": 2,
+      "ac": 1,
       "fl": 2
     },
     {
@@ -228,8 +228,8 @@
       "daylight": 13.1,
       "cld": 30,
       "rain": 15,
-      "busy": 8,
-      "ac": 3,
+      "busy": 5,
+      "ac": 2,
       "fl": 3
     },
     {
@@ -242,7 +242,7 @@
       "rain": 43,
       "busy": 9,
       "ac": 4,
-      "fl": 4
+      "fl": 5
     }
   ]
 }
