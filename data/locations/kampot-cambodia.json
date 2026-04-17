@@ -18,74 +18,86 @@
   "city": "Kampot",
   "country": "Cambodia",
   "region": "Cambodia region",
-  "desc": "Kampot is a strong base for exploring Cambodia with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Kampot is a laid-back river town in southern Cambodia that works as a base for pepper-farm country, Bokor highland viewpoints, and nearby Kep's seafood coast. It is best when you want low-intensity days with one or two active excursions, especially in the drier months from roughly December to April.",
   "hls": [
-    "Seasonal climate profile benchmarked for Kampot",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Colonial-era riverside core with walkable café and market districts",
+    "Bokor National Park viewpoints, cloud-forest roads, and old hill-station ruins",
+    "Farm and food experiences built around Kampot pepper production",
+    "Easy pairing with Kep crab market and Rabbit Island beach day trips",
+    "Sunset river cruises, paddle routes, and countryside scooter loops",
+    "Strong value outside peak winter weeks"
   ],
   "todo": [
     {
-      "name": "Walk central Kampot",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Bokor National Park ridge day",
+      "cat": "Hike + scenic",
+      "desc": "Start early for cool conditions and combine Popokvil waterfall area, Lok Yeay Mao monument, and cliff viewpoints around Bokor Hill Station; if visibility is clear, add short ridge walks near roadside lookouts and plan a weather fallback because fog can close panoramas quickly."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Phnom Chhngok cave temple stop",
+      "cat": "Culture + short hike",
+      "desc": "Visit the cave shrine with a local guide and allow time for steep limestone steps; pair it with nearby rice-field roads for a half-day countryside loop and avoid peak midday heat on the exposed approach."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Pepper-farm deep dive",
+      "cat": "Food + agriculture",
+      "desc": "Book a guided session at La Plantation or a similar certified farm to compare red/black/white pepper processing, then build a tasting-focused lunch stop around Kampot pepper crab or pepper beef dishes in town."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "name": "Kep National Park + coast combo",
+      "cat": "Hike + coast",
+      "desc": "Do the easy-moderate perimeter trail in Kep National Park (roughly 7–8 km with rolling elevation), then continue to Kep crab market or Rabbit Island boats for a mixed active/coastal day."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Prek Tuek Chhu river paddle",
+      "cat": "Water activity",
+      "desc": "Choose sunrise or late-afternoon kayaking/SUP on quieter river sections to reduce heat exposure, and add sunset at Kampot old bridge or riverside promenades back in town."
     },
     {
-      "name": "Flexible slow day",
+      "name": "Flexible weather buffer day",
       "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Keep one uncommitted day for monsoon showers or cloud cover shifts—ideal for café work blocks, cooking class alternatives, or rescheduling Bokor viewpoints."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "30–120 Mbps",
+      "note": "Most boutique stays and central cafés are reliable for routine remote work; have a backup SIM for countryside trips where coverage can dip."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No nonstop UK-Kampot route. Typical itineraries fly London to Phnom Penh (often one-stop) then transfer 3-4 hours by road; return fares are commonly ~£500-£900 off-peak and can climb above ~£950 in Christmas/New Year and July-August demand windows.",
+    "airports": [
+      {
+        "name": "Phnom Penh International Airport",
+        "code": "PNH",
+        "km": 150,
+        "dgw": false
+      },
+      {
+        "name": "Sihanouk International Airport",
+        "code": "KOS",
+        "km": 105,
+        "dgw": false
+      }
+    ],
+    "currency": "Cambodian riel (KHR) and US dollars circulate in parallel; confirm card acceptance and keep small change for local transport/markets.",
+    "lang": "Khmer is dominant; tourist-facing English is common in central Kampot and major farm operators.",
+    "tz": "UTC+7 (no daylight saving).",
+    "visa": "Most visitors can use Cambodia eVisa or visa on arrival; passport validity and onward/onward-proof rules should be checked before departure.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Soft-adventure days with moderate hiking",
+      "Food-first trips (pepper + seafood)",
+      "Slow travel and scooter-based countryside exploration",
+      "Shoulder/off-peak value seekers"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Road surfaces to Bokor and rural farm lanes can become slick in wet-season downpours.",
+      "Boat/kayak operations may pause during thunderstorms or high river flow.",
+      "Bring cash backups because smaller operators sometimes add card surcharges or do not accept cards."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "December to March is usually the easiest window for clear Bokor viewpoints, manageable humidity, and reliable activity operations; April-May is hotter, while June-October is greener but rainier.",
   "months": [
     {
       "m": "Jan",

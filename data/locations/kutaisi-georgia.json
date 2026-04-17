@@ -18,74 +18,86 @@
   "city": "Kutaisi",
   "country": "Georgia",
   "region": "Georgia region",
-  "desc": "Kutaisi is a strong base for exploring Georgia with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Kutaisi is western Georgia's most practical heritage-and-nature base, combining UNESCO sites in town with easy access to canyon walks, caves, and mountain day trips in Imereti. It suits travelers who want active excursions without Tbilisi-level prices or pacing.",
   "hls": [
-    "Seasonal climate profile benchmarked for Kutaisi",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Compact old town around the Rioni with easy walk-and-café rhythm",
+    "UNESCO Bagrati Cathedral and Gelati Monastery heritage anchors",
+    "Canyon and cave network day trips (Martvili, Okatse, Prometheus)",
+    "Good launch point for Svaneti/Racha overland itineraries",
+    "Generally lower accommodation pressure than Georgia's capital",
+    "Strong shoulder-season value for mixed city-nature trips"
   ],
   "todo": [
     {
-      "name": "Walk central Kutaisi",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
+      "name": "Bagrati + Gelati heritage circuit",
       "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "desc": "Start at Bagrati Cathedral for city views, then continue to Gelati Monastery complex for frescoes and monastic history; combine with Motsameta if road conditions and timing allow."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Okatse Canyon trail + viewpoints",
+      "cat": "Hike + scenic",
+      "desc": "Plan a half-day around the marked forest approach and suspended canyon walkway (conditions permitting); wear grippy shoes because wet wooden sections can be slippery after rain."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Martvili Canyon boat and rim walk",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Use an early slot to avoid queues in peak months, then pair short canyon walks with nearby village lunch stops for a low-strain but high-scenery day."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Prometheus Cave and Sataplia pairing",
+      "cat": "Geology",
+      "desc": "Combine underground chambers at Prometheus with dinosaur-footprint exhibits and forest viewpoints at Sataplia Reserve to create a weather-resilient excursion day."
+    },
+    {
+      "name": "Tskaltubo sanatorium photography loop",
+      "cat": "Urban exploration",
+      "desc": "Visit selected accessible former spa buildings with a guide for context and safety, then return to Kutaisi for evening dining around David Agmashenebeli Square."
+    },
+    {
+      "name": "Racha or Upper Svaneti long day",
+      "cat": "Mountain road trip",
+      "desc": "If conditions are stable, book a private/driver-guided mountain extension for passes and river-valley viewpoints; treat as full-day with early departure and conservative return planning."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "35–150 Mbps",
+      "note": "Central Kutaisi hotels and cowork-friendly cafés are usually dependable; speeds can drop during power or weather disruptions in outer districts."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "Kutaisi (KUT) has low-cost links from several European cities but no consistent nonstop from London Gatwick year-round. UK trips are often one-stop or via Tbilisi; return fares are frequently ~£120-£260 off-peak, ~£260-£420 in shoulder demand, and higher in late-summer holiday peaks.",
+    "airports": [
+      {
+        "name": "Kutaisi International Airport",
+        "code": "KUT",
+        "km": 24,
+        "dgw": false
+      },
+      {
+        "name": "Tbilisi International Airport",
+        "code": "TBS",
+        "km": 230,
+        "dgw": false
+      }
+    ],
+    "currency": "Georgian lari (GEL); cards are common in town but canyon/roadside stops often require cash.",
+    "lang": "Georgian is primary; English is improving in tourism services but less consistent outside core areas.",
+    "tz": "UTC+4 (no daylight saving).",
+    "visa": "Georgia is visa-free for many passports for generous stays, but verify nationality-specific limits and overland transit requirements.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Canyon-and-cave activity itineraries",
+      "High-value Caucasus gateway travel",
+      "Heritage + nature mixed trips",
+      "Shoulder-season explorers"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Canyon walkways and cave operations can close temporarily after heavy rain or maintenance notices.",
+      "Mountain road-day trips require buffer time for landslides, fog, or construction delays.",
+      "Carry layers: spring/autumn mornings are cool even when afternoons are warm."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "Late April-June and September-October are usually best for canyon access, moderate temperatures, and smoother road logistics than midsummer storm periods or winter closures.",
   "months": [
     {
       "m": "Jan",

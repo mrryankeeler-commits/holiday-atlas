@@ -90,11 +90,11 @@
 | `havana-cuba` | yes | yes | yes | yes | no |
 | `hegra-saudi-arabia` | yes | yes | yes | yes | no |
 | `hoi-an-vietnam` | yes | yes | yes | yes | no |
-| `kampot-cambodia` | yes | no | yes | no | no |
-| `kutaisi-georgia` | yes | no | yes | no | no |
+| `kampot-cambodia` | yes | yes | yes | yes | no |
+| `kutaisi-georgia` | yes | yes | yes | yes | no |
 | `leh-kashmir-india` | yes | yes | yes | yes | no |
 | `lima-peru` | yes | yes | yes | yes | no |
-| `luang-prabang-laos` | yes | no | yes | no | no |
+| `luang-prabang-laos` | yes | yes | yes | yes | no |
 | `madeira-portugal` | yes | no | yes | no | no |
 | `makassar-indonesia` | yes | no | yes | no | no |
 | `malay-philippines` | yes | no | yes | no | no |

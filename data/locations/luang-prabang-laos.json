@@ -18,74 +18,86 @@
   "city": "Luang Prabang",
   "country": "Laos",
   "region": "Laos region",
-  "desc": "Luang Prabang is a strong base for exploring Laos with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Luang Prabang blends Buddhist heritage, Mekong landscapes, and low-rise French-Lao architecture in one of Southeast Asia's most atmospheric small cities. It works best for travelers who want temple culture, waterfall hikes, and slower river-based pacing over nightlife-heavy itineraries.",
   "hls": [
-    "Seasonal climate profile benchmarked for Luang Prabang",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "UNESCO old town with dense temple and monastery concentration",
+    "Kuang Si and Tad Sae waterfall excursions with swim/hike options",
+    "Mekong and Nam Khan river cruises, kayaking, and sunset viewpoints",
+    "Strong market-and-café scene for slow mornings and evening walks",
+    "Excellent base for elephant sanctuary and village craft visits",
+    "Comfortable shoulder-season conditions from late dry season into early cool months"
   ],
   "todo": [
     {
-      "name": "Walk central Luang Prabang",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
+      "name": "Old-town temple circuit at dawn",
       "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "desc": "Visit Wat Xieng Thong, Wat Mai, and surrounding lanes early to avoid heat and tour-group peaks; observe alms-giving respectfully from a distance and avoid obstructing local rituals."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Phousi Hill sunrise/sunset climb",
+      "cat": "Short hike + viewpoint",
+      "desc": "Use the stepped ascent for city-river panoramas (best in golden-hour light) and combine with nearby night-market food stops for an easy half-day urban loop."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "name": "Kuang Si Waterfall trail network",
+      "cat": "Hike + swim",
+      "desc": "Allocate at least half a day for lower pools, upper viewpoints, and the forest path sections; start early for clearer water and bring footwear suited to wet limestone paths."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Nam Khan kayak + countryside ride",
+      "cat": "Water + active",
+      "desc": "Book guided paddling on calmer sections, then add a short bike/scooter return through villages and rice fields when road conditions are dry enough."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Pak Ou Caves by Mekong boat",
+      "cat": "River excursion",
+      "desc": "Take a morning upstream cruise to cave shrines, ideally paired with a whisky-village or weaving stop to make the full-day route worthwhile."
+    },
+    {
+      "name": "Community-based cooking and craft day",
+      "cat": "Food + local life",
+      "desc": "Use a class or village workshop day as wet-weather backup and to balance high-activity days with lower physical intensity."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "25–100 Mbps",
+      "note": "Most riverside hotels and cafés are adequate for normal calls/work; occasional evening slowdowns happen in peak occupancy periods."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No nonstop London-Luang Prabang service. Most UK itineraries route via Bangkok, Hanoi, or Singapore plus regional connection; return fares are often ~£600-£1,000 off-peak and can rise beyond ~£1,050 during Christmas/New Year and summer holidays.",
+    "airports": [
+      {
+        "name": "Luang Prabang International Airport",
+        "code": "LPQ",
+        "km": 4,
+        "dgw": false
+      },
+      {
+        "name": "Wattay International Airport",
+        "code": "VTE",
+        "km": 340,
+        "dgw": false
+      }
+    ],
+    "currency": "Lao kip (LAK) is standard; Thai baht/US dollars can appear in tourism pricing but should not be relied on for day-to-day spending.",
+    "lang": "Lao is primary; tourist English is common in old-town hospitality and tour services.",
+    "tz": "UTC+7 (no daylight saving).",
+    "visa": "Laos eVisa/visa-on-arrival options vary by nationality and checkpoint; verify entry point eligibility and onward-proof requirements before travel.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Temple-and-heritage focused cultural trips",
+      "Waterfall hikes with relaxed pacing",
+      "Photography and river sunsets",
+      "Couples/solo slow-travel itineraries"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Burning-season haze (typically late dry season) can reduce air quality and long-view photography clarity.",
+      "Waterfall and river conditions shift quickly after heavy rain; confirm same-day safety guidance with operators.",
+      "Respect dress and behavior standards at temples and during alms ceremonies."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "November-February is typically the most comfortable period for walking and temple visits; March-April gets hotter and hazier, while May-October brings greener landscapes with higher rain disruption risk.",
   "months": [
     {
       "m": "Jan",
