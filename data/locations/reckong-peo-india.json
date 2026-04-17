@@ -18,74 +18,79 @@
   "city": "Reckong Peo",
   "country": "India",
   "region": "India region",
-  "desc": "Reckong Peo is a strong base for exploring India with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Reckong Peo, the administrative town of Kinnaur in Himachal Pradesh, is a practical base for Kalpa, Sangla Valley, and high-Himalayan road trips toward Nako. At about 2,300 m elevation, days can feel mild in late spring/autumn but nights stay cool, with monsoon landslide risk in July–August and occasional winter snow disruptions.",
   "hls": [
-    "Seasonal climate profile benchmarked for Reckong Peo",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Clear views toward the Kinner Kailash range on good-weather mornings",
+    "Gateway for Kalpa village, Sangla Valley, and Chitkul day/overnight trips",
+    "Apple-belt mountain town life with local Himachali and Tibetan influences",
+    "Useful acclimatization stop before heading to higher villages in Kinnaur/Spiti",
+    "Best road conditions usually in late spring and post-monsoon autumn",
+    "Stronger value outside peak May–June Indian holiday demand"
   ],
   "todo": [
     {
-      "name": "Walk central Reckong Peo",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
+      "name": "Sunrise at Kalpa viewpoints",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Take an early taxi to Kalpa/Chini viewpoints for first-light views of Kinner Kailash before cloud builds later in the day."
     },
     {
-      "name": "Nature or coast day trip",
+      "name": "Roghi village and Suicide Point road",
+      "cat": "Road trip",
+      "desc": "Do a short mountain drive/walk beyond Kalpa to Roghi for dramatic Sutlej valley drop-offs and traditional Kinnauri village architecture."
+    },
+    {
+      "name": "Hu-Bu-Lan-Kar monastery circuit",
+      "cat": "Culture",
+      "desc": "Visit the local Buddhist gompa area near Reckong Peo and pair it with nearby temples to see the district's Hindu-Buddhist cultural mix."
+    },
+    {
+      "name": "Sangla or Chitkul excursion",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Reserve a full day (or overnight) for Baspa valley scenery, river walks, and village stops in Sangla, Rakcham, or Chitkul depending on road/weather."
     },
     {
-      "name": "Flexible slow day",
+      "name": "Kinnaur market and orchard produce",
+      "cat": "Food",
+      "desc": "Walk Reckong Peo's main market for Kinnauri shawls, dry fruit, and in-season apples/apricots from surrounding orchards."
+    },
+    {
+      "name": "Buffer day for road/weather holds",
       "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Keep one flexible day in case of landslide clearances, snowfall delays, or transport timing changes on NH5."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "15–60 Mbps",
+      "note": "Decent in-town hotel broadband and 4G, but speeds and uptime drop quickly outside the main bazaar and during bad weather/power cuts."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No practical long-haul air access to Reckong Peo itself; most visitors route via Chandigarh or Shimla then continue by mountain road (typically 8–12+ hours depending on conditions).",
+    "airports": [
+      "Chandigarh (best-connected major gateway for road transfer)",
+      "Shimla (limited flights; still requires long road journey)",
+      "Kullu–Bhuntar (sometimes useful for Himachal overland circuits, but indirect for Kinnaur)"
+    ],
+    "currency": "Indian Rupee (INR); ATMs exist in town but carry cash for smaller villages and network outages.",
+    "lang": "Hindi and Kinnauri dialects are common; basic English is available in many hotels/taxi contacts.",
+    "tz": "India Standard Time (UTC+5:30).",
+    "visa": "India e-Visa/visa policy depends on nationality; if combining with Spiti or border-zone routes, verify any current permit/checkpoint requirements before departure.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Mountain road-trippers",
+      "Himalayan views without extreme trekking",
+      "Photographers targeting clear autumn skies",
+      "Travelers comfortable with basic hill-town logistics",
+      "Slow itineraries with weather buffer days"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Altitude is moderate (~2,300 m): hydrate, pace your first 24 hours, and keep layers for cold evenings.",
+      "July–August monsoon can trigger landslides/road blocks on NH5; confirm same-day road status before moving.",
+      "In winter, black ice/snow can delay departures; start road journeys early and avoid late-night mountain transfers.",
+      "HRTC buses and shared jeeps run, but schedules are limited after dusk; pre-arrange taxi legs for early starts or remote valleys."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "For most travelers, the most reliable Reckong Peo window is April–June and late September–October: clearer mountain views, manageable temperatures, and fewer weather-related road interruptions than peak monsoon or deep winter.",
   "months": [
     {
       "m": "Jan",
