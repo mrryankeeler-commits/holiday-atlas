@@ -66,13 +66,19 @@
       "note": "Good in most villas/hotels; verify speeds for remote work stays."
     },
     "directGW": true,
-    "fltNote": "Mauritius has regular nonstop London service and broad one-stop UK/Ireland options; peak demand is strongest in European school holidays and December festive travel.",
+    "fltNote": "Mauritius is primarily served via MRU, with regular nonstop London flights plus one-stop UK/Ireland options through Gulf and European hubs. Reunion (RUN) can be used as an alternate regional gateway only when paired with a short onward flight to Mauritius, so it adds an extra connection risk. Demand is usually highest during European school holidays and December festive weeks.",
     "airports": [
       {
         "name": "Sir Seewoosagur Ramgoolam International Airport",
         "code": "MRU",
         "km": 50,
         "dgw": true
+      },
+      {
+        "name": "Roland Garros Airport (Reunion)",
+        "code": "RUN",
+        "km": 230,
+        "dgw": false
       }
     ],
     "currency": "Mauritius local currency (check live rates before booking).",
@@ -88,7 +94,8 @@
     "alerts": [
       "Lagoon excursions are weather and swell dependent; avoid fixed schedules for marine activities.",
       "Road traffic toward Port Louis can be heavy on weekday mornings and evenings.",
-      "Sun and UV are intense year-round—plan midday shade even in cooler months."
+      "Sun and UV are intense year-round—plan midday shade even in cooler months.",
+      "When using Reunion as backup gateway, protect minimum connection time because inter-island disruptions can affect same-day arrival plans."
     ]
   },
   "sweet": "May-Nov for drier, less humid conditions and reliable west-coast sunsets.",

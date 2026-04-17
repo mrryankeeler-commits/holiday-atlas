@@ -66,13 +66,19 @@
       "note": "Usable in most villas, but valley storms can cause short dropouts."
     },
     "directGW": true,
-    "fltNote": "Bali receives strong one-stop UK/Ireland demand via Singapore, Doha, Dubai, or Kuala Lumpur, and some seasonal nonstop UK capacity; July-August and Christmas/New Year are highest-pressure fare periods.",
+    "fltNote": "Sideman is normally reached via Bali (DPS) on one-stop UK/Ireland routings through Singapore, Doha, Dubai, or Kuala Lumpur; any nonstop UK-Bali services are limited/seasonal. Lombok (LOP) is a realistic alternate only if combined with ferry + road transfer, which adds weather-dependent timing. July-August and Christmas/New Year are typically highest-pressure fare periods.",
     "airports": [
       {
         "name": "Ngurah Rai International Airport",
         "code": "DPS",
         "km": 55,
         "dgw": true
+      },
+      {
+        "name": "Lombok International Airport",
+        "code": "LOP",
+        "km": 95,
+        "dgw": false
       }
     ],
     "currency": "Indonesia local currency (check live rates before booking).",
@@ -88,7 +94,8 @@
     "alerts": [
       "Road access is narrow and winding; transfers can take longer than map estimates after rain.",
       "Mount Agung activity advisories can affect trekking plans—monitor official updates.",
-      "Many boutique stays are in valley terrain with stairs, which can be challenging with heavy luggage."
+      "Many boutique stays are in valley terrain with stairs, which can be challenging with heavy luggage.",
+      "If routing via Lombok, fast-boat/ferry disruptions in rough sea conditions can cause missed onward transfers."
     ]
   },
   "sweet": "May-Jun and Sep for greener scenery with fewer crowds than peak midsummer.",
