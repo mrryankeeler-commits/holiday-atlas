@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Ulaanbaatar generally requires one-stop routing from the UK, commonly via Istanbul, Seoul, or Beijing.",
+    "fltNote": "From the UK/Ireland, Ulaanbaatar is usually one-stop year-round (most commonly via Istanbul or Seoul, with some East Asia options). In shoulder months (Apr-May and Sep-Oct), frequencies are typically thinner than peak summer, so expect fewer same-day connections and occasional overnight layovers; build buffer time on both outbound and return legs.",
     "airports": [
       {
         "name": "Chinggis Khaan International Airport",
@@ -87,9 +87,41 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "In winter (November to March), verify your lodging's heating reliability and prepare for severe cold that can affect batteries and transport.",
-      "For steppe or Gobi excursions, confirm road conditions and vehicle readiness after heavy rain, as unpaved routes can become impassable.",
-      "Secure Naadam-period flights and hotels well in advance because domestic inventory is limited and prices climb quickly."
+      "Winter temperature inversions can worsen Ulaanbaatar air quality; check the city AQI each morning and shift long outdoor walks to cleaner-weather windows.",
+      "Between late autumn and early spring, verify your driver and lodging can support extreme-cold operations (engine pre-heating, reliable indoor heating, and winter tires).",
+      "If your trip overlaps Naadam (around 11-13 July), lock flights, central hotels, and intercity tickets early because domestic onward capacity tightens quickly."
+    ],
+    "climatePlan": [
+      {
+        "season": "Dec-Feb (deep winter)",
+        "impact": "Daylight is short and temperatures are often far below -20°C, so outdoor exposure windows are limited.",
+        "dailyPlan": "Front-load indoor museums/cafes, keep outdoor blocks to short midday periods, and pre-book heated transport instead of relying on ad-hoc street pickups."
+      },
+      {
+        "season": "Mar-Apr (late winter to spring shoulder)",
+        "impact": "Large day-night swings and windy spells can make mornings/evenings feel much colder than afternoon highs.",
+        "dailyPlan": "Use a layer-based plan with windproof outerwear, keep sunrise/sunset activities flexible, and schedule longer walks for mid-afternoon."
+      },
+      {
+        "season": "May-Jun (early warm season)",
+        "impact": "Long daylight supports full-day itineraries, but rain frequency rises from late spring.",
+        "dailyPlan": "Prioritize viewpoint and open-steppe time earlier in the day, then hold an indoor backup for late-day showers."
+      },
+      {
+        "season": "Jul-Aug (warmest + wettest peak)",
+        "impact": "This is the busiest period with the highest rain totals and stronger accommodation pressure.",
+        "dailyPlan": "Reserve Naadam-period logistics early, start outdoor plans early to avoid afternoon convection rain, and keep waterproof footwear ready for muddy edges outside the city core."
+      },
+      {
+        "season": "Sep-Oct (autumn shoulder)",
+        "impact": "Conditions are often crisp and clearer, but freezing nights return quickly and daylight drops fast.",
+        "dailyPlan": "Cluster outdoor sightseeing in late morning/afternoon, and avoid late-evening long-distance road returns where black-ice risk starts to rise."
+      },
+      {
+        "season": "Nov (winter onset)",
+        "impact": "Rapid cooling and early darkness tighten sightseeing windows before full winter pricing relief arrives.",
+        "dailyPlan": "Use compact neighborhood-based itineraries, confirm vehicle warm-up/heating for early starts, and keep contingency time for slower road movement."
+      }
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
