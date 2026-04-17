@@ -1,0 +1,44 @@
+# Coordinate pass — April 17, 2026
+
+Locations that had `lat`/`lng` as `0.0` in `data/locations/index.json`, now updated to city-level coordinates:
+
+- a-lat-vietnam → `11.9404`, `108.4583`
+- arequipa-peru → `-16.4090`, `-71.5375`
+- asuncion-paraguay → `-25.2637`, `-57.5759`
+- bacalar-mexico → `18.6813`, `-88.3936`
+- barranquilla-colombia → `10.9685`, `-74.7813`
+- belize-city-belize → `17.5046`, `-88.1962`
+- bishkek-kyrgyzstan → `42.8746`, `74.5698`
+- cartagena-colombia → `10.3910`, `-75.4794`
+- el-cotillo-fuerteventura-spain → `28.6835`, `-14.0101`
+- havana-cuba → `23.1136`, `-82.3666`
+- hoa-lu-ninh-binh-vietnam → `20.2530`, `105.9750`
+- hoi-an-vietnam → `15.8801`, `108.3380`
+- kampot-cambodia → `10.6104`, `104.1815`
+- kutaisi-georgia → `42.2679`, `42.6946`
+- leh-kashmir-india → `34.1526`, `77.5771`
+- lima-peru → `-12.0464`, `-77.0428`
+- luang-prabang-laos → `19.8856`, `102.1347`
+- madeira-portugal → `32.6669`, `-16.9241`
+- makassar-indonesia → `-5.1477`, `119.4327`
+- manado-indonesia → `1.4748`, `124.8421`
+- medellin-colombia → `6.2442`, `-75.5812`
+- minca-colombia → `11.1447`, `-74.1153`
+- ometepe-nicaragua → `11.5000`, `-85.5833`
+- phoenix-arizona-united-states → `33.4484`, `-112.0740`
+- placencia-belize → `16.5142`, `-88.3665`
+- puerto-ayora-ecuador → `-0.7402`, `-90.3138`
+- puno-peru → `-15.8402`, `-70.0219`
+- punta-cana-dominican-republic → `18.5601`, `-68.3725`
+- quetzaltenango-guatemala → `14.8347`, `-91.5186`
+- quito-ecuador → `-0.1807`, `-78.4678`
+- reckong-peo-india → `31.5404`, `78.2728`
+- rio-de-janeiro-brazil → `-22.9068`, `-43.1729`
+- ronda-spain → `36.7467`, `-5.1612`
+- san-pedro-la-laguna-guatemala → `14.6929`, `-91.2722`
+- santa-marta-colombia → `11.2408`, `-74.1990`
+- tangalla-sri-lanka → `6.0243`, `80.7941`
+- tilcara-argentina → `-23.5775`, `-65.3940`
+- tokyo-japan → `35.6762`, `139.6503`
+- ulaanbaatar-mongolia → `47.8864`, `106.9057`
+- vinales-cuba → `22.6189`, `-83.7069`
