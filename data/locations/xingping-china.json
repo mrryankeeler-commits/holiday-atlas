@@ -1,0 +1,204 @@
+{
+  "id": "xingping-china",
+  "source": {
+    "climateVerified": false,
+    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Data_05 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Xingping",
+  "country": "China",
+  "region": "Guangxi",
+  "lat": 24.9167,
+  "lng": 110.5,
+  "desc": "Xingping is a destination profile pending enrichment.",
+  "hls": [
+    "Climate baseline imported; destination highlights will be expanded during enrichment."
+  ],
+  "todo": [
+    {
+      "name": "Orientation walk",
+      "cat": "Sightseeing",
+      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10-50 Mbps",
+      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+    },
+    "directGW": false,
+    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Xingping will be detailed during enrichment.",
+    "airports": [],
+    "airportsExceptionNote": "Airport research pending enrichment pass.",
+    "currency": "Use the local currency for China; verify current cash/card acceptance before travel.",
+    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
+    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
+    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "bestFor": [
+      "Culture",
+      "Food",
+      "Nature"
+    ],
+    "alerts": [
+      "Seasonal weather can affect transport and activity planning in Xingping; keep one flexible day."
+    ]
+  },
+  "sweet": "Mar-May,Sep-Nov",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -6,
+      "hi": 1,
+      "lo": -11,
+      "daylight": 10.0,
+      "cld": 35,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": -3,
+      "hi": 3,
+      "lo": -8,
+      "daylight": 10.9,
+      "cld": 42,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 2,
+      "hi": 9,
+      "lo": -3,
+      "daylight": 12.0,
+      "cld": 50,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 16,
+      "lo": 2,
+      "daylight": 13.1,
+      "cld": 49,
+      "rain": 18,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 21,
+      "lo": 7,
+      "daylight": 14.1,
+      "cld": 49,
+      "rain": 33,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 18,
+      "hi": 25,
+      "lo": 12,
+      "daylight": 14.6,
+      "cld": 46,
+      "rain": 51,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 21,
+      "hi": 27,
+      "lo": 14,
+      "daylight": 14.3,
+      "cld": 40,
+      "rain": 64,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 26,
+      "lo": 13,
+      "daylight": 13.5,
+      "cld": 37,
+      "rain": 64,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 21,
+      "lo": 8,
+      "daylight": 12.4,
+      "cld": 42,
+      "rain": 48,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 14,
+      "lo": 3,
+      "daylight": 11.2,
+      "cld": 43,
+      "rain": 20,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 1,
+      "hi": 8,
+      "lo": -4,
+      "daylight": 10.3,
+      "cld": 33,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": -4,
+      "hi": 2,
+      "lo": -9,
+      "daylight": 9.8,
+      "cld": 30,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}
