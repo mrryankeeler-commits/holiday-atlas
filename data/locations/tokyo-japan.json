@@ -65,9 +65,22 @@
       "spd": "40–150 Mbps",
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
-    "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "directGW": true,
+    "fltNote": "Tokyo has year-round nonstop UK service; compare Haneda vs Narita timing because fares and convenience differ.",
+    "airports": [
+      {
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "km": 20,
+        "dgw": true
+      },
+      {
+        "name": "Narita International Airport",
+        "code": "NRT",
+        "km": 70,
+        "dgw": true
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Nonstop UK service to Quito is limited/unreliable; most itineraries connect via Madrid, Amsterdam, or US hubs.",
+    "airports": [
+      {
+        "name": "Mariscal Sucre International Airport",
+        "code": "UIO",
+        "km": 40,
+        "dgw": false
+      },
+      {
+        "name": "José Joaquín de Olmedo International Airport",
+        "code": "GYE",
+        "km": 270,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

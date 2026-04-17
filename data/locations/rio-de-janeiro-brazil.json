@@ -65,9 +65,22 @@
       "spd": "40–150 Mbps",
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
-    "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "directGW": true,
+    "fltNote": "Rio has nonstop UK links in some seasons; compare one-stop options as schedules can shift by month.",
+    "airports": [
+      {
+        "name": "Rio de Janeiro/Galeão International Airport",
+        "code": "GIG",
+        "km": 20,
+        "dgw": true
+      },
+      {
+        "name": "São Paulo/Guarulhos International Airport",
+        "code": "GRU",
+        "km": 360,
+        "dgw": true
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

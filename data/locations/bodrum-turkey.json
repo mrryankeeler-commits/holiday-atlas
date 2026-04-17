@@ -47,9 +47,22 @@
       "spd": "30-120 Mbps",
       "note": "City-center accommodations and cafés are usually dependable; confirm speed if you need to work remotely."
     },
-    "directGW": false,
-    "fltNote": "Direct UK routes and seasonal capacity vary by month; compare shoulder-season options for better value.",
-    "airports": [],
+    "directGW": true,
+    "fltNote": "Bodrum has strong seasonal nonstop UK service; Dalaman is a practical fallback when BJV schedules are thinner.",
+    "airports": [
+      {
+        "name": "Milas–Bodrum Airport",
+        "code": "BJV",
+        "km": 36,
+        "dgw": true
+      },
+      {
+        "name": "Dalaman Airport",
+        "code": "DLM",
+        "km": 125,
+        "dgw": true
+      }
+    ],
     "currency": "Check current local currency usage and card acceptance before departure.",
     "lang": "Local language is dominant; English support is strongest in tourism-facing venues.",
     "tz": "Confirm local UTC offset and daylight-saving rules for your exact travel dates.",

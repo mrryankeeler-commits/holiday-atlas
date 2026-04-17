@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Manado is usually reached from the UK with at least two flight legs, often via Jakarta or Singapore.",
+    "airports": [
+      {
+        "name": "Sam Ratulangi International Airport",
+        "code": "MDC",
+        "km": 13,
+        "dgw": false
+      },
+      {
+        "name": "Soekarno–Hatta International Airport",
+        "code": "CGK",
+        "km": 2200,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",
