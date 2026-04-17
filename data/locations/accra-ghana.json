@@ -66,13 +66,19 @@
       "note": "Business hotels and coworking spots are generally reliable; verify backup power during stormy weeks."
     },
     "directGW": true,
-    "fltNote": "London has year-round nonstop service to Accra, while many other UK/Ireland departures connect via Amsterdam, Brussels, or Istanbul; fares spike around July-August and December holidays.",
+    "fltNote": "London has year-round nonstop service to Accra; from UK/Ireland outside peak schedules, one-stop routings via Amsterdam, Brussels, Istanbul, or Casablanca are common. Kumasi can work as a domestic add-on gateway after landing in Ghana, but it does not replace Accra for international arrivals. Fares usually peak in July-August and again around December holidays.",
     "airports": [
       {
         "name": "Kotoka International Airport",
         "code": "ACC",
         "km": 8,
         "dgw": true
+      },
+      {
+        "name": "Prempeh I International Airport (Kumasi)",
+        "code": "KMS",
+        "km": 250,
+        "dgw": false
       }
     ],
     "currency": "Ghana local currency (check live rates before booking).",
@@ -88,7 +94,8 @@
     "alerts": [
       "Flash flooding can affect low-lying roads in peak rains (April-June and September-October), so avoid tight same-day airport transfers.",
       "Carry small cash for market transport and beach vendors; card acceptance drops outside malls and larger hotels.",
-      "Heavy traffic on Spintex and Liberation roads can double evening transfer times, especially before public holidays."
+      "Heavy traffic on Spintex and Liberation roads can double evening transfer times, especially before public holidays.",
+      "If using Kumasi as a secondary gateway, build buffer time for domestic delays and same-day road transfers to Accra."
     ]
   },
   "sweet": "Nov-Feb for drier weather and easier city logistics; shoulder Mar and Sep can work with flexible rain plans.",

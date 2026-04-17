@@ -66,13 +66,19 @@
       "note": "Many surf camps offer workable Wi-Fi, but speeds vary by occupancy."
     },
     "directGW": true,
-    "fltNote": "UK has strong seasonal nonstop coverage to Agadir, while Ireland/other departures may connect via European hubs; winter sun season and Easter weeks are highest demand.",
+    "fltNote": "Tamraght is closest to Agadir (AGA), which has strong UK seasonal nonstop coverage; outside those windows, many UK/Ireland itineraries connect via Casablanca, Lisbon, or other European hubs. Marrakech (RAK) is a practical alternate gateway with longer ground transfer, especially when Agadir capacity is thin. Winter sun season and Easter weeks are typically highest demand.",
     "airports": [
       {
         "name": "Agadir-Al Massira Airport",
         "code": "AGA",
         "km": 40,
         "dgw": true
+      },
+      {
+        "name": "Marrakesh Menara Airport",
+        "code": "RAK",
+        "km": 260,
+        "dgw": false
       }
     ],
     "currency": "Morocco local currency (check live rates before booking).",
@@ -88,7 +94,8 @@
     "alerts": [
       "Surf conditions vary quickly with swell and tide—confirm beginner safety windows daily.",
       "Village roads are narrow with mixed pedestrian/vehicle traffic; walk cautiously at night.",
-      "Some accommodations rely on shared shuttle schedules, reducing flexibility for early flights."
+      "Some accommodations rely on shared shuttle schedules, reducing flexibility for early flights.",
+      "If arriving via Marrakech, allow extra transfer buffer for mountain/coastal road traffic and late-night coach availability."
     ]
   },
   "sweet": "Oct-Apr for consistent surf swells and mild daytime temperatures.",
