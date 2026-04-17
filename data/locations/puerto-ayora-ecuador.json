@@ -18,7 +18,7 @@
   "city": "Puerto Ayora",
   "country": "Ecuador",
   "region": "Galápagos Islands (Santa Cruz)",
-  "desc": "Puerto Ayora is a strong base for exploring Ecuador with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Puerto Ayora is the main Santa Cruz base for Galápagos trips, with access shaped by mainland gateway choice, island-entry formalities, and weather-sensitive inter-island boat links.",
   "hls": [
     "Seasonal climate profile benchmarked for Puerto Ayora",
     "Year-round planning with monthly trade-offs",
@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Puerto Ayora is reached via Baltra Airport, then bus + ferry transfer to Santa Cruz (typically 1.5–2 hours total).",
+    "fltNote": "Puerto Ayora access is a chain: choose Quito (UIO) or Guayaquil (GYE) as the mainland gateway, fly to Baltra (GPS), then airport bus + Itabaca Channel ferry + road transfer to town (usually about 2 hours door-to-door). Flight and fare pressure usually rise in Ecuador/UK school-holiday windows (roughly Jul–Aug and late Dec), and same-day island onward plans are fragile because late mainland arrivals, biosecurity checks, or weather can cause missed boat cut-offs.",
     "airports": [
       {
         "name": "Seymour Airport (Baltra)",
@@ -75,7 +75,13 @@
         "dgw": false
       },
       {
-        "name": "Mariscal Sucre International Airport",
+        "name": "José Joaquín de Olmedo International Airport (Guayaquil)",
+        "code": "GYE",
+        "km": 1170,
+        "dgw": false
+      },
+      {
+        "name": "Mariscal Sucre International Airport (Quito)",
         "code": "UIO",
         "km": 1330,
         "dgw": false
@@ -84,7 +90,7 @@
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "visa": "For Galápagos, complete transit control registration at the mainland departure airport (TCT/Transit Control Card process), pass biosecurity screening before boarding, and keep passport + migration record for arrival checks; pay required park/transit fees in accepted payment format (often cash) to avoid being held at entry counters.",
     "bestFor": [
       "Weather-timed trips",
       "Shoulder-season value",
@@ -93,9 +99,9 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "For June to November crossings, re-check sea state before speedboat transfers to Isabela or San Cristobal because rough water can suspend departures.",
-      "Book inter-island boats and top excursions several days ahead in high season (July–August, December) due to permit and seat caps.",
-      "Verify biosecurity rules for baggage and prohibited foods before transit, as inspections can delay pier check-in if paperwork is incomplete."
+      "At UIO or GYE, allow extra pre-flight time for Galápagos-only counters (transit card issuance plus biosecurity bag inspection); missing paperwork or queue delays can break same-day flight-to-boat connections.",
+      "On arrival via Baltra, the sequence is airport checks -> channel crossing -> Santa Cruz road transfer; if your inbound flight lands late, you may miss same-day ferry/boat departures to Isabela or San Cristóbal.",
+      "Inter-island speedboats from Puerto Ayora run on fixed schedules with weather and sea-state cancellations most common in the cooler/windier season (roughly Jun–Nov), so avoid tight same-day international or mainland flight back-connections."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
