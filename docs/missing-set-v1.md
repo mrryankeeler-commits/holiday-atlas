@@ -4,8 +4,8 @@
 - Intake source: all CSV uploads in `data/climate/uploads/`
 - Normalization method: `scripts/import_climate_csv.py` resolution (`exact`/`alias`/`fuzzy`) with `fuzzy_cutoff=0.84` and `data/climate/aliases.json`.
 - Intake raw candidate IDs: 133
-- Canonical LIVE IDs covered by intake: 126 / 126
-- MISSING after normalization: 7
+- Canonical LIVE IDs covered by intake: 129 / 129
+- MISSING after normalization: 4
 
 ## Intake candidate checklist (raw → normalized)
 
@@ -13,10 +13,10 @@
 |---|---|---|---|---|
 | `a-lat-vietnam` | `a-lat-vietnam` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `andorra-la-vella-andorra` | `andorra-la-vella` | ✅ LIVE | `exact` | `climate_data_03 - Climate Data.csv` |
-| `antalya-turkey` | `antalya-turkey` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `antalya-turkey` | `antalya-turkey` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `antigua-guatemala` | `antigua-guatemala` | ✅ LIVE | `exact` | `monthly_climate_02 - Climate Data.csv` |
 | `arequipa-peru` | `arequipa-peru` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
-| `arhus-denmark` | `arhus-denmark` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `arhus-denmark` | `arhus-denmark` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `astana-kazakhstan` | `astana` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `asuncion-paraguay` | `asuncion-paraguay` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `athens-greece` | `athens` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
@@ -24,7 +24,7 @@
 | `bacalar-mexico` | `bacalar-mexico` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `barranquilla-colombia` | `barranquilla-colombia` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `belize-city-belize` | `belize-city-belize` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
-| `berat-albania` | `berat-albania` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `berat-albania` | `berat-albania` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `bergen-norway` | `bergen` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
 | `bishkek-kyrgyzstan` | `bishkek-kyrgyzstan` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `bled-slovenia` | `bled` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
