@@ -20,43 +20,43 @@
   "region": "Kep Province (southern coast)",
   "lat": 10.4829,
   "lng": 104.3167,
-  "desc": "Krong Kep is a quiet Cambodian seaside town known for crab-market seafood, low-key beaches, and access to pepper farms and Kep National Park trails.",
+  "desc": "Krong Kep is Cambodia's low-key seafood coast: quieter and more compact than Sihanoukville, and more sea-focused than nearby Kampot, with crab-market dining, short national-park walks, and easy island boat access.",
   "hls": [
-    "Kep crab market and Kampot pepper pairing",
-    "Compact town suited to slow 2-4 night stays",
-    "Easy links to Kampot and Rabbit Island",
-    "Good dry-season beach weather"
+    "Iconic Kep crab market with Kampot pepper seafood",
+    "Relaxed small-town coast with fewer crowds than major Cambodian beach hubs",
+    "Quick access to Kep National Park ridge trails and viewpoints",
+    "Easy twin-base pairing with Kampot river town stays"
   ],
   "todo": [
     {
-      "name": "Crab market lunch",
+      "name": "Kep crab market lunch",
       "cat": "Food",
-      "desc": "Pick fresh blue crab dishes with Kampot pepper sauces."
+      "desc": "Order fresh blue crab with Kampot pepper sauce at the iconic waterfront stalls."
     },
     {
-      "name": "Kep National Park loop trail",
+      "name": "Kep National Park perimeter loop",
       "cat": "Nature",
-      "desc": "Do the shaded ridge loop early for cooler temperatures."
+      "desc": "Start early for cooler shaded climbing and Gulf of Thailand lookouts."
     },
     {
-      "name": "Rabbit Island boat day",
+      "name": "Rabbit Island day boat",
       "cat": "Coast",
-      "desc": "Take a small boat for beach downtime and simple seafood shacks."
+      "desc": "Take a morning boat for simple beach time and rustic seafood shacks."
     },
     {
       "name": "Kampot pepper farm visit",
       "cat": "Agri-tourism",
-      "desc": "Tour a certified pepper plantation outside town."
+      "desc": "Tour a certified farm to understand cultivation and tasting grades."
     },
     {
-      "name": "Colonial villa hill drive",
+      "name": "Abandoned villa hillside circuit",
       "cat": "History",
-      "desc": "Explore remaining French-era villas around the hillside roads."
+      "desc": "Explore Kep's less-obvious French-era villa ruins for architectural and war-era context."
     },
     {
-      "name": "Sunset at sailing club",
-      "cat": "Scenic",
-      "desc": "End the day with sea views and low-key cocktails."
+      "name": "Phnom Chhngok cave temple side trip",
+      "cat": "Culture",
+      "desc": "Add this high-value half-day excursion near Kampot for a pre-Angkorian brick shrine in a limestone cave."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Adequate in most guesthouses; backup mobile data recommended."
     },
     "directGW": false,
-    "fltNote": "UK/Ireland access is typically one-stop to Phnom Penh (often via Bangkok, Singapore, Doha, or Kuala Lumpur) followed by road transfer; winter dry-season demand raises room rates.",
+    "fltNote": "There are no nonstop UK/Ireland flights to Kep: most routes are one-stop to Phnom Penh (PNH) via hubs such as Singapore, Bangkok, Doha, or Kuala Lumpur, then a 3-4 hour private transfer/bus; some itineraries use Sihanoukville (KOS) plus a shorter road leg, with Dec-Feb and UK school-holiday weeks raising long-haul and regional fares.",
     "airports": [
       {
         "name": "Phnom Penh International Airport",
@@ -78,6 +78,12 @@
         "name": "Sihanoukville International Airport",
         "code": "KOS",
         "km": 110,
+        "dgw": false
+      },
+      {
+        "name": "Phu Quoc International Airport (Vietnam, border transfer)",
+        "code": "PQC",
+        "km": 95,
         "dgw": false
       }
     ],
@@ -92,9 +98,9 @@
       "Nature walks"
     ],
     "alerts": [
-      "Many beach roads have limited lighting—avoid late scooter trips if unfamiliar with local routes.",
-      "Cash (USD and riel) remains important despite growing QR adoption.",
-      "Heavy rains can disrupt island boats in June-September afternoons."
+      "Rabbit Island boats are most likely to pause in rough afternoon seas during the Jun-Sep monsoon.",
+      "ATMs are fewer than in Phnom Penh/Siem Reap, so keep mixed small USD and riel for market and boat payments.",
+      "Evening road lighting outside central Kep is limited; arrange return transport before late dinners or hill visits."
     ]
   },
   "sweet": "Dec-Mar for drier weather and calmer coastal conditions.",
@@ -120,8 +126,8 @@
       "cld": 54,
       "rain": 13,
       "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Mar",
@@ -132,8 +138,8 @@
       "cld": 61,
       "rain": 33,
       "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -181,7 +187,7 @@
       "rain": 295,
       "busy": 2,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -241,7 +247,7 @@
       "rain": 28,
       "busy": 9,
       "ac": 4,
-      "fl": 4
+      "fl": 5
     }
   ]
 }
