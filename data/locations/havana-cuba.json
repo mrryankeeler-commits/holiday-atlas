@@ -18,74 +18,81 @@
   "city": "Havana",
   "country": "Cuba",
   "region": "Cuba region",
-  "desc": "Havana is a strong base for exploring Cuba with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Havana blends grand colonial architecture, classic-car boulevards, and a deeply musical street culture, with the driest and most comfortable conditions from late winter into spring.",
   "hls": [
-    "Seasonal climate profile benchmarked for Havana",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "UNESCO-listed Old Havana plazas, fortifications, and pastel colonial streets",
+    "Strong live-music scene spanning son, salsa, jazz clubs, and neighborhood bars",
+    "El Malecón waterfront for sunset walks and local social life",
+    "Rich museum and revolutionary-history stops across Centro and Vedado",
+    "Easy day-trip options to beaches and tobacco-country landscapes",
+    "Best comfort window is generally December to April before wetter heat builds"
   ],
   "todo": [
     {
-      "name": "Walk central Havana",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Explore Habana Vieja on foot",
+      "cat": "Heritage",
+      "desc": "Walk Plaza Vieja, Plaza de Armas, and Catedral zones early to enjoy cooler streets and lighter tour traffic."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
+      "name": "Sunset on the Malecón",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Join locals on the seawall at golden hour for classic city views and relaxed evening atmosphere."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Ride in a classic car through Vedado",
+      "cat": "City experience",
+      "desc": "Take a short pre-booked route along Paseo and the waterfront to orient neighborhoods quickly."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Visit Museo Nacional de Bellas Artes",
+      "cat": "Culture",
+      "desc": "Split time between Cuban and international collections for a compact overview of national art history."
+    },
+    {
+      "name": "Live music night in Centro Habana",
+      "cat": "Nightlife",
+      "desc": "Book a small venue with seated sets if you want quality performance without large club crowds."
+    },
+    {
+      "name": "Day trip to Viñales or Playas del Este",
+      "cat": "Day trip",
+      "desc": "Choose Viñales for tobacco-valley scenery or east-coast beaches for an easier low-logistics day out."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "8–50 Mbps",
+      "note": "Higher-end hotels and some coworking/cafés are workable, but speeds and uptime are inconsistent citywide."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No routine nonstop UK-Havana schedule; fares spike around Christmas/New Year and UK school-holiday windows, so book long-haul + regional legs early.",
+    "airports": [
+      {
+        "name": "José Martí International Airport",
+        "code": "HAV",
+        "km": 17,
+        "dgw": false
+      }
+    ],
+    "currency": "Cuban Peso (CUP); card acceptance is uneven, so carry backup cash for smaller venues.",
+    "lang": "Spanish (basic English in tourist-facing hotels/restaurants).",
+    "tz": "CST (UTC-5), daylight saving may apply seasonally.",
+    "visa": "Most visitors need a tourist card/e-visa equivalent and onward proof; always verify current requirements for your passport.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Architecture + history",
+      "Music-focused city breaks",
+      "Street photography",
+      "Culture-led itineraries",
+      "Winter-sun shoulder travel"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Summer and early autumn are hotter, wetter, and more cyclone-exposed than winter/spring months.",
+      "Mobile data and ATMs can be patchy; arrange key bookings and cash strategy before arrival.",
+      "Museum closures and transport frequency can vary on public holidays and Sundays."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "December to April for the best balance of lower rain, manageable heat, and strong city-walk conditions.",
   "months": [
     {
       "m": "Jan",

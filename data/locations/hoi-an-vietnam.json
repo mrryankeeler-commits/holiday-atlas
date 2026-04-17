@@ -18,74 +18,87 @@
   "city": "Hội An",
   "country": "Vietnam",
   "region": "Vietnam region",
-  "desc": "Hội An is a strong base for exploring Vietnam with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Hội An is a lantern-lit riverside heritage town with excellent food and easy beach access, and it is typically most comfortable from February through April before peak heat and heavy autumn rains.",
   "hls": [
-    "Seasonal climate profile benchmarked for Hội An",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "UNESCO-listed Old Town of yellow merchant houses, assembly halls, and temples",
+    "Lantern-filled evening atmosphere along the Thu Bồn riverfront",
+    "Outstanding regional cuisine, street snacks, and cooking-class options",
+    "Easy bike or taxi hops to An Bàng and Cửa Đại beaches",
+    "Strong tailor and artisan workshop scene for custom clothing and crafts",
+    "Best weather window usually February to April; wettest period often September to November"
   ],
   "todo": [
     {
-      "name": "Walk central Hội An",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Walk the UNESCO Old Town at dawn",
+      "cat": "Heritage",
+      "desc": "Start early for softer light, cooler lanes, and quieter bridges before day-tour groups arrive."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
+      "name": "Boat ride and lantern hour on the river",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Take a short evening ride for illuminated waterfront views and classic photo angles."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Street-food crawl in Hội An market area",
+      "cat": "Food",
+      "desc": "Sample cao lầu, white rose dumplings, and mì Quảng on a guided or self-led route."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Cycling loop to An Bàng Beach",
+      "cat": "Active",
+      "desc": "Ride a flat route through villages and rice fields, then cool off by the coast."
+    },
+    {
+      "name": "Half-day trip to Mỹ Sơn Sanctuary",
+      "cat": "Culture",
+      "desc": "Visit Cham-era temple ruins with a morning departure to avoid midday heat."
+    },
+    {
+      "name": "Tailor fitting + return visit",
+      "cat": "Shopping",
+      "desc": "Plan at least two fittings over 24–48 hours for custom garments and final adjustments."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "30–120 Mbps",
+      "note": "Old Town hotels, cafés, and coworking spots are generally reliable; speeds dip during storms and island beach areas."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No direct London-Gateway service to Da Nang; typical UK routings connect via Hanoi, Ho Chi Minh City, Bangkok, Singapore, or Gulf hubs.",
+    "airports": [
+      {
+        "name": "Da Nang International Airport",
+        "code": "DAD",
+        "km": 29,
+        "dgw": false
+      },
+      {
+        "name": "Chu Lai Airport",
+        "code": "VCL",
+        "km": 75,
+        "dgw": false
+      }
+    ],
+    "currency": "Vietnamese đồng (VND); cash remains useful for markets, taxis, and smaller eateries.",
+    "lang": "Vietnamese (English widely used in tourism services).",
+    "tz": "ICT (UTC+7).",
+    "visa": "Vietnam e-visa rules and allowed stay lengths vary by nationality; verify before booking flights.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Food-focused trips",
+      "Heritage town breaks",
+      "Couples",
+      "Photography",
+      "Beach + culture combinations"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "September to November can bring very heavy rain and localized flooding in low Old Town streets.",
+      "Heat/humidity rise sharply from late spring into summer; plan midday breaks and hydration.",
+      "Tailor quality varies—check fabric specs and fit timelines before paying deposits."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "February to April for the strongest mix of comfortable weather, low flood risk, and enjoyable evening walks.",
   "months": [
     {
       "m": "Jan",
