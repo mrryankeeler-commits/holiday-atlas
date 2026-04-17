@@ -66,19 +66,28 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": true,
-    "fltNote": "Ronda has no airport; most visitors fly to Málaga then continue by road or rail (roughly 1.5–2 hours).",
+    "fltNote": "Ronda has no airport. AGP (Málaga) is usually the most frequent/lowest-fare gateway with more late arrivals, while SVQ (Seville) can work well for west-Andalusia loops but has fewer nonstop UK/Ireland frequencies in many months. For same-day arrival reliability, pre-book bus/rail legs or a transfer car before evening cut-offs.",
     "airports": [
       {
         "name": "Málaga–Costa del Sol Airport",
         "code": "AGP",
         "km": 105,
-        "dgw": true
+        "dgw": true,
+        "transfer": "Best for frequency and car rental depth; direct drive is usually ~1h40–2h. Public-transport journeys often require a Málaga Maria Zambrano transfer and can run ~2h15–3h depending on connection timing."
       },
       {
         "name": "Seville Airport",
         "code": "SVQ",
         "km": 130,
-        "dgw": true
+        "dgw": true,
+        "transfer": "Useful if combining Seville + Ronda; road transfer is often ~1h45–2h15. Bus/rail combinations are viable but generally involve one interchange and fewer late-evening fallback options than Málaga."
+      },
+      {
+        "name": "Gibraltar Airport",
+        "code": "GIB",
+        "km": 112,
+        "dgw": false,
+        "transfer": "Can be efficient for selected UK routes, but airport capacity and border-crossing variability make schedules less resilient. Road transfer to Ronda is commonly ~2h–2h30 plus possible border delays."
       }
     ],
     "currency": "Check live exchange rates before booking.",
@@ -93,12 +102,12 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "For summer afternoons (June to September), check heat advisories and schedule gorge viewpoints early to avoid extreme temperatures.",
-      "Confirm train and bus strike notices before day-trip planning, as Andalusia services can be reduced with limited same-day alternatives.",
-      "Book cliffside lodging and popular restaurants early for long weekends, when Malaga/Seville demand quickly fills weekend inventory."
+      "For Puente Nuevo and gorge viewpoints, arrive before 09:30 in April–June and September–October to avoid coach-tour clustering; late afternoon usually disperses groups after ~16:30.",
+      "In July–August, structure day trips around a split day (sunrise walk, midday indoor break, sunset viewpoints) because heat and peak excursion traffic overlap from roughly 11:00–17:00.",
+      "If visiting from the Costa del Sol on a day trip, avoid Sunday late-afternoon return windows in high season when parking exits and outbound roads can bottleneck."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "For lighter day-trip crowding, prioritize Tuesday-Thursday visits in March-May or late September-October, and do main viewpoints early morning with indoor stops at midday.",
   "months": [
     {
       "m": "Jan",
