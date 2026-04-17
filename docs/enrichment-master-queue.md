@@ -81,9 +81,9 @@
 | `a-lat-vietnam` | yes | no | yes | no | yes |
 | `arequipa-peru` | yes | no | yes | no | yes |
 | `asuncion-paraguay` | yes | no | yes | no | yes |
-| `bacalar-mexico` | yes | no | yes | no | no |
-| `barranquilla-colombia` | yes | no | yes | no | no |
-| `belize-city-belize` | yes | no | yes | no | no |
+| `bacalar-mexico` | yes | yes | yes | yes | no |
+| `barranquilla-colombia` | yes | yes | yes | yes | no |
+| `belize-city-belize` | yes | yes | yes | yes | no |
 | `bishkek-kyrgyzstan` | yes | no | yes | no | no |
 | `cartagena-colombia` | yes | no | yes | no | no |
 | `el-cotillo-fuerteventura-spain` | yes | no | yes | no | no |

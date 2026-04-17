@@ -17,75 +17,88 @@
   },
   "city": "Bacalar",
   "country": "Mexico",
-  "region": "Mexico region",
-  "desc": "Bacalar is a strong base for exploring Mexico with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "region": "Quintana Roo",
+  "desc": "Bacalar is a laid-back lagoon town in southern Quintana Roo, best known for the multi-toned Laguna de Bacalar, easy-water activities, and a slower pace than the Riviera Maya hubs.",
   "hls": [
-    "Seasonal climate profile benchmarked for Bacalar",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Laguna de Bacalar (\"Lake of Seven Colors\") is the core draw for boat trips, kayak routes, and swim stops.",
+    "Generally drier and sunnier from roughly February-April; wettest conditions cluster in late summer/early autumn.",
+    "Well suited to a 3-5 night reset focused on water, cafés, and low-intensity sightseeing.",
+    "Pairs well with Chetumal, Mahahual, or inland Maya-heritage routes if you are planning a wider Yucatán trip.",
+    "Good destination for couples and slower remote-work weeks when you choose accommodation with strong Wi-Fi.",
+    "Sargassum and weather variability can affect water clarity seasonally, so keep activity plans flexible."
   ],
   "todo": [
     {
-      "name": "Walk central Bacalar",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Pontón lagoon boat tour",
+      "cat": "Water activity",
+      "desc": "Take a half-day lancha tour covering cenote zones, the Pirates Channel, and shallow turquoise swim stops."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Sunrise paddle session",
+      "cat": "Kayak/SUP",
+      "desc": "Go out early by kayak or paddleboard when wind is lighter and the lagoon is calmest."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Fuerte de San Felipe museum",
+      "cat": "History",
+      "desc": "Visit the 18th-century fort and small museum to understand local colonial and maritime history."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Los Rápidos float stop",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Spend a few hours floating the gentle channel and walking the boardwalk over stromatolite areas."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Cenote Azul break",
+      "cat": "Swimming",
+      "desc": "Add a relaxed swim and lunch stop at Cenote Azul, one of the deeper water points near town."
+    },
+    {
+      "name": "Evening zócalo + waterfront walk",
+      "cat": "Local life",
+      "desc": "Keep one evening for the town square, street snacks, and a sunset stroll along the costera."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "20–90 Mbps",
+      "note": "Most lagoon hotels and town cafés are workable for calls, but speeds vary widely by property and weather."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No UK nonstop; common routings are UK -> Cancún (CUN) then long overland transfer, or UK -> Mexico City -> Chetumal with shorter ground travel to Bacalar.",
+    "airports": [
+      {
+        "name": "Chetumal International Airport",
+        "code": "CTM",
+        "km": 39,
+        "dgw": false
+      },
+      {
+        "name": "Cancún International Airport",
+        "code": "CUN",
+        "km": 345,
+        "dgw": false
+      }
+    ],
+    "currency": "Mexican Peso (MXN). Cards are common at mid-range hotels/restaurants, but keep cash for tours, taxis, and smaller shops.",
+    "lang": "Spanish is dominant; English is common at tourism-facing stays and tour operators.",
+    "tz": "UTC-05:00 (Quintana Roo, no daylight saving).",
+    "visa": "Mexico entry requirements vary by nationality and transit point; verify FMM/entry conditions and passport validity before travel.",
     "bestFor": [
-      "Weather-timed trips",
+      "Lagoon-focused slow travel",
+      "Couples and mellow breaks",
+      "Kayak/SUP and swim days",
       "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Yucatán add-on itineraries"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Check seasonal weather and wind before booking full-day lagoon activities.",
+      "Respect protected stromatolite zones: avoid standing on formations and follow guide instructions.",
+      "Transport options late at night are limited compared with larger beach hubs."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "February to April is usually the cleanest compromise of drier weather, strong water time, and manageable crowd/price pressure.",
   "months": [
     {
       "m": "Jan",

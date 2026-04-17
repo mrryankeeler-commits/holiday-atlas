@@ -17,75 +17,88 @@
   },
   "city": "Belize City",
   "country": "Belize",
-  "region": "Belize region",
-  "desc": "Belize City is a strong base for exploring Belize with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "region": "Belize District",
+  "desc": "Belize City is Belize's main transport gateway and a practical base for history stops, river excursions, and quick transfers to cayes or inland rainforest lodges.",
   "hls": [
-    "Seasonal climate profile benchmarked for Belize City",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Most travelers use Belize City as an arrival/departure hub for flights, water taxis, and overland connections.",
+    "Best weather balance usually sits in the drier months from roughly February-April.",
+    "Good short-stay value for museum visits, Creole food, and day trips to river or Maya-heritage sites.",
+    "Easy onward links to Caye Caulker/San Pedro ferries and to inland hubs like San Ignacio.",
+    "City sightseeing works best with daylight planning and pre-arranged transport between neighborhoods.",
+    "Pairs well as a 1-2 night logistical stop before reef diving, island stays, or jungle lodges."
   ],
   "todo": [
     {
-      "name": "Walk central Belize City",
+      "name": "Museum of Belize",
+      "cat": "History",
+      "desc": "Start with the central museum to cover colonial-era context, archaeology highlights, and national history."
+    },
+    {
+      "name": "Swing Bridge + downtown walk",
       "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "desc": "Do a short daytime loop around the historic core, St. John's Cathedral area, and waterfront landmarks."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Belize River wildlife cruise",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Join a half-day river excursion for mangrove scenery, birdlife, and possible manatee/crocodile sightings."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Altun Ha day trip",
+      "cat": "Archaeology",
+      "desc": "Take a guided inland visit to the Maya site of Altun Ha with enough time for museum context on return."
+    },
+    {
+      "name": "Caye Caulker transit day",
+      "cat": "Island add-on",
+      "desc": "Use the water taxi for a same-day taste of island pace if your wider itinerary allows."
+    },
+    {
+      "name": "Creole food dinner",
+      "cat": "Food",
+      "desc": "Reserve one evening for local dishes such as rice and beans, stew chicken, and fresh seafood."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "20–80 Mbps",
+      "note": "Adequate in business hotels and some cafés; outages and weather-related interruptions can happen."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No UK nonstop; common routings connect via US or Central American hubs, and fares usually rise in UK school-holiday peaks plus Christmas/New Year.",
+    "airports": [
+      {
+        "name": "Philip S. W. Goldson International Airport",
+        "code": "BZE",
+        "km": 15,
+        "dgw": false
+      },
+      {
+        "name": "Sir Barry Bowen Municipal Airport",
+        "code": "TZA",
+        "km": 4,
+        "dgw": false
+      }
+    ],
+    "currency": "Belize Dollar (BZD), commonly pegged at 2 BZD = 1 USD; USD is widely accepted, but confirm change policy.",
+    "lang": "English is the official language; Belizean Creole and Spanish are also widely spoken.",
+    "tz": "UTC-06:00 (Belize Time).",
+    "visa": "Belize entry rules vary by passport and transit country; check visa requirements plus return/onward proof before departure.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Gateway logistics",
+      "Short history stopovers",
+      "River and wildlife day trips",
+      "Island transfer connections",
+      "Budget-conscious route planning"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Plan city walks in daylight and use known taxi operators for point-to-point travel.",
+      "Wet-season downpours can disrupt ferry comfort/timing and road transfers.",
+      "Book island-bound water taxi slots ahead during holiday peaks."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "February to April is usually the most reliable weather window for combining urban logistics with day trips before shifting onward to the cayes or inland lodges.",
   "months": [
     {
       "m": "Jan",
