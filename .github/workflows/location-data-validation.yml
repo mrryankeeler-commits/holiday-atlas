@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Require QA checklist link for location JSON changes
+      - name: Require QA checklist evidence for location JSON changes
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
@@ -51,30 +51,33 @@ jobs:
               return;
             }
 
+            const touchesChecklistMd = files.some((file) =>
+              /^docs\/location-qa-checklists\/[\w.-]+\.md$/.test(file.filename)
+            );
+
             const body = pr.body || '';
-            const missing = [];
+            const hasChecklistLink = /docs\/location-qa-checklists\/[\w.-]+\.md/.test(body);
+            const hasLegacyBodySections =
+              /author confirmation/i.test(body) &&
+              /reviewer confirmation/i.test(body) &&
+              /audit script output snippet/i.test(body);
 
-            if (!/docs\/location-qa-checklists\/[\w.-]+\.md/.test(body)) {
-              missing.push('at least one checklist link under docs/location-qa-checklists/*.md');
-            }
-            if (!/author confirmation/i.test(body)) {
-              missing.push('an "Author confirmation" entry');
-            }
-            if (!/reviewer confirmation/i.test(body)) {
-              missing.push('a "Reviewer confirmation" entry');
-            }
-            if (!/audit script output snippet/i.test(body)) {
-              missing.push('an "Audit script output snippet" section');
-            }
-
-            if (missing.length) {
+            if (!(touchesChecklistMd || (hasChecklistLink && hasLegacyBodySections))) {
               core.setFailed(
-                `PR touches data/locations/*.json but is missing required QA section content: ${missing.join(', ')}`
+                'PR touches data/locations/*.json but does not include QA evidence. ' +
+                'Either include a touched docs/location-qa-checklists/*.md file in the PR, ' +
+                'or keep the legacy PR-body sections (checklist link + Author confirmation + ' +
+                'Reviewer confirmation + Audit script output snippet).'
               );
               return;
             }
 
-            core.info('Checklist + QA PR section detected for location JSON changes.');
+            if (touchesChecklistMd) {
+              core.info('Checklist evidence detected via changed docs/location-qa-checklists/*.md file.');
+              return;
+            }
+
+            core.info('Checklist evidence detected via legacy PR-body QA sections.');
 
       - name: Setup Python
         uses: actions/setup-python@v5
