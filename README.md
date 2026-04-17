@@ -156,6 +156,15 @@ The validator now also blocks:
 - empty/generic practical text in `prac.visa`, `prac.currency`, `prac.lang`, `prac.tz`,
 - draft scaffolds emitted by `scripts/import_climate_csv.py` when `source.draftOnly: true` remains set.
 
+### Remediating generic-content validator failures
+
+If `python3 scripts/validate_locations.py` flags boilerplate text:
+
+- Rewrite `desc` and `sweet` with concrete destination details (named neighborhoods, seasonal realities, trip style fit).
+- Replace `prac.bestFor[]` generic audience tags with destination-specific traveler profiles.
+- For optional checks in `hls[]` and `todo[].desc`, replace template language with place-specific highlights and activity context.
+- Re-run `python3 scripts/validate_locations.py` until all flagged field/index entries are cleared.
+
 If you need CI-style strictness that fails whenever any destination is still unverified:
 
 - `python3 scripts/verify_climate_provenance.py --fail-on-unverified`
