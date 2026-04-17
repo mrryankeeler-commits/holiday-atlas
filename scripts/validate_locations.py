@@ -10,6 +10,7 @@ REQUIRED_TOP_LEVEL = {"id", "city", "country", "region", "desc", "hls", "todo", 
 REQUIRED_PRAC_ARRAYS = {"alerts", "airports", "bestFor"}
 OPTIONAL_PRAC_STRING_FIELDS = {"visa", "currency", "fltNote", "lang", "tz"}
 INDEX_REQUIRED_FIELDS = {"id", "city", "country", "region", "lat", "lng"}
+TODO_REQUIRED_FIELDS = {"name", "cat", "desc"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -109,6 +110,35 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         if field in data and not isinstance(data[field], list):
             add_error(errors, file_path, f"invalid field type for '{field}' (expected array)")
 
+    for field in ("desc", "sweet"):
+        value = data.get(field)
+        if isinstance(value, str) and not value.strip():
+            add_error(errors, file_path, f"field '{field}' must be a non-empty string")
+
+    hls = data.get("hls")
+    if isinstance(hls, list):
+        if not hls:
+            add_error(errors, file_path, "hls must include at least one highlight")
+        for idx, item in enumerate(hls):
+            if not isinstance(item, str) or not item.strip():
+                add_error(errors, file_path, f"hls[{idx}] must be a non-empty string")
+
+    todo = data.get("todo")
+    if isinstance(todo, list):
+        if not todo:
+            add_error(errors, file_path, "todo must include at least one activity")
+        for idx, item in enumerate(todo):
+            if not isinstance(item, dict):
+                add_error(errors, file_path, f"todo[{idx}] expected object, got {type(item).__name__}")
+                continue
+            missing_todo = sorted(TODO_REQUIRED_FIELDS - set(item.keys()))
+            if missing_todo:
+                add_error(errors, file_path, f"todo[{idx}] missing required fields: {', '.join(missing_todo)}")
+            for key in sorted(TODO_REQUIRED_FIELDS):
+                value = item.get(key)
+                if not isinstance(value, str) or not value.strip():
+                    add_error(errors, file_path, f"todo[{idx}].{key} must be a non-empty string")
+
     prac = data.get("prac")
     if "prac" in data and not isinstance(prac, dict):
         add_error(errors, file_path, "invalid field type for 'prac' (expected object)")
@@ -120,6 +150,27 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         for field in REQUIRED_PRAC_ARRAYS:
             if field in prac and not isinstance(prac[field], list):
                 add_error(errors, file_path, f"invalid prac.{field} (expected array)")
+            elif field in prac and field != "airports":
+                for idx, item in enumerate(prac[field]):
+                    if not isinstance(item, str) or not item.strip():
+                        add_error(errors, file_path, f"prac.{field}[{idx}] must be a non-empty string")
+
+        airports = prac.get("airports")
+        if isinstance(airports, list):
+            for idx, item in enumerate(airports):
+                if not isinstance(item, dict):
+                    add_error(errors, file_path, f"prac.airports[{idx}] expected object, got {type(item).__name__}")
+                    continue
+                for key in ("name", "code"):
+                    value = item.get(key)
+                    if not isinstance(value, str) or not value.strip():
+                        add_error(errors, file_path, f"prac.airports[{idx}].{key} must be a non-empty string")
+                if "km" in item and (
+                    isinstance(item["km"], bool) or not isinstance(item["km"], (int, float)) or item["km"] < 0
+                ):
+                    add_error(errors, file_path, f"prac.airports[{idx}].km must be a non-negative number")
+                if "dgw" in item and not isinstance(item["dgw"], bool):
+                    add_error(errors, file_path, f"prac.airports[{idx}].dgw must be a boolean")
 
         if "directGW" in prac and not isinstance(prac["directGW"], bool):
             add_error(errors, file_path, "invalid prac.directGW (expected boolean)")
