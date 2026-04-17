@@ -66,12 +66,24 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "No nonstop UK-Asunción route; common one-stop patterns are via Madrid (MAD), São Paulo-Guarulhos (GRU), or Panama City (PTY) into ASU. South American hub-to-ASU legs can tighten around Christmas/New Year and July school-holiday periods, so protect connections with longer layovers.",
+    "fltNote": "No nonstop UK–Asunción service: most itineraries are 2-stop (UK/EU gateway + regional hub) with the final hub-to-ASU leg usually via São Paulo (GRU), Panama City (PTY), Buenos Aires (EZE/AEP), Santiago (SCL), or Lima (LIM). Connectivity is best from roughly March-October; around late December-early January, Easter week, and July school-holiday peaks, missed-connection risk and fare pressure rise on regional legs, so plan 2.5-4+ hour hub buffers or an overnight stop. Practical fallback: if ASU inventory spikes/cancels, rebook to EZE or GRU and continue overland/bus only if you have a full spare day and flexible border timing.",
     "airports": [
       {
         "name": "Silvio Pettirossi International Airport",
         "code": "ASU",
         "km": 10,
+        "dgw": false
+      },
+      {
+        "name": "Foz do Iguaçu International Airport",
+        "code": "IGU",
+        "km": 330,
+        "dgw": false
+      },
+      {
+        "name": "Ministro Pistarini International Airport (Ezeiza)",
+        "code": "EZE",
+        "km": 1040,
         "dgw": false
       },
       {
@@ -96,7 +108,16 @@
       "From November to March, afternoon heat index can exceed safe sightseeing thresholds; schedule outdoor walks early and keep electrolyte/water backups.",
       "Intense thunderstorms can flood low-lying streets quickly in summer; avoid tight airport transfers when severe-weather alerts are active.",
       "Cross-border shopping/day trips (Argentina or Brazil routes) can face long immigration queues on holiday weekends, so carry printed booking proof and allow generous buffer time."
-    ]
+    ],
+    "xborderTransport": {
+      "flightVsBus": [
+        "Asunción-Buenos Aires or Asunción-São Paulo: flights are usually 2-4 hours gate-to-gate and materially more reliable for same-day onward long-haul connections.",
+        "Cross-border buses can look cheaper but often run 18-24+ hours on these corridors once border-control queues, terminal changes, and urban traffic are included.",
+        "Use bus when schedule flexibility is high and an overnight ride saves a hotel night; use flights when you have checked bags, tight international connections, or weekend/holiday border risk.",
+        "Transfer burden rule of thumb: one protected flight connection is typically lower risk than multi-terminal bus + taxi + border procedures for onward intercontinental departures."
+      ],
+      "fallbackRouting": "If flights disrupt, first try same-alliance reroutes via GRU/EZE/PTY before committing to overland options; keep a daylight buffer for any border crossing and avoid last-connection-of-day plans."
+    }
   },
   "sweet": "May-August is usually the comfort sweet spot for city exploration; September-October can also work well before peak heat and storms build.",
   "months": [
