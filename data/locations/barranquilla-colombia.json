@@ -17,75 +17,82 @@
   },
   "city": "Barranquilla",
   "country": "Colombia",
-  "region": "Colombia region",
-  "desc": "Barranquilla is a strong base for exploring Colombia with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "region": "Caribbean Coast",
+  "desc": "Barranquilla is Colombia's major Caribbean port city, known for Carnaval, river-meets-sea geography, and a lively urban culture scene rather than beach-resort style tourism.",
   "hls": [
-    "Seasonal climate profile benchmarked for Barranquilla",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Best-known internationally for Carnaval season, which drives the city's strongest annual demand spike.",
+    "Warm temperatures year-round; rain risk and humidity rise meaningfully from roughly May-November.",
+    "Strong food and music culture with Caribbean Colombian influences across neighborhoods and festivals.",
+    "Good base for culture-first travelers who want city energy plus quick access to Santa Marta/Cartagena corridors.",
+    "Newer riverfront projects (Gran Malecón area) add safe evening walking and social spaces.",
+    "Works well as a 2-4 night stop, especially if timed around events or regional connections."
   ],
   "todo": [
     {
-      "name": "Walk central Barranquilla",
+      "name": "Gran Malecón del Río walk",
+      "cat": "Waterfront",
+      "desc": "Do a sunset-to-evening walk along the Magdalena riverfront for views, food kiosks, and public art."
+    },
+    {
+      "name": "Barrio El Prado architecture loop",
       "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "desc": "Explore early-20th-century houses and leafy avenues in one of the city's classic heritage districts."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Museo del Carnaval",
+      "cat": "Festival culture",
+      "desc": "Use 1-2 hours to understand Carnaval traditions, costumes, and the city's signature music-dance forms."
     },
     {
-      "name": "Local food circuit",
+      "name": "Bocas de Ceniza excursion",
+      "cat": "Nature/river",
+      "desc": "Visit the mouth of the Magdalena River where it meets the Caribbean for a distinctive landscape outing."
+    },
+    {
+      "name": "Caribbean food crawl",
       "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "desc": "Build one meal block around costeño staples like arepas de huevo, fried fish, and coastal ceviche styles."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
-    },
-    {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Evening live music stop",
+      "cat": "Nightlife",
+      "desc": "Add a curated bar or venue stop for salsa/champeta/Caribbean sets in safer, well-rated zones."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "35–140 Mbps",
+      "note": "Business hotels and modern cafés are usually stable; verify backup power/connectivity during heavy rain periods."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No regular UK nonstop; typical one-stop options route via Bogotá, Madrid, Panama City, or other regional hubs, with biggest pressure around Carnaval and Jul-Aug.",
+    "airports": [
+      {
+        "name": "Ernesto Cortissoz International Airport",
+        "code": "BAQ",
+        "km": 13,
+        "dgw": false
+      }
+    ],
+    "currency": "Colombian Peso (COP). Card usage is broad in malls/restaurants, but carry small cash for taxis and local vendors.",
+    "lang": "Spanish is the working language; English is present in higher-end hotels and guided services.",
+    "tz": "UTC-05:00 (Colombia Time).",
+    "visa": "Colombia entry/length-of-stay rules depend on nationality; confirm requirements and onward-ticket expectations before flying.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Festival and music culture",
+      "Urban Caribbean Colombia",
+      "Food-focused city breaks",
+      "Regional transit stopovers",
+      "Shoulder-season pricing windows"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Carnaval weeks can sell out central accommodation early and raise prices sharply.",
+      "Heat index can be intense midday—plan outdoor sightseeing in early/late windows.",
+      "Use trusted taxi or app-based rides, especially after dark."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "Late December-March is typically the driest and easiest weather window, while shoulder months can improve hotel value outside major event periods.",
   "months": [
     {
       "m": "Jan",
