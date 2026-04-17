@@ -280,19 +280,32 @@ def _build_new_location_payload(
         "city": city,
         "country": country,
         "region": region,
+        "source": {
+            "draftOnly": True,
+            "draftType": "climate-import-skeleton",
+            "draftNote": (
+                "Auto-generated scaffold from import_climate_csv.py. "
+                "Must be enriched with destination-specific copy/practicals and draft flag removed before merge."
+            ),
+            "climateVerified": False,
+            "climateVerificationNote": "Imported climate values need provenance review before verification.",
+        },
         "desc": f"{city} travel guide.",
         "hls": [],
         "todo": [],
         "prac": {
             "directGW": False,
-            "visa": "",
-            "currency": "",
-            "alerts": [],
+            "visa": "TBD: add traveler-specific visa guidance.",
+            "currency": "TBD: add local currency and payment notes.",
+            "alerts": [
+                "DRAFT ONLY: replace with destination-specific safety/seasonality alerts before publishing.",
+            ],
             "wifi": {"r": 0, "spd": "", "note": ""},
             "fltNote": "",
             "airports": [],
-            "lang": "",
-            "tz": "",
+            "airportsExceptionNote": "DRAFT ONLY: airports not researched yet.",
+            "lang": "TBD: add primary language(s).",
+            "tz": "TBD: add timezone in UTC± format.",
             "bestFor": [],
         },
         "sweet": "Apr-Jun,Sep-Oct",

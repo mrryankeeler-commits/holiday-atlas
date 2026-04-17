@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: holiday-atlas-validate-locations
+        name: Validate Holiday Atlas locations
+        entry: python3 scripts/validate_locations.py
+        language: system
+        pass_filenames: false
+      - id: holiday-atlas-verify-climate-provenance
+        name: Verify Holiday Atlas climate provenance
+        entry: python3 scripts/verify_climate_provenance.py
+        language: system
+        pass_filenames: false

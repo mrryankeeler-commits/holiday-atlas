@@ -5,6 +5,8 @@ on:
     paths:
       - "data/locations/**"
       - "scripts/validate_locations.py"
+      - "scripts/import_climate_csv.py"
+      - ".pre-commit-config.yaml"
       - ".github/workflows/location-data-validation.yml"
       - "README.md"
   workflow_dispatch:
