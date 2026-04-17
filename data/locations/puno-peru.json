@@ -18,74 +18,81 @@
   "city": "Puno",
   "country": "Peru",
   "region": "Peru region",
-  "desc": "Puno is a strong base for exploring Peru with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Puno sits on Lake Titicaca's high-altitude shore, offering island-community excursions and Andean culture, with the driest clearest conditions usually concentrated in the austral winter months.",
   "hls": [
-    "Seasonal climate profile benchmarked for Puno",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Gateway for Lake Titicaca boat trips including Uros floating islands and Taquile/Amantaní communities.",
+    "High elevation (~3,800m) requires slower pacing, hydration, and first-day acclimatization.",
+    "Driest weather generally runs May-September; wet-season storms are more common Dec-March.",
+    "Strong destination for living-culture encounters, weaving traditions, and lake landscapes.",
+    "Pairs naturally with Cusco/Sacred Valley itineraries via rail or overland routes.",
+    "Large day-night temperature drops are normal, even in sunnier dry-season months."
   ],
   "todo": [
     {
-      "name": "Walk central Puno",
+      "name": "Uros floating islands visit",
+      "cat": "Lake culture",
+      "desc": "Take a short boat excursion to understand reed-island construction, daily life, and local handicrafts."
+    },
+    {
+      "name": "Taquile or Amantaní day/overnight",
+      "cat": "Community",
+      "desc": "Choose one major island for walking trails, textile traditions, and family-run meal experiences."
+    },
+    {
+      "name": "Puno waterfront + market walk",
       "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "desc": "Combine lakeside viewpoints with a local market loop for produce, snacks, and everyday city rhythm."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Sillustani chullpas",
+      "cat": "Archaeology",
+      "desc": "Visit the pre-Inca funerary towers near Umayo Lagoon, ideally timed for softer late-day light."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Folklore evening",
+      "cat": "Performing arts",
+      "desc": "Add a dance/music performance night to connect with regional costume and festival traditions."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
-    },
-    {
-      "name": "Flexible slow day",
+      "name": "Acclimatization recovery block",
       "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Plan lighter activity after arrival or after long transit days to reduce altitude fatigue."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "12–50 Mbps",
+      "note": "Good enough for core planning tasks in central hotels; speeds are weaker on islands and during peak evening usage."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No UK nonstop and no major airport in Puno itself; most routes combine UK flights to Lima/Cusco/Juliaca plus overland or domestic transfer.",
+    "airports": [
+      {
+        "name": "Inca Manco Cápac International Airport (Juliaca)",
+        "code": "JUL",
+        "km": 48,
+        "dgw": false
+      }
+    ],
+    "currency": "Peruvian Sol (PEN). Carry cash for boat docks, smaller restaurants, and island purchases.",
+    "lang": "Spanish, Quechua, and Aymara are common; English availability is mixed outside organized tours.",
+    "tz": "UTC-05:00 (Peru Time).",
+    "visa": "Confirm Peru entry and onward transit requirements before travel, especially for multi-country Andean routes.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Lake Titicaca culture",
+      "High-altitude landscapes",
+      "Textile/heritage interests",
+      "Dry-season sunshine seekers",
+      "Peru overland journeys"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Altitude effects are common at this elevation; avoid over-scheduling on day one.",
+      "Wet-season storms can disrupt boat comfort and visibility.",
+      "Night temperatures can be near or below freezing in dry months."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "May to September is usually the safest window for clearer lake conditions and lower rain disruption, with July-August being busiest.",
   "months": [
     {
       "m": "Jan",

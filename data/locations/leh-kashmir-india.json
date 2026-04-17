@@ -18,74 +18,81 @@
   "city": "Leh",
   "country": "India",
   "region": "Kashmir",
-  "desc": "Leh is a strong base for exploring India with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Leh is a high-altitude Ladakh base for monasteries, stark mountain valleys, and road-trip routes toward Nubra and Pangong, with short warm seasons and very cold winters shaping trip timing.",
   "hls": [
-    "Seasonal climate profile benchmarked for Leh",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Best weather and road access typically runs June-September; shoulder months are cooler but quieter.",
+    "Excellent for monastery circuits, dramatic viewpoints, and multi-day Himalayan drives.",
+    "High elevation (~3,500m) means acclimatization planning is essential on arrival.",
+    "Large day-night temperature swings are common even in summer; layering matters year-round.",
+    "Dry climate and strong sun make UV protection and hydration non-negotiable.",
+    "Works well as a 4-7 day stop combined with Nubra Valley or Pangong Lake extensions."
   ],
   "todo": [
     {
-      "name": "Walk central Leh",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
+      "name": "Leh Palace + old town walk",
       "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "desc": "Pair the Leh Palace ridge views with an unhurried walk through the old town lanes and market streets."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Thiksey or Hemis monastery visit",
+      "cat": "Heritage",
+      "desc": "Dedicate half a day to one major monastery for murals, assembly halls, and mountain-set architecture."
     },
     {
-      "name": "Scenic viewpoint session",
+      "name": "Shanti Stupa at golden hour",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Go near sunset for broad views over Leh and the surrounding brown-and-snow Himalayan ridges."
     },
     {
-      "name": "Nature or coast day trip",
+      "name": "Nubra Valley day/overnight",
+      "cat": "Road trip",
+      "desc": "Cross Khardung La for dune landscapes, villages, and monasteries in a contrasting valley environment."
+    },
+    {
+      "name": "Pangong Lake excursion",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Plan a very early departure for the long but iconic high-altitude lake route and changing water colors."
     },
     {
-      "name": "Flexible slow day",
+      "name": "Acclimatization buffer day",
       "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Keep your first full day deliberately light to adapt before intense road travel or long hikes."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "15–60 Mbps",
+      "note": "Hotels and cafés in central Leh are workable, but speeds and uptime drop noticeably on remote valley routes."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No nonstop UK service; typical routing is via Delhi with strongest fare pressure in July-August and around late-December holidays.",
+    "airports": [
+      {
+        "name": "Leh Kushok Bakula Rimpochee Airport",
+        "code": "IXL",
+        "km": 4,
+        "dgw": false
+      }
+    ],
+    "currency": "Indian Rupee (INR).",
+    "lang": "Ladakhi and Hindi widely used; English is common in tourism-facing hotels and agencies.",
+    "tz": "UTC+05:30 (India Standard Time).",
+    "visa": "India entry rules vary by nationality; confirm visa/e-visa eligibility and any regional permit requirements before booking.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "High-altitude landscapes",
+      "Monastery culture",
+      "Road-trip photography",
+      "Dry sunny summers",
+      "Adventure-focused itineraries"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Acute mountain sickness risk is real above 3,000m—ascend gradually and watch symptoms.",
+      "Weather or military controls can temporarily close mountain roads.",
+      "Cash is still useful for smaller settlements outside central Leh."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "June and September are usually the best balance of open roads, manageable crowds, and comfortable daytime conditions.",
   "months": [
     {
       "m": "Jan",
