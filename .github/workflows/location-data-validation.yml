@@ -5,7 +5,10 @@ on:
     paths:
       - "data/locations/**"
       - "scripts/validate_locations.py"
+      - "scripts/audit_locations.py"
+      - "scripts/verify_climate_provenance.py"
       - "scripts/import_climate_csv.py"
+      - "Makefile"
       - ".pre-commit-config.yaml"
       - ".github/workflows/location-data-validation.yml"
       - "README.md"
@@ -13,7 +16,7 @@ on:
 
 jobs:
   validate-locations:
-    name: Validate location payload contract
+    name: Validate location payload contract + provenance audit
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +28,31 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run mandatory location validator
+      - name: Run consolidated location audit (fail on high severity)
         run: |
           set -euo pipefail
-          python3 scripts/validate_locations.py
+          python3 scripts/audit_locations.py --fail-on-high
+
+      - name: Emit medium-severity warnings
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from datetime import date
+          from pathlib import Path
+
+          report_path = Path(f"reports/location-audit-{date.today().isoformat()}.json")
+          if not report_path.exists():
+              raise SystemExit(f"Report not found: {report_path}")
+
+          report = json.loads(report_path.read_text(encoding="utf-8"))
+          medium_count = 0
+          for issue in report.get("issues", []):
+              if issue.get("severity") != "medium":
+                  continue
+              medium_count += 1
+              print(
+                  f"::warning file={issue.get('file')}::{issue.get('issueCode')}: {issue.get('message')}"
+              )
+          print(f"medium_warnings={medium_count}")
+          PY
