@@ -18,14 +18,14 @@
   "city": "Arequipa",
   "country": "Peru",
   "region": "Arequipa Region",
-  "desc": "Arequipa is a strong base for exploring Peru with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Arequipa is Peru's white-stone colonial city beneath the Misti, Chachani, and Pichu Pichu volcanoes, combining UNESCO-listed architecture, serious southern Peruvian cuisine, and easy access to Colca Canyon. Dry-season months (roughly May-September) are most reliable for clear volcano views and canyon logistics, while wet-season afternoons are greener but more disruption-prone.",
   "hls": [
-    "Seasonal climate profile benchmarked for Arequipa",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "UNESCO historic centre built in volcanic sillar stone",
+    "Excellent base for Colca Canyon condor-viewing and trekking",
+    "Strong picantería food culture (rocoto relleno, chupe de camarones)",
+    "Consistently sunny dry-season skies for photography",
+    "High-altitude city break with manageable pace versus Cusco crowds",
+    "Good onward links to Puno/Lake Titicaca and southern Peru routes"
   ],
   "todo": [
     {
@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "No routine nonstop UK flights to Arequipa; usually connect via Lima, with a short domestic hop to AQP.",
+    "fltNote": "No routine UK nonstop service to AQP; most itineraries route London -> Lima (usually nonstop in peak schedules) then a 1h30-1h40 domestic flight to Arequipa. Peru domestic fares spike around Fiestas Patrias (late July) and long weekends, so booking internal legs early reduces risk of expensive last-minute seats.",
     "airports": [
       {
         "name": "Rodríguez Ballón International Airport",
@@ -81,10 +81,10 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "currency": "Peruvian sol (PEN). Cards are common in central districts, but markets, small eateries, and Colca villages often prefer cash.",
+    "lang": "Spanish is dominant; tourism-facing English is patchy outside central hotels/tour operators.",
+    "tz": "PET (UTC-5) year-round; no daylight saving time.",
+    "visa": "Peru grants visa-free short stays to many passports (including UK, US, and EU) but permitted days are set by immigration on entry; check official requirements and onward-ticket expectations before travel.",
     "bestFor": [
       "Weather-timed trips",
       "Shoulder-season value",
@@ -93,12 +93,12 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "If hiking Colca Canyon between December and March, confirm road conditions the night before because rain can trigger landslides and delays.",
-      "Book canyon tours and central hotels at least 3–6 weeks ahead for July and Peru's Fiestas Patrias week, when inventory tightens sharply.",
-      "Plan altitude acclimatization on day one (2,300m+ city elevation) and verify travel insurance covers high-altitude trekking before departure."
+      "Arequipa sits around 2,335 m: keep day one light, hydrate, and avoid hard canyon hikes immediately if you are not acclimatized.",
+      "Colca Canyon roads can be slowed by landslides/fog in wet months (roughly Dec-Mar); confirm departure viability with operators the evening before.",
+      "In the historic centre, use registered taxis/app rides at night and avoid carrying large cash after picantería/bar closing times."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "April-June and September-October usually give the best balance of clear skies, manageable crowds, and stable canyon transport conditions.",
   "months": [
     {
       "m": "Jan",

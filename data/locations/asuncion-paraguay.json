@@ -18,14 +18,14 @@
   "city": "Asunción",
   "country": "Paraguay",
   "region": "Gran Asunción (Central Department)",
-  "desc": "Asunción is a strong base for exploring Paraguay with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Asunción, Paraguay's riverfront capital on the Paraguay River, mixes neoclassical government landmarks, relaxed neighborhoods, and one of South America's most underrated food-and-nightlife scenes. Climate is the key planning variable: cooler, drier months from about May to August are easiest for daytime walking, while spring-summer brings heavier heat and storm risk.",
   "hls": [
-    "Seasonal climate profile benchmarked for Asunción",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Compact historic core around Palacio de López and Costanera",
+    "Strong local food scene (sopa paraguaya, chipa, grilled meats)",
+    "Good base for day trips to Areguá, San Bernardino, and Itaipú route connections",
+    "Lower international visitor density than regional capitals",
+    "Affordable hotels and restaurants outside major event weeks",
+    "Riverfront sunsets and lively evening social culture"
   ],
   "todo": [
     {
@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Asunción is typically reached from the UK via one-stop itineraries, commonly changing in São Paulo or Madrid.",
+    "fltNote": "No nonstop UK-Asunción route; common one-stop patterns are via Madrid (MAD), São Paulo-Guarulhos (GRU), or Panama City (PTY) into ASU. South American hub-to-ASU legs can tighten around Christmas/New Year and July school-holiday periods, so protect connections with longer layovers.",
     "airports": [
       {
         "name": "Silvio Pettirossi International Airport",
@@ -81,10 +81,10 @@
         "dgw": true
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "currency": "Paraguayan guaraní (PYG). Cards are accepted in malls/hotels, but cash is still important for markets, taxis, and neighborhood restaurants.",
+    "lang": "Spanish and Guaraní are both official and widely used; English availability is limited outside business hotels and higher-end venues.",
+    "tz": "PYT (UTC-4) with summer daylight-saving shifts to PYST (UTC-3), typically around October-March; confirm exact clock changes for your dates.",
+    "visa": "Paraguay is visa-exempt for many nationalities (including UK/EU for short tourism), while some passports require pre-arranged visas; verify rules with the Paraguayan consulate/official immigration sources before ticketing.",
     "bestFor": [
       "Weather-timed trips",
       "Shoulder-season value",
@@ -93,12 +93,12 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "For November to March trips, check the heat index forecast daily and schedule outdoor visits for early morning to avoid dangerous afternoon temperatures.",
-      "During heavy summer storms, verify riverfront and low-lying route conditions before moving between neighborhoods due to flash flooding risk.",
-      "Confirm intercity bus departure times 24 hours ahead in holiday weeks because timetables and seat availability can change at short notice."
+      "From November to March, afternoon heat index can exceed safe sightseeing thresholds; schedule outdoor walks early and keep electrolyte/water backups.",
+      "Intense thunderstorms can flood low-lying streets quickly in summer; avoid tight airport transfers when severe-weather alerts are active.",
+      "Cross-border shopping/day trips (Argentina or Brazil routes) can face long immigration queues on holiday weekends, so carry printed booking proof and allow generous buffer time."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "May-August is usually the comfort sweet spot for city exploration; September-October can also work well before peak heat and storms build.",
   "months": [
     {
       "m": "Jan",
