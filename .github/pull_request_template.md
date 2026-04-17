@@ -5,6 +5,8 @@
 - 
 
 ## Location QA & Remediation (required when touching `data/locations/*.json`)
+> ✅ Preferred path: include at least one changed file under `docs/location-qa-checklists/*.md` in this PR.
+> If not, keep the legacy checklist sections below populated.
 - [ ] **Author confirmation:** I completed/updated linked QA checklist instance(s) for each touched remediation batch.
 - [ ] **Reviewer confirmation:** I verified the linked checklist instance(s) and spot-checked destination-level claims.
 - Checklist instance link(s):
