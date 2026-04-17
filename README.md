@@ -139,6 +139,8 @@ After importing/updating climate data, run:
 
 - `python3 scripts/validate_locations.py`
 - `python3 scripts/verify_climate_provenance.py`
+- `python3 scripts/audit_locations.py --fail-on-high` (runs schema/data contract, climate provenance, generic-content, and direct-flight consistency checks with consolidated JSON report output)
+- `make audit-locations` (alias for the consolidated audit command)
 
 For local pre-commit enforcement, install and run the repository hooks:
 
