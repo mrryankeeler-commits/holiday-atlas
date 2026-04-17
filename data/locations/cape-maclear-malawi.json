@@ -20,43 +20,43 @@
   "region": "Lake Malawi National Park (Mangochi District)",
   "lat": -14.0167,
   "lng": 34.85,
-  "desc": "Cape Maclear is a laid-back Lake Malawi village known for clear freshwater snorkeling, dhow sunsets, and dry-season beach weather best for boat days.",
+  "desc": "Cape Maclear is a low-key beach village on southern Lake Malawi, best known for clear-water snorkeling, dhow sailing, and slow days between the national park islands. It is ideal for travelers who prioritize nature and relaxed lodge life over nightlife or urban amenities, with most activities tied to lake conditions. The main constraints are long road transfers from airports, patchy power/connectivity, and wet-season storms that can reduce boat reliability and underwater visibility.",
   "hls": [
-    "UNESCO-listed lake biodiversity and cichlid snorkeling",
-    "Back-to-back beach lodges and dive operators",
-    "Simple village atmosphere with strong sunset culture",
-    "Best conditions in Malawi dry season"
+    "Thumbi Island and Domwe area snorkeling for endemic cichlid viewing inside Lake Malawi National Park",
+    "Traditional dhow sunset sailing from Chembe beach with broad peninsula silhouettes",
+    "Kayak and SUP routes along Otter Point coves with calm early-morning water",
+    "Beachfront lodge strip in Chembe village for fish grills, dive centers, and barefoot evenings"
   ],
   "todo": [
     {
-      "name": "Thumbi Island snorkeling",
+      "name": "Snorkel the protected reefs off Thumbi West Island",
       "cat": "Water",
-      "desc": "Take a morning boat to reef zones with the clearest visibility."
+      "desc": "Take an early panga transfer to marked snorkel zones where cichlid diversity and visibility are strongest in dry months."
     },
     {
-      "name": "Dhow sunset cruise",
+      "name": "Dhow sunset cruise from Chembe jetty",
       "cat": "Scenic",
-      "desc": "Book a traditional dhow for golden-hour sailing on the lake."
+      "desc": "Sail in a traditional dhow at golden hour and return after dusk with village lights along the shoreline."
     },
     {
-      "name": "Village market walk",
-      "cat": "Culture",
-      "desc": "Browse fish-drying racks and local crafts with a community guide."
-    },
-    {
-      "name": "Kayak Otter Point",
+      "name": "Kayak to Otter Point before winds build",
       "cat": "Adventure",
-      "desc": "Paddle along shoreline coves before midday winds build."
+      "desc": "Launch at sunrise for calmer water, beach coves, and short snorkel stops along the peninsula."
     },
     {
-      "name": "Lake Malawi National Park hike",
+      "name": "Hike the Cape Maclear ridge viewpoints",
       "cat": "Nature",
-      "desc": "Use a short ridge trail for peninsula panoramas."
+      "desc": "Use the signed national-park ridge trail for panoramic views over Domwe and Thumbi islands."
     },
     {
-      "name": "Beach braai evening",
+      "name": "Community-guided Chembe village walk",
+      "cat": "Culture",
+      "desc": "Visit fish-drying areas, boat-building spots, and local craft sellers with a resident guide."
+    },
+    {
+      "name": "Night beach braai with fresh chambo",
       "cat": "Food",
-      "desc": "Plan a lodge braai with chambo fish and nsima sides."
+      "desc": "Join a lodge braai featuring grilled chambo, nsima, and local relishes after lake activities."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Lakefront bandwidth is limited and weather-sensitive; buy a local SIM for backup."
     },
     "directGW": false,
-    "fltNote": "Cape Maclear requires an overland transfer from Lilongwe or Blantyre after a one-stop long-haul routing (often via Addis Ababa, Nairobi, or Johannesburg); wet-season roads can lengthen transfer time.",
+    "fltNote": "From UK/Ireland, Cape Maclear is typically reached via one international connection into Malawi (often Lilongwe or Blantyre, sometimes via Addis Ababa, Nairobi, or Johannesburg) plus a 4-6 hour road transfer. Flight prices usually peak in July-August and around Christmas/New Year, while shoulder months can be better value if you accept occasional rain. Wet-season storms can slow final road sections and interrupt boat schedules, so avoid same-day international arrival and lake-transfer plans.",
     "airports": [
       {
         "name": "Lilongwe International Airport",
@@ -78,6 +78,12 @@
         "name": "Chileka International Airport (Blantyre)",
         "code": "BLZ",
         "km": 285,
+        "dgw": false
+      },
+      {
+        "name": "Club Makokola Airstrip",
+        "code": "CMK",
+        "km": 75,
         "dgw": false
       }
     ],
@@ -92,12 +98,12 @@
       "Nature-first itineraries"
     ],
     "alerts": [
-      "Mobile cash and card acceptance are limited; carry enough Malawi kwacha for park fees and boat hires.",
-      "Bilharzia risk is managed at many lodges but conditions vary—follow current local health guidance before water activities.",
-      "Power and water interruptions happen in hotter months; choose lodges with backup systems if working remotely."
+      "January-March rains can bring rough lake crossings and lower snorkel visibility, so front-load water excursions into forecast-clear mornings.",
+      "Power cuts and weak mobile data are common in Chembe; pick lodging with backup systems if you need dependable charging or remote work uptime.",
+      "Cash access is limited once in Cape Maclear, and card terminals can fail, so carry sufficient Malawi kwacha for park fees, boats, and fuel surcharges."
     ]
   },
-  "sweet": "May-Oct for dry skies, clearer water, and more reliable boat conditions.",
+  "sweet": "May-July is the prime window for clear water, dry skies, and strongest snorkeling conditions; August-September stays excellent with slightly warmer afternoons, while April/October can offer value with modest trade-offs.",
   "months": [
     {
       "m": "Jan",
@@ -119,7 +125,7 @@
       "daylight": 12.5,
       "cld": 76,
       "rain": 201,
-      "busy": 3,
+      "busy": 2,
       "ac": 1,
       "fl": 1
     },
@@ -131,7 +137,7 @@
       "daylight": 12.2,
       "cld": 60,
       "rain": 122,
-      "busy": 4,
+      "busy": 3,
       "ac": 2,
       "fl": 2
     },
@@ -143,9 +149,9 @@
       "daylight": 11.8,
       "cld": 33,
       "rain": 33,
-      "busy": 6,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -155,7 +161,7 @@
       "daylight": 11.5,
       "cld": 19,
       "rain": 5,
-      "busy": 8,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -167,7 +173,7 @@
       "daylight": 11.3,
       "cld": 10,
       "rain": 0,
-      "busy": 9,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -179,7 +185,7 @@
       "daylight": 11.4,
       "cld": 9,
       "rain": 0,
-      "busy": 10,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -191,7 +197,7 @@
       "daylight": 11.7,
       "cld": 10,
       "rain": 2,
-      "busy": 9,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -203,7 +209,7 @@
       "daylight": 12.0,
       "cld": 14,
       "rain": 2,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -215,7 +221,7 @@
       "daylight": 12.4,
       "cld": 26,
       "rain": 10,
-      "busy": 5,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -228,7 +234,7 @@
       "cld": 48,
       "rain": 53,
       "busy": 3,
-      "ac": 1,
+      "ac": 2,
       "fl": 1
     },
     {
@@ -239,8 +245,8 @@
       "daylight": 12.9,
       "cld": 75,
       "rain": 170,
-      "busy": 3,
-      "ac": 2,
+      "busy": 2,
+      "ac": 1,
       "fl": 2
     }
   ]

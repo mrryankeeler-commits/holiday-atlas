@@ -20,43 +20,43 @@
   "region": "Greater Accra Metropolitan Area",
   "lat": 5.6037,
   "lng": -0.187,
-  "desc": "Accra mixes Atlantic beaches, major West African art institutions, and one of the region's best food scenes, with trip comfort shaped mostly by humidity and rain timing.",
+  "desc": "Accra is a fast-moving Atlantic capital where beach neighborhoods, pan-African history sites, and contemporary galleries sit within short hops of each other. It suits travelers who want urban culture and food depth more than resort polish, with Osu, Labadi, and Jamestown all offering different rhythms. Main constraints are heavy traffic, humid heat, and flood-prone roads during the two rainy windows, so daily plans need buffer time.",
   "hls": [
-    "Jamestown and Independence Arch heritage corridor",
-    "Strong contemporary art circuit around Osu and Labadi",
-    "Day trips to Ada estuary and Kakum-side rainforest routes",
-    "Shoulder windows reduce rain-disruption risk"
+    "Jamestown lighthouse area, Ussher Fort frontage, and Black Star Square/Independence Arch corridor",
+    "Gallery 1957 + Nubuke Foundation + creative studios around Osu/Labadi for contemporary Ghanaian art",
+    "Labadi and La beach strips for live-music evenings, grilled seafood, and weekend local crowds",
+    "Easy ridge escape to Aburi Botanical Gardens and viewpoints above the Akuapem escarpment"
   ],
   "todo": [
     {
-      "name": "Jamestown lighthouse and old quarter walk",
+      "name": "Jamestown heritage walk at first light",
       "cat": "Culture",
-      "desc": "Walk Jamestown's fishing harbor lanes, murals, and colonial-era landmarks with a local guide."
+      "desc": "Start at Jamestown Lighthouse, pass fishing-boat landings and boxing gyms, then finish by Ussher Town murals with a local guide."
     },
     {
-      "name": "Makola + Osu food run",
-      "cat": "Food",
-      "desc": "Split a day between Makola market and Osu for kelewele, grilled tilapia, and modern Ghanaian kitchens."
-    },
-    {
-      "name": "Labadi beach sunset",
-      "cat": "Coast",
-      "desc": "Time beach hours for late afternoon breezes and live-music evenings."
-    },
-    {
-      "name": "W.E.B. Du Bois Center + National Museum",
+      "name": "Kwame Nkrumah Mausoleum + Independence axis",
       "cat": "History",
-      "desc": "Pair both sites for context on pan-African history and modern Ghana statehood."
+      "desc": "Pair the mausoleum museum with Black Star Square and Independence Arch to understand Ghana's post-independence story on site."
     },
     {
-      "name": "Aburi Botanical Gardens day trip",
+      "name": "Makola Market to Osu food crawl",
+      "cat": "Food",
+      "desc": "Shop spice and fabric lanes in Makola, then continue to Osu for kelewele, waakye, and grilled tilapia at night spots."
+    },
+    {
+      "name": "Artists Alliance and Labadi gallery circuit",
+      "cat": "Art",
+      "desc": "Visit Artists Alliance Gallery and nearby private galleries to compare traditional craft, modern painting, and sculpture."
+    },
+    {
+      "name": "Labadi Beach sunset + live band session",
+      "cat": "Coast",
+      "desc": "Go late afternoon for sea breeze, horse rides, and evening highlife performances before traffic peaks."
+    },
+    {
+      "name": "Half-day trip to Aburi Botanical Gardens",
       "cat": "Nature",
-      "desc": "Use a half-day trip to the cooler Akuapem ridge for forest shade and viewpoints."
-    },
-    {
-      "name": "Art Center crafts session",
-      "cat": "Shopping",
-      "desc": "Browse the Arts Centre stalls for textiles, beads, and woodwork with room to bargain politely."
+      "desc": "Drive up to Aburi for cooler air, giant avenue trees, and ridge views back toward the coast."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Business hotels and coworking spots are generally reliable; verify backup power during stormy weeks."
     },
     "directGW": true,
-    "fltNote": "London has year-round nonstop service to Accra; from UK/Ireland outside peak schedules, one-stop routings via Amsterdam, Brussels, Istanbul, or Casablanca are common. Kumasi can work as a domestic add-on gateway after landing in Ghana, but it does not replace Accra for international arrivals. Fares usually peak in July-August and again around December holidays.",
+    "fltNote": "London-Accra has year-round nonstop options, while most Ireland departures connect once (commonly via London, Amsterdam, Brussels, Istanbul, or Casablanca). Demand and fares usually rise in July-August and again for December/early-January diaspora travel, with better value often in late spring and early autumn. Kumasi works only as a domestic add-on after arriving in Ghana rather than a practical international gateway for most UK/Ireland itineraries.",
     "airports": [
       {
         "name": "Kotoka International Airport",
@@ -92,10 +92,9 @@
       "Shoulder-season value"
     ],
     "alerts": [
-      "Flash flooding can affect low-lying roads in peak rains (April-June and September-October), so avoid tight same-day airport transfers.",
-      "Carry small cash for market transport and beach vendors; card acceptance drops outside malls and larger hotels.",
-      "Heavy traffic on Spintex and Liberation roads can double evening transfer times, especially before public holidays.",
-      "If using Kumasi as a secondary gateway, build buffer time for domestic delays and same-day road transfers to Accra."
+      "April-June and September-October storms can flood low-lying roads, so avoid tight same-day airport-to-meeting schedules.",
+      "Peak-hour congestion on Liberation Road, Spintex Road, and the Tema motorway can double transfer times; plan airport runs outside evening rush where possible.",
+      "Cards are accepted unevenly beyond malls/higher-end venues, so carry small-denomination cedi cash for taxis, beach vendors, and market purchases."
     ]
   },
   "sweet": "Nov-Feb for drier weather and easier city logistics; shoulder Mar and Sep can work with flexible rain plans.",
@@ -145,8 +144,8 @@
       "cld": 83,
       "rain": 84,
       "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -156,7 +155,7 @@
       "daylight": 12.4,
       "cld": 83,
       "rain": 140,
-      "busy": 3,
+      "busy": 2,
       "ac": 1,
       "fl": 1
     },
@@ -180,7 +179,7 @@
       "daylight": 12.4,
       "cld": 58,
       "rain": 66,
-      "busy": 5,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -192,7 +191,7 @@
       "daylight": 12.3,
       "cld": 55,
       "rain": 28,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -216,7 +215,7 @@
       "daylight": 12.0,
       "cld": 55,
       "rain": 84,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
