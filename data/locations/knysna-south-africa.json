@@ -20,43 +20,43 @@
   "region": "Garden Route (Western Cape)",
   "lat": -34.0363,
   "lng": 23.0471,
-  "desc": "Knysna sits on a lagoon between forest and coast, making it a flexible Garden Route stop for outdoor activities, oysters, and scenic drives.",
+  "desc": "Knysna is the Garden Route's lagoon-and-forest hub, distinct from beachier Plettenberg Bay and larger George by combining oyster culture, indigenous woodland trails, and scenic Heads viewpoints in one compact base.",
   "hls": [
-    "Lagoon cruises and Knysna Heads viewpoints",
-    "Forest trails in indigenous Afrotemperate woodland",
-    "Strong self-drive base between Cape Town and Tsitsikamma",
-    "Mild shoulder weather with fewer crowds than midsummer"
+    "Knysna Heads cliff viewpoints and lagoon cruises",
+    "Indigenous forest access unlike most coast-only Garden Route stops",
+    "Oyster-focused food scene with strong local wine pairing options",
+    "Well-positioned self-drive base between George, Plettenberg Bay, and Tsitsikamma"
   ],
   "todo": [
     {
-      "name": "Knysna Heads viewpoint circuit",
+      "name": "Knysna Heads east + west lookouts",
       "cat": "Scenic",
-      "desc": "Visit both east and west head lookouts for lagoon-mouth panoramas."
+      "desc": "Visit both sides of the Heads for contrasting lagoon-mouth and Indian Ocean views."
     },
     {
-      "name": "Featherbed Nature Reserve cruise + hike",
+      "name": "Featherbed Nature Reserve ferry and guided walk",
       "cat": "Nature",
-      "desc": "Take the lagoon ferry and guided reserve walk."
+      "desc": "Do the classic lagoon crossing plus reserve trail for iconic Knysna scenery."
     },
     {
-      "name": "Forest cycle or walk in Jubilee Creek",
+      "name": "Jubilee Creek forest loop",
       "cat": "Adventure",
-      "desc": "Plan a half day in indigenous forest trails and picnic sites."
+      "desc": "Take the less-obvious high-value trail for giant yellowwoods, river pools, and quieter forest sections."
     },
     {
-      "name": "Oyster tasting at waterfront",
+      "name": "Waterfront oyster tasting flight",
       "cat": "Food",
-      "desc": "Try local oyster farms paired with Garden Route wines."
+      "desc": "Compare oysters from different farms with local Cap Classique or Sauvignon Blanc."
     },
     {
-      "name": "Brenton-on-Sea sunset",
+      "name": "Brenton-on-Sea sunset stop",
       "cat": "Coast",
-      "desc": "Drive to Brenton beach for sunset and dune walks."
+      "desc": "Finish with dune viewpoints and a wide-sand beach walk west of town."
     },
     {
-      "name": "Sedgefield market morning",
+      "name": "Sedgefield Wild Oats market morning",
       "cat": "Local life",
-      "desc": "Pair weekend market browsing with nearby estuary boardwalks."
+      "desc": "Pair the Saturday market with nearby estuary boardwalks for a half-day side trip."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Strong in town properties; patchier in remote forest lodges."
     },
     "directGW": true,
-    "fltNote": "Most UK/Ireland travelers fly nonstop to Cape Town or Johannesburg, then connect by domestic flight to George or self-drive; December-January school holidays create major fare and hotel pressure.",
+    "fltNote": "From the UK/Ireland, the usual pattern is nonstop to Cape Town (CPT) or Johannesburg (JNB), then a domestic add-on to George (GRJ) plus a 1-1.5 hour road transfer; fully one-ticket routings exist but holiday periods (late Dec-Jan and Jul-Aug) can make domestic legs and car hire the bottleneck.",
     "airports": [
       {
         "name": "George Airport",
@@ -79,6 +79,12 @@
         "code": "CPT",
         "km": 500,
         "dgw": true
+      },
+      {
+        "name": "Chief Dawid Stuurman International Airport (Port Elizabeth/Gqeberha)",
+        "code": "PLZ",
+        "km": 265,
+        "dgw": false
       }
     ],
     "currency": "South Africa local currency (check live rates before booking).",
@@ -92,9 +98,9 @@
       "Shoulder-season travel"
     ],
     "alerts": [
-      "Wildfire risk rises in hot windy spells; monitor Garden Route road advisories in summer.",
-      "Self-drive is easiest, but N2 incident delays can impact onward schedules—avoid tight airport connections.",
-      "Some lagoon and ocean activities are weather-dependent and can cancel on high-wind days."
+      "Strong summer southeasterly winds can cancel lagoon and ocean departures at short notice.",
+      "Wildfire risk rises during hot berg-wind spells; monitor SANParks and provincial road advisories before forest drives.",
+      "N2 crash or roadwork delays are common in holiday weeks, so avoid same-day tight airport check-in plans."
     ]
   },
   "sweet": "Oct-Nov and Mar-May for mild weather and better value than peak South African summer.",
@@ -107,9 +113,9 @@
       "daylight": 14.1,
       "cld": 18,
       "rain": 23,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Feb",
@@ -119,9 +125,9 @@
       "daylight": 13.3,
       "cld": 16,
       "rain": 25,
-      "busy": 10,
+      "busy": 9,
       "ac": 5,
-      "fl": 5
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -132,7 +138,7 @@
       "cld": 24,
       "rain": 33,
       "busy": 8,
-      "ac": 3,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -145,7 +151,7 @@
       "rain": 38,
       "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "May",
@@ -181,7 +187,7 @@
       "rain": 28,
       "busy": 2,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -193,7 +199,7 @@
       "rain": 30,
       "busy": 3,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Sep",
@@ -239,9 +245,9 @@
       "daylight": 14.4,
       "cld": 27,
       "rain": 28,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     }
   ]
 }
