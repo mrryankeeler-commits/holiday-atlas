@@ -18,74 +18,81 @@
   "city": "El Cotillo",
   "country": "Spain",
   "region": "Fuerteventura",
-  "desc": "El Cotillo is a strong base for exploring Spain with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "El Cotillo is a low-rise surf-and-lagoon village on Fuerteventura’s northwest coast, ideal for travelers who want beaches, wind sports, and a quieter Canary Islands base.",
   "hls": [
-    "Seasonal climate profile benchmarked for El Cotillo",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Known for sheltered lagoons south of town and surf beaches to the north with stronger swell.",
+    "Warm, dry weather is consistent across the year, with very low rainfall compared with mainland Europe.",
+    "Wind increases through late spring and summer, great for watersports but less ideal for fully calm beach days.",
+    "Summer school-holiday weeks push accommodation demand highest despite stable climate year-round.",
+    "Works especially well for a 4-7 night beach/surf reset without heavy nightlife focus.",
+    "Easy to combine with Corralejo, volcano landscapes, and island road-trip routes."
   ],
   "todo": [
     {
-      "name": "Walk central El Cotillo",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Old harbor + sunset promenade",
+      "cat": "Coastal walk",
+      "desc": "Start with the fishing harbor and waterfront promenade for orientation, then return at sunset for calmer light and views."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Lagoons beach day (La Concha area)",
+      "cat": "Beach",
+      "desc": "Use the sheltered lagoon beaches for relaxed swimming and family-friendly water time at mid-to-high tide."
     },
     {
-      "name": "Local food circuit",
+      "name": "North-shore surf session",
+      "cat": "Surf",
+      "desc": "Book a lesson or guided surf block on the exposed north beaches where conditions suit stronger wave riding."
+    },
+    {
+      "name": "Tostón lighthouse + coast drive",
+      "cat": "Scenic drive",
+      "desc": "Drive or cycle to Faro del Tostón and nearby coves for short cliff walks and photo stops."
+    },
+    {
+      "name": "Local seafood dinner circuit",
       "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "desc": "Plan one meal around Canarian seafood and papas arrugadas in small harbor-side restaurants."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Day trip to Corralejo dunes",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
-    },
-    {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Add the Corralejo Natural Park dunes for contrasting desert-like scenery and broad Atlantic viewpoints."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "25–100 Mbps",
+      "note": "Good enough for routine remote work in apartments and cafés, though speeds vary by building and peak occupancy."
     },
-    "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "directGW": true,
+    "fltNote": "Fuerteventura has regular UK nonstop service (to FUE) from multiple airports; fares usually rise in school-holiday peaks (especially summer and Christmas).",
+    "airports": [
+      {
+        "name": "Fuerteventura Airport",
+        "code": "FUE",
+        "km": 44,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR). Card payments are broadly accepted, with limited cash useful for small bars or kiosks.",
+    "lang": "Spanish is official; English is widely understood in tourism businesses around El Cotillo and Corralejo.",
+    "tz": "UTC+00:00 (Canary Islands; observes daylight saving).",
+    "visa": "Spain/Schengen entry rules apply; verify passport validity and Schengen stay allowances for your nationality.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Surf and kitesurf focused trips",
+      "Winter-sun breaks from the UK/Ireland",
+      "Quiet beach villages over nightlife hubs",
+      "Road-trip Canary itineraries",
+      "Remote work with outdoor lifestyle"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Atlantic currents can be strong on exposed beaches—swim only where conditions are appropriate.",
+      "Rental car availability can tighten in peak weeks; book early for best rates.",
+      "Windy days are common in summer, so plan at least one sheltered-lagoon fallback beach option."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "March to June and September to November often give the best balance of warm weather, manageable crowds, and solid flight value outside peak school-holiday pressure.",
   "months": [
     {
       "m": "Jan",

@@ -18,74 +18,81 @@
   "city": "Bishkek",
   "country": "Kyrgyzstan",
   "region": "Kyrgyzstan region",
-  "desc": "Bishkek is a strong base for exploring Kyrgyzstan with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Bishkek blends broad Soviet-era boulevards, lively bazaars, and easy mountain access, making it one of Central Asia’s most practical gateways for both city culture and highland day trips.",
   "hls": [
-    "Seasonal climate profile benchmarked for Bishkek",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "A compact, grid-style center makes Bishkek easy to navigate on foot or by short taxi rides.",
+    "Ala-Too Square, Osh Bazaar, and leafy parks provide a good city-core mix for first-time visitors.",
+    "Ala Archa National Park is close enough for a straightforward day hike from the city.",
+    "Best weather-comfort window is typically May-June and September, balancing warmth and manageable heat.",
+    "Summer delivers longest days and easiest mountain access but pushes prices and occupancy up.",
+    "Shoulder months (April/October) can offer lower accommodation pressure with cooler evenings."
   ],
   "todo": [
     {
-      "name": "Walk central Bishkek",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Ala-Too Square + State History Museum",
+      "cat": "City landmarks",
+      "desc": "Start in the civic core to understand modern Kyrgyz history, then walk the surrounding monuments and government quarter."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Osh Bazaar food-and-spice loop",
+      "cat": "Market",
+      "desc": "Spend a late morning browsing produce halls, bread stalls, dried fruit, and street snacks for a grounded local-life snapshot."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Ala Archa National Park day hike",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Take a day trip to Ala Archa valley for river walks or moderate mountain trails depending on fitness and weather."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Panfilov Park + evening café run",
+      "cat": "Slow travel",
+      "desc": "Use park time and nearby cafés for a lower-intensity afternoon before dinner in the central districts."
+    },
+    {
+      "name": "Kyrgyz cuisine dinner set",
+      "cat": "Food",
+      "desc": "Book one meal focused on laghman, manti, and regional tea traditions rather than generic international menus."
+    },
+    {
+      "name": "Burana Tower add-on day",
+      "cat": "History day trip",
+      "desc": "If you have extra time, pair the Burana archaeological complex with countryside stops east of Bishkek."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "35–140 Mbps",
+      "note": "Reliable in central hotels/apart-hotels and modern cafés; performance drops on mountain day trips."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No nonstop UK flights at time of writing; common one-stop routings connect via Istanbul, Dubai, or other regional hubs, with summer and late-December fare pressure.",
+    "airports": [
+      {
+        "name": "Manas International Airport",
+        "code": "FRU",
+        "km": 27,
+        "dgw": false
+      }
+    ],
+    "currency": "Kyrgyzstani Som (KGS). Cash is still useful for bazaars, marshrutka rides, and smaller cafés.",
+    "lang": "Kyrgyz and Russian are primary; English is available in some hotels, younger-facing cafés, and tour operators.",
+    "tz": "UTC+06:00.",
+    "visa": "Kyrgyzstan entry rules vary by nationality and length of stay; confirm current visa-free windows and registration requirements before travel.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "City + mountains combo trips",
+      "Budget-to-midrange long weekends",
+      "Shoulder-season Central Asia routing",
+      "Food markets and local-life travel",
+      "Flexible remote-work stopovers"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Air quality can fluctuate in colder months; check local conditions if you are sensitive to pollution.",
+      "Mountain weather changes quickly—carry layers, water, and offline maps for Ala Archa days.",
+      "Some card terminals fail intermittently, so keep backup cash for transport and small merchants."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "May to June and September are usually the best all-round months for pleasant city weather plus dependable mountain day-trip conditions.",
   "months": [
     {
       "m": "Jan",

@@ -18,74 +18,81 @@
   "city": "Cartagena",
   "country": "Colombia",
   "region": "Colombia region",
-  "desc": "Cartagena is a strong base for exploring Colombia with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Cartagena combines a walled colonial old town, Caribbean heat, and nearby island beaches, working well for travelers who want culture, food, and sea time in one base.",
   "hls": [
-    "Seasonal climate profile benchmarked for Cartagena",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "The Walled City and Getsemaní are the core zones for architecture, nightlife, and restaurant density.",
+    "Driest, most comfortable period is usually January-March, but it is also peak demand season.",
+    "Rain and humidity climb from roughly May to November, with October often the wettest month.",
+    "Rosario Islands day trips are popular year-round but sea conditions vary by wind and season.",
+    "A 3-5 night stay balances old-town exploration, food, and one beach/island day.",
+    "Shoulder periods (April, November) can reduce price pressure while still keeping itineraries workable."
   ],
   "todo": [
     {
-      "name": "Walk central Cartagena",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Walled City heritage walk",
+      "cat": "History",
+      "desc": "Do an early or sunset walking circuit through plazas, churches, and defensive walls before midday heat peaks."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Getsemaní street-art and café route",
+      "cat": "Neighborhood",
+      "desc": "Explore murals and backstreets, then anchor at Plaza de la Trinidad for evening atmosphere."
     },
     {
-      "name": "Local food circuit",
+      "name": "Castillo San Felipe visit",
+      "cat": "Fortress",
+      "desc": "Tour the hilltop fortress and tunnels for context on Cartagena’s colonial defense history."
+    },
+    {
+      "name": "Rosario Islands boat day",
+      "cat": "Water activity",
+      "desc": "Book a reputable operator for snorkeling or beach stops, and choose slower itineraries if you dislike crowded party boats."
+    },
+    {
+      "name": "Bazurto or guided market food tour",
       "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "desc": "Sample Caribbean coastal dishes with a guide if you want deeper local cuisine beyond old-town menus."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
-    },
-    {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Sunset wall or bay plan",
+      "cat": "Evening",
+      "desc": "Reserve one evening for sunset on the city walls or a short bay cruise, then dinner in Centro/Getsemaní."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "30–120 Mbps",
+      "note": "Strong in established hotels and cowork-friendly cafés; expect variability in older buildings and island excursions."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No routine UK nonstop service; most itineraries connect via Madrid, Bogotá, Panama City, or U.S./LATAM hubs. Fares typically spike for Christmas/New Year and July-August travel windows.",
+    "airports": [
+      {
+        "name": "Rafael Núñez International Airport",
+        "code": "CTG",
+        "km": 6,
+        "dgw": false
+      }
+    ],
+    "currency": "Colombian Peso (COP). Cards are widely accepted in tourist districts, but cash helps for small vendors and some taxis.",
+    "lang": "Spanish is primary; English is common in tourism-facing hotels/restaurants but less consistent beyond core districts.",
+    "tz": "UTC-05:00 (no daylight saving).",
+    "visa": "Colombia entry and onward-travel requirements vary by passport; check official immigration rules and stay limits before departure.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Colonial city breaks with beach add-ons",
+      "Food-focused Caribbean weekends",
+      "Warm-weather winter escapes",
+      "Couples and group trips",
+      "Culture + nightlife balance"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Heat index and humidity are high year-round—plan indoor breaks and hydrate aggressively.",
+      "Use licensed taxis or app rides at night, especially outside the old-town core.",
+      "For island trips, confirm boat safety standards, return times, and weather cancellation terms."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "January to March is usually the top window for driest weather and smoother sightseeing, while April and November often offer better value with manageable trade-offs.",
   "months": [
     {
       "m": "Jan",
