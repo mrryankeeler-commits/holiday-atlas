@@ -20,43 +20,43 @@
   "region": "Erongo Region (Namib Desert coast)",
   "lat": -22.6784,
   "lng": 14.5266,
-  "desc": "Swakopmund is Namibia's adventure capital where Atlantic fog meets desert dunes, ideal for self-drive itineraries and activity-focused stays.",
+  "desc": "Swakopmund is Namibia's Atlantic desert hub where access is typically an international arrival plus domestic flight or 4-5 hour drive, best for adventure travelers and self-drive visitors who can handle sparse-service logistics.",
   "hls": [
-    "Sandboarding, quad biking, and desert excursions",
-    "German colonial architecture and cafés",
-    "Gateway to Walvis Bay marine tours",
-    "Cooler coastal climate than inland Namibia"
+    "Signature: dune adventure circuit (sandboarding, quad biking, and Living Desert drives)",
+    "Signature: Walvis Bay lagoon cruises for dolphins, seals, and pelagic birdlife",
+    "Under-the-radar: Moon Landscape/Goanikontes outings beyond the main beachfront strip",
+    "Cooler coast base for pairing Skeleton Coast and inland Namib routes"
   ],
   "todo": [
     {
       "name": "Living Desert tour",
       "cat": "Nature",
-      "desc": "Take a guided dune ecology drive for endemic desert wildlife."
+      "desc": "Signature guided drive focused on desert-adapted wildlife and tracking."
     },
     {
       "name": "Walvis Bay catamaran cruise",
       "cat": "Water",
-      "desc": "Look for dolphins, seals, and birdlife in the lagoon."
+      "desc": "Signature marine outing for dolphins, seals, and seabird colonies."
     },
     {
-      "name": "Dune 7 adventure session",
+      "name": "Dune 7 sandboarding or quad biking",
       "cat": "Adventure",
-      "desc": "Try sandboarding or quad biking on major dune fields."
+      "desc": "Classic adrenaline session on major dune fields near Walvis Bay."
     },
     {
-      "name": "Swakopmund Mole walk",
+      "name": "Moon Landscape and Welwitschia drive",
       "cat": "Scenic",
-      "desc": "Stroll the waterfront and old jetty area at sunset."
+      "desc": "Under-the-radar geological route with dramatic gravel-valley vistas."
     },
     {
-      "name": "Skeleton Coast Museum",
-      "cat": "History",
-      "desc": "Visit maritime and regional-history exhibits."
+      "name": "Swakop River birding after fog clear",
+      "cat": "Nature",
+      "desc": "Under-the-radar morning stop where temporary wetlands attract birdlife."
     },
     {
-      "name": "German-Namibian bakery crawl",
-      "cat": "Food",
-      "desc": "Sample local pastries, game dishes, and coastal seafood."
+      "name": "Mole/Jetty sunset walk",
+      "cat": "Coast",
+      "desc": "Low-effort evening coastal walk with cooler Atlantic air."
     }
   ],
   "prac": {
@@ -79,6 +79,12 @@
         "code": "WDH",
         "km": 390,
         "dgw": false
+      },
+      {
+        "name": "Eros Airport (Windhoek domestic)",
+        "code": "ERS",
+        "km": 365,
+        "dgw": false
       }
     ],
     "currency": "Namibia local currency (check live rates before booking).",
@@ -86,18 +92,18 @@
     "tz": "Check local timezone and DST rules for exact travel dates.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Adventure travel",
-      "Self-drive Namibia",
-      "Desert landscapes",
-      "Wildlife add-ons"
+      "Adventure-focused itineraries",
+      "Self-drive Namibia routes",
+      "Cool-climate desert travel",
+      "Photography expeditions"
     ],
     "alerts": [
-      "Atlantic fog can reduce visibility on the B2 and C34 roads, especially mornings.",
-      "Desert activities are weather-dependent and may cancel in high-wind conditions.",
-      "Fuel and services thin out quickly outside town—self-drive with conservative range planning."
+      "Dense Atlantic fog can sharply reduce visibility on the B2/C34, causing convoy-slow driving and occasional delays.",
+      "Strong coastal winds can cancel or shorten marine cruises, scenic flights, and dune activity departures.",
+      "Long self-drive legs between fuel points and patchy mobile coverage require conservative fuel/water planning."
     ]
   },
-  "sweet": "May-Oct for cooler desert touring and lower rain risk.",
+  "sweet": "Jun-Oct for the driest, coolest adventure window and strongest wildlife-road-trip logistics; Mar-May and Nov are good shoulders for lower prices with mostly stable weather.",
   "months": [
     {
       "m": "Jan",
@@ -107,7 +113,7 @@
       "daylight": 13.3,
       "cld": 27,
       "rain": 2,
-      "busy": 8,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -119,9 +125,9 @@
       "daylight": 12.8,
       "cld": 25,
       "rain": 5,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Mar",
@@ -131,9 +137,9 @@
       "daylight": 12.2,
       "cld": 16,
       "rain": 5,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -143,9 +149,9 @@
       "daylight": 11.5,
       "cld": 10,
       "rain": 5,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -155,8 +161,8 @@
       "daylight": 11.0,
       "cld": 7,
       "rain": 2,
-      "busy": 7,
-      "ac": 3,
+      "busy": 8,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -167,9 +173,9 @@
       "daylight": 10.8,
       "cld": 8,
       "rain": 0,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -179,9 +185,9 @@
       "daylight": 10.9,
       "cld": 9,
       "rain": 0,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -191,9 +197,9 @@
       "daylight": 11.4,
       "cld": 9,
       "rain": 0,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -203,9 +209,9 @@
       "daylight": 12.0,
       "cld": 10,
       "rain": 0,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -215,9 +221,9 @@
       "daylight": 12.6,
       "cld": 13,
       "rain": 0,
-      "busy": 1,
-      "ac": 1,
-      "fl": 1
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -227,9 +233,9 @@
       "daylight": 13.2,
       "cld": 15,
       "rain": 2,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -240,8 +246,8 @@
       "cld": 17,
       "rain": 2,
       "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

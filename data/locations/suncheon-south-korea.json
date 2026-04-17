@@ -20,43 +20,43 @@
   "region": "Jeollanam-do (southwestern Korea)",
   "lat": 34.95,
   "lng": 127.487,
-  "desc": "Suncheon is a green city known for its bay wetlands, gardens, and easy rail access to Korea's southern coast and tea-country day trips.",
+  "desc": "Suncheon is a wetlands-and-garden city in South Korea with straightforward rail access from Seoul/Busan but moderate local-transfer complexity, best for nature-focused travelers, photographers, and slower regional itineraries.",
   "hls": [
-    "Suncheon Bay Wetland Reserve and reed-field sunsets",
-    "Well-planned parks and urban green corridors",
-    "Gateway to Boseong tea fields and Yeosu coast",
-    "Good-value alternative to Seoul/Busan city breaks"
+    "Signature: Suncheon Bay Wetland Reserve reed fields and sunset observatories",
+    "Signature: Suncheonman National Garden as one of Korea's flagship landscaped parks",
+    "Under-the-radar: Naganeupseong Folk Village and small Jeolla food alleys",
+    "Gateway base for Yeosu coast and Boseong tea-country day trips"
   ],
   "todo": [
     {
       "name": "Suncheon Bay wetlands boardwalk",
       "cat": "Nature",
-      "desc": "Walk reed trails and birdwatching hides near high tide."
+      "desc": "Signature experience—time your walk around late-afternoon light and bird activity."
     },
     {
       "name": "Suncheonman National Garden",
       "cat": "Scenic",
-      "desc": "Explore themed gardens and seasonal floral displays."
+      "desc": "Signature park circuit with seasonal flower zones and evening illumination."
     },
     {
       "name": "Naganeupseong Folk Village",
       "cat": "History",
-      "desc": "Visit preserved Joseon-era fortress village architecture."
+      "desc": "Under-the-radar half-day in a preserved Joseon-era walled settlement."
+    },
+    {
+      "name": "Seungseon Bridge & Dongcheon stream night walk",
+      "cat": "Urban",
+      "desc": "Under-the-radar local evening route away from the main tour buses."
     },
     {
       "name": "Yeosu day trip",
       "cat": "Coast",
-      "desc": "Use rail for sea cable car and harbor walks."
+      "desc": "Use rail for harbor walks, cable car views, and seafood markets."
     },
     {
       "name": "Boseong green tea fields",
       "cat": "Agri-tourism",
-      "desc": "Pair tea plantation views with tasting stops."
-    },
-    {
-      "name": "Jorye-dong dinner streets",
-      "cat": "Food",
-      "desc": "Try Jeolla banchan-heavy local meals."
+      "desc": "Pair tea-slope viewpoints with tastings and short scenic walks."
     }
   ],
   "prac": {
@@ -75,6 +75,12 @@
         "dgw": false
       },
       {
+        "name": "Gimhae International Airport (Busan)",
+        "code": "PUS",
+        "km": 145,
+        "dgw": false
+      },
+      {
         "name": "Incheon International Airport",
         "code": "ICN",
         "km": 330,
@@ -86,18 +92,18 @@
     "tz": "Check local timezone and DST rules for exact travel dates.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Nature cities",
-      "Rail travel",
-      "Photography trips",
-      "Value-focused Korea itineraries"
+      "Nature photographers",
+      "Rail-based Korea trips",
+      "Shoulder-season city breaks",
+      "Food-and-garden itineraries"
     ],
     "alerts": [
-      "Wetland walkways can close temporarily in typhoon-adjacent weather.",
-      "Intercity rail is frequent, but last-return services from coast cities can be earlier than expected on weekdays.",
-      "Summer humidity is intense—plan outdoor wetland walks for mornings/evenings."
+      "During June-August monsoon bursts, wetland trails and reed paths can close temporarily for safety.",
+      "Late-summer typhoon tracks can disrupt domestic flights to Yeosu and knock-on KTX schedules for a day.",
+      "Spring blossom and autumn foliage weekends sell out intercity rail seats and central hotels earlier than expected."
     ]
   },
-  "sweet": "Apr-May and Oct for mild weather, flowers/reeds, and comfortable walking conditions.",
+  "sweet": "Apr-May and Oct-early Nov for the best mix of mild temperatures, scenic reed/garden conditions, and lower rain disruption than the summer monsoon.",
   "months": [
     {
       "m": "Jan",
@@ -107,7 +113,7 @@
       "daylight": 10.1,
       "cld": 33,
       "rain": 20,
-      "busy": 1,
+      "busy": 2,
       "ac": 1,
       "fl": 1
     },
@@ -131,9 +137,9 @@
       "daylight": 12.0,
       "cld": 47,
       "rain": 71,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -143,9 +149,9 @@
       "daylight": 13.1,
       "cld": 50,
       "rain": 99,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -155,9 +161,9 @@
       "daylight": 14.0,
       "cld": 51,
       "rain": 112,
-      "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -167,9 +173,9 @@
       "daylight": 14.5,
       "cld": 58,
       "rain": 180,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -179,9 +185,9 @@
       "daylight": 14.2,
       "cld": 60,
       "rain": 262,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -191,8 +197,8 @@
       "daylight": 13.4,
       "cld": 52,
       "rain": 226,
-      "busy": 8,
-      "ac": 3,
+      "busy": 5,
+      "ac": 2,
       "fl": 3
     },
     {
@@ -203,9 +209,9 @@
       "daylight": 12.4,
       "cld": 44,
       "rain": 150,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -215,8 +221,8 @@
       "daylight": 11.3,
       "cld": 31,
       "rain": 56,
-      "busy": 8,
-      "ac": 4,
+      "busy": 10,
+      "ac": 5,
       "fl": 4
     },
     {
@@ -227,8 +233,8 @@
       "daylight": 10.3,
       "cld": 30,
       "rain": 46,
-      "busy": 4,
-      "ac": 2,
+      "busy": 7,
+      "ac": 3,
       "fl": 2
     },
     {
@@ -239,9 +245,9 @@
       "daylight": 9.9,
       "cld": 28,
       "rain": 23,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
     }
   ]
 }
