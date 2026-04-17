@@ -83,9 +83,9 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Argentine peso (ARS).",
+    "lang": "Spanish is the primary language; English availability is strongest in tourism-facing services.",
+    "tz": "ART (UTC-3) year-round; no daylight saving time.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",

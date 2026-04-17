@@ -94,9 +94,9 @@
         "transfer": "Can be efficient for selected UK routes, but airport capacity and border-crossing variability make schedules less resilient. Road transfer to Ronda is commonly ~2h–2h30 plus possible border delays."
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Euro (EUR).",
+    "lang": "Spanish is the primary language; English is common in tourism services and hospitality.",
+    "tz": "CET (UTC+1) in winter, CEST (UTC+2) in summer.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",

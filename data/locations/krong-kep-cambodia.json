@@ -87,9 +87,9 @@
         "dgw": false
       }
     ],
-    "currency": "Cambodia local currency (check live rates before booking).",
-    "lang": "Local language plus tourism-level English in main visitor areas.",
-    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "currency": "Cambodian riel (KHR); US dollars are also commonly accepted in many tourist businesses.",
+    "lang": "Khmer is the primary language; English is common in hotels, tours, and restaurants.",
+    "tz": "ICT (UTC+7) year-round; no daylight saving time.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
       "Seafood trips",

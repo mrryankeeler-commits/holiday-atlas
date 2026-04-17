@@ -87,9 +87,9 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Indian rupee (INR).",
+    "lang": "Hindi and English are widely used; local Kinnauri/Himachali languages are also spoken in Kinnaur district.",
+    "tz": "IST (UTC+5:30) year-round; no daylight saving time.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",

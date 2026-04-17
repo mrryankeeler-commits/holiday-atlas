@@ -75,9 +75,9 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Mongolian tögrög (MNT).",
+    "lang": "Mongolian is the primary language; English is most common in Ulaanbaatar hotels and organized tours.",
+    "tz": "Ulaanbaatar Time (UTC+8) year-round; no daylight saving time.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",

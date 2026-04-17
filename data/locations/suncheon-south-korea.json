@@ -91,9 +91,9 @@
         "dgw": true
       }
     ],
-    "currency": "South Korea local currency (check live rates before booking).",
-    "lang": "Local language plus tourism-level English in main visitor areas.",
-    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "currency": "South Korean won (KRW).",
+    "lang": "Korean is the primary language; English is most available in transport hubs and larger hotels.",
+    "tz": "KST (UTC+9) year-round; no daylight saving time.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
       "Nature photographers",

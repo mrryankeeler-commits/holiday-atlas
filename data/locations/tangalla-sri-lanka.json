@@ -97,9 +97,9 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Sri Lankan rupee (LKR).",
+    "lang": "Sinhala and Tamil are official; English is common in hotels and tour services.",
+    "tz": "SLST (UTC+5:30) year-round; no daylight saving time.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",

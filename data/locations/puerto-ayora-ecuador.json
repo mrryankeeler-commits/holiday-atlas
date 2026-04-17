@@ -87,9 +87,9 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "United States dollar (USD).",
+    "lang": "Spanish is the primary language; Kichwa is also spoken in some communities.",
+    "tz": "Galápagos Time (GALT, UTC-6) year-round; no daylight saving time.",
     "visa": "For Galápagos, complete transit control registration at the mainland departure airport (TCT/Transit Control Card process), pass biosecurity screening before boarding, and keep passport + migration record for arrival checks; pay required park/transit fees in accepted payment format (often cash) to avoid being held at entry counters.",
     "bestFor": [
       "Weather-timed trips",

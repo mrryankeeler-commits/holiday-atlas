@@ -85,9 +85,9 @@
         "dgw": false
       }
     ],
-    "currency": "Ghana local currency (check live rates before booking).",
-    "lang": "Local language plus tourism-level English in main visitor areas.",
-    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "currency": "Ghanaian cedi (GHS).",
+    "lang": "English is the official language; Akan (Twi) and Ga are also widely spoken in Accra.",
+    "tz": "GMT (UTC+0) year-round; no daylight saving time.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
       "Urban culture",

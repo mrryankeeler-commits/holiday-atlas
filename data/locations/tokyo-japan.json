@@ -91,9 +91,9 @@
         "transfer": "Skyliner and Narita Express are reliable but add time/cost; verify final train or limousine-bus cutoffs on late arrivals."
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Japanese yen (JPY).",
+    "lang": "Japanese is the primary language; English support is best at transport hubs, hotels, and major attractions.",
+    "tz": "JST (UTC+9) year-round; no daylight saving time.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",
