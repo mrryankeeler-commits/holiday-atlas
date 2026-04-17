@@ -71,6 +71,23 @@ For each location in batch:
    - `reviewedOn` (ISO date)
    - `profile`: `seasonality-inference-v1`
 
+### Essentials remediation checklist (`prac.visa`, `prac.currency`, `prac.lang`, `prac.tz`)
+
+Use this mini-check before running validators. The goal is concrete, destination-aware essentials (not generic soft text).
+
+- `prac.visa` must include policy context (country/program/allowance), not only a blanket warning.
+  - ✅ Good: `Most UK/IE passports can enter Morocco visa-free for up to 90 days; always re-check before departure.`
+  - ❌ Bad: `Always verify entry rules before travel.`
+- `prac.currency` must name the real currency (and optionally practical card/cash context).
+  - ✅ Good: `Moroccan dirham (MAD); cards accepted in cities, carry cash for smaller towns.`
+  - ❌ Bad: `Local currency varies, check before you go.`
+- `prac.lang` must name actual language(s), then optional English expectations.
+  - ✅ Good: `Arabic and Berber are widely used; French is common and English is variable outside tourist hubs.`
+  - ❌ Bad: `Local language plus variable English.`
+- `prac.tz` must include a concrete timezone signal (`UTC/GMT` offset and/or IANA tz like `Africa/Casablanca`).
+  - ✅ Good: `Africa/Casablanca (UTC+1; Ramadan changes can apply).`
+  - ❌ Bad: `See destination local timezone.`
+
 ---
 
 ## 5) Climate verification (required target state: all verified)

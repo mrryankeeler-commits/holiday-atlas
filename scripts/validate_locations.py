@@ -36,6 +36,50 @@ GENERIC_PRAC_TEXT = {
     "not sure",
     "not provided",
 }
+GENERIC_PRAC_REGEX_PATTERNS = (
+    re.compile(r"^see (?:destination|local) (?:time ?zone|timezone)\.?$", flags=re.IGNORECASE),
+    re.compile(
+        r"^local language(?:\s+\w+)*\s+plus\s+variable\s+english(?:\s+\w+)*\.?$",
+        flags=re.IGNORECASE,
+    ),
+    re.compile(
+        r"^(?:always\s+)?verify\s+entry\s+rules(?:\s+\w+)*\.?$",
+        flags=re.IGNORECASE,
+    ),
+)
+GENERIC_LANG_HINT_PATTERNS = (
+    re.compile(r"\blocal language\b", flags=re.IGNORECASE),
+    re.compile(r"\bvariable english\b", flags=re.IGNORECASE),
+)
+TZ_CONCRETE_PATTERNS = (
+    re.compile(r"\b(?:utc|gmt)\s*[+\-−]?\s*\d{1,2}(?::?\d{2})?\b", flags=re.IGNORECASE),
+    re.compile(r"\b[A-Za-z]+/[A-Za-z_]+(?:/[A-Za-z_]+)?\b"),
+)
+VISA_CONCRETE_PATTERNS = (
+    re.compile(r"\b(?:visa[- ]free|e-?visa|visa on arrival|schengen|eta)\b", flags=re.IGNORECASE),
+    re.compile(r"\b\d{1,3}\s*(?:day|days|month|months)\b", flags=re.IGNORECASE),
+)
+LANG_STOPWORDS = {
+    "and",
+    "areas",
+    "basic",
+    "common",
+    "english",
+    "in",
+    "is",
+    "language",
+    "languages",
+    "limited",
+    "local",
+    "mainly",
+    "most",
+    "plus",
+    "spoken",
+    "tourist",
+    "variable",
+    "widely",
+    "with",
+}
 GENERIC_CONTENT_PATTERNS = {
     "desc": (
         re.compile(r"^a great destination for travelers seeking .*", flags=re.IGNORECASE),
@@ -98,7 +142,30 @@ def _is_generic_prac_text(value: str) -> bool:
     cleaned = " ".join(value.strip().split())
     if cleaned.lower() in GENERIC_PRAC_TEXT:
         return True
-    return bool(re.fullmatch(r"(same as country|local time|varies|standard)", cleaned, flags=re.IGNORECASE))
+    if re.fullmatch(r"(same as country|local time|varies|standard)", cleaned, flags=re.IGNORECASE):
+        return True
+    return any(pattern.fullmatch(cleaned) for pattern in GENERIC_PRAC_REGEX_PATTERNS)
+
+
+def _has_concrete_tz_hint(value: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    return any(pattern.search(cleaned) for pattern in TZ_CONCRETE_PATTERNS)
+
+
+def _has_language_name(value: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    if any(pattern.search(cleaned) for pattern in GENERIC_LANG_HINT_PATTERNS):
+        return False
+    words = [word.lower() for word in re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'-]*", cleaned)]
+    specific_words = [word for word in words if word not in LANG_STOPWORDS and len(word) >= 3]
+    return bool(specific_words)
+
+
+def _has_concrete_visa_context(value: str, country: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    if country and re.search(rf"\b{re.escape(country)}\b", cleaned, flags=re.IGNORECASE):
+        return True
+    return any(pattern.search(cleaned) for pattern in VISA_CONCRETE_PATTERNS)
 
 
 def _matches_any_pattern(value: str, pattern_key: str) -> bool:
@@ -353,7 +420,24 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
             elif field in {"visa", "currency", "lang", "tz"} and isinstance(prac.get(field), str):
                 value = prac[field].strip()
                 if not value or _is_generic_prac_text(value):
-                    add_error(errors, file_path, f"prac.{field} must be destination-specific (not empty/generic)")
+                    field_errors = {
+                        "visa": "prac.visa must be destination-specific, not generic warning text",
+                        "currency": "prac.currency must be destination-specific, not placeholder text",
+                        "lang": "prac.lang must name actual language(s), not generic placeholder text",
+                        "tz": "prac.tz must include concrete timezone, not placeholder",
+                    }
+                    add_error(errors, file_path, field_errors[field])
+                    continue
+                if field == "tz" and not _has_concrete_tz_hint(value):
+                    add_error(errors, file_path, "prac.tz must include concrete timezone, not placeholder")
+                if field == "lang" and not _has_language_name(value):
+                    add_error(errors, file_path, "prac.lang must name actual language(s), not generic placeholder text")
+                if field == "visa" and not _has_concrete_visa_context(value, country):
+                    add_error(
+                        errors,
+                        file_path,
+                        "prac.visa must include country-specific policy context (not only generic verification warning)",
+                    )
 
     months = data.get("months")
     if isinstance(months, list):
