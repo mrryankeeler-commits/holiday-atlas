@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Tilcara is an overland destination, usually reached via Jujuy airport then road transfer through the Quebrada.",
+    "airports": [
+      {
+        "name": "Gobernador Horacio Guzmán International Airport",
+        "code": "JUJ",
+        "km": 85,
+        "dgw": false
+      },
+      {
+        "name": "Martín Miguel de Güemes International Airport",
+        "code": "SLA",
+        "km": 190,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

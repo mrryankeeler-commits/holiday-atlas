@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Asunción is typically reached from the UK via one-stop itineraries, commonly changing in São Paulo or Madrid.",
+    "airports": [
+      {
+        "name": "Silvio Pettirossi International Airport",
+        "code": "ASU",
+        "km": 10,
+        "dgw": false
+      },
+      {
+        "name": "São Paulo/Guarulhos International Airport",
+        "code": "GRU",
+        "km": 1130,
+        "dgw": true
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

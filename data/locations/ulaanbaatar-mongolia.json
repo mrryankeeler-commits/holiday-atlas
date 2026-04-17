@@ -66,8 +66,15 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Ulaanbaatar generally requires one-stop routing from the UK, commonly via Istanbul, Seoul, or Beijing.",
+    "airports": [
+      {
+        "name": "Chinggis Khaan International Airport",
+        "code": "UBN",
+        "km": 55,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

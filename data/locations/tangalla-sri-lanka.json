@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Tangalla has no major airport; most arrivals use Colombo then continue by road (about 3–4.5 hours).",
+    "airports": [
+      {
+        "name": "Mattala Rajapaksa International Airport",
+        "code": "HRI",
+        "km": 45,
+        "dgw": false
+      },
+      {
+        "name": "Bandaranaike International Airport",
+        "code": "CMB",
+        "km": 210,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Puerto Ayora is reached via Baltra Airport, then bus + ferry transfer to Santa Cruz (typically 1.5–2 hours total).",
+    "airports": [
+      {
+        "name": "Seymour Airport (Baltra)",
+        "code": "GPS",
+        "km": 48,
+        "dgw": false
+      },
+      {
+        "name": "Mariscal Sucre International Airport",
+        "code": "UIO",
+        "km": 1330,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

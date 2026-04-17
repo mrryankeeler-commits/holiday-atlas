@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Santa Marta is usually reached with a domestic connection from Bogotá or Medellín after the long-haul leg.",
+    "airports": [
+      {
+        "name": "Simón Bolívar International Airport",
+        "code": "SMR",
+        "km": 17,
+        "dgw": false
+      },
+      {
+        "name": "Ernesto Cortissoz International Airport",
+        "code": "BAQ",
+        "km": 105,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",

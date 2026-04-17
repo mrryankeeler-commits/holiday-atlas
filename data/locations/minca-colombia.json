@@ -66,8 +66,21 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "fltNote": "Minca has no airport; most arrivals fly to Santa Marta and continue by road (about 45–60 minutes).",
+    "airports": [
+      {
+        "name": "Simón Bolívar International Airport",
+        "code": "SMR",
+        "km": 32,
+        "dgw": false
+      },
+      {
+        "name": "Ernesto Cortissoz International Airport",
+        "code": "BAQ",
+        "km": 104,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",
