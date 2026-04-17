@@ -66,13 +66,14 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "San Pedro La Laguna is reached via Guatemala City, then road transfer and boat across Lake Atitlán.",
+    "fltNote": "Most routes chain as: fly into Guatemala City (GUA) → pre-booked shuttle/private car to Panajachel or San Lucas Tolimán dock (3.5–5+ h depending on traffic) → public lancha to San Pedro (about 25–45 min, often with intermediate dock stops). Common alternatives are (1) Antigua shuttle + Panajachel lancha chain, usually 4–6 h total, or (2) direct tourist shuttle to San Pedro via highland roads in about 4–5.5 h when operating. For late arrivals, overnight in Guatemala City or Antigua and cross the lake the next morning.",
     "airports": [
       {
         "name": "La Aurora International Airport",
         "code": "GUA",
-        "km": 155,
-        "dgw": false
+        "km": 175,
+        "dgw": false,
+        "transfer": "Typical chain: GUA → Panajachel/San Lucas dock by road (3.5–5+ h) → lancha to San Pedro (25–45 min)."
       }
     ],
     "currency": "Check live exchange rates before booking.",
@@ -87,9 +88,9 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "In rainy season afternoons, verify lake boat operations before cross-lake transfers since wind and storms can pause launches.",
-      "For weekend nightlife periods, secure return boat or shuttle plans before dark because late services are limited and prices rise.",
-      "Carry small cash for docks and village services; ATMs can run out during holiday peaks."
+      "For Panajachel↔San Pedro crossings, target morning-to-mid-afternoon lanchas; after roughly 16:30–17:30 services thin quickly and evening lake chop can lead to cancellations.",
+      "On Guatemala City/Antigua road transfers, avoid very late-night arrivals into unfamiliar docks; if your inbound flight lands late, overnight first and take a daylight shuttle + boat chain.",
+      "During heavy rain (typically May–Oct afternoons), confirm both your road shuttle and final lancha leg before departure, because landslides/traffic delays can make you miss the last practical boat."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
