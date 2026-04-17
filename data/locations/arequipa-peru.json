@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "No routine UK nonstop service to AQP; most itineraries route London -> Lima (usually nonstop in peak schedules) then a 1h30-1h40 domestic flight to Arequipa. Peru domestic fares spike around Fiestas Patrias (late July) and long weekends, so booking internal legs early reduces risk of expensive last-minute seats.",
+    "fltNote": "No routine UK nonstop service to AQP: most trips route via Lima, then either a short domestic hop or long-haul bus. Arequipa ↔ Lima flights are usually the time-efficient choice (about 1h30 in-air), but build buffer because Lima arrivals can mean terminal changes, baggage recheck, and peak-hour security queues. Arequipa ↔ Cusco has limited nonstop frequencies and weather/ATC disruptions can cascade, so same-day international-to-Cusco-Arequipa chains are brittle. Long-distance buses (typically overnight) are often cheaper and useful when carrying more luggage or avoiding backtracking through Lima, but road time is long and comfort depends heavily on operator class and seat type.",
     "airports": [
       {
         "name": "Rodríguez Ballón International Airport",
@@ -84,7 +84,7 @@
     "currency": "Peruvian sol (PEN). Cards are common in central districts, but markets, small eateries, and Colca villages often prefer cash.",
     "lang": "Spanish is dominant; tourism-facing English is patchy outside central hotels/tour operators.",
     "tz": "PET (UTC-5) year-round; no daylight saving time.",
-    "visa": "Peru grants visa-free short stays to many passports (including UK, US, and EU) but permitted days are set by immigration on entry; check official requirements and onward-ticket expectations before travel.",
+    "visa": "Peru grants visa-free short stays for many passports (including UK, US, and most EU), but officers set the exact permitted days at entry. If you may continue overland to Bolivia/Chile after Arequipa, verify onward-document expectations and keep your entry record safe for exit checks. Passport validity and occasional proof-of-onward-travel checks are enforced by airline staff before boarding to Peru.",
     "bestFor": [
       "Weather-timed trips",
       "Shoulder-season value",
@@ -93,9 +93,10 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "Arequipa sits around 2,335 m: keep day one light, hydrate, and avoid hard canyon hikes immediately if you are not acclimatized.",
-      "Colca Canyon roads can be slowed by landslides/fog in wet months (roughly Dec-Mar); confirm departure viability with operators the evening before.",
-      "In the historic centre, use registered taxis/app rides at night and avoid carrying large cash after picantería/bar closing times."
+      "Arequipa's 2,335 m altitude still causes first-day fatigue for many travelers; schedule Colca departures or hard hikes after an acclimatization day where possible.",
+      "For Arequipa ↔ Cusco overland legs (10+ hours), landslides/roadworks and holiday traffic can add significant delay; avoid tight same-day tour or flight connections on arrival.",
+      "For Arequipa ↔ Lima buses (14-17 hours), choose reputable operators with lie-flat tiers and daytime terminal arrivals when possible; late-night arrivals increase transfer friction and safety hassle in unfamiliar districts.",
+      "At Rodríguez Ballón (AQP), morning fog/wind variability and short check-in windows can create missed-flight risk; arrive early and keep backup bus options in mind during wet-season or strike disruptions."
     ]
   },
   "sweet": "April-June and September-October usually give the best balance of clear skies, manageable crowds, and stable canyon transport conditions.",
@@ -244,5 +245,7 @@
       "ac": 2,
       "fl": 5
     }
-  ]
+  ],
+  "lat": -16.409,
+  "lng": -71.5375
 }
