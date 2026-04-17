@@ -18,74 +18,87 @@
   "city": "Madeira",
   "country": "Portugal",
   "region": "Portugal region",
-  "desc": "Madeira is a strong base for exploring Portugal with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Madeira is Portugal’s Atlantic island for sea-cliff scenery, levada walks, and spring-to-autumn outdoor days. It works best when timed around your priorities: shoulder months for hiking comfort and value, peak summer for driest weather and ocean time, and winter for lush landscapes with a higher chance of rain and wind.",
   "hls": [
-    "Seasonal climate profile benchmarked for Madeira",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Levada and mountain trail network with dramatic viewpoints",
+    "Funchal old town, market culture, and Madeira wine lodges",
+    "Coastal natural pools at Porto Moniz and lava-rock seascapes",
+    "Whale and dolphin boat trips in Atlantic waters",
+    "Year-round mild temperatures compared with mainland Europe",
+    "Strong shoulder-season balance of weather, crowds, and hotel value"
   ],
   "todo": [
     {
-      "name": "Walk central Madeira",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
+      "name": "Funchal old-town + Mercado dos Lavradores",
       "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "desc": "Pair a morning market visit with Rua de Santa Maria lanes, then add a Madeira wine lodge tasting in the afternoon."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
+      "name": "Monte cable car and tropical gardens",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Ride up from central Funchal for city-bay views, then walk the Monte Palace/Botanical Garden area."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Levada hike day",
+      "cat": "Hiking",
+      "desc": "Choose a marked levada route suited to fitness and weather; start early for easier parking and cooler trail time."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Pico do Arieiro sunrise viewpoint",
+      "cat": "Mountain",
+      "desc": "Go before dawn for above-the-cloud panoramas, but only if wind/visibility forecasts are favorable."
+    },
+    {
+      "name": "Porto Moniz natural pools",
+      "cat": "Coast",
+      "desc": "Use a full day for northwest-coast drives and lava pools, with flexible timing for sea-state conditions."
+    },
+    {
+      "name": "Câmara de Lobos seafood evening",
+      "cat": "Food",
+      "desc": "Finish with grilled fish and poncha in a harbor town atmosphere away from central Funchal hotels."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "50–200 Mbps",
+      "note": "Funchal hotels/apartments are usually reliable for remote work; uplink and stability can drop in mountain villages."
     },
-    "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "directGW": true,
+    "fltNote": "London airports frequently have nonstop options to Funchal (FNC), especially in spring/summer schedules. Shoulder months often price better than July-August and Christmas/New Year peaks.",
+    "airports": [
+      {
+        "name": "Madeira Cristiano Ronaldo Airport",
+        "code": "FNC",
+        "km": 18,
+        "dgw": true
+      },
+      {
+        "name": "Porto Santo Airport",
+        "code": "PXO",
+        "km": 58,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Portuguese (English widely used in tourism)",
+    "tz": "WET/WEST (UTC+0/+1)",
+    "visa": "Portugal is in Schengen; entry conditions depend on passport and stay length, so confirm current rules before travel.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Hiking-focused trips",
+      "Scenic drives",
+      "Mild-weather winter escapes",
+      "Couples and active breaks",
+      "Remote-work shoulder seasons"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Mountain weather shifts quickly; cloud, wind, and rain can change trail safety within hours.",
+      "Car hire sells out in high season and cruise-ship days can increase Funchal crowding.",
+      "Some steep roads and limited parking make early starts useful for popular trailheads."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "April to June and September to October are usually Madeira’s best-value comfort windows, while July-August is driest but busiest.",
   "months": [
     {
       "m": "Jan",
