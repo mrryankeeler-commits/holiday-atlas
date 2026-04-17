@@ -20,43 +20,43 @@
   "region": "Southwestern North Macedonia (Lake Ohrid basin)",
   "lat": 41.1172,
   "lng": 20.8016,
-  "desc": "Ohrid is a lakeside UNESCO destination combining Orthodox heritage sites, summer swimming, and relaxed old-town evenings on the Balkan overland corridor.",
+  "desc": "Ohrid layers a UNESCO-listed Orthodox old town over a deep tectonic lake, with the year defined by spring church-and-viewpoint walks, high-summer swimming and boat life, then quieter cultural weekends in autumn.",
   "hls": [
-    "UNESCO old town and lake churches",
-    "Clear freshwater swimming in summer",
-    "Excellent value shoulder seasons",
-    "Easy links to Albania and Skopje routes"
+    "UNESCO church skyline above one of Europe's oldest lakes",
+    "Strong summer identity: beaches, boat trips, and lakeside promenades",
+    "Ottoman-era bazaar lanes and Macedonian-Albanian borderland food culture",
+    "Clear shoulder-season value when weather stays pleasant but crowds drop"
   ],
   "todo": [
     {
-      "name": "Old town church circuit",
+      "name": "Kaneo-Plaošnik church ridge walk",
       "cat": "Culture",
-      "desc": "Walk St. Sophia, Plaošnik, and Kaneo viewpoints."
+      "desc": "Weather-dependent: best in dry conditions for lake panoramas and sunset viewpoints."
     },
     {
-      "name": "Lake Ohrid boat cruise",
+      "name": "Lake Ohrid boat run to Sveti Naum",
       "cat": "Water",
-      "desc": "Take a half-day cruise to lakeside monasteries and coves."
+      "desc": "Weather-dependent: calm-water days are best for longer crossings and swim stops."
     },
     {
-      "name": "Samuel's Fortress sunrise",
-      "cat": "Scenic",
-      "desc": "Climb early for panoramic lake and old-town views."
-    },
-    {
-      "name": "Trpejca or Ljubaništa beach day",
-      "cat": "Coast",
-      "desc": "Use a day for swimming in clearer southern lake waters."
-    },
-    {
-      "name": "Bay of Bones museum stop",
+      "name": "Bay of Bones Museum",
       "cat": "History",
-      "desc": "Visit reconstructed stilt settlement exhibits on the southeast shore."
+      "desc": "All-weather option with indoor exhibits and reconstructed stilt-settlement sections."
     },
     {
-      "name": "Čaršija dinner crawl",
+      "name": "National Workshop for Handmade Paper",
+      "cat": "Craft",
+      "desc": "All-weather stop near old-town churches with demos of traditional paper techniques."
+    },
+    {
+      "name": "Samuel's Fortress walls",
+      "cat": "Scenic",
+      "desc": "Go early or late for cooler temperatures and clearer photos in summer."
+    },
+    {
+      "name": "Čaršija tavern dinner crawl",
       "cat": "Food",
-      "desc": "Sample grilled trout and tavče gravče in old bazaar lanes."
+      "desc": "Sample Ohrid trout and tavče gravče in old-bazaar lanes after lakefront walks."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Generally solid in old-town hotels; speed dips at full summer occupancy."
     },
     "directGW": true,
-    "fltNote": "Seasonal nonstop UK routes appear in summer to Ohrid/Skopje, while shoulder and winter travel often requires one-stop Balkan or Central Europe connections.",
+    "fltNote": "OHD is the closest arrival point in peak season, but many UK/Ireland itineraries route via Skopje (SKP) or Tirana (TIA) because frequency is higher; onward travel is typically 15-20 min by taxi from OHD, ~3-4 hr by coach/car from SKP, or ~2.5-3 hr from TIA depending on border traffic.",
     "airports": [
       {
         "name": "Ohrid St. Paul the Apostle Airport",
@@ -78,6 +78,12 @@
         "name": "Skopje International Airport",
         "code": "SKP",
         "km": 205,
+        "dgw": true
+      },
+      {
+        "name": "Tirana International Airport Nënë Tereza",
+        "code": "TIA",
+        "km": 130,
         "dgw": true
       }
     ],
@@ -97,7 +103,7 @@
       "Winter service frequency drops sharply for intercity buses—check last departures in advance."
     ]
   },
-  "sweet": "May-Jun and Sep for warm lake weather with lighter crowds than July-August peaks.",
+  "sweet": "May-June and September usually balance warm lake days with easier hotel pricing; July-August has the best swim weather but the highest crowding and transfer bottlenecks.",
   "months": [
     {
       "m": "Jan",
@@ -119,7 +125,7 @@
       "daylight": 10.7,
       "cld": 53,
       "rain": 41,
-      "busy": 2,
+      "busy": 1,
       "ac": 1,
       "fl": 1
     },
@@ -131,7 +137,7 @@
       "daylight": 12.0,
       "cld": 51,
       "rain": 38,
-      "busy": 3,
+      "busy": 2,
       "ac": 1,
       "fl": 1
     },
@@ -143,7 +149,7 @@
       "daylight": 13.4,
       "cld": 48,
       "rain": 46,
-      "busy": 5,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -155,7 +161,7 @@
       "daylight": 14.5,
       "cld": 42,
       "rain": 38,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -168,8 +174,8 @@
       "cld": 24,
       "rain": 30,
       "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -180,8 +186,8 @@
       "cld": 10,
       "rain": 20,
       "busy": 10,
-      "ac": 4,
-      "fl": 4
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Aug",
@@ -203,9 +209,9 @@
       "daylight": 12.4,
       "cld": 31,
       "rain": 48,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -215,9 +221,9 @@
       "daylight": 11.1,
       "cld": 45,
       "rain": 64,
-      "busy": 6,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -227,9 +233,9 @@
       "daylight": 9.9,
       "cld": 54,
       "rain": 74,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -239,8 +245,8 @@
       "daylight": 9.3,
       "cld": 56,
       "rain": 56,
-      "busy": 4,
-      "ac": 2,
+      "busy": 2,
+      "ac": 1,
       "fl": 2
     }
   ]

@@ -20,43 +20,43 @@
   "region": "Eastern Hiroshima Prefecture (Seto Inland Sea)",
   "lat": 34.4089,
   "lng": 133.2049,
-  "desc": "Onomichi is a hillside port city famed for temple walks and as the western start of the Shimanami Kaidō cycling route across the Seto Inland Sea.",
+  "desc": "Onomichi is a steep-set port town on the Seto Inland Sea where temple hills, shipyard ferries, and cycling bridges create a distinct rhythm: spring blossoms and mild riding, humid summer island travel, then clear autumn viewpoints.",
   "hls": [
-    "Iconic Shimanami Kaidō bike route gateway",
-    "Temple Walk overlooking the Seto Inland Sea",
-    "Retro alleyways, cafés, and ramen culture",
-    "Easy rail links from Hiroshima and Osaka"
+    "Temple Walk hillside perspectives over the Seto Inland Sea channel",
+    "Classic western gateway to the Shimanami Kaidō cycling route",
+    "Retro slope-side neighborhoods, ropeway access, and local ramen culture",
+    "Ferry-linked island life that blends urban rail access with coastal scenery"
   ],
   "todo": [
     {
-      "name": "Temple Walk route",
-      "cat": "Culture",
-      "desc": "Follow the hillside temple path with city-and-sea viewpoints."
-    },
-    {
-      "name": "Shimanami Kaidō day cycle",
+      "name": "Shimanami Kaidō island segment ride",
       "cat": "Adventure",
-      "desc": "Ride at least one island segment using bike-rental return stations."
+      "desc": "Weather-dependent: best on dry, lower-wind days for bridge crossings and safer descents."
     },
     {
-      "name": "Cat Alley + old shopping arcades",
-      "cat": "Neighborhood",
-      "desc": "Explore narrow lanes, galleries, and restored storefronts."
-    },
-    {
-      "name": "Onomichi ramen crawl",
-      "cat": "Food",
-      "desc": "Compare soy-based local ramen shops near the station and waterfront."
-    },
-    {
-      "name": "Senkōji ropeway and park",
+      "name": "Senkōji ropeway + park viewpoints",
       "cat": "Scenic",
-      "desc": "Ride up for dusk views and descend by hillside lanes."
+      "desc": "Weather-dependent: go in clear conditions for inland-sea visibility at dusk."
     },
     {
-      "name": "Mukaishima ferry hop",
+      "name": "Onomichi City Museum + shopping arcades",
+      "cat": "Culture",
+      "desc": "All-weather option pairing indoor exhibits with covered arcade streets."
+    },
+    {
+      "name": "Temple Walk route",
+      "cat": "History",
+      "desc": "Mix major hillside temples and old lanes; carry rain gear for stair-heavy sections."
+    },
+    {
+      "name": "Onomichi ramen comparison stop",
+      "cat": "Food",
+      "desc": "All-weather option near station/waterfront shops, useful on rainy cycling days."
+    },
+    {
+      "name": "Mukaishima short ferry hop",
       "cat": "Local life",
-      "desc": "Use short ferries to see shipyard and island neighborhoods."
+      "desc": "Quick crossings show working-port neighborhoods without committing to full-cycle loops."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Reliable in station-area hotels and cafés; older ryokan may have weaker Wi-Fi."
     },
     "directGW": true,
-    "fltNote": "Access is typically via Tokyo or Osaka long-haul arrivals, then shinkansen/local rail; UK nonstop capacity to Kansai and Haneda peaks in summer and year-end holiday periods.",
+    "fltNote": "Most UK/Ireland visitors arrive through Kansai (KIX) or Tokyo (HND/NRT), then transfer by shinkansen to Fukuyama or Mihara plus a local JR leg to Onomichi; Hiroshima Airport (HIJ) works as a regional alternate with airport-limousine bus + rail transfer, and demand tightens around sakura, Golden Week, Obon, and autumn long weekends.",
     "airports": [
       {
         "name": "Hiroshima Airport",
@@ -78,6 +78,12 @@
         "name": "Kansai International Airport",
         "code": "KIX",
         "km": 250,
+        "dgw": true
+      },
+      {
+        "name": "Tokyo Haneda Airport",
+        "code": "HND",
+        "km": 700,
         "dgw": true
       }
     ],
@@ -97,7 +103,7 @@
       "Typhoon season can suspend ferries and ropeway operations with short notice."
     ]
   },
-  "sweet": "Apr-May and Oct-Nov for comfortable cycling weather and clearer Seto views.",
+  "sweet": "April, May, and late October are usually best for cycling comfort and views, but expect higher flight and room pressure around sakura/Golden Week; June and November are quieter value picks with greater rain or cooler evenings.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +113,9 @@
       "daylight": 10.1,
       "cld": 32,
       "rain": 41,
-      "busy": 1,
-      "ac": 1,
-      "fl": 1
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
     },
     {
       "m": "Feb",
@@ -121,7 +127,7 @@
       "rain": 61,
       "busy": 2,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Mar",
@@ -131,9 +137,9 @@
       "daylight": 12.0,
       "cld": 46,
       "rain": 94,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -143,9 +149,9 @@
       "daylight": 13.1,
       "cld": 51,
       "rain": 109,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "May",
@@ -155,9 +161,9 @@
       "daylight": 14.0,
       "cld": 55,
       "rain": 132,
-      "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 5
     },
     {
       "m": "Jun",
@@ -167,9 +173,9 @@
       "daylight": 14.4,
       "cld": 67,
       "rain": 198,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -181,7 +187,7 @@
       "rain": 185,
       "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -191,9 +197,9 @@
       "daylight": 13.4,
       "cld": 53,
       "rain": 109,
-      "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -203,9 +209,9 @@
       "daylight": 12.4,
       "cld": 48,
       "rain": 142,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -217,7 +223,7 @@
       "rain": 99,
       "busy": 8,
       "ac": 4,
-      "fl": 4
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -227,8 +233,8 @@
       "daylight": 10.4,
       "cld": 30,
       "rain": 64,
-      "busy": 5,
-      "ac": 2,
+      "busy": 6,
+      "ac": 3,
       "fl": 2
     },
     {
@@ -239,9 +245,9 @@
       "daylight": 9.9,
       "cld": 26,
       "rain": 43,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }

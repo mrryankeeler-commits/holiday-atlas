@@ -20,43 +20,43 @@
   "region": "Nagano Prefecture (Central Japanese Alps)",
   "lat": 36.2381,
   "lng": 137.9719,
-  "desc": "Matsumoto blends a top-tier historic castle, alpine access, and easy rail logistics, with strong year-round appeal for hikers, winter visitors, and culture travelers.",
+  "desc": "Matsumoto pairs black-walled Matsumoto Castle and merchant-era streets with a dramatic Japanese Alps backdrop, so the city shifts from blossom and fresh-green hiking season to crisp foliage and snowy onsen-town escapes.",
   "hls": [
-    "Matsumoto Castle and preserved merchant streets",
-    "Gateway for Kamikōchi and Northern Alps hiking",
-    "Good base between Tokyo and Takayama corridors",
-    "Distinct four-season mountain climate"
+    "Feudal-era Matsumoto Castle framed by the Northern Alps skyline",
+    "Kamikōchi and alpine trail access in the Central Japanese Alps",
+    "Living craft/food culture in Nakamachi kura storehouses and Nawate lanes",
+    "Clear four-season identity: blossoms, summer highlands, autumn color, winter hot springs"
   ],
   "todo": [
     {
-      "name": "Matsumoto Castle opening visit",
-      "cat": "History",
-      "desc": "Arrive at opening for fewer queues and better interior flow."
-    },
-    {
-      "name": "Nakamachi + Nawate walking loop",
-      "cat": "Culture",
-      "desc": "Explore kura warehouses, craft shops, and riverside frog street."
-    },
-    {
-      "name": "Kamikōchi day trip",
+      "name": "Kamikōchi river-trail day",
       "cat": "Nature",
-      "desc": "Use a full day for alpine river trails (seasonal access)."
+      "desc": "Weather-dependent: go on clear days for mountain views and safer alpine walks (seasonal bus access)."
     },
     {
-      "name": "Miso and soba tasting",
-      "cat": "Food",
-      "desc": "Try Shinshu soba and miso-focused regional cuisine."
+      "name": "Matsumoto Castle keep and moat circuit",
+      "cat": "History",
+      "desc": "All-weather option: the castle interior and nearby museums work well even in rain or shoulder-season cold."
+    },
+    {
+      "name": "Nakamachi + Nawate heritage stroll",
+      "cat": "Culture",
+      "desc": "Mix kura warehouses, craft shops, and short café stops between riverside lanes."
     },
     {
       "name": "Japan Ukiyo-e Museum",
       "cat": "Art",
-      "desc": "Visit one of Japan's largest ukiyo-e print collections."
+      "desc": "All-weather option with one of Japan's deepest ukiyo-e print collections."
     },
     {
       "name": "Asama Onsen evening soak",
       "cat": "Wellness",
-      "desc": "Finish with a local onsen district soak."
+      "desc": "Ideal in colder months after walking days; many baths stay open in poor weather."
+    },
+    {
+      "name": "Shinshu soba and miso tasting",
+      "cat": "Food",
+      "desc": "Sample regional noodle styles and miso-forward cooking around the station and old town."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Strong in city hotels and station-area cafés; mountain lodges vary."
     },
     "directGW": true,
-    "fltNote": "No direct Europe flights into Matsumoto; UK/Ireland travelers usually fly nonstop to Tokyo then continue by limited domestic flights or rail, with blossom (Apr) and foliage (Oct-Nov) booking pressure.",
+    "fltNote": "For UK/Ireland arrivals, Haneda (HND) and Narita (NRT) are usually the most reliable long-haul entry points; continue to Matsumoto by limited domestic sectors to MMJ or, more commonly, by JR rail via Tokyo/Shinjuku, with strongest booking pressure around sakura (late Mar-Apr), Golden Week (late Apr-early May), Obon (mid-Aug), and autumn foliage weekends.",
     "airports": [
       {
         "name": "Shinshu-Matsumoto Airport",
@@ -78,6 +78,12 @@
         "name": "Tokyo Haneda Airport",
         "code": "HND",
         "km": 225,
+        "dgw": true
+      },
+      {
+        "name": "Tokyo Narita Airport",
+        "code": "NRT",
+        "km": 280,
         "dgw": true
       }
     ],
@@ -97,7 +103,7 @@
       "Winter mornings are icy—use traction-friendly footwear for old-town lanes."
     ]
   },
-  "sweet": "May-Jun and Oct-Nov for alpine scenery with manageable temperatures and crowd levels.",
+  "sweet": "Late May-June and October are the usual sweet spots: better hiking and city-walk weather than winter, but lower price/crowd pressure than Golden Week, Obon, and peak foliage weekends.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +113,9 @@
       "daylight": 10.0,
       "cld": 33,
       "rain": 25,
-      "busy": 1,
-      "ac": 1,
-      "fl": 1
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
     },
     {
       "m": "Feb",
@@ -119,9 +125,9 @@
       "daylight": 10.9,
       "cld": 38,
       "rain": 38,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Mar",
@@ -131,9 +137,9 @@
       "daylight": 12.0,
       "cld": 43,
       "rain": 66,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -143,9 +149,9 @@
       "daylight": 13.1,
       "cld": 48,
       "rain": 81,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
     },
     {
       "m": "May",
@@ -155,9 +161,9 @@
       "daylight": 14.1,
       "cld": 54,
       "rain": 86,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -167,7 +173,7 @@
       "daylight": 14.6,
       "cld": 66,
       "rain": 127,
-      "busy": 8,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -179,7 +185,7 @@
       "daylight": 14.3,
       "cld": 66,
       "rain": 150,
-      "busy": 10,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -203,9 +209,9 @@
       "daylight": 12.4,
       "cld": 53,
       "rain": 158,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -215,8 +221,8 @@
       "daylight": 11.2,
       "cld": 42,
       "rain": 104,
-      "busy": 6,
-      "ac": 3,
+      "busy": 8,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -227,8 +233,8 @@
       "daylight": 10.3,
       "cld": 34,
       "rain": 64,
-      "busy": 4,
-      "ac": 2,
+      "busy": 7,
+      "ac": 3,
       "fl": 2
     },
     {
@@ -239,9 +245,9 @@
       "daylight": 9.8,
       "cld": 28,
       "rain": 38,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }
