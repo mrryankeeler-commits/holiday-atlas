@@ -20,43 +20,43 @@
   "region": "Central Visayas (Siquijor Island)",
   "lat": 9.2142,
   "lng": 123.5153,
-  "desc": "Siquijor is a compact Philippine island known for waterfalls, reef snorkeling, and a laid-back scooter-based travel rhythm.",
+  "desc": "Siquijor is a compact Philippine island of waterfalls and reef coves where access is usually multi-leg (international/domestic flight plus ferry), best for relaxed travelers comfortable with flexible timings and scooter-based exploration.",
   "hls": [
-    "Easy island loop with beaches and inland waterfalls",
-    "Strong snorkeling and diving near marine sanctuaries",
+    "Signature: Cambugahay Falls and Tubod Marine Sanctuary in one compact island loop",
+    "Under-the-radar: inland Bandilaan viewpoints and quiet village cafés away from sunset strips",
     "Less developed vibe than major Visayas resort islands",
-    "Good fit for 3-5 night slow stays"
+    "Best for 3-5 night slow stays rather than checklist hopping"
   ],
   "todo": [
     {
-      "name": "Cambugahay Falls morning",
+      "name": "Cambugahay Falls at opening time",
       "cat": "Nature",
-      "desc": "Arrive early for quieter pools and rope-swing spots."
+      "desc": "Signature Siquijor stop—go early for clearer pools and fewer queues at rope-swing spots."
     },
     {
       "name": "Tubod Marine Sanctuary snorkel",
       "cat": "Water",
-      "desc": "Do a reef session with current-aware local guides."
-    },
-    {
-      "name": "Paliton Beach sunset",
-      "cat": "Coast",
-      "desc": "Plan late-afternoon swimming and sunset viewing."
+      "desc": "Signature reef session with a local guide to time currents and visibility."
     },
     {
       "name": "Lazi church and convent",
       "cat": "History",
-      "desc": "Visit one of the Philippines' oldest stone church complexes."
+      "desc": "Visit one of the oldest stone church complexes in the Visayas."
     },
     {
-      "name": "Island scooter loop",
+      "name": "Island scooter loop via Enrique Villanueva coast",
       "cat": "Adventure",
-      "desc": "Circle the island with stops at viewpoints and cafés."
+      "desc": "Under-the-radar coastal stretches are quieter than the west-side sunset strip."
     },
     {
       "name": "Mt. Bandilaan forest reserve",
       "cat": "Nature",
-      "desc": "Take a short inland hike for cooler forest conditions."
+      "desc": "Under-the-radar inland hike for cooler air and panoramic island viewpoints."
+    },
+    {
+      "name": "Paliton Beach sunset",
+      "cat": "Coast",
+      "desc": "Finish with a classic west-coast golden-hour swim and shoreline bars."
     }
   ],
   "prac": {
@@ -69,15 +69,21 @@
     "fltNote": "UK/Ireland routes typically connect via Manila, Cebu, Singapore, or Doha, then combine domestic flight and ferry; Amihan dry season (Dec-May) brings stronger demand and pricing.",
     "airports": [
       {
+        "name": "Sibulan Airport (Dumaguete)",
+        "code": "DGT",
+        "km": 35,
+        "dgw": false
+      },
+      {
         "name": "Bohol-Panglao International Airport",
         "code": "TAG",
         "km": 65,
         "dgw": false
       },
       {
-        "name": "Sibulan Airport (Dumaguete)",
-        "code": "DGT",
-        "km": 35,
+        "name": "Mactan-Cebu International Airport",
+        "code": "CEB",
+        "km": 150,
         "dgw": false
       }
     ],
@@ -86,18 +92,18 @@
     "tz": "Check local timezone and DST rules for exact travel dates.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Island-hopping",
-      "Snorkeling",
-      "Budget tropical trips",
-      "Slow travel"
+      "Slow tropical travel",
+      "Snorkeling/diving",
+      "Scooter explorers",
+      "Flexible island-hopping itineraries"
     ],
     "alerts": [
-      "Ferry schedules are weather-sensitive, especially during typhoon-active months.",
-      "Island roads are narrow and can be slick after rain—ride scooters cautiously at night.",
-      "ATMs are limited and sometimes offline; carry backup cash before weekends."
+      "Ferry crossings from Dumaguete/Tagbilaran can be delayed or canceled in monsoon surges and typhoon-adjacent weather.",
+      "Power and mobile-data interruptions still happen during heavy rain; keep offline tickets/maps and a cash buffer.",
+      "Narrow island roads become slick after downpours, and night riding has limited lighting outside town centers."
     ]
   },
-  "sweet": "Dec-May for calmer seas and better ferry reliability.",
+  "sweet": "Late Feb-Jun for the best blend of lower rain, longer daylight, and more reliable ferries; Jul-Aug is a workable shoulder if you accept wetter crossings.",
   "months": [
     {
       "m": "Jan",
@@ -107,7 +113,7 @@
       "daylight": 11.7,
       "cld": 73,
       "rain": 76,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -119,7 +125,7 @@
       "daylight": 11.8,
       "cld": 67,
       "rain": 58,
-      "busy": 8,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -131,7 +137,7 @@
       "daylight": 12.1,
       "cld": 64,
       "rain": 43,
-      "busy": 9,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -143,9 +149,9 @@
       "daylight": 12.3,
       "cld": 71,
       "rain": 41,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -167,9 +173,9 @@
       "daylight": 12.7,
       "cld": 91,
       "rain": 137,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -179,7 +185,7 @@
       "daylight": 12.6,
       "cld": 92,
       "rain": 132,
-      "busy": 4,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -191,7 +197,7 @@
       "daylight": 12.4,
       "cld": 92,
       "rain": 107,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -203,7 +209,7 @@
       "daylight": 12.2,
       "cld": 91,
       "rain": 117,
-      "busy": 5,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -227,8 +233,8 @@
       "daylight": 11.7,
       "cld": 84,
       "rain": 147,
-      "busy": 4,
-      "ac": 2,
+      "busy": 3,
+      "ac": 1,
       "fl": 2
     },
     {
@@ -239,9 +245,9 @@
       "daylight": 11.6,
       "cld": 78,
       "rain": 112,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }
