@@ -1,0 +1,204 @@
+{
+  "id": "swakopmund-namibia",
+  "source": {
+    "climateVerified": false,
+    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Data_05 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Swakopmund",
+  "country": "Namibia",
+  "region": "Erongo Region",
+  "lat": -22.6784,
+  "lng": 14.5266,
+  "desc": "Swakopmund is a destination profile pending enrichment.",
+  "hls": [
+    "Climate baseline imported; destination highlights will be expanded during enrichment."
+  ],
+  "todo": [
+    {
+      "name": "Orientation walk",
+      "cat": "Sightseeing",
+      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10-50 Mbps",
+      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+    },
+    "directGW": false,
+    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Swakopmund will be detailed during enrichment.",
+    "airports": [],
+    "airportsExceptionNote": "Airport research pending enrichment pass.",
+    "currency": "Use the local currency for Namibia; verify current cash/card acceptance before travel.",
+    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
+    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
+    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "bestFor": [
+      "Culture",
+      "Food",
+      "Nature"
+    ],
+    "alerts": [
+      "Seasonal weather can affect transport and activity planning in Swakopmund; keep one flexible day."
+    ]
+  },
+  "sweet": "Mar-May,Sep-Nov",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 18,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 13.3,
+      "cld": 27,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 18,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 12.8,
+      "cld": 25,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 22,
+      "lo": 15,
+      "daylight": 12.2,
+      "cld": 16,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 11.5,
+      "cld": 10,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 11.0,
+      "cld": 7,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 21,
+      "lo": 12,
+      "daylight": 10.8,
+      "cld": 8,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 10.9,
+      "cld": 9,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 11.4,
+      "cld": 9,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 12.0,
+      "cld": 10,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 14,
+      "hi": 19,
+      "lo": 12,
+      "daylight": 12.6,
+      "cld": 13,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 13.2,
+      "cld": 15,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 17,
+      "hi": 20,
+      "lo": 14,
+      "daylight": 13.5,
+      "cld": 17,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

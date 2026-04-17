@@ -1,0 +1,204 @@
+{
+  "id": "cape-maclear-malawi",
+  "source": {
+    "climateVerified": false,
+    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Data_05 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Cape Maclear",
+  "country": "Malawi",
+  "region": "Southern Region",
+  "lat": -14.0167,
+  "lng": 34.85,
+  "desc": "Cape Maclear is a destination profile pending enrichment.",
+  "hls": [
+    "Climate baseline imported; destination highlights will be expanded during enrichment."
+  ],
+  "todo": [
+    {
+      "name": "Orientation walk",
+      "cat": "Sightseeing",
+      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10-50 Mbps",
+      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+    },
+    "directGW": false,
+    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Cape Maclear will be detailed during enrichment.",
+    "airports": [],
+    "airportsExceptionNote": "Airport research pending enrichment pass.",
+    "currency": "Use the local currency for Malawi; verify current cash/card acceptance before travel.",
+    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
+    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
+    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "bestFor": [
+      "Culture",
+      "Food",
+      "Nature"
+    ],
+    "alerts": [
+      "Seasonal weather can affect transport and activity planning in Cape Maclear; keep one flexible day."
+    ]
+  },
+  "sweet": "Mar-May,Sep-Nov",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 29,
+      "lo": 25,
+      "daylight": 12.8,
+      "cld": 82,
+      "rain": 252,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.5,
+      "cld": 76,
+      "rain": 201,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 60,
+      "rain": 122,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 26,
+      "hi": 29,
+      "lo": 22,
+      "daylight": 11.8,
+      "cld": 33,
+      "rain": 33,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 24,
+      "hi": 28,
+      "lo": 20,
+      "daylight": 11.5,
+      "cld": 19,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 11.3,
+      "cld": 10,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 11.4,
+      "cld": 9,
+      "rain": 0,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 28,
+      "lo": 19,
+      "daylight": 11.7,
+      "cld": 10,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "daylight": 12.0,
+      "cld": 14,
+      "rain": 2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.4,
+      "cld": 26,
+      "rain": 10,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.8,
+      "cld": 48,
+      "rain": 53,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 28,
+      "hi": 30,
+      "lo": 25,
+      "daylight": 12.9,
+      "cld": 75,
+      "rain": 170,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}
