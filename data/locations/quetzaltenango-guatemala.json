@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Quetzaltenango is usually accessed via Guatemala City airport, then a long overland transfer (around 4 hours).",
+    "fltNote": "Most arrivals route via Guatemala City (GUA), then continue overland to Xela in roughly 4-5 hours depending on CA-1/Interamericana traffic, weather, and urban bottlenecks. Shared tourist shuttles are simpler door-to-door; first-class coach departures from the Minerva area are often cheaper but run on fixed terminals and can sell out around holiday weekends.",
     "airports": [
       {
         "name": "La Aurora International Airport",
@@ -75,10 +75,12 @@
         "dgw": false
       }
     ],
+    "transport": "For regional movement, Quetzaltenango (Xela) is a major highland bus node: frequent local buses and microbuses run to San Juan Ostuncalco, Salcajá, Zunil, Almolonga, and onward corridors toward San Marcos and Retalhuleu. Reliability is highest in early morning; afternoon rain, roadworks, protests, and market-day congestion can cause missed onward links, so keep 30-60 minute buffers before long-distance connections.",
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "weatherPrep": "Xela sits at high elevation, so temperature swings are bigger than many travelers expect. Dry season (Nov-Apr): strong midday sun with cool mornings/nights; bring SPF, sunglasses, and layerable insulation for pre-dawn departures. Rainy season (May-Oct): plan waterproof shell, quick-dry shoes, and a backpack cover; showers and fog are most disruptive in late afternoon, so schedule hikes and intercity bus legs earlier in the day. Year-round, pack a warm sleep layer because budget rooms can feel cold after sunset.",
     "bestFor": [
       "Weather-timed trips",
       "Shoulder-season value",
@@ -87,9 +89,9 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "In May to October, check volcanic and rain alerts before summit hikes because storms and ash conditions can change route safety quickly.",
-      "For very early shuttles to Lake Atitlan or Antigua, confirm pickup time the previous evening since agencies often consolidate loads overnight.",
-      "Pack layers for cold nights year-round and verify hotel hot-water hours in budget stays before booking."
+      "For dawn climbs on Santa María or links toward Lago de Atitlán/Antigua, reconfirm pickup the night before; Xela operators regularly rebalance vehicles and pickup order after evening demand updates.",
+      "During May-October rains, landslides and low visibility on Interamericana segments can delay buses by hours; avoid tight same-day flight connections back to GUA.",
+      "At ~2,300 m elevation, nights are cold in Quetzaltenango even outside winter months; confirm hot-water reliability and bring warm sleepwear if booking budget guesthouses near Parque Centroamérica."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
