@@ -154,7 +154,20 @@ The validator now also blocks:
 - known placeholder `prac.alerts` arrays,
 - generic `region` values such as `"<country> region"`,
 - empty/generic practical text in `prac.visa`, `prac.currency`, `prac.lang`, `prac.tz`,
+- repeated boilerplate patterns in top-level `desc` / `sweet`,
+- generic audience tags in `prac.bestFor[]`,
+- known template-style phrasing in `hls[]` and `todo[].desc`,
 - draft scaffolds emitted by `scripts/import_climate_csv.py` when `source.draftOnly: true` remains set.
+
+### Remediating boilerplate-content validation failures
+
+If `python3 scripts/validate_locations.py` flags a generic-content error, the message includes the exact field path (and list index when applicable) plus the offending text. Replace that text with destination-specific details instead of broad templates.
+
+Practical remediation tips:
+
+- Rewrite `desc` and `sweet` to include concrete local context (named neighborhoods, seasonal trade-offs, or unique travel constraints).
+- Update `prac.bestFor[]` from generic audience buckets to destination-relevant traveler profiles.
+- For `hls[]` and `todo[].desc`, prefer named landmarks, routes, events, or activities tied to that destination.
 
 If you need CI-style strictness that fails whenever any destination is still unverified:
 

@@ -32,6 +32,10 @@ Holiday Atlas is a static front-end app (`index.html`, `app.js`, `styles.css`) t
 - Every `index.json` id has a corresponding `data/locations/<id>.json`
 - Every location file id matches filename
 - No duplicate ids
+- Destination content must be specific (validator rejects known boilerplate templates), including:
+  - top-level `desc` and `sweet`
+  - `prac.bestFor[]` entries
+  - optional templated phrasing in `hls[]` and `todo[].desc`
 - Climate provenance check passes:
   - `python3 scripts/verify_climate_provenance.py`
   - A location may only be marked `source.climateVerified: true` when linked CSV source rows exist and the CSV climate values match the JSON month values shown in-app.

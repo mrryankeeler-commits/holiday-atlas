@@ -37,6 +37,32 @@ GENERIC_PRAC_TEXT = {
     "not provided",
 }
 
+# Known repeated boilerplate signatures that should be replaced with destination-specific copy.
+GENERIC_CONTENT_PATTERNS = {
+    "desc": (
+        re.compile(r"\bperfect\s+for\s+a\s+city\s+break\b", flags=re.IGNORECASE),
+        re.compile(r"\bgreat\s+mix\s+of\s+culture,\s*food,\s*and\s+nightlife\b", flags=re.IGNORECASE),
+        re.compile(r"\boffers\s+something\s+for\s+every\s+traveller\b", flags=re.IGNORECASE),
+    ),
+    "sweet": (
+        re.compile(r"\bbest\s+time\s+to\s+visit\s+is\s+spring\s+and\s+autumn\b", flags=re.IGNORECASE),
+        re.compile(r"\bideal\s+for\s+year[- ]round\s+travel\b", flags=re.IGNORECASE),
+        re.compile(r"\bshoulder\s+months\s+offer\s+the\s+best\s+balance\b", flags=re.IGNORECASE),
+    ),
+    "tag": (
+        re.compile(r"^(couples|families|solo\s+travel(?:lers?)?|foodies?|history\s+lovers?)$", flags=re.IGNORECASE),
+        re.compile(r"^(adventure|culture|beach|nature|city\s*break)$", flags=re.IGNORECASE),
+    ),
+    "hls": (
+        re.compile(r"\bvisit\s+the\s+old\s+town\b", flags=re.IGNORECASE),
+        re.compile(r"\bexplore\s+local\s+markets\s+and\s+cafes\b", flags=re.IGNORECASE),
+    ),
+    "todo_desc": (
+        re.compile(r"\bdiscover\s+the\s+city'?s\s+top\s+landmarks\b", flags=re.IGNORECASE),
+        re.compile(r"\benjoy\s+local\s+food\s+and\s+culture\b", flags=re.IGNORECASE),
+    ),
+}
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -58,6 +84,31 @@ def _is_generic_prac_text(value: str) -> bool:
     if cleaned.lower() in GENERIC_PRAC_TEXT:
         return True
     return bool(re.fullmatch(r"(same as country|local time|varies|standard)", cleaned, flags=re.IGNORECASE))
+
+
+def _normalize_text(value: str) -> str:
+    return " ".join(value.strip().split())
+
+
+def _first_pattern_match(value: str, patterns: tuple[re.Pattern[str], ...]) -> str | None:
+    for pattern in patterns:
+        if pattern.search(value):
+            return pattern.pattern
+    return None
+
+
+def _looks_generic_desc(text: str, field: str) -> str | None:
+    cleaned = _normalize_text(text)
+    if not cleaned:
+        return "empty"
+    return _first_pattern_match(cleaned, GENERIC_CONTENT_PATTERNS[field])
+
+
+def _looks_generic_tag(text: str) -> str | None:
+    cleaned = _normalize_text(text)
+    if not cleaned:
+        return "empty"
+    return _first_pattern_match(cleaned, GENERIC_CONTENT_PATTERNS["tag"])
 
 
 def validate_index(index_path: Path, locations_root: Path, errors: list[str]) -> list[str]:
@@ -146,6 +197,14 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         value = data.get(field)
         if isinstance(value, str) and not value.strip():
             add_error(errors, file_path, f"field '{field}' must be a non-empty string")
+        elif isinstance(value, str):
+            generic_reason = _looks_generic_desc(value, field)
+            if generic_reason:
+                add_error(
+                    errors,
+                    file_path,
+                    f"{field} appears generic (match={generic_reason!r}, text={value!r}); use destination-specific copy",
+                )
 
     country = str(data.get("country", "")).strip()
     region = str(data.get("region", "")).strip()
@@ -163,6 +222,14 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         for idx, item in enumerate(hls):
             if not isinstance(item, str) or not item.strip():
                 add_error(errors, file_path, f"hls[{idx}] must be a non-empty string")
+                continue
+            generic_reason = _first_pattern_match(_normalize_text(item), GENERIC_CONTENT_PATTERNS["hls"])
+            if generic_reason:
+                add_error(
+                    errors,
+                    file_path,
+                    f"hls[{idx}] appears generic (match={generic_reason!r}, text={item!r})",
+                )
 
     todo = data.get("todo")
     if isinstance(todo, list):
@@ -179,6 +246,15 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
                 value = item.get(key)
                 if not isinstance(value, str) or not value.strip():
                     add_error(errors, file_path, f"todo[{idx}].{key} must be a non-empty string")
+            todo_desc = item.get("desc")
+            if isinstance(todo_desc, str) and todo_desc.strip():
+                generic_reason = _first_pattern_match(_normalize_text(todo_desc), GENERIC_CONTENT_PATTERNS["todo_desc"])
+                if generic_reason:
+                    add_error(
+                        errors,
+                        file_path,
+                        f"todo[{idx}].desc appears generic (match={generic_reason!r}, text={todo_desc!r})",
+                    )
 
     prac = data.get("prac")
     if "prac" in data and not isinstance(prac, dict):
@@ -195,6 +271,14 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
                 for idx, item in enumerate(prac[field]):
                     if not isinstance(item, str) or not item.strip():
                         add_error(errors, file_path, f"prac.{field}[{idx}] must be a non-empty string")
+                    elif field == "bestFor":
+                        generic_reason = _looks_generic_tag(item)
+                        if generic_reason:
+                            add_error(
+                                errors,
+                                file_path,
+                                f"prac.bestFor[{idx}] appears generic (match={generic_reason!r}, text={item!r}); be destination-specific",
+                            )
 
         alerts = prac.get("alerts")
         if isinstance(alerts, list) and tuple(alerts) in PLACEHOLDER_ALERT_BLOCKS:
