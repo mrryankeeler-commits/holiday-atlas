@@ -1,0 +1,240 @@
+{
+  "id": "berat-albania",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-17",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/84310/Average-Weather-in-Berat-Albania-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Berat",
+  "country": "Albania",
+  "region": "Berat County",
+  "desc": "Berat is a UNESCO-listed Albanian hillside city known for Ottoman-era neighborhoods, a dramatic castle district, and warm inland summers with clear shoulder-season touring conditions.",
+  "hls": [
+    "Climate and daylength patterns are imported from the shared monthly climate CSV for consistency.",
+    "Shoulder months generally provide the strongest balance of comfort and crowd pressure.",
+    "Peak-season demand and pricing pressure increase around summer holiday windows.",
+    "Best experiences usually come from matching activity timing to monthly weather patterns."
+  ],
+  "todo": [
+    {
+      "name": "Old-town orientation walk",
+      "cat": "City walk",
+      "desc": "Start with a guided or self-guided walk through the main historic districts to set context."
+    },
+    {
+      "name": "Top local museum stop",
+      "cat": "Museum",
+      "desc": "Reserve at least one half-day for the city’s signature museum or cultural site."
+    },
+    {
+      "name": "Scenic viewpoint session",
+      "cat": "Viewpoint",
+      "desc": "Schedule a golden-hour viewpoint stop for the most photogenic light."
+    },
+    {
+      "name": "Market and food crawl",
+      "cat": "Food",
+      "desc": "Use local market streets for regional dishes and low-key evening exploration."
+    },
+    {
+      "name": "Nature/beach side trip",
+      "cat": "Nature",
+      "desc": "Keep one day flexible for a nearby coast, canyon, or countryside excursion."
+    },
+    {
+      "name": "Slow final-day neighborhood loop",
+      "cat": "Local life",
+      "desc": "Wrap up with cafés and residential streets outside the main tourist corridors."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-80 Mbps",
+      "note": "Connectivity is usually solid in central stays; confirm speeds directly with your accommodation for work-critical trips."
+    },
+    "directGW": false,
+    "fltNote": "No commercial airport in Berat; most visitors fly into Tirana (TIA) and continue by road.",
+    "airports": [
+      {
+        "name": "Tirana International Airport Nënë Tereza",
+        "code": "TIA",
+        "km": 121,
+        "dgw": true
+      }
+    ],
+    "currency": "Check current local currency usage and card acceptance before departure.",
+    "lang": "Local language dominates day-to-day life; English support is strongest in tourism-facing businesses.",
+    "tz": "Confirm local UTC offset and daylight-saving rules for your travel dates.",
+    "visa": "Entry rules depend on nationality and can change; verify official visa/passport requirements before booking.",
+    "bestFor": [
+      "Shoulder-season city breaks",
+      "History and architecture",
+      "Mixed pace itineraries",
+      "Value-focused off-peak trips",
+      "Weekend-to-week escapes"
+    ],
+    "alerts": [
+      "Weather variability can affect day plans; keep one flexible slot in your itinerary.",
+      "Book high-demand attractions in advance during peak months.",
+      "Use licensed transport options for late arrivals and airport transfers."
+    ]
+  },
+  "sweet": "April-June and September-October typically offer the best balance of sightseeing comfort and manageable demand.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 6,
+      "hi": 11,
+      "lo": 2,
+      "daylight": 9.6,
+      "cld": 50,
+      "rain": 66,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "daylight": 10.7,
+      "cld": 50,
+      "rain": 69,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 10,
+      "hi": 15,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 48,
+      "rain": 56,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 13.4,
+      "cld": 45,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 14.5,
+      "cld": 38,
+      "rain": 36,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 15.0,
+      "cld": 22,
+      "rain": 23,
+      "busy": 9,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 33,
+      "lo": 18,
+      "daylight": 14.7,
+      "cld": 8,
+      "rain": 13,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 25,
+      "hi": 32,
+      "lo": 18,
+      "daylight": 13.7,
+      "cld": 13,
+      "rain": 23,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 27,
+      "lo": 14,
+      "daylight": 12.4,
+      "cld": 28,
+      "rain": 56,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 22,
+      "lo": 11,
+      "daylight": 11.1,
+      "cld": 42,
+      "rain": 81,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 11,
+      "hi": 16,
+      "lo": 6,
+      "daylight": 9.9,
+      "cld": 49,
+      "rain": 102,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 7,
+      "hi": 12,
+      "lo": 3,
+      "daylight": 9.3,
+      "cld": 51,
+      "rain": 91,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

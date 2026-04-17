@@ -1,0 +1,240 @@
+{
+  "id": "antalya-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-17",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/96456/Average-Weather-in-Antalya-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Antalya",
+  "country": "Turkey",
+  "region": "Turkish Riviera (Mediterranean Coast)",
+  "desc": "Antalya is a warm Mediterranean base on Turkey’s southern coast, blending beach time, Roman-era harbor scenery, and easy access to Lycian and mountain day trips.",
+  "hls": [
+    "Climate and daylength patterns are imported from the shared monthly climate CSV for consistency.",
+    "Shoulder months generally provide the strongest balance of comfort and crowd pressure.",
+    "Peak-season demand and pricing pressure increase around summer holiday windows.",
+    "Best experiences usually come from matching activity timing to monthly weather patterns."
+  ],
+  "todo": [
+    {
+      "name": "Old-town orientation walk",
+      "cat": "City walk",
+      "desc": "Start with a guided or self-guided walk through the main historic districts to set context."
+    },
+    {
+      "name": "Top local museum stop",
+      "cat": "Museum",
+      "desc": "Reserve at least one half-day for the city’s signature museum or cultural site."
+    },
+    {
+      "name": "Scenic viewpoint session",
+      "cat": "Viewpoint",
+      "desc": "Schedule a golden-hour viewpoint stop for the most photogenic light."
+    },
+    {
+      "name": "Market and food crawl",
+      "cat": "Food",
+      "desc": "Use local market streets for regional dishes and low-key evening exploration."
+    },
+    {
+      "name": "Nature/beach side trip",
+      "cat": "Nature",
+      "desc": "Keep one day flexible for a nearby coast, canyon, or countryside excursion."
+    },
+    {
+      "name": "Slow final-day neighborhood loop",
+      "cat": "Local life",
+      "desc": "Wrap up with cafés and residential streets outside the main tourist corridors."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-120 Mbps",
+      "note": "Connectivity is usually solid in central stays; confirm speeds directly with your accommodation for work-critical trips."
+    },
+    "directGW": true,
+    "fltNote": "Seasonal and year-round UK nonstops are common to Antalya (AYT), with frequency peaking in summer school-holiday months.",
+    "airports": [
+      {
+        "name": "Antalya Airport",
+        "code": "AYT",
+        "km": 13,
+        "dgw": true
+      }
+    ],
+    "currency": "Check current local currency usage and card acceptance before departure.",
+    "lang": "Local language dominates day-to-day life; English support is strongest in tourism-facing businesses.",
+    "tz": "Confirm local UTC offset and daylight-saving rules for your travel dates.",
+    "visa": "Entry rules depend on nationality and can change; verify official visa/passport requirements before booking.",
+    "bestFor": [
+      "Shoulder-season city breaks",
+      "History and architecture",
+      "Mixed pace itineraries",
+      "Value-focused off-peak trips",
+      "Weekend-to-week escapes"
+    ],
+    "alerts": [
+      "Weather variability can affect day plans; keep one flexible slot in your itinerary.",
+      "Book high-demand attractions in advance during peak months.",
+      "Use licensed transport options for late arrivals and airport transfers."
+    ]
+  },
+  "sweet": "May-June and September-October usually give the best mix of warm sea weather, lower heat stress, and softer crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 9,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 10.0,
+      "cld": 41,
+      "rain": 132,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 10,
+      "hi": 15,
+      "lo": 6,
+      "daylight": 10.9,
+      "cld": 39,
+      "rain": 107,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "daylight": 12.0,
+      "cld": 34,
+      "rain": 66,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 13.2,
+      "cld": 31,
+      "rain": 48,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 21,
+      "hi": 26,
+      "lo": 15,
+      "daylight": 14.2,
+      "cld": 23,
+      "rain": 28,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 26,
+      "hi": 31,
+      "lo": 20,
+      "daylight": 14.7,
+      "cld": 7,
+      "rain": 10,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 34,
+      "lo": 23,
+      "daylight": 14.4,
+      "cld": 1,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 34,
+      "lo": 23,
+      "daylight": 13.5,
+      "cld": 1,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 25,
+      "hi": 31,
+      "lo": 19,
+      "daylight": 12.4,
+      "cld": 8,
+      "rain": 15,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 21,
+      "hi": 26,
+      "lo": 15,
+      "daylight": 11.2,
+      "cld": 26,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 14,
+      "hi": 21,
+      "lo": 10,
+      "daylight": 10.2,
+      "cld": 36,
+      "rain": 91,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 9.7,
+      "cld": 42,
+      "rain": 137,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    }
+  ]
+}
