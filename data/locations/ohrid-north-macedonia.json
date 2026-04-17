@@ -66,6 +66,10 @@
       "note": "Generally solid in old-town hotels; speed dips at full summer occupancy."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "OHD is the closest arrival point in peak season, but many UK/Ireland itineraries route via Skopje (SKP) or Tirana (TIA) because frequency is higher; onward travel is typically 15-20 min by taxi from OHD, ~3-4 hr by coach/car from SKP, or ~2.5-3 hr from TIA depending on border traffic.",
     "airports": [
       {

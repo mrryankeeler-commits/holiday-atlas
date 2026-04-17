@@ -77,6 +77,15 @@ Before approval/merge, confirm all of the following:
 - `prac.fltNote` references route seasonality and/or transfer reality for that destination.
 - Metadata in `data/locations/index.json` matches the corresponding location file (`id`, `city`, `country`, `region`, `lat`, `lng`).
 
+## Direct-flight semantics (destination vs gateway)
+- `prac.directFrom` is the destination-level nonstop truth map used by the renderer for route badges.
+  - Keep keys aligned with UI departure codes (`LGW`, `LCY`) and store booleans.
+  - Set `true` only when there is a realistic nonstop from that origin to the destination itself.
+- `prac.airports[*].directFrom` is airport-level metadata for each listed gateway airport.
+  - Do not use airport-level `directFrom` to imply destination-level nonstop availability.
+- `prac.directGW` is legacy and should mirror `prac.directFrom.LGW` only when the destination itself has LGW nonstop service.
+- If `prac.fltNote` says the destination has no airport or no practical direct/nonstop routing, destination-level direct flags must be `false`.
+
 ## Seasonality scoring provenance + rubric
 When a location file includes month-level `busy`, `ac`, and `fl` values, keep a consistent provenance object at `source.scoring`.
 

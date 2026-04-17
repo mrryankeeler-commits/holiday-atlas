@@ -66,6 +66,17 @@ GENERIC_CONTENT_PATTERNS = {
         re.compile(r"^ideal for travelers of all ages\.?$", flags=re.IGNORECASE),
     ),
 }
+DEPARTURE_AIRPORT_CODES = ("LGW", "LCY")
+NO_DIRECT_ROUTE_PATTERNS = (
+    re.compile(r"\bno\s+(?:practical\s+|routine\s+|regular\s+)?(?:direct|non[-\s]?stop)\b", flags=re.IGNORECASE),
+    re.compile(r"\bwithout\s+(?:practical\s+)?(?:direct|non[-\s]?stop)\b", flags=re.IGNORECASE),
+)
+NO_AIRPORT_PROSE_PATTERNS = (
+    re.compile(r"\bhas no (?:major\s+)?(?:commercial\s+)?airport\b", flags=re.IGNORECASE),
+    re.compile(r"\bno (?:major\s+)?commercial airport\b", flags=re.IGNORECASE),
+    re.compile(r"\bno airport of (?:its|their) own\b", flags=re.IGNORECASE),
+    re.compile(r"\bno airport\b", flags=re.IGNORECASE),
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -115,6 +126,11 @@ def _looks_generic_hls(text: str) -> bool:
 
 def _looks_generic_todo_desc(text: str) -> bool:
     return _matches_any_pattern(text, "todo_desc")
+
+
+def _matches_any_regex(text: str, patterns: tuple[re.Pattern[str], ...]) -> bool:
+    cleaned = " ".join(str(text).strip().split())
+    return any(pattern.search(cleaned) for pattern in patterns)
 
 
 def validate_index(index_path: Path, locations_root: Path, errors: list[str]) -> list[str]:
@@ -301,6 +317,35 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
 
         if "directGW" in prac and not isinstance(prac["directGW"], bool):
             add_error(errors, file_path, "invalid prac.directGW (expected boolean)")
+        if "directFrom" in prac:
+            direct_from = prac["directFrom"]
+            if not isinstance(direct_from, dict):
+                add_error(errors, file_path, "invalid prac.directFrom (expected object)")
+            else:
+                for code in DEPARTURE_AIRPORT_CODES:
+                    if code in direct_from and not isinstance(direct_from[code], bool):
+                        add_error(errors, file_path, f"invalid prac.directFrom.{code} (expected boolean)")
+        else:
+            direct_from = {}
+
+        flt_note = prac.get("fltNote", "")
+        has_no_direct_phrase = isinstance(flt_note, str) and _matches_any_regex(flt_note, NO_DIRECT_ROUTE_PATTERNS)
+        has_no_airport_phrase = isinstance(flt_note, str) and _matches_any_regex(flt_note, NO_AIRPORT_PROSE_PATTERNS)
+        dest_direct_lgw = bool(prac.get("directGW")) or bool(direct_from.get("LGW"))
+        dest_direct_any = any(bool(direct_from.get(code)) for code in DEPARTURE_AIRPORT_CODES) or bool(prac.get("directGW"))
+
+        if dest_direct_lgw and (has_no_direct_phrase or has_no_airport_phrase):
+            add_error(
+                errors,
+                file_path,
+                "destination direct LGW is true but prac.fltNote states no direct/no-airport routing for the destination",
+            )
+        if dest_direct_any and has_no_airport_phrase:
+            add_error(
+                errors,
+                file_path,
+                "destination direct flags must be false when prac.fltNote says the destination has no airport",
+            )
 
         for field in sorted(OPTIONAL_PRAC_STRING_FIELDS):
             if field in prac and not isinstance(prac[field], str):

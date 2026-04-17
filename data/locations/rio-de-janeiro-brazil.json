@@ -66,6 +66,10 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Nonstop UK service to Rio is seasonal; if fares spike, compare one-stop itineraries via São Paulo (GRU) and keep 3-4 hours minimum to clear immigration, transfer terminals, and re-check bags on separate tickets.",
     "airports": [
       {

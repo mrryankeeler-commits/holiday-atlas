@@ -47,7 +47,11 @@
       "spd": "30-120 Mbps",
       "note": "City-center accommodations and cafés are usually dependable; confirm speed if you need to work remotely."
     },
-    "directGW": true,
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
     "fltNote": "Dahab has no airport of its own; most arrivals use Sharm el-Sheikh then a road transfer (about 1–1.5 hours).",
     "airports": [
       {

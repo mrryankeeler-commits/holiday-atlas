@@ -66,6 +66,10 @@
       "note": "Good in most villas/hotels; verify speeds for remote work stays."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Mauritius itineraries almost always route through MRU: nonstop London service is strongest in winter-sun/festive windows, while many UK/Ireland departures in shoulder months connect via Gulf or major European hubs (for example Doha, Dubai, Paris, or Istanbul). Reunion (RUN) only works as a backup when paired with a separate inter-island hop, so missed-connection risk and baggage recheck time are higher. UK demand pressure is usually highest in late July-August and late December.",
     "airports": [
       {

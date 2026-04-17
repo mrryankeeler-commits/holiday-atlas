@@ -65,7 +65,11 @@
       "spd": "40–150 Mbps",
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
-    "directGW": true,
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
     "fltNote": "Ronda has no airport. AGP (Málaga) is usually the most frequent/lowest-fare gateway with more late arrivals, while SVQ (Seville) can work well for west-Andalusia loops but has fewer nonstop UK/Ireland frequencies in many months. For same-day arrival reliability, pre-book bus/rail legs or a transfer car before evening cut-offs.",
     "airports": [
       {

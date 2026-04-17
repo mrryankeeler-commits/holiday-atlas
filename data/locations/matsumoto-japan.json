@@ -66,6 +66,10 @@
       "note": "Strong in city hotels and station-area cafés; mountain lodges vary."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "For UK/Ireland arrivals, Haneda (HND) and Narita (NRT) are usually the most reliable long-haul entry points; continue to Matsumoto by limited domestic sectors to MMJ or, more commonly, by JR rail via Tokyo/Shinjuku, with strongest booking pressure around sakura (late Mar-Apr), Golden Week (late Apr-early May), Obon (mid-Aug), and autumn foliage weekends.",
     "airports": [
       {

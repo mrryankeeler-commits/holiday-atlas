@@ -65,7 +65,11 @@
       "spd": "80-400 Mbps",
       "note": "Excellent Korea-wide connectivity including public Wi-Fi in transit nodes."
     },
-    "directGW": true,
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
     "fltNote": "No direct UK flights to Suncheon itself; travelers usually enter via Seoul (often nonstop from London) then continue by KTX/ITX rail or domestic connection, with spring blossom and autumn foliage peaks.",
     "airports": [
       {

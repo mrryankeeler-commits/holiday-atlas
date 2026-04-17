@@ -66,6 +66,10 @@
       "note": "Good enough for routine remote work in apartments and cafés, though speeds vary by building and peak occupancy."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Fuerteventura has regular UK nonstop service (to FUE) from multiple airports; fares usually rise in school-holiday peaks (especially summer and Christmas).",
     "airports": [
       {

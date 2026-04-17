@@ -66,6 +66,10 @@
       "note": "Strong in Bavaro/Cap Cana resorts and coworking-friendly cafés at BlueMall Punta Cana; keep a local eSIM for outages on excursion days in Macao, Uvero Alto, and inland Higüey."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "PUJ is a major Caribbean leisure gateway: nonstop UK service is usually concentrated in winter sun demand (roughly Nov–Apr, strongest around Christmas/New Year and Feb half-term) with additional package-led rotations in parts of summer; May–Jun and Sep–Oct are typically the easiest months to find lower fares, while SDQ is the fallback for cheaper one-stop flexibility.",
     "airports": [
       {

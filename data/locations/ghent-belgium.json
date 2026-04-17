@@ -48,6 +48,10 @@
       "note": "City-center accommodations and cafés are usually dependable; confirm speed if you need to work remotely."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Ghent is usually easiest via Brussels Airport, then train or car onward (around 1 hour).",
     "airports": [
       {

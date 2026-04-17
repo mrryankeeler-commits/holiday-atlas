@@ -86,6 +86,10 @@
       "note": "Fast and reliable WiFi across hotels and cafes. Good 4G/5G coverage throughout the city. Increasingly good coworking scene especially in Karaköy, Beyoğlu and the Asian shore. Note: some social media platforms have faced periodic restrictions in Turkey — a VPN is advisable."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "easyJet flies direct LGW → Istanbul Sabiha Gökçen (SAW, Asian side) year-round. Turkish Airlines and others operate from Heathrow to Istanbul Airport (IST, European side). Flight time approx. 3 h 30 min.",
     "airports": [
       {

@@ -66,6 +66,10 @@
       "note": "Connectivity in resorts is improving but still uneven; local SIM/eSIM data is advisable for dependable coverage."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection. Return fares are often ~£180–£380 off-peak, ~£380–£560 in shoulder demand, and ~£560+ during winter-sun and school-holiday peaks.",
     "airports": [
       {

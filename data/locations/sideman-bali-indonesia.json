@@ -66,6 +66,10 @@
       "note": "Usable in most villas, but valley storms can cause short dropouts."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Sideman is reached via Denpasar (DPS). UK/Ireland itineraries are typically one-stop via Singapore, Doha, Dubai, Kuala Lumpur, or Istanbul, then a 1.5-2.5 hour road transfer east. Competition and fares are usually strongest in July-August and over Christmas/New Year; May-June and September-October often balance price and weather best. Lombok (LOP) is an alternate only when intentionally combining islands, since boat + road legs add weather and timing risk.",
     "airports": [
       {

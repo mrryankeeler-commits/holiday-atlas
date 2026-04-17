@@ -66,6 +66,10 @@
       "note": "Many surf camps offer workable Wi-Fi, but speeds vary by occupancy."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Tamraght is primarily reached via Agadir (AGA), where UK nonstop coverage is strongest in winter-sun and peak summer weeks; outside those periods, many UK/Ireland routings connect via Casablanca, Lisbon, Madrid, or London. Marrakech (RAK) is the main fallback gateway when AGA schedules thin out, but the added road transfer can materially extend total travel time. Easter, July-August, and Christmas/New Year usually bring the highest airfare and seat-pressure months.",
     "airports": [
       {
