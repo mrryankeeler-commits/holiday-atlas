@@ -101,6 +101,30 @@ Also manually confirm:
 - every file id matches filename
 - new locations open in app without payload errors
 
+### Essentials-field remediation checklist (good vs bad examples)
+
+Use this when validation flags `prac.visa`, `prac.currency`, `prac.lang`, or `prac.tz` as generic.
+
+- `prac.tz`
+  - ✅ Good: `Europe/Lisbon (UTC+0 winter, UTC+1 summer)`
+  - ❌ Bad: `see destination local timezone`
+  - Rule: include a real timezone identifier and/or a concrete UTC/GMT offset clue.
+
+- `prac.lang`
+  - ✅ Good: `Portuguese; English common in tourist areas`
+  - ❌ Bad: `local language plus variable English`
+  - Rule: name real language(s), then add English-usage nuance.
+
+- `prac.visa`
+  - ✅ Good: `UK and Irish passport holders can enter visa-free for up to 90 days; always verify latest rules.`
+  - ❌ Bad: `Always verify entry rules before travel.`
+  - Rule: include country/passport policy context (who, what permission type, and often duration), not only a generic warning.
+
+- `prac.currency`
+  - ✅ Good: `Euro (EUR); cards widely accepted, cash useful in small towns`
+  - ❌ Bad: `standard`
+  - Rule: name the local currency explicitly and optionally add practical payment context.
+
 ---
 
 ## 7) App smoke check
