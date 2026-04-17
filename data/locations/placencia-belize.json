@@ -17,75 +17,88 @@
   },
   "city": "Placencia",
   "country": "Belize",
-  "region": "Belize region",
-  "desc": "Placencia is a strong base for exploring Belize with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "region": "Stann Creek District",
+  "desc": "Placencia is Belize's laid-back Caribbean peninsula for reef access, cayes, and inland jungle add-ons, with the biggest planning decision being dry-season convenience versus rainy-season value.",
   "hls": [
-    "Seasonal climate profile benchmarked for Placencia",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Top base for boat trips to Silk Caye, Laughing Bird Caye, and barrier-reef snorkel/dives.",
+    "Placencia Village, Seine Bight, and Maya Beach offer different vibes from walkable to resort-style.",
+    "Dry season (roughly Feb–Apr) usually brings the clearest beach conditions and easiest logistics.",
+    "Rainier months can still work well for slower stays, lower rates, and greener inland excursions.",
+    "Good split-stay candidate with Cockscomb Basin, Hopkins, or San Ignacio for jungle contrast.",
+    "Strong seafood-focused dining with a relaxed barefoot-evening atmosphere."
   ],
   "todo": [
     {
-      "name": "Walk central Placencia",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Barrier reef snorkel or dive day",
+      "cat": "Marine",
+      "desc": "Book a full-day reef trip (often with cayes stop) and prioritize calm-weather windows for best visibility."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Placencia Sidewalk + village food loop",
+      "cat": "Local life",
+      "desc": "Walk the village lanes and beach stretch, stopping at small cafés and seafood grills."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Cockscomb Basin wildlife day",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Head inland for river tubing, trails, and birdwatching in Belize's protected rainforest zone."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Sailing/sunset cruise",
+      "cat": "Scenic",
+      "desc": "Use a half-day lagoon or coastal sail for sunset light and quieter peninsula views."
+    },
+    {
+      "name": "Maya Beach chill day",
+      "cat": "Relaxation",
+      "desc": "Keep one low-structure beach day for paddleboarding, swimming, and recovery between tours."
+    },
+    {
+      "name": "Garifuna culture add-on",
+      "cat": "Culture",
+      "desc": "Pair with a Hopkins visit for drumming, food, and Garifuna heritage experiences."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "15–80 Mbps",
+      "note": "Solid in higher-end resorts and cowork-friendly cafés; slower or less stable in budget stays and stormy weather."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No regular UK nonstop to Placencia; typical routing is UK → Belize City (BZE) via US/Central America, then domestic flight to Placencia (PLJ) or 3–4 hour road transfer. Return fares are often ~£620–£980 off-peak, ~£980–£1,300 in shoulder demand, and ~£1,300+ over Christmas/New Year and Easter periods.",
+    "airports": [
+      {
+        "name": "Placencia Airport",
+        "code": "PLJ",
+        "km": 3,
+        "dgw": false
+      },
+      {
+        "name": "Philip S. W. Goldson International Airport (Belize City)",
+        "code": "BZE",
+        "km": 220,
+        "dgw": false
+      }
+    ],
+    "currency": "Belize Dollar (BZD, pegged to USD at 2:1); USD is widely accepted, but change may return in BZD.",
+    "lang": "English is official; Belizean Kriol and Spanish are common in daily interactions.",
+    "tz": "UTC-06:00 (Belize, no DST).",
+    "visa": "Check Belize entry requirements and any transit documentation needed for your connection routing.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Snorkel/diving trips",
+      "Relaxed beach stays",
+      "Couples escapes",
+      "Reef + jungle combo itineraries",
+      "Shoulder-season value"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Hurricane season (Jun–Nov) can disrupt marine outings and domestic flight schedules.",
+      "Seaweed (sargassum) levels vary by period and wind pattern—check recent local reports if beach quality is a priority.",
+      "ATMs are limited on the peninsula versus Belize City, so keep a cash buffer."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "February to April is usually the easiest all-round window for reef visibility and beach weather; June and November can offer better prices with manageable weather flexibility.",
   "months": [
     {
       "m": "Jan",
