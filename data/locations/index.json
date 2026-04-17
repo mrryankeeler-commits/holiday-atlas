@@ -3,7 +3,7 @@
     "id": "a-lat-vietnam",
     "city": "Đà Lạt",
     "country": "Vietnam",
-    "region": "Vietnam region",
+    "region": "Central Highlands (Lâm Đồng Province)",
     "lat": 11.9404,
     "lng": 108.4583
   },
@@ -35,7 +35,7 @@
     "id": "arequipa-peru",
     "city": "Arequipa",
     "country": "Peru",
-    "region": "Peru region",
+    "region": "Arequipa Region",
     "lat": -16.409,
     "lng": -71.5375
   },
@@ -59,7 +59,7 @@
     "id": "asuncion-paraguay",
     "city": "Asunción",
     "country": "Paraguay",
-    "region": "Paraguay region",
+    "region": "Gran Asunción (Central Department)",
     "lat": -25.2637,
     "lng": -57.5759
   },
@@ -123,7 +123,7 @@
     "id": "bishkek-kyrgyzstan",
     "city": "Bishkek",
     "country": "Kyrgyzstan",
-    "region": "Kyrgyzstan region",
+    "region": "Chüy Region",
     "lat": 42.8746,
     "lng": 74.5698
   },
@@ -211,7 +211,7 @@
     "id": "cartagena-colombia",
     "city": "Cartagena",
     "country": "Colombia",
-    "region": "Colombia region",
+    "region": "Bolívar Department (Caribbean Coast)",
     "lat": 10.391,
     "lng": -75.4794
   },
@@ -371,7 +371,7 @@
     "id": "havana-cuba",
     "city": "Havana",
     "country": "Cuba",
-    "region": "Cuba region",
+    "region": "Western Cuba (La Habana)",
     "lat": 23.1136,
     "lng": -82.3666
   },
@@ -387,7 +387,7 @@
     "id": "hoa-lu-ninh-binh-vietnam",
     "city": "Hoa Lư / Ninh Bình",
     "country": "Vietnam",
-    "region": "Vietnam region",
+    "region": "Ninh Bình Province (Red River Delta)",
     "lat": 20.253,
     "lng": 105.975
   },
@@ -395,7 +395,7 @@
     "id": "hoi-an-vietnam",
     "city": "Hội An",
     "country": "Vietnam",
-    "region": "Vietnam region",
+    "region": "Central Coast (Quảng Nam Province)",
     "lat": 15.8801,
     "lng": 108.338
   },
@@ -435,7 +435,7 @@
     "id": "kampot-cambodia",
     "city": "Kampot",
     "country": "Cambodia",
-    "region": "Cambodia region",
+    "region": "Kampot Province (South Coast)",
     "lat": 10.6104,
     "lng": 104.1815
   },
@@ -483,7 +483,7 @@
     "id": "kutaisi-georgia",
     "city": "Kutaisi",
     "country": "Georgia",
-    "region": "Georgia region",
+    "region": "Imereti Region",
     "lat": 42.2679,
     "lng": 42.6946
   },
@@ -507,7 +507,7 @@
     "id": "lima-peru",
     "city": "Lima",
     "country": "Peru",
-    "region": "Peru region",
+    "region": "Lima Region (Central Coast)",
     "lat": -12.0464,
     "lng": -77.0428
   },
@@ -523,7 +523,7 @@
     "id": "luang-prabang-laos",
     "city": "Luang Prabang",
     "country": "Laos",
-    "region": "Laos region",
+    "region": "Luang Prabang Province",
     "lat": 19.8856,
     "lng": 102.1347
   },
@@ -531,7 +531,7 @@
     "id": "madeira-portugal",
     "city": "Madeira",
     "country": "Portugal",
-    "region": "Portugal region",
+    "region": "Madeira Autonomous Region",
     "lat": 32.6669,
     "lng": -16.9241
   },
@@ -539,7 +539,7 @@
     "id": "makassar-indonesia",
     "city": "Makassar",
     "country": "Indonesia",
-    "region": "Indonesia region",
+    "region": "South Sulawesi (Makassar Strait Coast)",
     "lat": -5.1477,
     "lng": 119.4327
   },
@@ -563,7 +563,7 @@
     "id": "manado-indonesia",
     "city": "Manado",
     "country": "Indonesia",
-    "region": "Indonesia region",
+    "region": "North Sulawesi (Minahasa Peninsula)",
     "lat": 1.4748,
     "lng": 124.8421
   },
@@ -579,7 +579,7 @@
     "id": "medellin-colombia",
     "city": "Medellín",
     "country": "Colombia",
-    "region": "Colombia region",
+    "region": "Aburrá Valley (Antioquia Department)",
     "lat": 6.2442,
     "lng": -75.5812
   },
@@ -603,7 +603,7 @@
     "id": "minca-colombia",
     "city": "Minca",
     "country": "Colombia",
-    "region": "Colombia region",
+    "region": "Sierra Nevada de Santa Marta (Magdalena)",
     "lat": 11.1447,
     "lng": -74.1153
   },
@@ -723,7 +723,7 @@
     "id": "puerto-ayora-ecuador",
     "city": "Puerto Ayora",
     "country": "Ecuador",
-    "region": "Ecuador region",
+    "region": "Galápagos Islands (Santa Cruz)",
     "lat": -0.7402,
     "lng": -90.3138
   },
@@ -731,7 +731,7 @@
     "id": "puno-peru",
     "city": "Puno",
     "country": "Peru",
-    "region": "Peru region",
+    "region": "Puno Region (Lake Titicaca)",
     "lat": -15.8402,
     "lng": -70.0219
   },
@@ -739,7 +739,7 @@
     "id": "punta-cana-dominican-republic",
     "city": "Punta Cana",
     "country": "Dominican Republic",
-    "region": "Dominican Republic region",
+    "region": "La Altagracia Province (East Coast)",
     "lat": 18.5601,
     "lng": -68.3725
   },
@@ -755,7 +755,7 @@
     "id": "quetzaltenango-guatemala",
     "city": "Quetzaltenango",
     "country": "Guatemala",
-    "region": "Guatemala region",
+    "region": "Western Highlands (Quetzaltenango Department)",
     "lat": 14.8347,
     "lng": -91.5186
   },
@@ -763,7 +763,7 @@
     "id": "quito-ecuador",
     "city": "Quito",
     "country": "Ecuador",
-    "region": "Ecuador region",
+    "region": "Pichincha Province (Andean Highlands)",
     "lat": -0.1807,
     "lng": -78.4678
   },
@@ -771,7 +771,7 @@
     "id": "reckong-peo-india",
     "city": "Reckong Peo",
     "country": "India",
-    "region": "India region",
+    "region": "Kinnaur District (Himachal Pradesh)",
     "lat": 31.5404,
     "lng": 78.2728
   },
@@ -795,7 +795,7 @@
     "id": "rio-de-janeiro-brazil",
     "city": "Rio de Janeiro",
     "country": "Brazil",
-    "region": "Brazil region",
+    "region": "Rio de Janeiro State (Southeast Coast)",
     "lat": -22.9068,
     "lng": -43.1729
   },
@@ -811,7 +811,7 @@
     "id": "ronda-spain",
     "city": "Ronda",
     "country": "Spain",
-    "region": "Spain region",
+    "region": "Serranía de Ronda (Andalusia)",
     "lat": 36.7467,
     "lng": -5.1612
   },
@@ -827,7 +827,7 @@
     "id": "san-pedro-la-laguna-guatemala",
     "city": "San Pedro La Laguna",
     "country": "Guatemala",
-    "region": "Guatemala region",
+    "region": "Lake Atitlán (Sololá Department)",
     "lat": 14.6929,
     "lng": -91.2722
   },
@@ -835,7 +835,7 @@
     "id": "santa-marta-colombia",
     "city": "Santa Marta",
     "country": "Colombia",
-    "region": "Colombia region",
+    "region": "Magdalena Department (Caribbean Coast)",
     "lat": 11.2408,
     "lng": -74.199
   },
@@ -899,7 +899,7 @@
     "id": "tangalla-sri-lanka",
     "city": "Tangalla",
     "country": "Sri Lanka",
-    "region": "Sri Lanka region",
+    "region": "Southern Province (South Coast)",
     "lat": 6.0243,
     "lng": 80.7941
   },
@@ -923,7 +923,7 @@
     "id": "tilcara-argentina",
     "city": "Tilcara",
     "country": "Argentina",
-    "region": "Argentina region",
+    "region": "Quebrada de Humahuaca (Jujuy Province)",
     "lat": -23.5775,
     "lng": -65.394
   },
@@ -939,7 +939,7 @@
     "id": "tokyo-japan",
     "city": "Tokyo",
     "country": "Japan",
-    "region": "Japan region",
+    "region": "Kantō Region",
     "lat": 35.6762,
     "lng": 139.6503
   },
@@ -971,7 +971,7 @@
     "id": "ulaanbaatar-mongolia",
     "city": "Ulaanbaatar",
     "country": "Mongolia",
-    "region": "Mongolia region",
+    "region": "Ulaanbaatar Capital Region",
     "lat": 47.8864,
     "lng": 106.9057
   },
