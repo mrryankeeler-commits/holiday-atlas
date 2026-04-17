@@ -1,0 +1,141 @@
+{
+  "id": "ohrid-north-macedonia",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Ohrid",
+  "country": "North Macedonia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Jan",
+      "Avg temp (°C)": "1.1",
+      "Avg high (°C)": "5.0",
+      "Avg low (°C)": "-2.8",
+      "Daylight (h/day)": "9.6",
+      "Cloud cover (%)": "53",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Feb",
+      "Avg temp (°C)": "2.2",
+      "Avg high (°C)": "6.7",
+      "Avg low (°C)": "-1.7",
+      "Daylight (h/day)": "10.7",
+      "Cloud cover (%)": "53",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Mar",
+      "Avg temp (°C)": "5.6",
+      "Avg high (°C)": "10.0",
+      "Avg low (°C)": "1.1",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "51",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Apr",
+      "Avg temp (°C)": "9.4",
+      "Avg high (°C)": "14.4",
+      "Avg low (°C)": "5.0",
+      "Daylight (h/day)": "13.4",
+      "Cloud cover (%)": "48",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "May",
+      "Avg temp (°C)": "13.9",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "8.3",
+      "Daylight (h/day)": "14.5",
+      "Cloud cover (%)": "42",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Jun",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "23.9",
+      "Avg low (°C)": "11.7",
+      "Daylight (h/day)": "15.1",
+      "Cloud cover (%)": "24",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Jul",
+      "Avg temp (°C)": "20.6",
+      "Avg high (°C)": "26.7",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "14.8",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Aug",
+      "Avg temp (°C)": "20.6",
+      "Avg high (°C)": "26.1",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "13.7",
+      "Cloud cover (%)": "15",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Sep",
+      "Avg temp (°C)": "16.1",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "31",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Oct",
+      "Avg temp (°C)": "11.7",
+      "Avg high (°C)": "16.7",
+      "Avg low (°C)": "6.7",
+      "Daylight (h/day)": "11.1",
+      "Cloud cover (%)": "45",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Nov",
+      "Avg temp (°C)": "6.7",
+      "Avg high (°C)": "11.1",
+      "Avg low (°C)": "2.2",
+      "Daylight (h/day)": "9.9",
+      "Cloud cover (%)": "54",
+      "Rainfall (mm)": "73.7",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    },
+    {
+      "Location": "Ohrid, North Macedonia",
+      "Month": "Dec",
+      "Avg temp (°C)": "2.8",
+      "Avg high (°C)": "6.7",
+      "Avg low (°C)": "-1.1",
+      "Daylight (h/day)": "9.3",
+      "Cloud cover (%)": "56",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/85621/Average-Weather-in-Ohrid-Macedonia-Year-Round"
+    }
+  ]
+}

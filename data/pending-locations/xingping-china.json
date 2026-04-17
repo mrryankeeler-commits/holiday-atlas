@@ -1,0 +1,141 @@
+{
+  "id": "xingping-china",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Xingping",
+  "country": "China",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Xingping, China",
+      "Month": "Jan",
+      "Avg temp (°C)": "-6.1",
+      "Avg high (°C)": "0.6",
+      "Avg low (°C)": "-11.1",
+      "Daylight (h/day)": "10.0",
+      "Cloud cover (%)": "35",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Feb",
+      "Avg temp (°C)": "-2.8",
+      "Avg high (°C)": "3.3",
+      "Avg low (°C)": "-7.8",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "42",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Mar",
+      "Avg temp (°C)": "2.2",
+      "Avg high (°C)": "9.4",
+      "Avg low (°C)": "-2.8",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "50",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Apr",
+      "Avg temp (°C)": "8.3",
+      "Avg high (°C)": "16.1",
+      "Avg low (°C)": "2.2",
+      "Daylight (h/day)": "13.1",
+      "Cloud cover (%)": "49",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "May",
+      "Avg temp (°C)": "13.9",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "7.2",
+      "Daylight (h/day)": "14.1",
+      "Cloud cover (%)": "49",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Jun",
+      "Avg temp (°C)": "18.3",
+      "Avg high (°C)": "25.0",
+      "Avg low (°C)": "11.7",
+      "Daylight (h/day)": "14.6",
+      "Cloud cover (%)": "46",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Jul",
+      "Avg temp (°C)": "20.6",
+      "Avg high (°C)": "27.2",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "14.3",
+      "Cloud cover (%)": "40",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Aug",
+      "Avg temp (°C)": "18.9",
+      "Avg high (°C)": "25.6",
+      "Avg low (°C)": "12.8",
+      "Daylight (h/day)": "13.5",
+      "Cloud cover (%)": "37",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Sep",
+      "Avg temp (°C)": "13.9",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "8.3",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "42",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Oct",
+      "Avg temp (°C)": "7.8",
+      "Avg high (°C)": "14.4",
+      "Avg low (°C)": "2.8",
+      "Daylight (h/day)": "11.2",
+      "Cloud cover (%)": "43",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Nov",
+      "Avg temp (°C)": "1.1",
+      "Avg high (°C)": "7.8",
+      "Avg low (°C)": "-3.9",
+      "Daylight (h/day)": "10.3",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    },
+    {
+      "Location": "Xingping, China",
+      "Month": "Dec",
+      "Avg temp (°C)": "-4.4",
+      "Avg high (°C)": "2.2",
+      "Avg low (°C)": "-9.4",
+      "Daylight (h/day)": "9.8",
+      "Cloud cover (%)": "30",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/116344/Average-Weather-in-Xingping-China-Year-Round"
+    }
+  ]
+}

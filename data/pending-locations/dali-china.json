@@ -1,0 +1,141 @@
+{
+  "id": "dali-china",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Dali",
+  "country": "China",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Dali, China",
+      "Month": "Jan",
+      "Avg temp (°C)": "6.7",
+      "Avg high (°C)": "15.0",
+      "Avg low (°C)": "0.6",
+      "Daylight (h/day)": "10.7",
+      "Cloud cover (%)": "13",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Feb",
+      "Avg temp (°C)": "8.9",
+      "Avg high (°C)": "17.2",
+      "Avg low (°C)": "2.2",
+      "Daylight (h/day)": "11.3",
+      "Cloud cover (%)": "12",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Mar",
+      "Avg temp (°C)": "12.2",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "5.6",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "17",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Apr",
+      "Avg temp (°C)": "16.1",
+      "Avg high (°C)": "23.3",
+      "Avg low (°C)": "9.4",
+      "Daylight (h/day)": "12.8",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "May",
+      "Avg temp (°C)": "18.9",
+      "Avg high (°C)": "25.6",
+      "Avg low (°C)": "12.8",
+      "Daylight (h/day)": "13.4",
+      "Cloud cover (%)": "48",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Jun",
+      "Avg temp (°C)": "20.0",
+      "Avg high (°C)": "26.1",
+      "Avg low (°C)": "15.0",
+      "Daylight (h/day)": "13.7",
+      "Cloud cover (%)": "73",
+      "Rainfall (mm)": "101.6",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Jul",
+      "Avg temp (°C)": "20.0",
+      "Avg high (°C)": "25.0",
+      "Avg low (°C)": "15.6",
+      "Daylight (h/day)": "13.5",
+      "Cloud cover (%)": "83",
+      "Rainfall (mm)": "137.2",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Aug",
+      "Avg temp (°C)": "19.4",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "15.0",
+      "Daylight (h/day)": "13.0",
+      "Cloud cover (%)": "78",
+      "Rainfall (mm)": "134.6",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Sep",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "22.8",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "63",
+      "Rainfall (mm)": "106.7",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Oct",
+      "Avg temp (°C)": "15.0",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "11.5",
+      "Cloud cover (%)": "42",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Nov",
+      "Avg temp (°C)": "10.6",
+      "Avg high (°C)": "17.2",
+      "Avg low (°C)": "5.6",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "25",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    },
+    {
+      "Location": "Dali, China",
+      "Month": "Dec",
+      "Avg temp (°C)": "7.2",
+      "Avg high (°C)": "15.0",
+      "Avg low (°C)": "2.2",
+      "Daylight (h/day)": "10.6",
+      "Cloud cover (%)": "18",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/113624/Average-Weather-in-Dali-China-Year-Round"
+    }
+  ]
+}

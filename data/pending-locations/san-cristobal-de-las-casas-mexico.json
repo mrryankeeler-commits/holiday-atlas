@@ -1,0 +1,141 @@
+{
+  "id": "san-cristobal-de-las-casas-mexico",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "San Cristóbal de las Casas",
+  "country": "México",
+  "region": "",
+  "rows": [
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Jan",
+      "Avg temp (°C)": "11.1",
+      "Avg high (°C)": "17.2",
+      "Avg low (°C)": "6.7",
+      "Daylight (h/day)": "11.3",
+      "Cloud cover (%)": "28",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Feb",
+      "Avg temp (°C)": "12.2",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "7.2",
+      "Daylight (h/day)": "11.6",
+      "Cloud cover (%)": "27",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Mar",
+      "Avg temp (°C)": "13.9",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "8.3",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "31",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Apr",
+      "Avg temp (°C)": "16.1",
+      "Avg high (°C)": "22.8",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "12.5",
+      "Cloud cover (%)": "49",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "May",
+      "Avg temp (°C)": "16.1",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "11.1",
+      "Daylight (h/day)": "12.9",
+      "Cloud cover (%)": "76",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Jun",
+      "Avg temp (°C)": "15.6",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "11.1",
+      "Daylight (h/day)": "13.1",
+      "Cloud cover (%)": "90",
+      "Rainfall (mm)": "208.3",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Jul",
+      "Avg temp (°C)": "15.0",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "13.0",
+      "Cloud cover (%)": "85",
+      "Rainfall (mm)": "172.7",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Aug",
+      "Avg temp (°C)": "15.0",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "12.7",
+      "Cloud cover (%)": "86",
+      "Rainfall (mm)": "195.6",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Sep",
+      "Avg temp (°C)": "15.0",
+      "Avg high (°C)": "20.0",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "90",
+      "Rainfall (mm)": "248.9",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Oct",
+      "Avg temp (°C)": "14.4",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "11.7",
+      "Cloud cover (%)": "76",
+      "Rainfall (mm)": "152.4",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Nov",
+      "Avg temp (°C)": "12.8",
+      "Avg high (°C)": "18.3",
+      "Avg low (°C)": "8.3",
+      "Daylight (h/day)": "11.3",
+      "Cloud cover (%)": "52",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    },
+    {
+      "Location": "San Cristóbal de las Casas, México",
+      "Month": "Dec",
+      "Avg temp (°C)": "11.7",
+      "Avg high (°C)": "17.2",
+      "Avg low (°C)": "7.2",
+      "Daylight (h/day)": "11.1",
+      "Cloud cover (%)": "37",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/10595/Average-Weather-in-San-Crist%C3%B3bal-de-las-Casas-Mexico-Year-Round"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "swakopmund-namibia",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Swakopmund",
+  "country": "Namibia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Jan",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "16.1",
+      "Daylight (h/day)": "13.3",
+      "Cloud cover (%)": "27",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Feb",
+      "Avg temp (°C)": "18.3",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "16.1",
+      "Daylight (h/day)": "12.8",
+      "Cloud cover (%)": "25",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Mar",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "15",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "16",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Apr",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "11.5",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "May",
+      "Avg temp (°C)": "16.7",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "12.2",
+      "Daylight (h/day)": "11",
+      "Cloud cover (%)": "7",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Jun",
+      "Avg temp (°C)": "16.1",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "11.7",
+      "Daylight (h/day)": "10.8",
+      "Cloud cover (%)": "8",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Jul",
+      "Avg temp (°C)": "15.6",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "11.1",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "9",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Aug",
+      "Avg temp (°C)": "14.4",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "10",
+      "Daylight (h/day)": "11.4",
+      "Cloud cover (%)": "9",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Sep",
+      "Avg temp (°C)": "13.9",
+      "Avg high (°C)": "18.9",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "12",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Oct",
+      "Avg temp (°C)": "14.4",
+      "Avg high (°C)": "18.9",
+      "Avg low (°C)": "11.7",
+      "Daylight (h/day)": "12.6",
+      "Cloud cover (%)": "13",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Nov",
+      "Avg temp (°C)": "15.6",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "13.2",
+      "Cloud cover (%)": "15",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    },
+    {
+      "Location": "Swakopmund, Namibia",
+      "Month": "Dec",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "20",
+      "Avg low (°C)": "14.4",
+      "Daylight (h/day)": "13.5",
+      "Cloud cover (%)": "17",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/76228/Average-Weather-in-Swakopmund-Namibia-Year-Round"
+    }
+  ]
+}

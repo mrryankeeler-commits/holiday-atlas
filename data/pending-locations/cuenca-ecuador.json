@@ -1,0 +1,141 @@
+{
+  "id": "cuenca-ecuador",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Cuenca",
+  "country": "Ecuador",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Jan",
+      "Avg temp (°C)": "12.8",
+      "Avg high (°C)": "16.1",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "86",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Feb",
+      "Avg temp (°C)": "12.8",
+      "Avg high (°C)": "16.7",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "90",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Mar",
+      "Avg temp (°C)": "13.3",
+      "Avg high (°C)": "17.2",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "89",
+      "Rainfall (mm)": "94.0",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Apr",
+      "Avg temp (°C)": "13.3",
+      "Avg high (°C)": "16.7",
+      "Avg low (°C)": "10.0",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "79",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "May",
+      "Avg temp (°C)": "11.7",
+      "Avg high (°C)": "15.0",
+      "Avg low (°C)": "8.9",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "63",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Jun",
+      "Avg temp (°C)": "10.0",
+      "Avg high (°C)": "12.8",
+      "Avg low (°C)": "7.8",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "49",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Jul",
+      "Avg temp (°C)": "8.9",
+      "Avg high (°C)": "11.7",
+      "Avg low (°C)": "6.7",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "43",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Aug",
+      "Avg temp (°C)": "8.9",
+      "Avg high (°C)": "12.2",
+      "Avg low (°C)": "6.7",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "42",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Sep",
+      "Avg temp (°C)": "10.0",
+      "Avg high (°C)": "13.3",
+      "Avg low (°C)": "7.2",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "54",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Oct",
+      "Avg temp (°C)": "10.6",
+      "Avg high (°C)": "13.9",
+      "Avg low (°C)": "8.3",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "70",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Nov",
+      "Avg temp (°C)": "11.7",
+      "Avg high (°C)": "15.0",
+      "Avg low (°C)": "8.9",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "80",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Ecuador",
+      "Month": "Dec",
+      "Avg temp (°C)": "12.2",
+      "Avg high (°C)": "15.6",
+      "Avg low (°C)": "9.4",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "82",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/19348/Average-Weather-in-Cuenca-Ecuador-Year-Round"
+    }
+  ]
+}

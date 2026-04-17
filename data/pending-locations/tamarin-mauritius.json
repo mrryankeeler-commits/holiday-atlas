@@ -1,0 +1,141 @@
+{
+  "id": "tamarin-mauritius",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Tamarin",
+  "country": "Mauritius",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Jan",
+      "Avg temp (°C)": "27.2",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "13.2",
+      "Cloud cover (%)": "58",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Feb",
+      "Avg temp (°C)": "27.2",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "12.8",
+      "Cloud cover (%)": "58",
+      "Rainfall (mm)": "114.3",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Mar",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "51",
+      "Rainfall (mm)": "83.8",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Apr",
+      "Avg temp (°C)": "25.6",
+      "Avg high (°C)": "28.3",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "11.6",
+      "Cloud cover (%)": "37",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "May",
+      "Avg temp (°C)": "23.9",
+      "Avg high (°C)": "26.7",
+      "Avg low (°C)": "21.7",
+      "Daylight (h/day)": "11.1",
+      "Cloud cover (%)": "18",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Jun",
+      "Avg temp (°C)": "22.8",
+      "Avg high (°C)": "25",
+      "Avg low (°C)": "20",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "11",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Jul",
+      "Avg temp (°C)": "21.7",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "19.4",
+      "Daylight (h/day)": "11",
+      "Cloud cover (%)": "11",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Aug",
+      "Avg temp (°C)": "21.7",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "19.4",
+      "Daylight (h/day)": "11.5",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Sep",
+      "Avg temp (°C)": "22.2",
+      "Avg high (°C)": "25",
+      "Avg low (°C)": "19.4",
+      "Daylight (h/day)": "12",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Oct",
+      "Avg temp (°C)": "23.3",
+      "Avg high (°C)": "26.1",
+      "Avg low (°C)": "20.6",
+      "Daylight (h/day)": "12.6",
+      "Cloud cover (%)": "18",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Nov",
+      "Avg temp (°C)": "25",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "13.1",
+      "Cloud cover (%)": "30",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    },
+    {
+      "Location": "Tamarin, Mauritius",
+      "Month": "Dec",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "13.3",
+      "Cloud cover (%)": "48",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/105628/Average-Weather-in-Tamarin-Mauritius-Year-Round"
+    }
+  ]
+}

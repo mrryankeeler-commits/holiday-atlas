@@ -1,0 +1,141 @@
+{
+  "id": "krong-kep-cambodia",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Krong Kep",
+  "country": "Cambodia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Jan",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "11.6",
+      "Cloud cover (%)": "57",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Feb",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "11.8",
+      "Cloud cover (%)": "54",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Mar",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "61",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Apr",
+      "Avg temp (°C)": "28.9",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "26.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "80",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "May",
+      "Avg temp (°C)": "29.4",
+      "Avg high (°C)": "32.2",
+      "Avg low (°C)": "27.8",
+      "Daylight (h/day)": "12.6",
+      "Cloud cover (%)": "90",
+      "Rainfall (mm)": "160.0",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Jun",
+      "Avg temp (°C)": "29.4",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "27.2",
+      "Daylight (h/day)": "12.7",
+      "Cloud cover (%)": "91",
+      "Rainfall (mm)": "276.9",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Jul",
+      "Avg temp (°C)": "28.9",
+      "Avg high (°C)": "31.1",
+      "Avg low (°C)": "27.2",
+      "Daylight (h/day)": "12.7",
+      "Cloud cover (%)": "90",
+      "Rainfall (mm)": "294.6",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Aug",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "26.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "91",
+      "Rainfall (mm)": "315.0",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Sep",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "26.7",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "89",
+      "Rainfall (mm)": "309.9",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Oct",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "26.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "83",
+      "Rainfall (mm)": "208.3",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Nov",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "26.1",
+      "Daylight (h/day)": "11.6",
+      "Cloud cover (%)": "72",
+      "Rainfall (mm)": "91.4",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    },
+    {
+      "Location": "Krong Kep, Cambodia",
+      "Month": "Dec",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "11.5",
+      "Cloud cover (%)": "61",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/115113/Average-Weather-in-Krong-Kep-Cambodia-Year-Round"
+    }
+  ]
+}

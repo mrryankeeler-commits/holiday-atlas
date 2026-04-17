@@ -1,0 +1,141 @@
+{
+  "id": "knysna-south-africa",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Knysna",
+  "country": "South Africa",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Jan",
+      "Avg temp (°C)": "21.1",
+      "Avg high (°C)": "25",
+      "Avg low (°C)": "17.2",
+      "Daylight (h/day)": "14.1",
+      "Cloud cover (%)": "18",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Feb",
+      "Avg temp (°C)": "21.1",
+      "Avg high (°C)": "25",
+      "Avg low (°C)": "17.8",
+      "Daylight (h/day)": "13.3",
+      "Cloud cover (%)": "16",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Mar",
+      "Avg temp (°C)": "20",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "16.7",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "24",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Apr",
+      "Avg temp (°C)": "18.3",
+      "Avg high (°C)": "22.8",
+      "Avg low (°C)": "15",
+      "Daylight (h/day)": "11.2",
+      "Cloud cover (%)": "36",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "May",
+      "Avg temp (°C)": "16.7",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "10.3",
+      "Cloud cover (%)": "40",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Jun",
+      "Avg temp (°C)": "15",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "11.1",
+      "Daylight (h/day)": "9.9",
+      "Cloud cover (%)": "36",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Jul",
+      "Avg temp (°C)": "14.4",
+      "Avg high (°C)": "18.9",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "10.2",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Aug",
+      "Avg temp (°C)": "14.4",
+      "Avg high (°C)": "18.9",
+      "Avg low (°C)": "11.1",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "32",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Sep",
+      "Avg temp (°C)": "15.6",
+      "Avg high (°C)": "19.4",
+      "Avg low (°C)": "11.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "38",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Oct",
+      "Avg temp (°C)": "16.7",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "13",
+      "Cloud cover (%)": "38",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Nov",
+      "Avg temp (°C)": "18.3",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "14.4",
+      "Daylight (h/day)": "13.9",
+      "Cloud cover (%)": "34",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    },
+    {
+      "Location": "Knysna, South Africa",
+      "Month": "Dec",
+      "Avg temp (°C)": "20",
+      "Avg high (°C)": "23.9",
+      "Avg low (°C)": "16.7",
+      "Daylight (h/day)": "14.4",
+      "Cloud cover (%)": "27",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/89137/Average-Weather-in-Knysna-Western-Cape-South-Africa-Year-Round"
+    }
+  ]
+}

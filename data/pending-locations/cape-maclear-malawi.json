@@ -1,0 +1,141 @@
+{
+  "id": "cape-maclear-malawi",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Cape Maclear",
+  "country": "Malawi",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Jan",
+      "Avg temp (°C)": "27.2",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "12.8",
+      "Cloud cover (%)": "82",
+      "Rainfall (mm)": "251.5",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Feb",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "12.5",
+      "Cloud cover (%)": "76",
+      "Rainfall (mm)": "200.7",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Mar",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "60",
+      "Rainfall (mm)": "121.9",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Apr",
+      "Avg temp (°C)": "25.6",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "11.8",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "May",
+      "Avg temp (°C)": "23.9",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "20.0",
+      "Daylight (h/day)": "11.5",
+      "Cloud cover (%)": "19",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Jun",
+      "Avg temp (°C)": "22.2",
+      "Avg high (°C)": "26.1",
+      "Avg low (°C)": "18.3",
+      "Daylight (h/day)": "11.3",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Jul",
+      "Avg temp (°C)": "22.2",
+      "Avg high (°C)": "26.1",
+      "Avg low (°C)": "18.3",
+      "Daylight (h/day)": "11.4",
+      "Cloud cover (%)": "9",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Aug",
+      "Avg temp (°C)": "23.9",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "19.4",
+      "Daylight (h/day)": "11.7",
+      "Cloud cover (%)": "10",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Sep",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "14",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Oct",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "26",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Nov",
+      "Avg temp (°C)": "28.9",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "12.8",
+      "Cloud cover (%)": "48",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    },
+    {
+      "Location": "Cape Maclear, Malawi",
+      "Month": "Dec",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "12.9",
+      "Cloud cover (%)": "75",
+      "Rainfall (mm)": "170.2",
+      "Source URL": "https://weatherspark.com/y/98053/Average-Weather-in-Monkey-Bay-Malawi-Year-Round"
+    }
+  ]
+}

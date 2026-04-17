@@ -1,0 +1,141 @@
+{
+  "id": "accra-ghana",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Accra",
+  "country": "Ghana",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Jan",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "11.8",
+      "Cloud cover (%)": "51",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Feb",
+      "Avg temp (°C)": "28.9",
+      "Avg high (°C)": "32.2",
+      "Avg low (°C)": "26.1",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "65",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Mar",
+      "Avg temp (°C)": "28.9",
+      "Avg high (°C)": "32.8",
+      "Avg low (°C)": "26.1",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "77",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Apr",
+      "Avg temp (°C)": "28.9",
+      "Avg high (°C)": "32.2",
+      "Avg low (°C)": "26.1",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "83",
+      "Rainfall (mm)": "83.8",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "May",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "31.1",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "83",
+      "Rainfall (mm)": "139.7",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Jun",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "69",
+      "Rainfall (mm)": "160.0",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Jul",
+      "Avg temp (°C)": "25.6",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "58",
+      "Rainfall (mm)": "66.0",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Aug",
+      "Avg temp (°C)": "25.0",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "55",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Sep",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "56",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Oct",
+      "Avg temp (°C)": "27.2",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "55",
+      "Rainfall (mm)": "83.8",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Nov",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "50",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    },
+    {
+      "Location": "Accra, Ghana",
+      "Month": "Dec",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "31.7",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "11.8",
+      "Cloud cover (%)": "44",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/42322/Average-Weather-in-Accra-Ghana-Year-Round"
+    }
+  ]
+}

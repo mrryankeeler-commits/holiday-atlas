@@ -1,0 +1,141 @@
+{
+  "id": "salento-colombia",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Salento",
+  "country": "Colombia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Jan",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "82",
+      "Rainfall (mm)": "106.7",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Feb",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "87",
+      "Rainfall (mm)": "124.5",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Mar",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "89",
+      "Rainfall (mm)": "144.8",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Apr",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "91",
+      "Rainfall (mm)": "203.2",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "May",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "88",
+      "Rainfall (mm)": "190.5",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Jun",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "81",
+      "Rainfall (mm)": "149.9",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Jul",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "76",
+      "Rainfall (mm)": "119.4",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Aug",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "77",
+      "Rainfall (mm)": "124.5",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Sep",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "83",
+      "Rainfall (mm)": "165.1",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Oct",
+      "Avg temp (°C)": "16.7",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "90",
+      "Rainfall (mm)": "210.8",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Nov",
+      "Avg temp (°C)": "16.7",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "89",
+      "Rainfall (mm)": "203.2",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    },
+    {
+      "Location": "Salento, Colombia",
+      "Month": "Dec",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "85",
+      "Rainfall (mm)": "144.8",
+      "Source URL": "https://weatherspark.com/y/22426/Average-Weather-in-Salento-Colombia-Year-Round"
+    }
+  ]
+}

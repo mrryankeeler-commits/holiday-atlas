@@ -1,0 +1,141 @@
+{
+  "id": "omonichi-japan",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Omonichi",
+  "country": "Japan",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Jan",
+      "Avg temp (°C)": "5.0",
+      "Avg high (°C)": "8.9",
+      "Avg low (°C)": "2.2",
+      "Daylight (h/day)": "10.1",
+      "Cloud cover (%)": "32",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Feb",
+      "Avg temp (°C)": "5.6",
+      "Avg high (°C)": "10.0",
+      "Avg low (°C)": "2.2",
+      "Daylight (h/day)": "11.0",
+      "Cloud cover (%)": "39",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Mar",
+      "Avg temp (°C)": "8.9",
+      "Avg high (°C)": "13.9",
+      "Avg low (°C)": "5.6",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "46",
+      "Rainfall (mm)": "94.0",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Apr",
+      "Avg temp (°C)": "14.4",
+      "Avg high (°C)": "18.9",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "13.1",
+      "Cloud cover (%)": "51",
+      "Rainfall (mm)": "109.2",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "May",
+      "Avg temp (°C)": "19.4",
+      "Avg high (°C)": "23.3",
+      "Avg low (°C)": "15.6",
+      "Daylight (h/day)": "14.0",
+      "Cloud cover (%)": "55",
+      "Rainfall (mm)": "132.1",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Jun",
+      "Avg temp (°C)": "23.3",
+      "Avg high (°C)": "26.7",
+      "Avg low (°C)": "20.0",
+      "Daylight (h/day)": "14.4",
+      "Cloud cover (%)": "67",
+      "Rainfall (mm)": "198.1",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Jul",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "14.2",
+      "Cloud cover (%)": "65",
+      "Rainfall (mm)": "185.4",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Aug",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "31.1",
+      "Avg low (°C)": "24.4",
+      "Daylight (h/day)": "13.4",
+      "Cloud cover (%)": "53",
+      "Rainfall (mm)": "109.2",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Sep",
+      "Avg temp (°C)": "23.9",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "20.6",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "48",
+      "Rainfall (mm)": "142.2",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Oct",
+      "Avg temp (°C)": "18.3",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "14.4",
+      "Daylight (h/day)": "11.3",
+      "Cloud cover (%)": "35",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Nov",
+      "Avg temp (°C)": "12.8",
+      "Avg high (°C)": "16.7",
+      "Avg low (°C)": "8.9",
+      "Daylight (h/day)": "10.4",
+      "Cloud cover (%)": "30",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    },
+    {
+      "Location": "Omonichi, Japan",
+      "Month": "Dec",
+      "Avg temp (°C)": "7.2",
+      "Avg high (°C)": "11.1",
+      "Avg low (°C)": "4.4",
+      "Daylight (h/day)": "9.9",
+      "Cloud cover (%)": "26",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/143254/Average-Weather-in-Onomichi-Japan-Year-Round"
+    }
+  ]
+}

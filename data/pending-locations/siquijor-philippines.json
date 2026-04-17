@@ -1,0 +1,141 @@
+{
+  "id": "siquijor-philippines",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Siquijor",
+  "country": "Philippines",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Jan",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "28.3",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "11.7",
+      "Cloud cover (%)": "73",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Feb",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "11.8",
+      "Cloud cover (%)": "67",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Mar",
+      "Avg temp (°C)": "27.2",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "64",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Apr",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "71",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "May",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "12.5",
+      "Cloud cover (%)": "86",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Jun",
+      "Avg temp (°C)": "28.3",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "12.7",
+      "Cloud cover (%)": "91",
+      "Rainfall (mm)": "137.2",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Jul",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "12.6",
+      "Cloud cover (%)": "92",
+      "Rainfall (mm)": "132.1",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Aug",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "31.1",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "92",
+      "Rainfall (mm)": "106.7",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Sep",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "12.2",
+      "Cloud cover (%)": "91",
+      "Rainfall (mm)": "116.8",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Oct",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.6",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "89",
+      "Rainfall (mm)": "144.8",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Nov",
+      "Avg temp (°C)": "27.8",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "25.6",
+      "Daylight (h/day)": "11.7",
+      "Cloud cover (%)": "84",
+      "Rainfall (mm)": "147.3",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    },
+    {
+      "Location": "Siquijor, Philippines",
+      "Month": "Dec",
+      "Avg temp (°C)": "27.2",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "25.0",
+      "Daylight (h/day)": "11.6",
+      "Cloud cover (%)": "78",
+      "Rainfall (mm)": "111.8",
+      "Source URL": "https://weatherspark.com/y/139223/Average-Weather-in-Siquijor-Philippines-Year-Round"
+    }
+  ]
+}

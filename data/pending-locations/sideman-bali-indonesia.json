@@ -1,0 +1,141 @@
+{
+  "id": "sideman-bali-indonesia",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Sideman",
+  "country": "Bali, Indonesia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Jan",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "12.6",
+      "Cloud cover (%)": "89",
+      "Rainfall (mm)": "264.2",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Feb",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "87",
+      "Rainfall (mm)": "236.2",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Mar",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "81",
+      "Rainfall (mm)": "154.9",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Apr",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "11.9",
+      "Cloud cover (%)": "76",
+      "Rainfall (mm)": "94.0",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "May",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "22.8",
+      "Daylight (h/day)": "11.7",
+      "Cloud cover (%)": "65",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Jun",
+      "Avg temp (°C)": "25.6",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "11.6",
+      "Cloud cover (%)": "58",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Jul",
+      "Avg temp (°C)": "25.0",
+      "Avg high (°C)": "28.3",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "11.7",
+      "Cloud cover (%)": "55",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Aug",
+      "Avg temp (°C)": "25.0",
+      "Avg high (°C)": "28.3",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "11.8",
+      "Cloud cover (%)": "52",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Sep",
+      "Avg temp (°C)": "25.6",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "12.1",
+      "Cloud cover (%)": "59",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Oct",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "69",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Nov",
+      "Avg temp (°C)": "26.7",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "23.3",
+      "Daylight (h/day)": "12.5",
+      "Cloud cover (%)": "82",
+      "Rainfall (mm)": "127.0",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    },
+    {
+      "Location": "Sideman, Bali, Indonesia",
+      "Month": "Dec",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "23.9",
+      "Daylight (h/day)": "12.6",
+      "Cloud cover (%)": "87",
+      "Rainfall (mm)": "221.0",
+      "Source URL": "https://weatherspark.com/y/128884/Average-Weather-in-Banjar-Wangsian-Indonesia-Year-Round"
+    }
+  ]
+}

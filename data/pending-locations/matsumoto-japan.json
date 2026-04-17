@@ -1,0 +1,141 @@
+{
+  "id": "matsumoto-japan",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Matsumoto",
+  "country": "Japan",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Jan",
+      "Avg temp (°C)": "-2.2",
+      "Avg high (°C)": "2.8",
+      "Avg low (°C)": "-5.6",
+      "Daylight (h/day)": "10.0",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Feb",
+      "Avg temp (°C)": "-1.1",
+      "Avg high (°C)": "3.9",
+      "Avg low (°C)": "-5.0",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "38",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Mar",
+      "Avg temp (°C)": "3.3",
+      "Avg high (°C)": "8.9",
+      "Avg low (°C)": "-0.6",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "43",
+      "Rainfall (mm)": "66.0",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Apr",
+      "Avg temp (°C)": "10.0",
+      "Avg high (°C)": "15.6",
+      "Avg low (°C)": "5.0",
+      "Daylight (h/day)": "13.1",
+      "Cloud cover (%)": "48",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "May",
+      "Avg temp (°C)": "15.6",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "14.1",
+      "Cloud cover (%)": "54",
+      "Rainfall (mm)": "86.4",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Jun",
+      "Avg temp (°C)": "19.4",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "15.6",
+      "Daylight (h/day)": "14.6",
+      "Cloud cover (%)": "66",
+      "Rainfall (mm)": "127.0",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Jul",
+      "Avg temp (°C)": "23.3",
+      "Avg high (°C)": "27.8",
+      "Avg low (°C)": "19.4",
+      "Daylight (h/day)": "14.3",
+      "Cloud cover (%)": "66",
+      "Rainfall (mm)": "149.9",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Aug",
+      "Avg temp (°C)": "24.4",
+      "Avg high (°C)": "28.9",
+      "Avg low (°C)": "20.0",
+      "Daylight (h/day)": "13.5",
+      "Cloud cover (%)": "55",
+      "Rainfall (mm)": "121.9",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Sep",
+      "Avg temp (°C)": "20.0",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "15.6",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "53",
+      "Rainfall (mm)": "157.5",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Oct",
+      "Avg temp (°C)": "13.3",
+      "Avg high (°C)": "18.3",
+      "Avg low (°C)": "8.9",
+      "Daylight (h/day)": "11.2",
+      "Cloud cover (%)": "42",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Nov",
+      "Avg temp (°C)": "7.2",
+      "Avg high (°C)": "12.2",
+      "Avg low (°C)": "2.8",
+      "Daylight (h/day)": "10.3",
+      "Cloud cover (%)": "34",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    },
+    {
+      "Location": "Matsumoto, Japan",
+      "Month": "Dec",
+      "Avg temp (°C)": "1.1",
+      "Avg high (°C)": "5.6",
+      "Avg low (°C)": "-2.2",
+      "Daylight (h/day)": "9.8",
+      "Cloud cover (%)": "28",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/143628/Average-Weather-in-Matsumoto-Japan-Year-Round"
+    }
+  ]
+}

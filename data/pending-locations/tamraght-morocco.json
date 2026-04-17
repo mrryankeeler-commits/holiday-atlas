@@ -1,0 +1,141 @@
+{
+  "id": "tamraght-morocco",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Tamraght",
+  "country": "Morocco",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Jan",
+      "Avg temp (°C)": "13.9",
+      "Avg high (°C)": "20.0",
+      "Avg low (°C)": "9.4",
+      "Daylight (h/day)": "10.4",
+      "Cloud cover (%)": "29",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Feb",
+      "Avg temp (°C)": "15.6",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "11.1",
+      "Cloud cover (%)": "27",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Mar",
+      "Avg temp (°C)": "17.2",
+      "Avg high (°C)": "21.7",
+      "Avg low (°C)": "12.8",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "28",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Apr",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.9",
+      "Daylight (h/day)": "13.0",
+      "Cloud cover (%)": "23",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "May",
+      "Avg temp (°C)": "18.9",
+      "Avg high (°C)": "22.8",
+      "Avg low (°C)": "15.6",
+      "Daylight (h/day)": "13.7",
+      "Cloud cover (%)": "21",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Jun",
+      "Avg temp (°C)": "20.6",
+      "Avg high (°C)": "23.9",
+      "Avg low (°C)": "17.2",
+      "Daylight (h/day)": "14.1",
+      "Cloud cover (%)": "11",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Jul",
+      "Avg temp (°C)": "21.7",
+      "Avg high (°C)": "25.0",
+      "Avg low (°C)": "18.3",
+      "Daylight (h/day)": "13.9",
+      "Cloud cover (%)": "3",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Aug",
+      "Avg temp (°C)": "22.2",
+      "Avg high (°C)": "25.6",
+      "Avg low (°C)": "18.3",
+      "Daylight (h/day)": "13.2",
+      "Cloud cover (%)": "8",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Sep",
+      "Avg temp (°C)": "21.1",
+      "Avg high (°C)": "25.0",
+      "Avg low (°C)": "17.8",
+      "Daylight (h/day)": "12.3",
+      "Cloud cover (%)": "24",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Oct",
+      "Avg temp (°C)": "20.6",
+      "Avg high (°C)": "24.4",
+      "Avg low (°C)": "16.1",
+      "Daylight (h/day)": "11.4",
+      "Cloud cover (%)": "34",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Nov",
+      "Avg temp (°C)": "17.8",
+      "Avg high (°C)": "22.2",
+      "Avg low (°C)": "13.3",
+      "Daylight (h/day)": "10.6",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    },
+    {
+      "Location": "Tamraght, Morocco",
+      "Month": "Dec",
+      "Avg temp (°C)": "15.0",
+      "Avg high (°C)": "20.6",
+      "Avg low (°C)": "10.6",
+      "Daylight (h/day)": "10.2",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/31973/Average-Weather-in-Taghazout-Morocco-Year-Round"
+    }
+  ]
+}

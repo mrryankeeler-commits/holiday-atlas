@@ -1,0 +1,141 @@
+{
+  "id": "suncheon-south-korea",
+  "source": "Climate_Data_05 - Climate_Data.csv",
+  "city": "Suncheon",
+  "country": "South Korea",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Jan",
+      "Avg temp (°C)": "-0.6",
+      "Avg high (°C)": "5.6",
+      "Avg low (°C)": "-5.0",
+      "Daylight (h/day)": "10.1",
+      "Cloud cover (%)": "33",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Feb",
+      "Avg temp (°C)": "1.7",
+      "Avg high (°C)": "7.8",
+      "Avg low (°C)": "-2.8",
+      "Daylight (h/day)": "10.9",
+      "Cloud cover (%)": "40",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Mar",
+      "Avg temp (°C)": "6.7",
+      "Avg high (°C)": "12.8",
+      "Avg low (°C)": "1.7",
+      "Daylight (h/day)": "12.0",
+      "Cloud cover (%)": "47",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Apr",
+      "Avg temp (°C)": "12.8",
+      "Avg high (°C)": "18.9",
+      "Avg low (°C)": "7.2",
+      "Daylight (h/day)": "13.1",
+      "Cloud cover (%)": "50",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "May",
+      "Avg temp (°C)": "18.3",
+      "Avg high (°C)": "23.9",
+      "Avg low (°C)": "12.8",
+      "Daylight (h/day)": "14.0",
+      "Cloud cover (%)": "51",
+      "Rainfall (mm)": "111.8",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Jun",
+      "Avg temp (°C)": "22.2",
+      "Avg high (°C)": "27.2",
+      "Avg low (°C)": "17.8",
+      "Daylight (h/day)": "14.5",
+      "Cloud cover (%)": "58",
+      "Rainfall (mm)": "180.3",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Jul",
+      "Avg temp (°C)": "25.6",
+      "Avg high (°C)": "29.4",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "14.2",
+      "Cloud cover (%)": "60",
+      "Rainfall (mm)": "261.6",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Aug",
+      "Avg temp (°C)": "26.1",
+      "Avg high (°C)": "30.0",
+      "Avg low (°C)": "22.2",
+      "Daylight (h/day)": "13.4",
+      "Cloud cover (%)": "52",
+      "Rainfall (mm)": "226.1",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Sep",
+      "Avg temp (°C)": "21.1",
+      "Avg high (°C)": "26.1",
+      "Avg low (°C)": "16.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud cover (%)": "44",
+      "Rainfall (mm)": "149.9",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Oct",
+      "Avg temp (°C)": "15.0",
+      "Avg high (°C)": "21.1",
+      "Avg low (°C)": "9.4",
+      "Daylight (h/day)": "11.3",
+      "Cloud cover (%)": "31",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Nov",
+      "Avg temp (°C)": "7.8",
+      "Avg high (°C)": "14.4",
+      "Avg low (°C)": "2.8",
+      "Daylight (h/day)": "10.3",
+      "Cloud cover (%)": "30",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    },
+    {
+      "Location": "Suncheon, South Korea",
+      "Month": "Dec",
+      "Avg temp (°C)": "1.7",
+      "Avg high (°C)": "7.8",
+      "Avg low (°C)": "-2.8",
+      "Daylight (h/day)": "9.9",
+      "Cloud cover (%)": "28",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/142279/Average-Weather-in-Suncheon-South-Korea-Year-Round"
+    }
+  ]
+}
