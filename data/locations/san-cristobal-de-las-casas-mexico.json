@@ -1,8 +1,7 @@
 {
   "id": "san-cristobal-de-las-casas-mexico",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "San Cristóbal de las Casas",
   "country": "Mexico",
-  "region": "Chiapas",
+  "region": "Chiapas Highlands",
   "lat": 16.737,
   "lng": -92.6376,
-  "desc": "San Cristóbal de las Casas is a destination profile pending enrichment.",
+  "desc": "San Cristóbal de las Casas is a cool-climate highland city with Indigenous culture, craft markets, and easy access to Chiapas canyon and waterfall day trips.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Colonial center and highland Maya communities",
+    "Pleasant daytime temperatures most of year",
+    "Strong café scene for longer stays",
+    "Excellent base for Sumidero and El Chiflón excursions"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Santo Domingo + textile market",
+      "cat": "Culture",
+      "desc": "Visit church complex and surrounding artisan market stalls."
+    },
+    {
+      "name": "Cañón del Sumidero boat tour",
+      "cat": "Nature",
+      "desc": "Take a canyon cruise from Chiapa de Corzo."
+    },
+    {
+      "name": "San Juan Chamula community visit",
+      "cat": "Culture",
+      "desc": "Join a respectful guided visit to nearby Tzotzil communities."
+    },
+    {
+      "name": "Na Bolom museum stop",
+      "cat": "History",
+      "desc": "Learn regional ethnography and conservation history."
+    },
+    {
+      "name": "Andador Real de Guadalupe food walk",
+      "cat": "Food",
+      "desc": "Sample tamales chiapanecos, cacao drinks, and local bakeries."
+    },
+    {
+      "name": "El Arcotete or Huitepec trail",
+      "cat": "Nature",
+      "desc": "Add a short forest or limestone walk near town."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "25-120 Mbps",
+      "note": "Strong in central hotels/cafés, weaker on outer hill roads."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for San Cristóbal de las Casas will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Mexico; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "Travel from UK/Ireland generally connects via Mexico City, Cancún, or US hubs then onward to Tuxtla; holiday periods (Semana Santa, Christmas) see bus and flight price spikes.",
+    "airports": [
+      {
+        "name": "Ángel Albino Corzo International Airport (Tuxtla Gutiérrez)",
+        "code": "TGZ",
+        "km": 78,
+        "dgw": false
+      },
+      {
+        "name": "Carlos Rovirosa Pérez International Airport (Villahermosa)",
+        "code": "VSA",
+        "km": 300,
+        "dgw": false
+      }
+    ],
+    "currency": "Mexico local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Culture travel",
+      "Cool-climate Mexico",
+      "Long-stay cafés",
+      "Nature day trips"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in San Cristóbal de las Casas; keep one flexible day."
+      "Evenings can feel cold year-round due to altitude; pack layers even in warmer months.",
+      "Road blockades and demonstrations occur periodically in Chiapas—check local transport advisories.",
+      "Some Indigenous community visits require local guides and photo restrictions; follow posted rules."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Nov-Mar for dry, sunny highland days and comfortable walking weather.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 11.3,
       "cld": 28,
       "rain": 33,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Feb",
@@ -76,7 +119,7 @@
       "daylight": 11.6,
       "cld": 27,
       "rain": 28,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -88,9 +131,9 @@
       "daylight": 12.1,
       "cld": 31,
       "rain": 23,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 12.5,
       "cld": 49,
       "rain": 33,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "May",
@@ -112,9 +155,9 @@
       "daylight": 12.9,
       "cld": 76,
       "rain": 99,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -124,9 +167,9 @@
       "daylight": 13.1,
       "cld": 90,
       "rain": 208,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 13.0,
       "cld": 85,
       "rain": 173,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -149,8 +192,8 @@
       "cld": 86,
       "rain": 196,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.2,
       "cld": 90,
       "rain": 249,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -173,8 +216,8 @@
       "cld": 76,
       "rain": 152,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Nov",
@@ -184,7 +227,7 @@
       "daylight": 11.3,
       "cld": 52,
       "rain": 64,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -196,7 +239,7 @@
       "daylight": 11.1,
       "cld": 37,
       "rain": 38,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     }

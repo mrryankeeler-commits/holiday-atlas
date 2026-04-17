@@ -1,8 +1,7 @@
 {
   "id": "sidi-ifni-morocco",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Sidi Ifni",
   "country": "Morocco",
-  "region": "Guelmim-Oued Noun",
+  "region": "Guelmim-Oued Noun (Atlantic Anti-Atlas coast)",
   "lat": 29.3798,
   "lng": -10.172,
-  "desc": "Sidi Ifni is a destination profile pending enrichment.",
+  "desc": "Sidi Ifni is a windswept Atlantic town with Spanish Art Deco remnants, surf access, and a slower pace than Morocco's major resort corridors.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Distinctive Art Deco facades and sea-cliff setting",
+    "Nearby surf beaches like Legzira and Mirleft",
+    "Strong value compared with Agadir-area hotspots",
+    "Mild winters ideal for coastal road trips"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Seafront Art Deco walk",
+      "cat": "Culture",
+      "desc": "Explore old Spanish-quarter architecture and cliffside promenade."
+    },
+    {
+      "name": "Legzira arches visit",
+      "cat": "Scenic",
+      "desc": "Time the beach walk around low tide for arch access."
+    },
+    {
+      "name": "Sidi Ifni market morning",
+      "cat": "Food",
+      "desc": "Browse weekly souk produce, fish, and household stalls."
+    },
+    {
+      "name": "Mirleft surf session",
+      "cat": "Adventure",
+      "desc": "Book a beginner or intermediate surf lesson nearby."
+    },
+    {
+      "name": "Plage Blanche excursion",
+      "cat": "Nature",
+      "desc": "Take a guided 4x4 trip to long undeveloped Atlantic sands."
+    },
+    {
+      "name": "Sunset at Place Hassan II",
+      "cat": "Local life",
+      "desc": "Join evening promenade culture in the central square."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "note": "Generally fine in town riads; weaker in outer beach properties."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Sidi Ifni will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Morocco; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "No reliable long-haul service into nearby minor airports, so UK/Ireland visitors usually fly to Agadir or Marrakech then drive south; winter sun season raises demand.",
+    "airports": [
+      {
+        "name": "Guelmim Airport",
+        "code": "GLN",
+        "km": 60,
+        "dgw": false
+      },
+      {
+        "name": "Agadir-Al Massira Airport",
+        "code": "AGA",
+        "km": 170,
+        "dgw": true
+      }
+    ],
+    "currency": "Morocco local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Atlantic road trips",
+      "Surf trips",
+      "Offbeat Morocco",
+      "Winter sun"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Sidi Ifni; keep one flexible day."
+      "Atlantic swell and rip currents are strong on exposed beaches—use flagged swimming zones only.",
+      "Intercity bus frequencies are limited at night; pre-book onward legs in peak holiday weeks.",
+      "Windy spells can make seafront activities uncomfortable, especially July-August afternoons."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Oct-Apr for mild temperatures and lower heat stress than inland Morocco.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 10.5,
       "cld": 29,
       "rain": 28,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -76,9 +119,9 @@
       "daylight": 11.2,
       "cld": 27,
       "rain": 30,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +132,8 @@
       "cld": 26,
       "rain": 23,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 12.9,
       "cld": 24,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 13.6,
       "cld": 22,
       "rain": 5,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -124,7 +167,7 @@
       "daylight": 14.0,
       "cld": 11,
       "rain": 0,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -136,9 +179,9 @@
       "daylight": 13.8,
       "cld": 3,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 13.1,
       "cld": 8,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.3,
       "cld": 24,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -172,7 +215,7 @@
       "daylight": 11.4,
       "cld": 35,
       "rain": 15,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -184,9 +227,9 @@
       "daylight": 10.7,
       "cld": 34,
       "rain": 30,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 10.3,
       "cld": 33,
       "rain": 30,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

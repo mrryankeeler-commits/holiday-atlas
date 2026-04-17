@@ -1,8 +1,7 @@
 {
   "id": "ostrava-czechia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Ostrava",
   "country": "Czechia",
   "region": "Moravian-Silesian Region",
   "lat": 49.8209,
   "lng": 18.2625,
-  "desc": "Ostrava is a destination profile pending enrichment.",
+  "desc": "Ostrava is a post-industrial Czech city reinvented through culture venues, music festivals, and accessible day trips into the Beskydy hills.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Dolní Vítkovice industrial heritage complex",
+    "Strong festivals and nightlife relative to cost",
+    "Good rail hub for Poland/Slovakia cross-border trips",
+    "Fast access to Beskydy mountain trails"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Dolní Vítkovice guided visit",
+      "cat": "History",
+      "desc": "Tour converted blast furnaces and industrial architecture."
+    },
+    {
+      "name": "Stodolní Street evening",
+      "cat": "Nightlife",
+      "desc": "Sample bars and live-music venues in the core entertainment district."
+    },
+    {
+      "name": "New City Hall tower viewpoint",
+      "cat": "Scenic",
+      "desc": "Use the lookout for skyline and industrial panorama context."
+    },
+    {
+      "name": "Beskydy day hike",
+      "cat": "Nature",
+      "desc": "Take rail/bus to foothill trailheads for a mountain day."
+    },
+    {
+      "name": "Silesian Ostrava Castle",
+      "cat": "Culture",
+      "desc": "Visit exhibitions and riverside grounds near the center."
+    },
+    {
+      "name": "Czech-Polish food crawl",
+      "cat": "Food",
+      "desc": "Mix Moravian and Silesian dishes in local pubs and bistros."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "35-200 Mbps",
+      "note": "Excellent urban coverage and strong coworking options."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Ostrava will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Czechia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Direct UK flights are limited and route-dependent, so many travelers connect via Prague, Vienna, or Warsaw; summer and Christmas market windows raise demand.",
+    "airports": [
+      {
+        "name": "Leoš Janáček Airport Ostrava",
+        "code": "OSR",
+        "km": 23,
+        "dgw": false
+      },
+      {
+        "name": "Katowice Airport",
+        "code": "KTW",
+        "km": 95,
+        "dgw": true
+      }
+    ],
+    "currency": "Czechia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Industrial heritage",
+      "City breaks",
+      "Festival travel",
+      "Budget Central Europe"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Ostrava; keep one flexible day."
+      "Winter inversions can worsen air quality in the basin—check AQI if sensitive to pollution.",
+      "Festival weekends (especially Colours of Ostrava) sell out central hotels early.",
+      "Late-night public transport is good but less frequent outside core tram corridors."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "May-Jun and Sep for mild weather and lower crowding than midsummer event peaks.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 8.7,
       "cld": 62,
       "rain": 18,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -77,8 +120,8 @@
       "cld": 62,
       "rain": 18,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.0,
       "cld": 58,
       "rain": 25,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,7 +143,7 @@
       "daylight": 13.8,
       "cld": 53,
       "rain": 36,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -112,7 +155,7 @@
       "daylight": 15.5,
       "cld": 50,
       "rain": 61,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -124,7 +167,7 @@
       "daylight": 16.3,
       "cld": 46,
       "rain": 76,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -136,9 +179,9 @@
       "daylight": 15.8,
       "cld": 40,
       "rain": 79,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 14.3,
       "cld": 41,
       "rain": 64,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.5,
       "cld": 48,
       "rain": 53,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 10.7,
       "cld": 55,
       "rain": 36,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -185,8 +228,8 @@
       "cld": 64,
       "rain": 30,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -197,8 +240,8 @@
       "cld": 64,
       "rain": 20,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

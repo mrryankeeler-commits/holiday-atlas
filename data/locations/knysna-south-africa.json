@@ -1,8 +1,7 @@
 {
   "id": "knysna-south-africa",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Knysna",
   "country": "South Africa",
-  "region": "Western Cape",
+  "region": "Garden Route (Western Cape)",
   "lat": -34.0363,
   "lng": 23.0471,
-  "desc": "Knysna is a destination profile pending enrichment.",
+  "desc": "Knysna sits on a lagoon between forest and coast, making it a flexible Garden Route stop for outdoor activities, oysters, and scenic drives.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Lagoon cruises and Knysna Heads viewpoints",
+    "Forest trails in indigenous Afrotemperate woodland",
+    "Strong self-drive base between Cape Town and Tsitsikamma",
+    "Mild shoulder weather with fewer crowds than midsummer"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Knysna Heads viewpoint circuit",
+      "cat": "Scenic",
+      "desc": "Visit both east and west head lookouts for lagoon-mouth panoramas."
+    },
+    {
+      "name": "Featherbed Nature Reserve cruise + hike",
+      "cat": "Nature",
+      "desc": "Take the lagoon ferry and guided reserve walk."
+    },
+    {
+      "name": "Forest cycle or walk in Jubilee Creek",
+      "cat": "Adventure",
+      "desc": "Plan a half day in indigenous forest trails and picnic sites."
+    },
+    {
+      "name": "Oyster tasting at waterfront",
+      "cat": "Food",
+      "desc": "Try local oyster farms paired with Garden Route wines."
+    },
+    {
+      "name": "Brenton-on-Sea sunset",
+      "cat": "Coast",
+      "desc": "Drive to Brenton beach for sunset and dune walks."
+    },
+    {
+      "name": "Sedgefield market morning",
+      "cat": "Local life",
+      "desc": "Pair weekend market browsing with nearby estuary boardwalks."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "25-120 Mbps",
+      "note": "Strong in town properties; patchier in remote forest lodges."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Knysna will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for South Africa; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Most UK/Ireland travelers fly nonstop to Cape Town or Johannesburg, then connect by domestic flight to George or self-drive; December-January school holidays create major fare and hotel pressure.",
+    "airports": [
+      {
+        "name": "George Airport",
+        "code": "GRJ",
+        "km": 75,
+        "dgw": false
+      },
+      {
+        "name": "Cape Town International Airport",
+        "code": "CPT",
+        "km": 500,
+        "dgw": true
+      }
+    ],
+    "currency": "South Africa local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Road trips",
+      "Coastal scenery",
+      "Outdoor activities",
+      "Shoulder-season travel"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Knysna; keep one flexible day."
+      "Wildfire risk rises in hot windy spells; monitor Garden Route road advisories in summer.",
+      "Self-drive is easiest, but N2 incident delays can impact onward schedules—avoid tight airport connections.",
+      "Some lagoon and ocean activities are weather-dependent and can cancel on high-wind days."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Oct-Nov and Mar-May for mild weather and better value than peak South African summer.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 14.1,
       "cld": 18,
       "rain": 23,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Feb",
@@ -76,9 +119,9 @@
       "daylight": 13.3,
       "cld": 16,
       "rain": 25,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Mar",
@@ -88,7 +131,7 @@
       "daylight": 12.2,
       "cld": 24,
       "rain": 33,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -100,7 +143,7 @@
       "daylight": 11.2,
       "cld": 36,
       "rain": 38,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -112,9 +155,9 @@
       "daylight": 10.3,
       "cld": 40,
       "rain": 25,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -125,8 +168,8 @@
       "cld": 36,
       "rain": 28,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 10.2,
       "cld": 33,
       "rain": 28,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Aug",
@@ -149,8 +192,8 @@
       "cld": 32,
       "rain": 30,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Sep",
@@ -161,8 +204,8 @@
       "cld": 38,
       "rain": 25,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 13.0,
       "cld": 38,
       "rain": 38,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -184,7 +227,7 @@
       "daylight": 13.9,
       "cld": 34,
       "rain": 38,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -196,9 +239,9 @@
       "daylight": 14.4,
       "cld": 27,
       "rain": 28,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

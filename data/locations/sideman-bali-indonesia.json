@@ -1,8 +1,7 @@
 {
   "id": "sideman-bali-indonesia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,86 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Sideman (Bali)",
   "country": "Indonesia",
-  "region": "Bali",
+  "region": "Karangasem Regency (East Bali)",
   "lat": -8.5,
   "lng": 115.45,
-  "desc": "Sideman (Bali) is a destination profile pending enrichment.",
+  "desc": "Sidemen is Bali's quieter rice-terrace valley, ideal for low-key stays, volcano views, and cultural workshops away from the island's busiest beach hubs.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Rice-terrace landscapes with Mount Agung backdrop",
+    "Traditional weaving and village workshop options",
+    "Lower-density base compared with Ubud/Canggu",
+    "Good for short restorative stays"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Sidemen rice-terrace walk",
+      "cat": "Nature",
+      "desc": "Take a sunrise or early-morning guided walk through paddies and villages."
+    },
+    {
+      "name": "Songket weaving workshop",
+      "cat": "Culture",
+      "desc": "Learn local weaving techniques with Sidemen artisans."
+    },
+    {
+      "name": "Gembleng waterfall dip",
+      "cat": "Water",
+      "desc": "Visit in the morning before crowds and afternoon cloud build."
+    },
+    {
+      "name": "White-water rafting on Telaga Waja",
+      "cat": "Adventure",
+      "desc": "Book a half-day rafting run with valley views."
+    },
+    {
+      "name": "Temple ceremony etiquette tour",
+      "cat": "Culture",
+      "desc": "Join a local guide for Balinese ritual context and temple norms."
+    },
+    {
+      "name": "Agung-view sunset café stop",
+      "cat": "Scenic",
+      "desc": "Plan a late-day stop for mountain views when clouds clear."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "15-70 Mbps",
+      "note": "Usable in most villas, but valley storms can cause short dropouts."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Sideman (Bali) will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Indonesia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Bali receives strong one-stop UK/Ireland demand via Singapore, Doha, Dubai, or Kuala Lumpur, and some seasonal nonstop UK capacity; July-August and Christmas/New Year are highest-pressure fare periods.",
+    "airports": [
+      {
+        "name": "Ngurah Rai International Airport",
+        "code": "DPS",
+        "km": 55,
+        "dgw": true
+      }
+    ],
+    "currency": "Indonesia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Quiet Bali stays",
+      "Wellness trips",
+      "Scenic walks",
+      "Couples getaways"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Sideman (Bali); keep one flexible day."
+      "Road access is narrow and winding; transfers can take longer than map estimates after rain.",
+      "Mount Agung activity advisories can affect trekking plans—monitor official updates.",
+      "Many boutique stays are in valley terrain with stairs, which can be challenging with heavy luggage."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "May-Jun and Sep for greener scenery with fewer crowds than peak midsummer.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +101,9 @@
       "daylight": 12.6,
       "cld": 89,
       "rain": 264,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -76,9 +113,9 @@
       "daylight": 12.4,
       "cld": 87,
       "rain": 236,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +126,8 @@
       "cld": 81,
       "rain": 155,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,9 +137,9 @@
       "daylight": 11.9,
       "cld": 76,
       "rain": 94,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +149,7 @@
       "daylight": 11.7,
       "cld": 65,
       "rain": 53,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +161,9 @@
       "daylight": 11.6,
       "cld": 58,
       "rain": 36,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -136,7 +173,7 @@
       "daylight": 11.7,
       "cld": 55,
       "rain": 28,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -148,9 +185,9 @@
       "daylight": 11.8,
       "cld": 52,
       "rain": 15,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -160,9 +197,9 @@
       "daylight": 12.1,
       "cld": 59,
       "rain": 30,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Oct",
@@ -172,7 +209,7 @@
       "daylight": 12.3,
       "cld": 69,
       "rain": 61,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -184,9 +221,9 @@
       "daylight": 12.5,
       "cld": 82,
       "rain": 127,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +233,9 @@
       "daylight": 12.6,
       "cld": 87,
       "rain": 221,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

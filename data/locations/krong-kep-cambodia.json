@@ -1,8 +1,7 @@
 {
   "id": "krong-kep-cambodia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Krong Kep",
   "country": "Cambodia",
-  "region": "Kep Province",
+  "region": "Kep Province (southern coast)",
   "lat": 10.4829,
   "lng": 104.3167,
-  "desc": "Krong Kep is a destination profile pending enrichment.",
+  "desc": "Krong Kep is a quiet Cambodian seaside town known for crab-market seafood, low-key beaches, and access to pepper farms and Kep National Park trails.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Kep crab market and Kampot pepper pairing",
+    "Compact town suited to slow 2-4 night stays",
+    "Easy links to Kampot and Rabbit Island",
+    "Good dry-season beach weather"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Crab market lunch",
+      "cat": "Food",
+      "desc": "Pick fresh blue crab dishes with Kampot pepper sauces."
+    },
+    {
+      "name": "Kep National Park loop trail",
+      "cat": "Nature",
+      "desc": "Do the shaded ridge loop early for cooler temperatures."
+    },
+    {
+      "name": "Rabbit Island boat day",
+      "cat": "Coast",
+      "desc": "Take a small boat for beach downtime and simple seafood shacks."
+    },
+    {
+      "name": "Kampot pepper farm visit",
+      "cat": "Agri-tourism",
+      "desc": "Tour a certified pepper plantation outside town."
+    },
+    {
+      "name": "Colonial villa hill drive",
+      "cat": "History",
+      "desc": "Explore remaining French-era villas around the hillside roads."
+    },
+    {
+      "name": "Sunset at sailing club",
+      "cat": "Scenic",
+      "desc": "End the day with sea views and low-key cocktails."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "12-60 Mbps",
+      "note": "Adequate in most guesthouses; backup mobile data recommended."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Krong Kep will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Cambodia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "UK/Ireland access is typically one-stop to Phnom Penh (often via Bangkok, Singapore, Doha, or Kuala Lumpur) followed by road transfer; winter dry-season demand raises room rates.",
+    "airports": [
+      {
+        "name": "Phnom Penh International Airport",
+        "code": "PNH",
+        "km": 170,
+        "dgw": false
+      },
+      {
+        "name": "Sihanoukville International Airport",
+        "code": "KOS",
+        "km": 110,
+        "dgw": false
+      }
+    ],
+    "currency": "Cambodia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Seafood trips",
+      "Slow coastal stays",
+      "Cambodia shoulder extensions",
+      "Nature walks"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Krong Kep; keep one flexible day."
+      "Many beach roads have limited lighting—avoid late scooter trips if unfamiliar with local routes.",
+      "Cash (USD and riel) remains important despite growing QR adoption.",
+      "Heavy rains can disrupt island boats in June-September afternoons."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Dec-Mar for drier weather and calmer coastal conditions.",
   "months": [
     {
       "m": "Jan",
@@ -64,7 +107,7 @@
       "daylight": 11.6,
       "cld": 57,
       "rain": 13,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -76,9 +119,9 @@
       "daylight": 11.8,
       "cld": 54,
       "rain": 13,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.1,
       "cld": 61,
       "rain": 33,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Apr",
@@ -100,7 +143,7 @@
       "daylight": 12.4,
       "cld": 80,
       "rain": 81,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -112,9 +155,9 @@
       "daylight": 12.6,
       "cld": 90,
       "rain": 160,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -124,9 +167,9 @@
       "daylight": 12.7,
       "cld": 91,
       "rain": 277,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 12.7,
       "cld": 90,
       "rain": 295,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 12.4,
       "cld": 91,
       "rain": 315,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Sep",
@@ -161,8 +204,8 @@
       "cld": 89,
       "rain": 310,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 11.9,
       "cld": 83,
       "rain": 208,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -184,7 +227,7 @@
       "daylight": 11.6,
       "cld": 72,
       "rain": 91,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -196,9 +239,9 @@
       "daylight": 11.5,
       "cld": 61,
       "rain": 28,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

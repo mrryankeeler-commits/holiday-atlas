@@ -1,8 +1,7 @@
 {
   "id": "beppu-japan",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Beppu",
   "country": "Japan",
-  "region": "Ōita Prefecture",
+  "region": "Ōita Prefecture (Kyushu east coast)",
   "lat": 33.2794,
   "lng": 131.4975,
-  "desc": "Beppu is a destination profile pending enrichment.",
+  "desc": "Beppu is Japan's flagship hot-spring city, where weather matters less than choosing the right onsen district and balancing steam baths, coast views, and nearby mountain hikes.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Hundreds of onsen options from sand baths to mud pools",
+    "Easy rail links to Yufuin and central Kyushu",
+    "Seafood plus jigoku-mushi steam-cooking culture",
+    "Good winter shoulder value outside Japanese holiday peaks"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Beppu Hells circuit",
+      "cat": "Hot springs",
+      "desc": "Visit the seven jigoku geothermal sites early before tour buses arrive."
+    },
+    {
+      "name": "Takegawara sand bath",
+      "cat": "Wellness",
+      "desc": "Book a sand-bath slot and follow with a neighborhood sento crawl."
+    },
+    {
+      "name": "Kitsuki samurai district day trip",
+      "cat": "History",
+      "desc": "Use a half day to explore preserved Edo-era streets in nearby Kitsuki."
+    },
+    {
+      "name": "Mt. Tsurumi ropeway",
+      "cat": "Scenic",
+      "desc": "Ride for bay views and cooler air, especially in warmer months."
+    },
+    {
+      "name": "Jigoku-mushi cooking workshop",
+      "cat": "Food",
+      "desc": "Try steam-cooked local produce and seafood using geothermal vents."
+    },
+    {
+      "name": "Kannawa evening walk",
+      "cat": "Neighborhood",
+      "desc": "Explore steam vents and small ryokan lanes after dark."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "40-200 Mbps",
+      "note": "City hotels are dependable; smaller ryokan may have weaker room-level coverage."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Beppu will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Japan; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "No nonstop UK/Ireland flights to Oita; most routes connect via Tokyo, Osaka, Seoul, or Taipei, with strongest seat supply during spring blossom and autumn foliage periods.",
+    "airports": [
+      {
+        "name": "Ōita Airport",
+        "code": "OIT",
+        "km": 38,
+        "dgw": false
+      },
+      {
+        "name": "Fukuoka Airport",
+        "code": "FUK",
+        "km": 145,
+        "dgw": false
+      }
+    ],
+    "currency": "Japan local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Onsen trips",
+      "Rail-based Japan itineraries",
+      "Cool-season travel",
+      "Food + wellness"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Beppu; keep one flexible day."
+      "Some small bathhouses still restrict tattoos; confirm policy before booking.",
+      "Ryokan dinner cut-off times are strict, so avoid late-arrival rail plans on check-in day.",
+      "Typhoon remnants in late summer can disrupt ferries and local buses for a day or two."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Oct-Nov and Mar-May for pleasant walking weather; Jan-Feb is great for onsen focus with lower crowds.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 10.2,
       "cld": 29,
       "rain": 46,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -76,9 +119,9 @@
       "daylight": 11.0,
       "cld": 37,
       "rain": 74,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +132,8 @@
       "cld": 47,
       "rain": 114,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 13.0,
       "cld": 52,
       "rain": 135,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 13.9,
       "cld": 57,
       "rain": 158,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -124,7 +167,7 @@
       "daylight": 14.3,
       "cld": 69,
       "rain": 300,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -136,7 +179,7 @@
       "daylight": 14.1,
       "cld": 66,
       "rain": 267,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -148,9 +191,9 @@
       "daylight": 13.3,
       "cld": 55,
       "rain": 160,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.3,
       "cld": 47,
       "rain": 170,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 11.3,
       "cld": 33,
       "rain": 104,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -184,9 +227,9 @@
       "daylight": 10.4,
       "cld": 29,
       "rain": 69,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 10.0,
       "cld": 24,
       "rain": 46,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

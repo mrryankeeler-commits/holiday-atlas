@@ -1,8 +1,7 @@
 {
   "id": "swakopmund-namibia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Swakopmund",
   "country": "Namibia",
-  "region": "Erongo Region",
+  "region": "Erongo Region (Namib Desert coast)",
   "lat": -22.6784,
   "lng": 14.5266,
-  "desc": "Swakopmund is a destination profile pending enrichment.",
+  "desc": "Swakopmund is Namibia's adventure capital where Atlantic fog meets desert dunes, ideal for self-drive itineraries and activity-focused stays.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Sandboarding, quad biking, and desert excursions",
+    "German colonial architecture and cafés",
+    "Gateway to Walvis Bay marine tours",
+    "Cooler coastal climate than inland Namibia"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Living Desert tour",
+      "cat": "Nature",
+      "desc": "Take a guided dune ecology drive for endemic desert wildlife."
+    },
+    {
+      "name": "Walvis Bay catamaran cruise",
+      "cat": "Water",
+      "desc": "Look for dolphins, seals, and birdlife in the lagoon."
+    },
+    {
+      "name": "Dune 7 adventure session",
+      "cat": "Adventure",
+      "desc": "Try sandboarding or quad biking on major dune fields."
+    },
+    {
+      "name": "Swakopmund Mole walk",
+      "cat": "Scenic",
+      "desc": "Stroll the waterfront and old jetty area at sunset."
+    },
+    {
+      "name": "Skeleton Coast Museum",
+      "cat": "History",
+      "desc": "Visit maritime and regional-history exhibits."
+    },
+    {
+      "name": "German-Namibian bakery crawl",
+      "cat": "Food",
+      "desc": "Sample local pastries, game dishes, and coastal seafood."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "10-60 Mbps",
+      "note": "Stable in central hotels; weaker in desert-edge lodges."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Swakopmund will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Namibia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "UK/Ireland access usually requires one stop to Windhoek or Cape Town/Johannesburg plus a domestic hop or long drive; Namibian peak season (Jun-Oct) increases car-rental and flight demand.",
+    "airports": [
+      {
+        "name": "Walvis Bay International Airport",
+        "code": "WVB",
+        "km": 47,
+        "dgw": false
+      },
+      {
+        "name": "Hosea Kutako International Airport (Windhoek)",
+        "code": "WDH",
+        "km": 390,
+        "dgw": false
+      }
+    ],
+    "currency": "Namibia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Adventure travel",
+      "Self-drive Namibia",
+      "Desert landscapes",
+      "Wildlife add-ons"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Swakopmund; keep one flexible day."
+      "Atlantic fog can reduce visibility on the B2 and C34 roads, especially mornings.",
+      "Desert activities are weather-dependent and may cancel in high-wind conditions.",
+      "Fuel and services thin out quickly outside town—self-drive with conservative range planning."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "May-Oct for cooler desert touring and lower rain risk.",
   "months": [
     {
       "m": "Jan",
@@ -64,7 +107,7 @@
       "daylight": 13.3,
       "cld": 27,
       "rain": 2,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -76,9 +119,9 @@
       "daylight": 12.8,
       "cld": 25,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.2,
       "cld": 16,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 11.5,
       "cld": 10,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 11.0,
       "cld": 7,
       "rain": 2,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +167,9 @@
       "daylight": 10.8,
       "cld": 8,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 10.9,
       "cld": 9,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 11.4,
       "cld": 9,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.0,
       "cld": 10,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 12.6,
       "cld": 13,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Nov",
@@ -185,8 +228,8 @@
       "cld": 15,
       "rain": 2,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -196,7 +239,7 @@
       "daylight": 13.5,
       "cld": 17,
       "rain": 2,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     }
