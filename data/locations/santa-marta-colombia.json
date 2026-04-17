@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Santa Marta is usually reached with a domestic connection from Bogotá or Medellín after the long-haul leg.",
+    "fltNote": "Santa Marta is usually reached via Bogotá (BOG) or Medellín (MDE) into SMR, then continued overland: Tayrona is most straightforward by Rodadero/mercado minibus or shared shuttle to El Zaino (plus local moto-taxi to trailheads), while Minca is easiest by frequent shared jeep/colectivo from the city market with taxi as backup. Chains become fragile on Sunday evenings, Colombian holiday weekends, and in peak rain periods (roughly Sep-Nov) when mountain roads, late-return links, and last-leg availability are less reliable.",
     "airports": [
       {
         "name": "Simón Bolívar International Airport",
@@ -93,9 +93,9 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "Before Tayrona visits, confirm official closure windows and daily entry caps, which can block last-minute access.",
-      "In September to November rains, check road and river conditions before Minca or Palomino transfers because washouts are common.",
-      "Book onward buses and boats at least one day ahead around Colombian holiday weekends when terminals and docks are congested."
+      "Tayrona transfer chain: Santa Marta → El Zaino by public bus/colectivo (straightforward in daylight) → park shuttle or moto-taxi for final access; this chain is fragile if you start late afternoon because the return bus frequency drops and gate/boat cutoffs can force an overnight stay.",
+      "Minca transfer chain: city market colectivos/shared jeeps run frequently in daytime and are the simplest low-cost option; late-evening returns often depend on pricier private moto-taxi or taxi, especially after heavy rain when hillside roads slow down.",
+      "Wet-season caveat (mainly September-November): short, intense storms can trigger road interruptions on mountain/coastal segments, so keep buffer time, avoid tight same-day flight connections, and reconfirm first/last departures the night before."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
