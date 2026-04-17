@@ -18,74 +18,81 @@
   "city": "Lima",
   "country": "Peru",
   "region": "Peru region",
-  "desc": "Lima is a strong base for exploring Peru with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Lima blends Pacific-coast neighborhoods, world-class Peruvian dining, and pre-Columbian/colonial heritage, with warm sunnier conditions in austral summer and cooler grey-garua months mid-year.",
   "hls": [
-    "Seasonal climate profile benchmarked for Lima",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Miraflores and Barranco provide an easy base for coastal walks, cafés, and nightlife.",
+    "Peru's flagship food city: strong options from cevicherías to tasting-menu restaurants.",
+    "Summers (Dec-Mar) are warmest; winters (Jun-Sep) are cooler, cloudier, and often misty.",
+    "Historic center churches and plazas pair well with museum-focused half days.",
+    "Good launch point for onward Peru routes (Cusco, Arequipa, Amazon gateways).",
+    "Generally mild temperatures year-round with limited heavy-rain disruption in the city."
   ],
   "todo": [
     {
-      "name": "Walk central Lima",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
+      "name": "Malecón coastal walk/cycle",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Follow the clifftop parks between Miraflores and Barranco for ocean views, paragliders, and sunset points."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Historic Center circuit",
+      "cat": "Culture",
+      "desc": "Visit Plaza Mayor, cathedral precincts, and key colonial landmarks on a guided or self-paced route."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Larco Museum",
+      "cat": "Museum",
+      "desc": "Use 2-3 hours for one of Lima's strongest pre-Columbian collections and a garden-courtyard lunch break."
+    },
+    {
+      "name": "Barranco evening",
+      "cat": "Neighborhood",
+      "desc": "Explore street art, bridge viewpoints, and live-music bars after dark in Lima's bohemian district."
+    },
+    {
+      "name": "Ceviche-focused food stop",
+      "cat": "Food",
+      "desc": "Book a respected lunchtime cevichería and compare styles with a criollo or Nikkei dinner later."
+    },
+    {
+      "name": "Callao or nearby day option",
+      "cat": "Day trip",
+      "desc": "If schedule allows, add Monumental Callao art spaces or a boat-based coast/island outing."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "40–180 Mbps",
+      "note": "Reliable in Miraflores/Barranco coworking cafés and hotels; occasional slowdowns happen during evening peak."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "London-Lima often routes one-stop via Madrid, Amsterdam, Paris, or the Americas; fares usually climb in Jul-Aug and Christmas/New Year windows.",
+    "airports": [
+      {
+        "name": "Jorge Chávez International Airport",
+        "code": "LIM",
+        "km": 11,
+        "dgw": false
+      }
+    ],
+    "currency": "Peruvian Sol (PEN). Card acceptance is strong in central districts, but carry some cash for taxis/markets.",
+    "lang": "Spanish is dominant; English is common in higher-end hotels, tours, and restaurants.",
+    "tz": "UTC-05:00 (Peru Time).",
+    "visa": "Many visitors can enter visa-free for tourism, but length of stay and passport validity requirements vary by nationality.",
     "bestFor": [
-      "Weather-timed trips",
+      "City + food trips",
       "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Museums and history",
+      "Coastal urban breaks",
+      "Peru multi-stop itineraries"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Traffic can be heavy—allow buffer time for airport and cross-city transfers.",
+      "Use registered taxis or app-based rides, especially at night.",
+      "Winter coastal fog can mute views even when rain totals stay low."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "Late April-June and October-November usually give the best compromise between milder skies, moderate demand, and smoother pricing.",
   "months": [
     {
       "m": "Jan",
