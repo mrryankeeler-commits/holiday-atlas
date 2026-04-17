@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": true,
-    "fltNote": "Rio has nonstop UK links in some seasons; compare one-stop options as schedules can shift by month.",
+    "fltNote": "Nonstop UK service to Rio is seasonal; if fares spike, compare one-stop itineraries via São Paulo (GRU) and keep 3-4 hours minimum to clear immigration, transfer terminals, and re-check bags on separate tickets.",
     "airports": [
       {
         "name": "Rio de Janeiro/Galeão International Airport",
@@ -93,9 +93,16 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "During summer storm season (December to March), monitor flood and landslide alerts before heading to hillside neighborhoods or trailheads.",
-      "Reserve Carnival and New Year accommodation months ahead; last-minute inventory is scarce and cancellation penalties are often strict.",
-      "Use official taxi or app pickups after beach evenings and avoid carrying valuables openly on crowded transport corridors."
+      "On arrival at GIG, use the signed taxi rank (prepaid booth) or app pickup point inside the airport zone; avoid accepting rides from touts in the public arrivals hall.",
+      "Base beach time in Copacabana/Ipanema/Leblon during daylight and use a rideshare/taxi for late-night returns; avoid walking the beachfront and Avenida Atlântica with phones out after bars close.",
+      "For nightlife in Lapa and central districts, arrive by app taxi, keep valuables zipped, and leave before streets thin out (roughly after 01:00) rather than waiting alone for buses.",
+      "Treat Santa Teresa hillside lanes, trilha/forest trailheads, and Centro side streets as daytime-only for first visits; for early hikes (Tijuca/Corcovado), book licensed transfers and skip isolated bus stops before sunrise."
+    ],
+    "movement": [
+      "GIG -> Zona Sul (Copacabana/Ipanema/Leblon): official airport taxi is simplest after long-haul arrival; app rides are usually cheaper if your phone/data is working, while BRT+Metro is lowest cost but less practical with luggage.",
+      "Metro Line 1/4 is the safest and most predictable backbone between Zona Sul and Centro in daytime; use it for museum/office-hour trips, then switch to app taxi for the last leg at night.",
+      "Use app taxi or radio taxi for cross-neighborhood moves (for example Ipanema <-> Lapa, Botafogo <-> Santa Teresa) after dark; avoid empty train cars and deserted overpasses when stations are quiet.",
+      "If landing late (after ~22:00) or during heavy rain, pre-book a transfer or use official taxi ranks to your hotel door; this is usually safer for first-time visitors than trying to navigate bus interchanges on arrival."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
