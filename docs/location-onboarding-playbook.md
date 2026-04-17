@@ -103,6 +103,31 @@ Also manually confirm:
 
 ---
 
+## 6a) Essentials field specificity checklist (`prac` remediation)
+
+Use this before submitting any new or edited destination.
+
+- `prac.visa`
+  - ✅ Good: “UK/IE passport holders can enter Japan visa-free for short stays (up to 90 days); always verify latest Ministry guidance before travel.”
+  - ❌ Bad: “Always verify entry rules before travel.”
+- `prac.currency`
+  - ✅ Good: “Japanese yen (JPY); cards widely accepted in cities, but carry cash for smaller inns/temples.”
+  - ❌ Bad: “Local currency.”
+- `prac.lang`
+  - ✅ Good: “Japanese is the main language; English signage is common in major transport hubs.”
+  - ❌ Bad: “Local language plus variable English.”
+- `prac.tz`
+  - ✅ Good: “Asia/Tokyo (UTC+9), no daylight saving.”
+  - ❌ Bad: “See destination local timezone.”
+
+When in doubt, include at least one concrete anchor in each field:
+- visa policy type + nationality context,
+- currency name and/or ISO code,
+- named language(s),
+- IANA timezone and/or UTC offset.
+
+---
+
 ## 7) App smoke check
 
 1. Open app.
