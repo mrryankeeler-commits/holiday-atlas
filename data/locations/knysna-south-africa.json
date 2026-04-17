@@ -65,12 +65,12 @@
       "spd": "25-120 Mbps",
       "note": "Strong in town properties; patchier in remote forest lodges."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "From the UK/Ireland, the usual pattern is nonstop to Cape Town (CPT) or Johannesburg (JNB), then a domestic add-on to George (GRJ) plus a 1-1.5 hour road transfer; fully one-ticket routings exist but holiday periods (late Dec-Jan and Jul-Aug) can make domestic legs and car hire the bottleneck.",
+    "fltNote": "From the UK/Ireland there is no practical nonstop to Knysna itself; typical routing is long-haul to Cape Town (CPT) or Johannesburg (JNB), then a domestic add-on to George (GRJ) and a 1-1.5 hour road transfer. One-ticket combinations exist, but peak holiday periods (late Dec-Jan and Jul-Aug) can make domestic legs and car hire the bottleneck.",
     "airports": [
       {
         "name": "George Airport",
