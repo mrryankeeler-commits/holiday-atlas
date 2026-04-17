@@ -20,43 +20,43 @@
   "region": "Yangshuo County, Guangxi (Li River valley)",
   "lat": 24.9167,
   "lng": 110.5,
-  "desc": "Xingping is a small riverside town surrounded by karst peaks, ideal for Li River scenery, slow village stays, and photography-focused Guangxi trips.",
+  "desc": "Xingping is a compact Li River town framed by classic Guangxi karst peaks, best for slow-stay scenery, dawn viewpoints, and quieter nights than Yangshuo town.",
   "hls": [
-    "Classic Li River karst views from the 20 RMB backdrop area",
-    "Quieter base than central Yangshuo",
-    "Great for sunrise/sunset landscape photography",
-    "Easy boat and e-bike access to surrounding villages"
+    "Iconic Li River karst scenes around the famous 20 RMB viewpoint zone",
+    "Quieter evenings than central Yangshuo while keeping easy day-trip access",
+    "Strong sunrise/sunset photography options from nearby ridge viewpoints",
+    "Simple e-bike and boat links to river villages and countryside lanes"
   ],
   "todo": [
     {
       "name": "Laozhai Hill sunrise climb",
       "cat": "Scenic",
-      "desc": "Start before dawn for iconic karst and river panoramas."
+      "desc": "Start pre-dawn and allow time for steps that can be slick after overnight humidity."
     },
     {
-      "name": "Li River bamboo raft segment",
+      "name": "Li River raft segment",
       "cat": "Water",
-      "desc": "Take a raft or small boat route through key karst bends."
+      "desc": "Choose licensed raft sections operating that day, as routes can shift with river level controls."
     },
     {
-      "name": "Ancient Xingping streets walk",
+      "name": "Xingping old street wander",
       "cat": "Culture",
-      "desc": "Explore preserved lanes, guesthouses, and riverside docks."
+      "desc": "Explore preserved lanes, small docks, and courtyard guesthouses away from tour-bus peaks."
     },
     {
-      "name": "Xianggong Mountain viewpoint",
+      "name": "Xianggong Mountain golden hour",
       "cat": "Photography",
-      "desc": "Plan a golden-hour visit for layered karst compositions."
+      "desc": "Arrive early for tripod space and layered karst light before group tours arrive."
     },
     {
-      "name": "E-bike village loop",
+      "name": "Countryside e-bike loop",
       "cat": "Adventure",
-      "desc": "Ride to nearby hamlets, orchards, and quiet riverbanks."
+      "desc": "Ride river lanes to nearby hamlets and orchards, then return before dark on rural roads."
     },
     {
-      "name": "Beer fish dinner",
+      "name": "Beer fish + rice noodle night",
       "cat": "Food",
-      "desc": "Try Yangshuo-style beer fish and Guangxi rice noodles."
+      "desc": "Try local beer fish styles and Guilin rice noodles in small family-run restaurants."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Fine in newer guesthouses, but older riverside inns can be inconsistent."
     },
     "directGW": false,
-    "fltNote": "UK/Ireland routes typically connect via Beijing, Shanghai, Guangzhou, or Hong Kong then continue by high-speed rail/road to Xingping; Chinese national holidays drive the sharpest domestic fare spikes.",
+    "fltNote": "There are typically no practical UK/Ireland nonstops to Guilin region: most itineraries connect via major Chinese or regional hubs (commonly Beijing, Shanghai, Guangzhou, Shenzhen, or Hong Kong), then continue to Xingping by road or high-speed rail plus final transfer. Guilin Liangjiang (KWL) is the closest airport, while Guangzhou (CAN) and Hong Kong (HKG) are realistic fallback entry points when fares or schedules are better. Domestic demand spikes around May Day, summer school holidays, and National Day Golden Week can materially raise final-leg prices and crowding.",
     "airports": [
       {
         "name": "Guilin Liangjiang International Airport",
@@ -78,6 +78,12 @@
         "name": "Guangzhou Baiyun International Airport",
         "code": "CAN",
         "km": 470,
+        "dgw": false
+      },
+      {
+        "name": "Hong Kong International Airport",
+        "code": "HKG",
+        "km": 510,
         "dgw": false
       }
     ],
@@ -92,9 +98,10 @@
       "Hiking + boating"
     ],
     "alerts": [
-      "Monsoon-season river levels can alter rafting routes and docking points.",
-      "Mountain viewpoints involve steep, uneven steps—bring proper footwear for wet conditions.",
-      "Many small inns prefer app-based payments and limited card acceptance."
+      "Li River water-level controls in wet months can shorten or reroute raft services on short notice; reconfirm the exact dock on the day.",
+      "Viewpoint trails (including Laozhai) are steep with uneven stone steps, and become slippery after rain—carry shoes with grip.",
+      "Golden Week and major domestic holidays create sharp crowd surges in Xingping and Xianggong; book rooms and transfer tickets early.",
+      "Many small guesthouses and transport counters prioritize app payments/Chinese-language booking flows, so prepare offline payment and translation backups."
     ]
   },
   "sweet": "Sep-Nov and Mar-Apr for clearer karst visibility and comfortable hiking temperatures.",
@@ -107,9 +114,9 @@
       "daylight": 10.0,
       "cld": 35,
       "rain": 0,
-      "busy": 1,
+      "busy": 2,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Feb",
@@ -119,9 +126,9 @@
       "daylight": 10.9,
       "cld": 42,
       "rain": 0,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
     },
     {
       "m": "Mar",
@@ -131,7 +138,7 @@
       "daylight": 12.0,
       "cld": 50,
       "rain": 5,
-      "busy": 4,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -143,9 +150,9 @@
       "daylight": 13.1,
       "cld": 49,
       "rain": 18,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -155,9 +162,9 @@
       "daylight": 14.1,
       "cld": 49,
       "rain": 33,
-      "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -167,9 +174,9 @@
       "daylight": 14.6,
       "cld": 46,
       "rain": 51,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -179,9 +186,9 @@
       "daylight": 14.3,
       "cld": 40,
       "rain": 64,
-      "busy": 10,
-      "ac": 4,
-      "fl": 4
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Aug",
@@ -191,9 +198,9 @@
       "daylight": 13.5,
       "cld": 37,
       "rain": 64,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -203,7 +210,7 @@
       "daylight": 12.4,
       "cld": 42,
       "rain": 48,
-      "busy": 7,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -215,9 +222,9 @@
       "daylight": 11.2,
       "cld": 43,
       "rain": 20,
-      "busy": 6,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Nov",
@@ -227,9 +234,9 @@
       "daylight": 10.3,
       "cld": 33,
       "rain": 2,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -240,7 +247,7 @@
       "cld": 30,
       "rain": 0,
       "busy": 3,
-      "ac": 2,
+      "ac": 1,
       "fl": 2
     }
   ]

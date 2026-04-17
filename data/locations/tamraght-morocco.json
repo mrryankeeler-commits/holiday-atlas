@@ -20,43 +20,43 @@
   "region": "Agadir Ida-Ou Tanane (Taghazout Bay)",
   "lat": 30.5093,
   "lng": -9.6746,
-  "desc": "Tamraght is a surf-focused Berber village just north of Agadir, popular for relaxed cafés, yoga stays, and easy access to Taghazout Bay breaks.",
+  "desc": "Tamraght is a surf-oriented Berber village in Taghazout Bay with relaxed cafés, yoga camps, and quick access to multiple Atlantic breaks while staying quieter than central Taghazout.",
   "hls": [
-    "Multiple beginner-to-intermediate surf breaks nearby",
-    "Lower-key alternative to Taghazout center",
-    "Good base for yoga and remote-work surf camps",
-    "Quick transfers from Agadir airport"
+    "Multiple beginner-to-intermediate surf breaks within short taxi distance",
+    "Lower-key village atmosphere than Taghazout centre",
+    "Strong surf-camp + yoga stay ecosystem for medium-length trips",
+    "Fast airport transfers from Agadir compared with most Morocco surf bases"
   ],
   "todo": [
     {
-      "name": "Imourane surf session",
+      "name": "Imourane morning surf lesson",
       "cat": "Adventure",
-      "desc": "Book a lesson on one of the area's most accessible breaks."
+      "desc": "Book early for cleaner wind windows and easier beginner coaching slots."
     },
     {
       "name": "Banana Beach sunset walk",
       "cat": "Coast",
-      "desc": "Spend late afternoon on the broad beach stretch south of village."
+      "desc": "Use late afternoon light for a long shoreline walk south of the village."
     },
     {
-      "name": "Paradise Valley half-day",
+      "name": "Paradise Valley half-day loop",
       "cat": "Nature",
-      "desc": "Visit pools and canyon viewpoints inland from Agadir."
+      "desc": "Check water levels first, then combine pools, canyon views, and roadside fruit stops."
     },
     {
-      "name": "Tamraght hillside cafés",
-      "cat": "Food",
-      "desc": "Try Moroccan breakfasts and smoothie bowls in surf cafés."
-    },
-    {
-      "name": "Agadir souk evening trip",
-      "cat": "Culture",
-      "desc": "Use a short transfer to explore Souk El Had."
-    },
-    {
-      "name": "Taghazout skatepark + promenade",
+      "name": "Tamraght café work block",
       "cat": "Local life",
-      "desc": "Pair skatepark visit with harborfront walk and fish grills."
+      "desc": "Mix Moroccan breakfasts with laptop-friendly café sessions between tides."
+    },
+    {
+      "name": "Agadir souk evening run",
+      "cat": "Culture",
+      "desc": "Head to Souk El Had before closing for spices, textiles, and local snacks."
+    },
+    {
+      "name": "Taghazout harbor fish grills",
+      "cat": "Food",
+      "desc": "Pair a promenade walk with simple grilled-fish spots near the port."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Many surf camps offer workable Wi-Fi, but speeds vary by occupancy."
     },
     "directGW": true,
-    "fltNote": "Tamraght is closest to Agadir (AGA), which has strong UK seasonal nonstop coverage; outside those windows, many UK/Ireland itineraries connect via Casablanca, Lisbon, or other European hubs. Marrakech (RAK) is a practical alternate gateway with longer ground transfer, especially when Agadir capacity is thin. Winter sun season and Easter weeks are typically highest demand.",
+    "fltNote": "Tamraght is primarily reached via Agadir (AGA), where UK nonstop coverage is strongest in winter-sun and peak summer weeks; outside those periods, many UK/Ireland routings connect via Casablanca, Lisbon, Madrid, or London. Marrakech (RAK) is the main fallback gateway when AGA schedules thin out, but the added road transfer can materially extend total travel time. Easter, July-August, and Christmas/New Year usually bring the highest airfare and seat-pressure months.",
     "airports": [
       {
         "name": "Agadir-Al Massira Airport",
@@ -92,10 +92,10 @@
       "Budget long stays"
     ],
     "alerts": [
-      "Surf conditions vary quickly with swell and tide—confirm beginner safety windows daily.",
-      "Village roads are narrow with mixed pedestrian/vehicle traffic; walk cautiously at night.",
-      "Some accommodations rely on shared shuttle schedules, reducing flexibility for early flights.",
-      "If arriving via Marrakech, allow extra transfer buffer for mountain/coastal road traffic and late-night coach availability."
+      "Surf safety changes quickly with tide and swell; confirm beginner-friendly windows with local instructors each day.",
+      "Tamraght hills and side streets are dimly lit at night—use a torch/phone light when walking back from beach roads.",
+      "Friday prayer-time and weekend traffic can slow Agadir transfers; leave extra margin for airport runs.",
+      "ATM availability in village can be patchy during busy weeks, so carry backup cash before late arrivals."
     ]
   },
   "sweet": "Oct-Apr for consistent surf swells and mild daytime temperatures.",
@@ -108,9 +108,9 @@
       "daylight": 10.4,
       "cld": 29,
       "rain": 28,
-      "busy": 1,
-      "ac": 1,
-      "fl": 1
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Feb",
@@ -120,9 +120,9 @@
       "daylight": 11.1,
       "cld": 27,
       "rain": 30,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Mar",
@@ -132,9 +132,9 @@
       "daylight": 12.0,
       "cld": 28,
       "rain": 23,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -144,9 +144,9 @@
       "daylight": 13.0,
       "cld": 23,
       "rain": 13,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -156,9 +156,9 @@
       "daylight": 13.7,
       "cld": 21,
       "rain": 5,
-      "busy": 6,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -168,8 +168,8 @@
       "daylight": 14.1,
       "cld": 11,
       "rain": 0,
-      "busy": 8,
-      "ac": 3,
+      "busy": 4,
+      "ac": 2,
       "fl": 3
     },
     {
@@ -180,7 +180,7 @@
       "daylight": 13.9,
       "cld": 3,
       "rain": 0,
-      "busy": 10,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -204,9 +204,9 @@
       "daylight": 12.3,
       "cld": 24,
       "rain": 2,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -216,9 +216,9 @@
       "daylight": 11.4,
       "cld": 34,
       "rain": 15,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -228,9 +228,9 @@
       "daylight": 10.6,
       "cld": 33,
       "rain": 33,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Dec",
@@ -240,9 +240,9 @@
       "daylight": 10.2,
       "cld": 33,
       "rain": 36,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }
