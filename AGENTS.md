@@ -61,6 +61,18 @@ When moving staged records from `data/pending-locations/` to `data/locations/`:
 - Full destination enrichment (copy + practicals + costs/flights + todo research) should be done in small batches of up to **3 locations per task** to keep research quality high.
 - For enriched entries, include practical and pricing depth (busyness, accommodation, flights from UK/Ireland, direct-flight notes where available) and keep claims evidence-backed.
 
+## Required author/reviewer checklist (new destinations + enrichment edits)
+This checklist is mandatory for **both**:
+- new destination additions, and
+- enrichment edits to existing destinations.
+
+Before approval/merge, confirm all of the following:
+- `prac.airports` contains at least one realistic airport and includes distance information.
+- `region` is specific to the destination context (not a country-generic placeholder).
+- `prac.alerts` is destination-specific and not copied boilerplate.
+- `prac.fltNote` references route seasonality and/or transfer reality for that destination.
+- Metadata in `data/locations/index.json` matches the corresponding location file (`id`, `city`, `country`, `region`, `lat`, `lng`).
+
 ## Seasonality scoring provenance + rubric
 When a location file includes month-level `busy`, `ac`, and `fl` values, keep a consistent provenance object at `source.scoring`.
 
