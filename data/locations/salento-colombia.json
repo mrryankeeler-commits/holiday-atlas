@@ -20,43 +20,43 @@
   "region": "Quindío (Coffee Axis)",
   "lat": 4.6374,
   "lng": -75.5708,
-  "desc": "Salento is a colorful Andean town and gateway to Cocora Valley, best for coffee-country scenery, hiking, and cool evenings at moderate altitude.",
+  "desc": "Salento is best for hikers, coffee-curious couples, and remote workers wanting a 3-4 night Cocora + finca stay, or 6-8 nights when paired with Filandia and Valle del Cauca stops.",
   "hls": [
-    "Access to Cocora Valley wax palm landscapes",
-    "Small-town base for coffee farm visits",
-    "Strong backpacker and boutique-lodge mix",
-    "Pleasant cooler temperatures vs lowland Colombia"
+    "Cocora Valley Acaime loop for wax palms, hummingbirds, and cloud-forest bridges",
+    "Working coffee fincas near town with hands-on harvesting/processing tours",
+    "Walkable base around Calle Real with backpacker hostels and boutique fincas",
+    "Simple onward links to Filandia, Armenia, and Pereira for Coffee Axis itineraries"
   ],
   "todo": [
     {
-      "name": "Cocora Valley full-day hike",
+      "name": "Cocora Valley Acaime-Las Palmas loop",
       "cat": "Nature",
-      "desc": "Start early for cloud-forest loops and wax palm viewpoints."
+      "desc": "Take first Willy jeep, hike clockwise, and finish before afternoon rain builds."
     },
     {
-      "name": "Coffee finca tour",
+      "name": "Finca El Ocaso or Las Acacias tour",
       "cat": "Agri-tourism",
-      "desc": "Join a production tour from bean picking through roasting."
+      "desc": "Book an English/Spanish session covering varietals, washing, drying, and cupping."
     },
     {
-      "name": "Calle Real evening stroll",
-      "cat": "Culture",
-      "desc": "Explore colorful façades, balconies, and artisan shops."
-    },
-    {
-      "name": "Mirador Alto de la Cruz",
+      "name": "Alto de la Cruz sunset climb",
       "cat": "Scenic",
-      "desc": "Climb for town and mountain vistas at golden hour."
+      "desc": "Go 60-90 minutes before dusk for clearer valley views and town lights after dark."
     },
     {
-      "name": "Trucha lunch in riverside eateries",
+      "name": "Calle Real craft + coffee bar crawl",
+      "cat": "Culture",
+      "desc": "Pair artisan shops with specialty cafés and small aguardiente bars."
+    },
+    {
+      "name": "Trout lunch in Boquía",
       "cat": "Food",
-      "desc": "Try local trout dishes served with patacones and arepas."
+      "desc": "Ride or walk to Boquía for riverside trucha and patacones away from main-square crowds."
     },
     {
-      "name": "Filandia half-day trip",
+      "name": "Filandia + Barbas-Bremen reserve day",
       "cat": "Village",
-      "desc": "Visit nearby Filandia for quieter coffee-town atmosphere."
+      "desc": "Combine Filandia viewpoint with a guided reserve walk for howler-monkey sightings."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Decent in town stays; finca lodges outside town can be inconsistent."
     },
     "directGW": false,
-    "fltNote": "UK/Ireland access usually connects via Bogotá, Medellín, Madrid, or Panama City before a domestic leg; holiday peaks (Dec-Jan, Semana Santa, Jul) increase fare pressure.",
+    "fltNote": "From UK/Ireland, most routings connect via Bogotá or Medellín (sometimes Madrid/Panama City first), then a domestic leg to AXM/PEI; final transfer to Salento is by bus, shared shuttle, or private car (1-1.5h).",
     "airports": [
       {
         "name": "El Edén International Airport (Armenia)",
@@ -92,12 +92,13 @@
       "Small-town stays"
     ],
     "alerts": [
-      "Mountain weather shifts quickly; trails can become muddy with afternoon rain even in drier months.",
-      "Roadworks and landslides occasionally impact transfer times from Armenia/Pereira airports.",
-      "Weekend day-trippers crowd Cocora's trailheads—go early or choose weekdays."
+      "AXM arrivals after ~20:00 can miss the last direct bus connections—pre-book shuttle or overnight in Armenia.",
+      "Roadworks, fog, and rain-triggered slips can add 30-90 minutes on AXM/PEI-Salento transfers.",
+      "Weekend/holiday day-tripper surges create jeep queues for Cocora from early morning.",
+      "Mountain weather changes fast; carry rain layer and waterproof footwear even in drier months."
     ]
   },
-  "sweet": "Dec-Mar and Jul-Aug for relatively drier hiking conditions and clearer valley views.",
+  "sweet": "February-March and July-August usually give the best hiking value mix: decent visibility and trail access without December-January holiday price pressure.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +108,9 @@
       "daylight": 11.9,
       "cld": 82,
       "rain": 107,
-      "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 5
     },
     {
       "m": "Feb",
@@ -119,9 +120,9 @@
       "daylight": 12.0,
       "cld": 87,
       "rain": 124,
-      "busy": 10,
-      "ac": 4,
-      "fl": 4
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Mar",
@@ -131,9 +132,9 @@
       "daylight": 12.1,
       "cld": 89,
       "rain": 145,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -143,9 +144,9 @@
       "daylight": 12.2,
       "cld": 91,
       "rain": 203,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -157,7 +158,7 @@
       "rain": 190,
       "busy": 3,
       "ac": 1,
-      "fl": 1
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -167,8 +168,8 @@
       "daylight": 12.4,
       "cld": 81,
       "rain": 150,
-      "busy": 7,
-      "ac": 3,
+      "busy": 5,
+      "ac": 2,
       "fl": 3
     },
     {
@@ -179,9 +180,9 @@
       "daylight": 12.4,
       "cld": 76,
       "rain": 119,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -191,9 +192,9 @@
       "daylight": 12.3,
       "cld": 77,
       "rain": 124,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Sep",
@@ -215,7 +216,7 @@
       "daylight": 12.0,
       "cld": 90,
       "rain": 211,
-      "busy": 1,
+      "busy": 2,
       "ac": 1,
       "fl": 1
     },
@@ -239,9 +240,9 @@
       "daylight": 11.9,
       "cld": 85,
       "rain": 145,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     }
   ]
 }
