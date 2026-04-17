@@ -20,43 +20,43 @@
   "region": "Azuay Province (Ecuadorian Andes)",
   "lat": -2.9001,
   "lng": -79.0059,
-  "desc": "Cuenca pairs colonial architecture with high-altitude Andean climate, making it a strong base for culture-focused trips and nearby Cajas National Park hiking.",
+  "desc": "Cuenca sits in Ecuador's southern Andes, blending UNESCO-era churches, café culture, and a relaxed high-altitude pace that suits culture-first travelers who also want easy access to Cajas páramo hikes.",
   "hls": [
-    "UNESCO old town and riverside promenades",
-    "Reliable café-and-coworking scene for long stays",
-    "Quick access to Cajas páramo trails",
-    "Lower humidity than tropical Ecuador hubs"
+    "UNESCO-listed historic core with riverwalk neighborhoods",
+    "Strong museum, artisan, and food-market culture in a compact center",
+    "Fast access to Cajas National Park lagoons and highland trails",
+    "Mild daytime temperatures that favor slow, walkable itineraries"
   ],
   "todo": [
     {
-      "name": "Historic center walking circuit",
+      "name": "Old Town + New Cathedral rooftop circuit",
       "cat": "Culture",
-      "desc": "Cover Plaza Calderón, cathedral interiors, and flower market streets."
+      "desc": "Link Plaza Calderón, the blue-domed Catedral Nueva, and El Barranco viewpoints in one walk."
     },
     {
-      "name": "Pumapungo Museum + ruins",
+      "name": "Pumapungo Museum and Inca ruins",
       "cat": "History",
-      "desc": "Combine the museum with adjacent Inca site and ethnobotanical gardens."
+      "desc": "Pair the ethnography galleries with the adjacent archaeological zone and riverside gardens."
     },
     {
-      "name": "Cajas National Park day hike",
+      "name": "Cajas National Park Toreadora trails",
       "cat": "Nature",
-      "desc": "Take an acclimatized day trip for lagoon trails and highland scenery."
+      "desc": "Start from Laguna Toreadora for acclimatized páramo hiking among lakes and Polylepis forest."
     },
     {
-      "name": "Panama hat workshop",
+      "name": "Chordeleg and Gualaceo craft day",
       "cat": "Craft",
-      "desc": "Visit traditional toquilla weaving studios around Cuenca."
+      "desc": "Do a day loop to workshops known for silver filigree, weaving, and Panama-hat finishing."
     },
     {
-      "name": "Río Tomebamba sunset stroll",
-      "cat": "Scenic",
-      "desc": "Walk both banks and stairways through El Barranco."
-    },
-    {
-      "name": "Mercado 10 de Agosto lunch",
+      "name": "Mercado 10 de Agosto food crawl",
       "cat": "Food",
-      "desc": "Sample mote, hornado, and fresh juices in the central market."
+      "desc": "Sample mote dishes, jugos, and hornado counters with strong local lunchtime trade."
+    },
+    {
+      "name": "Tomebamba and Yanuncay river promenade",
+      "cat": "Scenic",
+      "desc": "Walk both rivers at golden hour for terrace cafés and colonial facades."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Good fiber availability in central neighborhoods and serviced apartments."
     },
     "directGW": false,
-    "fltNote": "UK/Ireland travelers typically connect via Quito, Guayaquil, Madrid, or Bogotá; Cuenca's domestic legs are frequent but can tighten in Easter and July-August periods.",
+    "fltNote": "From the UK/Ireland, the most reliable long-haul pattern is Europe/US to Quito (UIO) or Guayaquil (GYE), then a short domestic flight to Cuenca (CUE); overland transfers from GYE/UIO are possible but weather and mountain roads can add delay risk, especially in wetter months and holiday periods.",
     "airports": [
       {
         "name": "Mariscal La Mar International Airport",
@@ -78,6 +78,12 @@
         "name": "José Joaquín de Olmedo International Airport (Guayaquil)",
         "code": "GYE",
         "km": 195,
+        "dgw": false
+      },
+      {
+        "name": "Mariscal Sucre International Airport (Quito)",
+        "code": "UIO",
+        "km": 440,
         "dgw": false
       }
     ],
@@ -92,12 +98,12 @@
       "Culture + food"
     ],
     "alerts": [
-      "At 2,500+ m elevation, first-day exertion can cause altitude fatigue—hydrate and keep plans light.",
-      "Afternoon showers are common even in drier windows; carry a shell for park and old-town walks.",
-      "Intercity roads to Guayaquil can face fog or landslides in wetter months, so avoid very tight same-day flight connections."
+      "Cuenca sits above 2,500 m: schedule a lighter first 24 hours to reduce altitude-related fatigue.",
+      "On the Cajas/El Cajas corridor, fog, cold rain, and sudden visibility drops are common in afternoons—start mountain trips early.",
+      "Road links toward Guayaquil can see landslide or closure disruptions in wetter spells; avoid last-minute same-day international onward connections."
     ]
   },
-  "sweet": "Jun-Sep for sunnier mornings and easier Andean hiking, with Apr-May and Oct-Nov workable for city breaks.",
+  "sweet": "May-Sep for drier mornings and stronger hiking reliability, with Oct-Nov good for city culture trips around Independence festivities and fewer peak-season prices.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +113,9 @@
       "daylight": 12.3,
       "cld": 86,
       "rain": 51,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Feb",
@@ -119,9 +125,9 @@
       "daylight": 12.2,
       "cld": 90,
       "rain": 81,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Mar",
@@ -131,7 +137,7 @@
       "daylight": 12.1,
       "cld": 89,
       "rain": 94,
-      "busy": 5,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -143,7 +149,7 @@
       "daylight": 12.0,
       "cld": 79,
       "rain": 69,
-      "busy": 9,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -155,7 +161,7 @@
       "daylight": 12.0,
       "cld": 63,
       "rain": 43,
-      "busy": 8,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -167,9 +173,9 @@
       "daylight": 12.0,
       "cld": 49,
       "rain": 30,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -179,9 +185,9 @@
       "daylight": 12.0,
       "cld": 43,
       "rain": 18,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -191,9 +197,9 @@
       "daylight": 12.0,
       "cld": 42,
       "rain": 15,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -203,9 +209,9 @@
       "daylight": 12.1,
       "cld": 54,
       "rain": 20,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -215,7 +221,7 @@
       "daylight": 12.2,
       "cld": 70,
       "rain": 38,
-      "busy": 4,
+      "busy": 6,
       "ac": 2,
       "fl": 2
     },
@@ -227,9 +233,9 @@
       "daylight": 12.3,
       "cld": 80,
       "rain": 38,
-      "busy": 8,
-      "ac": 4,
-      "fl": 4
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Dec",
@@ -239,9 +245,9 @@
       "daylight": 12.3,
       "cld": 82,
       "rain": 43,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

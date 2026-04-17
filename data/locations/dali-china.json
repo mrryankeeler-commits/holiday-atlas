@@ -20,43 +20,43 @@
   "region": "Dali Bai Autonomous Prefecture (Yunnan)",
   "lat": 25.6065,
   "lng": 100.2676,
-  "desc": "Dali combines highland lakeside scenery, Bai heritage towns, and spring-like temperatures for most of the year, with monsoon timing the main trip-planning factor.",
+  "desc": "Dali anchors northwest Yunnan with Bai heritage towns, Erhai Lake, and Cangshan foothills, fitting travelers who want scenic culture and a slower pace outside China's megacities while planning around summer monsoon periods.",
   "hls": [
-    "Erhai Lake cycling and village loop routes",
-    "Bai minority architecture in Dali Old Town and Xizhou",
-    "Great Yunnan produce and tea culture",
-    "Mild shoulder seasons suited to slower itineraries"
+    "Erhai Lake loop landscapes with village-to-village cycling",
+    "Bai architecture and courtyards in Dali Old Town and Xizhou",
+    "Cangshan mountain access for cableway viewpoints and short trails",
+    "Temperate highland climate ideal for spring/autumn pacing"
   ],
   "todo": [
     {
-      "name": "Dali Old Town south gate walk",
+      "name": "Dali Old Town walls and Foreigner Street lanes",
       "cat": "Culture",
-      "desc": "Explore city walls, craft alleys, and temple courtyards in the morning."
+      "desc": "Walk the gate towers, temple alleys, and morning produce streets before crowds build."
     },
     {
-      "name": "Erhai west-shore cycle day",
-      "cat": "Scenic",
-      "desc": "Ride between lake villages with photo stops and cafés."
-    },
-    {
-      "name": "Three Pagodas and Chongsheng complex",
+      "name": "Three Pagodas (Chongsheng Temple)",
       "cat": "History",
-      "desc": "Visit at opening for quieter grounds and mountain backdrop views."
+      "desc": "Visit early for clear Cangshan-backdrop photos and quieter temple grounds."
     },
     {
-      "name": "Xizhou Bai village visit",
+      "name": "Erhai west-shore cycle: Caicun to Xizhou",
+      "cat": "Scenic",
+      "desc": "Ride between lakeside wetlands, village cafés, and classic Bai courtyard architecture."
+    },
+    {
+      "name": "Xizhou market and Bai courtyard houses",
       "cat": "Culture",
-      "desc": "See Bai courtyard homes and try local rushan cheese snacks."
+      "desc": "Time your visit for the morning market and local dairy snack stalls."
     },
     {
-      "name": "Cangshan cableway + trail segment",
+      "name": "Cangshan cableway + mid-mountain boardwalk",
       "cat": "Nature",
-      "desc": "Use the cableway for alpine views and short ridge walks."
+      "desc": "Use the cableway for alpine panoramas and a short ridge walk if weather holds."
     },
     {
-      "name": "Yunnan mushroom hotpot dinner",
-      "cat": "Food",
-      "desc": "Book a seasonal mushroom-focused restaurant in town."
+      "name": "Shaxi Ancient Town day trip",
+      "cat": "History",
+      "desc": "Add a deeper Tea Horse Road stop if you have a full extra day from Dali."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Decent in modern hotels, variable in traditional courtyard inns."
     },
     "directGW": false,
-    "fltNote": "No nonstop UK/Ireland flights; most routes connect via Kunming, Chengdu, Guangzhou, or Hong Kong before a domestic hop to Dali, with stronger summer seat supply but higher fare pressure.",
+    "fltNote": "From the UK/Ireland, typical chains are long-haul to Kunming/Chengdu/Guangzhou/Shanghai (sometimes Hong Kong), then a domestic leg to Dali (DLU) or high-speed rail via Kunming; Lijiang (LJG) is a practical alternate airport for multi-stop Yunnan itineraries.",
     "airports": [
       {
         "name": "Dali Fengyi Airport",
@@ -78,6 +78,12 @@
         "name": "Kunming Changshui International Airport",
         "code": "KMG",
         "km": 340,
+        "dgw": false
+      },
+      {
+        "name": "Lijiang Sanyi International Airport",
+        "code": "LJG",
+        "km": 185,
         "dgw": false
       }
     ],
@@ -92,12 +98,12 @@
       "Slow itineraries"
     ],
     "alerts": [
-      "Monsoon rains (roughly June-September) can interrupt mountain cableway operations with short-notice closures.",
-      "Some guesthouses in old lanes are pedestrian-access only; confirm luggage transfer arrangements.",
-      "China apps/payments are widely used—set up backup payment methods before arrival."
+      "June-September monsoon downpours can trigger short-notice Cangshan cableway suspensions and slower mountain-road transfers.",
+      "National holiday surges (Lunar New Year, May Day, and early-October Golden Week) raise lodging prices and reduce same-day transport flexibility.",
+      "Many old-town lanes are pedestrianized stone streets; confirm hotel pickup points if arriving with heavy luggage."
     ]
   },
-  "sweet": "Mar-May and Oct-Nov for clear mountain views and comfortable cycling temperatures.",
+  "sweet": "Mar-May and Oct-Nov for the best comfort-to-value balance; skies are clearer than peak monsoon, while avoiding the highest domestic-holiday crowd pressure.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +113,9 @@
       "daylight": 10.7,
       "cld": 13,
       "rain": 10,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Feb",
@@ -119,9 +125,9 @@
       "daylight": 11.3,
       "cld": 12,
       "rain": 15,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -131,9 +137,9 @@
       "daylight": 12.0,
       "cld": 17,
       "rain": 18,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -144,8 +150,8 @@
       "cld": 33,
       "rain": 18,
       "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -155,9 +161,9 @@
       "daylight": 13.4,
       "cld": 48,
       "rain": 56,
-      "busy": 10,
+      "busy": 9,
       "ac": 5,
-      "fl": 5
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -167,9 +173,9 @@
       "daylight": 13.7,
       "cld": 73,
       "rain": 102,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -179,7 +185,7 @@
       "daylight": 13.5,
       "cld": 83,
       "rain": 137,
-      "busy": 9,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -192,8 +198,8 @@
       "cld": 78,
       "rain": 135,
       "busy": 8,
-      "ac": 3,
-      "fl": 3
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -215,9 +221,9 @@
       "daylight": 11.5,
       "cld": 42,
       "rain": 61,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Nov",
@@ -227,7 +233,7 @@
       "daylight": 10.9,
       "cld": 25,
       "rain": 18,
-      "busy": 3,
+      "busy": 5,
       "ac": 2,
       "fl": 2
     },
@@ -239,9 +245,9 @@
       "daylight": 10.6,
       "cld": 18,
       "rain": 5,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }
