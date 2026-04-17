@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
+    "fltNote": "No non-stop UK flights to Kinnaur: typical routing is UK → Delhi/Chandigarh, then overnight bus/taxi via Shimla to Reckong Peo (often 10–14 hours on mountain roads from Chandigarh). Build daylight buffer time for landslide or convoy holds on NH-5, and avoid tight same-day international-to-road connections.",
     "airports": [
       {
         "name": "Shimla Airport",
@@ -99,9 +99,9 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "Before Kinnaur road travel, check NH-5 landslide advisories daily during monsoon (July to September) as closures can last many hours.",
-      "Book shared jeeps and onward buses a day in advance in shoulder months because limited frequency can strand late arrivals.",
-      "Carry paper copies of IDs and permits for nearby border-zone excursions, where mobile data is patchy and checkpoints require documents."
+      "NH-5 into Kinnaur is a cliff-cut mountain corridor; in monsoon (roughly July–September) and after winter storms (December–March), landslides/rockfall and temporary one-way controls are common—check Himachal PWD/Kinnaur Police updates before departure and again at Shimla, Narkanda, and Jeori junction stops.",
+      "For onward movement toward Kalpa, Sangla/Chitkul, Nako, or Tabo/Spiti, keep at least one spare day in your itinerary: road blocks can roll forward by sector, so a passable morning can still close by afternoon.",
+      "Permits/ID: Indian nationals may be asked for ID at police checkpoints; most foreign nationals need an Inner Line Permit (ILP) for notified Kinnaur border-belt villages/routes near the Tibet frontier—confirm current SDM Reckong Peo district rules and carry multiple paper + digital copies because data signal is unreliable."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
