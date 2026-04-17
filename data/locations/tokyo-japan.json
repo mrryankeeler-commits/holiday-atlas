@@ -18,6 +18,8 @@
   "city": "Tokyo",
   "country": "Japan",
   "region": "Kantō Region",
+  "lat": 35.6762,
+  "lng": 139.6503,
   "desc": "Tokyo is a strong base for exploring Japan with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
   "hls": [
     "Seasonal climate profile benchmarked for Tokyo",
@@ -66,19 +68,23 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": true,
-    "fltNote": "Tokyo has year-round nonstop UK service; compare Haneda vs Narita timing because fares and convenience differ.",
+    "fltNote": "For central Tokyo stays and late arrivals, Haneda usually minimizes transfer time; Narita can price better on some long-haul dates but adds longer city transfers. In peak windows (late Mar-early Apr, Golden Week, Obon, late Dec-early Jan), aim to lock flights 4-7 months out and target hotels 3-6 months out; for major event weeks, 6+ months is safer.",
     "airports": [
       {
         "name": "Tokyo Haneda Airport",
         "code": "HND",
         "km": 20,
-        "dgw": true
+        "dgw": true,
+        "bestFor": "First-time visitors, short breaks, and evening arrivals with simple city transfers",
+        "transfer": "Fastest access to central wards via Keikyu/Monorail + JR/Metro connections; late-night taxi costs are usually lower than from Narita."
       },
       {
         "name": "Narita International Airport",
         "code": "NRT",
         "km": 70,
-        "dgw": true
+        "dgw": true,
+        "bestFor": "Price-led itineraries, specific airline schedules, or open-jaw/regional onward routing",
+        "transfer": "Skyliner and Narita Express are reliable but add time/cost; verify final train or limousine-bus cutoffs on late arrivals."
       }
     ],
     "currency": "Check live exchange rates before booking.",
@@ -94,8 +100,9 @@
     ],
     "alerts": [
       "During typhoon season (August to October), monitor JMA advisories and rail operator notices for potential same-day service suspensions.",
-      "Book Shinkansen seats and major attractions early for Golden Week, Obon, and New Year when domestic demand peaks.",
-      "If flying out of Narita after evening events, confirm last train or limousine-bus times since missed connections can require costly taxis."
+      "For Golden Week, Obon, and New Year, reserve long-distance rail seats and key attractions 3-4 weeks ahead; if dates are fixed, book accommodation 4-6 months out.",
+      "Tokyo rail passes are not universally good value: they usually pay off only with frequent JR intercity/day-trip use. For mostly metro-based city days, IC card + point-to-point tickets is often cheaper and more flexible.",
+      "If flying out of Narita after evening events, confirm last train or limousine-bus times in advance since missed connections can require costly taxis or an airport hotel."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
