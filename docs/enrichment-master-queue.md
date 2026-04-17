@@ -98,9 +98,9 @@
 | `madeira-portugal` | yes | yes | yes | yes | no |
 | `makassar-indonesia` | yes | yes | yes | yes | no |
 | `malay-philippines` | yes | yes | yes | yes | no |
-| `manado-indonesia` | yes | no | yes | no | no |
-| `medellin-colombia` | yes | no | yes | no | no |
-| `minca-colombia` | yes | no | yes | no | no |
+| `manado-indonesia` | yes | no | yes | yes | no |
+| `medellin-colombia` | yes | no | yes | yes | no |
+| `minca-colombia` | yes | no | yes | yes | no |
 | `ometepe-nicaragua` | yes | no | yes | no | no |
 | `phoenix-arizona-united-states` | yes | no | yes | no | no |
 | `placencia-belize` | yes | no | yes | no | no |
