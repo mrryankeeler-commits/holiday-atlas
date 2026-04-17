@@ -76,6 +76,10 @@
       "note": "Apartments and business hotels are usually reliable; 5G is strong across central districts. Ask hosts for router placement in older palazzo buildings where interior walls can reduce room-to-room speeds."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection. Typical return fares are often ~£45–£110 in deep off-peak, ~£110–£190 in shoulder months, and ~£190+ around Easter, summer school holidays, and late-December peaks.",
     "airports": [
       {

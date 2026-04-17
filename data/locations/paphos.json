@@ -76,6 +76,10 @@
       "note": "Generally dependable in hotels and aparthotels; many beachfront venues also provide stable backup connections."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection.",
     "airports": [
       {

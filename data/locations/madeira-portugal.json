@@ -66,6 +66,10 @@
       "note": "Funchal hotels/apartments are usually reliable for remote work; uplink and stability can drop in mountain villages."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "London airports frequently have nonstop options to Funchal (FNC), especially in spring/summer schedules. Shoulder months often price better than July-August and Christmas/New Year peaks.",
     "airports": [
       {

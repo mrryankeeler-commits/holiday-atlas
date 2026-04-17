@@ -65,7 +65,11 @@
       "spd": "40–150 Mbps",
       "note": "Expect uneven service: casa/hotel Wi-Fi may work for messaging, but outages and evening slowdowns are common; buy an ETECSA top-up early and keep offline maps/tickets/screenshots for no-signal periods."
     },
-    "directGW": true,
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
     "fltNote": "Viñales has no airport; José Martí (HAV) is the main gateway. Havana→Viñales options: shared shuttle (typically 2.5-4 hours door-to-door with multiple hotel pickups), Viazul coach (about 3.5-4.5 hours plus bus-terminal check-in and limited baggage flexibility), or private taxi/transfer (about 2.5-3.5 hours, fastest but costly and fuel/cash dependent). Build buffer time for pickup delays, police checkpoints, and weather-affected road pace.",
     "airports": [
       {

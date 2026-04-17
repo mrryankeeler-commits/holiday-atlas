@@ -64,6 +64,10 @@
       "note": "Connectivity is usually solid in central stays; confirm speeds directly with your accommodation for work-critical trips."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Seasonal and year-round UK nonstops are common to Antalya (AYT), with frequency peaking in summer school-holiday months.",
     "airports": [
       {

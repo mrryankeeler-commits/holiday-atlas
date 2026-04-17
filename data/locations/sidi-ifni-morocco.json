@@ -65,7 +65,11 @@
       "spd": "10-50 Mbps",
       "note": "Generally fine in town riads; weaker in outer beach properties."
     },
-    "directGW": true,
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
     "fltNote": "Sidi Ifni has no practical direct UK/Ireland access; most travelers fly into Agadir (AGA) and continue 2.5-3.5 hours by road. Marrakech (RAK) is a viable backup with a much longer drive, while Guelmim (GLN) has limited domestic/regional reliability. UK/Ireland fare pressure is usually highest in July-August and Christmas/New Year, with shoulder-season competition improving in spring and autumn.",
     "airports": [
       {

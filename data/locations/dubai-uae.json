@@ -66,6 +66,10 @@
       "note": "Very strong hotel and apartment connectivity across most business and leisure districts."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection. Typical return fares are around £280-£450 in hotter off-peak periods, £450-£700 in shoulder demand, and £700+ in Christmas/New Year and prime winter-sun windows.",
     "airports": [
       {
@@ -106,17 +110,149 @@
   },
   "sweet": "November-March is best for outdoor comfort; April and October can offer good value between peak winter demand and extreme summer heat.",
   "months": [
-    {"m": "Jan", "avg": 19, "hi": 24, "lo": 14, "daylight": 10.8, "cld": 22, "rain": 15, "busy": 9, "ac": 5, "fl": 5},
-    {"m": "Feb", "avg": 20, "hi": 26, "lo": 15, "daylight": 11.3, "cld": 22, "rain": 15, "busy": 9, "ac": 5, "fl": 5},
-    {"m": "Mar", "avg": 23, "hi": 29, "lo": 18, "daylight": 12.0, "cld": 27, "rain": 13, "busy": 8, "ac": 4, "fl": 4},
-    {"m": "Apr", "avg": 27, "hi": 34, "lo": 21, "daylight": 12.8, "cld": 27, "rain": 5, "busy": 7, "ac": 4, "fl": 4},
-    {"m": "May", "avg": 31, "hi": 38, "lo": 24, "daylight": 13.4, "cld": 16, "rain": 0, "busy": 4, "ac": 2, "fl": 3},
-    {"m": "Jun", "avg": 33, "hi": 40, "lo": 27, "daylight": 13.7, "cld": 25, "rain": 3, "busy": 3, "ac": 2, "fl": 2},
-    {"m": "Jul", "avg": 35, "hi": 41, "lo": 29, "daylight": 13.5, "cld": 46, "rain": 0, "busy": 2, "ac": 1, "fl": 1},
-    {"m": "Aug", "avg": 35, "hi": 41, "lo": 30, "daylight": 13.0, "cld": 38, "rain": 0, "busy": 2, "ac": 1, "fl": 1},
-    {"m": "Sep", "avg": 33, "hi": 38, "lo": 27, "daylight": 12.3, "cld": 18, "rain": 0, "busy": 3, "ac": 2, "fl": 2},
-    {"m": "Oct", "avg": 29, "hi": 35, "lo": 23, "daylight": 11.5, "cld": 10, "rain": 0, "busy": 6, "ac": 3, "fl": 3},
-    {"m": "Nov", "avg": 25, "hi": 31, "lo": 19, "daylight": 10.9, "cld": 18, "rain": 3, "busy": 8, "ac": 4, "fl": 4},
-    {"m": "Dec", "avg": 21, "hi": 26, "lo": 16, "daylight": 10.6, "cld": 22, "rain": 10, "busy": 10, "ac": 5, "fl": 5}
+    {
+      "m": "Jan",
+      "avg": 19,
+      "hi": 24,
+      "lo": 14,
+      "daylight": 10.8,
+      "cld": 22,
+      "rain": 15,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 20,
+      "hi": 26,
+      "lo": 15,
+      "daylight": 11.3,
+      "cld": 22,
+      "rain": 15,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 23,
+      "hi": 29,
+      "lo": 18,
+      "daylight": 12.0,
+      "cld": 27,
+      "rain": 13,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 27,
+      "hi": 34,
+      "lo": 21,
+      "daylight": 12.8,
+      "cld": 27,
+      "rain": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 31,
+      "hi": 38,
+      "lo": 24,
+      "daylight": 13.4,
+      "cld": 16,
+      "rain": 0,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 33,
+      "hi": 40,
+      "lo": 27,
+      "daylight": 13.7,
+      "cld": 25,
+      "rain": 3,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 35,
+      "hi": 41,
+      "lo": 29,
+      "daylight": 13.5,
+      "cld": 46,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Aug",
+      "avg": 35,
+      "hi": 41,
+      "lo": 30,
+      "daylight": 13.0,
+      "cld": 38,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Sep",
+      "avg": 33,
+      "hi": 38,
+      "lo": 27,
+      "daylight": 12.3,
+      "cld": 18,
+      "rain": 0,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 29,
+      "hi": 35,
+      "lo": 23,
+      "daylight": 11.5,
+      "cld": 10,
+      "rain": 0,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 25,
+      "hi": 31,
+      "lo": 19,
+      "daylight": 10.9,
+      "cld": 18,
+      "rain": 3,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 21,
+      "hi": 26,
+      "lo": 16,
+      "daylight": 10.6,
+      "cld": 22,
+      "rain": 10,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    }
   ]
 }

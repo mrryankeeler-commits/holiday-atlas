@@ -68,6 +68,10 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "For central Tokyo stays and late arrivals, Haneda usually minimizes transfer time; Narita can price better on some long-haul dates but adds longer city transfers. In peak windows (late Mar-early Apr, Golden Week, Obon, late Dec-early Jan), aim to lock flights 4-7 months out and target hotels 3-6 months out; for major event weeks, 6+ months is safer.",
     "airports": [
       {

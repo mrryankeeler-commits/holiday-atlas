@@ -76,6 +76,10 @@
       "note": "Strong hotel/apartment WiFi in and around the old town with solid 4G/5G backup. Cafes can be busy in peak season, so early starts are best for remote work."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "easyJet operates direct LGW → Dubrovnik (DBV), especially frequent April–October. Flight time is about 2 h 40 min.",
     "airports": [
       {

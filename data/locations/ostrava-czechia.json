@@ -66,6 +66,10 @@
       "note": "Excellent urban coverage and strong coworking options."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Most UK/Ireland trips connect via Prague, Vienna, Warsaw, or Katowice; final access is usually rail or coach, and fares spike around Colours of Ostrava plus Christmas/New Year weekends.",
     "airports": [
       {

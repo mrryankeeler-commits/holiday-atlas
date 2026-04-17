@@ -66,6 +66,10 @@
       "note": "Business hotels and coworking spots are generally reliable; verify backup power during stormy weeks."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "London-Accra has year-round nonstop options, while most Ireland departures connect once (commonly via London, Amsterdam, Brussels, Istanbul, or Casablanca). Demand and fares usually rise in July-August and again for December/early-January diaspora travel, with better value often in late spring and early autumn. Kumasi works only as a domestic add-on after arriving in Ghana rather than a practical international gateway for most UK/Ireland itineraries.",
     "airports": [
       {

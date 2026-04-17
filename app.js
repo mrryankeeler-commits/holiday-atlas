@@ -201,17 +201,13 @@ function formatMarkerTooltipLabel(loc) {
   return String(loc?.city || "").trim();
 }
 
-function normalizeDirectFrom(rawMap, legacyLGWValue = false) {
+function normalizeDirectFrom(rawMap) {
   const normalized = {};
   const source = rawMap && typeof rawMap === "object" ? rawMap : {};
 
   DEPARTURE_AIRPORT_CODES.forEach(code => {
     normalized[code] = Boolean(source[code]);
   });
-
-  if (legacyLGWValue) {
-    normalized.LGW = true;
-  }
 
   return normalized;
 }
@@ -1174,7 +1170,7 @@ function sanitizeLocation(loc) {
         name: a.name,
         code: a.code,
         km: a.km,
-        directFrom: normalizeDirectFrom(a.directFrom, a.dgw)
+        directFrom: normalizeDirectFrom(a.directFrom)
       }))
     : [];
 
@@ -1200,7 +1196,7 @@ function sanitizeLocation(loc) {
     months,
     todo,
     prac: {
-      directFrom: normalizeDirectFrom(loc.prac?.directFrom, loc.prac?.directGW),
+      directFrom: normalizeDirectFrom(loc.prac?.directFrom),
       visa: loc.prac?.visa ?? "",
       currency: loc.prac?.currency ?? "",
       alerts: Array.isArray(loc.prac?.alerts) ? loc.prac.alerts : [],

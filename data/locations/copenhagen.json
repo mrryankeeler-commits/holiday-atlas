@@ -66,6 +66,10 @@
       "note": "Very reliable in hotels, cafés, coworking spaces, and major transport hubs; excellent for remote work."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Direct flights are available from Gatwick; London City typically requires a connection. Return fares are often ~£45-£120 off-peak, ~£120-£220 in shoulder demand, and ~£220+ during summer peaks and major December market weeks.",
     "airports": [
       {

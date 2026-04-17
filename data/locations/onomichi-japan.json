@@ -66,6 +66,10 @@
       "note": "Reliable in station-area hotels and cafés; older ryokan may have weaker Wi-Fi."
     },
     "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
     "fltNote": "Most UK/Ireland visitors arrive through Kansai (KIX) or Tokyo (HND/NRT), then transfer by shinkansen to Fukuyama or Mihara plus a local JR leg to Onomichi; Hiroshima Airport (HIJ) works as a regional alternate with airport-limousine bus + rail transfer, and demand tightens around sakura, Golden Week, Obon, and autumn long weekends.",
     "airports": [
       {

@@ -65,7 +65,11 @@
       "spd": "30-150 Mbps",
       "note": "Good fiber in hotels and cafés; mobile data is strong citywide."
     },
-    "directGW": true,
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
     "fltNote": "There are no practical nonstop UK/Ireland-to-Ipoh options: most travelers fly nonstop to Kuala Lumpur (KUL) or sometimes Penang (PEN), then add a domestic hop, ETS train, or 2-3 hour road transfer; Jul-Aug and late-Dec school-holiday windows usually push long-haul fares up first.",
     "airports": [
       {
