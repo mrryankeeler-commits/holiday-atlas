@@ -84,9 +84,9 @@
 | `bacalar-mexico` | yes | yes | yes | yes | no |
 | `barranquilla-colombia` | yes | yes | yes | yes | no |
 | `belize-city-belize` | yes | yes | yes | yes | no |
-| `bishkek-kyrgyzstan` | yes | no | yes | no | no |
-| `cartagena-colombia` | yes | no | yes | no | no |
-| `el-cotillo-fuerteventura-spain` | yes | no | yes | no | no |
+| `bishkek-kyrgyzstan` | yes | yes | yes | yes | no |
+| `cartagena-colombia` | yes | yes | yes | yes | no |
+| `el-cotillo-fuerteventura-spain` | yes | yes | yes | yes | no |
 | `havana-cuba` | yes | no | yes | no | no |
 | `hegra-saudi-arabia` | yes | no | yes | no | no |
 | `hoi-an-vietnam` | yes | no | yes | no | no |
