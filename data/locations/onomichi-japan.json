@@ -1,5 +1,5 @@
 {
-  "id": "omonichi-japan",
+  "id": "onomichi-japan",
   "source": {
     "climateVerified": true,
     "climate": [
@@ -15,7 +15,7 @@
     },
     "climateVerifiedOn": "2026-04-17"
   },
-  "city": "Omonichi",
+  "city": "Onomichi",
   "country": "Japan",
   "region": "Eastern Hiroshima Prefecture (Seto Inland Sea)",
   "lat": 34.4089,
