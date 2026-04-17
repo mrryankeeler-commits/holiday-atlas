@@ -17,7 +17,7 @@
   },
   "city": "Viñales",
   "country": "Cuba",
-  "region": "Pinar del Río",
+  "region": "Cuba region",
   "desc": "Viñales is a strong base for exploring Cuba with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
   "hls": [
     "Seasonal climate profile benchmarked for Viñales",
@@ -63,10 +63,10 @@
     "wifi": {
       "r": 4,
       "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "note": "Expect uneven service: casa/hotel Wi-Fi may work for messaging, but outages and evening slowdowns are common; buy an ETECSA top-up early and keep offline maps/tickets/screenshots for no-signal periods."
     },
     "directGW": true,
-    "fltNote": "Viñales has no airport; Havana is the practical gateway, followed by a 2.5–3.5 hour road transfer.",
+    "fltNote": "Viñales has no airport; José Martí (HAV) is the main gateway. Havana→Viñales options: shared shuttle (typically 2.5-4 hours door-to-door with multiple hotel pickups), Viazul coach (about 3.5-4.5 hours plus bus-terminal check-in and limited baggage flexibility), or private taxi/transfer (about 2.5-3.5 hours, fastest but costly and fuel/cash dependent). Build buffer time for pickup delays, police checkpoints, and weather-affected road pace.",
     "airports": [
       {
         "name": "José Martí International Airport",
@@ -81,7 +81,7 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
+    "currency": "Cuba is cash-heavy: many casas, taxis, and small restaurants in Viñales prefer cash (often EUR/USD exchanged to CUP locally). Foreign cards can fail or be refused, and ATM cash-outs are unpredictable—arrive with enough cash for lodging, transfers, and at least 1-2 contingency days.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
@@ -93,9 +93,9 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "During wet-season storms (May to October), re-check cave and valley tour availability because flooding can close access routes.",
-      "Bring sufficient cash in accepted currencies and confirm exchange options before arrival; card acceptance remains inconsistent.",
-      "Arrange Viazul or private-transfer seats early in peak weeks, since Havana connections often fill before same-day purchase."
+      "Confirm your Havana→Viñales transfer the night before and again the morning of travel; shared shuttles can run 30-90 minutes late after multi-stop Havana pickups.",
+      "Withdraw/exchange in Havana before heading west: Viñales has fewer reliable ATMs/exchange windows, and card terminals may be offline when power or network drops.",
+      "If your itinerary includes Cayo Jutías or cave tours, pre-arrange return transport before departure; evening rides can be scarce and mobile coverage is patchy outside town."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
