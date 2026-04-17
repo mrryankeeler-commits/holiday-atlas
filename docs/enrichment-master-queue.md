@@ -78,9 +78,9 @@
 
 | id | coords fixed | content enriched | months complete | qa checked | merged |
 |---|---|---|---|---|---|
-| `a-lat-vietnam` | yes | no | yes | no | no |
-| `arequipa-peru` | yes | no | yes | no | no |
-| `asuncion-paraguay` | yes | no | yes | no | no |
+| `a-lat-vietnam` | yes | no | yes | no | yes |
+| `arequipa-peru` | yes | no | yes | no | yes |
+| `asuncion-paraguay` | yes | no | yes | no | yes |
 | `bacalar-mexico` | yes | no | yes | no | no |
 | `barranquilla-colombia` | yes | no | yes | no | no |
 | `belize-city-belize` | yes | no | yes | no | no |
