@@ -87,9 +87,9 @@
 | `bishkek-kyrgyzstan` | yes | yes | yes | yes | no |
 | `cartagena-colombia` | yes | yes | yes | yes | no |
 | `el-cotillo-fuerteventura-spain` | yes | yes | yes | yes | no |
-| `havana-cuba` | yes | no | yes | no | no |
-| `hegra-saudi-arabia` | yes | no | yes | no | no |
-| `hoi-an-vietnam` | yes | no | yes | no | no |
+| `havana-cuba` | yes | yes | yes | yes | no |
+| `hegra-saudi-arabia` | yes | yes | yes | yes | no |
+| `hoi-an-vietnam` | yes | yes | yes | yes | no |
 | `kampot-cambodia` | yes | no | yes | no | no |
 | `kutaisi-georgia` | yes | no | yes | no | no |
 | `leh-kashmir-india` | yes | yes | yes | yes | no |
