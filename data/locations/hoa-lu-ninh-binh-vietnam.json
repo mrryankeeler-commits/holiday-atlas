@@ -18,14 +18,14 @@
   "city": "Hoa Lư / Ninh Bình",
   "country": "Vietnam",
   "region": "Ninh Bình Province (Red River Delta)",
-  "desc": "Hoa Lư / Ninh Bình is a strong base for exploring Vietnam with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Hoa Lư / Ninh Bình is northern Vietnam's limestone-karst heartland, where river cave routes, rice-field valleys, and former imperial sites sit within easy reach of Hanoi. The best overall windows are spring (roughly March-April) and late autumn (October-November), when temperatures are milder for cycling, pagoda climbs, and boat excursions.",
   "hls": [
-    "Seasonal climate profile benchmarked for Hoa Lư / Ninh Bình",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Trang An and Tam Coc boat routes through karst caves and flooded valleys",
+    "Ancient Hoa Lư citadel temples tied to Vietnam's early dynasties",
+    "Mua Cave ridge viewpoint over rice fields and limestone towers",
+    "Excellent cycling terrain between villages, pagodas, and river docks",
+    "Easy 2-2.5 hour access from Hanoi by rail, limousine van, or private car",
+    "Strong mix of nature photography, culture, and low-key homestay stays"
   ],
   "todo": [
     {
@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Ninh Binh has no airport; most travelers fly into Hanoi then continue by road or rail (roughly 2–2.5 hours).",
+    "fltNote": "Ninh Bình has no commercial airport. Typical UK routing is London -> Hanoi (nonstop options are seasonal/airline-dependent) then 2-2.5 hours overland to Ninh Bình by train, limousine van, or private transfer. During Tet and Vietnamese public holidays, onward seats can sell out early and road times increase.",
     "airports": [
       {
         "name": "Noi Bai International Airport",
@@ -81,10 +81,10 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "currency": "Vietnamese đồng (VND). Card acceptance has improved in hotels/cafés, but cash remains essential for boat piers, rural eateries, and small ticket points.",
+    "lang": "Vietnamese is the working language; basic English is available at many tourism businesses but limited in rural villages and local transport.",
+    "tz": "ICT (UTC+7) year-round; no daylight saving time.",
+    "visa": "Vietnam entry rules depend on nationality and trip length; many travelers can use e-visa or visa exemption for short stays, but confirm current official conditions before departure.",
     "bestFor": [
       "Weather-timed trips",
       "Shoulder-season value",
@@ -93,12 +93,12 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "In May to October, monitor rainfall radar before boat trips because sudden downpours can pause Trang An or Tam Coc operations.",
-      "Reserve weekend train/bus tickets from Hanoi at least several days ahead in peak domestic travel periods (Tet, summer) to avoid sold-out returns.",
-      "Carry cash and confirm last-return times for rural taxi/ride-hail routes after dark, as service coverage drops outside Ninh Binh city center."
+      "Karst boat trips can pause after heavy rain or lightning, especially in wet months (May-Oct); keep itinerary slack for weather holds.",
+      "Mua Cave and pagoda steps become slippery in humid/rainy conditions; wear grippy footwear and avoid midday climbs in peak heat.",
+      "Weekend/holiday domestic demand from Hanoi is high: prebook return transport and accommodation to avoid late-day shortages."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "March-April and October-November are usually the sweet spot for cooler sightseeing, greener landscapes, and more reliable boat/cycling conditions.",
   "months": [
     {
       "m": "Jan",
