@@ -18,74 +18,87 @@
   "city": "Phoenix",
   "country": "United States",
   "region": "Arizona",
-  "desc": "Phoenix is a strong base for exploring United States with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Phoenix combines Sonoran Desert landscapes, winter-sun comfort, and big-city dining/sports infrastructure, with the key trade-off being extreme summer heat versus premium spring/autumn demand.",
   "hls": [
-    "Seasonal climate profile benchmarked for Phoenix",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Prime base for desert hiking, cacti landscapes, and golf-season travel in cooler months.",
+    "Best outdoor comfort usually runs Nov–Apr; May–Sep often requires heat-aware scheduling.",
+    "Major event calendar (MLB spring training, sports weekends, festivals) can push short-notice rates up.",
+    "Easy add-ons include Scottsdale, Tempe, Sedona day/overnight extensions, and Grand Canyon loops.",
+    "Strong urban food scene with Southwestern, Mexican, and contemporary US dining variety.",
+    "Car-centric layout means itinerary efficiency improves with a rental vehicle."
   ],
   "todo": [
     {
-      "name": "Walk central Phoenix",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Desert Botanical Garden + Papago Park",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Pair cactus-collection gardens with short red-rock walks and sunset viewpoints in Papago Park."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Camelback or Piestewa sunrise hike",
+      "cat": "Hiking",
+      "desc": "Start at first light on marked routes to avoid afternoon heat and secure parking."
+    },
+    {
+      "name": "Roosevelt Row arts + downtown dining",
+      "cat": "City culture",
+      "desc": "Spend an evening around murals, galleries, and chef-led restaurants in central Phoenix."
+    },
+    {
+      "name": "Scottsdale Old Town circuit",
+      "cat": "Neighborhood",
+      "desc": "Combine galleries, boutiques, and Sonoran-influenced food stops in a walkable district."
+    },
+    {
+      "name": "Taliesin West or Heard Museum",
+      "cat": "Architecture",
+      "desc": "Choose one signature culture stop focused on Frank Lloyd Wright design or Native art history."
+    },
+    {
+      "name": "Day trip to Sedona",
+      "cat": "Excursion",
+      "desc": "Use one full day for red-rock viewpoints and short hikes, leaving early for cooler trail windows."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "spd": "60–250 Mbps",
+      "note": "Very good in hotels/coworking venues; mobile coverage is strong across metro Phoenix."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "London to Phoenix is usually one-stop (commonly via Dallas, Chicago, LA, or other US hubs). Return fares are often ~£480–£760 off-peak, ~£760–£1,050 in shoulder demand, and ~£1,050+ around spring-training, Thanksgiving, and Christmas travel spikes.",
+    "airports": [
+      {
+        "name": "Phoenix Sky Harbor International Airport",
+        "code": "PHX",
+        "km": 7,
+        "dgw": false
+      },
+      {
+        "name": "Phoenix-Mesa Gateway Airport",
+        "code": "AZA",
+        "km": 43,
+        "dgw": false
+      }
+    ],
+    "currency": "US Dollar (USD); card acceptance is near-universal, with tap-to-pay common.",
+    "lang": "English is primary; Spanish is widely used across hospitality and local services.",
+    "tz": "UTC-07:00 (Arizona, no DST; time differs seasonally from many US states).",
+    "visa": "Most non-US travelers need ESTA or a visa depending on nationality; verify current US entry rules before ticketing.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Winter sun city breaks",
+      "Desert hiking",
+      "Golf trips",
+      "Food weekends",
+      "US Southwest road trips"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Summer heat can be dangerous—plan outdoor activity at dawn and carry more water than usual.",
+      "Rental-car demand and hotel prices jump during MLB spring training and major event weekends.",
+      "Trail closures or restrictions can occur on extreme-heat days."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "Late November to April is typically the strongest comfort window for outdoor plans; for better value, target late April or October and schedule hikes early.",
   "months": [
     {
       "m": "Jan",

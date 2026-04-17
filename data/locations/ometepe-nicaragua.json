@@ -17,75 +17,82 @@
   },
   "city": "Ometepe",
   "country": "Nicaragua",
-  "region": "Nicaragua region",
-  "desc": "Ometepe is a strong base for exploring Nicaragua with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "region": "Rivas Department",
+  "desc": "Ometepe rises from Lake Nicaragua as two volcanoes linked by a narrow isthmus, making it ideal for travelers who want low-key village life, jungle trails, and freshwater sunsets rather than fast-paced city breaks.",
   "hls": [
-    "Seasonal climate profile benchmarked for Ometepe",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Island formed by Concepción and Maderas volcanoes, with distinct hiking and scenery options.",
+    "Base areas like Moyogalpa and Balgüe suit slow itineraries with scooter or taxi day loops.",
+    "Dry season (roughly Dec–Apr) is typically easier for volcano trails and road conditions.",
+    "Petroglyphs, small museums, and community projects add cultural depth beyond nature time.",
+    "Excellent for cycling, kayaking, and lakefront viewpoints at a gentler daily pace.",
+    "Rainy months are greener and quieter but can bring muddy tracks and transport delays."
   ],
   "todo": [
     {
-      "name": "Walk central Ometepe",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Concepción volcano viewpoint hike",
+      "cat": "Hiking",
+      "desc": "Take a guided early-start route to lower/mid-elevation viewpoints for lake panoramas; full summit attempts are strenuous and weather dependent."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
-    },
-    {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
+      "name": "Maderas cloud-forest trail + San Ramón falls",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "desc": "Explore the wetter south side with forest paths and waterfall viewpoints, ideally with a local guide in rainy periods."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Ojo de Agua swim stop",
+      "cat": "Relaxation",
+      "desc": "Plan a midday swim break at the spring-fed pools when temperatures are highest."
+    },
+    {
+      "name": "Charco Verde + lakeshore sunset",
+      "cat": "Scenic",
+      "desc": "Visit Charco Verde reserve for easy nature walks, then finish at a west-facing shoreline for sunset."
+    },
+    {
+      "name": "Santo Domingo beach and village circuit",
+      "cat": "Local life",
+      "desc": "Combine beach downtime with roadside food stops and small village markets along the isthmus."
+    },
+    {
+      "name": "Petroglyph and farm visit",
+      "cat": "Culture",
+      "desc": "Add one archaeology/agrotourism stop to learn about pre-Columbian rock carvings and island agriculture."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "8–40 Mbps",
+      "note": "Reliable enough in better guesthouses around Moyogalpa/Balgüe; outages and slower evening speeds are common outside core hubs."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No UK nonstop; most itineraries route UK → Managua (MGA) via US/EU hubs, then continue by road to San Jorge and ferry to Ometepe. Return fares are often ~£520–£900 off-peak, ~£900–£1,250 in shoulder demand, and ~£1,250+ around Christmas/New Year and Easter peaks.",
+    "airports": [
+      {
+        "name": "Augusto C. Sandino International Airport (Managua)",
+        "code": "MGA",
+        "km": 140,
+        "dgw": false
+      }
+    ],
+    "currency": "Nicaraguan córdoba (NIO); cash is important on Ometepe for ferries, motos, and smaller eateries.",
+    "lang": "Spanish is dominant; English is common in some eco-lodges/tour operators but inconsistent in smaller villages.",
+    "tz": "UTC-06:00 (Central Time, no DST in Nicaragua).",
+    "visa": "Check Nicaragua entry rules and any transit-visa requirements for your flight connection country before booking.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Volcano hikes",
+      "Slow island travel",
+      "Nature + village mix",
+      "Budget-conscious trips",
+      "Shoulder-season value"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Ferry schedules can shift with weather and lake conditions—avoid tight same-day international flight connections.",
+      "Road surfaces vary; allow extra time if self-driving scooters/motorbikes in wet months.",
+      "Power cuts and ATM downtime happen periodically, so keep backup cash."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "February to April is usually the easiest weather window for hiking and road mobility; November to January can balance greener scenery with manageable rain between holiday peaks.",
   "months": [
     {
       "m": "Jan",

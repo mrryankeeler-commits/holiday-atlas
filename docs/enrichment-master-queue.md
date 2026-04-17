@@ -101,9 +101,9 @@
 | `manado-indonesia` | yes | no | yes | yes | no |
 | `medellin-colombia` | yes | no | yes | yes | no |
 | `minca-colombia` | yes | no | yes | yes | no |
-| `ometepe-nicaragua` | yes | no | yes | no | no |
-| `phoenix-arizona-united-states` | yes | no | yes | no | no |
-| `placencia-belize` | yes | no | yes | no | no |
+| `ometepe-nicaragua` | yes | yes | yes | yes | no |
+| `phoenix-arizona-united-states` | yes | yes | yes | yes | no |
+| `placencia-belize` | yes | yes | yes | yes | no |
 | `puerto-ayora-ecuador` | yes | no | yes | no | no |
 | `puno-peru` | yes | yes | yes | yes | no |
 | `quetzaltenango-guatemala` | yes | no | yes | no | no |
