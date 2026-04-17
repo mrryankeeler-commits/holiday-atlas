@@ -63,10 +63,10 @@
     "wifi": {
       "r": 4,
       "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "note": "Strong in Bavaro/Cap Cana resorts and coworking-friendly cafés at BlueMall Punta Cana; keep a local eSIM for outages on excursion days in Macao, Uvero Alto, and inland Higüey."
     },
     "directGW": true,
-    "fltNote": "Punta Cana has regular nonstop UK leisure flights in peak seasons; compare package and seat-only pricing.",
+    "fltNote": "PUJ is a major Caribbean leisure gateway: nonstop UK service is usually concentrated in winter sun demand (roughly Nov–Apr, strongest around Christmas/New Year and Feb half-term) with additional package-led rotations in parts of summer; May–Jun and Sep–Oct are typically the easiest months to find lower fares, while SDQ is the fallback for cheaper one-stop flexibility.",
     "airports": [
       {
         "name": "Punta Cana International Airport",
@@ -81,22 +81,33 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "currency": "Dominican peso (DOP); USD is widely accepted in resorts, but keep DOP cash for motoconchos, local buses, tolls, and small shops.",
+    "lang": "Spanish is dominant; English is common in resort corridors but much less consistent for public transport and local errands.",
+    "tz": "AST (UTC−4) year-round; no daylight saving time shifts.",
+    "visa": "Most US/UK/EU travelers can enter visa-free for tourism and complete the Dominican e-ticket before arrival/departure; always re-check passport validity and current entry rules before travel.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "All-inclusive beach trips",
+      "Couples and groups splitting resort + excursions",
+      "Winter sun escapes",
+      "Kitesurf and east-coast beach days",
+      "Travellers wanting simple airport-to-resort logistics"
     ],
     "alerts": [
-      "From June to November, monitor National Hurricane Center advisories and choose refundable lodging in case tropical systems disrupt flights.",
-      "Confirm sargassum and beach-condition updates with your hotel 48 hours before arrival, especially in late spring and summer.",
-      "Pre-book airport transfers for late-night arrivals because on-demand transport options can be limited outside resort corridors."
-    ]
+      "PUJ has separate terminals and heavy Saturday/Sunday package turnover — share your exact terminal and hotel zone with transfer drivers to avoid mis-pickups.",
+      "For late arrivals, pre-book licensed airport taxi or private transfer; app-based coverage is patchy once you leave the airport/resort spine.",
+      "If staying outside all-inclusive compounds (Downtown Veron, El Cortecito, Friusa), confirm night transport in advance because local buses fade early and roads are poorly lit."
+    ],
+    "arrival": [
+      "At PUJ, immigration and baggage are usually quick for Caribbean standards, but tour-charter banks can create 45–90 minute peaks; if you need SIM/cash, use airport kiosks before leaving the customs hall.",
+      "Typical transfer times from PUJ: Cap Cana 15–25 min, Bávaro/Los Corales 25–40 min, Uvero Alto 45–70 min (longer on weekend turnover afternoons).",
+      "If your package transfer has multiple hotel drops, expect one to two extra stops; private transfers are usually worth it for Uvero Alto or late-night arrivals."
+    ],
+    "gettingAround": {
+      "resortCorridor": "Bávaro–Cabeza de Toro–Cap Cana: easiest with pre-booked taxi, hotel shuttle, or rental car; short hops can work by taxi between malls, beach clubs, and dinner spots.",
+      "localAreas": "El Cortecito/Friusa/Verón: use registered taxis or motoconchos for short rides; agree fare before departure and carry small DOP notes.",
+      "dayTrips": "Saona/Catalina/Scape Park/Higüey trips are mostly operator pickup based; reconfirm pickup point/time the night before because hotels often have multiple lobbies.",
+      "budgetOption": "Public guaguas run mainly on the Verón–Higüey axis and are cheap but irregular for tourists with luggage; best used for daytime local errands, not airport transfers."
+    }
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
   "months": [
