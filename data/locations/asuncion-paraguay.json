@@ -29,34 +29,34 @@
   ],
   "todo": [
     {
-      "name": "Walk central Asunción",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Trace independence landmarks from Palacio de López to Panteón",
+      "cat": "Historic core",
+      "desc": "Start at the river-facing Palacio de López, continue past Cabildo and Plaza de Armas, then finish at the Panteón Nacional de los Héroes to connect key independence-era sites in one walkable loop."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "See Paraguayan visual art at Museo del Barro",
+      "cat": "Museum",
+      "desc": "Spend 1-2 hours at Museo del Barro in Isla de Francia to view indigenous ceramics, religious art, and contemporary Paraguayan works, then use a ride-share back to Villa Morra for lunch."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Eat through Mercado 4 and neighborhood parrillas",
+      "cat": "Food market",
+      "desc": "Visit Mercado 4 in late morning for chipa and fresh-juice stalls, then book dinner at a parrilla in Las Mercedes or Villa Morra to compare market snacks with classic asado-style mains."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "name": "Sunset on Costanera de Asunción",
+      "cat": "Riverfront",
+      "desc": "Go to the Costanera promenade an hour before dusk, walk or cycle the Paraguay River stretch, and stay after dark when local families and street-food carts make the waterfront livelier."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Take the Areguá and Lake Ypacaraí day outing",
+      "cat": "Day trip",
+      "desc": "Use a morning bus or car to Areguá (about 1 hour), browse pottery workshops and the lakeside boardwalk, and return to Asunción before evening traffic builds on the access roads."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Sunday culture loop in Manzana de la Rivera",
+      "cat": "Local culture",
+      "desc": "Keep Sunday flexible for exhibitions or small performances at Manzana de la Rivera, then pivot to nearby cafés in the microcentro depending on heat, rain, and event schedules."
     }
   ],
   "prac": {
