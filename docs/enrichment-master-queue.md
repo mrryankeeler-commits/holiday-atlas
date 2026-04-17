@@ -95,9 +95,9 @@
 | `leh-kashmir-india` | yes | yes | yes | yes | no |
 | `lima-peru` | yes | yes | yes | yes | no |
 | `luang-prabang-laos` | yes | yes | yes | yes | no |
-| `madeira-portugal` | yes | no | yes | no | no |
-| `makassar-indonesia` | yes | no | yes | no | no |
-| `malay-philippines` | yes | no | yes | no | no |
+| `madeira-portugal` | yes | yes | yes | yes | no |
+| `makassar-indonesia` | yes | yes | yes | yes | no |
+| `malay-philippines` | yes | yes | yes | yes | no |
 | `manado-indonesia` | yes | no | yes | no | no |
 | `medellin-colombia` | yes | no | yes | no | no |
 | `minca-colombia` | yes | no | yes | no | no |

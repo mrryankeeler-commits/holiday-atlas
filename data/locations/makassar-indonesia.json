@@ -18,74 +18,81 @@
   "city": "Makassar",
   "country": "Indonesia",
   "region": "Indonesia region",
-  "desc": "Makassar is a strong base for exploring Indonesia with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Makassar is South Sulawesi’s main coastal hub, combining a busy urban waterfront with easy access to island-hopping routes and inland highlands. Travel quality hinges on rainfall seasonality: the driest mid-year months are easiest for boat days, while wet-season months bring greener landscapes but higher disruption risk.",
   "hls": [
-    "Seasonal climate profile benchmarked for Makassar",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Sunset promenade culture along Losari Beach",
+    "Historic Fort Rotterdam and Bugis-Makassar maritime heritage",
+    "Seafood-focused food scene with late-night local warungs",
+    "Gateway to Spermonde Islands snorkeling and sandbars",
+    "Practical launch point for South Sulawesi overland routes",
+    "Strong value outside Indonesian and school-holiday peaks"
   ],
   "todo": [
     {
-      "name": "Walk central Makassar",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Losari waterfront at golden hour",
+      "cat": "City life",
+      "desc": "Walk the promenade near sunset, then sample local snacks and street-food stalls after dark."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Fort Rotterdam + museum stop",
+      "cat": "History",
+      "desc": "Visit the Dutch-era fort complex and museum collections to understand regional trading history."
     },
     {
-      "name": "Local food circuit",
+      "name": "Paotere harbor boat scene",
+      "cat": "Photography",
+      "desc": "Go in the morning to see traditional pinisi schooners and working harbor activity."
+    },
+    {
+      "name": "Spermonde island day trip",
+      "cat": "Snorkeling",
+      "desc": "Charter or join a small-group boat trip for reef stops and sandbank downtime in calmer sea windows."
+    },
+    {
+      "name": "Trans Studio or rainy-day fallback",
+      "cat": "Indoor",
+      "desc": "Keep one weather-resilient activity ready for heavy-rain afternoons in monsoon months."
+    },
+    {
+      "name": "Coto Makassar food crawl",
       "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
-    },
-    {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
-    },
-    {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
-    },
-    {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Do an evening tasting route focused on coto, konro, and grilled seafood specialties."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 4,
-      "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "r": 3,
+      "spd": "20–100 Mbps",
+      "note": "Business hotels and modern cafés are generally workable, but consistency drops during storms or outside central corridors."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No direct UK services; most itineraries route via Jakarta, Bali, Kuala Lumpur, or Singapore before a domestic leg to UPG. Best fares are usually outside July-August and late-December travel spikes.",
+    "airports": [
+      {
+        "name": "Sultan Hasanuddin International Airport",
+        "code": "UPG",
+        "km": 20,
+        "dgw": false
+      }
+    ],
+    "currency": "Indonesian rupiah (IDR)",
+    "lang": "Indonesian (Bahasa Indonesia); local languages include Makassarese and Buginese",
+    "tz": "WITA (UTC+8)",
+    "visa": "Indonesia entry options (eVOA/visa-free by nationality) vary by passport and purpose; confirm current rules before departure.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Island-hopping add-ons",
+      "Food-led city breaks",
+      "Budget-conscious Southeast Asia routes",
+      "Sulawesi overland gateways",
+      "Shoulder-season flexibility"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "November to April can bring heavy rain and choppy seas that affect island trips.",
+      "Domestic flights can retime at short notice; leave buffer before international connections.",
+      "Heat/humidity are year-round—plan outdoor walks early or late and hydrate consistently."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "June to September is usually the easiest Makassar window for boat trips and lower rain disruption, with May/October as workable shoulders.",
   "months": [
     {
       "m": "Jan",
