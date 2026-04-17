@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Ninh Bình has no commercial airport. Typical UK routing is London -> Hanoi (nonstop options are seasonal/airline-dependent) then 2-2.5 hours overland to Ninh Bình by train, limousine van, or private transfer. During Tet and Vietnamese public holidays, onward seats can sell out early and road times increase.",
+    "fltNote": "Ninh Bình has no commercial airport. The standard UK/Ireland pattern is long-haul arrival into Hanoi (HAN), then same-day onward by rail or road: SE-line trains typically run Hanoi -> Ninh Bình in about 2-2.5 hours, while limousine vans and private cars are often similar but can stretch longer on Friday evenings, Sunday returns, Tet, and major domestic holiday periods. If landing late, an overnight in Hanoi is often safer than forcing a final transfer.",
     "airports": [
       {
         "name": "Noi Bai International Airport",
@@ -93,10 +93,15 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "Karst boat trips can pause after heavy rain or lightning, especially in wet months (May-Oct); keep itinerary slack for weather holds.",
-      "Mua Cave and pagoda steps become slippery in humid/rainy conditions; wear grippy footwear and avoid midday climbs in peak heat.",
-      "Weekend/holiday domestic demand from Hanoi is high: prebook return transport and accommodation to avoid late-day shortages."
-    ]
+      "Rail access is usually via Ninh Bình station (city side), while many boats/homestays are in Tam Coc, Trang An, or Hoa Lư villages 6-12 km away; taxis/electric buggies are common for the last mile, and late-night station arrivals have fewer reliable drivers.",
+      "In the wet season (roughly May-October), short intense downpours and occasional Red River Delta flood pulses can waterlog rural lanes, delay bike transfers, and disrupt movement between Tam Coc, Trang An, Bai Dinh, and Hoa Lư sites; keep buffers between fixed-time tickets and transfers.",
+      "After heavy rain or thunderstorm warnings, some boat routes pause and cave access can be sequenced more slowly for safety; keep one movable half-day so weather holds do not break onward rail/bus plans.",
+      "Weekend/holiday domestic demand from Hanoi is high: prebook both inbound and return train/limousine seats, especially for Sunday afternoon-evening departures."
+    ],
+    "localTransport": {
+      "railBus": "Most visitors use Hanoi-origin rail to Ninh Bình station or limousine buses that terminate near central Ninh Bình/Tam Coc. Public local buses exist but are infrequent for attraction-hopping; for practical day movement, combine Grab/taxi with bike hire from Tam Coc or Trang An bases.",
+      "lastMile": "From Ninh Bình station, typical transfer times are ~15-20 minutes to Tam Coc, ~20-30 minutes to Trang An, and ~25-40 minutes to Bai Dinh depending on traffic/weather. Confirm pickup point naming in advance (some properties are listed as Ninh Bình but are actually rural Hoa Lư addresses)."
+    }
   },
   "sweet": "March-April and October-November are usually the sweet spot for cooler sightseeing, greener landscapes, and more reliable boat/cycling conditions.",
   "months": [
