@@ -18,10 +18,10 @@
   "city": "Tangalla",
   "country": "Sri Lanka",
   "region": "Southern Province (South Coast)",
-  "desc": "Tangalla is a strong base for exploring Sri Lanka with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Tangalla is a south-coast beach base where timing matters: December-March is typically the calmest swim season, May-September often brings choppier southwest-monsoon seas with mixed sun/showers, and October-November can see heavier inter-monsoon downpours.",
   "hls": [
     "Seasonal climate profile benchmarked for Tangalla",
-    "Year-round planning with monthly trade-offs",
+    "Clear guidance on southwest-monsoon vs inter-monsoon timing",
     "Balanced mix of culture, food, and day-trip potential",
     "Works for both short breaks and longer stays",
     "Shoulder-season windows can improve value",
@@ -66,7 +66,23 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Tangalla has no major airport; most arrivals use Colombo then continue by road (about 3–4.5 hours).",
+    "fltNote": "Tangalla has no commercial airport; UK/Ireland trips normally arrive via Colombo (CMB), then continue 3.5-5.5 hours by Southern Expressway/private transfer or split via rail/bus to Matara plus final road leg. Mattala (HRI) is closer but has limited international schedules, so treat it as opportunistic rather than primary.",
+    "access": [
+      {
+        "from": "Colombo (CMB or city)",
+        "route": "Private taxi/driver via Southern Expressway to Tangalla (door-to-door), or train/bus to Matara then taxi/bus onward.",
+        "typicalTime": "~3.5-5.5h direct by road; ~4.5-7h if splitting via Matara.",
+        "transferBehavior": "Road times stretch on Friday evenings, Poya/holiday weekends, and in heavy rain; rail-to-Matara is steadier but still needs a last-leg transfer.",
+        "contingency": "For late CMB arrivals, pre-book a Colombo overnight and depart early; same-night onward travel is possible but less reliable if immigration, baggage, or weather delays compound."
+      },
+      {
+        "from": "Matara",
+        "route": "Taxi or hired tuk-tuk via A2/Beliatta corridor, or regular south-coast buses toward Tangalla.",
+        "typicalTime": "~1-1.75h by taxi/tuk-tuk; ~1.5-2.5h by bus depending on stops/traffic.",
+        "transferBehavior": "Buses are frequent in daytime but can be crowded with variable luggage space; evening frequencies thin compared with daytime.",
+        "contingency": "If arriving after dark or with surf/dive luggage, pre-arrange a fixed-fare taxi from Matara station/bus stand to avoid long waits and route changes."
+      }
+    ],
     "airports": [
       {
         "name": "Mattala Rajapaksa International Airport",
@@ -93,12 +109,13 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "Check surf and swimming flags daily on exposed beaches, especially during southwest monsoon months when rip currents intensify.",
+      "May-September (southwest monsoon influence) often means rougher surf and stronger rips on exposed beaches: plan swims in sheltered stretches and follow local flag/lifeguard guidance daily.",
+      "October-November downpours can be short but intense; keep transfer buffers for road flooding/pooling and favor flexible, cancellable activity bookings.",
       "For wildlife parks (Yala/Udawalawe), reconfirm jeep departure times and park entry slots the evening before because allocations fill fast.",
       "Arrange trusted tuk-tuk or driver return rides before late dinners since app coverage and availability are thinner outside town center."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "For Tangalla specifically, many travelers get the best balance in December-March for calmer beach days, or in shoulder weeks around March/early April and late August/September if they accept more variable seas for lower pressure and pricing.",
   "months": [
     {
       "m": "Jan",
