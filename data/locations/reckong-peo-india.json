@@ -67,7 +67,26 @@
     },
     "directGW": false,
     "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
+    "airports": [
+      {
+        "name": "Shimla Airport",
+        "code": "SLV",
+        "km": 155,
+        "dgw": false
+      },
+      {
+        "name": "Kullu–Manali Airport (Bhuntar)",
+        "code": "KUU",
+        "km": 245,
+        "dgw": false
+      },
+      {
+        "name": "Chandigarh International Airport",
+        "code": "IXC",
+        "km": 320,
+        "dgw": false
+      }
+    ],
     "currency": "Check live exchange rates before booking.",
     "lang": "Local language plus variable English in tourist zones.",
     "tz": "See destination local timezone.",
