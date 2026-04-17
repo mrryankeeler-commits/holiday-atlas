@@ -18,74 +18,87 @@
   "city": "Đà Lạt",
   "country": "Vietnam",
   "region": "Vietnam region",
-  "desc": "Đà Lạt is a strong base for exploring Vietnam with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Đà Lạt sits on the Lang Biang Plateau at about 1,500 m, so it feels cool compared with lowland Vietnam. Expect spring-like days, chilly evenings, pine hills, flower farms, and a café-heavy city center built around Xuan Huong Lake.",
   "hls": [
-    "Seasonal climate profile benchmarked for Đà Lạt",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Cool highland climate that is easier for all-day walking than hot coastal cities",
+    "French-era villas, pine forests, and lake scenery give the city a distinct look",
+    "Strong coffee culture with specialty roasters and hillside cafés",
+    "Easy access to waterfalls, canyoning routes, and countryside loops",
+    "Good short-break destination from Ho Chi Minh City plus broader Vietnam itineraries",
+    "Best trip timing depends on balancing drier months against domestic holiday peaks"
   ],
   "todo": [
     {
-      "name": "Walk central Đà Lạt",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
-    },
-    {
-      "name": "Museum and heritage stop",
+      "name": "Sunrise at Trai Mat + Linh Phuoc Pagoda",
       "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "desc": "Take the early train or taxi to Trai Mat, then visit the mosaic-heavy Linh Phuoc Pagoda before tour buses arrive."
     },
     {
-      "name": "Local food circuit",
+      "name": "Walk Xuan Huong Lake and colonial quarter",
+      "cat": "City walk",
+      "desc": "Loop the lake, continue to Da Lat Railway Station and nearby French-era villas for a practical first-day orientation."
+    },
+    {
+      "name": "Datanla waterfall alpine coaster + canyoning",
+      "cat": "Adventure",
+      "desc": "Book a licensed operator for canyoning routes with abseils and natural slides; lighter option is the alpine coaster and falls viewpoints."
+    },
+    {
+      "name": "Coffee and market evening",
       "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "desc": "Try local arabica or weasel-style coffee alternatives, then eat at Da Lat Market night stalls (banh trang nuong, soy milk, grilled snacks)."
     },
     {
-      "name": "Scenic viewpoint session",
+      "name": "Lang Biang mountain viewpoint",
       "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "desc": "Go in the morning for clearer skies; use the jeep shuttle or hike if conditions are dry and visibility is good."
     },
     {
-      "name": "Nature or coast day trip",
+      "name": "Countryside flower and farm loop",
       "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
-    },
-    {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "desc": "Ride or drive toward Van Thanh flower village and greenhouse valleys to see the agricultural side that supplies produce nationwide."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "40–150 Mbps",
-      "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
+      "note": "Central hotels and cafés are usually reliable for remote work; speeds drop during storms and in outlying farm areas."
     },
     "directGW": false,
-    "fltNote": "UK routing and pricing are strongly seasonal; expect highest fare pressure around summer school holidays and late-December peaks.",
-    "airports": [],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
-    "visa": "Always verify entry rules based on passport and transit routing before travel.",
+    "fltNote": "No nonstop UK–Đà Lạt flights. Typical routings are via Ho Chi Minh City or Hanoi, then a domestic leg to Lien Khuong (DLI).",
+    "airports": [
+      {
+        "name": "Lien Khuong Airport",
+        "code": "DLI",
+        "km": 30,
+        "dgw": false
+      },
+      {
+        "name": "Tan Son Nhat International Airport (Ho Chi Minh City)",
+        "code": "SGN",
+        "km": 310,
+        "dgw": false
+      }
+    ],
+    "currency": "Vietnamese đồng (VND); cash is useful in markets and for smaller cafés, while cards are common in mid-range hotels.",
+    "lang": "Vietnamese; English is common in tours/cafés but less so with older taxi drivers and local market vendors.",
+    "tz": "UTC+7 (ICT), no daylight saving time.",
+    "visa": "Many travelers can use Vietnam e-visa, but eligibility and length of stay vary by passport; confirm official rules before booking flights.",
     "bestFor": [
-      "Weather-timed trips",
-      "Shoulder-season value",
-      "Culture + food",
-      "Flexible itineraries",
-      "Mixed pace travel"
+      "Cool-weather Vietnam trips",
+      "Café and food weekends",
+      "Soft-adventure day tours",
+      "Couples and slow travel",
+      "Domestic side-trip from Ho Chi Minh City"
     ],
     "alerts": [
-      "Re-check seasonal rainfall and heat risk before locking dates.",
-      "Peak-holiday periods can tighten accommodation inventory early.",
-      "Local transport frequency may drop outside peak season."
+      "Even in warm months, nights can feel cold at altitude—pack a light jacket and rain layer.",
+      "Afternoon rain is common in wet months (roughly May–Oct), so schedule viewpoints and hikes early.",
+      "Roads can be slick in rain and traffic etiquette is variable; if riding a scooter, choose conservative routes or hire a driver."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "For first-time visits, February to April is usually the easiest balance: relatively drier weather, cool nights, and good conditions for lake walks, viewpoints, and day trips.",
   "months": [
     {
       "m": "Jan",
