@@ -36,6 +36,36 @@ GENERIC_PRAC_TEXT = {
     "not sure",
     "not provided",
 }
+GENERIC_CONTENT_PATTERNS = {
+    "desc": (
+        re.compile(r"^a great destination for travelers seeking .*", flags=re.IGNORECASE),
+        re.compile(r"^this destination offers a mix of culture, food, and scenery\.?$", flags=re.IGNORECASE),
+        re.compile(r"^perfect for a short break or longer stay\.?$", flags=re.IGNORECASE),
+    ),
+    "sweet": (
+        re.compile(r"^best (time|months) to visit: .*", flags=re.IGNORECASE),
+        re.compile(r"^visit in (spring|summer|autumn|fall|winter) for the best weather\.?$", flags=re.IGNORECASE),
+        re.compile(r"^ideal year-round depending on your preferences\.?$", flags=re.IGNORECASE),
+    ),
+    "tag": (
+        re.compile(r"^couples$", flags=re.IGNORECASE),
+        re.compile(r"^friends$", flags=re.IGNORECASE),
+        re.compile(r"^solo$", flags=re.IGNORECASE),
+        re.compile(r"^everyone$", flags=re.IGNORECASE),
+        re.compile(r"^all travelers$", flags=re.IGNORECASE),
+    ),
+    "hls": (
+        re.compile(r"^historic old town$", flags=re.IGNORECASE),
+        re.compile(r"^local food scene$", flags=re.IGNORECASE),
+        re.compile(r"^beautiful views$", flags=re.IGNORECASE),
+        re.compile(r"^friendly locals$", flags=re.IGNORECASE),
+    ),
+    "todo_desc": (
+        re.compile(r"^a great way to experience local culture\.?$", flags=re.IGNORECASE),
+        re.compile(r"^perfect for photos and sightseeing\.?$", flags=re.IGNORECASE),
+        re.compile(r"^ideal for travelers of all ages\.?$", flags=re.IGNORECASE),
+    ),
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -58,6 +88,33 @@ def _is_generic_prac_text(value: str) -> bool:
     if cleaned.lower() in GENERIC_PRAC_TEXT:
         return True
     return bool(re.fullmatch(r"(same as country|local time|varies|standard)", cleaned, flags=re.IGNORECASE))
+
+
+def _matches_any_pattern(value: str, pattern_key: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    if not cleaned:
+        return True
+    return any(pattern.search(cleaned) for pattern in GENERIC_CONTENT_PATTERNS[pattern_key])
+
+
+def _looks_generic_desc(text: str) -> bool:
+    return _matches_any_pattern(text, "desc")
+
+
+def _looks_generic_tag(text: str) -> bool:
+    return _matches_any_pattern(text, "tag")
+
+
+def _looks_generic_sweet(text: str) -> bool:
+    return _matches_any_pattern(text, "sweet")
+
+
+def _looks_generic_hls(text: str) -> bool:
+    return _matches_any_pattern(text, "hls")
+
+
+def _looks_generic_todo_desc(text: str) -> bool:
+    return _matches_any_pattern(text, "todo_desc")
 
 
 def validate_index(index_path: Path, locations_root: Path, errors: list[str]) -> list[str]:
@@ -146,6 +203,12 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         value = data.get(field)
         if isinstance(value, str) and not value.strip():
             add_error(errors, file_path, f"field '{field}' must be a non-empty string")
+    desc = data.get("desc")
+    if isinstance(desc, str) and _looks_generic_desc(desc):
+        add_error(errors, file_path, f"field 'desc' is generic boilerplate: {desc!r}")
+    sweet = data.get("sweet")
+    if isinstance(sweet, str) and _looks_generic_sweet(sweet):
+        add_error(errors, file_path, f"field 'sweet' is generic boilerplate: {sweet!r}")
 
     country = str(data.get("country", "")).strip()
     region = str(data.get("region", "")).strip()
@@ -163,6 +226,8 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         for idx, item in enumerate(hls):
             if not isinstance(item, str) or not item.strip():
                 add_error(errors, file_path, f"hls[{idx}] must be a non-empty string")
+            elif _looks_generic_hls(item):
+                add_error(errors, file_path, f"hls[{idx}] matches known template boilerplate: {item!r}")
 
     todo = data.get("todo")
     if isinstance(todo, list):
@@ -179,6 +244,9 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
                 value = item.get(key)
                 if not isinstance(value, str) or not value.strip():
                     add_error(errors, file_path, f"todo[{idx}].{key} must be a non-empty string")
+            desc_value = item.get("desc")
+            if isinstance(desc_value, str) and _looks_generic_todo_desc(desc_value):
+                add_error(errors, file_path, f"todo[{idx}].desc matches known template boilerplate: {desc_value!r}")
 
     prac = data.get("prac")
     if "prac" in data and not isinstance(prac, dict):
@@ -195,6 +263,8 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
                 for idx, item in enumerate(prac[field]):
                     if not isinstance(item, str) or not item.strip():
                         add_error(errors, file_path, f"prac.{field}[{idx}] must be a non-empty string")
+                    elif field == "bestFor" and _looks_generic_tag(item):
+                        add_error(errors, file_path, f"prac.bestFor[{idx}] must be destination-specific: {item!r}")
 
         alerts = prac.get("alerts")
         if isinstance(alerts, list) and tuple(alerts) in PLACEHOLDER_ALERT_BLOCKS:
