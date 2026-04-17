@@ -140,7 +140,21 @@ After importing/updating climate data, run:
 - `python3 scripts/validate_locations.py`
 - `python3 scripts/verify_climate_provenance.py`
 
+For local pre-commit enforcement, install and run the repository hooks:
+
+- `python3 -m pip install pre-commit`
+- `pre-commit install`
+- `pre-commit run --all-files`
+
 `scripts/validate_locations.py` is a **mandatory pre-merge contract check** and is enforced in CI via `.github/workflows/location-data-validation.yml` on pull requests that touch location data.
+
+The validator now also blocks:
+
+- empty `prac.airports` unless `prac.airportsExceptionNote` is present and non-empty,
+- known placeholder `prac.alerts` arrays,
+- generic `region` values such as `"<country> region"`,
+- empty/generic practical text in `prac.visa`, `prac.currency`, `prac.lang`, `prac.tz`,
+- draft scaffolds emitted by `scripts/import_climate_csv.py` when `source.draftOnly: true` remains set.
 
 If you need CI-style strictness that fails whenever any destination is still unverified:
 

@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 REQ_MONTH_KEYS = {"m", "avg", "hi", "lo", "daylight", "cld", "rain", "busy", "ac", "fl"}
@@ -11,6 +12,30 @@ REQUIRED_PRAC_ARRAYS = {"alerts", "airports", "bestFor"}
 OPTIONAL_PRAC_STRING_FIELDS = {"visa", "currency", "fltNote", "lang", "tz"}
 INDEX_REQUIRED_FIELDS = {"id", "city", "country", "region", "lat", "lng"}
 TODO_REQUIRED_FIELDS = {"name", "cat", "desc"}
+PLACEHOLDER_ALERT_BLOCKS = {
+    (
+        "Weather variability can affect day plans; keep one flexible slot in your itinerary.",
+        "Book high-demand attractions in advance during peak months.",
+        "Use licensed transport options for late arrivals and airport transfers.",
+    ),
+    (
+        "Reserve popular attractions early in peak months.",
+        "Keep one flexible day for weather-dependent plans.",
+    ),
+}
+GENERIC_PRAC_TEXT = {
+    "",
+    "-",
+    "n/a",
+    "na",
+    "none",
+    "unknown",
+    "tbd",
+    "to be confirmed",
+    "coming soon",
+    "not sure",
+    "not provided",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -26,6 +51,13 @@ def parse_args() -> argparse.Namespace:
 
 def add_error(errors: list[str], file_path: Path, message: str) -> None:
     errors.append(f"{file_path}: {message}")
+
+
+def _is_generic_prac_text(value: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    if cleaned.lower() in GENERIC_PRAC_TEXT:
+        return True
+    return bool(re.fullmatch(r"(same as country|local time|varies|standard)", cleaned, flags=re.IGNORECASE))
 
 
 def validate_index(index_path: Path, locations_root: Path, errors: list[str]) -> list[str]:
@@ -115,6 +147,15 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         if isinstance(value, str) and not value.strip():
             add_error(errors, file_path, f"field '{field}' must be a non-empty string")
 
+    country = str(data.get("country", "")).strip()
+    region = str(data.get("region", "")).strip()
+    if country and region and re.fullmatch(rf"{re.escape(country)}\s+region", region, flags=re.IGNORECASE):
+        add_error(errors, file_path, "region must be specific; avoid generic '<country> region' patterns")
+
+    source = data.get("source")
+    if isinstance(source, dict) and source.get("draftOnly") is True:
+        add_error(errors, file_path, "draft-only skeleton detected (source.draftOnly=true); enrich and remove draft flag")
+
     hls = data.get("hls")
     if isinstance(hls, list):
         if not hls:
@@ -155,8 +196,24 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
                     if not isinstance(item, str) or not item.strip():
                         add_error(errors, file_path, f"prac.{field}[{idx}] must be a non-empty string")
 
+        alerts = prac.get("alerts")
+        if isinstance(alerts, list) and tuple(alerts) in PLACEHOLDER_ALERT_BLOCKS:
+            add_error(
+                errors,
+                file_path,
+                "prac.alerts matches a known placeholder block; replace with destination-specific alerts",
+            )
+
         airports = prac.get("airports")
         if isinstance(airports, list):
+            if not airports:
+                note = prac.get("airportsExceptionNote")
+                if not isinstance(note, str) or not note.strip():
+                    add_error(
+                        errors,
+                        file_path,
+                        "prac.airports cannot be empty unless prac.airportsExceptionNote explains the exception",
+                    )
             for idx, item in enumerate(airports):
                 if not isinstance(item, dict):
                     add_error(errors, file_path, f"prac.airports[{idx}] expected object, got {type(item).__name__}")
@@ -178,6 +235,10 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
         for field in sorted(OPTIONAL_PRAC_STRING_FIELDS):
             if field in prac and not isinstance(prac[field], str):
                 add_error(errors, file_path, f"invalid prac.{field} (expected string)")
+            elif field in {"visa", "currency", "lang", "tz"} and isinstance(prac.get(field), str):
+                value = prac[field].strip()
+                if not value or _is_generic_prac_text(value):
+                    add_error(errors, file_path, f"prac.{field} must be destination-specific (not empty/generic)")
 
     months = data.get("months")
     if isinstance(months, list):
