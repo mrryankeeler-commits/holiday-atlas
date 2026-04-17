@@ -20,43 +20,43 @@
   "region": "Thiès Region (Petite Côte)",
   "lat": 14.55,
   "lng": -17.1,
-  "desc": "Popenguine-Ndayane offers a quieter Senegalese coast experience with bird-rich lagoons, fishing villages, and quick access from Dakar's new airport corridor.",
+  "desc": "Popenguine-Ndayane fits soft-adventure beach travelers and birders wanting 3-5 quiet nights after Dakar, or a 7-night Petite Côte split with Saly and Joal-Fadiouth.",
   "hls": [
-    "Coastal reserve with seabirds and baobab landscapes",
-    "Less crowded alternative to Saly resorts",
-    "Good base for Dakar + Petite Côte split stays",
-    "Warm sea temperatures most of the year"
+    "Popenguine Reserve trails to Cap de Naze cliffs, baobabs, and migratory bird habitat",
+    "Ndayane beach and pirogue-landing life offer a lower-key alternative to Saly resorts",
+    "Close to DSS airport for short transfers on arrival/departure days",
+    "Easy base for Dakar museums/markets without sleeping in the capital"
   ],
   "todo": [
     {
-      "name": "Popenguine Nature Reserve walk",
+      "name": "Popenguine Reserve + Cap de Naze loop",
       "cat": "Nature",
-      "desc": "Do a guided trail for birdwatching and coastal cliffs."
+      "desc": "Hire a local guide, start at sunrise, and combine cliff viewpoints with birdwatching stops."
     },
     {
-      "name": "Ndayane fishing village visit",
+      "name": "Ndayane pirogue landing at dawn",
       "cat": "Culture",
-      "desc": "Watch pirogue launches and fish landing routines."
+      "desc": "Arrive early to watch fish unloading, net repair, and informal beach auctions."
     },
     {
-      "name": "Lagoon canoe session",
+      "name": "Somone Lagoon pirogue outing",
       "cat": "Water",
-      "desc": "Take a calm-water paddle in morning conditions."
+      "desc": "Take a licensed boat through mangroves for birds and calm-water photography."
     },
     {
-      "name": "Cap de Naze viewpoint",
-      "cat": "Scenic",
-      "desc": "Hike to rocky headland views over Petite Côte."
+      "name": "Notre-Dame de la Délivrande sanctuary walk",
+      "cat": "Heritage",
+      "desc": "Visit the pilgrimage church and surrounding paths above the coast."
     },
     {
-      "name": "Seafood lunch at beach camp",
+      "name": "Petite Côte seafood lunch circuit",
       "cat": "Food",
-      "desc": "Try grilled thiof and yassa in family-run beach spots."
+      "desc": "Compare beachfront grills between Popenguine and Somone for thiof/yassa plates."
     },
     {
-      "name": "Dakar day trip",
+      "name": "Dakar day return by toll road",
       "cat": "City excursion",
-      "desc": "Use one day for museums and markets in the capital."
+      "desc": "Plan Goree or IFAN museum visits, then return before evening traffic builds on A1."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "Adequate in guesthouses near main road; patchier in reserve-adjacent camps."
     },
     "directGW": false,
-    "fltNote": "London has regular nonstop flights to Dakar area airports in high season, while Ireland/other UK cities often connect via Paris, Lisbon, or Casablanca; winter demand is strongest.",
+    "fltNote": "Most UK traffic is nonstop to DSS from London in winter, while many Ireland/UK regional departures connect via Paris, Lisbon, Madrid, or Casablanca; onward transfer is usually private taxi or app car (30-60 min).",
     "airports": [
       {
         "name": "Blaise Diagne International Airport",
@@ -75,9 +75,9 @@
         "dgw": false
       },
       {
-        "name": "Léopold Sédar Senghor area (Dakar city) transfers",
-        "code": "DKR",
-        "km": 55,
+        "name": "Banjul International Airport",
+        "code": "BJL",
+        "km": 155,
         "dgw": false
       }
     ],
@@ -92,12 +92,13 @@
       "Shoulder-season escapes"
     ],
     "alerts": [
-      "Beach currents can be strong at exposed points—swim only in locally recommended zones.",
-      "Road checkpoints are routine on intercity routes; carry passport copy during excursions.",
-      "Weekend traffic leaving Dakar can significantly delay airport-bound transfers."
+      "Use pre-agreed fares or app rides from DSS; unmetered airport taxis can quote high on late arrivals.",
+      "Weekend traffic from Dakar to Petite Côte can double transfer times, especially Friday evening/Sunday return.",
+      "Beach currents can be strong on exposed sections—swim in locally indicated zones only.",
+      "Carry small cash and offline maps; card acceptance and mobile signal drop outside main road corridors."
     ]
   },
-  "sweet": "Nov-Feb for drier weather and easier coastal hiking; shoulder Mar-Apr still workable before heavier heat.",
+  "sweet": "Nov-Feb is the best comfort-value window (dry, breezy, good wildlife, manageable humidity), with Mar-Apr as a cheaper but hotter shoulder.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +108,9 @@
       "daylight": 11.4,
       "cld": 46,
       "rain": 2,
-      "busy": 1,
-      "ac": 1,
-      "fl": 1
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
     },
     {
       "m": "Feb",
@@ -119,9 +120,9 @@
       "daylight": 11.7,
       "cld": 42,
       "rain": 0,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -131,9 +132,9 @@
       "daylight": 12.1,
       "cld": 37,
       "rain": 0,
-      "busy": 5,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Apr",
@@ -143,7 +144,7 @@
       "daylight": 12.5,
       "cld": 35,
       "rain": 0,
-      "busy": 6,
+      "busy": 5,
       "ac": 3,
       "fl": 3
     },
@@ -155,9 +156,9 @@
       "daylight": 12.8,
       "cld": 32,
       "rain": 0,
-      "busy": 7,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -167,9 +168,9 @@
       "daylight": 13.0,
       "cld": 41,
       "rain": 10,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Jul",
@@ -179,8 +180,8 @@
       "daylight": 12.9,
       "cld": 59,
       "rain": 58,
-      "busy": 9,
-      "ac": 4,
+      "busy": 7,
+      "ac": 3,
       "fl": 4
     },
     {
@@ -191,8 +192,8 @@
       "daylight": 12.6,
       "cld": 73,
       "rain": 142,
-      "busy": 4,
-      "ac": 2,
+      "busy": 3,
+      "ac": 1,
       "fl": 2
     },
     {
@@ -203,9 +204,9 @@
       "daylight": 12.2,
       "cld": 78,
       "rain": 112,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -215,9 +216,9 @@
       "daylight": 11.8,
       "cld": 68,
       "rain": 25,
-      "busy": 9,
-      "ac": 4,
-      "fl": 4
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -227,7 +228,7 @@
       "daylight": 11.5,
       "cld": 58,
       "rain": 2,
-      "busy": 8,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -239,9 +240,9 @@
       "daylight": 11.3,
       "cld": 54,
       "rain": 2,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
     }
   ]
 }
