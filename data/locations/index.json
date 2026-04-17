@@ -16,6 +16,14 @@
     "lng": 1.5218
   },
   {
+    "id": "antalya-turkey",
+    "city": "Antalya",
+    "country": "Turkey",
+    "region": "Turkish Riviera (Mediterranean Coast)",
+    "lat": 36.8969,
+    "lng": 30.7133
+  },
+  {
     "id": "antigua-guatemala",
     "city": "Antigua",
     "country": "Guatemala",
@@ -30,6 +38,14 @@
     "region": "Peru region",
     "lat": -16.409,
     "lng": -71.5375
+  },
+  {
+    "id": "arhus-denmark",
+    "city": "Århus",
+    "country": "Denmark",
+    "region": "Jutland (Central Denmark)",
+    "lat": 56.1629,
+    "lng": 10.2039
   },
   {
     "id": "astana",
@@ -86,6 +102,14 @@
     "region": "Belize region",
     "lat": 17.5046,
     "lng": -88.1962
+  },
+  {
+    "id": "berat-albania",
+    "city": "Berat",
+    "country": "Albania",
+    "region": "Berat County",
+    "lat": 40.7058,
+    "lng": 19.9522
   },
   {
     "id": "bergen",

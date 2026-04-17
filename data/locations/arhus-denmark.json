@@ -1,0 +1,246 @@
+{
+  "id": "arhus-denmark",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-17",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/68639/Average-Weather-in-%C3%85rhus-Denmark-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Århus",
+  "country": "Denmark",
+  "region": "Jutland (Central Denmark)",
+  "desc": "Århus is Denmark’s second city, combining a compact waterfront core, strong museum scene, and easy bike-friendly living with a cooler North Sea-influenced climate.",
+  "hls": [
+    "Climate and daylength patterns are imported from the shared monthly climate CSV for consistency.",
+    "Shoulder months generally provide the strongest balance of comfort and crowd pressure.",
+    "Peak-season demand and pricing pressure increase around summer holiday windows.",
+    "Best experiences usually come from matching activity timing to monthly weather patterns."
+  ],
+  "todo": [
+    {
+      "name": "Old-town orientation walk",
+      "cat": "City walk",
+      "desc": "Start with a guided or self-guided walk through the main historic districts to set context."
+    },
+    {
+      "name": "Top local museum stop",
+      "cat": "Museum",
+      "desc": "Reserve at least one half-day for the city’s signature museum or cultural site."
+    },
+    {
+      "name": "Scenic viewpoint session",
+      "cat": "Viewpoint",
+      "desc": "Schedule a golden-hour viewpoint stop for the most photogenic light."
+    },
+    {
+      "name": "Market and food crawl",
+      "cat": "Food",
+      "desc": "Use local market streets for regional dishes and low-key evening exploration."
+    },
+    {
+      "name": "Nature/beach side trip",
+      "cat": "Nature",
+      "desc": "Keep one day flexible for a nearby coast, canyon, or countryside excursion."
+    },
+    {
+      "name": "Slow final-day neighborhood loop",
+      "cat": "Local life",
+      "desc": "Wrap up with cafés and residential streets outside the main tourist corridors."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "80-300 Mbps",
+      "note": "Connectivity is usually solid in central stays; confirm speeds directly with your accommodation for work-critical trips."
+    },
+    "directGW": false,
+    "fltNote": "No routine UK nonstop from all gateways year-round; many itineraries route via Copenhagen, Amsterdam, or other major hubs.",
+    "airports": [
+      {
+        "name": "Aarhus Airport",
+        "code": "AAR",
+        "km": 41,
+        "dgw": false
+      },
+      {
+        "name": "Billund Airport",
+        "code": "BLL",
+        "km": 95,
+        "dgw": true
+      }
+    ],
+    "currency": "Check current local currency usage and card acceptance before departure.",
+    "lang": "Local language dominates day-to-day life; English support is strongest in tourism-facing businesses.",
+    "tz": "Confirm local UTC offset and daylight-saving rules for your travel dates.",
+    "visa": "Entry rules depend on nationality and can change; verify official visa/passport requirements before booking.",
+    "bestFor": [
+      "Shoulder-season city breaks",
+      "History and architecture",
+      "Mixed pace itineraries",
+      "Value-focused off-peak trips",
+      "Weekend-to-week escapes"
+    ],
+    "alerts": [
+      "Weather variability can affect day plans; keep one flexible slot in your itinerary.",
+      "Book high-demand attractions in advance during peak months.",
+      "Use licensed transport options for late arrivals and airport transfers."
+    ]
+  },
+  "sweet": "June to August is best for long daylight and outdoor city time, with May and September as strong lower-crowd alternatives.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 7.7,
+      "cld": 67,
+      "rain": 36,
+      "busy": 2,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 9.6,
+      "cld": 65,
+      "rain": 28,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 3,
+      "hi": 6,
+      "lo": 0,
+      "daylight": 12.0,
+      "cld": 63,
+      "rain": 30,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 11,
+      "lo": 3,
+      "daylight": 14.3,
+      "cld": 56,
+      "rain": 28,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 16.4,
+      "cld": 49,
+      "rain": 38,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 17.6,
+      "cld": 46,
+      "rain": 53,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 21,
+      "lo": 12,
+      "daylight": 16.9,
+      "cld": 44,
+      "rain": 53,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 20,
+      "lo": 12,
+      "daylight": 15.0,
+      "cld": 48,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "daylight": 12.7,
+      "cld": 51,
+      "rain": 56,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 10.3,
+      "cld": 58,
+      "rain": 56,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 8.2,
+      "cld": 66,
+      "rain": 48,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 2,
+      "hi": 4,
+      "lo": 0,
+      "daylight": 7.0,
+      "cld": 68,
+      "rain": 41,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}
