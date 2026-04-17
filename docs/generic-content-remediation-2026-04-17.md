@@ -2,6 +2,8 @@
 
 This planning document tracks remediation work for 20 affected destination IDs, grouped in batches of at most 3 locations, aligned with the AGENTS.md enrichment batching policy.
 
+Related prevention track (separate work item): [`docs/repo-wide-generic-content-prevention-follow-up-2026-04-17.md`](repo-wide-generic-content-prevention-follow-up-2026-04-17.md).
+
 ## Batch 1
 - [ ] QA checklist: [`docs/location-qa-checklists/generic-content-remediation-2026-04-17-batch-1.md`](location-qa-checklists/generic-content-remediation-2026-04-17-batch-1.md)
 - [ ] `arequipa-peru` — **Focus:** tighten entry/visa and regional transport specifics (Cusco/Lima transfer realism).
