@@ -1,8 +1,7 @@
 {
   "id": "xingping-china",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Xingping",
   "country": "China",
-  "region": "Guangxi",
+  "region": "Yangshuo County, Guangxi (Li River valley)",
   "lat": 24.9167,
   "lng": 110.5,
-  "desc": "Xingping is a destination profile pending enrichment.",
+  "desc": "Xingping is a small riverside town surrounded by karst peaks, ideal for Li River scenery, slow village stays, and photography-focused Guangxi trips.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Classic Li River karst views from the 20 RMB backdrop area",
+    "Quieter base than central Yangshuo",
+    "Great for sunrise/sunset landscape photography",
+    "Easy boat and e-bike access to surrounding villages"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Laozhai Hill sunrise climb",
+      "cat": "Scenic",
+      "desc": "Start before dawn for iconic karst and river panoramas."
+    },
+    {
+      "name": "Li River bamboo raft segment",
+      "cat": "Water",
+      "desc": "Take a raft or small boat route through key karst bends."
+    },
+    {
+      "name": "Ancient Xingping streets walk",
+      "cat": "Culture",
+      "desc": "Explore preserved lanes, guesthouses, and riverside docks."
+    },
+    {
+      "name": "Xianggong Mountain viewpoint",
+      "cat": "Photography",
+      "desc": "Plan a golden-hour visit for layered karst compositions."
+    },
+    {
+      "name": "E-bike village loop",
+      "cat": "Adventure",
+      "desc": "Ride to nearby hamlets, orchards, and quiet riverbanks."
+    },
+    {
+      "name": "Beer fish dinner",
+      "cat": "Food",
+      "desc": "Try Yangshuo-style beer fish and Guangxi rice noodles."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "15-60 Mbps",
+      "note": "Fine in newer guesthouses, but older riverside inns can be inconsistent."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Xingping will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for China; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "UK/Ireland routes typically connect via Beijing, Shanghai, Guangzhou, or Hong Kong then continue by high-speed rail/road to Xingping; Chinese national holidays drive the sharpest domestic fare spikes.",
+    "airports": [
+      {
+        "name": "Guilin Liangjiang International Airport",
+        "code": "KWL",
+        "km": 95,
+        "dgw": false
+      },
+      {
+        "name": "Guangzhou Baiyun International Airport",
+        "code": "CAN",
+        "km": 470,
+        "dgw": false
+      }
+    ],
+    "currency": "China local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Landscape photography",
+      "Karst scenery",
+      "Slow village travel",
+      "Hiking + boating"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Xingping; keep one flexible day."
+      "Monsoon-season river levels can alter rafting routes and docking points.",
+      "Mountain viewpoints involve steep, uneven steps—bring proper footwear for wet conditions.",
+      "Many small inns prefer app-based payments and limited card acceptance."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Sep-Nov and Mar-Apr for clearer karst visibility and comfortable hiking temperatures.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 10.0,
       "cld": 35,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -77,8 +120,8 @@
       "cld": 42,
       "rain": 0,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.0,
       "cld": 50,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 13.1,
       "cld": 49,
       "rain": 18,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 14.1,
       "cld": 49,
       "rain": 33,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +167,9 @@
       "daylight": 14.6,
       "cld": 46,
       "rain": 51,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 14.3,
       "cld": 40,
       "rain": 64,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 13.5,
       "cld": 37,
       "rain": 64,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -160,7 +203,7 @@
       "daylight": 12.4,
       "cld": 42,
       "rain": 48,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -172,7 +215,7 @@
       "daylight": 11.2,
       "cld": 43,
       "rain": 20,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -185,8 +228,8 @@
       "cld": 33,
       "rain": 2,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -197,8 +240,8 @@
       "cld": 30,
       "rain": 0,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

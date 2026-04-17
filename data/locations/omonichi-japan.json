@@ -1,8 +1,7 @@
 {
   "id": "omonichi-japan",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Omonichi",
   "country": "Japan",
-  "region": "Hiroshima Prefecture",
+  "region": "Eastern Hiroshima Prefecture (Seto Inland Sea)",
   "lat": 34.4089,
   "lng": 133.2049,
-  "desc": "Omonichi is a destination profile pending enrichment.",
+  "desc": "Onomichi is a hillside port city famed for temple walks and as the western start of the Shimanami Kaidō cycling route across the Seto Inland Sea.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Iconic Shimanami Kaidō bike route gateway",
+    "Temple Walk overlooking the Seto Inland Sea",
+    "Retro alleyways, cafés, and ramen culture",
+    "Easy rail links from Hiroshima and Osaka"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Temple Walk route",
+      "cat": "Culture",
+      "desc": "Follow the hillside temple path with city-and-sea viewpoints."
+    },
+    {
+      "name": "Shimanami Kaidō day cycle",
+      "cat": "Adventure",
+      "desc": "Ride at least one island segment using bike-rental return stations."
+    },
+    {
+      "name": "Cat Alley + old shopping arcades",
+      "cat": "Neighborhood",
+      "desc": "Explore narrow lanes, galleries, and restored storefronts."
+    },
+    {
+      "name": "Onomichi ramen crawl",
+      "cat": "Food",
+      "desc": "Compare soy-based local ramen shops near the station and waterfront."
+    },
+    {
+      "name": "Senkōji ropeway and park",
+      "cat": "Scenic",
+      "desc": "Ride up for dusk views and descend by hillside lanes."
+    },
+    {
+      "name": "Mukaishima ferry hop",
+      "cat": "Local life",
+      "desc": "Use short ferries to see shipyard and island neighborhoods."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "30-120 Mbps",
+      "note": "Reliable in station-area hotels and cafés; older ryokan may have weaker Wi-Fi."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Omonichi will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Japan; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Access is typically via Tokyo or Osaka long-haul arrivals, then shinkansen/local rail; UK nonstop capacity to Kansai and Haneda peaks in summer and year-end holiday periods.",
+    "airports": [
+      {
+        "name": "Hiroshima Airport",
+        "code": "HIJ",
+        "km": 39,
+        "dgw": false
+      },
+      {
+        "name": "Kansai International Airport",
+        "code": "KIX",
+        "km": 250,
+        "dgw": true
+      }
+    ],
+    "currency": "Japan local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Cycling trips",
+      "Scenic rail add-ons",
+      "Temple walks",
+      "Food weekends"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Omonichi; keep one flexible day."
+      "Cycling route bridges can be windy—check advisories before committing to long island segments.",
+      "Many cafés and galleries close midweek, so avoid packing all key stops into one weekday.",
+      "Typhoon season can suspend ferries and ropeway operations with short notice."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Apr-May and Oct-Nov for comfortable cycling weather and clearer Seto views.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 10.1,
       "cld": 32,
       "rain": 41,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -76,9 +119,9 @@
       "daylight": 11.0,
       "cld": 39,
       "rain": 61,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +132,8 @@
       "cld": 46,
       "rain": 94,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 13.1,
       "cld": 51,
       "rain": 109,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 14.0,
       "cld": 55,
       "rain": 132,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +167,9 @@
       "daylight": 14.4,
       "cld": 67,
       "rain": 198,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -136,7 +179,7 @@
       "daylight": 14.2,
       "cld": 65,
       "rain": 185,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -148,7 +191,7 @@
       "daylight": 13.4,
       "cld": 53,
       "rain": 109,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -160,9 +203,9 @@
       "daylight": 12.4,
       "cld": 48,
       "rain": 142,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 11.3,
       "cld": 35,
       "rain": 99,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -184,9 +227,9 @@
       "daylight": 10.4,
       "cld": 30,
       "rain": 64,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 9.9,
       "cld": 26,
       "rain": 43,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

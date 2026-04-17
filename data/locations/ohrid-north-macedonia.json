@@ -1,8 +1,7 @@
 {
   "id": "ohrid-north-macedonia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Ohrid",
   "country": "North Macedonia",
-  "region": "Southwestern Region",
+  "region": "Southwestern North Macedonia (Lake Ohrid basin)",
   "lat": 41.1172,
   "lng": 20.8016,
-  "desc": "Ohrid is a destination profile pending enrichment.",
+  "desc": "Ohrid is a lakeside UNESCO destination combining Orthodox heritage sites, summer swimming, and relaxed old-town evenings on the Balkan overland corridor.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "UNESCO old town and lake churches",
+    "Clear freshwater swimming in summer",
+    "Excellent value shoulder seasons",
+    "Easy links to Albania and Skopje routes"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Old town church circuit",
+      "cat": "Culture",
+      "desc": "Walk St. Sophia, Plaošnik, and Kaneo viewpoints."
+    },
+    {
+      "name": "Lake Ohrid boat cruise",
+      "cat": "Water",
+      "desc": "Take a half-day cruise to lakeside monasteries and coves."
+    },
+    {
+      "name": "Samuel's Fortress sunrise",
+      "cat": "Scenic",
+      "desc": "Climb early for panoramic lake and old-town views."
+    },
+    {
+      "name": "Trpejca or Ljubaništa beach day",
+      "cat": "Coast",
+      "desc": "Use a day for swimming in clearer southern lake waters."
+    },
+    {
+      "name": "Bay of Bones museum stop",
+      "cat": "History",
+      "desc": "Visit reconstructed stilt settlement exhibits on the southeast shore."
+    },
+    {
+      "name": "Čaršija dinner crawl",
+      "cat": "Food",
+      "desc": "Sample grilled trout and tavče gravče in old bazaar lanes."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "15-80 Mbps",
+      "note": "Generally solid in old-town hotels; speed dips at full summer occupancy."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Ohrid will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for North Macedonia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Seasonal nonstop UK routes appear in summer to Ohrid/Skopje, while shoulder and winter travel often requires one-stop Balkan or Central Europe connections.",
+    "airports": [
+      {
+        "name": "Ohrid St. Paul the Apostle Airport",
+        "code": "OHD",
+        "km": 10,
+        "dgw": false
+      },
+      {
+        "name": "Skopje International Airport",
+        "code": "SKP",
+        "km": 205,
+        "dgw": true
+      }
+    ],
+    "currency": "North Macedonia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Lakeside culture",
+      "Budget Europe trips",
+      "Summer swimming",
+      "Road-trip stopovers"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Ohrid; keep one flexible day."
+      "Lakefront roads and parking are congested in July-August evenings.",
+      "Some beach clubs and boat operators are cash-only despite card terminals in town restaurants.",
+      "Winter service frequency drops sharply for intercity buses—check last departures in advance."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "May-Jun and Sep for warm lake weather with lighter crowds than July-August peaks.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 9.6,
       "cld": 53,
       "rain": 38,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -76,9 +119,9 @@
       "daylight": 10.7,
       "cld": 53,
       "rain": 41,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +132,8 @@
       "cld": 51,
       "rain": 38,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 13.4,
       "cld": 48,
       "rain": 46,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 14.5,
       "cld": 42,
       "rain": 38,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -124,7 +167,7 @@
       "daylight": 15.1,
       "cld": 24,
       "rain": 30,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -136,9 +179,9 @@
       "daylight": 14.8,
       "cld": 10,
       "rain": 20,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 13.7,
       "cld": 15,
       "rain": 25,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.4,
       "cld": 31,
       "rain": 48,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -172,7 +215,7 @@
       "daylight": 11.1,
       "cld": 45,
       "rain": 64,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -184,9 +227,9 @@
       "daylight": 9.9,
       "cld": 54,
       "rain": 74,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 9.3,
       "cld": 56,
       "rain": 56,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

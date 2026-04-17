@@ -1,8 +1,7 @@
 {
   "id": "popenguine-ndayane-senegal",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Popenguine-Ndayane",
   "country": "Senegal",
-  "region": "Thiès Region",
+  "region": "Thiès Region (Petite Côte)",
   "lat": 14.55,
   "lng": -17.1,
-  "desc": "Popenguine-Ndayane is a destination profile pending enrichment.",
+  "desc": "Popenguine-Ndayane offers a quieter Senegalese coast experience with bird-rich lagoons, fishing villages, and quick access from Dakar's new airport corridor.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Coastal reserve with seabirds and baobab landscapes",
+    "Less crowded alternative to Saly resorts",
+    "Good base for Dakar + Petite Côte split stays",
+    "Warm sea temperatures most of the year"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Popenguine Nature Reserve walk",
+      "cat": "Nature",
+      "desc": "Do a guided trail for birdwatching and coastal cliffs."
+    },
+    {
+      "name": "Ndayane fishing village visit",
+      "cat": "Culture",
+      "desc": "Watch pirogue launches and fish landing routines."
+    },
+    {
+      "name": "Lagoon canoe session",
+      "cat": "Water",
+      "desc": "Take a calm-water paddle in morning conditions."
+    },
+    {
+      "name": "Cap de Naze viewpoint",
+      "cat": "Scenic",
+      "desc": "Hike to rocky headland views over Petite Côte."
+    },
+    {
+      "name": "Seafood lunch at beach camp",
+      "cat": "Food",
+      "desc": "Try grilled thiof and yassa in family-run beach spots."
+    },
+    {
+      "name": "Dakar day trip",
+      "cat": "City excursion",
+      "desc": "Use one day for museums and markets in the capital."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "8-40 Mbps",
+      "note": "Adequate in guesthouses near main road; patchier in reserve-adjacent camps."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Popenguine-Ndayane will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Senegal; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "London has regular nonstop flights to Dakar area airports in high season, while Ireland/other UK cities often connect via Paris, Lisbon, or Casablanca; winter demand is strongest.",
+    "airports": [
+      {
+        "name": "Blaise Diagne International Airport",
+        "code": "DSS",
+        "km": 20,
+        "dgw": false
+      },
+      {
+        "name": "Léopold Sédar Senghor area (Dakar city) transfers",
+        "code": "DKR",
+        "km": 55,
+        "dgw": false
+      }
+    ],
+    "currency": "Senegal local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Quiet beaches",
+      "Nature reserves",
+      "West Africa first-timers",
+      "Shoulder-season escapes"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Popenguine-Ndayane; keep one flexible day."
+      "Beach currents can be strong at exposed points—swim only in locally recommended zones.",
+      "Road checkpoints are routine on intercity routes; carry passport copy during excursions.",
+      "Weekend traffic leaving Dakar can significantly delay airport-bound transfers."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Nov-Feb for drier weather and easier coastal hiking; shoulder Mar-Apr still workable before heavier heat.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 11.4,
       "cld": 46,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -77,8 +120,8 @@
       "cld": 42,
       "rain": 0,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.1,
       "cld": 37,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,7 +143,7 @@
       "daylight": 12.5,
       "cld": 35,
       "rain": 0,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -112,7 +155,7 @@
       "daylight": 12.8,
       "cld": 32,
       "rain": 0,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +167,9 @@
       "daylight": 13.0,
       "cld": 41,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 12.9,
       "cld": 59,
       "rain": 58,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 12.6,
       "cld": 73,
       "rain": 142,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.2,
       "cld": 78,
       "rain": 112,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 11.8,
       "cld": 68,
       "rain": 25,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Nov",
@@ -184,7 +227,7 @@
       "daylight": 11.5,
       "cld": 58,
       "rain": 2,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -197,8 +240,8 @@
       "cld": 54,
       "rain": 2,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     }
   ]
 }

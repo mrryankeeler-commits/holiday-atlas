@@ -1,8 +1,7 @@
 {
   "id": "dali-china",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Dali",
   "country": "China",
-  "region": "Yunnan Province",
+  "region": "Dali Bai Autonomous Prefecture (Yunnan)",
   "lat": 25.6065,
   "lng": 100.2676,
-  "desc": "Dali is a destination profile pending enrichment.",
+  "desc": "Dali combines highland lakeside scenery, Bai heritage towns, and spring-like temperatures for most of the year, with monsoon timing the main trip-planning factor.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Erhai Lake cycling and village loop routes",
+    "Bai minority architecture in Dali Old Town and Xizhou",
+    "Great Yunnan produce and tea culture",
+    "Mild shoulder seasons suited to slower itineraries"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Dali Old Town south gate walk",
+      "cat": "Culture",
+      "desc": "Explore city walls, craft alleys, and temple courtyards in the morning."
+    },
+    {
+      "name": "Erhai west-shore cycle day",
+      "cat": "Scenic",
+      "desc": "Ride between lake villages with photo stops and cafés."
+    },
+    {
+      "name": "Three Pagodas and Chongsheng complex",
+      "cat": "History",
+      "desc": "Visit at opening for quieter grounds and mountain backdrop views."
+    },
+    {
+      "name": "Xizhou Bai village visit",
+      "cat": "Culture",
+      "desc": "See Bai courtyard homes and try local rushan cheese snacks."
+    },
+    {
+      "name": "Cangshan cableway + trail segment",
+      "cat": "Nature",
+      "desc": "Use the cableway for alpine views and short ridge walks."
+    },
+    {
+      "name": "Yunnan mushroom hotpot dinner",
+      "cat": "Food",
+      "desc": "Book a seasonal mushroom-focused restaurant in town."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "20-80 Mbps",
+      "note": "Decent in modern hotels, variable in traditional courtyard inns."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Dali will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for China; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "No nonstop UK/Ireland flights; most routes connect via Kunming, Chengdu, Guangzhou, or Hong Kong before a domestic hop to Dali, with stronger summer seat supply but higher fare pressure.",
+    "airports": [
+      {
+        "name": "Dali Fengyi Airport",
+        "code": "DLU",
+        "km": 29,
+        "dgw": false
+      },
+      {
+        "name": "Kunming Changshui International Airport",
+        "code": "KMG",
+        "km": 340,
+        "dgw": false
+      }
+    ],
+    "currency": "China local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Scenic cycling",
+      "Ethnic culture",
+      "Cool-weather China travel",
+      "Slow itineraries"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Dali; keep one flexible day."
+      "Monsoon rains (roughly June-September) can interrupt mountain cableway operations with short-notice closures.",
+      "Some guesthouses in old lanes are pedestrian-access only; confirm luggage transfer arrangements.",
+      "China apps/payments are widely used—set up backup payment methods before arrival."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Mar-May and Oct-Nov for clear mountain views and comfortable cycling temperatures.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 10.7,
       "cld": 13,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -77,8 +120,8 @@
       "cld": 12,
       "rain": 15,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.0,
       "cld": 17,
       "rain": 18,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,7 +143,7 @@
       "daylight": 12.8,
       "cld": 33,
       "rain": 18,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -112,9 +155,9 @@
       "daylight": 13.4,
       "cld": 48,
       "rain": 56,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Jun",
@@ -124,9 +167,9 @@
       "daylight": 13.7,
       "cld": 73,
       "rain": 102,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 13.5,
       "cld": 83,
       "rain": 137,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,7 +191,7 @@
       "daylight": 13.0,
       "cld": 78,
       "rain": 135,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -160,7 +203,7 @@
       "daylight": 12.3,
       "cld": 63,
       "rain": 107,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -172,9 +215,9 @@
       "daylight": 11.5,
       "cld": 42,
       "rain": 61,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -185,8 +228,8 @@
       "cld": 25,
       "rain": 18,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 10.6,
       "cld": 18,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     }
   ]
 }

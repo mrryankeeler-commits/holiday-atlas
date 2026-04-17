@@ -1,8 +1,7 @@
 {
   "id": "hell-ville-nosy-be-madagascar",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Hell-Ville (Nosy Be)",
   "country": "Madagascar",
-  "region": "Diana Region",
+  "region": "Nosy Be Island (Diana Region)",
   "lat": -13.3972,
   "lng": 48.2667,
-  "desc": "Hell-Ville (Nosy Be) is a destination profile pending enrichment.",
+  "desc": "Hell-Ville is the transport and market hub of Nosy Be, used as a gateway to beaches, marine parks, and seasonal whale-shark excursions.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Base for Nosy Tanikely and Nosy Komba boat trips",
+    "Dry-season beach weather and clearer water",
+    "Strong seafood and spice-market culture",
+    "Access point for whale-shark season excursions"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Hell-Ville market morning",
+      "cat": "Food",
+      "desc": "Browse spice stalls, vanilla products, and fresh seafood auctions."
+    },
+    {
+      "name": "Nosy Tanikely snorkel trip",
+      "cat": "Water",
+      "desc": "Take a half-day boat for reef snorkeling and marine reserve beaches."
+    },
+    {
+      "name": "Mont Passot sunset",
+      "cat": "Scenic",
+      "desc": "Head inland for crater-lake and ocean panoramas at golden hour."
+    },
+    {
+      "name": "Nosy Komba lemur visit",
+      "cat": "Nature",
+      "desc": "Combine village craft stops with forest lemur sightings."
+    },
+    {
+      "name": "Lokobe Reserve pirogue tour",
+      "cat": "Wildlife",
+      "desc": "Use a guided paddle route for endemic reptiles and lemurs."
+    },
+    {
+      "name": "Beach day at Andilana",
+      "cat": "Coast",
+      "desc": "Set aside one full day for swimming and shoreline downtime."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 2,
+      "spd": "4-25 Mbps",
+      "note": "Usable in town hotels; island-wide outages and power cuts are common."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Hell-Ville (Nosy Be) will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Madagascar; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "UK/Ireland trips are usually one-stop via Addis Ababa, Nairobi, or Paris plus a regional leg; Nosy Be capacity peaks in the dry season (June-October), when fares and lodge rates rise.",
+    "airports": [
+      {
+        "name": "Fascene Airport (Nosy Be)",
+        "code": "NOS",
+        "km": 15,
+        "dgw": false
+      },
+      {
+        "name": "Ivato International Airport (Antananarivo)",
+        "code": "TNR",
+        "km": 530,
+        "dgw": false
+      }
+    ],
+    "currency": "Madagascar local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Beach + snorkeling",
+      "Island-hopping",
+      "Marine wildlife",
+      "Dry-season escapes"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Hell-Ville (Nosy Be); keep one flexible day."
+      "Boat transfers can be cancelled on windy days in July-August; keep marine excursions flexible.",
+      "ATMs are limited and can run out of cash on weekends, so withdraw before heading to outer beaches.",
+      "Road surfaces degrade quickly after rain; night transfers from remote lodges are slower than map estimates."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Jun-Oct for driest weather, calmer sea days, and best snorkeling visibility.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 12.8,
       "cld": 84,
       "rain": 224,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -76,9 +119,9 @@
       "daylight": 12.5,
       "cld": 84,
       "rain": 231,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +132,8 @@
       "cld": 74,
       "rain": 135,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,7 +143,7 @@
       "daylight": 11.8,
       "cld": 49,
       "rain": 53,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -112,9 +155,9 @@
       "daylight": 11.5,
       "cld": 29,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -124,9 +167,9 @@
       "daylight": 11.3,
       "cld": 21,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 11.4,
       "cld": 18,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -148,7 +191,7 @@
       "daylight": 11.7,
       "cld": 16,
       "rain": 0,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -160,7 +203,7 @@
       "daylight": 12.0,
       "cld": 17,
       "rain": 2,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -172,9 +215,9 @@
       "daylight": 12.4,
       "cld": 25,
       "rain": 8,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Nov",
@@ -184,9 +227,9 @@
       "daylight": 12.7,
       "cld": 45,
       "rain": 38,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 12.9,
       "cld": 71,
       "rain": 137,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

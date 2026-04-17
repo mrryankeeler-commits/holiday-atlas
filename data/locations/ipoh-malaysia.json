@@ -1,8 +1,7 @@
 {
   "id": "ipoh-malaysia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Ipoh",
   "country": "Malaysia",
-  "region": "Perak",
+  "region": "Perak (Kinta Valley)",
   "lat": 4.5975,
   "lng": 101.0901,
-  "desc": "Ipoh is a destination profile pending enrichment.",
+  "desc": "Ipoh is a heritage-rich food city framed by limestone hills, offering excellent value and easy rail access between Kuala Lumpur and Penang.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Old-town murals, coffee shops, and colonial arcades",
+    "Limestone cave temples and karst scenery",
+    "Strong Malaysian Chinese food culture",
+    "Convenient intercity rail positioning"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Ipoh Old Town mural trail",
+      "cat": "Culture",
+      "desc": "Walk the old quarter murals, lanes, and restored shophouses."
+    },
+    {
+      "name": "Kek Lok Tong and Sam Poh Tong caves",
+      "cat": "Nature",
+      "desc": "Visit two limestone cave temples with gardens and chambers."
+    },
+    {
+      "name": "Concubine Lane early visit",
+      "cat": "History",
+      "desc": "Arrive early for quieter photos and snack stalls."
+    },
+    {
+      "name": "White coffee tasting route",
+      "cat": "Food",
+      "desc": "Compare classic kopitiam and modern roaster takes on Ipoh white coffee."
+    },
+    {
+      "name": "Perak Tong viewpoint climb",
+      "cat": "Scenic",
+      "desc": "Climb the stair route for karst and city panoramas."
+    },
+    {
+      "name": "Gua Tempurung half-day trip",
+      "cat": "Adventure",
+      "desc": "Book a guided cave traverse outside the city core."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "30-150 Mbps",
+      "note": "Good fiber in hotels and cafés; mobile data is strong citywide."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Ipoh will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Malaysia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Ipoh has limited international service, so UK/Ireland visitors usually fly nonstop to Kuala Lumpur then continue by ETS train or road; school-holiday peaks (Jul-Aug, Dec) lift fares.",
+    "airports": [
+      {
+        "name": "Sultan Azlan Shah Airport",
+        "code": "IPH",
+        "km": 6,
+        "dgw": false
+      },
+      {
+        "name": "Kuala Lumpur International Airport",
+        "code": "KUL",
+        "km": 205,
+        "dgw": true
+      }
+    ],
+    "currency": "Malaysia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Food trips",
+      "Short city breaks",
+      "Karst scenery",
+      "Budget-friendly Malaysia"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Ipoh; keep one flexible day."
+      "Afternoon thunderstorms are frequent year-round and can flood low streets briefly.",
+      "Many popular eateries close once sold out by early afternoon; plan food stops early.",
+      "Ride-hailing is reliable, but cave-temple return pickups are slower outside central zones."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Jan-Mar and Jun-Aug for relatively drier sightseeing windows and easier cave visits.",
   "months": [
     {
       "m": "Jan",
@@ -64,7 +107,7 @@
       "daylight": 11.9,
       "cld": 77,
       "rain": 135,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -76,9 +119,9 @@
       "daylight": 12.0,
       "cld": 75,
       "rain": 102,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.1,
       "cld": 80,
       "rain": 130,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 12.2,
       "cld": 89,
       "rain": 140,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +155,7 @@
       "daylight": 12.3,
       "cld": 93,
       "rain": 130,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +167,9 @@
       "daylight": 12.4,
       "cld": 91,
       "rain": 94,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 12.4,
       "cld": 91,
       "rain": 104,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,7 +191,7 @@
       "daylight": 12.3,
       "cld": 92,
       "rain": 127,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -161,8 +204,8 @@
       "cld": 93,
       "rain": 168,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -173,8 +216,8 @@
       "cld": 93,
       "rain": 218,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Nov",
@@ -184,9 +227,9 @@
       "daylight": 11.9,
       "cld": 91,
       "rain": 267,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -197,8 +240,8 @@
       "cld": 84,
       "rain": 244,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

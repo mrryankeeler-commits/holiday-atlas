@@ -1,8 +1,7 @@
 {
   "id": "cape-maclear-malawi",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Cape Maclear",
   "country": "Malawi",
-  "region": "Southern Region",
+  "region": "Lake Malawi National Park (Mangochi District)",
   "lat": -14.0167,
   "lng": 34.85,
-  "desc": "Cape Maclear is a destination profile pending enrichment.",
+  "desc": "Cape Maclear is a laid-back Lake Malawi village known for clear freshwater snorkeling, dhow sunsets, and dry-season beach weather best for boat days.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "UNESCO-listed lake biodiversity and cichlid snorkeling",
+    "Back-to-back beach lodges and dive operators",
+    "Simple village atmosphere with strong sunset culture",
+    "Best conditions in Malawi dry season"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Thumbi Island snorkeling",
+      "cat": "Water",
+      "desc": "Take a morning boat to reef zones with the clearest visibility."
+    },
+    {
+      "name": "Dhow sunset cruise",
+      "cat": "Scenic",
+      "desc": "Book a traditional dhow for golden-hour sailing on the lake."
+    },
+    {
+      "name": "Village market walk",
+      "cat": "Culture",
+      "desc": "Browse fish-drying racks and local crafts with a community guide."
+    },
+    {
+      "name": "Kayak Otter Point",
+      "cat": "Adventure",
+      "desc": "Paddle along shoreline coves before midday winds build."
+    },
+    {
+      "name": "Lake Malawi National Park hike",
+      "cat": "Nature",
+      "desc": "Use a short ridge trail for peninsula panoramas."
+    },
+    {
+      "name": "Beach braai evening",
+      "cat": "Food",
+      "desc": "Plan a lodge braai with chambo fish and nsima sides."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 2,
+      "spd": "5-20 Mbps",
+      "note": "Lakefront bandwidth is limited and weather-sensitive; buy a local SIM for backup."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Cape Maclear will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Malawi; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "Cape Maclear requires an overland transfer from Lilongwe or Blantyre after a one-stop long-haul routing (often via Addis Ababa, Nairobi, or Johannesburg); wet-season roads can lengthen transfer time.",
+    "airports": [
+      {
+        "name": "Lilongwe International Airport",
+        "code": "LLW",
+        "km": 230,
+        "dgw": false
+      },
+      {
+        "name": "Chileka International Airport (Blantyre)",
+        "code": "BLZ",
+        "km": 285,
+        "dgw": false
+      }
+    ],
+    "currency": "Malawi local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Freshwater snorkeling",
+      "Slow travel",
+      "Beach downtime",
+      "Nature-first itineraries"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Cape Maclear; keep one flexible day."
+      "Mobile cash and card acceptance are limited; carry enough Malawi kwacha for park fees and boat hires.",
+      "Bilharzia risk is managed at many lodges but conditions vary—follow current local health guidance before water activities.",
+      "Power and water interruptions happen in hotter months; choose lodges with backup systems if working remotely."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "May-Oct for dry skies, clearer water, and more reliable boat conditions.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +107,9 @@
       "daylight": 12.8,
       "cld": 82,
       "rain": 252,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -77,8 +120,8 @@
       "cld": 76,
       "rain": 201,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.2,
       "cld": 60,
       "rain": 122,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,7 +143,7 @@
       "daylight": 11.8,
       "cld": 33,
       "rain": 33,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -112,7 +155,7 @@
       "daylight": 11.5,
       "cld": 19,
       "rain": 5,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -124,9 +167,9 @@
       "daylight": 11.3,
       "cld": 10,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 11.4,
       "cld": 9,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 11.7,
       "cld": 10,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -160,7 +203,7 @@
       "daylight": 12.0,
       "cld": 14,
       "rain": 2,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -172,9 +215,9 @@
       "daylight": 12.4,
       "cld": 26,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -185,8 +228,8 @@
       "cld": 48,
       "rain": 53,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Dec",
@@ -197,8 +240,8 @@
       "cld": 75,
       "rain": 170,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     }
   ]
 }

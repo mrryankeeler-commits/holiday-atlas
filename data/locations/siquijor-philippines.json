@@ -1,8 +1,7 @@
 {
   "id": "siquijor-philippines",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Siquijor",
   "country": "Philippines",
-  "region": "Central Visayas",
+  "region": "Central Visayas (Siquijor Island)",
   "lat": 9.2142,
   "lng": 123.5153,
-  "desc": "Siquijor is a destination profile pending enrichment.",
+  "desc": "Siquijor is a compact Philippine island known for waterfalls, reef snorkeling, and a laid-back scooter-based travel rhythm.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Easy island loop with beaches and inland waterfalls",
+    "Strong snorkeling and diving near marine sanctuaries",
+    "Less developed vibe than major Visayas resort islands",
+    "Good fit for 3-5 night slow stays"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Cambugahay Falls morning",
+      "cat": "Nature",
+      "desc": "Arrive early for quieter pools and rope-swing spots."
+    },
+    {
+      "name": "Tubod Marine Sanctuary snorkel",
+      "cat": "Water",
+      "desc": "Do a reef session with current-aware local guides."
+    },
+    {
+      "name": "Paliton Beach sunset",
+      "cat": "Coast",
+      "desc": "Plan late-afternoon swimming and sunset viewing."
+    },
+    {
+      "name": "Lazi church and convent",
+      "cat": "History",
+      "desc": "Visit one of the Philippines' oldest stone church complexes."
+    },
+    {
+      "name": "Island scooter loop",
+      "cat": "Adventure",
+      "desc": "Circle the island with stops at viewpoints and cafés."
+    },
+    {
+      "name": "Mt. Bandilaan forest reserve",
+      "cat": "Nature",
+      "desc": "Take a short inland hike for cooler forest conditions."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "8-45 Mbps",
+      "note": "Improving in beachfront stays, but outages still occur during storms."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Siquijor will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Philippines; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "UK/Ireland routes typically connect via Manila, Cebu, Singapore, or Doha, then combine domestic flight and ferry; Amihan dry season (Dec-May) brings stronger demand and pricing.",
+    "airports": [
+      {
+        "name": "Bohol-Panglao International Airport",
+        "code": "TAG",
+        "km": 65,
+        "dgw": false
+      },
+      {
+        "name": "Sibulan Airport (Dumaguete)",
+        "code": "DGT",
+        "km": 35,
+        "dgw": false
+      }
+    ],
+    "currency": "Philippines local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Island-hopping",
+      "Snorkeling",
+      "Budget tropical trips",
+      "Slow travel"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Siquijor; keep one flexible day."
+      "Ferry schedules are weather-sensitive, especially during typhoon-active months.",
+      "Island roads are narrow and can be slick after rain—ride scooters cautiously at night.",
+      "ATMs are limited and sometimes offline; carry backup cash before weekends."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Dec-May for calmer seas and better ferry reliability.",
   "months": [
     {
       "m": "Jan",
@@ -64,7 +107,7 @@
       "daylight": 11.7,
       "cld": 73,
       "rain": 76,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -76,7 +119,7 @@
       "daylight": 11.8,
       "cld": 67,
       "rain": 58,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -88,9 +131,9 @@
       "daylight": 12.1,
       "cld": 64,
       "rain": 43,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 12.3,
       "cld": 71,
       "rain": 41,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "May",
@@ -112,9 +155,9 @@
       "daylight": 12.5,
       "cld": 86,
       "rain": 71,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -125,8 +168,8 @@
       "cld": 91,
       "rain": 137,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jul",
@@ -136,9 +179,9 @@
       "daylight": 12.6,
       "cld": 92,
       "rain": 132,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -148,7 +191,7 @@
       "daylight": 12.4,
       "cld": 92,
       "rain": 107,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -160,9 +203,9 @@
       "daylight": 12.2,
       "cld": 91,
       "rain": 117,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 11.9,
       "cld": 89,
       "rain": 145,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Nov",
@@ -184,9 +227,9 @@
       "daylight": 11.7,
       "cld": 84,
       "rain": 147,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,9 +239,9 @@
       "daylight": 11.6,
       "cld": 78,
       "rain": 112,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     }
   ]
 }

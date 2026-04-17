@@ -1,8 +1,7 @@
 {
   "id": "accra-ghana",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,86 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Accra",
   "country": "Ghana",
-  "region": "Greater Accra Region",
+  "region": "Greater Accra Metropolitan Area",
   "lat": 5.6037,
   "lng": -0.187,
-  "desc": "Accra is a destination profile pending enrichment.",
+  "desc": "Accra mixes Atlantic beaches, major West African art institutions, and one of the region's best food scenes, with trip comfort shaped mostly by humidity and rain timing.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Jamestown and Independence Arch heritage corridor",
+    "Strong contemporary art circuit around Osu and Labadi",
+    "Day trips to Ada estuary and Kakum-side rainforest routes",
+    "Shoulder windows reduce rain-disruption risk"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Jamestown lighthouse and old quarter walk",
+      "cat": "Culture",
+      "desc": "Walk Jamestown's fishing harbor lanes, murals, and colonial-era landmarks with a local guide."
+    },
+    {
+      "name": "Makola + Osu food run",
+      "cat": "Food",
+      "desc": "Split a day between Makola market and Osu for kelewele, grilled tilapia, and modern Ghanaian kitchens."
+    },
+    {
+      "name": "Labadi beach sunset",
+      "cat": "Coast",
+      "desc": "Time beach hours for late afternoon breezes and live-music evenings."
+    },
+    {
+      "name": "W.E.B. Du Bois Center + National Museum",
+      "cat": "History",
+      "desc": "Pair both sites for context on pan-African history and modern Ghana statehood."
+    },
+    {
+      "name": "Aburi Botanical Gardens day trip",
+      "cat": "Nature",
+      "desc": "Use a half-day trip to the cooler Akuapem ridge for forest shade and viewpoints."
+    },
+    {
+      "name": "Art Center crafts session",
+      "cat": "Shopping",
+      "desc": "Browse the Arts Centre stalls for textiles, beads, and woodwork with room to bargain politely."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "25-120 Mbps",
+      "note": "Business hotels and coworking spots are generally reliable; verify backup power during stormy weeks."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Accra will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Ghana; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "London has year-round nonstop service to Accra, while many other UK/Ireland departures connect via Amsterdam, Brussels, or Istanbul; fares spike around July-August and December holidays.",
+    "airports": [
+      {
+        "name": "Kotoka International Airport",
+        "code": "ACC",
+        "km": 8,
+        "dgw": true
+      }
+    ],
+    "currency": "Ghana local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Urban culture",
+      "Food-focused trips",
+      "Short West Africa stopovers",
+      "Shoulder-season value"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Accra; keep one flexible day."
+      "Flash flooding can affect low-lying roads in peak rains (April-June and September-October), so avoid tight same-day airport transfers.",
+      "Carry small cash for market transport and beach vendors; card acceptance drops outside malls and larger hotels.",
+      "Heavy traffic on Spintex and Liberation roads can double evening transfer times, especially before public holidays."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Nov-Feb for drier weather and easier city logistics; shoulder Mar and Sep can work with flexible rain plans.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +101,9 @@
       "daylight": 11.8,
       "cld": 51,
       "rain": 5,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Feb",
@@ -76,7 +113,7 @@
       "daylight": 11.9,
       "cld": 65,
       "rain": 15,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -88,7 +125,7 @@
       "daylight": 12.1,
       "cld": 77,
       "rain": 53,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -101,8 +138,8 @@
       "cld": 83,
       "rain": 84,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "May",
@@ -113,8 +150,8 @@
       "cld": 83,
       "rain": 140,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jun",
@@ -124,9 +161,9 @@
       "daylight": 12.4,
       "cld": 69,
       "rain": 160,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jul",
@@ -136,9 +173,9 @@
       "daylight": 12.4,
       "cld": 58,
       "rain": 66,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Aug",
@@ -149,8 +186,8 @@
       "cld": 55,
       "rain": 28,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Sep",
@@ -160,9 +197,9 @@
       "daylight": 12.1,
       "cld": 56,
       "rain": 69,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -172,7 +209,7 @@
       "daylight": 12.0,
       "cld": 55,
       "rain": 84,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -184,9 +221,9 @@
       "daylight": 11.9,
       "cld": 50,
       "rain": 25,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Dec",
@@ -196,9 +233,9 @@
       "daylight": 11.8,
       "cld": 44,
       "rain": 10,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     }
   ]
 }

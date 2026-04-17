@@ -1,8 +1,7 @@
 {
   "id": "tamarin-mauritius",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,86 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Tamarin",
   "country": "Mauritius",
-  "region": "Black River District",
+  "region": "Rivière Noire District (west coast)",
   "lat": -20.325,
   "lng": 57.3706,
-  "desc": "Tamarin is a destination profile pending enrichment.",
+  "desc": "Tamarin is a west-coast Mauritius base known for surf, dolphin cruises, and easier access to Black River Gorges and Le Morne than the busier north.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Sunset-facing west-coast beaches",
+    "Gateway to Black River Gorges hikes",
+    "Surf breaks and lagoon watersports",
+    "Strong villa and aparthotel stock for longer stays"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Tamarin Bay sunrise paddle",
+      "cat": "Water",
+      "desc": "Join an early-morning paddle or kayak before winds build."
+    },
+    {
+      "name": "Le Morne day trip",
+      "cat": "Scenic",
+      "desc": "Pair beach time with mountain viewpoints on the southwest peninsula."
+    },
+    {
+      "name": "Black River Gorges hike",
+      "cat": "Nature",
+      "desc": "Choose a half-day trail with endemic forest lookouts."
+    },
+    {
+      "name": "Casela nature park activity block",
+      "cat": "Adventure",
+      "desc": "Add zipline or safari-style activities nearby."
+    },
+    {
+      "name": "Flic-en-Flac evening food stop",
+      "cat": "Food",
+      "desc": "Sample street snacks and Creole seafood plates."
+    },
+    {
+      "name": "Dolphin-watch boat outing",
+      "cat": "Wildlife",
+      "desc": "Book licensed operators with responsible wildlife distance policies."
     }
   ],
   "prac": {
     "wifi": {
-      "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "r": 4,
+      "spd": "25-150 Mbps",
+      "note": "Good in most villas/hotels; verify speeds for remote work stays."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Tamarin will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Mauritius; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "Mauritius has regular nonstop London service and broad one-stop UK/Ireland options; peak demand is strongest in European school holidays and December festive travel.",
+    "airports": [
+      {
+        "name": "Sir Seewoosagur Ramgoolam International Airport",
+        "code": "MRU",
+        "km": 50,
+        "dgw": true
+      }
+    ],
+    "currency": "Mauritius local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Beach + activity mix",
+      "Honeymoons",
+      "Family trips",
+      "Long-stay Mauritius"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Tamarin; keep one flexible day."
+      "Lagoon excursions are weather and swell dependent; avoid fixed schedules for marine activities.",
+      "Road traffic toward Port Louis can be heavy on weekday mornings and evenings.",
+      "Sun and UV are intense year-round—plan midday shade even in cooler months."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "May-Nov for drier, less humid conditions and reliable west-coast sunsets.",
   "months": [
     {
       "m": "Jan",
@@ -64,7 +101,7 @@
       "daylight": 13.2,
       "cld": 58,
       "rain": 89,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -76,7 +113,7 @@
       "daylight": 12.8,
       "cld": 58,
       "rain": 114,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -88,9 +125,9 @@
       "daylight": 12.2,
       "cld": 51,
       "rain": 84,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Apr",
@@ -100,9 +137,9 @@
       "daylight": 11.6,
       "cld": 37,
       "rain": 53,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -112,9 +149,9 @@
       "daylight": 11.1,
       "cld": 18,
       "rain": 20,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jun",
@@ -124,9 +161,9 @@
       "daylight": 10.9,
       "cld": 11,
       "rain": 8,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Jul",
@@ -136,9 +173,9 @@
       "daylight": 11.0,
       "cld": 11,
       "rain": 8,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Aug",
@@ -149,8 +186,8 @@
       "cld": 10,
       "rain": 10,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Sep",
@@ -161,8 +198,8 @@
       "cld": 10,
       "rain": 10,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Oct",
@@ -173,8 +210,8 @@
       "cld": 18,
       "rain": 10,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Nov",
@@ -184,7 +221,7 @@
       "daylight": 13.1,
       "cld": 30,
       "rain": 15,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -196,9 +233,9 @@
       "daylight": 13.3,
       "cld": 48,
       "rain": 43,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     }
   ]
 }

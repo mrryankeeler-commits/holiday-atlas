@@ -1,8 +1,7 @@
 {
   "id": "salento-colombia",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,92 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Salento",
   "country": "Colombia",
-  "region": "Quindío Department",
+  "region": "Quindío (Coffee Axis)",
   "lat": 4.6374,
   "lng": -75.5708,
-  "desc": "Salento is a destination profile pending enrichment.",
+  "desc": "Salento is a colorful Andean town and gateway to Cocora Valley, best for coffee-country scenery, hiking, and cool evenings at moderate altitude.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Access to Cocora Valley wax palm landscapes",
+    "Small-town base for coffee farm visits",
+    "Strong backpacker and boutique-lodge mix",
+    "Pleasant cooler temperatures vs lowland Colombia"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Cocora Valley full-day hike",
+      "cat": "Nature",
+      "desc": "Start early for cloud-forest loops and wax palm viewpoints."
+    },
+    {
+      "name": "Coffee finca tour",
+      "cat": "Agri-tourism",
+      "desc": "Join a production tour from bean picking through roasting."
+    },
+    {
+      "name": "Calle Real evening stroll",
+      "cat": "Culture",
+      "desc": "Explore colorful façades, balconies, and artisan shops."
+    },
+    {
+      "name": "Mirador Alto de la Cruz",
+      "cat": "Scenic",
+      "desc": "Climb for town and mountain vistas at golden hour."
+    },
+    {
+      "name": "Trucha lunch in riverside eateries",
+      "cat": "Food",
+      "desc": "Try local trout dishes served with patacones and arepas."
+    },
+    {
+      "name": "Filandia half-day trip",
+      "cat": "Village",
+      "desc": "Visit nearby Filandia for quieter coffee-town atmosphere."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "10-60 Mbps",
+      "note": "Decent in town stays; finca lodges outside town can be inconsistent."
     },
     "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Salento will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Colombia; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "fltNote": "UK/Ireland access usually connects via Bogotá, Medellín, Madrid, or Panama City before a domestic leg; holiday peaks (Dec-Jan, Semana Santa, Jul) increase fare pressure.",
+    "airports": [
+      {
+        "name": "El Edén International Airport (Armenia)",
+        "code": "AXM",
+        "km": 40,
+        "dgw": false
+      },
+      {
+        "name": "Matecaña International Airport (Pereira)",
+        "code": "PEI",
+        "km": 52,
+        "dgw": false
+      }
+    ],
+    "currency": "Colombia local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Coffee regions",
+      "Hiking",
+      "Budget-friendly nature trips",
+      "Small-town stays"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Salento; keep one flexible day."
+      "Mountain weather shifts quickly; trails can become muddy with afternoon rain even in drier months.",
+      "Roadworks and landslides occasionally impact transfer times from Armenia/Pereira airports.",
+      "Weekend day-trippers crowd Cocora's trailheads—go early or choose weekdays."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Dec-Mar and Jul-Aug for relatively drier hiking conditions and clearer valley views.",
   "months": [
     {
       "m": "Jan",
@@ -64,7 +107,7 @@
       "daylight": 11.9,
       "cld": 82,
       "rain": 107,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -76,9 +119,9 @@
       "daylight": 12.0,
       "cld": 87,
       "rain": 124,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Mar",
@@ -88,9 +131,9 @@
       "daylight": 12.1,
       "cld": 89,
       "rain": 145,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -100,9 +143,9 @@
       "daylight": 12.2,
       "cld": 91,
       "rain": 203,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "May",
@@ -113,8 +156,8 @@
       "cld": 88,
       "rain": 190,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Jun",
@@ -124,7 +167,7 @@
       "daylight": 12.4,
       "cld": 81,
       "rain": 150,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -136,9 +179,9 @@
       "daylight": 12.4,
       "cld": 76,
       "rain": 119,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Aug",
@@ -148,9 +191,9 @@
       "daylight": 12.3,
       "cld": 77,
       "rain": 124,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Sep",
@@ -160,9 +203,9 @@
       "daylight": 12.1,
       "cld": 83,
       "rain": 165,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Oct",
@@ -172,9 +215,9 @@
       "daylight": 12.0,
       "cld": 90,
       "rain": 211,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Nov",
@@ -185,8 +228,8 @@
       "cld": 89,
       "rain": 203,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -196,7 +239,7 @@
       "daylight": 11.9,
       "cld": 85,
       "rain": 145,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     }

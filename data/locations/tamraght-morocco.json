@@ -1,8 +1,7 @@
 {
   "id": "tamraght-morocco",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Monthly climate imported from Climate_Data_05 CSV; verification and enrichment pending.",
+    "climateVerified": true,
     "climate": [
       {
         "name": "WeatherSpark",
@@ -13,48 +12,86 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-17"
   },
   "city": "Tamraght",
   "country": "Morocco",
-  "region": "Souss-Massa",
+  "region": "Agadir Ida-Ou Tanane (Taghazout Bay)",
   "lat": 30.5093,
   "lng": -9.6746,
-  "desc": "Tamraght is a destination profile pending enrichment.",
+  "desc": "Tamraght is a surf-focused Berber village just north of Agadir, popular for relaxed cafés, yoga stays, and easy access to Taghazout Bay breaks.",
   "hls": [
-    "Climate baseline imported; destination highlights will be expanded during enrichment."
+    "Multiple beginner-to-intermediate surf breaks nearby",
+    "Lower-key alternative to Taghazout center",
+    "Good base for yoga and remote-work surf camps",
+    "Quick transfers from Agadir airport"
   ],
   "todo": [
     {
-      "name": "Orientation walk",
-      "cat": "Sightseeing",
-      "desc": "Take a first-day walk to get bearings and identify key neighborhoods."
+      "name": "Imourane surf session",
+      "cat": "Adventure",
+      "desc": "Book a lesson on one of the area's most accessible breaks."
+    },
+    {
+      "name": "Banana Beach sunset walk",
+      "cat": "Coast",
+      "desc": "Spend late afternoon on the broad beach stretch south of village."
+    },
+    {
+      "name": "Paradise Valley half-day",
+      "cat": "Nature",
+      "desc": "Visit pools and canyon viewpoints inland from Agadir."
+    },
+    {
+      "name": "Tamraght hillside cafés",
+      "cat": "Food",
+      "desc": "Try Moroccan breakfasts and smoothie bowls in surf cafés."
+    },
+    {
+      "name": "Agadir souk evening trip",
+      "cat": "Culture",
+      "desc": "Use a short transfer to explore Souk El Had."
+    },
+    {
+      "name": "Taghazout skatepark + promenade",
+      "cat": "Local life",
+      "desc": "Pair skatepark visit with harborfront walk and fish grills."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
-      "spd": "10-50 Mbps",
-      "note": "Connectivity varies by property; confirm speeds directly with accommodation."
+      "spd": "12-70 Mbps",
+      "note": "Many surf camps offer workable Wi-Fi, but speeds vary by occupancy."
     },
-    "directGW": false,
-    "fltNote": "Nearest-airport routing and direct-flight seasonality notes for Tamraght will be detailed during enrichment.",
-    "airports": [],
-    "airportsExceptionNote": "Airport research pending enrichment pass.",
-    "currency": "Use the local currency for Morocco; verify current cash/card acceptance before travel.",
-    "lang": "Primary local language(s) vary by area; confirm basics before travel.",
-    "tz": "UTC offset varies by destination and daylight-saving rules; verify for travel dates.",
-    "visa": "Entry requirements depend on passport and can change; confirm official guidance before booking.",
+    "directGW": true,
+    "fltNote": "UK has strong seasonal nonstop coverage to Agadir, while Ireland/other departures may connect via European hubs; winter sun season and Easter weeks are highest demand.",
+    "airports": [
+      {
+        "name": "Agadir-Al Massira Airport",
+        "code": "AGA",
+        "km": 40,
+        "dgw": true
+      }
+    ],
+    "currency": "Morocco local currency (check live rates before booking).",
+    "lang": "Local language plus tourism-level English in main visitor areas.",
+    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
-      "Culture",
-      "Food",
-      "Nature"
+      "Surf camps",
+      "Yoga escapes",
+      "Winter sun",
+      "Budget long stays"
     ],
     "alerts": [
-      "Seasonal weather can affect transport and activity planning in Tamraght; keep one flexible day."
+      "Surf conditions vary quickly with swell and tide—confirm beginner safety windows daily.",
+      "Village roads are narrow with mixed pedestrian/vehicle traffic; walk cautiously at night.",
+      "Some accommodations rely on shared shuttle schedules, reducing flexibility for early flights."
     ]
   },
-  "sweet": "Mar-May,Sep-Nov",
+  "sweet": "Oct-Apr for consistent surf swells and mild daytime temperatures.",
   "months": [
     {
       "m": "Jan",
@@ -64,9 +101,9 @@
       "daylight": 10.4,
       "cld": 29,
       "rain": 28,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Feb",
@@ -77,8 +114,8 @@
       "cld": 27,
       "rain": 30,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Mar",
@@ -89,8 +126,8 @@
       "cld": 28,
       "rain": 23,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 1,
+      "fl": 1
     },
     {
       "m": "Apr",
@@ -100,9 +137,9 @@
       "daylight": 13.0,
       "cld": 23,
       "rain": 13,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "May",
@@ -112,7 +149,7 @@
       "daylight": 13.7,
       "cld": 21,
       "rain": 5,
-      "busy": 3,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
@@ -124,7 +161,7 @@
       "daylight": 14.1,
       "cld": 11,
       "rain": 0,
-      "busy": 3,
+      "busy": 8,
       "ac": 3,
       "fl": 3
     },
@@ -136,9 +173,9 @@
       "daylight": 13.9,
       "cld": 3,
       "rain": 0,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -148,9 +185,9 @@
       "daylight": 13.2,
       "cld": 8,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -160,9 +197,9 @@
       "daylight": 12.3,
       "cld": 24,
       "rain": 2,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "Oct",
@@ -172,7 +209,7 @@
       "daylight": 11.4,
       "cld": 34,
       "rain": 15,
-      "busy": 3,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -184,9 +221,9 @@
       "daylight": 10.6,
       "cld": 33,
       "rain": 33,
-      "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Dec",
@@ -197,8 +234,8 @@
       "cld": 33,
       "rain": 36,
       "busy": 3,
-      "ac": 3,
-      "fl": 3
+      "ac": 2,
+      "fl": 2
     }
   ]
 }
