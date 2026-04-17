@@ -4,8 +4,8 @@
 - Intake source: all CSV uploads in `data/climate/uploads/`
 - Normalization method: `scripts/import_climate_csv.py` resolution (`exact`/`alias`/`fuzzy`) with `fuzzy_cutoff=0.84` and `data/climate/aliases.json`.
 - Intake raw candidate IDs: 133
-- Canonical LIVE IDs covered by intake: 129 / 129
-- MISSING after normalization: 1
+- Canonical LIVE IDs covered by intake: 130 / 130
+- MISSING after normalization: 0
 
 ## Intake candidate checklist (raw → normalized)
 
@@ -89,7 +89,7 @@
 | `minca-colombia` | `minca-colombia` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `mostar-bosnia-and-herzegovina` | `mostar` | ✅ LIVE | `fuzzy` | `monthly_climate_01.csv` |
 | `munnar-india` | `munnar` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
-| `munnar-kerala-india` | `munnar-kerala-india` | ⬜ MISSING | `unknown` | `climate_data_04 - Climate_Data.csv` |
+| `munnar-kerala-india` | `munnar-kerala-india` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `oia-greece` | `oia-greece` | ✅ LIVE | `exact` | `monthly_climate_02 - Climate Data.csv` |
 | `ometepe-nicaragua` | `ometepe-nicaragua` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `osaka-japan` | `osaka` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
@@ -221,6 +221,7 @@
 | `minca-colombia` | ✅ LIVE | `climate_data_04 - Climate_Data.csv` |
 | `mostar` | ✅ LIVE | `monthly_climate_01.csv` |
 | `munnar` | ✅ LIVE | `monthly_climate_01.csv` |
+| `munnar-kerala-india` | ✅ LIVE | `climate_data_04 - Climate_Data.csv` |
 | `oia-greece` | ✅ LIVE | `monthly_climate_02 - Climate Data.csv` |
 | `ometepe-nicaragua` | ✅ LIVE | `climate_data_04 - Climate_Data.csv` |
 | `osaka` | ✅ LIVE | `monthly_climate_01.csv` |
@@ -278,4 +279,3 @@
 
 ## Missing Set v1
 
-- `munnar-kerala-india`
