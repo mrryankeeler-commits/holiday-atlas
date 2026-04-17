@@ -11,6 +11,7 @@ on:
       - "Makefile"
       - ".pre-commit-config.yaml"
       - ".github/workflows/location-data-validation.yml"
+      - ".github/pull_request_template.md"
       - "README.md"
   workflow_dispatch:
 
@@ -22,6 +23,58 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Require QA checklist link for location JSON changes
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.info('No pull request payload found; skipping checklist enforcement.');
+              return;
+            }
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+
+            const touchesLocationJson = files.some((file) =>
+              /^data\/locations\/[^/]+\.json$/.test(file.filename)
+            );
+
+            if (!touchesLocationJson) {
+              core.info('No data/locations/*.json files changed; checklist link not required.');
+              return;
+            }
+
+            const body = pr.body || '';
+            const missing = [];
+
+            if (!/docs\/location-qa-checklists\/[\w.-]+\.md/.test(body)) {
+              missing.push('at least one checklist link under docs/location-qa-checklists/*.md');
+            }
+            if (!/author confirmation/i.test(body)) {
+              missing.push('an "Author confirmation" entry');
+            }
+            if (!/reviewer confirmation/i.test(body)) {
+              missing.push('a "Reviewer confirmation" entry');
+            }
+            if (!/audit script output snippet/i.test(body)) {
+              missing.push('an "Audit script output snippet" section');
+            }
+
+            if (missing.length) {
+              core.setFailed(
+                `PR touches data/locations/*.json but is missing required QA section content: ${missing.join(', ')}`
+              );
+              return;
+            }
+
+            core.info('Checklist + QA PR section detected for location JSON changes.');
 
       - name: Setup Python
         uses: actions/setup-python@v5
