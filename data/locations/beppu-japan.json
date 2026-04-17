@@ -20,43 +20,43 @@
   "region": "Ōita Prefecture (Kyushu east coast)",
   "lat": 33.2794,
   "lng": 131.4975,
-  "desc": "Beppu is Japan's flagship hot-spring city, where weather matters less than choosing the right onsen district and balancing steam baths, coast views, and nearby mountain hikes.",
+  "desc": "Beppu is Kyushu's classic hot-spring base, where steaming neighborhoods, sea views, and short mountain escapes make it easy to build a wellness-first trip. It fits travelers who want traditional ryokan culture and regional food without Tokyo-scale logistics, especially when paired with Yufuin or Kunisaki day trips. Constraints are mostly practical: limited direct international access, strict ryokan meal times, and weather disruptions during the June rain season and late-summer typhoon spells.",
   "hls": [
-    "Hundreds of onsen options from sand baths to mud pools",
-    "Easy rail links to Yufuin and central Kyushu",
-    "Seafood plus jigoku-mushi steam-cooking culture",
-    "Good winter shoulder value outside Japanese holiday peaks"
+    "Kannawa's jigoku (hells) cluster including Umi Jigoku and Chinoike Jigoku geothermal sites",
+    "Takegawara Onsen and Kannawa lanes for sand baths, public baths, and classic ryokan streetscapes",
+    "Mt. Tsurumi Ropeway viewpoints over Beppu Bay with seasonal bloom and autumn foliage panoramas",
+    "Jigoku-mushi steam cuisine around Kannawa using geothermal vents for seafood and vegetables"
   ],
   "todo": [
     {
-      "name": "Beppu Hells circuit",
+      "name": "Complete the Beppu Seven Hells loop",
       "cat": "Hot springs",
-      "desc": "Visit the seven jigoku geothermal sites early before tour buses arrive."
+      "desc": "Start when gates open and follow the Kannawa-to-Shibaseki route to see cobalt, red, and mud geothermal pools before tour crowds."
     },
     {
-      "name": "Takegawara sand bath",
+      "name": "Takegawara sand bath and retro bathhouse circuit",
       "cat": "Wellness",
-      "desc": "Book a sand-bath slot and follow with a neighborhood sento crawl."
+      "desc": "Book a sand bath at Takegawara Onsen, then continue to nearby neighborhood sento for contrasting mineral waters."
     },
     {
-      "name": "Kitsuki samurai district day trip",
-      "cat": "History",
-      "desc": "Use a half day to explore preserved Edo-era streets in nearby Kitsuki."
-    },
-    {
-      "name": "Mt. Tsurumi ropeway",
-      "cat": "Scenic",
-      "desc": "Ride for bay views and cooler air, especially in warmer months."
-    },
-    {
-      "name": "Jigoku-mushi cooking workshop",
+      "name": "Cook a jigoku-mushi lunch in Kannawa",
       "cat": "Food",
-      "desc": "Try steam-cooked local produce and seafood using geothermal vents."
+      "desc": "Steam local vegetables, pork, and shellfish in geothermal vents at a dedicated jigoku-mushi workshop venue."
     },
     {
-      "name": "Kannawa evening walk",
+      "name": "Ride Mt. Tsurumi Ropeway and summit walk",
+      "cat": "Scenic",
+      "desc": "Take the ropeway for bay views and do the short summit circuit for shrine stops and seasonal flowers."
+    },
+    {
+      "name": "Day trip to Yufuin via JR or Yufuin no Mori route",
+      "cat": "Day trip",
+      "desc": "Visit Kinrinko Lake and café streets in Yufuin, then return to Beppu for evening baths."
+    },
+    {
+      "name": "Evening onsen-hopping in Kannawa",
       "cat": "Neighborhood",
-      "desc": "Explore steam vents and small ryokan lanes after dark."
+      "desc": "Walk lantern-lit steam alleys, try multiple small baths, and finish with local chicken tempura or toriten."
     }
   ],
   "prac": {
@@ -66,7 +66,7 @@
       "note": "City hotels are dependable; smaller ryokan may have weaker room-level coverage."
     },
     "directGW": false,
-    "fltNote": "No nonstop UK/Ireland flights to Oita; most routes connect via Tokyo, Osaka, Seoul, or Taipei, with strongest seat supply during spring blossom and autumn foliage periods.",
+    "fltNote": "There are no nonstop UK/Ireland-Oita services: most itineraries use one long-haul connection into Japan/Korea/Taiwan plus a domestic leg or rail transfer (common hubs: Tokyo Haneda/Narita, Osaka Kansai/Itami, Seoul Incheon, Taipei). Seat competition and fares generally rise around late March-April blossom travel, Golden Week (late April-early May), August Obon, and late-autumn foliage weekends. For flexibility, many travelers fly into Fukuoka and continue 2-2.5 hours by rail or highway bus to Beppu.",
     "airports": [
       {
         "name": "Ōita Airport",
@@ -78,6 +78,12 @@
         "name": "Fukuoka Airport",
         "code": "FUK",
         "km": 145,
+        "dgw": false
+      },
+      {
+        "name": "Kumamoto Airport",
+        "code": "KMJ",
+        "km": 135,
         "dgw": false
       }
     ],
@@ -92,12 +98,12 @@
       "Food + wellness"
     ],
     "alerts": [
-      "Some small bathhouses still restrict tattoos; confirm policy before booking.",
-      "Ryokan dinner cut-off times are strict, so avoid late-arrival rail plans on check-in day.",
-      "Typhoon remnants in late summer can disrupt ferries and local buses for a day or two."
+      "Many smaller bathhouses and some ryokan still apply tattoo restrictions or cover-up rules, so confirm policy before booking private/public baths.",
+      "Ryokan kaiseki dinners often have hard cut-off times (commonly early evening), making late-arrival check-ins risky without prior notice.",
+      "June rain-front weeks and August-September typhoon systems can suspend ferries, ropeways, and regional trains at short notice."
     ]
   },
-  "sweet": "Oct-Nov and Mar-May for pleasant walking weather; Jan-Feb is great for onsen focus with lower crowds.",
+  "sweet": "Late October-November and March-May balance comfortable temperatures with strong onsen and day-trip conditions; June is greener but rainier, while August is hottest and pricier.",
   "months": [
     {
       "m": "Jan",
@@ -107,9 +113,9 @@
       "daylight": 10.2,
       "cld": 29,
       "rain": 46,
-      "busy": 1,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Feb",
@@ -119,9 +125,9 @@
       "daylight": 11.0,
       "cld": 37,
       "rain": 74,
-      "busy": 2,
-      "ac": 1,
-      "fl": 1
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Mar",
@@ -131,9 +137,9 @@
       "daylight": 12.0,
       "cld": 47,
       "rain": 114,
-      "busy": 3,
-      "ac": 1,
-      "fl": 1
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
     },
     {
       "m": "Apr",
@@ -143,9 +149,9 @@
       "daylight": 13.0,
       "cld": 52,
       "rain": 135,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "May",
@@ -155,8 +161,8 @@
       "daylight": 13.9,
       "cld": 57,
       "rain": 158,
-      "busy": 7,
-      "ac": 3,
+      "busy": 9,
+      "ac": 4,
       "fl": 3
     },
     {
@@ -167,9 +173,9 @@
       "daylight": 14.3,
       "cld": 69,
       "rain": 300,
-      "busy": 8,
+      "busy": 6,
       "ac": 3,
-      "fl": 3
+      "fl": 2
     },
     {
       "m": "Jul",
@@ -181,7 +187,7 @@
       "rain": 267,
       "busy": 7,
       "ac": 3,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Aug",
@@ -191,9 +197,9 @@
       "daylight": 13.3,
       "cld": 55,
       "rain": 160,
-      "busy": 9,
+      "busy": 8,
       "ac": 4,
-      "fl": 4
+      "fl": 5
     },
     {
       "m": "Sep",
@@ -203,9 +209,9 @@
       "daylight": 12.3,
       "cld": 47,
       "rain": 170,
-      "busy": 10,
-      "ac": 5,
-      "fl": 5
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
     },
     {
       "m": "Oct",
@@ -217,7 +223,7 @@
       "rain": 104,
       "busy": 9,
       "ac": 4,
-      "fl": 4
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -227,8 +233,8 @@
       "daylight": 10.4,
       "cld": 29,
       "rain": 69,
-      "busy": 5,
-      "ac": 2,
+      "busy": 8,
+      "ac": 4,
       "fl": 2
     },
     {
@@ -239,9 +245,9 @@
       "daylight": 10.0,
       "cld": 24,
       "rain": 46,
-      "busy": 4,
-      "ac": 2,
-      "fl": 2
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
     }
   ]
 }
