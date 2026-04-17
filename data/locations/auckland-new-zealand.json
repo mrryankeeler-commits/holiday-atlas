@@ -3,52 +3,252 @@
   "source": {
     "climateVerified": true,
     "climateVerifiedOn": "2026-04-15",
-    "climate": [{"name": "WeatherSpark", "url": "https://weatherspark.com/y/144891/Average-Weather-in-Auckland-New-Zealand-Year-Round"}],
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/144891/Average-Weather-in-Auckland-New-Zealand-Year-Round"
+      }
+    ],
     "importedFromCsv": "data/climate/uploads/monthly_climate_02 - Climate Data.csv",
-    "scoring": {"reviewedOn": "2026-04-15", "profile": "seasonality-inference-v1"}
+    "scoring": {
+      "reviewedOn": "2026-04-15",
+      "profile": "seasonality-inference-v1"
+    }
   },
   "city": "Auckland",
   "country": "New Zealand",
   "region": "North Island",
   "desc": "Auckland is New Zealand's largest city, combining twin-harbor scenery, urban neighborhoods, and easy access to volcanic parks and island day trips. Summer is the busiest season, while spring and autumn often provide the best all-round balance of weather, crowd levels, and pricing.",
-  "hls": ["Harbor-city setting with coastal lifestyle", "Strong food and café scene", "Volcanic cones and urban green spaces", "Waiheke and Hauraki Gulf day-trip options", "Good base for North Island routes", "Mild year-round climate"],
+  "hls": [
+    "Harbor-city setting with coastal lifestyle",
+    "Strong food and café scene",
+    "Volcanic cones and urban green spaces",
+    "Waiheke and Hauraki Gulf day-trip options",
+    "Good base for North Island routes",
+    "Mild year-round climate"
+  ],
   "todo": [
-    {"name":"Waterfront and Viaduct walk","cat":"City life","desc":"Use the harbor edge for first-day orientation and dining."},
-    {"name":"Mount Eden volcanic cone","cat":"Scenic","desc":"Get elevated city views from one of Auckland's iconic volcanic landmarks."},
-    {"name":"Waiheke Island day trip","cat":"Day trip","desc":"Take ferry access for beaches, vineyards, and coastal walks."},
-    {"name":"Auckland Domain + museum","cat":"Culture","desc":"Pair city park walking with museum collections."},
-    {"name":"West Coast beach segment","cat":"Outdoor","desc":"Head to black-sand beaches for a contrasting Auckland side."},
-    {"name":"Ponsonby/K Road food evening","cat":"Food","desc":"Explore mixed local and international dining neighborhoods."}
+    {
+      "name": "Waterfront and Viaduct walk",
+      "cat": "City life",
+      "desc": "Use the harbor edge for first-day orientation and dining."
+    },
+    {
+      "name": "Mount Eden volcanic cone",
+      "cat": "Scenic",
+      "desc": "Get elevated city views from one of Auckland's iconic volcanic landmarks."
+    },
+    {
+      "name": "Waiheke Island day trip",
+      "cat": "Day trip",
+      "desc": "Take ferry access for beaches, vineyards, and coastal walks."
+    },
+    {
+      "name": "Auckland Domain + museum",
+      "cat": "Culture",
+      "desc": "Pair city park walking with museum collections."
+    },
+    {
+      "name": "West Coast beach segment",
+      "cat": "Outdoor",
+      "desc": "Head to black-sand beaches for a contrasting Auckland side."
+    },
+    {
+      "name": "Ponsonby/K Road food evening",
+      "cat": "Food",
+      "desc": "Explore mixed local and international dining neighborhoods."
+    }
   ],
   "prac": {
-    "wifi": {"r": 4, "spd": "70–180 Mbps", "note": "Generally reliable in central stays and cafés, with strong mobile backup."},
+    "wifi": {
+      "r": 4,
+      "spd": "70–180 Mbps",
+      "note": "Generally reliable in central stays and cafés, with strong mobile backup."
+    },
     "directGW": false,
     "fltNote": "No direct London departures; itineraries are typically one-stop long-haul via Asia or Middle East hubs. Typical return fares are around £850-£1,200 off-peak, £1,200-£1,700 in shoulder demand, and £1,700+ during December-January peaks.",
     "airports": [
-      {"name":"Auckland Airport","code":"AKL","km":21,"dgw":false},
-      {"name":"Hamilton Airport","code":"HLZ","km":125,"dgw":false},
-      {"name":"Whangārei Airport","code":"WRE","km":165,"dgw":false}
+      {
+        "name": "Auckland Airport",
+        "code": "AKL",
+        "km": 21,
+        "dgw": false
+      },
+      {
+        "name": "Hamilton Airport",
+        "code": "HLZ",
+        "km": 125,
+        "dgw": false
+      },
+      {
+        "name": "Whangārei Airport",
+        "code": "WRE",
+        "km": 165,
+        "dgw": false
+      }
     ],
-    "currency":"New Zealand dollar (NZD)",
-    "lang":"English, Māori",
-    "tz":"NZST/NZDT (UTC+12/+13)",
-    "visa":"UK and US passport holders generally need approved NZeTA/entry authorization before travel for short stays.",
-    "bestFor":["Urban gateway itineraries","Nature + city mixes","Island day trips","Food-focused weekends","North Island road trips"],
-    "alerts":["Weather can be variable and change quickly in shoulder months.","Summer holiday periods increase domestic demand and accommodation prices.","Inter-island and long-haul connections require careful timing for onward travel."]
+    "currency": "New Zealand dollar (NZD)",
+    "lang": "English, Māori",
+    "tz": "NZST/NZDT (UTC+12/+13)",
+    "visa": "New Zealand requires most visa-waiver travelers to hold an approved NZeTA before boarding; visitors also need onward travel and must meet biosecurity controls on arrival.",
+    "bestFor": [
+      "Urban gateway itineraries",
+      "Nature + city mixes",
+      "Island day trips",
+      "Food-focused weekends",
+      "North Island road trips"
+    ],
+    "alerts": [
+      "Weather can be variable and change quickly in shoulder months.",
+      "Summer holiday periods increase domestic demand and accommodation prices.",
+      "Inter-island and long-haul connections require careful timing for onward travel."
+    ]
   },
-  "sweet":"March-April and October-November usually deliver the best balance of mild weather and lower pressure than peak summer weeks.",
-  "months":[
-    {"m":"Jan","avg":19,"hi":23,"lo":17,"daylight":14.4,"cld":36,"rain":56,"busy":9,"ac":5,"fl":5},
-    {"m":"Feb","avg":20,"hi":23,"lo":17,"daylight":13.4,"cld":33,"rain":56,"busy":8,"ac":4,"fl":4},
-    {"m":"Mar","avg":18,"hi":22,"lo":16,"daylight":12.3,"cld":31,"rain":61,"busy":7,"ac":4,"fl":4},
-    {"m":"Apr","avg":16,"hi":19,"lo":13,"daylight":11.1,"cld":38,"rain":71,"busy":6,"ac":3,"fl":3},
-    {"m":"May","avg":14,"hi":17,"lo":11,"daylight":10.1,"cld":42,"rain":81,"busy":4,"ac":2,"fl":2},
-    {"m":"Jun","avg":12,"hi":15,"lo":9,"daylight":9.7,"cld":43,"rain":86,"busy":3,"ac":2,"fl":2},
-    {"m":"Jul","avg":11,"hi":14,"lo":8,"daylight":9.9,"cld":43,"rain":97,"busy":3,"ac":2,"fl":2},
-    {"m":"Aug","avg":12,"hi":14,"lo":9,"daylight":10.8,"cld":39,"rain":84,"busy":4,"ac":2,"fl":2},
-    {"m":"Sep","avg":13,"hi":16,"lo":11,"daylight":11.9,"cld":41,"rain":69,"busy":5,"ac":3,"fl":3},
-    {"m":"Oct","avg":14,"hi":17,"lo":12,"daylight":13.1,"cld":41,"rain":61,"busy":6,"ac":3,"fl":3},
-    {"m":"Nov","avg":16,"hi":19,"lo":13,"daylight":14.1,"cld":43,"rain":53,"busy":7,"ac":4,"fl":4},
-    {"m":"Dec","avg":18,"hi":21,"lo":15,"daylight":14.6,"cld":42,"rain":64,"busy":8,"ac":4,"fl":5}
+  "sweet": "March-April and October-November usually deliver the best balance of mild weather and lower pressure than peak summer weeks.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 19,
+      "hi": 23,
+      "lo": 17,
+      "daylight": 14.4,
+      "cld": 36,
+      "rain": 56,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 20,
+      "hi": 23,
+      "lo": 17,
+      "daylight": 13.4,
+      "cld": 33,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 22,
+      "lo": 16,
+      "daylight": 12.3,
+      "cld": 31,
+      "rain": 61,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 11.1,
+      "cld": 38,
+      "rain": 71,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 10.1,
+      "cld": 42,
+      "rain": 81,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 9.7,
+      "cld": 43,
+      "rain": 86,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 9.9,
+      "cld": 43,
+      "rain": 97,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.8,
+      "cld": 39,
+      "rain": 84,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 16,
+      "lo": 11,
+      "daylight": 11.9,
+      "cld": 41,
+      "rain": 69,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 14,
+      "hi": 17,
+      "lo": 12,
+      "daylight": 13.1,
+      "cld": 41,
+      "rain": 61,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 14.1,
+      "cld": 43,
+      "rain": 53,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 18,
+      "hi": 21,
+      "lo": 15,
+      "daylight": 14.6,
+      "cld": 42,
+      "rain": 64,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    }
   ]
 }
