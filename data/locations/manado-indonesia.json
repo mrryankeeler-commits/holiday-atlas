@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Manado is usually reached from the UK with at least two flight legs, often via Jakarta or Singapore.",
+    "fltNote": "From the UK, Manado is usually a 2–3 leg journey (commonly via Singapore/Jakarta then a domestic hop); dive-season demand for Bunaken/Lembeh peaks around July to October and during Christmas/New Year, so the final Indonesia legs and dive-boat slots can sell out first even when long-haul seats remain.",
     "airports": [
       {
         "name": "Sam Ratulangi International Airport",
@@ -93,9 +93,44 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "For Bunaken dives in June to September, reconfirm departure windows with operators because wind and swell can cancel boat crossings on short notice.",
-      "If connecting through Jakarta or Makassar, keep a same-day buffer since domestic delays can cause missed onward flights to North Sulawesi.",
-      "Book dive resorts and permits early around Indonesian public holidays, when marine-park boats and guides reach capacity quickly."
+      "For Bunaken and Lembeh trips in July to October and over year-end holidays, reserve domestic legs, dive packages, and boat transfers early because capacity tightens before long-haul fares do.",
+      "If transiting Jakarta, Makassar, or Singapore, keep a protected buffer (or overnight) before island transfer days; missed domestic connections can cascade into lost boat windows.",
+      "Sea state can force no-sail calls on Bunaken crossings with short notice, so build at least one flexible non-dive buffer day in Manado.",
+      "Carry enough cash in IDR for marine park fees, port handling, and boat tips since card acceptance is inconsistent outside main city hotels and dive resorts."
+    ],
+    "islandTransfers": [
+      {
+        "route": "MDC airport to Manado harbor hotels",
+        "modes": [
+          "pre-booked resort car",
+          "airport taxi",
+          "ride-hailing where available"
+        ],
+        "typicalTime": "35-60 min depending on city traffic",
+        "timingSensitivity": "Late-afternoon arrivals can hit heavy urban traffic, which can jeopardize same-day harbor check-ins.",
+        "coordination": "If your operator has a fixed evening briefing or gear check, share flight details in advance so transfers wait for delayed bags."
+      },
+      {
+        "route": "Manado harbor to Bunaken Island",
+        "modes": [
+          "public boat (limited frequency)",
+          "private speedboat",
+          "resort-organized boat transfer"
+        ],
+        "typicalTime": "30-60 min crossing",
+        "timingSensitivity": "Crossings are weather- and tide-sensitive; wind chop can push departures earlier, later, or to cancellation.",
+        "coordination": "Most dive resorts bundle fixed transfer windows, so inbound flights landing after mid-afternoon often require an overnight in Manado before morning boat departure."
+      },
+      {
+        "route": "Manado to Lembeh Strait resorts",
+        "modes": [
+          "road transfer to Bitung + resort boat",
+          "direct charter boat in calm conditions"
+        ],
+        "typicalTime": "~1.5-2.5 hr total (road + short boat)",
+        "timingSensitivity": "Road traffic around Manado/Bitung and port cut-off times can break tight same-day flight-to-boat plans.",
+        "coordination": "Confirm latest acceptable arrival time with your resort; many properties stop coordinating onward boat legs after dark for safety."
+      }
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
