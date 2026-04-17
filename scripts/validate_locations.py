@@ -98,7 +98,70 @@ def _is_generic_prac_text(value: str) -> bool:
     cleaned = " ".join(value.strip().split())
     if cleaned.lower() in GENERIC_PRAC_TEXT:
         return True
-    return bool(re.fullmatch(r"(same as country|local time|varies|standard)", cleaned, flags=re.IGNORECASE))
+    return bool(
+        re.fullmatch(
+            r"(same as country|local time|varies|standard|see destination local timezone)",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def _looks_like_timezone(value: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    timezone_id = re.search(r"\b[A-Za-z_]+/[A-Za-z_]+(?:/[A-Za-z_]+)?\b", cleaned)
+    utc_offset = re.search(r"\b(?:UTC|GMT)\s*[+\-−]\s*\d{1,2}(?::\d{2})?\b", cleaned, flags=re.IGNORECASE)
+    return bool(timezone_id or utc_offset)
+
+
+def _looks_like_language_detail(value: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    if re.search(r"\blocal language\b", cleaned, flags=re.IGNORECASE):
+        return False
+
+    # Require at least one alphabetic token that isn't generic filler.
+    tokens = re.findall(r"[A-Za-z][A-Za-z'\-]+", cleaned)
+    generic_tokens = {
+        "and",
+        "or",
+        "plus",
+        "local",
+        "language",
+        "languages",
+        "english",
+        "widely",
+        "spoken",
+        "some",
+        "basic",
+        "varies",
+        "variable",
+        "availability",
+    }
+    specific_tokens = [tok for tok in tokens if tok.lower() not in generic_tokens]
+    return bool(specific_tokens)
+
+
+def _looks_like_country_specific_visa_detail(value: str) -> bool:
+    cleaned = " ".join(value.strip().split())
+    if not cleaned:
+        return False
+
+    # Accept if concrete country/policy clues appear.
+    concrete_policy_patterns = (
+        r"\b(UK|U\.K\.|Irish|Ireland|US|U\.S\.|USA|EU|EEA|Schengen)\b",
+        r"\b(visa[-\s]?free|e-?visa|visa on arrival|transit visa|residence permit)\b",
+        r"\b\d+\s*(day|days|month|months)\b",
+    )
+    if any(re.search(pattern, cleaned, flags=re.IGNORECASE) for pattern in concrete_policy_patterns):
+        return True
+
+    # Reject pure generic warnings without policy context.
+    pure_warning = re.fullmatch(
+        r"(?:always\s+)?verify\s+(?:entry|visa|immigration)\s+(?:rules|requirements)(?:\s+before\s+(?:travel|booking|departure))?\.?",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    return not bool(pure_warning)
 
 
 def _matches_any_pattern(value: str, pattern_key: str) -> bool:
@@ -353,7 +416,22 @@ def validate_location(file_path: Path, errors: list[str]) -> None:
             elif field in {"visa", "currency", "lang", "tz"} and isinstance(prac.get(field), str):
                 value = prac[field].strip()
                 if not value or _is_generic_prac_text(value):
-                    add_error(errors, file_path, f"prac.{field} must be destination-specific (not empty/generic)")
+                    if field == "tz":
+                        add_error(errors, file_path, "prac.tz must include concrete timezone, not placeholder")
+                    elif field == "lang":
+                        add_error(errors, file_path, "prac.lang must include concrete language names, not placeholders")
+                    elif field == "visa":
+                        add_error(errors, file_path, "prac.visa must include country-specific policy context, not generic warning")
+                    else:
+                        add_error(errors, file_path, "prac.currency must include concrete local currency detail")
+                    continue
+
+                if field == "tz" and not _looks_like_timezone(value):
+                    add_error(errors, file_path, "prac.tz must include concrete timezone, not placeholder")
+                elif field == "lang" and not _looks_like_language_detail(value):
+                    add_error(errors, file_path, "prac.lang must include concrete language names, not placeholders")
+                elif field == "visa" and not _looks_like_country_specific_visa_detail(value):
+                    add_error(errors, file_path, "prac.visa must include country-specific policy context, not generic warning")
 
     months = data.get("months")
     if isinstance(months, list):
