@@ -72,13 +72,33 @@
         "name": "Mariscal Sucre International Airport",
         "code": "UIO",
         "km": 40,
-        "dgw": false
+        "dgw": false,
+        "transferOptions": [
+          "Official airport taxis and app rides are door-to-door; late-night reliability is usually best with pre-booked pickup.",
+          "Aeroservicios airport bus to Quito (Terminal Quitumbe northbound connection) plus onward taxi/Metro for final leg.",
+          "Private transfer via hotel/tour operator is the most predictable option for first-night arrivals with heavy luggage."
+        ],
+        "timingBands": "~45-60 min in light traffic, ~60-90 min in typical daytime traffic, and 90+ min in peak/rain disruptions.",
+        "arrivalTimeConstraints": [
+          "Early morning (05:30-08:30): city-bound congestion builds quickly; budget extra buffer for same-day intercity buses or tours.",
+          "Midday/afternoon (12:00-19:00): rain and incidents on Ruta Viva/Simón Bolívar can create long stop-go sections.",
+          "Late evening/night (20:00-05:30): faster road times are common, but fewer bus frequencies and stricter check-in cutoffs for some hotels/apartments."
+        ]
       },
       {
         "name": "José Joaquín de Olmedo International Airport",
         "code": "GYE",
         "km": 270,
-        "dgw": false
+        "dgw": false,
+        "transferOptions": [
+          "Use domestic connection GYE→UIO when fares/times align to avoid long overland transfer after arrival in Ecuador.",
+          "Intercity coach or private car from Guayaquil to Quito for budget routing, then local taxi/Metro in Quito."
+        ],
+        "timingBands": "Overland transfer is typically 7-10+ hours depending on route, mountain weather, and stops.",
+        "arrivalTimeConstraints": [
+          "Same-day road transfer after a long-haul flight can be fatiguing; many travelers overnight in Guayaquil first.",
+          "Night mountain driving may face reduced services and weather-related slowdowns, so daytime departures are usually safer/logistically simpler."
+        ]
       }
     ],
     "currency": "Check live exchange rates before booking.",
@@ -93,10 +113,23 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "Plan extra buffer for airport transfers in wet afternoons (October to May), when traffic and accidents can significantly extend travel times.",
-      "If visiting Cotopaxi or higher-altitude sites, confirm park status and weather windows the day before because closures are common in poor conditions.",
-      "Secure Old Town accommodations with indoor heating options for June to August nights, when temperatures drop and damp rooms are common."
-    ]
+      "Historic Center access can tighten with short-notice demonstrations or security cordons; confirm road status before committing timed museum or dinner bookings in Centro Histórico.",
+      "At ~2,850 m elevation, Quito can cause headache/fatigue on arrival day—avoid hard hikes (e.g., Rucu Pichincha/Cotopaxi approaches) until you have at least one sleep cycle in the city.",
+      "Afternoon storms can interrupt views and cable operations on high-viewpoint plans (including TelefériQo); keep summit/outdoor visits in the morning and retain a weather backup activity."
+    ],
+    "altitude": {
+      "cityElevationM": 2850,
+      "first48h": [
+        "First 6-12 hours: hydrate steadily, eat light meals, and keep activity to short flat walks around your hotel area.",
+        "Hours 12-24: avoid alcohol-heavy nights and intense cardio; prioritize sleep and monitor for persistent headache, nausea, or unusual breathlessness.",
+        "Hours 24-48: progress to moderate city sightseeing, but postpone major elevation gains until symptoms are clearly settled."
+      ],
+      "routePlanning": [
+        "Schedule Quito as the first stop in Ecuador before higher points (e.g., Cotopaxi trails, Quilotoa rim, Papallacta passes) to improve acclimatization odds.",
+        "If landing late, keep day 1 local and place long day-trips on day 2 or 3 to reduce cancellation risk from fatigue/weather.",
+        "Build flexible starts for mountain excursions because overnight recovery varies; early symptom checks reduce unsafe push-through decisions."
+      ]
+    }
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
   "months": [
