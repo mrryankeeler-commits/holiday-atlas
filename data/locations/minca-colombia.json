@@ -66,7 +66,7 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Minca has no airport; most arrivals fly to Santa Marta and continue by road (about 45–60 minutes).",
+    "fltNote": "Minca has no airport; from Santa Marta use (1) shared jeep/colectivo from Mercado Público (typically 45–70 min uphill, cheapest, limited evening departures), (2) private taxi/transfer (about 45–60 min in normal dry conditions), or (3) moto-taxi only for short final hops once in town. Many lodges above the village need 4x4 pickup or a steep walk for the last 1–5 km, so confirm exact drop-off point before leaving Santa Marta.",
     "airports": [
       {
         "name": "Simón Bolívar International Airport",
@@ -93,9 +93,10 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "In wet months (May–June and September–November), verify trail and waterfall access each morning because mud and high flow can force closures.",
-      "Check 4x4/shared-jeep departure cutoffs from Santa Marta before heading uphill; late arrivals can leave limited transport after dusk.",
-      "Bring offline maps and cash since card acceptance and mobile signal are inconsistent outside the village center."
+      "For Santa Marta → Minca transfers in wet months (May–June, September–November), build buffer time: rain can slow the mountain road and push a 45–60 minute run closer to 90 minutes.",
+      "If heavy rain triggers roadblocks/landslides on the Minca road, hold in Santa Marta, contact your Minca lodging for same-day road status, and avoid attempting the climb after dark.",
+      "Confirm last-mile access with your exact Minca accommodation: many hillside fincas require 4x4 or moto-taxi beyond the village bridge and may be unreachable by standard sedan after rain.",
+      "Bring offline maps and cash before leaving Santa Marta since card acceptance, ATMs, and mobile signal are inconsistent once you are outside central Minca."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
