@@ -20,45 +20,45 @@
   "region": "Quebrada de Humahuaca (Jujuy Province)",
   "lat": -23.5775,
   "lng": -65.394,
-  "desc": "Tilcara is a strong base for exploring Argentina with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
+  "desc": "Tilcara is a small Andean town in the Quebrada de Humahuaca, used as a base for adobe villages, multicolored desert ridges, and pre-Hispanic archaeology. The payoff is strong culture-and-landscape depth in a compact area, but trade-offs are real: big day/night temperature swings, summer storm risk that can disrupt road timings, and sharp accommodation pressure around Carnival and holiday weekends.",
   "hls": [
-    "Seasonal climate profile benchmarked for Tilcara",
-    "Year-round planning with monthly trade-offs",
-    "Balanced mix of culture, food, and day-trip potential",
-    "Works for both short breaks and longer stays",
-    "Shoulder-season windows can improve value",
-    "Monthly data supports weather-first trip timing"
+    "Pucará de Tilcara hilltop fortress and archaeology museum with Quebrada valley views",
+    "Cerro de la Cruz sunset lookout above town (short but steep climb at altitude)",
+    "Palette-hill landscapes near Maimará and the wider Quebrada de Humahuaca UNESCO corridor",
+    "Peña evenings with coplas/folk music and northwestern Argentine dishes",
+    "Easy regional linking to Purmamarca (Cerro de los Siete Colores) and Humahuaca day trips",
+    "Andean craft markets focused on woven textiles, ceramics, and regional produce"
   ],
   "todo": [
     {
-      "name": "Walk central Tilcara",
-      "cat": "City walk",
-      "desc": "Use a half-day orientation walk through the historic/core districts and local markets."
+      "name": "Visit Pucará de Tilcara and Museo Arqueológico",
+      "cat": "Archaeology & History",
+      "desc": "Tour the reconstructed pre-Inca fort, then continue through the museum collections to understand Omaguaca and Inca-era settlement history in the quebrada."
     },
     {
-      "name": "Museum and heritage stop",
-      "cat": "Culture",
-      "desc": "Anchor one cultural visit to understand local history and identity."
+      "name": "Sunset hike to Cerro de la Cruz",
+      "cat": "Viewpoints & Short Hikes",
+      "desc": "Climb late afternoon for town-and-valley panoramas; bring layers because temperatures drop quickly after sunset."
     },
     {
-      "name": "Local food circuit",
-      "cat": "Food",
-      "desc": "Plan a focused evening around regional specialties and neighborhood dining."
+      "name": "Maimará + Paleta del Pintor photo stop",
+      "cat": "Landscape Route",
+      "desc": "Take a short taxi/bus hop south to Maimará for the striped mountain backdrop and classic roadside viewpoints."
     },
     {
-      "name": "Scenic viewpoint session",
-      "cat": "Scenic",
-      "desc": "Schedule sunrise or sunset from a top city/nearby viewpoint."
+      "name": "Day trip to Purmamarca and Salinas Grandes",
+      "cat": "Scenic Day Trip",
+      "desc": "Combine Purmamarca's village square and Cerro de los Siete Colores with the high-altitude salt flats if weather and road conditions are stable."
     },
     {
-      "name": "Nature or coast day trip",
-      "cat": "Nature",
-      "desc": "Reserve one full day for nearby nature, coast, or mountain access."
+      "name": "Peña night in Tilcara",
+      "cat": "Music & Food",
+      "desc": "Book a folk-music peña for live zamba/chacarera sets and regional plates such as humitas, tamales, and llama-based dishes."
     },
     {
-      "name": "Flexible slow day",
-      "cat": "Pacing",
-      "desc": "Keep one low-structure day for weather pivots and spontaneous plans."
+      "name": "Quebrada artisan market circuit",
+      "cat": "Local Crafts",
+      "desc": "Browse Tilcara stalls for handwoven textiles and ceramics, then compare with nearby village markets for different styles and pricing."
     }
   ],
   "prac": {
@@ -101,7 +101,7 @@
       "Carnival and long-weekend peaks create heavy demand on Tilcara–Humahuaca–Jujuy bus legs, so buy seats early and confirm terminal departure bay changes the same day."
     ]
   },
-  "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
+  "sweet": "Best overall windows are April-May and September-early November: days are usually clearer and drier than peak summer, roads are generally more reliable, and hiking/viewpoint plans are easier to execute. June-August is very dry with crisp skies but nights are cold (often below freezing), while December-March brings greener scenery and Carnival energy at the cost of heavier rain, occasional transport disruption, and tighter room supply.",
   "months": [
     {
       "m": "Jan",
