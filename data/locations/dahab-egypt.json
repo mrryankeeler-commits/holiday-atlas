@@ -1,0 +1,214 @@
+{
+  "id": "dahab-egypt",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-17",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/98151/Average-Weather-in-Dhahab-Egypt-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Dahab",
+  "country": "Egypt",
+  "region": "South Sinai (Red Sea Coast)",
+  "desc": "Dahab is a laid-back Red Sea base famous for diving and desert-meets-coast scenery, with reliable sunshine through much of the year.",
+  "hls": [
+    "Monthly climate fields are imported from the shared climate CSV and verified against source rows.",
+    "Shoulder seasons typically provide the best comfort-to-crowd trade-off for most visitors.",
+    "Peak-season periods raise crowding and accommodation pressure, so booking ahead helps."
+  ],
+  "todo": [
+    {
+      "name": "Historic core walk",
+      "cat": "City walk",
+      "desc": "Start with an orientation walk through the most characterful central districts."
+    },
+    {
+      "name": "Top local food stop",
+      "cat": "Food",
+      "desc": "Plan one meal around regional specialties in a well-reviewed local venue."
+    },
+    {
+      "name": "Half-day nature or coast outing",
+      "cat": "Nature",
+      "desc": "Keep one flexible half-day for a nearby scenic area or waterfront route."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-120 Mbps",
+      "note": "City-center accommodations and cafés are usually dependable; confirm speed if you need to work remotely."
+    },
+    "directGW": false,
+    "fltNote": "Direct UK routes and seasonal capacity vary by month; compare shoulder-season options for better value.",
+    "airports": [],
+    "currency": "Check current local currency usage and card acceptance before departure.",
+    "lang": "Local language is dominant; English support is strongest in tourism-facing venues.",
+    "tz": "Confirm local UTC offset and daylight-saving rules for your exact travel dates.",
+    "visa": "Entry requirements depend on nationality and can change; verify official guidance before booking.",
+    "bestFor": [
+      "Shoulder-season breaks",
+      "Culture and food",
+      "Flexible pace itineraries"
+    ],
+    "alerts": [
+      "Reserve popular attractions early in peak months.",
+      "Keep one flexible day for weather-dependent plans."
+    ]
+  },
+  "sweet": "March-May and October-November are typically best for warm water activities without midsummer heat extremes.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 17,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 10.6,
+      "cld": 19,
+      "rain": 2,
+      "busy": 4,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 11.2,
+      "cld": 18,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 22,
+      "hi": 27,
+      "lo": 16,
+      "daylight": 12.0,
+      "cld": 17,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Apr",
+      "avg": 26,
+      "hi": 31,
+      "lo": 20,
+      "daylight": 12.9,
+      "cld": 20,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "May",
+      "avg": 29,
+      "hi": 34,
+      "lo": 23,
+      "daylight": 13.6,
+      "cld": 17,
+      "rain": 0,
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 32,
+      "hi": 37,
+      "lo": 26,
+      "daylight": 13.9,
+      "cld": 3,
+      "rain": 0,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 33,
+      "hi": 39,
+      "lo": 28,
+      "daylight": 13.7,
+      "cld": 3,
+      "rain": 0,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 33,
+      "hi": 39,
+      "lo": 28,
+      "daylight": 13.1,
+      "cld": 3,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Sep",
+      "avg": 32,
+      "hi": 37,
+      "lo": 27,
+      "daylight": 12.3,
+      "cld": 2,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 11.4,
+      "cld": 12,
+      "rain": 0,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 23,
+      "hi": 28,
+      "lo": 17,
+      "daylight": 10.7,
+      "cld": 21,
+      "rain": 2,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 10.4,
+      "cld": 23,
+      "rain": 2,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    }
+  ]
+}

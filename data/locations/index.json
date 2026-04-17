@@ -136,6 +136,14 @@
     "lng": 14.1136
   },
   {
+    "id": "bodrum-turkey",
+    "city": "Bodrum",
+    "country": "Turkey",
+    "region": "Turkish Riviera (Aegean Coast)",
+    "lat": 37.0344,
+    "lng": 27.4305
+  },
+  {
     "id": "bolivar-venezuela",
     "city": "Bolívar",
     "country": "Venezuela",
@@ -240,6 +248,14 @@
     "lng": 12.5683
   },
   {
+    "id": "dahab-egypt",
+    "city": "Dahab",
+    "country": "Egypt",
+    "region": "South Sinai (Red Sea Coast)",
+    "lat": 28.5091,
+    "lng": 34.5136
+  },
+  {
     "id": "darjeeling",
     "city": "Darjeeling",
     "country": "India",
@@ -294,6 +310,14 @@
     "region": "Pomerania, Poland",
     "lat": 54.352,
     "lng": 18.6466
+  },
+  {
+    "id": "ghent-belgium",
+    "city": "Ghent",
+    "country": "Belgium",
+    "region": "Flemish Region",
+    "lat": 51.0543,
+    "lng": 3.7174
   },
   {
     "id": "goa",

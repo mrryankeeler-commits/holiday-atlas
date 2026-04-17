@@ -1,0 +1,214 @@
+{
+  "id": "ghent-belgium",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-17",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/49977/Average-Weather-in-Gent-Belgium-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-17",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Ghent",
+  "country": "Belgium",
+  "region": "Flemish Region",
+  "desc": "Ghent is a canal-laced Flemish city with medieval skyline views, strong food culture, and easy rail links across Belgium.",
+  "hls": [
+    "Monthly climate fields are imported from the shared climate CSV and verified against source rows.",
+    "Shoulder seasons typically provide the best comfort-to-crowd trade-off for most visitors.",
+    "Peak-season periods raise crowding and accommodation pressure, so booking ahead helps."
+  ],
+  "todo": [
+    {
+      "name": "Historic core walk",
+      "cat": "City walk",
+      "desc": "Start with an orientation walk through the most characterful central districts."
+    },
+    {
+      "name": "Top local food stop",
+      "cat": "Food",
+      "desc": "Plan one meal around regional specialties in a well-reviewed local venue."
+    },
+    {
+      "name": "Half-day nature or coast outing",
+      "cat": "Nature",
+      "desc": "Keep one flexible half-day for a nearby scenic area or waterfront route."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-120 Mbps",
+      "note": "City-center accommodations and cafés are usually dependable; confirm speed if you need to work remotely."
+    },
+    "directGW": false,
+    "fltNote": "Direct UK routes and seasonal capacity vary by month; compare shoulder-season options for better value.",
+    "airports": [],
+    "currency": "Check current local currency usage and card acceptance before departure.",
+    "lang": "Local language is dominant; English support is strongest in tourism-facing venues.",
+    "tz": "Confirm local UTC offset and daylight-saving rules for your exact travel dates.",
+    "visa": "Entry requirements depend on nationality and can change; verify official guidance before booking.",
+    "bestFor": [
+      "Shoulder-season breaks",
+      "Culture and food",
+      "Flexible pace itineraries"
+    ],
+    "alerts": [
+      "Reserve popular attractions early in peak months.",
+      "Keep one flexible day for weather-dependent plans."
+    ]
+  },
+  "sweet": "May-September usually offers the best mix of longer daylight and comfortable city-walking weather.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 8.5,
+      "cld": 69,
+      "rain": 48,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 7,
+      "lo": 2,
+      "daylight": 10.1,
+      "cld": 64,
+      "rain": 41,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 10,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 61,
+      "rain": 38,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 13.9,
+      "cld": 54,
+      "rain": 33,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 15.6,
+      "cld": 53,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 20,
+      "lo": 12,
+      "daylight": 16.5,
+      "cld": 48,
+      "rain": 51,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 16.0,
+      "cld": 43,
+      "rain": 51,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 14.4,
+      "cld": 44,
+      "rain": 48,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 19,
+      "lo": 12,
+      "daylight": 12.6,
+      "cld": 50,
+      "rain": 51,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 10.6,
+      "cld": 58,
+      "rain": 51,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 7,
+      "hi": 10,
+      "lo": 5,
+      "daylight": 8.9,
+      "cld": 68,
+      "rain": 53,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 8.0,
+      "cld": 70,
+      "rain": 56,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}
