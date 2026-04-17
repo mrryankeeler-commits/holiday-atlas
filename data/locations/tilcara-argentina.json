@@ -18,6 +18,8 @@
   "city": "Tilcara",
   "country": "Argentina",
   "region": "Quebrada de Humahuaca (Jujuy Province)",
+  "lat": -23.5775,
+  "lng": -65.394,
   "desc": "Tilcara is a strong base for exploring Argentina with distinct seasonal trade-offs between weather comfort, crowd levels, and pricing.",
   "hls": [
     "Seasonal climate profile benchmarked for Tilcara",
@@ -66,16 +68,16 @@
       "note": "Urban hotels/cafés are usually stable; speeds can soften in outer districts or remote day-trip zones."
     },
     "directGW": false,
-    "fltNote": "Tilcara is an overland destination, usually reached via Jujuy airport then road transfer through the Quebrada.",
+    "fltNote": "Tilcara has no commercial airport. Primary routing is fly into Jujuy (JUJ), transfer 35–45 minutes by prepaid remise/taxi to San Salvador de Jujuy's bus terminal, then take a direct Quebrada bus to Tilcara (about 1.5–2 hours) or a private car via RN9. Secondary routing is Salta (SLA): airport transfer 20–30 minutes to Salta terminal, then long-distance bus or private transfer to Tilcara (about 3.5–5 hours depending on stops and traffic).",
     "airports": [
       {
-        "name": "Gobernador Horacio Guzmán International Airport",
+        "name": "Gobernador Horacio Guzmán International Airport (Jujuy)",
         "code": "JUJ",
         "km": 85,
         "dgw": false
       },
       {
-        "name": "Martín Miguel de Güemes International Airport",
+        "name": "Martín Miguel de Güemes International Airport (Salta)",
         "code": "SLA",
         "km": 190,
         "dgw": false
@@ -93,9 +95,10 @@
       "Mixed pace travel"
     ],
     "alerts": [
-      "At 2,400m+ elevation, plan a lighter first day and hydrate aggressively to reduce altitude-related symptoms.",
-      "In austral summer storm months (December to March), verify Ruta 9 and quebrada road conditions before inter-town bus travel.",
-      "Reserve lodging ahead for Carnival and long weekends, when Quebrada towns often sell out and rates rise quickly."
+      "For JUJ arrivals after about 20:00, pre-book a private transfer or first-night stop in San Salvador de Jujuy because onward buses to Tilcara thin out at night.",
+      "In December to March, convective storms can trigger short-notice rockfall, mud, or police-controlled one-way traffic on RN9/RN52 corridors; keep at least a 2–4 hour buffer before flights.",
+      "During winter nights (June to August), cold snaps plus occasional road ice on higher Quebrada stretches can slow dawn departures; avoid scheduling first-wave flights out of JUJ without backup transport.",
+      "Carnival and long-weekend peaks create heavy demand on Tilcara–Humahuaca–Jujuy bus legs, so buy seats early and confirm terminal departure bay changes the same day."
     ]
   },
   "sweet": "Typically, target the best weather-comfort shoulder months to balance conditions, crowds, and pricing.",
