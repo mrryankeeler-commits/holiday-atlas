@@ -77,9 +77,9 @@
         "dgw": true
       }
     ],
-    "currency": "Check current local currency usage and card acceptance before departure.",
-    "lang": "Local language dominates day-to-day life; English support is strongest in tourism-facing businesses.",
-    "tz": "Confirm local UTC offset and daylight-saving rules for your travel dates.",
+    "currency": "Turkish lira (TRY).",
+    "lang": "Turkish is the main language; English is common in hotels, tours, and resort restaurants.",
+    "tz": "TRT (UTC+3) year-round; no daylight saving time.",
     "visa": "Entry rules depend on nationality and can change; verify official visa/passport requirements before booking.",
     "bestFor": [
       "Shoulder-season city breaks",

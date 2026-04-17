@@ -87,9 +87,9 @@
         "dgw": false
       }
     ],
-    "currency": "China local currency (check live rates before booking).",
-    "lang": "Local language plus tourism-level English in main visitor areas.",
-    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "currency": "Chinese yuan renminbi (CNY).",
+    "lang": "Mandarin Chinese is the primary language; English support is limited outside larger hotels and transport nodes.",
+    "tz": "China Standard Time (UTC+8) year-round; no daylight saving time.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
       "Scenic cycling",

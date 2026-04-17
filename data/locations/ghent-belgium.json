@@ -67,9 +67,9 @@
         "dgw": true
       }
     ],
-    "currency": "Check current local currency usage and card acceptance before departure.",
-    "lang": "Local language is dominant; English support is strongest in tourism-facing venues.",
-    "tz": "Confirm local UTC offset and daylight-saving rules for your exact travel dates.",
+    "currency": "Euro (EUR).",
+    "lang": "Dutch and French are the main languages in Ghent; English is commonly understood in visitor-facing venues.",
+    "tz": "CET (UTC+1) in winter, CEST (UTC+2) in summer.",
     "visa": "Entry requirements depend on nationality and can change; verify official guidance before booking.",
     "bestFor": [
       "Shoulder-season breaks",

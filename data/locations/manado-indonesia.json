@@ -81,9 +81,9 @@
         "dgw": false
       }
     ],
-    "currency": "Check live exchange rates before booking.",
-    "lang": "Local language plus variable English in tourist zones.",
-    "tz": "See destination local timezone.",
+    "currency": "Indonesian rupiah (IDR).",
+    "lang": "Bahasa Indonesia is the national language; regional languages are common locally, and English is strongest in tourism services.",
+    "tz": "WITA (UTC+8) for Bali and North Sulawesi year-round; no daylight saving time.",
     "visa": "Always verify entry rules based on passport and transit routing before travel.",
     "bestFor": [
       "Weather-timed trips",

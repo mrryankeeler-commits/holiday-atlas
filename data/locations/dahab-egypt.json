@@ -67,9 +67,9 @@
         "dgw": true
       }
     ],
-    "currency": "Check current local currency usage and card acceptance before departure.",
-    "lang": "Local language is dominant; English support is strongest in tourism-facing venues.",
-    "tz": "Confirm local UTC offset and daylight-saving rules for your exact travel dates.",
+    "currency": "Egyptian pound (EGP).",
+    "lang": "Arabic is the primary language; English is common in dive shops and tourism businesses in Dahab.",
+    "tz": "EET (UTC+2) in winter, EEST (UTC+3) in summer.",
     "visa": "Entry requirements depend on nationality and can change; verify official guidance before booking.",
     "bestFor": [
       "Shoulder-season breaks",

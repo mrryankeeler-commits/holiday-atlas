@@ -91,9 +91,9 @@
         "dgw": true
       }
     ],
-    "currency": "Japan local currency (check live rates before booking).",
-    "lang": "Local language plus tourism-level English in main visitor areas.",
-    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "currency": "Japanese yen (JPY).",
+    "lang": "Japanese is the primary language; English support is best at transport hubs, hotels, and major attractions.",
+    "tz": "JST (UTC+9) year-round; no daylight saving time.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
       "Cycling trips",

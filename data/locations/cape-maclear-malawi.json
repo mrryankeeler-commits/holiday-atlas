@@ -87,9 +87,9 @@
         "dgw": false
       }
     ],
-    "currency": "Malawi local currency (check live rates before booking).",
-    "lang": "Local language plus tourism-level English in main visitor areas.",
-    "tz": "Check local timezone and DST rules for exact travel dates.",
+    "currency": "Malawian kwacha (MWK).",
+    "lang": "English and Chichewa are widely used; English is standard in lodges and tour operations.",
+    "tz": "CAT (UTC+2) year-round; no daylight saving time.",
     "visa": "Confirm current entry/transit rules for your passport before booking.",
     "bestFor": [
       "Freshwater snorkeling",
