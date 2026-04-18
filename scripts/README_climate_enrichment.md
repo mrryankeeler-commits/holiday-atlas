@@ -11,11 +11,16 @@ This document defines the climate-enrichment behavior for the current proof of c
   - `beppu-japan`
 - Other records in the first 50 may be fetched/processed for validation, but are not written in this phase.
 
-## Provider rule: Open-Meteo primary-only
+## Provider rule: Open-Meteo primary + explicit fallback logging
 
-- Climate enrichment is **Open-Meteo only** in this phase.
-- Do **not** call secondary weather providers.
+- Open-Meteo is the primary provider in this phase.
+- Open-Meteo geocoding is the primary source for `elevation`, `timezone`, `population`, `admin1`, and `admin2`.
+- Open-Meteo historical archive is the primary source for monthly climatology.
+- Do **not** call secondary weather providers by default.
 - If Open-Meteo data is unavailable/incomplete for a field, persist `null` for that field (see missing-data policy).
+- If any non-Open-Meteo fallback is ever used, record the fallback endpoint/source and the reason in:
+  1) the script code comment near provider constants/call site, and
+  2) this README fallback section.
 
 ### Explicit fallback policy (still Open-Meteo-only)
 
@@ -27,7 +32,12 @@ This document defines the climate-enrichment behavior for the current proof of c
 3. **Elevation fallback:**
    - use geocoding `elevation` when present
    - otherwise call Open-Meteo elevation endpoint
-4. **No provider fallback:** if Open-Meteo cannot provide a metric, keep `null` and log the failure.
+4. **Primary climatology source:** use Open-Meteo historical archive for monthly climatology calculations.
+5. **No provider fallback by default:** if Open-Meteo cannot provide a metric, keep `null` and log the failure.
+6. **All-upstream-failed guardrail:** if geocoding + elevation fallback + archive all fail for a destination,
+   do **not** overwrite existing destination data; log and continue batch processing.
+7. **Future non-Open-Meteo fallback rule:** if a fallback provider/endpoint is ever introduced, document
+   endpoint/source + reason in both script comments and this README before/with rollout.
 
 ## Exact endpoints
 

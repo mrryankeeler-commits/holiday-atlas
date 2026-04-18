@@ -12,6 +12,14 @@ For each processed destination:
 - Preserves existing top-level fields.
 - Leaves existing `months` array unchanged.
 - Adds/updates `meta`, `climate`, and `humidity` blocks.
+
+Provider/fallback policy for this script:
+- Open-Meteo geocoding is the primary metadata source for elevation/timezone/population/admin1/admin2.
+- Open-Meteo elevation API is called only when geocoding lacks elevation.
+- Open-Meteo historical archive is the primary source for monthly climatology.
+- If all upstream calls fail for a destination, do not overwrite existing file data; log and continue.
+- If a non-Open-Meteo fallback is ever introduced, it must be documented in this file and README
+  with endpoint/source + reason.
 """
 
 from __future__ import annotations
@@ -40,6 +48,8 @@ ENRICHMENT_TOP_LEVEL_KEYS = ("meta", "climate", "humidity")
 GEOCODING_ENDPOINT = "https://geocoding-api.open-meteo.com/v1/search"
 ELEVATION_ENDPOINT = "https://api.open-meteo.com/v1/elevation"
 ARCHIVE_ENDPOINT = "https://archive-api.open-meteo.com/v1/archive"
+# If any non-Open-Meteo fallback endpoint is added in the future, add an explicit source+reason note
+# here and in scripts/README_climate_enrichment.md.
 
 HISTORICAL_START = "1991-01-01"
 HISTORICAL_END = "2020-12-31"
@@ -499,6 +509,7 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
     lat = float(lat)
     lng = float(lng)
 
+    # Primary metadata source is geocoding; elevation endpoint is fallback-only for missing elevation.
     elevation_m = geo.get("elevation")
     if elevation_m is not None:
         fetch_state["elevation"] = {"fetch_ok": True, "error_message": None}
@@ -513,6 +524,7 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
         )
         fetch_state["elevation"] = {"fetch_ok": elev_ok, "error_message": elev_err}
 
+    # Historical archive is the primary source for monthly climatology.
     archive_ok, archive, archive_err = _fetch_with_state(
         location_id=location_id,
         endpoint="archive",
@@ -589,6 +601,7 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
         if isinstance(existing_source, dict):
             enrichment_patch["climate"] = {"source": {"status": fetch_state}}
 
+    # Guardrail: when all upstream calls fail, return no patch and let the caller skip file writes.
     return enrichment_patch, {"id": location_id, "path": str(location_path), "fetch_state": fetch_state}
 
 
@@ -615,6 +628,15 @@ def main() -> int:
             enrichment_patch, info = _enrich_location(entry)
             if location_id in POC_WRITE_IDS:
                 out_path = Path(info["path"])
+                has_any_upstream = any(
+                    bool((info["fetch_state"].get(endpoint) or {}).get("fetch_ok"))
+                    for endpoint in ("geocoding", "archive", "elevation")
+                )
+                if not has_any_upstream:
+                    # Required behavior: do not overwrite existing data when all upstream calls fail.
+                    print(f"[SKIP] {location_id}: all upstream calls failed; existing data left unchanged")
+                    success += 1
+                    continue
                 existing_payload = json.loads(out_path.read_text(encoding="utf-8"))
                 merged_payload = _merge_enrichment_keys(existing_payload, enrichment_patch)
                 _assert_non_enrichment_unchanged(
