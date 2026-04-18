@@ -17,6 +17,7 @@ For each processed destination:
 from __future__ import annotations
 
 import json
+import math
 import statistics
 import urllib.parse
 import urllib.request
@@ -44,23 +45,54 @@ TIMEZONE = "auto"
 
 MONTH_ORDER = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTH_NUM_TO_LABEL = {i + 1: label for i, label in enumerate(MONTH_ORDER)}
+WIND_KMH_TO_MPH = 0.621371
+
+# Monthly serialization contract (per month label key)
+# - avg_temp_c
+# - avg_high_c
+# - avg_low_c
+# - apparent_temp_c
+# - relative_humidity_pct
+# - dew_point_c
+# - rainfall_mm
+# - rain_mm
+# - snowfall_cm
+# - precipitation_hours
+# - cloud_cover_pct
+# - sunshine_hours
+# - sunrise
+# - sunset
+# - daylight_hours
+# - mean_wind_speed_mph
+# - max_wind_speed_mph
+# - max_gusts_mph
+# - dominant_wind_direction_deg
+# - shortwave_radiation_sum
+# - comfort_labels.feels_like_label
+# - comfort_labels.humidity_label
+# - comfort_labels.mugginess_label
+# - comfort_labels.cloudiness_label
+# - comfort_labels.wind_label
 
 DAILY_VARIABLES = [
     "temperature_2m_mean",
     "temperature_2m_max",
     "temperature_2m_min",
     "apparent_temperature_mean",
-    "apparent_temperature_max",
-    "apparent_temperature_min",
     "relative_humidity_2m_mean",
     "dew_point_2m_mean",
     "precipitation_sum",
+    "snowfall_sum",
+    "precipitation_hours",
     "rain_sum",
     "cloud_cover_mean",
     "sunshine_duration",
     "daylight_duration",
     "wind_speed_10m_mean",
+    "wind_speed_10m_max",
     "wind_gusts_10m_max",
+    "wind_direction_10m_dominant",
+    "shortwave_radiation_sum",
     "sunrise",
     "sunset",
 ]
@@ -121,6 +153,24 @@ def _seconds_to_hours(value: float | int | None) -> float | None:
     return round(float(value) / 3600.0, 2)
 
 
+def _kmh_to_mph(value_kmh: float | int | None) -> float | None:
+    if value_kmh is None:
+        return None
+    return round(float(value_kmh) * WIND_KMH_TO_MPH, 2)
+
+
+def _circular_mean_deg(values: list[float | int | None]) -> float | None:
+    clean = [float(v) for v in values if v is not None]
+    if not clean:
+        return None
+    radians = [math.radians(v) for v in clean]
+    sin_mean = statistics.mean(math.sin(r) for r in radians)
+    cos_mean = statistics.mean(math.cos(r) for r in radians)
+    if sin_mean == 0 and cos_mean == 0:
+        return None
+    return round((math.degrees(math.atan2(sin_mean, cos_mean)) + 360.0) % 360.0, 2)
+
+
 def _mugginess_label(dew_point_c: float | None) -> str | None:
     if dew_point_c is None:
         return None
@@ -131,6 +181,18 @@ def _mugginess_label(dew_point_c: float | None) -> str | None:
     if dew_point_c < 20:
         return "muggy"
     return "very muggy"
+
+
+def _humidity_label(relative_humidity_pct: float | None) -> str | None:
+    if relative_humidity_pct is None:
+        return None
+    if relative_humidity_pct < 35:
+        return "dry"
+    if relative_humidity_pct < 60:
+        return "comfortable"
+    if relative_humidity_pct < 75:
+        return "humid"
+    return "very humid"
 
 
 def _cloudiness_label(cloud_pct: float | None) -> str | None:
@@ -145,14 +207,14 @@ def _cloudiness_label(cloud_pct: float | None) -> str | None:
     return "overcast"
 
 
-def _wind_label(wind_kph: float | None) -> str | None:
-    if wind_kph is None:
+def _wind_label(wind_mph: float | None) -> str | None:
+    if wind_mph is None:
         return None
-    if wind_kph < 10:
+    if wind_mph < 6:
         return "light"
-    if wind_kph < 20:
+    if wind_mph < 12:
         return "breezy"
-    if wind_kph < 35:
+    if wind_mph < 22:
         return "windy"
     return "very windy"
 
@@ -296,9 +358,11 @@ def _build_monthly_from_daily(daily: dict[str, list[Any]]) -> dict[str, dict[str
 
         temp_mean = _safe_mean(month_vals("temperature_2m_mean", month_num))
         apparent_mean = _safe_mean(month_vals("apparent_temperature_mean", month_num))
+        humidity_mean = _safe_mean(month_vals("relative_humidity_2m_mean", month_num))
         dew_mean = _safe_mean(month_vals("dew_point_2m_mean", month_num))
         cloud_mean = _safe_mean(month_vals("cloud_cover_mean", month_num))
-        wind_mean = _safe_mean(month_vals("wind_speed_10m_mean", month_num))
+        wind_speed_mean = _safe_mean(month_vals("wind_speed_10m_mean", month_num))
+        wind_speed_max_mean = _safe_mean(month_vals("wind_speed_10m_max", month_num))
 
         rain_entries = [
             (years_by_index[i], (daily.get("rain_sum") or [None])[i] if i < len(daily.get("rain_sum") or []) else None)
@@ -308,32 +372,60 @@ def _build_monthly_from_daily(daily: dict[str, list[Any]]) -> dict[str, dict[str
             (years_by_index[i], (daily.get("precipitation_sum") or [None])[i] if i < len(daily.get("precipitation_sum") or []) else None)
             for i in month_idxs
         ]
+        snowfall_entries = [
+            (years_by_index[i], (daily.get("snowfall_sum") or [None])[i] if i < len(daily.get("snowfall_sum") or []) else None)
+            for i in month_idxs
+        ]
+        precipitation_hours_entries = [
+            (
+                years_by_index[i],
+                (daily.get("precipitation_hours") or [None])[i]
+                if i < len(daily.get("precipitation_hours") or [])
+                else None,
+            )
+            for i in month_idxs
+        ]
+        shortwave_radiation_entries = [
+            (
+                years_by_index[i],
+                (daily.get("shortwave_radiation_sum") or [None])[i]
+                if i < len(daily.get("shortwave_radiation_sum") or [])
+                else None,
+            )
+            for i in month_idxs
+        ]
 
         sunrise_vals = month_vals("sunrise", month_num)
         sunset_vals = month_vals("sunset", month_num)
 
         monthly[label] = {
-            "temperature_c_mean": temp_mean,
-            "temperature_c_max_mean": _safe_mean(month_vals("temperature_2m_max", month_num)),
-            "temperature_c_min_mean": _safe_mean(month_vals("temperature_2m_min", month_num)),
-            "apparent_temperature_c_mean": apparent_mean,
-            "apparent_temperature_c_max_mean": _safe_mean(month_vals("apparent_temperature_max", month_num)),
-            "apparent_temperature_c_min_mean": _safe_mean(month_vals("apparent_temperature_min", month_num)),
-            "relative_humidity_pct_mean": _safe_mean(month_vals("relative_humidity_2m_mean", month_num)),
-            "dew_point_c_mean": dew_mean,
-            "cloud_cover_pct_mean": cloud_mean,
-            "daylight_hours_mean": _seconds_to_hours(_safe_mean(month_vals("daylight_duration", month_num))),
-            "sunshine_hours_mean": _seconds_to_hours(_safe_mean(month_vals("sunshine_duration", month_num))),
+            "avg_temp_c": temp_mean,
+            "avg_high_c": _safe_mean(month_vals("temperature_2m_max", month_num)),
+            "avg_low_c": _safe_mean(month_vals("temperature_2m_min", month_num)),
+            "apparent_temp_c": apparent_mean,
+            "relative_humidity_pct": humidity_mean,
+            "dew_point_c": dew_mean,
             "rainfall_mm": _safe_yearly_month_total_average(precip_entries),
             "rain_mm": _safe_yearly_month_total_average(rain_entries),
-            "wind_kph_mean": wind_mean,
-            "wind_gust_kph_mean": _safe_mean(month_vals("wind_gusts_10m_max", month_num)),
-            "sunrise_local_median": _safe_median_time_iso(sunrise_vals),
-            "sunset_local_median": _safe_median_time_iso(sunset_vals),
-            "mugginess_label": _mugginess_label(dew_mean),
-            "cloudiness_label": _cloudiness_label(cloud_mean),
-            "wind_label": _wind_label(wind_mean),
-            "feels_like_label": _feels_like_label(apparent_mean),
+            "snowfall_cm": _safe_yearly_month_total_average(snowfall_entries),
+            "precipitation_hours": _safe_yearly_month_total_average(precipitation_hours_entries),
+            "cloud_cover_pct": cloud_mean,
+            "sunshine_hours": _seconds_to_hours(_safe_mean(month_vals("sunshine_duration", month_num))),
+            "sunrise": _safe_median_time_iso(sunrise_vals),
+            "sunset": _safe_median_time_iso(sunset_vals),
+            "daylight_hours": _seconds_to_hours(_safe_mean(month_vals("daylight_duration", month_num))),
+            "mean_wind_speed_mph": _kmh_to_mph(wind_speed_mean),
+            "max_wind_speed_mph": _kmh_to_mph(wind_speed_max_mean),
+            "max_gusts_mph": _kmh_to_mph(_safe_mean(month_vals("wind_gusts_10m_max", month_num))),
+            "dominant_wind_direction_deg": _circular_mean_deg(month_vals("wind_direction_10m_dominant", month_num)),
+            "shortwave_radiation_sum": _safe_yearly_month_total_average(shortwave_radiation_entries),
+            "comfort_labels": {
+                "feels_like_label": _feels_like_label(apparent_mean),
+                "humidity_label": _humidity_label(humidity_mean),
+                "mugginess_label": _mugginess_label(dew_mean),
+                "cloudiness_label": _cloudiness_label(cloud_mean),
+                "wind_label": _wind_label(_kmh_to_mph(wind_speed_mean)),
+            },
         }
 
     return monthly
@@ -455,7 +547,7 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
 
         payload["humidity"] = {
             "monthly_relative_humidity_2m_mean": {
-                month: monthly[month]["relative_humidity_pct_mean"] for month in MONTH_ORDER
+                month: monthly[month]["relative_humidity_pct"] for month in MONTH_ORDER
             },
             "source": source_obj,
         }
