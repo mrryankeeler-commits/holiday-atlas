@@ -24,10 +24,12 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = ROOT / "data" / "locations" / "index.json"
 LOCATIONS_DIR = ROOT / "data" / "locations"
+FAILURES_LOG_PATH = ROOT / "scripts" / "output" / "enrichment_failures.jsonl"
 
 FIRST_N = 50
 POC_WRITE_IDS = {"andorra-la-vella", "accra-ghana", "beppu-japan"}
@@ -238,6 +240,37 @@ def _fetch_archive(lat: float, lng: float) -> dict[str, Any]:
     )
 
 
+def _is_monthly_dataset_null_only(monthly: dict[str, dict[str, Any]]) -> bool:
+    for month_values in monthly.values():
+        for value in month_values.values():
+            if value is not None:
+                return False
+    return True
+
+
+def _append_failure_log(*, location_id: str, endpoint: str, error_message: str) -> None:
+    FAILURES_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    record = {
+        "id": location_id,
+        "endpoint": endpoint,
+        "error_message": error_message,
+        "logged_at": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+    }
+    with FAILURES_LOG_PATH.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
+def _fetch_with_state(
+    *, location_id: str, endpoint: str, fn: Any, default: Any = None, **kwargs: Any
+) -> tuple[bool, Any, str | None]:
+    try:
+        return True, fn(**kwargs), None
+    except (HTTPError, URLError, json.JSONDecodeError, ValueError, TypeError, KeyError) as exc:
+        message = f"{type(exc).__name__}: {exc}"
+        _append_failure_log(location_id=location_id, endpoint=endpoint, error_message=message)
+        return False, default, message
+
+
 def _build_monthly_from_daily(daily: dict[str, list[Any]]) -> dict[str, dict[str, Any]]:
     dates = daily.get("time") or []
     if not isinstance(dates, list) or not dates:
@@ -319,20 +352,76 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
     if not city or not country:
         raise ValueError("Missing city/country for geocoding")
 
-    geo = _fetch_geocoding(city=city, country=country)
+    fetch_state: dict[str, dict[str, Any]] = {
+        "geocoding": {"fetch_ok": False, "error_message": None},
+        "archive": {"fetch_ok": False, "error_message": None},
+        "elevation": {"fetch_ok": False, "error_message": None},
+    }
 
-    lat = float(geo.get("latitude", location_index_entry.get("lat")))
-    lng = float(geo.get("longitude", location_index_entry.get("lng")))
+    geo_ok, geo, geo_err = _fetch_with_state(
+        location_id=location_id,
+        endpoint="geocoding",
+        fn=_fetch_geocoding,
+        default={},
+        city=city,
+        country=country,
+    )
+    fetch_state["geocoding"] = {"fetch_ok": geo_ok, "error_message": geo_err}
+
+    lat = geo.get("latitude", location_index_entry.get("lat"))
+    lng = geo.get("longitude", location_index_entry.get("lng"))
+    if lat is None or lng is None:
+        raise ValueError("Missing coordinates from geocoding/index")
+    lat = float(lat)
+    lng = float(lng)
+
     elevation_m = geo.get("elevation")
-    if elevation_m is None:
-        elevation_m = _fetch_elevation(lat=lat, lng=lng)
+    if elevation_m is not None:
+        fetch_state["elevation"] = {"fetch_ok": True, "error_message": None}
+    else:
+        elev_ok, elevation_m, elev_err = _fetch_with_state(
+            location_id=location_id,
+            endpoint="elevation",
+            fn=_fetch_elevation,
+            default=None,
+            lat=lat,
+            lng=lng,
+        )
+        fetch_state["elevation"] = {"fetch_ok": elev_ok, "error_message": elev_err}
 
-    archive = _fetch_archive(lat=lat, lng=lng)
-    daily = archive.get("daily")
-    if not isinstance(daily, dict):
-        raise ValueError("Archive payload missing daily object")
+    archive_ok, archive, archive_err = _fetch_with_state(
+        location_id=location_id,
+        endpoint="archive",
+        fn=_fetch_archive,
+        default={},
+        lat=lat,
+        lng=lng,
+    )
+    fetch_state["archive"] = {"fetch_ok": archive_ok, "error_message": archive_err}
 
-    monthly = _build_monthly_from_daily(daily)
+    monthly: dict[str, dict[str, Any]] | None = None
+    if archive_ok:
+        daily = archive.get("daily")
+        if isinstance(daily, dict):
+            monthly = _build_monthly_from_daily(daily)
+            if _is_monthly_dataset_null_only(monthly):
+                monthly = None
+                fetch_state["archive"] = {
+                    "fetch_ok": False,
+                    "error_message": "Archive payload produced null-only monthly climate dataset",
+                }
+                _append_failure_log(
+                    location_id=location_id,
+                    endpoint="archive",
+                    error_message="Archive payload produced null-only monthly climate dataset",
+                )
+        else:
+            fetch_state["archive"] = {"fetch_ok": False, "error_message": "Archive payload missing daily object"}
+            _append_failure_log(
+                location_id=location_id,
+                endpoint="archive",
+                error_message="Archive payload missing daily object",
+            )
 
     source_obj = {
         "provider": "open-meteo",
@@ -343,31 +432,39 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
         "end_date": HISTORICAL_END,
         "timezone": TIMEZONE,
         "daily_variables": DAILY_VARIABLES,
+        "status": fetch_state,
     }
 
-    payload["meta"] = {
-        "elevation_m": round(float(elevation_m), 1) if elevation_m is not None else None,
-        "population": geo.get("population"),
-        "timezone": archive.get("timezone") or geo.get("timezone"),
-        "admin1": geo.get("admin1"),
-        "admin2": geo.get("admin2"),
-        "climate_koppen": geo.get("climate_koppen") or geo.get("climate") or None,
-        "climate_summary": geo.get("climate_summary") or None,
-    }
+    has_any_upstream = bool(geo_ok or archive_ok or fetch_state["elevation"]["fetch_ok"])
+    if has_any_upstream:
+        payload["meta"] = {
+            "elevation_m": round(float(elevation_m), 1) if elevation_m is not None else None,
+            "population": geo.get("population"),
+            "timezone": (archive.get("timezone") if isinstance(archive, dict) else None) or geo.get("timezone"),
+            "admin1": geo.get("admin1"),
+            "admin2": geo.get("admin2"),
+            "climate_koppen": geo.get("climate_koppen") or geo.get("climate") or None,
+            "climate_summary": geo.get("climate_summary") or None,
+        }
 
-    payload["climate"] = {
-        "source": source_obj,
-        "monthly": monthly,
-    }
+    if monthly is not None:
+        payload["climate"] = {
+            "source": source_obj,
+            "monthly": monthly,
+        }
 
-    payload["humidity"] = {
-        "monthly_relative_humidity_2m_mean": {
-            month: monthly[month]["relative_humidity_pct_mean"] for month in MONTH_ORDER
-        },
-        "source": source_obj,
-    }
+        payload["humidity"] = {
+            "monthly_relative_humidity_2m_mean": {
+                month: monthly[month]["relative_humidity_pct_mean"] for month in MONTH_ORDER
+            },
+            "source": source_obj,
+        }
+    elif has_any_upstream and "climate" in payload and isinstance(payload["climate"], dict):
+        existing_source = payload["climate"].get("source")
+        if isinstance(existing_source, dict):
+            existing_source["status"] = fetch_state
 
-    return payload, {"id": location_id, "path": str(location_path)}
+    return payload, {"id": location_id, "path": str(location_path), "fetch_state": fetch_state}
 
 
 def main() -> int:
