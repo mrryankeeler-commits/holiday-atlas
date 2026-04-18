@@ -21,6 +21,7 @@ import math
 import statistics
 import urllib.parse
 import urllib.request
+from copy import deepcopy
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -34,6 +35,7 @@ FAILURES_LOG_PATH = ROOT / "scripts" / "output" / "enrichment_failures.jsonl"
 
 FIRST_N = 50
 POC_WRITE_IDS = {"andorra-la-vella", "accra-ghana", "beppu-japan"}
+ENRICHMENT_TOP_LEVEL_KEYS = ("meta", "climate", "humidity")
 
 GEOCODING_ENDPOINT = "https://geocoding-api.open-meteo.com/v1/search"
 ELEVATION_ENDPOINT = "https://api.open-meteo.com/v1/elevation"
@@ -431,16 +433,46 @@ def _build_monthly_from_daily(daily: dict[str, list[Any]]) -> dict[str, dict[str
     return monthly
 
 
+def _deep_merge_dict(base: Any, patch: Any) -> Any:
+    if not isinstance(base, dict) or not isinstance(patch, dict):
+        return deepcopy(patch)
+    merged = deepcopy(base)
+    for key, value in patch.items():
+        merged[key] = _deep_merge_dict(merged.get(key), value)
+    return merged
+
+
+def _merge_enrichment_keys(existing_payload: dict[str, Any], enrichment_patch: dict[str, Any]) -> dict[str, Any]:
+    merged_payload = deepcopy(existing_payload)
+    for key in ENRICHMENT_TOP_LEVEL_KEYS:
+        if key in enrichment_patch:
+            merged_payload[key] = _deep_merge_dict(existing_payload.get(key), enrichment_patch[key])
+    return merged_payload
+
+
+def _assert_non_enrichment_unchanged(*, before: dict[str, Any], after: dict[str, Any], location_id: str) -> None:
+    before_keys = {key for key in before.keys() if key not in ENRICHMENT_TOP_LEVEL_KEYS}
+    after_keys = {key for key in after.keys() if key not in ENRICHMENT_TOP_LEVEL_KEYS}
+    if before_keys != after_keys:
+        raise AssertionError(
+            f"{location_id}: non-enrichment top-level key set changed (before={sorted(before_keys)}, after={sorted(after_keys)})"
+        )
+
+    for key in sorted(before_keys):
+        if before.get(key) != after.get(key):
+            raise AssertionError(f"{location_id}: non-enrichment field changed: {key}")
+
+
 def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
     location_id = str(location_index_entry["id"])
     location_path = LOCATIONS_DIR / f"{location_id}.json"
     if not location_path.exists():
         raise FileNotFoundError(f"Location file not found: {location_path}")
 
-    payload = json.loads(location_path.read_text(encoding="utf-8"))
+    existing_payload = json.loads(location_path.read_text(encoding="utf-8"))
 
-    city = str(location_index_entry.get("city") or payload.get("city") or "").strip()
-    country = str(location_index_entry.get("country") or payload.get("country") or "").strip()
+    city = str(location_index_entry.get("city") or existing_payload.get("city") or "").strip()
+    country = str(location_index_entry.get("country") or existing_payload.get("country") or "").strip()
     if not city or not country:
         raise ValueError("Missing city/country for geocoding")
 
@@ -527,9 +559,10 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
         "status": fetch_state,
     }
 
+    enrichment_patch: dict[str, Any] = {}
     has_any_upstream = bool(geo_ok or archive_ok or fetch_state["elevation"]["fetch_ok"])
     if has_any_upstream:
-        payload["meta"] = {
+        enrichment_patch["meta"] = {
             "elevation_m": round(float(elevation_m), 1) if elevation_m is not None else None,
             "population": geo.get("population"),
             "timezone": (archive.get("timezone") if isinstance(archive, dict) else None) or geo.get("timezone"),
@@ -540,23 +573,23 @@ def _enrich_location(location_index_entry: dict[str, Any]) -> tuple[dict[str, An
         }
 
     if monthly is not None:
-        payload["climate"] = {
+        enrichment_patch["climate"] = {
             "source": source_obj,
             "monthly": monthly,
         }
 
-        payload["humidity"] = {
+        enrichment_patch["humidity"] = {
             "monthly_relative_humidity_2m_mean": {
                 month: monthly[month]["relative_humidity_pct"] for month in MONTH_ORDER
             },
             "source": source_obj,
         }
-    elif has_any_upstream and "climate" in payload and isinstance(payload["climate"], dict):
-        existing_source = payload["climate"].get("source")
+    elif has_any_upstream and "climate" in existing_payload and isinstance(existing_payload["climate"], dict):
+        existing_source = existing_payload["climate"].get("source")
         if isinstance(existing_source, dict):
-            existing_source["status"] = fetch_state
+            enrichment_patch["climate"] = {"source": {"status": fetch_state}}
 
-    return payload, {"id": location_id, "path": str(location_path), "fetch_state": fetch_state}
+    return enrichment_patch, {"id": location_id, "path": str(location_path), "fetch_state": fetch_state}
 
 
 def main() -> int:
@@ -579,10 +612,17 @@ def main() -> int:
             continue
 
         try:
-            enriched_payload, info = _enrich_location(entry)
+            enrichment_patch, info = _enrich_location(entry)
             if location_id in POC_WRITE_IDS:
                 out_path = Path(info["path"])
-                out_path.write_text(json.dumps(enriched_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                existing_payload = json.loads(out_path.read_text(encoding="utf-8"))
+                merged_payload = _merge_enrichment_keys(existing_payload, enrichment_patch)
+                _assert_non_enrichment_unchanged(
+                    before=existing_payload,
+                    after=merged_payload,
+                    location_id=location_id,
+                )
+                out_path.write_text(json.dumps(merged_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
                 print(f"[OK] {location_id}: enriched + wrote {out_path}")
             else:
                 print(f"[OK] {location_id}: enriched (no write; PoC write restriction)")
