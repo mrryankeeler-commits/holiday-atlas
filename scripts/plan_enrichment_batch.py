@@ -155,6 +155,7 @@ def _collect_state(
 
     blocked: list[dict[str, Any]] = []
     needs_enrichment: list[dict[str, Any]] = []
+    queue_only_pending: list[dict[str, Any]] = []
     ready_ids: list[str] = []
     blocked_ids: set[str] = set()
 
@@ -184,8 +185,7 @@ def _collect_state(
         if _has_skeletal_practicals(payload):
             reason_codes.add(REASON_MISSING_PRACTICAL_DEPTH)
 
-        if loc_id in queue_ids:
-            reason_codes.add(REASON_QUEUE_PENDING)
+        in_queue = loc_id in queue_ids
 
         if loc_id in blocked_ids:
             blocked.append(
@@ -193,7 +193,7 @@ def _collect_state(
                     "id": loc_id,
                     "reasons": [REASON_HIGH_SEVERITY_BLOCKER],
                     "blockingIssues": blockers,
-                    "inQueue": loc_id in queue_ids,
+                    "inQueue": in_queue,
                 }
             )
             continue
@@ -203,10 +203,18 @@ def _collect_state(
                 {
                     "id": loc_id,
                     "reasons": sorted(reason_codes),
-                    "inQueue": loc_id in queue_ids,
+                    "inQueue": in_queue,
                 }
             )
             ready_ids.append(loc_id)
+        elif in_queue:
+            queue_only_pending.append(
+                {
+                    "id": loc_id,
+                    "reasons": [REASON_QUEUE_PENDING],
+                    "inQueue": True,
+                }
+            )
 
     queue_rank = {loc_id: idx for idx, loc_id in enumerate(queue_ids)}
     ready_ids = sorted(
@@ -219,6 +227,7 @@ def _collect_state(
             "totalLiveLocations": len(live_payloads),
             "totalBlocked": len(blocked),
             "totalNeedingEnrichment": len(needs_enrichment),
+            "totalQueueOnlyPending": len(queue_only_pending),
             "totalReadyForBatching": len(ready_ids),
         },
         "queue": {
@@ -227,6 +236,7 @@ def _collect_state(
         },
         "blocked": sorted(blocked, key=lambda item: item["id"]),
         "needsEnrichment": sorted(needs_enrichment, key=lambda item: item["id"]),
+        "queueOnlyPending": sorted(queue_only_pending, key=lambda item: item["id"]),
     }
     return report, ready_ids
 
@@ -237,6 +247,7 @@ def _print_text(report: dict[str, Any], next_batch: list[str], remaining_queue: 
     print(f"- totalLiveLocations: {summary['totalLiveLocations']}")
     print(f"- totalBlocked: {summary['totalBlocked']}")
     print(f"- totalNeedingEnrichment: {summary['totalNeedingEnrichment']}")
+    print(f"- totalQueueOnlyPending: {summary['totalQueueOnlyPending']}")
     print(f"- totalReadyForBatching: {summary['totalReadyForBatching']}")
     print(f"- queueFile: {report['queue']['file'] or '-'}")
     print(f"- nextBatch: {', '.join(next_batch) if next_batch else '-'}")
@@ -251,6 +262,11 @@ def _print_text(report: dict[str, Any], next_batch: list[str], remaining_queue: 
     if report["needsEnrichment"]:
         print("\nNeeds Enrichment")
         for item in report["needsEnrichment"]:
+            print(f"- {item['id']}: {', '.join(item['reasons'])}")
+
+    if report["queueOnlyPending"]:
+        print("\nQueue Only Pending")
+        for item in report["queueOnlyPending"]:
             print(f"- {item['id']}: {', '.join(item['reasons'])}")
 
 
