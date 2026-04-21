@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "40-200 Mbps",
-      "note": "City hotels are dependable; smaller ryokan may have weaker room-level coverage."
+      "note": "City hotels are dependable; smaller ryokan may have weaker room-level coverage or stronger signal only in lobby/common areas."
     },
     "directGW": false,
     "fltNote": "There are no nonstop UK/Ireland-Oita services: most itineraries use one long-haul connection into Japan/Korea/Taiwan plus a domestic leg or rail transfer (common hubs: Tokyo Haneda/Narita, Osaka Kansai/Itami, Seoul Incheon, Taipei). Seat competition and fares generally rise around late March-April blossom travel, Golden Week (late April-early May), August Obon, and late-autumn foliage weekends. For flexibility, many travelers fly into Fukuoka and continue 2-2.5 hours by rail or highway bus to Beppu.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Japanese yen (JPY).",
+    "currency": "Japanese yen (JPY); cards are widely accepted in larger hotels, stations, and newer restaurants, but cash still helps for bathhouses, small eateries, and older ryokan checkouts.",
     "lang": "Japanese is the primary language; English support is best at transport hubs, hotels, and major attractions.",
     "tz": "JST (UTC+9) year-round; no daylight saving time.",
-    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure.",
+    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure, so check the latest rules before building a rail-and-onsen itinerary around fixed ryokan bookings.",
     "bestFor": [
       "Onsen trips",
       "Rail-based Japan itineraries",

@@ -63,7 +63,7 @@
     "wifi": {
       "r": 2,
       "spd": "5-20 Mbps",
-      "note": "Lakefront bandwidth is limited and weather-sensitive; buy a local SIM for backup."
+      "note": "Lakefront bandwidth is limited and weather-sensitive; speeds vary sharply by lodge and backup power setup, so buy a local SIM if you need dependable messaging or work access."
     },
     "directGW": false,
     "fltNote": "From UK/Ireland, Cape Maclear is typically reached via one international connection into Malawi (often Lilongwe or Blantyre, sometimes via Addis Ababa, Nairobi, or Johannesburg) plus a 4-6 hour road transfer. Flight prices usually peak in July-August and around Christmas/New Year, while shoulder months can be better value if you accept occasional rain. Wet-season storms can slow final road sections and interrupt boat schedules, so avoid same-day international arrival and lake-transfer plans.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Malawian kwacha (MWK).",
+    "currency": "Malawian kwacha (MWK); cash is still essential for park fees, boats, fuel surcharges, village purchases, and outages at unreliable card terminals.",
     "lang": "English and Chichewa are widely used; English is standard in lodges and tour operations.",
     "tz": "CAT (UTC+2) year-round; no daylight saving time.",
-    "visa": "Malawi uses nationality-based entry rules, with visa-exempt and eVisa-eligible passports both in use; verify current immigration categories before flying.",
+    "visa": "Malawi uses nationality-based entry rules, with visa-exempt and eVisa-eligible passports both in use; verify the current category for your passport before flying and do not assume lake lodges can help solve missing entry paperwork on arrival.",
     "bestFor": [
       "Freshwater snorkeling",
       "Slow travel",

@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "25-120 Mbps",
-      "note": "Strong in central hotels/cafés, weaker on outer hill roads."
+      "note": "Strong in central hotels and cafés, but weaker on outer hill roads and in older colonial buildings with thicker walls."
     },
     "directGW": false,
     "fltNote": "From the UK/Ireland, San Cristóbal is almost always a two-leg journey: long-haul to Mexico City (most common), Cancún, or occasionally US gateways, then a domestic flight to Tuxtla (TGZ) plus road transfer. Fares usually tighten around Semana Santa, July-August school holidays, and Christmas/New Year; shoulder months often price better if booked early.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Mexican peso (MXN).",
+    "currency": "Mexican peso (MXN); cards are widely accepted in cafés, hotels, and many restaurants, but cash still helps for local markets, village guides, colectivos, and smaller museum or church-area purchases.",
     "lang": "Spanish is the primary language; Tzotzil and Tzeltal are also spoken in the San Cristóbal region.",
     "tz": "Central Time (UTC-6) year-round in Chiapas; no daylight saving time.",
-    "visa": "Mexico admission is nationality-based and tied to immigration form conditions; some travelers are visa-exempt while others need a visa or valid third-country permit.",
+    "visa": "Mexico admission is nationality-based and tied to immigration form conditions; some travelers are visa-exempt while others need a visa or valid third-country permit, so verify the current rule before planning highland side trips around a single airport entry.",
     "bestFor": [
       "Culture travel",
       "Cool-climate Mexico",

@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "10-50 Mbps",
-      "note": "Generally fine in town riads; weaker in outer beach properties."
+      "note": "Generally fine in town riads and central cafés, but weaker in outer beach properties and more exposed cliffside stays."
     },
     "directGW": false,
     "directFrom": {
@@ -91,10 +91,10 @@
         "dgw": true
       }
     ],
-    "currency": "Moroccan dirham (MAD).",
+    "currency": "Moroccan dirham (MAD); cash is still useful for taxis, fish-market meals, surf-related costs, and smaller cafés, while card acceptance is more reliable in larger hotels and better-equipped restaurants.",
     "lang": "Darija Arabic and Tashelhit Amazigh are widely spoken locally; French is common in services and Spanish appears in parts of the south coast.",
     "tz": "UTC+1 most of the year, with a seasonal shift to UTC+0 during Ramadan.",
-    "visa": "Morocco permits visa-free short tourist stays for many passports, while other nationalities need a visa in advance and may face strict onward-travel checks.",
+    "visa": "Morocco permits visa-free short tourist stays for many passports, while other nationalities need a visa in advance and may face strict onward-travel checks, so confirm the current rule for your passport before leaning on a simple fly-drive coastal plan.",
     "bestFor": [
       "Atlantic road trips",
       "Surf trips",

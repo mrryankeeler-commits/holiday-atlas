@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "12-60 Mbps",
-      "note": "Adequate in most guesthouses; backup mobile data recommended."
+      "note": "Adequate in most guesthouses and mid-range stays, but speeds vary more outside the main seafront strip; backup mobile data is still recommended."
     },
     "directGW": false,
     "fltNote": "There are no nonstop UK/Ireland flights to Kep: most routes are one-stop to Phnom Penh (PNH) via hubs such as Singapore, Bangkok, Doha, or Kuala Lumpur, then a 3-4 hour private transfer/bus; some itineraries use Sihanoukville (KOS) plus a shorter road leg, with Dec-Feb and UK school-holiday weeks raising long-haul and regional fares.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Cambodian riel (KHR); US dollars are also commonly accepted in many tourist businesses.",
+    "currency": "Cambodian riel (KHR); US dollars are also commonly accepted in many tourist businesses, but carry mixed small notes for markets, boats, and lower-key local eateries where change can be awkward.",
     "lang": "Khmer is the primary language; English is common in hotels, tours, and restaurants.",
     "tz": "ICT (UTC+7) year-round; no daylight saving time.",
-    "visa": "Cambodia provides eVisa and visa-on-arrival options for many tourists, but nationality exceptions exist and some border points have different processing rules.",
+    "visa": "Cambodia provides eVisa and visa-on-arrival options for many tourists, but nationality exceptions exist and some border points have different processing rules, so check the exact rule for your passport before building coast-and-border combinations.",
     "bestFor": [
       "Seafood trips",
       "Slow coastal stays",

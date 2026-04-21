@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "25-120 Mbps",
-      "note": "Strong in town properties; patchier in remote forest lodges."
+      "note": "Strong in town properties and waterfront apartments; patchier in remote forest lodges or more isolated self-catering stays."
     },
     "directGW": false,
     "directFrom": {
@@ -91,10 +91,10 @@
         "dgw": false
       }
     ],
-    "currency": "South African rand (ZAR).",
+    "currency": "South African rand (ZAR); cards are widely accepted in town, but cash is still useful for tips, small farm stalls, some market stops, and occasional rural roadside purchases on Garden Route drives.",
     "lang": "English is widely used in tourism; Afrikaans and isiXhosa are also common in the Knysna area.",
     "tz": "SAST (UTC+2) year-round; no daylight saving time.",
-    "visa": "South Africa entry is nationality-based: some passports are visa-exempt for short stays, while others need a visa in advance and may face strict document checks.",
+    "visa": "South Africa entry is nationality-based: some passports are visa-exempt for short stays, while others need a visa in advance and may face strict document checks, so confirm the current requirements before locking in self-drive or multi-stop domestic legs.",
     "bestFor": [
       "Road trips",
       "Coastal scenery",

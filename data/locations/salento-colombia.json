@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "10-60 Mbps",
-      "note": "Decent in town stays; finca lodges outside town can be inconsistent."
+      "note": "Decent in town stays and cafés; finca lodges outside town can be inconsistent, especially in bad weather or on room-level coverage away from the main house."
     },
     "directGW": false,
     "fltNote": "From UK/Ireland, most routings connect via Bogotá or Medellín (sometimes Madrid/Panama City first), then a domestic leg to AXM/PEI; final transfer to Salento is by bus, shared shuttle, or private car (1-1.5h).",
@@ -81,10 +81,10 @@
         "dgw": false
       }
     ],
-    "currency": "Colombian peso (COP).",
+    "currency": "Colombian peso (COP); cash is still useful for Willy jeeps, trail snacks, smaller fincas, and some rural day-trip stops even when cards work in town.",
     "lang": "Spanish is the primary language; English is most common in higher-end hotels and organized tours.",
     "tz": "Colombia Time (UTC-5) year-round; no daylight saving time.",
-    "visa": "Colombia grants visa-free short tourist stays to many nationalities, but entry officers may request onward travel proof and sufficient-funds evidence.",
+    "visa": "Colombia grants visa-free short tourist stays to many nationalities, but entry officers may request onward-travel proof and sufficient-funds evidence, so confirm the current rule for your passport before relying on flexible domestic add-ons.",
     "bestFor": [
       "Coffee regions",
       "Hiking",

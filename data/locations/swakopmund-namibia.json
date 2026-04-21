@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "10-60 Mbps",
-      "note": "Stable in central hotels; weaker in desert-edge lodges."
+      "note": "Stable in central hotels and town cafés, but weaker in desert-edge lodges and more remote self-drive stopovers."
     },
     "directGW": false,
     "fltNote": "UK/Ireland access usually requires one stop to Windhoek or Cape Town/Johannesburg plus a domestic hop or long drive; Namibian peak season (Jun-Oct) increases car-rental and flight demand.",
@@ -90,7 +90,7 @@
     "currency": "Namibian dollar (NAD), with South African rand (ZAR) also widely accepted.",
     "lang": "English is official; Afrikaans and German are also common in Swakopmund tourism businesses.",
     "tz": "CAT (UTC+2) year-round; no daylight saving time.",
-    "visa": "Namibia entry policy varies by nationality, with a mix of visa-exempt and visa-required regimes; verify current Namibian immigration rules before booking.",
+    "visa": "Namibia entry policy varies by nationality, with a mix of visa-exempt and visa-required regimes; verify the current rule for your passport before booking flights and self-drive legs, especially if you are entering via a regional connection rather than a simple Windhoek routing.",
     "bestFor": [
       "Adventure-focused itineraries",
       "Self-drive Namibia routes",

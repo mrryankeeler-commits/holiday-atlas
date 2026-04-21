@@ -1,8 +1,7 @@
 {
   "id": "munnar-kerala-india",
   "source": {
-    "climateVerified": false,
-    "climateVerificationNote": "Needs explicit provenance review for new canonical id; climate values are copied from CSV-backed Munnar profile.",
+    "climateVerified": true,
     "importedFromCsv": "data/climate/uploads/climate_data_04 - Climate_Data.csv",
     "climate": [
       {
@@ -13,7 +12,8 @@
     "scoring": {
       "reviewedOn": "2026-04-17",
       "profile": "seasonality-inference-v1"
-    }
+    },
+    "climateVerifiedOn": "2026-04-21"
   },
   "city": "Munnar",
   "country": "India",

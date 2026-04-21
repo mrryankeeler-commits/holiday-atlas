@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "8-45 Mbps",
-      "note": "Improving in beachfront stays, but outages still occur during storms."
+      "note": "Improving in beachfront stays and café clusters, but outages still occur during storms and more remote inland properties can be less consistent."
     },
     "directGW": false,
     "fltNote": "UK/Ireland routes typically connect via Manila, Cebu, Singapore, or Doha, then combine domestic flight and ferry; Amihan dry season (Dec-May) brings stronger demand and pricing.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Philippine peso (PHP).",
+    "currency": "Philippine peso (PHP); cash is still useful for scooter fuel, tricycle rides, small eateries, and some marine-fee or ferry-related payments despite growing card acceptance in better resorts.",
     "lang": "Filipino and English are official; Cebuano/Bisaya is widely spoken in Siquijor.",
     "tz": "PHT (UTC+8) year-round; no daylight saving time.",
-    "visa": "The Philippines allows many nationalities visa-free short stays, but onward-ticket and passport-validity checks are commonly enforced at airline check-in and arrival.",
+    "visa": "The Philippines allows many nationalities visa-free short stays, but onward-ticket and passport-validity checks are commonly enforced at airline check-in and arrival, so confirm the latest rule for your passport before booking flexible ferry combinations.",
     "bestFor": [
       "Slow tropical travel",
       "Snorkeling/diving",

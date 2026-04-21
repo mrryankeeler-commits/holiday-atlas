@@ -63,7 +63,7 @@
     "wifi": {
       "r": 5,
       "spd": "80-400 Mbps",
-      "note": "Excellent Korea-wide connectivity including public Wi-Fi in transit nodes."
+      "note": "Excellent Korea-wide connectivity, including strong mobile coverage and public Wi-Fi in major transit nodes, hotels, and many cafés."
     },
     "directGW": false,
     "directFrom": {
@@ -91,10 +91,10 @@
         "dgw": true
       }
     ],
-    "currency": "South Korean won (KRW).",
+    "currency": "South Korean won (KRW); cards work almost everywhere, but keep some cash for smaller markets, local buses, and occasional rural day-trip stops outside the main city core.",
     "lang": "Korean is the primary language; English is most available in transport hubs and larger hotels.",
     "tz": "KST (UTC+9) year-round; no daylight saving time.",
-    "visa": "South Korea entry is nationality-specific; visa-free/K-ETA-eligible passports can enter short-term under current rules, while others need a visa in advance.",
+    "visa": "South Korea entry is nationality-specific; visa-free or K-ETA-eligible passports can enter short-term under current rules, while others need a visa in advance, so check the latest requirement before building a rail-heavy southwest Korea itinerary.",
     "bestFor": [
       "Nature photographers",
       "Rail-based Korea trips",

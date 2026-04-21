@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "30-150 Mbps",
-      "note": "Good fiber in hotels and cafés; mobile data is strong citywide."
+      "note": "Good fiber in hotels and cafés, with strong mobile data citywide; heritage shophouse stays can still have more uneven room-to-room coverage than modern properties."
     },
     "directGW": false,
     "directFrom": {
@@ -91,10 +91,10 @@
         "dgw": false
       }
     ],
-    "currency": "Malaysian ringgit (MYR).",
+    "currency": "Malaysian ringgit (MYR); cards and e-wallets are widely accepted in the city, but cash still helps for hawker stalls, market snacks, and older kopitiam-style spots.",
     "lang": "Malay is the national language; English, Mandarin, and Tamil are also widely used in Ipoh.",
     "tz": "MYT (UTC+8) year-round; no daylight saving time.",
-    "visa": "Malaysia grants visa-free entry to many passports for short tourism stays, while some nationalities require an eVisa or consular visa before departure.",
+    "visa": "Malaysia grants visa-free entry to many passports for short tourism stays, while some nationalities require an eVisa or consular visa before departure, so check the current rule for your passport before relying on a simple rail-led stop between larger Malaysian hubs.",
     "bestFor": [
       "Food trips",
       "Short city breaks",

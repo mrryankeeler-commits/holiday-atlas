@@ -63,7 +63,7 @@
     "wifi": {
       "r": 2,
       "spd": "4-25 Mbps",
-      "note": "Usable in town hotels; island-wide outages and power cuts are common."
+      "note": "Usable in town hotels and some better-run island resorts, but island-wide outages and power cuts are common and room-level speeds can drop sharply in busy periods."
     },
     "directGW": false,
     "fltNote": "From the UK/Ireland, common routings are one-stop to Antananarivo (TNR) via hubs like Addis Ababa, Nairobi, Istanbul, or Paris, then a domestic connection to Nosy Be (NOS); some seasons also have limited direct/regional charter access to NOS, while Antsiranana (DIE) can work as a northern backup with onward surface/boat logistics.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Malagasy ariary (MGA).",
+    "currency": "Malagasy ariary (MGA); cash is still the practical default for many boats, markets, and smaller lodges, while card acceptance is uneven even in the island's main hub.",
     "lang": "Malagasy and French are the main languages; basic English is available in many tourist services on Nosy Be.",
     "tz": "East Africa Time (UTC+3) year-round; no daylight saving time.",
-    "visa": "Madagascar typically allows tourist eVisa or visa-on-arrival options for many passports, with fees and allowed stay length tied to nationality.",
+    "visa": "Madagascar typically allows tourist eVisa or visa-on-arrival options for many passports, with fees and allowed stay length tied to nationality, so confirm the latest rules and carry printed or offline booking details for island transfers.",
     "bestFor": [
       "Beach + snorkeling",
       "Island-hopping",
