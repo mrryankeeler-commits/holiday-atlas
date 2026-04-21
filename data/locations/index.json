@@ -91,7 +91,7 @@
     "id": "bacalar-mexico",
     "city": "Bacalar",
     "country": "Mexico",
-    "region": "Mexico region",
+    "region": "Quintana Roo",
     "lat": 18.6813,
     "lng": -88.3936
   },
@@ -99,7 +99,7 @@
     "id": "barranquilla-colombia",
     "city": "Barranquilla",
     "country": "Colombia",
-    "region": "Colombia region",
+    "region": "Caribbean Coast",
     "lat": 10.9685,
     "lng": -74.7813
   },
@@ -107,7 +107,7 @@
     "id": "belize-city-belize",
     "city": "Belize City",
     "country": "Belize",
-    "region": "Belize region",
+    "region": "Belize District",
     "lat": 17.5046,
     "lng": -88.1962
   },
@@ -731,7 +731,7 @@
     "id": "ometepe-nicaragua",
     "city": "Ometepe",
     "country": "Nicaragua",
-    "region": "Nicaragua region",
+    "region": "Rivas Department",
     "lat": 11.5,
     "lng": -85.5833
   },
@@ -795,7 +795,7 @@
     "id": "placencia-belize",
     "city": "Placencia",
     "country": "Belize",
-    "region": "Belize region",
+    "region": "Stann Creek District",
     "lat": 16.5142,
     "lng": -88.3665
   },
@@ -1195,7 +1195,7 @@
     "id": "vinales-cuba",
     "city": "Viñales",
     "country": "Cuba",
-    "region": "Cuba region",
+    "region": "Pinar del Río Province (western Cuba)",
     "lat": 22.6189,
     "lng": -83.7069
   },
