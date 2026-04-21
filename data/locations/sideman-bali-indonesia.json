@@ -65,12 +65,12 @@
       "spd": "15-70 Mbps",
       "note": "Usable in most villas, but valley storms can cause short dropouts."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "Sideman is reached via Denpasar (DPS). UK/Ireland itineraries are typically one-stop via Singapore, Doha, Dubai, Kuala Lumpur, or Istanbul, then a 1.5-2.5 hour road transfer east. Competition and fares are usually strongest in July-August and over Christmas/New Year; May-June and September-October often balance price and weather best. Lombok (LOP) is an alternate only when intentionally combining islands, since boat + road legs add weather and timing risk.",
+    "fltNote": "Sideman has no airport of its own and is reached via Denpasar (DPS) plus a 1.5-2.5 hour road transfer east. There are no nonstop UK/Ireland flights to Sideman itself; most itineraries are one-stop to Bali via hubs such as Singapore, Doha, Dubai, Kuala Lumpur, or Istanbul. Competition and fares are usually strongest in July-August and over Christmas/New Year; May-June and September-October often balance price and weather best. Lombok (LOP) is an alternate only when intentionally combining islands, since boat + road legs add weather and timing risk.",
     "airports": [
       {
         "name": "Ngurah Rai International Airport (Denpasar)",
@@ -91,10 +91,10 @@
         "dgw": false
       }
     ],
-    "currency": "Indonesian rupiah (IDR).",
+    "currency": "Indonesian rupiah (IDR). Cash is still useful for small warungs, drivers, and village purchases, while card acceptance is better at higher-end villas and hotels.",
     "lang": "Bahasa Indonesia is the national language; regional languages are common locally, and English is strongest in tourism services.",
     "tz": "WITA (UTC+8) for Bali and North Sulawesi year-round; no daylight saving time.",
-    "visa": "Indonesia entry depends on passport nationality; many visitors use visa exemption or e-VOA pathways, while others need a visa before travel.",
+    "visa": "Indonesia entry depends on passport nationality; many visitors use visa exemption or e-VOA pathways, while others need a visa before travel. Check the latest entry rules before flying and carry onward-travel details if your route requires them.",
     "bestFor": [
       "Quiet Bali stays",
       "Wellness trips",

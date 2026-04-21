@@ -65,12 +65,12 @@
       "spd": "25-150 Mbps",
       "note": "Good in most villas/hotels; verify speeds for remote work stays."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "Mauritius itineraries almost always route through MRU: nonstop London service is strongest in winter-sun/festive windows, while many UK/Ireland departures in shoulder months connect via Gulf or major European hubs (for example Doha, Dubai, Paris, or Istanbul). Reunion (RUN) only works as a backup when paired with a separate inter-island hop, so missed-connection risk and baggage recheck time are higher. UK demand pressure is usually highest in late July-August and late December.",
+    "fltNote": "Tamarin has no airport of its own and is reached via MRU plus a west-coast road transfer. There are no nonstop UK/Ireland flights to Tamarin itself: nonstop London service to Mauritius is strongest in winter-sun and festive windows, while many UK/Ireland departures in shoulder months connect via Gulf or major European hubs (for example Doha, Dubai, Paris, or Istanbul). Reunion (RUN) only works as a backup when paired with a separate inter-island hop, so missed-connection risk and baggage recheck time are higher. UK demand pressure is usually highest in late July-August and late December.",
     "airports": [
       {
         "name": "Sir Seewoosagur Ramgoolam International Airport",

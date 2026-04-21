@@ -17,18 +17,18 @@ Use this exact source list for follow-up stubs (indexing + enrichment batching).
 - [x] `krong-kep-cambodia` → `data/locations/krong-kep-cambodia.json`
 - [x] `matsumoto-japan` → `data/locations/matsumoto-japan.json`
 - [x] `ohrid-north-macedonia` → `data/locations/ohrid-north-macedonia.json`
-- [ ] `onomichi-japan` → `data/locations/onomichi-japan.json`
-- [ ] `ostrava-czechia` → `data/locations/ostrava-czechia.json`
+- [x] `onomichi-japan` → `data/locations/onomichi-japan.json`
+- [x] `ostrava-czechia` → `data/locations/ostrava-czechia.json`
 - [x] `popenguine-ndayane-senegal` → `data/locations/popenguine-ndayane-senegal.json`
 - [x] `salento-colombia` → `data/locations/salento-colombia.json`
 - [x] `san-cristobal-de-las-casas-mexico` → `data/locations/san-cristobal-de-las-casas-mexico.json`
-- [ ] `sideman-bali-indonesia` → `data/locations/sideman-bali-indonesia.json`
-- [ ] `sidi-ifni-morocco` → `data/locations/sidi-ifni-morocco.json`
-- [ ] `siquijor-philippines` → `data/locations/siquijor-philippines.json`
-- [ ] `suncheon-south-korea` → `data/locations/suncheon-south-korea.json`
-- [ ] `swakopmund-namibia` → `data/locations/swakopmund-namibia.json`
-- [ ] `tamarin-mauritius` → `data/locations/tamarin-mauritius.json`
-- [ ] `tamraght-morocco` → `data/locations/tamraght-morocco.json`
+- [x] `sideman-bali-indonesia` → `data/locations/sideman-bali-indonesia.json`
+- [x] `sidi-ifni-morocco` → `data/locations/sidi-ifni-morocco.json`
+- [x] `siquijor-philippines` → `data/locations/siquijor-philippines.json`
+- [x] `suncheon-south-korea` → `data/locations/suncheon-south-korea.json`
+- [x] `swakopmund-namibia` → `data/locations/swakopmund-namibia.json`
+- [x] `tamarin-mauritius` → `data/locations/tamarin-mauritius.json`
+- [x] `tamraght-morocco` → `data/locations/tamraght-morocco.json`
 - [ ] `xingping-china` → `data/locations/xingping-china.json`
 
 ## Notes
