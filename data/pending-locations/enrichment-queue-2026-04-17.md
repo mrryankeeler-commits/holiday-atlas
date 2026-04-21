@@ -30,7 +30,7 @@
 | [x] | 7 | swakopmund-namibia |
 | [x] | 8 | tamarin-mauritius |
 | [x] | 8 | tamraght-morocco |
-| [ ] | 8 | xingping-china |
+| [x] | 8 | xingping-china |
 
 ## Batch views
 
@@ -72,4 +72,4 @@
 ### Batch 8
 - [x] tamarin-mauritius
 - [x] tamraght-morocco
-- [ ] xingping-china
+- [x] xingping-china

@@ -29,7 +29,7 @@ Use this exact source list for follow-up stubs (indexing + enrichment batching).
 - [x] `swakopmund-namibia` → `data/locations/swakopmund-namibia.json`
 - [x] `tamarin-mauritius` → `data/locations/tamarin-mauritius.json`
 - [x] `tamraght-morocco` → `data/locations/tamraght-morocco.json`
-- [ ] `xingping-china` → `data/locations/xingping-china.json`
+- [x] `xingping-china` → `data/locations/xingping-china.json`
 
 ## Notes
 
