@@ -101,6 +101,16 @@ Script roles:
 - `scripts/reconcile_enrichment_queue.py`
   - Dry-run helper for queue/checklist drift. Use it after review work to find queue-only pending entries that are safe manual cleanup candidates.
 
+Workflow rules:
+
+- Treat real blockers and later polish differently.
+  - Real blockers must be fixed before a location is marked complete. Typical blockers include direct-flight truth mismatches, broken practical consistency, draft/generic placeholders, and wrong or ambiguous climate/source pairing.
+  - Non-blocking editorial polish should go into a later backlog instead of keeping the location in the completion queue.
+- If a climate/source pairing is wrong or ambiguous, correct both sides together:
+  - update the live location JSON, and
+  - update the relevant CSV/source rows that provenance verification depends on.
+- Climate proxy sources are allowed when a direct source is missing or ambiguous, but the proxy must be explicit in the location `source` metadata.
+
 ### Low-level import commands
 
 - Bulk import all CSV files in a directory:
@@ -210,12 +220,14 @@ If you need CI-style strictness that fails whenever any destination is still unv
 For queue-only pending locations, use this lightweight review loop:
 
 1. Review 5 real `data/locations/<id>.json` files.
-2. Fix the weak ones immediately.
+2. Fix real blockers immediately.
 3. Mark only the safe ones complete in the tracking files.
 4. Re-run:
    - `python3 scripts/plan_enrichment_batch.py`
    - `python3 scripts/reconcile_enrichment_queue.py`
 5. Move to the next 5.
+
+Use a later polish backlog for non-blocking improvements such as small copy tightening, richer payment context, or optional practical nuance.
 
 ### Month schema (documented fields)
 

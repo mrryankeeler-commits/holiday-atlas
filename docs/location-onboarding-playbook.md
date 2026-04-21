@@ -104,12 +104,26 @@ For each location in batch:
 Use this process rhythm while the editorial bar is still being applied by review judgment rather than a final frozen checklist:
 
 1. Review 5 live `data/locations/<id>.json` files against the actual payloads, not just the queue markdown.
-2. Fix the weak ones immediately.
+2. Fix real blockers immediately.
 3. Mark only the safe ones complete in the tracking files.
 4. Re-run:
    - `python3 scripts/plan_enrichment_batch.py`
    - `python3 scripts/reconcile_enrichment_queue.py`
 5. Move to the next 5.
+
+### Blockers vs later polish
+
+- Fix before marking complete:
+  - direct-flight truth inconsistencies (`fltNote`, `directFrom`, `directGW`)
+  - wrong or ambiguous climate/source pairing
+  - practical contradictions that would mislead the traveler
+  - remaining draft/generic placeholders that fail the repo standard
+- Put in later polish backlog:
+  - copy tightening that does not change factual truth
+  - optional practical depth upgrades
+  - minor wording improvements where the current content is already accurate and usable
+
+Do not keep a location in the completion queue solely for non-blocking polish.
 
 ---
 
@@ -124,6 +138,23 @@ For each location file:
 4. If not matched:
    - keep `climateVerified: false`
    - add concrete `climateVerificationNote`.
+
+### Climate/source correction rule
+
+If a climate/source pairing is wrong or ambiguous:
+
+1. Correct the live location JSON climate source and month data.
+2. Correct the relevant CSV/source rows used by provenance verification.
+3. Re-run `python3 scripts/verify_climate_provenance.py`.
+4. Only then mark the location complete.
+
+### Climate proxy rule
+
+Climate proxy sources are allowed when needed, but they must be explicit.
+
+- Keep the destination identity as the real destination.
+- Use the best practical climate match available.
+- Record the proxy clearly in `source` metadata so future review does not mistake it for an accidental mismatch.
 
 ---
 
