@@ -88,7 +88,7 @@
 | `meteora-greece` | `meteora` | ✅ LIVE | `exact` | `climate_data_03 - Climate Data.csv` |
 | `minca-colombia` | `minca-colombia` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `mostar-bosnia-and-herzegovina` | `mostar` | ✅ LIVE | `fuzzy` | `monthly_climate_01.csv` |
-| `munnar-india` | `munnar` | ✅ LIVE | `exact` | `monthly_climate_01.csv` |
+| `munnar-india` | `munnar-kerala-india` | ✅ LIVE | `canonicalized` | `monthly_climate_01.csv` |
 | `munnar-kerala-india` | `munnar-kerala-india` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
 | `oia-greece` | `oia-greece` | ✅ LIVE | `exact` | `monthly_climate_02 - Climate Data.csv` |
 | `ometepe-nicaragua` | `ometepe-nicaragua` | ✅ LIVE | `exact` | `climate_data_04 - Climate_Data.csv` |
@@ -220,7 +220,6 @@
 | `meteora` | ✅ LIVE | `climate_data_03 - Climate Data.csv` |
 | `minca-colombia` | ✅ LIVE | `climate_data_04 - Climate_Data.csv` |
 | `mostar` | ✅ LIVE | `monthly_climate_01.csv` |
-| `munnar` | ✅ LIVE | `monthly_climate_01.csv` |
 | `munnar-kerala-india` | ✅ LIVE | `climate_data_04 - Climate_Data.csv` |
 | `oia-greece` | ✅ LIVE | `monthly_climate_02 - Climate Data.csv` |
 | `ometepe-nicaragua` | ✅ LIVE | `climate_data_04 - Climate_Data.csv` |
@@ -278,4 +277,3 @@
 | `zhangye-china` | ✅ LIVE | `monthly_climate_02 - Climate Data.csv` |
 
 ## Missing Set v1
-
