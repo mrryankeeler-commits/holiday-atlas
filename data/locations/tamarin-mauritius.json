@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "25-150 Mbps",
-      "note": "Good in most villas/hotels; verify speeds for remote work stays."
+      "note": "Usually solid in villas, aparthotels, and resort areas, but speeds can dip in older self-catering stock; verify backup power and real room-level speeds for remote work stays."
     },
     "directGW": false,
     "directFrom": {
@@ -85,10 +85,10 @@
         "dgw": false
       }
     ],
-    "currency": "Mauritian rupee (MUR).",
+    "currency": "Mauritian rupee (MUR); cards are widely accepted at resorts, supermarkets, and fuel stations, but cash is still handy for beach vendors, small snack stops, taxis, and some independent activity operators.",
     "lang": "Mauritian Creole is widely spoken; French and English are common in visitor services.",
     "tz": "MUT (UTC+4) year-round; no daylight saving time.",
-    "visa": "Mauritius allows many tourists visa-free entry for short stays, but return/onward ticket and accommodation proof are commonly required at entry.",
+    "visa": "Mauritius allows many tourists visa-free entry for short stays, but return/onward ticket, accommodation proof, and sufficient-funds evidence are commonly expected at entry, so check the latest rules for your passport before departure.",
     "bestFor": [
       "Beach + activity mix",
       "Honeymoons",

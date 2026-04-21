@@ -22,10 +22,10 @@
   "lng": -79.0059,
   "desc": "Cuenca sits in Ecuador's southern Andes, blending UNESCO-era churches, café culture, and a relaxed high-altitude pace that suits culture-first travelers who also want easy access to Cajas páramo hikes.",
   "hls": [
-    "UNESCO-listed historic core with riverwalk neighborhoods",
-    "Strong museum, artisan, and food-market culture in a compact center",
-    "Fast access to Cajas National Park lagoons and highland trails",
-    "Mild daytime temperatures that favor slow, walkable itineraries"
+    "UNESCO-listed historic core with cathedral domes, plazas, and riverwalk districts",
+    "Strong museum, artisan, and food-market culture in a compact, easy-to-walk center",
+    "Fast access to Cajas National Park lagoons, páramo roads, and acclimatized day hikes",
+    "Mild daytime temperatures that reward slow city wandering more than rushed sightseeing"
   ],
   "todo": [
     {
@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "35-150 Mbps",
-      "note": "Good fiber availability in central neighborhoods and serviced apartments."
+      "note": "Good fiber availability in central neighborhoods, coworking spots, and serviced apartments, though older colonial buildings can have room-to-room variation."
     },
     "directGW": false,
     "fltNote": "From the UK/Ireland, the most reliable long-haul pattern is Europe/US to Quito (UIO) or Guayaquil (GYE), then a short domestic flight to Cuenca (CUE); overland transfers from GYE/UIO are possible but weather and mountain roads can add delay risk, especially in wetter months and holiday periods.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "United States dollar (USD).",
+    "currency": "United States dollar (USD); cards are commonly accepted in hotels, cafés, and modern restaurants, but cash remains useful for taxis, markets, buses, and smaller family-run places.",
     "lang": "Spanish is the primary language; Kichwa is also spoken in some communities.",
     "tz": "Ecuador Time (ECT, UTC-5) on the mainland; no daylight saving time.",
-    "visa": "Ecuador generally grants many tourists up to 90 days visa-free, but extensions, onward-ticket proof, and Galápagos transit formalities can apply.",
+    "visa": "Ecuador generally grants many tourists up to 90 days visa-free, but passport validity, onward-ticket proof, and any later Galápagos transit plans can affect what documents you need, so verify the current rule set for your passport.",
     "bestFor": [
       "Colonial cities",
       "Andean hiking",

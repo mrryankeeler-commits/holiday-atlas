@@ -64,7 +64,7 @@
     "wifi": {
       "r": 3,
       "spd": "15-60 Mbps",
-      "note": "Fine in newer guesthouses, but older riverside inns can be inconsistent."
+      "note": "Usually workable in newer guesthouses and cafés, but older riverside inns can have weaker room coverage and occasional evening slowdowns."
     },
     "directGW": false,
     "fltNote": "There are typically no practical UK/Ireland nonstops to Guilin region: most itineraries connect via major Chinese or regional hubs (commonly Beijing, Shanghai, Guangzhou, Shenzhen, or Hong Kong), then continue to Xingping by road or high-speed rail plus final transfer. Guilin Liangjiang (KWL) is the closest airport, while Guangzhou (CAN) and Hong Kong (HKG) are realistic fallback entry points when fares or schedules are better. Domestic demand spikes around May Day, summer school holidays, and National Day Golden Week can materially raise final-leg prices and crowding.",
@@ -88,10 +88,10 @@
         "dgw": false
       }
     ],
-    "currency": "Chinese yuan renminbi (CNY).",
+    "currency": "Chinese yuan renminbi (CNY); mobile payments dominate in China, so foreign travelers should not assume every small guesthouse, dock, or food stop can handle international cards smoothly.",
     "lang": "Mandarin Chinese is the primary language; English support is limited outside larger hotels and transport nodes.",
     "tz": "China Standard Time (UTC+8) year-round; no daylight saving time.",
-    "visa": "China entry is nationality-specific; many travelers still require a visa in advance, though some cities/routes may allow limited transit-without-visa schemes.",
+    "visa": "China entry is nationality-specific; many travelers still require a visa in advance, while some routings may qualify for limited transit-without-visa schemes, so confirm the exact rule for your passport and entry route before locking in domestic transfers.",
     "bestFor": [
       "Landscape photography",
       "Karst scenery",

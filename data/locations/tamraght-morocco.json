@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "12-70 Mbps",
-      "note": "Many surf camps offer workable Wi-Fi, but speeds vary by occupancy."
+      "note": "Many surf camps and cafés offer workable Wi-Fi, but speeds drop in fuller properties and some rooftop/common-area setups are more reliable than the rooms."
     },
     "directGW": false,
     "directFrom": {
@@ -85,10 +85,10 @@
         "dgw": false
       }
     ],
-    "currency": "Moroccan dirham (MAD).",
+    "currency": "Moroccan dirham (MAD); cash is still useful for taxis, surf instructors, small cafés, and local shops, while cards are more reliable in Agadir, larger stays, and better-equipped restaurants.",
     "lang": "Darija Arabic and Tashelhit Amazigh are widely spoken locally; French is common in services and Spanish appears in parts of the south coast.",
     "tz": "UTC+1 most of the year, with a seasonal shift to UTC+0 during Ramadan.",
-    "visa": "Morocco permits visa-free short tourist stays for many passports, while other nationalities need a visa in advance and may face strict onward-travel checks.",
+    "visa": "Morocco permits visa-free short tourist stays for many passports, while other nationalities need a visa in advance; keep passport-validity and onward-travel requirements in mind because airline and border checks can be stricter than the beach-town vibe suggests.",
     "bestFor": [
       "Surf camps",
       "Yoga escapes",
