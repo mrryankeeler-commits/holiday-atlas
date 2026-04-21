@@ -23,9 +23,9 @@
   "desc": "Ohrid layers a UNESCO-listed Orthodox old town over a deep tectonic lake, with the year defined by spring church-and-viewpoint walks, high-summer swimming and boat life, then quieter cultural weekends in autumn.",
   "hls": [
     "UNESCO church skyline above one of Europe's oldest lakes",
-    "Strong summer identity: beaches, boat trips, and lakeside promenades",
-    "Ottoman-era bazaar lanes and Macedonian-Albanian borderland food culture",
-    "Clear shoulder-season value when weather stays pleasant but crowds drop"
+    "Kaneo, Plaošnik, and Samuel's Fortress ridge walks above summer boat traffic and swim coves",
+    "Ottoman-era bazaar lanes, lakefront taverns, and trout-focused Macedonian borderland food culture",
+    "Shoulder-season old-town stays with warm-enough lake days after peak summer crowds thin out"
   ],
   "todo": [
     {
@@ -70,7 +70,7 @@
       "LGW": true,
       "LCY": false
     },
-    "fltNote": "OHD is the closest arrival point in peak season, but many UK/Ireland itineraries route via Skopje (SKP) or Tirana (TIA) because frequency is higher; onward travel is typically 15-20 min by taxi from OHD, ~3-4 hr by coach/car from SKP, or ~2.5-3 hr from TIA depending on border traffic.",
+    "fltNote": "Ohrid does have seasonal nonstop service from London Gatwick to OHD in peak travel periods, which is why LGW is marked direct, but frequency is limited and not year-round. Outside those seasonal windows, many UK/Ireland itineraries route via Skopje (SKP) or Tirana (TIA) because frequency is higher; onward travel is typically 15-20 min by taxi from OHD, about 3-4 hr by coach/car from SKP, or roughly 2.5-3 hr from TIA depending on border traffic.",
     "airports": [
       {
         "name": "Ohrid St. Paul the Apostle Airport",
@@ -91,10 +91,10 @@
         "dgw": true
       }
     ],
-    "currency": "Macedonian denar (MKD).",
+    "currency": "Macedonian denar (MKD); cards work in many hotels, restaurants, and central cafés, but cash is still useful for beach clubs, small boat operators, market buys, and some older taverns.",
     "lang": "Macedonian is the primary language; Albanian is also widely spoken, and English is common in tourism services.",
     "tz": "CET (UTC+1) in winter, CEST (UTC+2) in summer.",
-    "visa": "North Macedonia permits visa-free short stays for many passports, while other nationalities need visas arranged before travel.",
+    "visa": "North Macedonia allows visa-free short stays for many passports, while other nationalities need a visa arranged before travel; check the latest rules before booking if you plan to route in or out via neighboring Albania as part of the same trip.",
     "bestFor": [
       "Lakeside culture",
       "Budget Europe trips",

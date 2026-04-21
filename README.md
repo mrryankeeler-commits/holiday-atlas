@@ -77,7 +77,31 @@ Within `prac`, include:
 
 Monthly climate data is maintained from local CSV sources only (no external weather API/provider scripts).
 
-### Import command
+### Preferred local mixed-CSV workflow
+
+For a new mixed climate CSV, use the local flow below as the default:
+
+1. Preview the batch before writing anything:
+   - `python3 scripts/plan_climate_import.py --input-file 'data/climate/uploads/batch.csv' --mode stage`
+2. Run the local intake wrapper:
+   - `python3 scripts/run_location_intake.py --input-file 'data/climate/uploads/batch.csv' --write-reports`
+3. Review real enrichment work only:
+   - `python3 scripts/plan_enrichment_batch.py`
+4. Review queue/checklist drift separately:
+   - `python3 scripts/reconcile_enrichment_queue.py`
+
+Script roles:
+
+- `scripts/plan_climate_import.py`
+  - Preflight preview for mixed CSVs. Use it to catch fuzzy matches, unknown IDs, and invalid month coverage before import.
+- `scripts/run_location_intake.py`
+  - Preferred local wrapper for mixed CSV intake. It runs preflight first, imports only if the plan passes, then runs validation, provenance verification, audit, and enrichment planning.
+- `scripts/plan_enrichment_batch.py`
+  - Lists locations with real enrichment reasons. Queue membership alone is no longer treated as enrichment-needed.
+- `scripts/reconcile_enrichment_queue.py`
+  - Dry-run helper for queue/checklist drift. Use it after review work to find queue-only pending entries that are safe manual cleanup candidates.
+
+### Low-level import commands
 
 - Bulk import all CSV files in a directory:
   - `python scripts/import_climate_csv.py --input-dir data/climate`
@@ -180,6 +204,18 @@ If you need CI-style strictness that fails whenever any destination is still unv
 
 - Climate/provenance-only updates can be bulked.
 - In-depth destination enrichment (research-heavy practicals, costs/flights, activities, alerts) should be done in batches of up to **3 locations** for quality control.
+
+### Proven review rhythm
+
+For queue-only pending locations, use this lightweight review loop:
+
+1. Review 5 real `data/locations/<id>.json` files.
+2. Fix the weak ones immediately.
+3. Mark only the safe ones complete in the tracking files.
+4. Re-run:
+   - `python3 scripts/plan_enrichment_batch.py`
+   - `python3 scripts/reconcile_enrichment_queue.py`
+5. Move to the next 5.
 
 ### Month schema (documented fields)
 

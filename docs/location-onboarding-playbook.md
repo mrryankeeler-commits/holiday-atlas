@@ -14,7 +14,35 @@ Use this checklist every time you add new destinations.
 
 ---
 
-## 1) Upload CSV (GitHub Web)
+## 1) Preferred local mixed-CSV intake flow
+
+Use this as the default local workflow for a new mixed climate CSV.
+
+1. Put the CSV in `data/climate/uploads/`.
+2. Update `data/climate/aliases.json` first if you already know about spelling variants or alternate IDs.
+3. Run preflight before importing:
+   - `python3 scripts/plan_climate_import.py --input-file 'data/climate/uploads/batch.csv' --mode stage`
+4. Run the local intake wrapper:
+   - `python3 scripts/run_location_intake.py --input-file 'data/climate/uploads/batch.csv' --write-reports`
+5. Review what still needs real work:
+   - `python3 scripts/plan_enrichment_batch.py`
+6. Review queue/checklist drift separately:
+   - `python3 scripts/reconcile_enrichment_queue.py`
+
+### Script roles
+
+- `scripts/plan_climate_import.py`
+  - Preflight preview only. Use it to catch fuzzy matches, unknown locations, and incomplete month coverage before writing files.
+- `scripts/run_location_intake.py`
+  - Preferred local wrapper for mixed CSV intake. It runs preflight first, imports only if the plan passes, then runs validation, provenance verification, audit, and enrichment planning.
+- `scripts/plan_enrichment_batch.py`
+  - Shows locations that still have real enrichment reasons. Queue membership by itself is not treated as enrichment-needed.
+- `scripts/reconcile_enrichment_queue.py`
+  - Dry-run helper for queue/checklist drift. Use it after review work to identify queue-only pending locations that are safe manual cleanup candidates.
+
+---
+
+## 2) Upload CSV (GitHub Web)
 
 1. Upload CSV to `data/climate/uploads/`.
 2. If needed, update `data/climate/aliases.json` for misspellings/variants.
@@ -22,7 +50,7 @@ Use this checklist every time you add new destinations.
 
 ---
 
-## 2) Run importer workflow
+## 3) Run importer workflow
 
 1. Open **Actions**.
 2. Run **Import climate CSV (GitHub Web friendly)**.
@@ -35,7 +63,7 @@ Use this checklist every time you add new destinations.
 
 ---
 
-## 3) Promote staged locations to live (recommended path)
+## 4) Promote staged locations to live (recommended path)
 
 For each location promoted from pending:
 
@@ -55,7 +83,7 @@ For each location promoted from pending:
 
 ---
 
-## 4) Enrich in small batches (max 3 locations)
+## 5) Enrich in small batches (max 3 locations)
 
 For each location in batch:
 
@@ -71,9 +99,21 @@ For each location in batch:
    - `reviewedOn` (ISO date)
    - `profile`: `seasonality-inference-v1`
 
+### Proven review rhythm
+
+Use this process rhythm while the editorial bar is still being applied by review judgment rather than a final frozen checklist:
+
+1. Review 5 live `data/locations/<id>.json` files against the actual payloads, not just the queue markdown.
+2. Fix the weak ones immediately.
+3. Mark only the safe ones complete in the tracking files.
+4. Re-run:
+   - `python3 scripts/plan_enrichment_batch.py`
+   - `python3 scripts/reconcile_enrichment_queue.py`
+5. Move to the next 5.
+
 ---
 
-## 5) Climate verification (required target state: all verified)
+## 6) Climate verification (required target state: all verified)
 
 For each location file:
 
@@ -87,7 +127,7 @@ For each location file:
 
 ---
 
-## 6) Contract checks before merge
+## 7) Contract checks before merge
 
 Run:
 
@@ -127,7 +167,7 @@ Use this when validation flags `prac.visa`, `prac.currency`, `prac.lang`, or `pr
 
 ---
 
-## 7) App smoke check
+## 8) App smoke check
 
 1. Open app.
 2. Click each newly added location.
@@ -136,7 +176,7 @@ Use this when validation flags `prac.visa`, `prac.currency`, `prac.lang`, or `pr
 
 ---
 
-## 8) Release discipline
+## 9) Release discipline
 
 - Merge climate-only imports first if needed.
 - Then do enrichment PRs in small, reviewable batches.

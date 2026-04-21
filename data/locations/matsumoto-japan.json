@@ -65,12 +65,12 @@
       "spd": "35-180 Mbps",
       "note": "Strong in city hotels and station-area cafés; mountain lodges vary."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "For UK/Ireland arrivals, Haneda (HND) and Narita (NRT) are usually the most reliable long-haul entry points; continue to Matsumoto by limited domestic sectors to MMJ or, more commonly, by JR rail via Tokyo/Shinjuku, with strongest booking pressure around sakura (late Mar-Apr), Golden Week (late Apr-early May), Obon (mid-Aug), and autumn foliage weekends.",
+    "fltNote": "There are no nonstop UK/Ireland-Matsumoto services: Haneda (HND) and Narita (NRT) are usually the most reliable long-haul entry points, then continue by limited domestic sectors to MMJ or, more commonly, by JR rail via Tokyo/Shinjuku. Booking pressure is strongest around sakura (late Mar-Apr), Golden Week (late Apr-early May), Obon (mid-Aug), and autumn foliage weekends, so rail seats and city hotels both tighten early on peak dates.",
     "airports": [
       {
         "name": "Shinshu-Matsumoto Airport",
@@ -91,10 +91,10 @@
         "dgw": true
       }
     ],
-    "currency": "Japanese yen (JPY).",
+    "currency": "Japanese yen (JPY); cards are widely accepted in hotels, stations, and many restaurants, but cash is still useful for smaller soba shops, bathhouses, and some rural/alpine stops.",
     "lang": "Japanese is the primary language; English support is best at transport hubs, hotels, and major attractions.",
     "tz": "JST (UTC+9) year-round; no daylight saving time.",
-    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure.",
+    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure, so check the latest rules for your passport before locking in domestic rail or alpine side trips.",
     "bestFor": [
       "Alpine hiking",
       "Historic Japan",

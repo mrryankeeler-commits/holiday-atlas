@@ -65,12 +65,12 @@
       "spd": "30-120 Mbps",
       "note": "Reliable in station-area hotels and cafés; older ryokan may have weaker Wi-Fi."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "Most UK/Ireland visitors arrive through Kansai (KIX) or Tokyo (HND/NRT), then transfer by shinkansen to Fukuyama or Mihara plus a local JR leg to Onomichi; Hiroshima Airport (HIJ) works as a regional alternate with airport-limousine bus + rail transfer, and demand tightens around sakura, Golden Week, Obon, and autumn long weekends.",
+    "fltNote": "There are no nonstop UK/Ireland-Onomichi services: most visitors arrive through Kansai (KIX) or Tokyo (HND/NRT), then transfer by shinkansen to Fukuyama or Mihara plus a local JR leg to Onomichi. Hiroshima Airport (HIJ) works as a regional alternate with airport-limousine bus + rail transfer, and demand tightens around sakura, Golden Week, Obon, and autumn long weekends.",
     "airports": [
       {
         "name": "Hiroshima Airport",
@@ -91,10 +91,10 @@
         "dgw": true
       }
     ],
-    "currency": "Japanese yen (JPY).",
+    "currency": "Japanese yen (JPY); cards are widely accepted in hotels, stations, and many restaurants, but cash is still useful for smaller cafés, temple-adjacent shops, and local ferry stops.",
     "lang": "Japanese is the primary language; English support is best at transport hubs, hotels, and major attractions.",
     "tz": "JST (UTC+9) year-round; no daylight saving time.",
-    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure.",
+    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure, so check the latest rules before locking in rail-and-ferry legs across the Seto Inland Sea.",
     "bestFor": [
       "Cycling trips",
       "Scenic rail add-ons",

@@ -6,22 +6,22 @@ Use this exact source list for follow-up stubs (indexing + enrichment batching).
 
 ## Location IDs (24)
 
-- [ ] `accra-ghana` → `data/locations/accra-ghana.json`
-- [ ] `beppu-japan` → `data/locations/beppu-japan.json`
-- [ ] `cape-maclear-malawi` → `data/locations/cape-maclear-malawi.json`
-- [ ] `cuenca-ecuador` → `data/locations/cuenca-ecuador.json`
-- [ ] `dali-china` → `data/locations/dali-china.json`
-- [ ] `hell-ville-nosy-be-madagascar` → `data/locations/hell-ville-nosy-be-madagascar.json`
-- [ ] `ipoh-malaysia` → `data/locations/ipoh-malaysia.json`
-- [ ] `knysna-south-africa` → `data/locations/knysna-south-africa.json`
-- [ ] `krong-kep-cambodia` → `data/locations/krong-kep-cambodia.json`
-- [ ] `matsumoto-japan` → `data/locations/matsumoto-japan.json`
-- [ ] `ohrid-north-macedonia` → `data/locations/ohrid-north-macedonia.json`
-- [ ] `omonichi-japan` → `data/locations/omonichi-japan.json`
+- [x] `accra-ghana` → `data/locations/accra-ghana.json`
+- [x] `beppu-japan` → `data/locations/beppu-japan.json`
+- [x] `cape-maclear-malawi` → `data/locations/cape-maclear-malawi.json`
+- [x] `cuenca-ecuador` → `data/locations/cuenca-ecuador.json`
+- [x] `dali-china` → `data/locations/dali-china.json`
+- [x] `hell-ville-nosy-be-madagascar` → `data/locations/hell-ville-nosy-be-madagascar.json`
+- [x] `ipoh-malaysia` → `data/locations/ipoh-malaysia.json`
+- [x] `knysna-south-africa` → `data/locations/knysna-south-africa.json`
+- [x] `krong-kep-cambodia` → `data/locations/krong-kep-cambodia.json`
+- [x] `matsumoto-japan` → `data/locations/matsumoto-japan.json`
+- [x] `ohrid-north-macedonia` → `data/locations/ohrid-north-macedonia.json`
+- [ ] `onomichi-japan` → `data/locations/onomichi-japan.json`
 - [ ] `ostrava-czechia` → `data/locations/ostrava-czechia.json`
-- [ ] `popenguine-ndayane-senegal` → `data/locations/popenguine-ndayane-senegal.json`
-- [ ] `salento-colombia` → `data/locations/salento-colombia.json`
-- [ ] `san-cristobal-de-las-casas-mexico` → `data/locations/san-cristobal-de-las-casas-mexico.json`
+- [x] `popenguine-ndayane-senegal` → `data/locations/popenguine-ndayane-senegal.json`
+- [x] `salento-colombia` → `data/locations/salento-colombia.json`
+- [x] `san-cristobal-de-las-casas-mexico` → `data/locations/san-cristobal-de-las-casas-mexico.json`
 - [ ] `sideman-bali-indonesia` → `data/locations/sideman-bali-indonesia.json`
 - [ ] `sidi-ifni-morocco` → `data/locations/sidi-ifni-morocco.json`
 - [ ] `siquijor-philippines` → `data/locations/siquijor-philippines.json`

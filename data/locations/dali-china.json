@@ -20,12 +20,12 @@
   "region": "Dali Bai Autonomous Prefecture (Yunnan)",
   "lat": 25.6065,
   "lng": 100.2676,
-  "desc": "Dali anchors northwest Yunnan with Bai heritage towns, Erhai Lake, and Cangshan foothills, fitting travelers who want scenic culture and a slower pace outside China's megacities while planning around summer monsoon periods.",
+  "desc": "Dali anchors northwest Yunnan with Bai courtyard towns, Erhai Lake cycling routes, and Cangshan foothill views, making it a strong fit for travelers who want scenic culture and a slower pace outside China's megacities. It works especially well as a Yunnan base for mixing old-town café days with village stops and short mountain outings rather than rushing between big-ticket sights. The main constraints are summer monsoon downpours, domestic-holiday crowd spikes, and practical payment/language friction outside more polished hotels and transport hubs.",
   "hls": [
-    "Erhai Lake loop landscapes with village-to-village cycling",
-    "Bai architecture and courtyards in Dali Old Town and Xizhou",
-    "Cangshan mountain access for cableway viewpoints and short trails",
-    "Temperate highland climate ideal for spring/autumn pacing"
+    "Erhai Lake west-shore cycling between Caicun, Xizhou, and lakeside wetland stretches",
+    "Bai courtyard architecture and market-town texture in Dali Old Town and Xizhou",
+    "Cangshan cableway access for ridge views over Erhai and the Dali plain",
+    "Shaxi-compatible Yunnan pacing: cooler highland days, café culture, and slower village-to-village travel"
   ],
   "todo": [
     {
@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "20-80 Mbps",
-      "note": "Decent in modern hotels, variable in traditional courtyard inns."
+      "note": "Usually fine in modern hotels and newer guesthouses, but old-town courtyard inns can have weaker room-level coverage and more inconsistent speeds."
     },
     "directGW": false,
     "fltNote": "From the UK/Ireland, typical chains are long-haul to Kunming/Chengdu/Guangzhou/Shanghai (sometimes Hong Kong), then a domestic leg to Dali (DLU) or high-speed rail via Kunming; Lijiang (LJG) is a practical alternate airport for multi-stop Yunnan itineraries.",
@@ -87,10 +87,10 @@
         "dgw": false
       }
     ],
-    "currency": "Chinese yuan renminbi (CNY).",
+    "currency": "Chinese yuan renminbi (CNY); mobile payment dominates in much of China, but foreign cards can still be hit-or-miss outside larger hotels, so carry some cash and confirm payment options before longer village or market days.",
     "lang": "Mandarin Chinese is the primary language; English support is limited outside larger hotels and transport nodes.",
     "tz": "China Standard Time (UTC+8) year-round; no daylight saving time.",
-    "visa": "China entry is nationality-specific; many travelers still require a visa in advance, though some cities/routes may allow limited transit-without-visa schemes.",
+    "visa": "China entry is nationality-specific: many travelers still need a visa arranged before departure, while some routings may qualify for limited transit-without-visa schemes in gateway cities; confirm the rules that apply to your exact passport and arrival city before booking.",
     "bestFor": [
       "Scenic cycling",
       "Ethnic culture",

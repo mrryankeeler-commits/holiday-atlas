@@ -7,22 +7,22 @@
 
 | Done | Batch | ID |
 |---|---:|---|
-| [ ] | 1 | accra-ghana |
-| [ ] | 1 | beppu-japan |
-| [ ] | 1 | cape-maclear-malawi |
-| [ ] | 2 | cuenca-ecuador |
-| [ ] | 2 | dali-china |
-| [ ] | 2 | hell-ville-nosy-be-madagascar |
-| [ ] | 3 | ipoh-malaysia |
-| [ ] | 3 | knysna-south-africa |
-| [ ] | 3 | krong-kep-cambodia |
-| [ ] | 4 | matsumoto-japan |
-| [ ] | 4 | ohrid-north-macedonia |
+| [x] | 1 | accra-ghana |
+| [x] | 1 | beppu-japan |
+| [x] | 1 | cape-maclear-malawi |
+| [x] | 2 | cuenca-ecuador |
+| [x] | 2 | dali-china |
+| [x] | 2 | hell-ville-nosy-be-madagascar |
+| [x] | 3 | ipoh-malaysia |
+| [x] | 3 | knysna-south-africa |
+| [x] | 3 | krong-kep-cambodia |
+| [x] | 4 | matsumoto-japan |
+| [x] | 4 | ohrid-north-macedonia |
 | [ ] | 4 | onomichi-japan |
 | [ ] | 5 | ostrava-czechia |
-| [ ] | 5 | popenguine-ndayane-senegal |
-| [ ] | 5 | salento-colombia |
-| [ ] | 6 | san-cristobal-de-las-casas-mexico |
+| [x] | 5 | popenguine-ndayane-senegal |
+| [x] | 5 | salento-colombia |
+| [x] | 6 | san-cristobal-de-las-casas-mexico |
 | [ ] | 6 | sideman-bali-indonesia |
 | [ ] | 6 | sidi-ifni-morocco |
 | [ ] | 7 | siquijor-philippines |
@@ -35,32 +35,32 @@
 ## Batch views
 
 ### Batch 1
-- [ ] accra-ghana
-- [ ] beppu-japan
-- [ ] cape-maclear-malawi
+- [x] accra-ghana
+- [x] beppu-japan
+- [x] cape-maclear-malawi
 
 ### Batch 2
-- [ ] cuenca-ecuador
-- [ ] dali-china
-- [ ] hell-ville-nosy-be-madagascar
+- [x] cuenca-ecuador
+- [x] dali-china
+- [x] hell-ville-nosy-be-madagascar
 
 ### Batch 3
-- [ ] ipoh-malaysia
-- [ ] knysna-south-africa
-- [ ] krong-kep-cambodia
+- [x] ipoh-malaysia
+- [x] knysna-south-africa
+- [x] krong-kep-cambodia
 
 ### Batch 4
-- [ ] matsumoto-japan
-- [ ] ohrid-north-macedonia
+- [x] matsumoto-japan
+- [x] ohrid-north-macedonia
 - [ ] onomichi-japan
 
 ### Batch 5
 - [ ] ostrava-czechia
-- [ ] popenguine-ndayane-senegal
-- [ ] salento-colombia
+- [x] popenguine-ndayane-senegal
+- [x] salento-colombia
 
 ### Batch 6
-- [ ] san-cristobal-de-las-casas-mexico
+- [x] san-cristobal-de-las-casas-mexico
 - [ ] sideman-bali-indonesia
 - [ ] sidi-ifni-morocco
 

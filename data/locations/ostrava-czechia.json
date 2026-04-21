@@ -65,12 +65,12 @@
       "spd": "35-200 Mbps",
       "note": "Excellent urban coverage and strong coworking options."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "Most UK/Ireland trips connect via Prague, Vienna, Warsaw, or Katowice; final access is usually rail or coach, and fares spike around Colours of Ostrava plus Christmas/New Year weekends.",
+    "fltNote": "There are no practical nonstop UK/Ireland-Ostrava services: most trips connect via Prague, Vienna, Warsaw, or Katowice, then continue by regional flight, rail, or coach. Fares and seat pressure rise most around Colours of Ostrava plus Christmas/New Year weekends, when the final rail/coach leg can become the real bottleneck.",
     "airports": [
       {
         "name": "Leoš Janáček Airport Ostrava",
@@ -91,7 +91,7 @@
         "dgw": true
       }
     ],
-    "currency": "Czech koruna (CZK).",
+    "currency": "Czech koruna (CZK); cards are widely accepted in the city, but cash still helps for some bars, kiosks, and cross-border regional transport purchases.",
     "lang": "Czech is the primary language; English is common in hotels, restaurants, and transport hubs.",
     "tz": "CET (UTC+1) in winter, CEST (UTC+2) in summer.",
     "visa": "Czechia applies Schengen entry rules; many non-EU tourists can stay up to 90 days per 180 days visa-free, while others require a Schengen visa.",
