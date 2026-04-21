@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "35-200 Mbps",
-      "note": "Excellent urban coverage and strong coworking options."
+      "note": "Excellent urban coverage and strong coworking options, with the most reliable speeds around central hotels, modern apartments, and café-work spots."
     },
     "directGW": false,
     "directFrom": {
@@ -94,7 +94,7 @@
     "currency": "Czech koruna (CZK); cards are widely accepted in the city, but cash still helps for some bars, kiosks, and cross-border regional transport purchases.",
     "lang": "Czech is the primary language; English is common in hotels, restaurants, and transport hubs.",
     "tz": "CET (UTC+1) in winter, CEST (UTC+2) in summer.",
-    "visa": "Czechia applies Schengen entry rules; many non-EU tourists can stay up to 90 days per 180 days visa-free, while others require a Schengen visa.",
+    "visa": "Czechia applies Schengen entry rules; many non-EU tourists can stay up to 90 days per 180 days visa-free, while others require a Schengen visa, so confirm the current rule set before planning rail-heavy cross-border add-ons.",
     "bestFor": [
       "Industrial heritage",
       "City breaks",

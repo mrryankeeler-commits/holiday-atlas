@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "15-80 Mbps",
-      "note": "Generally solid in old-town hotels; speed dips at full summer occupancy."
+      "note": "Generally solid in old-town hotels and apartments, though speed dips are more common at full summer occupancy and in older stone buildings with weaker room coverage."
     },
     "directGW": true,
     "directFrom": {
@@ -94,7 +94,7 @@
     "currency": "Macedonian denar (MKD); cards work in many hotels, restaurants, and central cafés, but cash is still useful for beach clubs, small boat operators, market buys, and some older taverns.",
     "lang": "Macedonian is the primary language; Albanian is also widely spoken, and English is common in tourism services.",
     "tz": "CET (UTC+1) in winter, CEST (UTC+2) in summer.",
-    "visa": "North Macedonia allows visa-free short stays for many passports, while other nationalities need a visa arranged before travel; check the latest rules before booking if you plan to route in or out via neighboring Albania as part of the same trip.",
+    "visa": "North Macedonia allows visa-free short stays for many passports, while other nationalities need a visa arranged before travel; check the latest rules before booking, especially if you plan to combine Ohrid with Albania and assume the same border setup will apply both ways.",
     "bestFor": [
       "Lakeside culture",
       "Budget Europe trips",

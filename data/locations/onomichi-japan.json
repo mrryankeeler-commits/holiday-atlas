@@ -63,7 +63,7 @@
     "wifi": {
       "r": 4,
       "spd": "30-120 Mbps",
-      "note": "Reliable in station-area hotels and cafés; older ryokan may have weaker Wi-Fi."
+      "note": "Reliable in station-area hotels and cafés; older ryokan and hillside stays sometimes have weaker in-room Wi-Fi than the lobby/common areas."
     },
     "directGW": false,
     "directFrom": {
@@ -94,7 +94,7 @@
     "currency": "Japanese yen (JPY); cards are widely accepted in hotels, stations, and many restaurants, but cash is still useful for smaller cafés, temple-adjacent shops, and local ferry stops.",
     "lang": "Japanese is the primary language; English support is best at transport hubs, hotels, and major attractions.",
     "tz": "JST (UTC+9) year-round; no daylight saving time.",
-    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure, so check the latest rules before locking in rail-and-ferry legs across the Seto Inland Sea.",
+    "visa": "Japan entry is nationality-dependent; many short-stay tourists are visa-exempt, while others need a visa issued before departure, so check the latest rules before locking in rail-and-ferry legs across the Seto Inland Sea or building a tight multi-stop transport itinerary.",
     "bestFor": [
       "Cycling trips",
       "Scenic rail add-ons",

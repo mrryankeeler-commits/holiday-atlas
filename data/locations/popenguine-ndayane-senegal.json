@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "8-40 Mbps",
-      "note": "Adequate in guesthouses near main road; patchier in reserve-adjacent camps."
+      "note": "Adequate in guesthouses near the main road and village centers, but patchier in reserve-adjacent camps and quieter beachfront stays."
     },
     "directGW": false,
     "fltNote": "Most UK traffic is nonstop to DSS from London in winter, while many Ireland/UK regional departures connect via Paris, Lisbon, Madrid, or Casablanca; onward transfer is usually private taxi or app car (30-60 min).",
@@ -81,10 +81,10 @@
         "dgw": false
       }
     ],
-    "currency": "West African CFA franc (XOF).",
+    "currency": "West African CFA franc (XOF); cash is still the default for many guesthouses, pirogue outings, beach food stops, and local transport, while card acceptance is more dependable in Dakar or larger coastal hotels.",
     "lang": "French is the official language; Wolof is widely spoken, with limited English outside tourism-focused properties.",
     "tz": "GMT (UTC+0) year-round; no daylight saving time.",
-    "visa": "Senegal entry rules are nationality-dependent; some travelers are visa-exempt for short stays while others must obtain a visa/e-authorization pre-travel.",
+    "visa": "Senegal entry rules are nationality-dependent; some travelers are visa-exempt for short stays while others must obtain a visa or e-authorization before travel, so check the current rule for your passport before relying on a simple Dakar arrival.",
     "bestFor": [
       "Quiet beaches",
       "Nature reserves",

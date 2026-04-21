@@ -63,7 +63,7 @@
     "wifi": {
       "r": 3,
       "spd": "15-70 Mbps",
-      "note": "Usable in most villas, but valley storms can cause short dropouts."
+      "note": "Usually usable in villas and small stays, but valley storms and more remote hillside properties can cause short dropouts or weaker room-level coverage."
     },
     "directGW": false,
     "directFrom": {
@@ -91,10 +91,10 @@
         "dgw": false
       }
     ],
-    "currency": "Indonesian rupiah (IDR). Cash is still useful for small warungs, drivers, and village purchases, while card acceptance is better at higher-end villas and hotels.",
+    "currency": "Indonesian rupiah (IDR). Cash is still useful for small warungs, drivers, village purchases, and some wellness operators, while card acceptance is better at higher-end villas, hotels, and destination restaurants nearer the main road.",
     "lang": "Bahasa Indonesia is the national language; regional languages are common locally, and English is strongest in tourism services.",
     "tz": "WITA (UTC+8) for Bali and North Sulawesi year-round; no daylight saving time.",
-    "visa": "Indonesia entry depends on passport nationality; many visitors use visa exemption or e-VOA pathways, while others need a visa before travel. Check the latest entry rules before flying and carry onward-travel details if your route requires them.",
+    "visa": "Indonesia entry depends on passport nationality; many visitors use visa exemption or e-VOA pathways, while others need a visa before travel. Check the latest entry rules before flying, and keep onward-travel details plus your first-accommodation details handy if your route or carrier asks for them.",
     "bestFor": [
       "Quiet Bali stays",
       "Wellness trips",
