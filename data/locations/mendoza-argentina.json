@@ -1,0 +1,246 @@
+{
+  "id": "mendoza-argentina",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/27313/Average-Weather-in-Mendoza-Argentina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Mendoza",
+  "country": "Argentina",
+  "region": "Mendoza Province, Andean wine country",
+  "desc": "Mendoza is Argentina's most accessible wine-and-mountains city break, combining vineyard lunches, easy urban pacing, and big Andes scenery in a way that makes it stronger for long weekends and soft-adventure add-ons than for deep museum or nightlife travel alone.",
+  "hls": [
+    "Mendoza works because the city and wine country pair easily, so you can split time between plazas, long lunches, and vineyard days without huge logistics.",
+    "Wine tourism is the defining draw, especially around Lujan de Cuyo, Maipu, and the more scenic Valle de Uco.",
+    "The Andes backdrop matters to the destination identity almost as much as the wineries, especially on clear autumn and spring days.",
+    "Vendimia season gives Mendoza a bigger-event feel than the city has during quieter winter months.",
+    "The climate is drier and sunnier than many South American city breaks, but midsummer heat can still make daytime pacing sluggish.",
+    "Works especially well for 3-4 nights, with extra days only if you want a full High Andes or Uco Valley add-on."
+  ],
+  "todo": [
+    {
+      "name": "Plaza Independencia and central paseo blocks",
+      "cat": "City core",
+      "desc": "Use the center to settle into Mendoza's relaxed rhythm before heading out to wineries, because the city works best as more than just a sleep base."
+    },
+    {
+      "name": "Lujan de Cuyo winery lunch day",
+      "cat": "Wine",
+      "desc": "Build at least one full day around tastings and a long vineyard lunch because Mendoza's core appeal is experiential rather than checklist-led."
+    },
+    {
+      "name": "Maipu bike or driver-led bodega circuit",
+      "cat": "Wine",
+      "desc": "Choose Maipu if you want a lower-friction wine day with shorter transfers and an easier pairing of tastings."
+    },
+    {
+      "name": "Valle de Uco full-day outing",
+      "cat": "Scenic wine region",
+      "desc": "Keep one bigger excursion for mountain-backed wineries if you want the most dramatic version of Mendoza's wine-country scenery."
+    },
+    {
+      "name": "Parque General San Martin and Cerro de la Gloria",
+      "cat": "Parks & views",
+      "desc": "Use the parkland and hilltop monument for a lighter city day that still keeps the Andes feel in view."
+    },
+    {
+      "name": "High Andes or Aconcagua route day trip",
+      "cat": "Mountain scenery",
+      "desc": "Add one mountain day only if you have the time to let both the city and wine-country sides of Mendoza breathe first."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "50–150 Mbps",
+      "note": "City hotels, apartments, and cafe-work setups are usually solid for remote basics, with fewer day-to-day reliability worries than in smaller Argentine wine towns."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Mendoza has a convenient airport close to town, but there is no LGW or LCY nonstop. UK itineraries are still connection-led, often via Buenos Aires or another long-haul gateway before the final domestic or regional leg, so Mendoza feels well-connected by Argentine standards without being a true direct-access destination.",
+    "airports": [
+      {
+        "name": "Governor Francisco Gabrielli International Airport",
+        "code": "MDZ",
+        "km": 11,
+        "dgw": false
+      }
+    ],
+    "currency": "Argentine peso (ARS); card use is common, but exchange-rate behavior and cash needs can move quickly enough that pre-trip assumptions date fast.",
+    "lang": "Rioplatense Spanish is the default everyday language; English is most dependable in hotels, higher-end wineries, and organized tastings.",
+    "tz": "ART (UTC-3), no daylight saving time.",
+    "visa": "Argentina allows British citizens to visit visa-free for tourism for up to 90 days, with longer stays or non-tourist trips requiring the relevant Argentine permission.",
+    "bestFor": [
+      "Wine-focused city breaks",
+      "Andes-and-vineyard itineraries",
+      "Long-lunch travel",
+      "Argentina add-ons beyond Buenos Aires",
+      "Scenic autumn and spring trips"
+    ],
+    "alerts": [
+      "Wineries are spread across several subregions, so a car, driver, or planned transfers matter more than they first seem on a map.",
+      "January can feel hot and sleepy for city walking, even though pools, vineyards, and long lunches still work well.",
+      "Strong zonda-style winds can occasionally disrupt outdoor comfort and mountain visibility, especially on bigger excursion days."
+    ]
+  },
+  "sweet": "March to May is usually Mendoza's strongest window thanks to harvest energy, wine-country atmosphere, and comfortable temperatures, while October and November are also excellent if you want clear mountain views without vendimia-season crowding.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 25,
+      "hi": 31,
+      "lo": 19,
+      "daylight": 14.0,
+      "cld": 20,
+      "rain": 30,
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 24,
+      "hi": 29,
+      "lo": 18,
+      "daylight": 13.2,
+      "cld": 19,
+      "rain": 36,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 21,
+      "hi": 27,
+      "lo": 16,
+      "daylight": 12.2,
+      "cld": 19,
+      "rain": 25,
+      "busy": 10,
+      "ac": 5,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 22,
+      "lo": 11,
+      "daylight": 11.2,
+      "cld": 26,
+      "rain": 13,
+      "busy": 9,
+      "ac": 4,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 18,
+      "lo": 7,
+      "daylight": 10.4,
+      "cld": 43,
+      "rain": 8,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 9,
+      "hi": 15,
+      "lo": 4,
+      "daylight": 10.0,
+      "cld": 44,
+      "rain": 8,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 8,
+      "hi": 14,
+      "lo": 3,
+      "daylight": 10.2,
+      "cld": 37,
+      "rain": 5,
+      "busy": 4,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 11,
+      "hi": 17,
+      "lo": 5,
+      "daylight": 11.0,
+      "cld": 31,
+      "rain": 8,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 21,
+      "lo": 8,
+      "daylight": 11.9,
+      "cld": 29,
+      "rain": 10,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 13.0,
+      "cld": 23,
+      "rain": 13,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 22,
+      "hi": 28,
+      "lo": 16,
+      "daylight": 13.8,
+      "cld": 18,
+      "rain": 15,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 24,
+      "hi": 31,
+      "lo": 18,
+      "daylight": 14.3,
+      "cld": 18,
+      "rain": 20,
+      "busy": 6,
+      "ac": 3,
+      "fl": 5
+    }
+  ]
+}

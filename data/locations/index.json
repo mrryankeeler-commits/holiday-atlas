@@ -696,6 +696,14 @@
     "lng": 135.7681
   },
   {
+    "id": "la-paz-bolivia",
+    "city": "La Paz",
+    "country": "Bolivia",
+    "region": "La Paz Valley, Western Bolivia",
+    "lat": -16.5,
+    "lng": -68.15
+  },
+  {
     "id": "leh-kashmir-india",
     "city": "Leh",
     "country": "India",
@@ -752,6 +760,14 @@
     "lng": -16.9241
   },
   {
+    "id": "mahina-tahiti-french-polynesia",
+    "city": "Mahina (Tahiti)",
+    "country": "French Polynesia",
+    "region": "Tahiti Nui, Society Islands",
+    "lat": -17.5065,
+    "lng": -149.489
+  },
+  {
     "id": "makassar-indonesia",
     "city": "Makassar",
     "country": "Indonesia",
@@ -806,6 +822,14 @@
     "region": "Aburrá Valley (Antioquia Department)",
     "lat": 6.2442,
     "lng": -75.5812
+  },
+  {
+    "id": "mendoza-argentina",
+    "city": "Mendoza",
+    "country": "Argentina",
+    "region": "Mendoza Province, Andean wine country",
+    "lat": -32.8895,
+    "lng": -68.8458
   },
   {
     "id": "merida-yucatan-mexico",

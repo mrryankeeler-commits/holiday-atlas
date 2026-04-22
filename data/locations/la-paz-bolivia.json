@@ -1,0 +1,246 @@
+{
+  "id": "la-paz-bolivia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/27348/Average-Weather-in-La-Paz-Bolivia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "La Paz",
+  "country": "Bolivia",
+  "region": "La Paz Valley, Western Bolivia",
+  "desc": "La Paz is one of South America's most dramatic city breaks, dropping through a steep canyon beneath the high plateau and rewarding travelers who want cable-car views, Andean street life, and a capital-city atmosphere that feels tougher, higher, and more visually striking than Bolivia's calmer secondary cities.",
+  "hls": [
+    "Mi Teleferico is not just transport here; it is the clearest way to understand the city's layered canyon geography and altitude shifts.",
+    "The setting feels genuinely unusual, with dense urban neighbourhoods stacked below the Altiplano and Illimani often dominating the skyline on clearer days.",
+    "La Paz works best if you plan around acclimatisation, viewpoints, and street life rather than expecting a polished colonial-core city break.",
+    "The San Francisco, Mercado, and Witches' Market area gives the trip much of its texture, even if it can feel hectic rather than conventionally pretty.",
+    "Valle de la Luna adds an easy landscape contrast and is one of the most practical half-day outings from the city.",
+    "The dry season is far easier for views and movement, while the wetter months make the city feel grayer and less rewarding for viewpoint-heavy plans."
+  ],
+  "todo": [
+    {
+      "name": "Mi Teleferico city-crossing ride",
+      "cat": "Transport-viewpoint",
+      "desc": "Use at least one purposeful cable-car run between central La Paz and El Alto because the changing elevation is central to understanding the city."
+    },
+    {
+      "name": "Plaza San Francisco and Mercado de las Brujas area",
+      "cat": "Street life",
+      "desc": "Treat this as the sensory core of the visit, mixing churches, stalls, and everyday pace rather than trying to isolate one landmark at a time."
+    },
+    {
+      "name": "Plaza Murillo and the political center",
+      "cat": "Capital core",
+      "desc": "Walk the governmental heart of the city to ground the trip in La Paz's role as Bolivia's working capital, not just an altitude spectacle."
+    },
+    {
+      "name": "Calle Jaen and nearby museums",
+      "cat": "Heritage",
+      "desc": "Use this preserved lane for the most compact dose of old La Paz character before returning to the bigger, noisier city grid."
+    },
+    {
+      "name": "Valle de la Luna half-day outing",
+      "cat": "Landscape",
+      "desc": "Keep one lighter excursion for the eroded badlands on the south side of the city because they give La Paz a needed terrain contrast."
+    },
+    {
+      "name": "Killi Killi or another high viewpoint at golden hour",
+      "cat": "Viewpoint",
+      "desc": "Finish one day above the center so the canyon depth, brick neighbourhoods, and mountain backdrop register properly."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30–120 Mbps",
+      "note": "Central business hotels, apartments, and coworking-friendly cafes are usually workable for remote basics, but outages and steep-neighbourhood logistics still make mobile backup useful."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "La Paz has its own airport access via El Alto, but there is no LGW or LCY nonstop. UK trips are connection-led, typically through Madrid or another regional hub before the final Bolivia leg, and late arrivals can feel tougher here because you are landing straight into very high altitude.",
+    "airports": [
+      {
+        "name": "El Alto International Airport",
+        "code": "LPB",
+        "km": 13,
+        "dgw": false
+      }
+    ],
+    "currency": "Boliviano (BOB); cards work in better hotels, restaurants, and tour setups, but markets, smaller shops, and many taxis are still easier with cash.",
+    "lang": "Spanish is the everyday language, with Aymara also widely present in and around the city.",
+    "tz": "BOT (UTC-4), no daylight saving time.",
+    "visa": "Bolivia allows British citizens up to 90 days of visa-free tourism in a one-year period, though border officials often stamp a shorter initial stay and your passport should have at least 6 months' validity plus blank pages.",
+    "bestFor": [
+      "Andean capital-city breaks",
+      "High-altitude urban travel",
+      "Cable-car and viewpoint trips",
+      "Bolivia first-stop itineraries",
+      "Culture-led city days with mountain drama"
+    ],
+    "alerts": [
+      "Altitude is the main practical issue here, so plan a gentler first day and do not assume you will feel normal on arrival.",
+      "Demonstrations and road blockages are common enough in La Paz that transfer times can change abruptly even on otherwise normal travel days.",
+      "The city's steep terrain and patchy pavements make walking more tiring than the map suggests, especially once altitude kicks in."
+    ]
+  },
+  "sweet": "May to September is usually La Paz's strongest window, with the driest weather and clearest mountain views, while October can still work if you want slightly warmer conditions before the rainier season builds.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "daylight": 13.0,
+      "cld": 86,
+      "rain": 89,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "daylight": 12.6,
+      "cld": 85,
+      "rain": 76,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 12.2,
+      "cld": 79,
+      "rain": 48,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 14,
+      "lo": 3,
+      "daylight": 11.7,
+      "cld": 66,
+      "rain": 20,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 7,
+      "hi": 14,
+      "lo": 0,
+      "daylight": 11.3,
+      "cld": 53,
+      "rain": 5,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 6,
+      "hi": 13,
+      "lo": -2,
+      "daylight": 11.2,
+      "cld": 46,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 5,
+      "hi": 13,
+      "lo": -2,
+      "daylight": 11.3,
+      "cld": 39,
+      "rain": 5,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 6,
+      "hi": 14,
+      "lo": -1,
+      "daylight": 11.6,
+      "cld": 42,
+      "rain": 10,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 7,
+      "hi": 14,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 57,
+      "rain": 13,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 15,
+      "lo": 3,
+      "daylight": 12.5,
+      "cld": 70,
+      "rain": 25,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 9,
+      "hi": 16,
+      "lo": 4,
+      "daylight": 12.9,
+      "cld": 75,
+      "rain": 30,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 9,
+      "hi": 15,
+      "lo": 5,
+      "daylight": 13.1,
+      "cld": 82,
+      "rain": 58,
+      "busy": 5,
+      "ac": 3,
+      "fl": 5
+    }
+  ]
+}

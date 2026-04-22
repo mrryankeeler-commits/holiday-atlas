@@ -1,0 +1,246 @@
+{
+  "id": "mahina-tahiti-french-polynesia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Mahina (Tahiti)",
+  "country": "French Polynesia",
+  "region": "Tahiti Nui, Society Islands",
+  "desc": "Mahina is one of the best low-key bases on Tahiti if you want Point Venus, black-sand beach time, and the island's north-coast scenery without staying in central Papeete, making it a stronger fit for relaxed coastal days than for nightlife or urban sightseeing.",
+  "hls": [
+    "Point Venus gives Mahina a clear identity thanks to the black-sand beach, lighthouse, and Matavai Bay setting.",
+    "This is a quieter Tahiti base than Papeete, with more local-residential feel and easier access to the north and east coasts.",
+    "Mahina works best if you want beach, surf, and scenic-driving rhythm rather than a full-service resort bubble.",
+    "The drier season is noticeably easier for beach time, paddle or snorkel conditions, and clear coastal light.",
+    "Staying here makes most sense with a car or pre-planned transfers because evening spontaneity is thinner than around Papeete.",
+    "Works well as a calmer first or last Tahiti stay, especially if you want to avoid sleeping in the capital itself."
+  ],
+  "todo": [
+    {
+      "name": "Point Venus and Mahina lighthouse",
+      "cat": "Landmark",
+      "desc": "Use the lighthouse and bayfront as the anchor stop because it gives Mahina its clearest historical and visual identity."
+    },
+    {
+      "name": "Pointe Venus black-sand beach time",
+      "cat": "Beach",
+      "desc": "Keep one relaxed beach block here because Mahina's main appeal is slow coastal time rather than stacked sightseeing."
+    },
+    {
+      "name": "Pointe Venus aquatic trail or calm-water paddle",
+      "cat": "Water",
+      "desc": "Pick a good-weather slot for a water outing if conditions are settled, since reef and current comfort can change with swell."
+    },
+    {
+      "name": "Tapahi Point coastal stop",
+      "cat": "Viewpoint",
+      "desc": "Add this quick lookout for a stronger sense of the north-coast line between Mahina and Papenoo."
+    },
+    {
+      "name": "Papenoo Valley or east-coast scenic drive",
+      "cat": "Scenic drive",
+      "desc": "Use Mahina as the launch point for one bigger island day so the stay feels connected to Tahiti beyond the beach."
+    },
+    {
+      "name": "Sunrise or late-afternoon Matavai Bay walk",
+      "cat": "Pacing",
+      "desc": "Leave time for simple shoreline pacing because Mahina's payoff is often atmosphere and light rather than a packed checklist."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10–60 Mbps",
+      "note": "Hotels, guesthouses, and better holiday rentals are usually fine for light remote use, but Tahiti's outer-neighbourhood base style makes backup data and lower expectations sensible."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Mahina has no airport of its own and there is no LGW or LCY nonstop to Tahiti. UK trips route into Fa'a'a International Airport first, usually via a long-haul hub, then continue by road around Tahiti's north coast to Mahina, so this is a transfer-led coastal base rather than a direct-arrival destination.",
+    "airports": [
+      {
+        "name": "Fa'a'a International Airport",
+        "code": "PPT",
+        "km": 15,
+        "dgw": false
+      }
+    ],
+    "currency": "CFP franc (XPF); cards are widely accepted in hotels and established restaurants, but carrying some cash is useful for smaller everyday stops.",
+    "lang": "French and Tahitian are the main local languages; English is present in visitor-facing settings but less automatic than in resort-heavy islands.",
+    "tz": "TAHT (UTC-10), no daylight saving time.",
+    "visa": "French Polynesia follows French overseas-territory entry rules, so check the territory-specific requirements that apply to your passport rather than assuming generic Schengen rules.",
+    "bestFor": [
+      "Tahiti north-coast stays",
+      "Black-sand beach days",
+      "Point Venus visits",
+      "Relaxed French Polynesia first or last nights",
+      "Coastal-drive itineraries"
+    ],
+    "alerts": [
+      "Mahina is easier with a car or organized transfers because dining, beach time, and wider-island outings are more spread out than in central Papeete.",
+      "North-coast surf and swell can materially change swimming and water-activity comfort even when the day still looks bright.",
+      "Evenings are low-key here, so travelers wanting bars, shopping, or lots of restaurant choice may find the base too quiet."
+    ]
+  },
+  "sweet": "June to September is usually Mahina's easiest window for drier weather, calmer planning, and cleaner north-coast beach days, while May and October can still work well if you want softer crowd and price pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 13.0,
+      "cld": 76,
+      "rain": 163,
+      "busy": 4,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.6,
+      "cld": 74,
+      "rain": 132,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.2,
+      "cld": 67,
+      "rain": 96,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 62,
+      "rain": 81,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 11.3,
+      "cld": 49,
+      "rain": 64,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 11.1,
+      "cld": 34,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 25,
+      "hi": 29,
+      "lo": 22,
+      "daylight": 11.2,
+      "cld": 26,
+      "rain": 28,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 25,
+      "hi": 28,
+      "lo": 22,
+      "daylight": 11.6,
+      "cld": 23,
+      "rain": 25,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 12.0,
+      "cld": 30,
+      "rain": 25,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 12.5,
+      "cld": 48,
+      "rain": 66,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 12.9,
+      "cld": 65,
+      "rain": 99,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 13.2,
+      "cld": 77,
+      "rain": 178,
+      "busy": 6,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}
