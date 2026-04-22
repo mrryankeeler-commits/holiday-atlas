@@ -1,13 +1,5 @@
 [
   {
-    "id": "a-lat-vietnam",
-    "city": "Đà Lạt",
-    "country": "Vietnam",
-    "region": "Central Highlands (Lâm Đồng Province)",
-    "lat": 11.9404,
-    "lng": 108.4583
-  },
-  {
     "id": "accra-ghana",
     "city": "Accra",
     "country": "Ghana",
@@ -216,6 +208,14 @@
     "lng": 18.84
   },
   {
+    "id": "bushmills-northern-ireland",
+    "city": "Bushmills",
+    "country": "Northern Ireland",
+    "region": "Causeway Coast, County Antrim",
+    "lat": 55.2049,
+    "lng": -6.5192
+  },
+  {
     "id": "cairo",
     "city": "Cairo",
     "country": "Egypt",
@@ -278,6 +278,14 @@
     "region": "Azuay Province",
     "lat": -2.9001,
     "lng": -79.0059
+  },
+  {
+    "id": "da-lat-vietnam",
+    "city": "Đà Lạt",
+    "country": "Vietnam",
+    "region": "Central Highlands (Lâm Đồng Province)",
+    "lat": 11.9404,
+    "lng": 108.4583
   },
   {
     "id": "dahab-egypt",
@@ -584,6 +592,14 @@
     "lng": -77.0428
   },
   {
+    "id": "livingstone-zambia",
+    "city": "Livingstone",
+    "country": "Zambia",
+    "region": "Southern Province (Victoria Falls gateway)",
+    "lat": -17.8419,
+    "lng": 25.8542
+  },
+  {
     "id": "ljubljana-slovenia",
     "city": "Ljubljana",
     "country": "Slovenia",
@@ -806,6 +822,14 @@
     "region": "Thiès Region",
     "lat": 14.55,
     "lng": -17.1
+  },
+  {
+    "id": "portree-isle-of-skye-scotland",
+    "city": "Portree (Isle of Skye)",
+    "country": "Scotland",
+    "region": "Isle of Skye (Inner Hebrides)",
+    "lat": 57.4129,
+    "lng": -6.1942
   },
   {
     "id": "pottuvil",
@@ -1128,6 +1152,14 @@
     "lng": -4.0273
   },
   {
+    "id": "torshavn-faroe-islands",
+    "city": "Tórshavn",
+    "country": "Faroe Islands",
+    "region": "Streymoy",
+    "lat": 62.0097,
+    "lng": -6.7716
+  },
+  {
     "id": "trieste",
     "city": "Trieste",
     "country": "Italy",
@@ -1158,6 +1190,14 @@
     "region": "Western Balkans",
     "lat": 41.92,
     "lng": 19.2244
+  },
+  {
+    "id": "vaitape-bora-bora-french-polynesia",
+    "city": "Vaitape (Bora Bora)",
+    "country": "French Polynesia",
+    "region": "Bora Bora, Society Islands",
+    "lat": -16.5074,
+    "lng": -151.7491
   },
   {
     "id": "valletta",

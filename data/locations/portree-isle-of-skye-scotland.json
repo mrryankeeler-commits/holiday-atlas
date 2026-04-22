@@ -1,0 +1,258 @@
+{
+  "id": "portree-isle-of-skye-scotland",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/33974/Average-Weather-in-Portree-United-Kingdom-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Portree (Isle of Skye)",
+  "country": "Scotland",
+  "region": "Isle of Skye (Inner Hebrides)",
+  "desc": "Portree is the cleanest stay base for an Isle of Skye trip, with the island's widest lodging and dining choice plus practical road access to the Trotternish loop, Old Man of Storr, Quiraing, Fairy Glen, and west-coast drives.",
+  "hls": [
+    "Best practical overnight base for Skye rather than staying under a vague island-wide label.",
+    "Useful hub for weather-flexible driving because most classic Skye sights are road-based and spread out.",
+    "Long summer daylight is a major advantage for fitting viewpoints and hikes around changing cloud cover.",
+    "Portree itself is compact, but the value comes from its position on the Trotternish side of the island.",
+    "Peak-season parking and accommodation pressure is high relative to the town's size.",
+    "Works best for 2-4 nights so you can react to forecast windows rather than forcing a one-day lap of Skye."
+  ],
+  "todo": [
+    {
+      "name": "Old Man of Storr sunrise or late-day walk",
+      "cat": "Hiking",
+      "desc": "Choose the quieter edge of the day because parking pressure builds quickly in fair weather."
+    },
+    {
+      "name": "Quiraing drive-and-viewpoint loop",
+      "cat": "Scenic drive",
+      "desc": "Treat this as a half-day with weather flexibility rather than racing multiple major walks in one go."
+    },
+    {
+      "name": "Portree harbour + Scorrybreac walk",
+      "cat": "Town walk",
+      "desc": "Use the harbor and short clifftop path as the easy low-effort option when bigger mountain plans are clouded out."
+    },
+    {
+      "name": "Dunvegan or Neist Point west-coast day",
+      "cat": "Road trip",
+      "desc": "Pick one western anchor and leave time for pull-ins and weather changes rather than overloading the route."
+    },
+    {
+      "name": "Fairy Pools early-start visit",
+      "cat": "Outdoor",
+      "desc": "Go early for calmer parking and better odds of a less crowded path if the forecast is dry."
+    },
+    {
+      "name": "Staffin and Kilt Rock photo stops",
+      "cat": "Scenic",
+      "desc": "Bundle the east-side viewpoints into one short driving block from Portree when visibility is best."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–70 Mbps",
+      "note": "Central Portree stays are usually workable, but island-wide performance varies and bad weather can make mobile backup more valuable than in a city."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Portree has no airport, so this is always a gateway-and-transfer trip. Most visitors fly into Inverness or Glasgow, then continue several hours by car, coach, or a train-plus-bus chain. Even when there are easy London flights to Scottish gateways, Portree itself should not carry a direct-flight badge.",
+    "airports": [
+      {
+        "name": "Inverness Airport",
+        "code": "INV",
+        "km": 180,
+        "dgw": false
+      },
+      {
+        "name": "Glasgow Airport",
+        "code": "GLA",
+        "km": 295,
+        "dgw": false
+      },
+      {
+        "name": "Benbecula Airport",
+        "code": "BEB",
+        "km": 185,
+        "dgw": false
+      }
+    ],
+    "currency": "Pound sterling (GBP); cards are widely accepted, but fuel, cafés, and small local operators are easier with a little cash backup.",
+    "lang": "English; Scottish Gaelic still has visible cultural presence in place names and some local signage.",
+    "tz": "GMT/BST (UTC+0/+1)",
+    "visa": "Scotland follows the UK's entry rules, so visa-free access depends on nationality and some travelers now need UK ETA approval before departure.",
+    "bestFor": [
+      "Skye road trips",
+      "Coastal scenery",
+      "Short hiking breaks",
+      "Photographic itineraries",
+      "Highlands add-on travel"
+    ],
+    "alerts": [
+      "Weather can wipe out visibility fast, so a forecast-led plan matters more than a rigid sightseeing list.",
+      "Summer parking pressure is severe at Storr, Quiraing, Fairy Pools, and other headline stops.",
+      "Driving days take longer than map distance suggests because of single-track sections, sheep, and scenic pull-ins."
+    ]
+  },
+  "sweet": "May to September is usually the easiest window for daylight and island logistics, while late April and September often give the best compromise between access and crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 7.4,
+      "cld": 72,
+      "rain": 137,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 9.5,
+      "cld": 71,
+      "rain": 112,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 11.9,
+      "cld": 69,
+      "rain": 96,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 9,
+      "lo": 4,
+      "daylight": 14.4,
+      "cld": 61,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 9,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 16.7,
+      "cld": 55,
+      "rain": 56,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 17.9,
+      "cld": 57,
+      "rain": 61,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 13,
+      "hi": 16,
+      "lo": 11,
+      "daylight": 17.2,
+      "cld": 57,
+      "rain": 71,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 16,
+      "lo": 11,
+      "daylight": 15.1,
+      "cld": 58,
+      "rain": 89,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 12.7,
+      "cld": 60,
+      "rain": 104,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 11,
+      "lo": 7,
+      "daylight": 10.2,
+      "cld": 63,
+      "rain": 119,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 7,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 8.0,
+      "cld": 68,
+      "rain": 130,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 6.7,
+      "cld": 70,
+      "rain": 135,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}
