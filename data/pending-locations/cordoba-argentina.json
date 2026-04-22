@@ -1,0 +1,141 @@
+{
+  "id": "cordoba-argentina",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Córdoba",
+  "country": "Argentina",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Jan",
+      "Avg Temp (°C)": "23.9",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "127.0",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Feb",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "13.2",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "124.5",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Mar",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "101.6",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Apr",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "11.3",
+      "Cloud Cover (%)": "25",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "May",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "35",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Jun",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "36",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Jul",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "10.3",
+      "Cloud Cover (%)": "29",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Aug",
+      "Avg Temp (°C)": "13.3",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "11.0",
+      "Cloud Cover (%)": "26",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Sep",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "25",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Oct",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "25.6",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "12.9",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Nov",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "15.6",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    },
+    {
+      "Location": "Córdoba, Argentina",
+      "Month": "Dec",
+      "Avg Temp (°C)": "23.3",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "14.2",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "127.0",
+      "Source URL": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+    }
+  ]
+}

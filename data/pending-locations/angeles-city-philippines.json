@@ -1,0 +1,141 @@
+{
+  "id": "angeles-city-philippines",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Angeles City",
+  "country": "Philippines",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Jan",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "21.7",
+      "Daylight (h/day)": "11.3",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Feb",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "31.1",
+      "Avg Low (°C)": "22.2",
+      "Daylight (h/day)": "11.7",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Mar",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "32.8",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Apr",
+      "Avg Temp (°C)": "28.9",
+      "Avg High (°C)": "33.9",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "May",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "33.3",
+      "Avg Low (°C)": "25",
+      "Daylight (h/day)": "12.8",
+      "Cloud Cover (%)": "87",
+      "Rainfall (mm)": "152.4",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Jun",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "31.7",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "13",
+      "Cloud Cover (%)": "92",
+      "Rainfall (mm)": "309.9",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Jul",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.9",
+      "Cloud Cover (%)": "91",
+      "Rainfall (mm)": "454.7",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Aug",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "92",
+      "Rainfall (mm)": "528.3",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Sep",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "90",
+      "Rainfall (mm)": "370.8",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Oct",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "82",
+      "Rainfall (mm)": "175.3",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Nov",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "11.4",
+      "Cloud Cover (%)": "70",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    },
+    {
+      "Location": "Angeles City, Philippines",
+      "Month": "Dec",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "22.2",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+    }
+  ]
+}

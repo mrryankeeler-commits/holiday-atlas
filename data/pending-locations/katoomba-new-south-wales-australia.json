@@ -1,0 +1,141 @@
+{
+  "id": "katoomba-new-south-wales-australia",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Katoomba",
+  "country": "New South Wales, Australia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "14.1",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "17.2",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "91.4",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "15",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "10",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "29",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "33",
+      "Rainfall (mm)": "66",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "May",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "10.4",
+      "Cloud Cover (%)": "37",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "5",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "9.9",
+      "Cloud Cover (%)": "36",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "10.2",
+      "Cloud Cover (%)": "28",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "26",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "18.9",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "13",
+      "Cloud Cover (%)": "32",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    },
+    {
+      "Location": "Katoomba, New South Wales, Australia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "14.4",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+    }
+  ]
+}

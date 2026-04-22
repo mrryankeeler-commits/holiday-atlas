@@ -1,0 +1,141 @@
+{
+  "id": "santiago-chile",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Jan",
+      "Avg Temp (°C)": "21.7",
+      "Avg High (°C)": "30.0",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "14.1",
+      "Cloud Cover (%)": "10",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Feb",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "9",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Mar",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "16",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Apr",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "May",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "18.9",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "10.4",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Jun",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "10.0",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Jul",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "3.3",
+      "Daylight (h/day)": "10.2",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Aug",
+      "Avg Temp (°C)": "10.0",
+      "Avg High (°C)": "17.2",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "11.0",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Sep",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Oct",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "13.0",
+      "Cloud Cover (%)": "32",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Nov",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "26.1",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    },
+    {
+      "Location": "Santiago, Chile",
+      "Month": "Dec",
+      "Avg Temp (°C)": "20.6",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "14.3",
+      "Cloud Cover (%)": "13",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "salzburg-austria",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Salzburg",
+  "country": "Austria",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-0.6",
+      "Avg High (°C)": "2.8",
+      "Avg Low (°C)": "-3.3",
+      "Daylight (h/day)": "8.9",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Feb",
+      "Avg Temp (°C)": "0.6",
+      "Avg High (°C)": "5",
+      "Avg Low (°C)": "-2.8",
+      "Daylight (h/day)": "10.3",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Mar",
+      "Avg Temp (°C)": "5",
+      "Avg High (°C)": "10",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "61",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Apr",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "May",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "18.9",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "15.2",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Jun",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "16",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "132.1",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Jul",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "15.5",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "137.2",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Aug",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "14.2",
+      "Cloud Cover (%)": "45",
+      "Rainfall (mm)": "127",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Sep",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "10",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Oct",
+      "Avg Temp (°C)": "10",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "66",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Nov",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "9.3",
+      "Cloud Cover (%)": "63",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    },
+    {
+      "Location": "Salzburg, Austria",
+      "Month": "Dec",
+      "Avg Temp (°C)": "0.6",
+      "Avg High (°C)": "3.3",
+      "Avg Low (°C)": "-2.2",
+      "Daylight (h/day)": "8.5",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+    }
+  ]
+}

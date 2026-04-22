@@ -1,0 +1,141 @@
+{
+  "id": "berchtesgaden-germany",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Berchtesgaden",
+  "country": "Germany",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-2.8",
+      "Avg High (°C)": "0",
+      "Avg Low (°C)": "-5.6",
+      "Daylight (h/day)": "8.9",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Feb",
+      "Avg Temp (°C)": "-1.7",
+      "Avg High (°C)": "2.2",
+      "Avg Low (°C)": "-5",
+      "Daylight (h/day)": "10.3",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Mar",
+      "Avg Temp (°C)": "2.8",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Apr",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "May",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "17.2",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "15.2",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Jun",
+      "Avg Temp (°C)": "15",
+      "Avg High (°C)": "20",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "15.9",
+      "Cloud Cover (%)": "56",
+      "Rainfall (mm)": "139.7",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Jul",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "15.5",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "149.9",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Aug",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "14.2",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "134.6",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Sep",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Oct",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "12.2",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "66",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Nov",
+      "Avg Temp (°C)": "2.2",
+      "Avg High (°C)": "5.6",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "9.3",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    },
+    {
+      "Location": "Berchtesgaden, Germany",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-1.7",
+      "Avg High (°C)": "1.1",
+      "Avg Low (°C)": "-4.4",
+      "Daylight (h/day)": "8.5",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+    }
+  ]
+}

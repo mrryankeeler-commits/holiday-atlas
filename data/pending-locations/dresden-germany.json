@@ -1,0 +1,141 @@
+{
+  "id": "dresden-germany",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Dresden",
+  "country": "Germany",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Jan",
+      "Avg Temp (°C)": "1.1",
+      "Avg High (°C)": "3.3",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "8.5",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Feb",
+      "Avg Temp (°C)": "1.7",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "63",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Mar",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Apr",
+      "Avg Temp (°C)": "10",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "May",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "18.9",
+      "Avg Low (°C)": "10",
+      "Daylight (h/day)": "15.6",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Jun",
+      "Avg Temp (°C)": "17.2",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "16.5",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Jul",
+      "Avg Temp (°C)": "20",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "15",
+      "Daylight (h/day)": "16",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Aug",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.4",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Sep",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Oct",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Nov",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "8.9",
+      "Cloud Cover (%)": "68",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    },
+    {
+      "Location": "Dresden, Germany",
+      "Month": "Dec",
+      "Avg Temp (°C)": "2.2",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "8",
+      "Cloud Cover (%)": "69",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+    }
+  ]
+}

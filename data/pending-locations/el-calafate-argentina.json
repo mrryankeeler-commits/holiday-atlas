@@ -1,0 +1,141 @@
+{
+  "id": "el-calafate-argentina",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "El Calafate",
+  "country": "Argentina",
+  "region": "",
+  "rows": [
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Jan",
+      "Avg Temp (°C)": "13.3",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "15.8",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Feb",
+      "Avg Temp (°C)": "13.3",
+      "Avg High (°C)": "17.2",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "14.2",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Mar",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "15",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Apr",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "May",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "7.2",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "8.9",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Jun",
+      "Avg Temp (°C)": "1.1",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "8.1",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Jul",
+      "Avg Temp (°C)": "1.1",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-1.7",
+      "Daylight (h/day)": "8.6",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Aug",
+      "Avg Temp (°C)": "2.8",
+      "Avg High (°C)": "6.1",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "10",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Sep",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Oct",
+      "Avg Temp (°C)": "8.3",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Nov",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "15",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "15.4",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    },
+    {
+      "Location": "El Calafate, Argentina",
+      "Month": "Dec",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "16.3",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+    }
+  ]
+}

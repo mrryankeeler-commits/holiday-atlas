@@ -1,0 +1,141 @@
+{
+  "id": "mahina-tahiti-french-polynesia",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Mahina (Tahiti)",
+  "country": "French Polynesia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "13",
+      "Cloud Cover (%)": "76",
+      "Rainfall (mm)": "162.6",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "74",
+      "Rainfall (mm)": "132.1",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "31.1",
+      "Avg Low (°C)": "25",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "67",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "11.7",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "May",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "11.3",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "22.8",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "22.2",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "26",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "22.2",
+      "Daylight (h/day)": "11.6",
+      "Cloud Cover (%)": "23",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "22.8",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "66",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.9",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    },
+    {
+      "Location": "Mahina (Tahiti), French Polynesia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "13.2",
+      "Cloud Cover (%)": "77",
+      "Rainfall (mm)": "177.8",
+      "Source URL": "https://weatherspark.com/y/237/Average-Weather-in-Mahina-French-Polynesia-Year-Round"
+    }
+  ]
+}

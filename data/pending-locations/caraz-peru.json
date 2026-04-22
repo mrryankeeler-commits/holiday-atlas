@@ -1,0 +1,141 @@
+{
+  "id": "caraz-peru",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Caraz",
+  "country": "Peru",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Jan",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "82",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Feb",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "87",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Mar",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "85",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Apr",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "68",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "May",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "11.7",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Jun",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "10",
+      "Daylight (h/day)": "11.6",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Jul",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "10",
+      "Daylight (h/day)": "11.7",
+      "Cloud Cover (%)": "35",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Aug",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "36",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Sep",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Oct",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "66",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Nov",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "71",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    },
+    {
+      "Location": "Caraz, Peru",
+      "Month": "Dec",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "77",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+    }
+  ]
+}

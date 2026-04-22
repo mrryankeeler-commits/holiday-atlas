@@ -1,0 +1,141 @@
+{
+  "id": "montevideo-uruguay",
+  "source": "Climate_data_06 - Climate_Data.csv",
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Jan",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "14.2",
+      "Cloud Cover (%)": "29",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Feb",
+      "Avg Temp (°C)": "22.2",
+      "Avg High (°C)": "26.1",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "32",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Mar",
+      "Avg Temp (°C)": "20.6",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "33",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Apr",
+      "Avg Temp (°C)": "17.2",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "May",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "10.3",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Jun",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "15.0",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "73.7",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Jul",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Aug",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Sep",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "17.2",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Oct",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "20.0",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "13.0",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "91.4",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Nov",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "35",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    },
+    {
+      "Location": "Montevideo, Uruguay",
+      "Month": "Dec",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "25.6",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "32",
+      "Rainfall (mm)": "78.7",
+      "Source URL": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+    }
+  ]
+}
