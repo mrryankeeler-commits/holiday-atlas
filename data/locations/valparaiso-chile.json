@@ -1,0 +1,246 @@
+{
+  "id": "valparaiso-chile",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/25811/Average-Weather-in-Valpara%C3%ADso-Chile-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Valparaíso",
+  "country": "Chile",
+  "region": "Valparaíso Region, Central Chile coast",
+  "desc": "Valparaíso is one of South America's most atmospheric short-break cities for travelers who want steep cerro viewpoints, street art, old funicular character, and a scruffier but more distinctive urban texture than polished capital-city Chile, with enough heritage and Pacific light to reward people who value mood and place over checklist sightseeing.",
+  "hls": [
+    "The draw is the layered hill-city atmosphere: ascensores, stairways, murals, bay views, and neighborhood texture matter more than any single monument.",
+    "Cerros Alegre and Concepción are central to why the city works, combining color, viewpoints, cafés, and the strongest visitor-friendly walking routes.",
+    "Valparaíso feels culturally richer than a simple coast add-on because poetry, port history, nightlife, and urban grit all sit in the same frame.",
+    "The city is best treated as a culture-and-wander destination rather than a beach break, even though Viña del Mar is close by.",
+    "Marine-layer grey and cooler Pacific conditions are part of the reality here, so summer does not always mean hot, cloudless city weather.",
+    "Two or three nights is usually enough for the city itself, with extra time only if you want slower pacing or nearby coast add-ons."
+  ],
+  "todo": [
+    {
+      "name": "Cerro Alegre and Cerro Concepción wander",
+      "cat": "Neighborhood",
+      "desc": "Treat these hills as the heart of the trip because their streets, lookouts, and cafés define the Valparaíso experience."
+    },
+    {
+      "name": "Historic ascensores and miradores",
+      "cat": "City character",
+      "desc": "Ride at least a couple of the classic funiculars so the city's vertical geography feels lived rather than just observed."
+    },
+    {
+      "name": "La Sebastiana",
+      "cat": "Culture",
+      "desc": "Use Pablo Neruda's hillside house for perspective on the city's eccentric character as well as its bay views."
+    },
+    {
+      "name": "Street-art and stairway circuit",
+      "cat": "Urban walk",
+      "desc": "Build one route around murals and smaller lanes, because Valparaíso reveals itself better by wandering than by rushing landmark to landmark."
+    },
+    {
+      "name": "Port and bay-edge viewpoint block",
+      "cat": "Viewpoint",
+      "desc": "Keep one stretch for the harbor-facing side of the city so the port identity is part of the trip rather than background scenery."
+    },
+    {
+      "name": "Viña del Mar contrast half-day",
+      "cat": "Nearby contrast",
+      "desc": "Add this only if you want to compare Valparaíso's rough-edged character with a more conventional Chilean coast city next door."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–150 Mbps",
+      "note": "Tourism-facing hotels, apartments, and cafés in the main cerro districts are usually fine for remote basics, though older buildings can be less consistent than they look online."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Valparaíso has no airport of its own. Official Chile Travel guidance routes arrivals via Santiago's main airport, then about 120 km onward by Route 68, typically around 1.5 hours by bus, transfer, or car, so this stays a gateway-and-transfer destination rather than any kind of nonstop London arrival.",
+    "airports": [
+      {
+        "name": "Comodoro Arturo Merino Benítez International Airport",
+        "code": "SCL",
+        "km": 115,
+        "dgw": false
+      }
+    ],
+    "currency": "Chilean peso (CLP); cards are widely accepted, but cash is still useful for smaller shops, older cafés, and occasional local transport or kiosk stops.",
+    "lang": "Spanish is the everyday language; English is workable in some boutique hotels, tours, and restaurant-heavy areas but is not something to rely on citywide.",
+    "tz": "CLT/CLST (UTC-4/-3)",
+    "visa": "British citizens can usually visit Chile for up to 90 days without a visa, with the exact stay and entry conditions set by Chilean immigration at arrival.",
+    "bestFor": [
+      "Street-art city breaks",
+      "Pacific coast culture trips",
+      "Urban photography weekends",
+      "Chile add-on stays",
+      "Viewpoint-heavy slow travel"
+    ],
+    "alerts": [
+      "Valparaíso's hills are steep, stair-heavy, and often uneven underfoot, so hotel location matters much more than map distance first suggests.",
+      "The city is atmospheric rather than polished, which is part of the appeal but can wrong-foot travelers expecting a tidy resort-style coast break.",
+      "Coastal cloud, wind, and cooler temperatures can flatten viewpoint plans even in nominally warmer months."
+    ]
+  },
+  "sweet": "October to April is usually Valparaíso's strongest window for brighter coast weather and livelier city energy, with November to March especially appealing if you want the hills at their most active.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 17,
+      "hi": 20,
+      "lo": 12,
+      "daylight": 14.0,
+      "cld": 8,
+      "rain": 0,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 16,
+      "hi": 20,
+      "lo": 12,
+      "daylight": 13.2,
+      "cld": 8,
+      "rain": 0,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 15,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 12.2,
+      "cld": 14,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 14,
+      "hi": 18,
+      "lo": 10,
+      "daylight": 11.2,
+      "cld": 29,
+      "rain": 13,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 16,
+      "lo": 9,
+      "daylight": 10.4,
+      "cld": 49,
+      "rain": 41,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 10.0,
+      "cld": 52,
+      "rain": 53,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 11,
+      "hi": 15,
+      "lo": 7,
+      "daylight": 10.2,
+      "cld": 47,
+      "rain": 48,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 12,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 11.0,
+      "cld": 42,
+      "rain": 36,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 11.9,
+      "cld": 38,
+      "rain": 15,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "daylight": 13.0,
+      "cld": 31,
+      "rain": 8,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 14,
+      "hi": 18,
+      "lo": 10,
+      "daylight": 13.9,
+      "cld": 19,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 16,
+      "hi": 19,
+      "lo": 12,
+      "daylight": 14.3,
+      "cld": 12,
+      "rain": 0,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

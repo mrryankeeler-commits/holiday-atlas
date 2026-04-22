@@ -1248,6 +1248,14 @@
     "lng": 123.5153
   },
   {
+    "id": "strasbourg-france",
+    "city": "Strasbourg",
+    "country": "France",
+    "region": "Alsace, Grand Est",
+    "lat": 48.5734,
+    "lng": 7.7521
+  },
+  {
     "id": "suncheon-south-korea",
     "city": "Suncheon",
     "country": "South Korea",
@@ -1310,6 +1318,14 @@
     "region": "South Caucasus",
     "lat": 41.7151,
     "lng": 44.8271
+  },
+  {
+    "id": "te-anau-new-zealand",
+    "city": "Te Anau",
+    "country": "New Zealand",
+    "region": "Fiordland, Southland",
+    "lat": -45.4145,
+    "lng": 167.7182
   },
   {
     "id": "tekapo-new-zealand",
@@ -1406,6 +1422,14 @@
     "region": "Malta",
     "lat": 35.8989,
     "lng": 14.5146
+  },
+  {
+    "id": "valparaiso-chile",
+    "city": "Valparaíso",
+    "country": "Chile",
+    "region": "Valparaíso Region, Central Chile coast",
+    "lat": -33.0472,
+    "lng": -71.6127
   },
   {
     "id": "varna",

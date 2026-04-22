@@ -1,0 +1,252 @@
+{
+  "id": "te-anau-new-zealand",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/144773/Average-Weather-in-Te-Anau-New-Zealand-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Te Anau",
+  "country": "New Zealand",
+  "region": "Fiordland, Southland",
+  "desc": "Te Anau is Fiordland's best practical base for travelers who want Milford Sound access, Great Walks logistics, and a calmer lakefront town rhythm than Queenstown, with enough services to support a real stay while still feeling properly on the edge of New Zealand's biggest wilderness landscapes.",
+  "hls": [
+    "Te Anau works because it is not just scenic in itself; it is the operational base that makes Milford Sound, Doubtful Sound, and Fiordland walking plans realistic.",
+    "The lakefront setting gives the town a more restful feel than many pure transit bases, especially on clear evenings or slower non-cruise days.",
+    "Kepler Track access and glowworm caves give Te Anau enough substance to justify staying rather than treating it as a single-night stop.",
+    "Weather is a real part of the destination story here, because rain, cloud, and road conditions directly affect what visitors can see and do.",
+    "Summer brings the longest days and strongest hiking window, but shoulder seasons can feel more spacious if you accept cooler, changeable conditions.",
+    "This is a place for scenery, logistics, and pacing, not nightlife or big-town variety."
+  ],
+  "todo": [
+    {
+      "name": "Milford Sound day",
+      "cat": "Fiordland classic",
+      "desc": "Give this a full day because the drive, stops, and weather windows matter as much as the cruise itself."
+    },
+    {
+      "name": "Doubtful Sound excursion",
+      "cat": "Wilderness trip",
+      "desc": "Choose this if you want the bigger expedition feel, but build around its longer boat-and-bus logistics."
+    },
+    {
+      "name": "Kepler Track section walk",
+      "cat": "Hiking",
+      "desc": "Even a partial Kepler outing helps Te Anau feel like a real walking base rather than just a tour pickup point."
+    },
+    {
+      "name": "Te Anau Glowworm Caves",
+      "cat": "Nature",
+      "desc": "Use this on a mixed-weather day because it adds a distinctive Fiordland experience without needing full alpine conditions."
+    },
+    {
+      "name": "Lakefront and town-centre evening",
+      "cat": "Slow travel",
+      "desc": "Keep one quieter evening for the waterfront, because the calm end-of-day atmosphere is part of Te Anau's appeal."
+    },
+    {
+      "name": "Eglinton Valley and Mirror Lakes drive",
+      "cat": "Scenic drive",
+      "desc": "Treat the road scenery as part of the destination, not just dead time between town and the fjords."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–80 Mbps",
+      "note": "Te Anau is generally fine for light remote basics in town-center stays, but speeds can dip in busy evening periods and you should not expect city-grade resilience."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Te Anau has no airport of its own. New Zealand's official tourism guidance and Visit Fiordland both point to Queenstown as the closest practical airport for domestic and international flights, with Invercargill as another roughly two-hour road option, so this is firmly a gateway-and-transfer destination rather than any kind of nonstop arrival.",
+    "airports": [
+      {
+        "name": "Queenstown Airport",
+        "code": "ZQN",
+        "km": 171,
+        "dgw": false
+      },
+      {
+        "name": "Invercargill Airport",
+        "code": "IVC",
+        "km": 160,
+        "dgw": false
+      }
+    ],
+    "currency": "New Zealand dollar (NZD); cards are widely accepted, but some smaller operators and rural stops are still easier with a little cash backup.",
+    "lang": "English is the everyday language; Māori place names are widely used across Fiordland and transport planning.",
+    "tz": "NZST/NZDT (UTC+12/+13)",
+    "visa": "Most British and other visa-waiver visitors need an approved NZeTA before travel, plus onward plans and compliance with New Zealand's strict biosecurity controls.",
+    "bestFor": [
+      "Milford Sound bases",
+      "Fiordland road trips",
+      "Great Walks logistics",
+      "Lakefront scenic stays",
+      "Nature-first South Island itineraries"
+    ],
+    "alerts": [
+      "Fiordland weather can cancel or materially reshape cruises, hikes, and scenic flights even when your broader South Island plan looks stable.",
+      "The Milford road day is longer and more stop-heavy than many first-timers assume, so very late starts waste one of the destination's main strengths.",
+      "Summer accommodation and tour capacity tighten quickly, especially around December to February and major holiday periods."
+    ]
+  },
+  "sweet": "November to March is usually Te Anau's easiest window for longer days and Fiordland access, with March and early April especially attractive if you want a calmer version of the same scenery.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 15.2,
+      "cld": 58,
+      "rain": 145,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 13.9,
+      "cld": 55,
+      "rain": 122,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 12.3,
+      "cld": 59,
+      "rain": 117,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 10.8,
+      "cld": 67,
+      "rain": 114,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 7,
+      "hi": 11,
+      "lo": 4,
+      "daylight": 9.4,
+      "cld": 74,
+      "rain": 124,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 4,
+      "hi": 8,
+      "lo": 2,
+      "daylight": 8.8,
+      "cld": 73,
+      "rain": 109,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 4,
+      "hi": 7,
+      "lo": 1,
+      "daylight": 9.1,
+      "cld": 70,
+      "rain": 89,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 5,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 10.3,
+      "cld": 67,
+      "rain": 94,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 7,
+      "hi": 11,
+      "lo": 4,
+      "daylight": 11.8,
+      "cld": 63,
+      "rain": 104,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 13.4,
+      "cld": 61,
+      "rain": 124,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 10,
+      "hi": 15,
+      "lo": 7,
+      "daylight": 14.9,
+      "cld": 59,
+      "rain": 122,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 12,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 15.6,
+      "cld": 60,
+      "rain": 135,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}
