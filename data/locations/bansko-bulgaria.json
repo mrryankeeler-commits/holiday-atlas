@@ -1,0 +1,246 @@
+{
+  "id": "bansko-bulgaria",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/89452/Average-Weather-in-Bansko-Bulgaria-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bansko",
+  "country": "Bulgaria",
+  "region": "Pirin Mountains, Southwestern Bulgaria",
+  "desc": "Bansko is Bulgaria's clearest ski-and-mountain value play, mixing a modern gondola-and-slopes setup with a still-recognisable old town and a credible summer hiking season in Pirin rather than functioning only as a winter package resort.",
+  "hls": [
+    "The main appeal is alpine access at a much lower cost level than the Alps, especially for short ski weeks and group trips.",
+    "Bansko still has a real old-quarter identity, so evenings can feel more rooted than in purpose-built resort strips.",
+    "Winter is the headline season, but summer hiking in Pirin gives the destination more range than the ski label first suggests.",
+    "The Sofia transfer is straightforward enough to keep the destination practical from the UK even without an airport of its own.",
+    "Peak ski weeks bring the strongest queue pressure around the gondola and the sharpest accommodation pricing.",
+    "Snow reliability is best in the core winter window rather than at the very edges of the season."
+  ],
+  "todo": [
+    {
+      "name": "Bansko gondola and ski-zone day",
+      "cat": "Ski & mountain",
+      "desc": "Whether you ski or just ride up, treat the lift access as the destination's defining mountain layer rather than an optional add-on."
+    },
+    {
+      "name": "Old town and mehana evening",
+      "cat": "Town life",
+      "desc": "Use one evening properly in the old quarter for stone lanes, tavern food, and the part of Bansko that predates the ski boom."
+    },
+    {
+      "name": "Pirin National Park trail day",
+      "cat": "Hiking",
+      "desc": "In summer, keep one full day for marked Pirin routes so the trip includes the mountain national-park side, not just the lift base."
+    },
+    {
+      "name": "St Trinity Church and central Bansko walk",
+      "cat": "Heritage",
+      "desc": "Link the church, square, and old-house streets to understand Bansko as a town with history, not just a resort transfer point."
+    },
+    {
+      "name": "Baikusheva Mura / higher-Pirin excursion",
+      "cat": "Nature",
+      "desc": "If you want a more memorable summer outing, use one day for the older-growth forest and higher mountain scenery beyond the core resort edge."
+    },
+    {
+      "name": "Banya thermal break",
+      "cat": "Wellness",
+      "desc": "A short spa detour to nearby Banya makes particular sense after ski days or as a bad-weather reset."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-120 Mbps",
+      "note": "Modern apartments, ski hotels, and many cafes are workable for remote basics, though reliability drops in older guesthouses and on storm-affected mountain days."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Bansko has no airport, so this is always an overland-transfer destination. Most UK trips fly into Sofia, then continue roughly 160 km by road or shared shuttle in around 2.5-3 hours. Sofia does have Gatwick service, but Bansko itself should not carry a direct-flight badge because the final leg is always by land.",
+    "airports": [
+      {
+        "name": "Sofia Airport",
+        "code": "SOF",
+        "km": 160,
+        "dgw": true
+      }
+    ],
+    "currency": "Bulgarian lev (BGN); cards are common in hotels, lift-ticket points, and many restaurants, but cash still helps in smaller taverns and local transport situations.",
+    "lang": "Bulgarian is the working language; English is usually fine in ski-facing hotels, rentals, and restaurants.",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Bulgaria follows Schengen entry rules, so passport, stay-limit, and visa requirements depend on nationality and current EU rules.",
+    "bestFor": [
+      "Value ski breaks",
+      "Short winter mountain trips",
+      "Mixed ski-and-spa holidays",
+      "Summer Pirin hiking",
+      "Groups avoiding Alpine prices"
+    ],
+    "alerts": [
+      "Peak winter mornings can bring long gondola queues, so first-lift timing matters more here than in many pricier resorts.",
+      "Early- and late-season snow quality can be patchier than the headline winter image suggests.",
+      "Summer afternoons can build fast storms on higher Pirin routes, so start hikes earlier than you would in a pure city break."
+    ]
+  },
+  "sweet": "January to early March is the strongest Bansko ski window, while late June to September is best if the point is Pirin hiking and lower-pressure mountain time.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 2,
+      "lo": -5,
+      "daylight": 9.5,
+      "cld": 48,
+      "rain": 15,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": -1,
+      "hi": 4,
+      "lo": -4,
+      "daylight": 10.6,
+      "cld": 51,
+      "rain": 18,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 3,
+      "hi": 8,
+      "lo": -1,
+      "daylight": 12.0,
+      "cld": 50,
+      "rain": 25,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 13,
+      "lo": 3,
+      "daylight": 13.4,
+      "cld": 49,
+      "rain": 36,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 18,
+      "lo": 7,
+      "daylight": 14.6,
+      "cld": 43,
+      "rain": 41,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 17,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 15.2,
+      "cld": 27,
+      "rain": 41,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 19,
+      "hi": 26,
+      "lo": 13,
+      "daylight": 14.8,
+      "cld": 12,
+      "rain": 33,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 13.8,
+      "cld": 15,
+      "rain": 30,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 12.4,
+      "cld": 29,
+      "rain": 28,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 15,
+      "lo": 5,
+      "daylight": 11.0,
+      "cld": 43,
+      "rain": 33,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 8,
+      "lo": 0,
+      "daylight": 9.8,
+      "cld": 50,
+      "rain": 30,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -1,
+      "hi": 3,
+      "lo": -3,
+      "daylight": 9.2,
+      "cld": 52,
+      "rain": 25,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

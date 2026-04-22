@@ -112,6 +112,22 @@
     "lng": 14.1549
   },
   {
+    "id": "banff-canada",
+    "city": "Banff",
+    "country": "Canada",
+    "region": "Banff National Park, Alberta Rockies",
+    "lat": 51.1784,
+    "lng": -115.5708
+  },
+  {
+    "id": "bansko-bulgaria",
+    "city": "Bansko",
+    "country": "Bulgaria",
+    "region": "Pirin Mountains, Southwestern Bulgaria",
+    "lat": 41.8382,
+    "lng": 23.4885
+  },
+  {
     "id": "barranquilla-colombia",
     "city": "Barranquilla",
     "country": "Colombia",
@@ -1478,6 +1494,14 @@
     "region": "Pinar del Río Province (western Cuba)",
     "lat": 22.6189,
     "lng": -83.7069
+  },
+  {
+    "id": "vysoke-tatry-slovakia",
+    "city": "Vysoké Tatry",
+    "country": "Slovakia",
+    "region": "High Tatras, Prešov Region",
+    "lat": 49.1364,
+    "lng": 20.2439
   },
   {
     "id": "waigeo-indonesia",

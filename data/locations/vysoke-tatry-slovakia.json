@@ -1,0 +1,252 @@
+{
+  "id": "vysoke-tatry-slovakia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/86205/Average-Weather-in-Vysok%C3%A9-Tatry-Slovakia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Vysoké Tatry",
+  "country": "Slovakia",
+  "region": "High Tatras, Prešov Region",
+  "desc": "Vysoké Tatry works best when you treat it as a connected mountain municipality rather than one single resort, using Starý Smokovec, Tatranská Lomnica, and Štrbské Pleso as linked bases for cable cars, alpine walks, ski days, and classic High Tatras scenery.",
+  "hls": [
+    "This is one of the easiest ways to experience the Tatras without committing to a car-heavy mountain trip, thanks to the Tatra Electric Railway and linked resort settlements.",
+    "The destination's strength is variety: lake loops, cable-car viewpoints, ridge scenery, winter sports, and wellness-style recovery days all fit in one stay.",
+    "Summer is the biggest overall season for hiking and lift access, but it also brings the highest concentration of trail demand.",
+    "Winter works well for mixed ski-and-snow-walk trips even if you are not planning a full hardcore ski week.",
+    "Base choice matters more here than in a single compact mountain town because the settlements stretch across the range.",
+    "High-trail closures, lift status, and mountain weather shape the trip more than valley temperature alone."
+  ],
+  "todo": [
+    {
+      "name": "Štrbské Pleso lake circuit",
+      "cat": "Scenic walk",
+      "desc": "Use the lake loop as the easiest high-impact scenery block, especially if the weather is good but you do not want a full alpine hike."
+    },
+    {
+      "name": "Tatranská Lomnica to Skalnaté Pleso or Lomnický štít",
+      "cat": "Cable car",
+      "desc": "This is the big lift-based day in the High Tatras, and advance planning matters if you want the highest cable-car segment."
+    },
+    {
+      "name": "Hrebienok and waterfall walk",
+      "cat": "Nature",
+      "desc": "Build one lighter mountain day around Starý Smokovec and Hrebienok so the trip is not all transport hops and summit ambitions."
+    },
+    {
+      "name": "Tatra Electric Railway day pass hop",
+      "cat": "Rail journey",
+      "desc": "Use the railway as part of the experience itself, linking the main settlements instead of treating each move as dead transfer time."
+    },
+    {
+      "name": "Starý Smokovec base evening",
+      "cat": "Town life",
+      "desc": "Give the main settlement proper downtime so the destination feels like a mountain stay, not just a list of separate lifts."
+    },
+    {
+      "name": "Thermal recovery in Poprad or lower valley",
+      "cat": "Wellness",
+      "desc": "A thermal or spa block makes sense after long hiking or ski days, especially if cloud or wind closes higher plans."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "25-90 Mbps",
+      "note": "Bigger hotels and modern apartments are usually fine for light remote work, but reliability varies a lot between settlements and older mountain stays."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Vysoké Tatry is a mountain region, not a true fly-in destination. Poprad-Tatry is the nearest airport at roughly 15 km and has limited London service, but not LGW or LCY. Many UK trips still work best via Krakow or another larger gateway and continue onward by rail or road, so destination-level direct flags stay false.",
+    "airports": [
+      {
+        "name": "Poprad-Tatry Airport",
+        "code": "TAT",
+        "km": 15,
+        "dgw": false
+      },
+      {
+        "name": "Kraków John Paul II International Airport",
+        "code": "KRK",
+        "km": 150,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR); cards are common in larger hotels and lift operations, but smaller mountain businesses still reward having some cash backup.",
+    "lang": "Slovak is the default language; English is usually workable in major resorts, hotels, and lift-ticket points.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Slovakia follows Schengen entry rules, so passport, stay-limit, and visa requirements depend on nationality and current EU rules.",
+    "bestFor": [
+      "Tatras first trips",
+      "Car-light mountain holidays",
+      "Cable-car scenery",
+      "Mixed hiking-and-wellness breaks",
+      "Winter mountain weekends"
+    ],
+    "alerts": [
+      "Base selection matters because the destination is spread across multiple settlements rather than one single resort core.",
+      "Higher hiking routes have seasonal closures and weather exposure, so always separate valley conditions from mountain conditions.",
+      "Summer storms and winter wind can interrupt lifts fast, which changes the shape of the day more here than in a city destination."
+    ]
+  },
+  "sweet": "Late June to September is the strongest Vysoké Tatry window for hiking and cable-car access, while late January to March is best for winter sports, snowy scenery, and a fuller mountain-resort atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -5,
+      "hi": -1,
+      "lo": -9,
+      "daylight": 8.6,
+      "cld": 62,
+      "rain": 8,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": -4,
+      "hi": 1,
+      "lo": -8,
+      "daylight": 10.1,
+      "cld": 64,
+      "rain": 10,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 1,
+      "hi": 5,
+      "lo": -4,
+      "daylight": 11.7,
+      "cld": 61,
+      "rain": 20,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 6,
+      "hi": 11,
+      "lo": 1,
+      "daylight": 13.6,
+      "cld": 58,
+      "rain": 41,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 11,
+      "hi": 16,
+      "lo": 5,
+      "daylight": 15.3,
+      "cld": 55,
+      "rain": 76,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 16.2,
+      "cld": 49,
+      "rain": 91,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 15.8,
+      "cld": 41,
+      "rain": 96,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 15,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 14.4,
+      "cld": 41,
+      "rain": 76,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 11,
+      "hi": 16,
+      "lo": 6,
+      "daylight": 12.5,
+      "cld": 52,
+      "rain": 61,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 6,
+      "hi": 11,
+      "lo": 1,
+      "daylight": 10.7,
+      "cld": 58,
+      "rain": 43,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 1,
+      "hi": 4,
+      "lo": -3,
+      "daylight": 9.0,
+      "cld": 66,
+      "rain": 25,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -4,
+      "hi": -1,
+      "lo": -7,
+      "daylight": 8.2,
+      "cld": 64,
+      "rain": 10,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}

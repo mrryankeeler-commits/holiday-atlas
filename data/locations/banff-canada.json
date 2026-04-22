@@ -1,0 +1,252 @@
+{
+  "id": "banff-canada",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/2254/Average-Weather-in-Banff-Alberta-Canada-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Banff",
+  "country": "Canada",
+  "region": "Banff National Park, Alberta Rockies",
+  "desc": "Banff is the most practical Rocky Mountain base for visitors who want iconic lake-and-peak scenery without reducing the trip to a single lodge or road stop, combining a real town, year-round access, and easy reach to Lake Louise, the Icefields Parkway, and classic Banff National Park viewpoints.",
+  "hls": [
+    "Banff works as a real stay rather than just a scenic pass-through, with enough town life to support a 3-5 night Rockies trip.",
+    "The big draw is range: lake days, gondola viewpoints, canyon walks, wildlife drives, and hot springs all sit within one strong base.",
+    "Summer is the easiest season for full hiking and turquoise-lake access, but it is also the busiest and priciest.",
+    "Winter swaps lake color for snow scenery, ski access, and a stronger festive mountain-town atmosphere.",
+    "You can build car-light stays here more easily than in many Rockies destinations thanks to shuttles, tours, and local transit.",
+    "Fine-weather weekends and peak school-holiday windows bring real parking and crowd pressure despite the national-park setting."
+  ],
+  "todo": [
+    {
+      "name": "Banff Gondola and Sulphur Mountain boardwalk",
+      "cat": "Viewpoint",
+      "desc": "Use the gondola for the clearest first-day panorama over the Bow Valley, then walk the summit boardwalk rather than stopping at the first platform."
+    },
+    {
+      "name": "Lake Louise and Moraine Lake day",
+      "cat": "Lakes",
+      "desc": "Treat this as an early-start day because access management, shuttle timing, and crowd levels matter as much as the scenery itself."
+    },
+    {
+      "name": "Johnston Canyon walk",
+      "cat": "Nature",
+      "desc": "Keep one half-day for the canyon catwalks and falls, especially if you want a strong scenery block without committing to a full alpine hike."
+    },
+    {
+      "name": "Icefields Parkway drive section",
+      "cat": "Scenic drive",
+      "desc": "Even a partial run north from Banff gives you one of the best road-scenery days in the Canadian Rockies."
+    },
+    {
+      "name": "Bow Falls and Bow River town walk",
+      "cat": "Town & scenery",
+      "desc": "Link the river, the historic hotel area, and central Banff so the town feels like part of the destination rather than just the sleep base."
+    },
+    {
+      "name": "Banff Upper Hot Springs",
+      "cat": "Wellness",
+      "desc": "Use the hot springs as the easy recovery slot after a hike, scenic drive, or cold-weather sightseeing day."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-120 Mbps",
+      "note": "Town hotels, apartments, and cafes are usually fine for remote basics, but park roads, trailheads, and some lodge-style stays are much less dependable."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Banff has no airport, so this is always a gateway-and-transfer trip. Calgary International is the standard arrival point at roughly 130 km and about 90 minutes by shuttle or car. There is no LGW or LCY nonstop to Banff itself, and current Calgary routings from London are more realistically Heathrow-led or one-stop than Gatwick-nonstop.",
+    "airports": [
+      {
+        "name": "Calgary International Airport",
+        "code": "YYC",
+        "km": 130,
+        "dgw": false
+      },
+      {
+        "name": "Edmonton International Airport",
+        "code": "YEG",
+        "km": 415,
+        "dgw": false
+      }
+    ],
+    "currency": "Canadian dollar (CAD); cards are near-universal in town, but keeping some backup cash still helps for small purchases and occasional park-stop edge cases.",
+    "lang": "English is the default visitor language; French appears on national services, but Banff tourism runs overwhelmingly in English.",
+    "tz": "Mountain Time (MST/MDT, UTC-7/-6)",
+    "visa": "Canada entry rules depend on nationality; many visa-exempt air arrivals need an eTA, so check the current Canadian requirements before travel.",
+    "bestFor": [
+      "First Rockies trips",
+      "Lake-and-mountain holidays",
+      "Scenic road trips",
+      "Winter mountain town stays",
+      "Photography-heavy itineraries"
+    ],
+    "alerts": [
+      "Lake Louise and Moraine Lake access is tightly managed in peak season, so last-minute parking assumptions can derail the day.",
+      "Wildlife, wildfire smoke, and road conditions can all reshape plans faster here than temperature alone suggests.",
+      "Summer and holiday peaks push accommodation pressure sharply, especially for central Banff stays booked late."
+    ]
+  },
+  "sweet": "Mid-June to mid-September is the easiest Banff window for full lake-and-hiking access, while late January to March is strongest for snow scenery, ski add-ons, and a more wintry mountain-town feel.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -9,
+      "hi": -4,
+      "lo": -14,
+      "daylight": 8.5,
+      "cld": 65,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": -7,
+      "hi": -1,
+      "lo": -12,
+      "daylight": 10.1,
+      "cld": 65,
+      "rain": 2,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": -3,
+      "hi": 3,
+      "lo": -8,
+      "daylight": 12.0,
+      "cld": 66,
+      "rain": 5,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 2,
+      "hi": 8,
+      "lo": -3,
+      "daylight": 14.0,
+      "cld": 64,
+      "rain": 15,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 7,
+      "hi": 14,
+      "lo": 1,
+      "daylight": 15.6,
+      "cld": 60,
+      "rain": 48,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 11,
+      "hi": 18,
+      "lo": 5,
+      "daylight": 16.5,
+      "cld": 56,
+      "rain": 79,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 14,
+      "hi": 22,
+      "lo": 8,
+      "daylight": 16.0,
+      "cld": 41,
+      "rain": 53,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 21,
+      "lo": 7,
+      "daylight": 14.4,
+      "cld": 42,
+      "rain": 46,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 9,
+      "hi": 16,
+      "lo": 3,
+      "daylight": 12.5,
+      "cld": 48,
+      "rain": 38,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 3,
+      "hi": 9,
+      "lo": -2,
+      "daylight": 10.6,
+      "cld": 54,
+      "rain": 18,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": -4,
+      "hi": 0,
+      "lo": -8,
+      "daylight": 8.9,
+      "cld": 62,
+      "rain": 5,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -10,
+      "hi": -5,
+      "lo": -14,
+      "daylight": 8.0,
+      "cld": 64,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}
