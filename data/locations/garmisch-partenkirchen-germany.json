@@ -1,0 +1,252 @@
+{
+  "id": "garmisch-partenkirchen-germany",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/70225/Average-Weather-in-Garmisch-Partenkirchen-Bavaria-Germany-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Garmisch-Partenkirchen",
+  "country": "Germany",
+  "region": "Werdenfelser Land, Bavarian Alps",
+  "desc": "Garmisch-Partenkirchen is Germany's strongest mountain-town base for travelers who want real access to the Zugspitze, Partnachklamm, and classic Bavarian Alps scenery without giving up a proper town center, rail connectivity, or the Olympic winter-sports layer that makes the place feel more substantial than a one-lift resort stop.",
+  "hls": [
+    "The biggest draw is the combination of Zugspitze access, dramatic gorge scenery, and multiple cable-car viewpoints from one practical base.",
+    "Unlike some Alps destinations that feel purely resort-built, Garmisch-Partenkirchen still has a recognisable town rhythm, old lanes, and year-round life.",
+    "The Olympic ski-jump and winter-sports heritage give the destination more identity than a simple hiking gateway label suggests.",
+    "Summer is excellent for lift-assisted hiking and lake add-ons, while winter works for snow scenery and ski access without needing a week-long ski commitment.",
+    "Weather and operating status matter here because gorges, summit lifts, and alpine views can all be affected differently on the same day.",
+    "Peak fine-weather weekends can make the town feel much busier than the mountain setting first implies."
+  ],
+  "todo": [
+    {
+      "name": "Zugspitze summit day",
+      "cat": "Mountain",
+      "desc": "Use one clear-weather block for Germany's highest mountain because it is the trip-defining viewpoint and the place most worth timing properly."
+    },
+    {
+      "name": "Partnachklamm gorge walk",
+      "cat": "Nature",
+      "desc": "Treat the gorge as a core experience rather than a side stop, but always check conditions because closures and safety restrictions are part of the reality."
+    },
+    {
+      "name": "Alpspitze or Kreuzeck lift day",
+      "cat": "Scenic lift",
+      "desc": "Keep one separate lift-and-view day beyond the Zugspitze so the trip includes broader Bavarian Alps perspective rather than a single summit hit."
+    },
+    {
+      "name": "Partenkirchen old-lane and Ludwigstraße wander",
+      "cat": "Town life",
+      "desc": "Give the historic side of town some proper time so the visit is not reduced to transport nodes, cable cars, and car parks."
+    },
+    {
+      "name": "Olympic Ski Stadium area",
+      "cat": "Heritage",
+      "desc": "Use the winter-sports sites to connect the destination's modern reputation with its long-standing Olympic identity."
+    },
+    {
+      "name": "Eibsee or Grainau half-day",
+      "cat": "Lake & scenery",
+      "desc": "Add a lower-valley lake outing if you want one calmer scenic block that still keeps the Zugspitze massif in view."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–120 Mbps",
+      "note": "Central hotels, apartments, and cafés are usually workable for light remote basics, but mountain huts, edge-of-valley stays, and bad-weather surges are less predictable."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Garmisch-Partenkirchen has no airport, so this is always a gateway-and-transfer trip. Innsbruck is the closest practical arrival at about 60 km, while Munich is usually the broader and more resilient option for year-round international routing. Even when London flights exist to those gateways, Garmisch-Partenkirchen itself should not carry a direct-flight badge.",
+    "airports": [
+      {
+        "name": "Innsbruck Airport",
+        "code": "INN",
+        "km": 60,
+        "dgw": false
+      },
+      {
+        "name": "Munich Airport",
+        "code": "MUC",
+        "km": 135,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR); cards are common, but mountain huts, parking machines, and smaller alpine businesses are still easier if you keep some cash backup.",
+    "lang": "German is the default language; English is usually workable in hotels, lift stations, and tourism-facing businesses.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Germany follows Schengen entry rules, so passport, stay-limit, and visa requirements depend on nationality and current EU/Schengen rules.",
+    "bestFor": [
+      "Zugspitze access",
+      "German Alps short breaks",
+      "Cable-car viewpoint trips",
+      "Winter-scenery weekends",
+      "Bavarian mountain road trips"
+    ],
+    "alerts": [
+      "Partnachklamm, summit lifts, and higher trails can all have separate closures or safety limits, so do not assume one good forecast unlocks everything.",
+      "Summer brings the warmest hiking conditions, but also the wettest months, which can flatten mountain views or interrupt bigger plans.",
+      "Fine-weather weekends create real crowding and parking pressure despite the destination's outdoor feel."
+    ]
+  },
+  "sweet": "Late June to September is usually the easiest Garmisch-Partenkirchen window for hiking and lift access, while late January to early March is strongest if the point is winter scenery and mountain-sports atmosphere rather than full alpine hiking range.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 2,
+      "lo": -6,
+      "daylight": 9.0,
+      "cld": 58,
+      "rain": 25,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": -1,
+      "hi": 3,
+      "lo": -6,
+      "daylight": 10.3,
+      "cld": 59,
+      "rain": 23,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 3,
+      "hi": 8,
+      "lo": -2,
+      "daylight": 12.0,
+      "cld": 60,
+      "rain": 43,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "daylight": 13.7,
+      "cld": 60,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 17,
+      "lo": 6,
+      "daylight": 15.2,
+      "cld": 62,
+      "rain": 109,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 15.9,
+      "cld": 58,
+      "rain": 147,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 22,
+      "lo": 11,
+      "daylight": 15.5,
+      "cld": 47,
+      "rain": 152,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 14.2,
+      "cld": 48,
+      "rain": 135,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 12.5,
+      "cld": 54,
+      "rain": 99,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 13,
+      "lo": 3,
+      "daylight": 10.8,
+      "cld": 58,
+      "rain": 64,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 2,
+      "hi": 6,
+      "lo": -2,
+      "daylight": 9.3,
+      "cld": 61,
+      "rain": 43,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": 2,
+      "lo": -4,
+      "daylight": 8.5,
+      "cld": 61,
+      "rain": 33,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

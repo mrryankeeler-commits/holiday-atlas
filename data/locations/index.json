@@ -384,6 +384,14 @@
     "lng": 13.7383
   },
   {
+    "id": "garmisch-partenkirchen-germany",
+    "city": "Garmisch-Partenkirchen",
+    "country": "Germany",
+    "region": "Werdenfelser Land, Bavarian Alps",
+    "lat": 47.4917,
+    "lng": 11.0955
+  },
+  {
     "id": "dubai-uae",
     "city": "Dubai",
     "country": "United Arab Emirates",
@@ -480,6 +488,14 @@
     "lng": 15.4395
   },
   {
+    "id": "grundarfjordur-iceland",
+    "city": "Grundarfjordur",
+    "country": "Iceland",
+    "region": "Snæfellsnes Peninsula, West Iceland",
+    "lat": 64.9249,
+    "lng": -23.2668
+  },
+  {
     "id": "guilin",
     "city": "Guilin",
     "country": "China",
@@ -558,6 +574,14 @@
     "region": "Perak",
     "lat": 4.5975,
     "lng": 101.0901
+  },
+  {
+    "id": "innsbruck-austria",
+    "city": "Innsbruck",
+    "country": "Austria",
+    "region": "Tyrol, Inn Valley Alps",
+    "lat": 47.2692,
+    "lng": 11.4041
   },
   {
     "id": "istanbul",

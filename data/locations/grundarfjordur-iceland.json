@@ -1,0 +1,252 @@
+{
+  "id": "grundarfjordur-iceland",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark (Ólafsvík proxy)",
+        "url": "https://weatherspark.com/y/31486/Average-Weather-in-%C3%93lafsv%C3%ADk-Iceland-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Grundarfjordur",
+  "country": "Iceland",
+  "region": "Snæfellsnes Peninsula, West Iceland",
+  "desc": "Grundarfjordur is one of the most photogenic bases on Snæfellsnes, built around the instantly recognisable Kirkjufell skyline and a small harbor-town scale that works best for scenic road-trip nights, photography, and weather-flexible peninsula exploring rather than for deep urban sightseeing or car-free convenience.",
+  "hls": [
+    "Kirkjufell is the headline reason people come, but the town also works well as a practical north-side base for wider Snæfellsnes loops.",
+    "The appeal is strongest for photographers, self-drivers, and travelers who like quiet harbor settings with big scenery close at hand.",
+    "Long summer daylight is a real advantage because sunrise, sunset, and extended peninsula detours are easier to fit around weather windows.",
+    "Shoulder and winter trips can be magical for darker skies and dramatic conditions, but they are much more weather-dependent than peak-summer visits.",
+    "The town itself is compact, so the stay works best when you treat scenic movement and landscape timing as part of the destination.",
+    "This is a place where cloud, wind, and road reality matter more than the temperature number alone."
+  ],
+  "todo": [
+    {
+      "name": "Kirkjufell and Kirkjufellsfoss photo session",
+      "cat": "Scenic landmark",
+      "desc": "Treat this as the anchor outing and go when the light is right, because the destination's main payoff is strongly tied to timing rather than volume of sights."
+    },
+    {
+      "name": "Grundarfjordur harbor and walking trail",
+      "cat": "Town walk",
+      "desc": "Use the local walking route for a lower-effort block that still keeps the mountain, fjord, and wildlife angle central."
+    },
+    {
+      "name": "Snæfellsnes north-coast driving day",
+      "cat": "Road trip",
+      "desc": "Build at least one flexible loop day because Grundarfjordur works best as a base within a wider scenic peninsula itinerary."
+    },
+    {
+      "name": "Summer kayak or sea outing",
+      "cat": "Wildlife & coast",
+      "desc": "If the season and forecast cooperate, use one marine outing to add seals, birdlife, and shoreline perspective beyond roadside viewpoints."
+    },
+    {
+      "name": "Evening pool and hot-tub unwind",
+      "cat": "Local rhythm",
+      "desc": "Keep one simple town evening in the plan because a quiet harbor base feels better when you lean into Iceland's everyday pool culture."
+    },
+    {
+      "name": "Nearby Snæfellsjökull National Park detour",
+      "cat": "Nature drive",
+      "desc": "Add the national-park edge only if weather and energy line up, since the broader peninsula is easy to overpack in one day."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–80 Mbps",
+      "note": "Guesthouses and newer apartments are usually fine for light remote basics, but small-town variability and weather-led demand spikes still show up more than in Reykjavik."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Grundarfjordur has no airport, so nearly every trip is a Keflavík arrival followed by a long self-drive or transfer around the Snæfellsnes Peninsula. Reykjavik domestic options do not make the destination direct in any practical UK sense, so this should remain a transfer-required destination.",
+    "airports": [
+      {
+        "name": "Keflavík International Airport",
+        "code": "KEF",
+        "km": 210,
+        "dgw": true
+      },
+      {
+        "name": "Reykjavík Airport",
+        "code": "RKV",
+        "km": 180,
+        "dgw": false
+      }
+    ],
+    "currency": "Icelandic króna (ISK); cards are widely accepted, and you can comfortably travel cash-light in most normal visitor situations.",
+    "lang": "Icelandic and English are both easy for most visitor-facing interactions, especially in accommodation and tours.",
+    "tz": "GMT/UTC+0 year-round",
+    "visa": "Iceland follows Schengen entry rules, so passport, stay-limit, and visa requirements depend on nationality and current Iceland/Schengen rules.",
+    "bestFor": [
+      "Kirkjufell photography stays",
+      "Snæfellsnes road trips",
+      "Quiet harbor-town bases",
+      "Summer wildlife outings",
+      "Shoulder-season aurora hopes"
+    ],
+    "alerts": [
+      "Wind, low cloud, and shifting road conditions can change the quality of the trip much faster than the forecast temperature suggests.",
+      "Outside the main summer season, some local services and tour options thin out sharply, so do not plan this like Reykjavik.",
+      "Kirkjufell and its classic viewpoints are not secret spots, and traffic or parking friction can build at the obvious photo windows."
+    ]
+  },
+  "sweet": "Late May to September is usually the easiest Grundarfjordur window for road access, long daylight, and fuller local activity, while September to October and March can appeal more if the priority is moodier light and a realistic chance of darker skies.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 5.3,
+      "cld": 79,
+      "rain": 91,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 8.5,
+      "cld": 78,
+      "rain": 91,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 11.9,
+      "cld": 74,
+      "rain": 79,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 3,
+      "hi": 5,
+      "lo": 1,
+      "daylight": 15.4,
+      "cld": 65,
+      "rain": 61,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 6,
+      "hi": 7,
+      "lo": 4,
+      "daylight": 18.9,
+      "cld": 58,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 8,
+      "hi": 10,
+      "lo": 7,
+      "daylight": 21.6,
+      "cld": 59,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 10,
+      "hi": 12,
+      "lo": 9,
+      "daylight": 19.9,
+      "cld": 61,
+      "rain": 48,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 10,
+      "hi": 12,
+      "lo": 9,
+      "daylight": 16.4,
+      "cld": 64,
+      "rain": 69,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 8,
+      "hi": 9,
+      "lo": 7,
+      "daylight": 12.9,
+      "cld": 65,
+      "rain": 91,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 9.5,
+      "cld": 66,
+      "rain": 94,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 3,
+      "hi": 5,
+      "lo": 2,
+      "daylight": 6.1,
+      "cld": 71,
+      "rain": 96,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 2,
+      "hi": 3,
+      "lo": 0,
+      "daylight": 3.9,
+      "cld": 75,
+      "rain": 99,
+      "busy": 2,
+      "ac": 1,
+      "fl": 3
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "innsbruck-austria",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/70055/Average-Weather-in-Innsbruck-Austria-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Innsbruck",
+  "country": "Austria",
+  "region": "Tyrol, Inn Valley Alps",
+  "desc": "Innsbruck is one of Europe's sharpest city-and-mountains combinations, giving you a compact Tyrolean old town, serious alpine scenery, and same-trip access to Nordkette lifts and winter sports without the logistical sprawl that often comes with mountain gateways.",
+  "hls": [
+    "The core appeal is the contrast between the historic center and the fact that you can be high on the Nordkette from the city in roughly half an hour.",
+    "Innsbruck works in both winter and summer, which makes it stronger than a ski-only label or a pure city-break label would suggest.",
+    "The Golden Roof, imperial-era sights, and Bergisel give it enough urban identity that the trip still works when mountain weather turns.",
+    "Airport access is unusually convenient for an alpine destination, which matters for shorter breaks and ski-weekend style trips.",
+    "December and the ski season can feel very atmospheric, but they also bring sharper price and crowd pressure than the shoulder months.",
+    "Summer thunderstorms and winter valley weather can both affect the feel of a trip despite the city's otherwise very polished practicality."
+  ],
+  "todo": [
+    {
+      "name": "Old Town and Golden Roof circuit",
+      "cat": "Historic core",
+      "desc": "Start here to anchor the trip in Innsbruck's urban identity before you switch into cable cars, ski slopes, or valley views."
+    },
+    {
+      "name": "Nordkette 'Top of Innsbruck' day",
+      "cat": "Mountain lift",
+      "desc": "Use one clear-weather block for the city-to-summit transition because that contrast is the destination's defining signature."
+    },
+    {
+      "name": "Bergisel Ski Jump and panorama stop",
+      "cat": "Viewpoint & design",
+      "desc": "This is the best non-Old-Town urban landmark if you want Innsbruck's winter-sport identity and architecture in one hit."
+    },
+    {
+      "name": "Imperial Hofkirche or palace block",
+      "cat": "Culture",
+      "desc": "Keep one heritage stop indoors so the itinerary still has depth if mountain cloud or snow changes your outside plans."
+    },
+    {
+      "name": "Inn riverside and market-hall wander",
+      "cat": "City life",
+      "desc": "Give the city one easy-going food-and-walk session so the trip is not only landmarks and transport mechanics."
+    },
+    {
+      "name": "Patscherkofel, Axamer Lizum, or ski-area add-on",
+      "cat": "Alpine outing",
+      "desc": "Use the wider region only if you have enough time, because Innsbruck itself already does a lot before you start adding outer-valley sectors."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "80–250 Mbps",
+      "note": "Innsbruck is usually very easy for remote basics, with strong hotel and apartment connectivity and good citywide mobile-data backup."
+    },
+    "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
+    "fltNote": "Innsbruck Airport sits right on the edge of the city and official airport schedules reviewed on 2026-04-22 show realistic London Gatwick nonstop service in the winter pattern. London City coverage appears too limited and seasonal to treat as a dependable direct badge, so LGW earns the nonstop truth flag here but LCY does not. Outside the ski-focused schedule, route options narrow and Munich remains the main fallback gateway.",
+    "airports": [
+      {
+        "name": "Innsbruck Airport",
+        "code": "INN",
+        "km": 4,
+        "dgw": true
+      },
+      {
+        "name": "Munich Airport",
+        "code": "MUC",
+        "km": 180,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR); cards are standard, though mountain huts, smaller kiosks, and some market-style purchases are still easier with a little cash.",
+    "lang": "German is the main language; English is widely workable across hotels, lifts, museums, and visitor services.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Austria follows Schengen entry rules, so passport, stay-limit, and visa requirements depend on nationality and current EU/Schengen rules.",
+    "bestFor": [
+      "City-plus-Alps short breaks",
+      "Ski weekends with an actual city base",
+      "Christmas-market mountain trips",
+      "Lift-assisted summer stays",
+      "First-time Tyrol itineraries"
+    ],
+    "alerts": [
+      "Winter weekends and December book up quickly, and central prices move fast once ski demand and festive demand overlap.",
+      "Mountain weather can affect both lift operations and flight reliability more than in a flatter city-break destination.",
+      "Summer is highly usable, but storms and peak-season event dates can still disrupt the easy, compact feel that makes Innsbruck attractive."
+    ]
+  },
+  "sweet": "Late June to September is usually Innsbruck's easiest city-and-mountain window, while December to March is strongest if the point is ski access, winter atmosphere, and a genuine alpine-city feel in one trip.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 2,
+      "lo": -6,
+      "daylight": 9.0,
+      "cld": 57,
+      "rain": 18,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": -1,
+      "hi": 4,
+      "lo": -4,
+      "daylight": 10.3,
+      "cld": 58,
+      "rain": 20,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 4,
+      "hi": 9,
+      "lo": -1,
+      "daylight": 12.0,
+      "cld": 59,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 14,
+      "lo": 3,
+      "daylight": 13.7,
+      "cld": 60,
+      "rain": 58,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 19,
+      "lo": 7,
+      "daylight": 15.1,
+      "cld": 62,
+      "rain": 96,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 15.9,
+      "cld": 59,
+      "rain": 135,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 15.5,
+      "cld": 48,
+      "rain": 140,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 14.1,
+      "cld": 49,
+      "rain": 124,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 12.5,
+      "cld": 55,
+      "rain": 89,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 10.8,
+      "cld": 58,
+      "rain": 61,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 3,
+      "hi": 7,
+      "lo": -1,
+      "daylight": 9.3,
+      "cld": 60,
+      "rain": 43,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -1,
+      "hi": 2,
+      "lo": -4,
+      "daylight": 8.5,
+      "cld": 59,
+      "rain": 25,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}
