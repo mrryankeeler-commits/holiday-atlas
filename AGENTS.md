@@ -54,6 +54,17 @@ Holiday Atlas is a static front-end app (`index.html`, `app.js`, `styles.css`) t
 - Do not reintroduce a single monolithic destinations file.
 - Do not silently change schema; update this AGENTS.md when schema changes.
 
+## Commit discipline
+- Keep commits small, logical, and frequent.
+- Commit after each validated promotion batch.
+- Commit raw intake/staging work separately from live promotions.
+- Commit docs/rule changes separately from data changes where practical.
+- Do not let unrelated changes accumulate across many steps if they can be checkpointed cleanly.
+- If the working tree contains more than one logical change, split them into separate commits.
+- Do not include `.DS_Store` or generated reports unless explicitly intended.
+
+When a clean milestone is complete and checks pass, prefer making a focused commit before continuing to the next batch.
+
 ## Migration workflow (pending -> live)
 When moving staged records from `data/pending-locations/` to `data/locations/`:
 1) Convert to full live schema required by this file (`desc`, `hls`, `todo`, `prac`, `sweet`, `months`).
