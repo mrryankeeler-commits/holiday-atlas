@@ -1,0 +1,246 @@
+{
+  "id": "sankt-gilgen-austria",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75323/Average-Weather-in-Fuschl-am-See-Austria-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Sankt Gilgen",
+  "country": "Austria",
+  "region": "Wolfgangsee, Salzkammergut",
+  "desc": "Sankt Gilgen is one of the most elegant Wolfgangsee bases, pairing lakefront calm, Mozart-family associations, and quick Zwölferhorn lift access in a way that makes it better for scenic slow travel than for checklist-heavy sightseeing.",
+  "hls": [
+    "The village sits beautifully on the northern shore of Wolfgangsee and feels more refined and low-key than a pure day-trip stop suggests.",
+    "St. Gilgen's main appeal is the balance of lake village atmosphere, boat links, and immediate mountain access via the Zwölferhorn cable car.",
+    "Mozart-family roots add some cultural identity, but the real payoff is scenery and pacing rather than museums alone.",
+    "Summer is the obvious peak because boat trips, lake walks, and cable-car views all click at once.",
+    "It works best as a quiet base for Wolfgangsee rather than as an all-purpose Austrian town break.",
+    "Shoulder seasons can be lovely, but lake transport and village rhythm feel more limited outside the stronger warm-weather months."
+  ],
+  "todo": [
+    {
+      "name": "Village-front and Mozartplatz wander",
+      "cat": "Village core",
+      "desc": "Use the waterfront center first because Sankt Gilgen works through atmosphere and setting more than a long list of formal sights."
+    },
+    {
+      "name": "Zwölferhorn cable car",
+      "cat": "Mountain view",
+      "desc": "Take the lift on a clearer day because the village-to-summit contrast is the destination's defining experience."
+    },
+    {
+      "name": "Fürberg cove walk",
+      "cat": "Lakeside walk",
+      "desc": "Keep one easy shoreline block for the quieter, more photogenic side of the lake beyond the main landing area."
+    },
+    {
+      "name": "Wolfgangsee boat ride to St. Wolfgang or Strobl",
+      "cat": "Lake transport",
+      "desc": "Use the boat as part of the trip rather than treating it as simple transport, because lake movement is central to the area's feel."
+    },
+    {
+      "name": "Slow café afternoon with lake-and-mountain views",
+      "cat": "Pacing",
+      "desc": "Leave real empty time in the plan because Sankt Gilgen rewards slower scenic travel more than nonstop activity."
+    },
+    {
+      "name": "Half-day Salzburg add-on only if needed",
+      "cat": "Nearby city",
+      "desc": "Use Salzburg as an add-on rather than the main event here, because the point of staying in Sankt Gilgen is to be by the lake."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "25–100 Mbps",
+      "note": "Guesthouses and hotels are usually fine for light remote use, though lakeside leisure properties are less uniformly work-oriented than big-city stays."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Sankt Gilgen has no airport, so the destination itself cannot claim a nonstop badge. In practice you typically fly into Salzburg Airport, which currently has realistic London Gatwick nonstop service, then continue by road or regional bus to Wolfgangsee, making this an easy gateway transfer rather than a direct-arrival destination.",
+    "airports": [
+      {
+        "name": "Salzburg Airport",
+        "code": "SZG",
+        "km": 43,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR); cards are common, though carrying some cash is still useful for smaller cafés, kiosks, and lake-area incidentals.",
+    "lang": "German is the main language; English is common in hotels, tourism services, and most visitor-facing businesses.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Austria follows Schengen rules, and British citizens can generally visit visa-free for up to 90 days in any 180-day period if the rest of their Schengen travel also stays within that limit.",
+    "bestFor": [
+      "Lake-and-mountain slow travel",
+      "Salzkammergut scenic stays",
+      "Quiet couples' breaks",
+      "Summer cable-car and boat trips",
+      "Short Austria add-ons beyond Salzburg"
+    ],
+    "alerts": [
+      "This is a scenery-first base, so bad weather can flatten the experience faster than in a museum-heavy city destination.",
+      "Outside the stronger summer and festive windows, services and transport rhythm can feel quieter than first-time visitors expect.",
+      "You are relying on a gateway transfer from Salzburg, so timing matters more than for a city with its own airport."
+    ]
+  },
+  "sweet": "June to September is usually Sankt Gilgen's strongest window for boats, cable-car views, and easy lake days, while December can still appeal if you want a smaller-scale Austrian festive atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -3,
+      "hi": 0,
+      "lo": -6,
+      "daylight": 8.9,
+      "cld": 61,
+      "rain": 28,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": -2,
+      "hi": 2,
+      "lo": -5,
+      "daylight": 10.3,
+      "cld": 62,
+      "rain": 25,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 3,
+      "hi": 7,
+      "lo": -2,
+      "daylight": 12.0,
+      "cld": 61,
+      "rain": 46,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "daylight": 13.7,
+      "cld": 58,
+      "rain": 56,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 15.2,
+      "cld": 58,
+      "rain": 96,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 16.0,
+      "cld": 54,
+      "rain": 130,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 15.5,
+      "cld": 44,
+      "rain": 137,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 14.2,
+      "cld": 45,
+      "rain": 124,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 12.5,
+      "cld": 52,
+      "rain": 96,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 7,
+      "hi": 12,
+      "lo": 3,
+      "daylight": 10.8,
+      "cld": 57,
+      "rain": 64,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 2,
+      "hi": 5,
+      "lo": -2,
+      "daylight": 9.3,
+      "cld": 63,
+      "rain": 43,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": 1,
+      "lo": -4,
+      "daylight": 8.5,
+      "cld": 64,
+      "rain": 30,
+      "busy": 6,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}

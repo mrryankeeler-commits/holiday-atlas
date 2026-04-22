@@ -1,0 +1,246 @@
+{
+  "id": "salzburg-austria",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75391/Average-Weather-in-Salzburg-Austria-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Salzburg",
+  "country": "Austria",
+  "region": "Salzburg State, Northern Alps",
+  "desc": "Salzburg is one of Europe's easiest culture-heavy short breaks, pairing a compact baroque old town with fortress views, Mirabell gardens, and enough musical and café atmosphere that the city works in its own right before you even start using it as an alpine gateway.",
+  "hls": [
+    "The Old Town and Hohensalzburg fortress give Salzburg one of the clearest skyline identities in Central Europe.",
+    "Mirabell Gardens, church domes, and the riverside setting make the city feel more visually complete than a simple Mozart stopover label suggests.",
+    "Salzburg works in multiple seasons, from festive winter dates to long summer walking days and shoulder-season city breaks.",
+    "Airport access is unusually convenient for a city with this much heritage value and nearby mountain reach.",
+    "The city center is compact enough that 2-3 nights can feel full, though nearby lake and mountain add-ons easily stretch the stay.",
+    "Peak summer and Christmas-market periods bring real crowd and price pressure, especially in the core around the river and old town."
+  ],
+  "todo": [
+    {
+      "name": "Altstadt and Getreidegasse walk",
+      "cat": "Historic core",
+      "desc": "Use the old town first because Salzburg's main reward is how densely its churches, lanes, and squares hold together."
+    },
+    {
+      "name": "Hohensalzburg Fortress",
+      "cat": "Landmark",
+      "desc": "Make time for the fortress because it is the defining visual anchor and best quick orientation point over the city."
+    },
+    {
+      "name": "Mirabell Gardens and palace side of the river",
+      "cat": "City walk",
+      "desc": "Pair Mirabell with the river crossing so the classic Salzburg skyline reveals itself properly."
+    },
+    {
+      "name": "Mozart-related museum or house visit",
+      "cat": "Culture",
+      "desc": "Keep one music-history stop in the plan if you want the city's Mozart identity to feel like more than branding."
+    },
+    {
+      "name": "St. Peter's, Dom quarter, and one café block",
+      "cat": "Atmosphere",
+      "desc": "Leave room for slower pacing because Salzburg's payoff is partly in lingering rather than racing through landmarks."
+    },
+    {
+      "name": "Half-day lake or mountain add-on",
+      "cat": "Scenic excursion",
+      "desc": "Add a Salzkammergut or hill-and-viewpoint outing only if you have enough time to let the city breathe first."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "70–220 Mbps",
+      "note": "Central hotels, apartments, and cafés are usually very reliable for remote basics, with strong mobile-data backup across the city."
+    },
+    "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
+    "fltNote": "Salzburg Airport sits just outside the center and current airport schedules reviewed on 2026-04-22 show realistic London Gatwick nonstop service. London City is still connection-led, so Salzburg earns the direct badge from LGW but not from LCY.",
+    "airports": [
+      {
+        "name": "Salzburg Airport",
+        "code": "SZG",
+        "km": 6,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR); cards are standard, though a little cash still helps for markets, smaller cafés, and quick day-trip purchases.",
+    "lang": "German is the main language; English is widely workable across hotels, museums, and most visitor-facing businesses.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Austria follows Schengen rules, and British citizens can generally visit visa-free for up to 90 days in any 180-day period if the rest of their Schengen travel also stays within that limit.",
+    "bestFor": [
+      "Classical city breaks",
+      "Christmas-market trips",
+      "Compact heritage weekends",
+      "Culture-plus-scenery itineraries",
+      "Austria first-time short breaks"
+    ],
+    "alerts": [
+      "Summer and Christmas-market dates can feel crowded quickly in the old town, especially around headline photo spots.",
+      "Rain is not rare even in warmer months, so a city-only plan works best when it includes some indoor depth as backup.",
+      "Hotel pricing jumps sharply around festive dates, festival demand, and stronger summer weekends."
+    ]
+  },
+  "sweet": "May to September is usually Salzburg's easiest walking window, while late November and December are strongest if the point is festive atmosphere rather than lower crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -1,
+      "hi": 3,
+      "lo": -3,
+      "daylight": 8.9,
+      "cld": 61,
+      "rain": 46,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 5,
+      "lo": -3,
+      "daylight": 10.3,
+      "cld": 62,
+      "rain": 43,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 5,
+      "hi": 10,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 61,
+      "rain": 61,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 13.7,
+      "cld": 58,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 15.2,
+      "cld": 58,
+      "rain": 99,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 16.0,
+      "cld": 54,
+      "rain": 132,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 19,
+      "hi": 24,
+      "lo": 14,
+      "daylight": 15.5,
+      "cld": 44,
+      "rain": 137,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 14.2,
+      "cld": 45,
+      "rain": 127,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 12.5,
+      "cld": 52,
+      "rain": 96,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 10.8,
+      "cld": 57,
+      "rain": 66,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 9.3,
+      "cld": 63,
+      "rain": 53,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 3,
+      "lo": -2,
+      "daylight": 8.5,
+      "cld": 64,
+      "rain": 48,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

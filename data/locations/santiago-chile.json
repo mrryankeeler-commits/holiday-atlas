@@ -1,0 +1,246 @@
+{
+  "id": "santiago-chile",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/26525/Average-Weather-in-Santiago-Chile-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "Santiago Metropolitan Region, Central Valley",
+  "desc": "Santiago is a better city break than its business-capital reputation suggests, with Andean backdrop, hilltop viewpoints, and a strong mix of central heritage, Lastarria cafés, Bellavista nightlife, and easy wine-country or mountain add-ons that make it more flexible than many South American capitals.",
+  "hls": [
+    "The Andes backdrop gives Santiago more visual drama than the city-center grid first suggests, especially from Cerro San Cristóbal or Santa Lucía.",
+    "Lastarria, Bellas Artes, and Bellavista matter more to the trip than trying to treat the whole city as one homogeneous capital.",
+    "Santiago works especially well as a hub city because urban culture, winery outings, and nearby mountain scenery all sit within easy reach.",
+    "Spring and autumn are usually the easiest city-walking seasons; midsummer can feel hot and winter can bring gloomier air and lower views.",
+    "The city is large enough that neighbourhood choice meaningfully shapes the trip's feel.",
+    "Works well for 3-4 nights, with extra days only if you are using it for vineyard, ski, or coast add-ons."
+  ],
+  "todo": [
+    {
+      "name": "Cerro San Cristóbal",
+      "cat": "Viewpoint",
+      "desc": "Use one clearer day for the hill because the city-to-Andes perspective is central to why Santiago works."
+    },
+    {
+      "name": "Lastarria and Bellas Artes",
+      "cat": "Neighborhood",
+      "desc": "Treat this as the main culture-and-café quarter if you want Santiago at its most walkable and appealing."
+    },
+    {
+      "name": "Historic center and Plaza de Armas block",
+      "cat": "Historic core",
+      "desc": "Keep one central-city circuit for grounding, but do not expect the old center to carry the whole trip on its own."
+    },
+    {
+      "name": "Bellavista evening",
+      "cat": "Food & nightlife",
+      "desc": "Build one later-day stretch here because Santiago's social energy shows better after dark than in a monument-only schedule."
+    },
+    {
+      "name": "Mercado or food-neighborhood meal focus",
+      "cat": "Food",
+      "desc": "Make space for a proper food-led block because the city's neighbourhood dining scene is part of the point."
+    },
+    {
+      "name": "Winery or mountain-side day trip",
+      "cat": "Day trip",
+      "desc": "Add one outward-looking excursion only if you have enough time to let the city itself register first."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "70–250 Mbps",
+      "note": "Santiago is generally easy for remote basics, with strong hotel, apartment, café, and mobile-data coverage across the main visitor districts."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Santiago's main airport is close enough to the city to keep arrivals simple, but there is no LGW or LCY nonstop. Current London access is connection-led, often via Madrid, Paris, or Barcelona from Gatwick or City, so Santiago is well connected without qualifying for a direct badge from the repo's London origins.",
+    "airports": [
+      {
+        "name": "Comodoro Arturo Merino Benítez International Airport",
+        "code": "SCL",
+        "km": 17,
+        "dgw": false
+      }
+    ],
+    "currency": "Chilean peso (CLP); cards are widely accepted, but some cash is still handy for smaller purchases, markets, and occasional taxi or tip needs.",
+    "lang": "Spanish is the everyday language; English is workable in stronger hotels, tours, and some restaurant-heavy districts but is not universal.",
+    "tz": "CLT/CLST (UTC-4/-3)",
+    "visa": "British citizens can visit Chile for up to 90 days without a visa, and Chilean immigration issues a tourist card that you should keep safe for departure.",
+    "bestFor": [
+      "Urban South America first-timers",
+      "City-plus-wine itineraries",
+      "Neighbourhood food breaks",
+      "Andes backdrop city stays",
+      "Chile gateway short breaks"
+    ],
+    "alerts": [
+      "Air quality and haze can materially affect mountain views, especially in cooler periods.",
+      "The city is broad, so choosing the right neighbourhood matters more than it does in a compact European-style center.",
+      "Santiago feels safest and most enjoyable when late-night movement is planned around known districts rather than assumed to be interchangeable citywide."
+    ]
+  },
+  "sweet": "March to May and September to November are usually Santiago's strongest windows, with the best balance of temperatures, walkability, and clearer mountain views than midsummer or midwinter.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 22,
+      "hi": 30,
+      "lo": 14,
+      "daylight": 14.1,
+      "cld": 10,
+      "rain": 2,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 21,
+      "hi": 29,
+      "lo": 13,
+      "daylight": 13.3,
+      "cld": 9,
+      "rain": 5,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 19,
+      "hi": 28,
+      "lo": 11,
+      "daylight": 12.2,
+      "cld": 16,
+      "rain": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 23,
+      "lo": 8,
+      "daylight": 11.2,
+      "cld": 30,
+      "rain": 15,
+      "busy": 7,
+      "ac": 4,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 10.4,
+      "cld": 48,
+      "rain": 41,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 9,
+      "hi": 16,
+      "lo": 4,
+      "daylight": 10.0,
+      "cld": 51,
+      "rain": 61,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 9,
+      "hi": 16,
+      "lo": 3,
+      "daylight": 10.2,
+      "cld": 47,
+      "rain": 48,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 10,
+      "hi": 17,
+      "lo": 4,
+      "daylight": 11.0,
+      "cld": 42,
+      "rain": 38,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 11.9,
+      "cld": 39,
+      "rain": 20,
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 23,
+      "lo": 8,
+      "daylight": 13.0,
+      "cld": 32,
+      "rain": 10,
+      "busy": 8,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 18,
+      "hi": 26,
+      "lo": 11,
+      "daylight": 13.9,
+      "cld": 21,
+      "rain": 5,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 21,
+      "hi": 29,
+      "lo": 13,
+      "daylight": 14.3,
+      "cld": 13,
+      "rain": 2,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}

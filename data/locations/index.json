@@ -1128,6 +1128,14 @@
     "lng": -65.42
   },
   {
+    "id": "salzburg-austria",
+    "city": "Salzburg",
+    "country": "Austria",
+    "region": "Salzburg State, Northern Alps",
+    "lat": 47.7994,
+    "lng": 13.044
+  },
+  {
     "id": "samarkand",
     "city": "Samarkand",
     "country": "Uzbekistan",
@@ -1152,12 +1160,28 @@
     "lng": -91.2722
   },
   {
+    "id": "sankt-gilgen-austria",
+    "city": "Sankt Gilgen",
+    "country": "Austria",
+    "region": "Wolfgangsee, Salzkammergut",
+    "lat": 47.7667,
+    "lng": 13.3667
+  },
+  {
     "id": "santa-marta-colombia",
     "city": "Santa Marta",
     "country": "Colombia",
     "region": "Magdalena Department (Caribbean Coast)",
     "lat": 11.2408,
     "lng": -74.199
+  },
+  {
+    "id": "santiago-chile",
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "Santiago Metropolitan Region, Central Valley",
+    "lat": -33.4569,
+    "lng": -70.6483
   },
   {
     "id": "sanya",
