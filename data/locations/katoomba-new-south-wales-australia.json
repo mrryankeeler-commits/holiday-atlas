@@ -1,0 +1,246 @@
+{
+  "id": "katoomba-new-south-wales-australia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/144505/Average-Weather-in-Katoomba-New-South-Wales-Australia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Katoomba",
+  "country": "Australia",
+  "region": "Blue Mountains, New South Wales",
+  "desc": "Katoomba is the Blue Mountains' most practical stay base for travelers who want immediate access to Echo Point, the Three Sisters, Scenic World, and the escarpment walking network, with the big advantage that it still works without a car better than many scenic mountain towns around Sydney.",
+  "hls": [
+    "Echo Point and the Three Sisters give Katoomba one of Australia's most recognizable cliff-edge viewpoints.",
+    "Scenic World adds easy high-impact access for travelers who want canyon views without turning the whole trip into a long-hike mission.",
+    "The town is a much stronger overnight base than a simple Sydney day-trip label suggests, especially if you want early and late light on the escarpment.",
+    "Train access from Sydney is unusually good, which makes Katoomba much easier than many comparable scenic mountain stops.",
+    "Autumn and spring are the most forgiving walking seasons, while winter brings colder nights and a different, moodier mountain atmosphere.",
+    "Weather shifts, low cloud, and current highway conditions matter here because viewpoints and access can feel completely different from one day to the next."
+  ],
+  "todo": [
+    {
+      "name": "Echo Point and Three Sisters sunrise or late-light block",
+      "cat": "Viewpoint",
+      "desc": "Go when the light is doing the work, because this is the destination's visual signature and worth more than a rushed midday stop."
+    },
+    {
+      "name": "Scenic World rides and boardwalks",
+      "cat": "Scenic access",
+      "desc": "Use Scenic World for the big escarpment payoff if you want canyon immersion without committing the whole day to a demanding hike."
+    },
+    {
+      "name": "Prince Henry Cliff Walk section",
+      "cat": "Walking",
+      "desc": "Choose one cliff-walk stretch rather than trying to overpack the whole network into a single day."
+    },
+    {
+      "name": "Katoomba Street cafes and vintage-shop wander",
+      "cat": "Town life",
+      "desc": "Give the town center some time so the stay feels like an actual mountain base rather than a pure lookout shuttle."
+    },
+    {
+      "name": "Leura add-on or garden-village half-day",
+      "cat": "Nearby village",
+      "desc": "Use nearby Leura for a softer second-day pace if you want to balance cliff edges with village atmosphere."
+    },
+    {
+      "name": "Blue Mountains visitor-center guided insight walk",
+      "cat": "Local context",
+      "desc": "Take one short interpretive session if you want the geology, ecology, and Aboriginal significance to register beyond the postcard view."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-120 Mbps",
+      "note": "Town hotels, guesthouses, and cafes are usually workable for remote basics, though older properties can vary more than central Sydney."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Katoomba has no airport, so this is always a Sydney-gateway trip followed by rail or road. Official New South Wales guidance describes Katoomba as just over two hours by train from Sydney and around 90 minutes by road in normal conditions, which makes it practical from Sydney but never a destination-level nonstop from London.",
+    "airports": [
+      {
+        "name": "Sydney Kingsford Smith Airport",
+        "code": "SYD",
+        "km": 105,
+        "dgw": false
+      }
+    ],
+    "currency": "Australian dollar (AUD); cards are standard, though small cafes and market-style vendors are still easier when you have a little backup flexibility.",
+    "lang": "English is the main language.",
+    "tz": "AEST/AEDT (UTC+10/+11)",
+    "visa": "Australia generally requires visitors to hold the appropriate ETA, eVisitor, or visa approval before travel, depending on nationality and current rules.",
+    "bestFor": [
+      "Blue Mountains overnights",
+      "Sydney side trips with real depth",
+      "Cliff-walk weekends",
+      "Viewpoint photography",
+      "Cooler-weather New South Wales escapes"
+    ],
+    "alerts": [
+      "Highway conditions and detours can materially affect drive times, so road assumptions should be checked close to travel.",
+      "Low cloud or mist can erase the main escarpment views even when the town itself seems perfectly usable.",
+      "Popular lookouts and Scenic World get much busier on weekends, holidays, and Sydney-friendly weather windows."
+    ]
+  },
+  "sweet": "March to May and September to November are usually Katoomba's best all-round windows for walking comfort, clearer views, and an easier crowd balance than the summer holiday peaks.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 18,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 14.1,
+      "cld": 31,
+      "rain": 76,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 17,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 13.3,
+      "cld": 30,
+      "rain": 91,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 15,
+      "hi": 21,
+      "lo": 10,
+      "daylight": 12.3,
+      "cld": 29,
+      "rain": 69,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 12,
+      "hi": 18,
+      "lo": 6,
+      "daylight": 11.2,
+      "cld": 33,
+      "rain": 66,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 8,
+      "hi": 14,
+      "lo": 3,
+      "daylight": 10.4,
+      "cld": 37,
+      "rain": 58,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 5,
+      "hi": 11,
+      "lo": 0,
+      "daylight": 9.9,
+      "cld": 36,
+      "rain": 58,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 4,
+      "hi": 11,
+      "lo": -1,
+      "daylight": 10.2,
+      "cld": 28,
+      "rain": 43,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 6,
+      "hi": 13,
+      "lo": 0,
+      "daylight": 10.9,
+      "cld": 24,
+      "rain": 48,
+      "busy": 5,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 9,
+      "hi": 16,
+      "lo": 3,
+      "daylight": 11.9,
+      "cld": 26,
+      "rain": 46,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 13.0,
+      "cld": 32,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 14,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 13.9,
+      "cld": 39,
+      "rain": 71,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 17,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 14.4,
+      "cld": 34,
+      "rain": 64,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

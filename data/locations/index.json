@@ -600,6 +600,14 @@
     "lng": 75.7873
   },
   {
+    "id": "juneau-alaska-united-states",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Southeast Alaska, Inside Passage",
+    "lat": 58.3019,
+    "lng": -134.4197
+  },
+  {
     "id": "kampot-cambodia",
     "city": "Kampot",
     "country": "Cambodia",
@@ -614,6 +622,14 @@
     "region": "Central Sri Lanka",
     "lat": 7.2906,
     "lng": 80.6337
+  },
+  {
+    "id": "katoomba-new-south-wales-australia",
+    "city": "Katoomba",
+    "country": "Australia",
+    "region": "Blue Mountains, New South Wales",
+    "lat": -33.7126,
+    "lng": 150.3119
   },
   {
     "id": "katowice",
@@ -670,6 +686,14 @@
     "region": "Imereti Region",
     "lat": 42.2679,
     "lng": 42.6946
+  },
+  {
+    "id": "kyoto-japan",
+    "city": "Kyoto",
+    "country": "Japan",
+    "region": "Kyoto Prefecture, Kansai",
+    "lat": 35.0116,
+    "lng": 135.7681
   },
   {
     "id": "leh-kashmir-india",

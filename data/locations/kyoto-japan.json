@@ -1,0 +1,252 @@
+{
+  "id": "kyoto-japan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/143438/Average-Weather-in-Kyoto-Japan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Kyoto",
+  "country": "Japan",
+  "region": "Kyoto Prefecture, Kansai",
+  "desc": "Kyoto is one of Japan's most rewarding but also most timing-sensitive city breaks, pairing temple districts, traditional streetscapes, gardens, and food culture with major seasonal crowd swings that can completely change the feel of the trip between sakura, summer humidity, autumn foliage, and quieter winter days.",
+  "hls": [
+    "Kyoto's strength is not one single landmark but the depth created by temple districts, old lanes, gardens, and neighborhood-scale culture across the city.",
+    "The city is much easier to enjoy if you plan around time of day and area clustering rather than trying to tick off famous places in a rush.",
+    "Cherry blossom and autumn foliage are genuinely beautiful, but they also bring Kyoto's heaviest crowd and room-pressure peaks.",
+    "Summer is greener and festival-rich, yet heat and humidity are real comfort costs in a city built for walking.",
+    "Winter is quieter and often better value, which suits travelers who care more about atmosphere and access than blossom color.",
+    "Kyoto rewards early starts more than many major cities because headline places can become congested very quickly."
+  ],
+  "todo": [
+    {
+      "name": "Fushimi Inari early-morning walk",
+      "cat": "Shrine",
+      "desc": "Go early so the torii-path experience feels atmospheric rather than fully governed by crowd flow."
+    },
+    {
+      "name": "Higashiyama and Kiyomizu-dera block",
+      "cat": "Historic district",
+      "desc": "Bundle the eastern temple district into one slow walking session because the lanes and transitions matter as much as the headline temple itself."
+    },
+    {
+      "name": "Arashiyama half-day",
+      "cat": "Scenic district",
+      "desc": "Treat Arashiyama as its own block and start early if bamboo-grove and riverside atmosphere matter to you."
+    },
+    {
+      "name": "Nishiki Market and downtown evening",
+      "cat": "Food & city life",
+      "desc": "Keep one central-city food session so the trip includes modern Kyoto energy as well as temples and gardens."
+    },
+    {
+      "name": "One major garden or castle stop",
+      "cat": "Culture",
+      "desc": "Choose one focused heritage visit such as Nijo-jo or a major garden rather than trying to flatten Kyoto into nonstop shrine repetition."
+    },
+    {
+      "name": "Flexible neighborhood dawn start",
+      "cat": "Pacing",
+      "desc": "Leave space for one extra early start in your favorite area because Kyoto often feels best before the city fully fills."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-180 Mbps",
+      "note": "Hotels, stations, and most modern cafes are fine for remote basics, but older machiya stays and very traditional properties can vary."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Kyoto is not a nonstop destination airport city in its own right. Official Kyoto access guidance treats Kansai International and Osaka Itami as the main air gateways, with KIX typically around 80-100 minutes to Kyoto Station and Itami around 50-55 minutes by airport bus, so UK travelers should think of Kyoto as an Osaka-gateway plus rail or bus arrival rather than a direct-flight destination.",
+    "airports": [
+      {
+        "name": "Osaka Itami Airport",
+        "code": "ITM",
+        "km": 50,
+        "dgw": false
+      },
+      {
+        "name": "Kansai International Airport",
+        "code": "KIX",
+        "km": 98,
+        "dgw": false
+      }
+    ],
+    "currency": "Japanese yen (JPY); cards are widely accepted in hotels, stations, and many larger restaurants, but cash still helps in smaller eateries, temple-adjacent shops, and older businesses.",
+    "lang": "Japanese is the main language; English support is best at transport hubs, hotels, and major attractions.",
+    "tz": "JST (UTC+9) year-round; no daylight saving time.",
+    "visa": "Japan entry rules depend on nationality and current visa policy, so check the latest requirements before travel.",
+    "bestFor": [
+      "Temple-and-garden city breaks",
+      "Japan first trips with depth",
+      "Food plus heritage itineraries",
+      "Sakura or autumn-foliage timing trips",
+      "Rail-based Kansai routes"
+    ],
+    "alerts": [
+      "Kyoto's famous districts can become genuinely crowded in blossom and foliage windows, especially from mid-morning onward.",
+      "June to September brings humidity, rain-front periods, and potential typhoon disruption that can change walking comfort and rail plans.",
+      "Public-transport etiquette, early starts, and area-by-area planning matter more here than in cities where you can improvise all day without friction."
+    ]
+  },
+  "sweet": "Late March to April and November are Kyoto's most famous windows, but late February, early March, and December often give a much easier balance of access, atmosphere, and lower crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 10.1,
+      "cld": 35,
+      "rain": 58,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 10.9,
+      "cld": 41,
+      "rain": 74,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 47,
+      "rain": 102,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 13.1,
+      "cld": 52,
+      "rain": 114,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 14.0,
+      "cld": 56,
+      "rain": 135,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 22,
+      "hi": 26,
+      "lo": 19,
+      "daylight": 14.5,
+      "cld": 68,
+      "rain": 175,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 30,
+      "lo": 23,
+      "daylight": 14.2,
+      "cld": 65,
+      "rain": 173,
+      "busy": 4,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 13.4,
+      "cld": 52,
+      "rain": 117,
+      "busy": 4,
+      "ac": 2,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 23,
+      "hi": 27,
+      "lo": 20,
+      "daylight": 12.4,
+      "cld": 49,
+      "rain": 165,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 22,
+      "lo": 13,
+      "daylight": 11.3,
+      "cld": 38,
+      "rain": 122,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 10.3,
+      "cld": 32,
+      "rain": 79,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 6,
+      "hi": 11,
+      "lo": 3,
+      "daylight": 9.8,
+      "cld": 29,
+      "rain": 64,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

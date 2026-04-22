@@ -1,0 +1,246 @@
+{
+  "id": "juneau-alaska-united-states",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark (Juneau International Airport)",
+        "url": "https://weatherspark.com/y/145123/Average-Weather-at-Juneau-International-Airport-Alaska-United-States-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Southeast Alaska, Inside Passage",
+  "desc": "Juneau is one of Alaska's most distinctive stay bases because it mixes true small-capital-town infrastructure with immediate access to glacier scenery, whale-watching water, and rainforest trails, all in a road-limited setting where weather, cruise timing, and excursion logistics shape the trip more than conventional city sightseeing does.",
+  "hls": [
+    "Mendenhall Glacier is the obvious anchor, but Juneau works best when you treat whale water, mountain viewpoints, and downtown history as part of the same stay.",
+    "This is not a simple road-trip town: Juneau's partial isolation is part of the appeal and changes how transport, costs, and pacing feel.",
+    "Summer has the clearest activity range thanks to long daylight, wildlife outings, and better tram and tour coverage.",
+    "Rain and low cloud are part of the destination's reality rather than bad luck, especially in late season and shoulder months.",
+    "The compact downtown and harbor area are useful, but the trip's real payoff comes from scenery and excursions rather than urban depth alone.",
+    "Cruise-ship days can change the feel of the city center dramatically, even when overnight independent travelers are not staying in huge numbers."
+  ],
+  "todo": [
+    {
+      "name": "Mendenhall Glacier and visitor-center block",
+      "cat": "Glacier",
+      "desc": "Treat Mendenhall as the core land outing and leave time for both the views and the short trails rather than reducing it to a quick transport stop."
+    },
+    {
+      "name": "Whale-watching trip from Auke Bay",
+      "cat": "Wildlife",
+      "desc": "Build one boat session into the stay because marine wildlife is one of the main reasons Juneau feels special rather than merely scenic."
+    },
+    {
+      "name": "Mount Roberts tram or summit-view block",
+      "cat": "Viewpoint",
+      "desc": "Use a clear-weather window for the tram and upper trails because the payoff depends heavily on visibility."
+    },
+    {
+      "name": "Downtown Juneau and Alaska-history walk",
+      "cat": "Town life",
+      "desc": "Keep one slower town session for the waterfront, state-capital feel, and compact museum-and-shops rhythm."
+    },
+    {
+      "name": "Rainforest trail or glacier-side hike",
+      "cat": "Hiking",
+      "desc": "Pick one hike that matches conditions, because Juneau's forest-and-water edge is part of the trip's identity."
+    },
+    {
+      "name": "Evening seafood and harbor time",
+      "cat": "Food",
+      "desc": "Leave space for a relaxed evening around the docks so the stay is not only tour departures and weather checks."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "25-100 Mbps",
+      "note": "Town hotels and apartments are usually fine for light remote basics, but speeds and stability can soften in busy summer periods or on the edges of excursion-heavy days."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Juneau has its own airport, but not nonstop service from the repo's London origins. Current official Juneau travel guidance shows daily nonstop links from Seattle and Anchorage, with Delta appearing seasonally, so UK trips are still connection-led by definition and should not carry a destination-level direct badge.",
+    "airports": [
+      {
+        "name": "Juneau International Airport",
+        "code": "JNU",
+        "km": 11,
+        "dgw": false
+      }
+    ],
+    "currency": "US dollar (USD); cards are widely accepted, but keeping a little backup cash still helps for tips, small vendors, and edge-case transport situations.",
+    "lang": "English is the main language.",
+    "tz": "Alaska Time (AKST/AKDT, UTC-9/-8)",
+    "visa": "United States entry rules depend on nationality and current ESTA or visa requirements, so check the latest federal guidance before travel.",
+    "bestFor": [
+      "Glacier-and-wildlife trips",
+      "Alaska small-ship or land extensions",
+      "Inside Passage scenery",
+      "Rainforest hiking",
+      "Summer long-daylight adventures"
+    ],
+    "alerts": [
+      "Cruise schedules can make central Juneau feel far busier by day than overnight demand alone would suggest.",
+      "Mendenhall access and some excursion experiences can change with staffing, weather, and seasonal operating windows.",
+      "Heavy rain, low cloud, and marine conditions matter more here than a simple temperature check."
+    ]
+  },
+  "sweet": "Late May to early September is usually the easiest Juneau window for wildlife, glacier access, and long usable daylight, while June and early July often give the strongest balance between activity range and weather without the very wet late-season pattern becoming dominant.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 1,
+      "lo": -4,
+      "daylight": 7.3,
+      "cld": 78,
+      "rain": 221,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -1,
+      "hi": 2,
+      "lo": -3,
+      "daylight": 9.4,
+      "cld": 74,
+      "rain": 185,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 1,
+      "hi": 4,
+      "lo": -2,
+      "daylight": 12.0,
+      "cld": 71,
+      "rain": 168,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 5,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 14.6,
+      "cld": 72,
+      "rain": 155,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 9,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 16.9,
+      "cld": 68,
+      "rain": 122,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 12,
+      "hi": 17,
+      "lo": 9,
+      "daylight": 18.2,
+      "cld": 70,
+      "rain": 109,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 17.4,
+      "cld": 72,
+      "rain": 142,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 17,
+      "lo": 10,
+      "daylight": 15.2,
+      "cld": 71,
+      "rain": 218,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 10,
+      "hi": 13,
+      "lo": 7,
+      "daylight": 12.7,
+      "cld": 77,
+      "rain": 340,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 6,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 10.1,
+      "cld": 80,
+      "rain": 371,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 7.8,
+      "cld": 78,
+      "rain": 277,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -1,
+      "hi": 1,
+      "lo": -3,
+      "daylight": 6.5,
+      "cld": 77,
+      "rain": 252,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}
