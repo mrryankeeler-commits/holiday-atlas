@@ -1,0 +1,246 @@
+{
+  "id": "moshi-tanzania",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark / Weather Atlas",
+        "url": "https://weatherspark.com/y/100122/Average-Weather-in-Moshi-Tanzania-Year-Round | https://www.weather-atlas.com/en/tanzania/moshi-climate"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Moshi",
+  "country": "Tanzania",
+  "region": "Kilimanjaro Region, Mount Kilimanjaro foothills",
+  "desc": "Moshi is the most practical base for Kilimanjaro climbs and foothill day trips, with a laid-back small-town center, coffee-country access, and occasional big-mountain views that make it stronger as an adventure gateway than as a polished standalone city break.",
+  "hls": [
+    "Best-known staging town for Kilimanjaro treks, so the town's hotels, cafés, and outfitters are built around climb logistics.",
+    "The clearest draw is the mountain setting, especially on dry-season mornings when Kilimanjaro actually shows itself above town.",
+    "Moshi is more rewarding when you mix climb prep or recovery with nearby Chagga coffee and waterfall outings, rather than expecting dense urban sightseeing.",
+    "Materuni-style day trips give the town a useful culture-and-nature contrast without long transfer times.",
+    "Dry seasons are the easiest windows both for mountain views and for road-and-footpath comfort around the foothills.",
+    "Works best for 2-3 nights around a climb or safari connection, unless you specifically want a slower Kilimanjaro-region base."
+  ],
+  "todo": [
+    {
+      "name": "Moshi market and central coffee stop",
+      "cat": "Town life",
+      "desc": "Start in town so the trip feels grounded in everyday Moshi rather than only in expedition briefings."
+    },
+    {
+      "name": "Materuni waterfall and Chagga coffee day",
+      "cat": "Culture & nature",
+      "desc": "Use one foothills day for coffee, village scenery, and a short waterfall hike because it is the clearest easy add-on from town."
+    },
+    {
+      "name": "Kilimanjaro-view morning from a rooftop or garden hotel",
+      "cat": "Viewpoint",
+      "desc": "Keep at least one early morning flexible because the mountain reveal is weather-dependent and often disappears later in the day."
+    },
+    {
+      "name": "Climb briefing or recovery day with a low-key café schedule",
+      "cat": "Pacing",
+      "desc": "Treat one day as deliberate buffer time if you are trekking, since Moshi functions best when logistics are not rushed."
+    },
+    {
+      "name": "Foothills coffee farm visit beyond the main road",
+      "cat": "Coffee",
+      "desc": "Add a smaller coffee visit if you want something more local-feeling than a quick town-based stop."
+    },
+    {
+      "name": "Hot springs or another half-day Kilimanjaro-region outing",
+      "cat": "Day trip",
+      "desc": "Use one easier excursion if you want a break from expedition-focused energy before or after a climb."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10–50 Mbps",
+      "note": "Workable in better hotels, climb lodges, and established cafés, but reliability drops outside stronger properties and should not be treated as guaranteed."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Moshi has no airport of its own and there is no LGW or LCY nonstop to the usual gateway, Kilimanjaro International Airport. UK trips are connection-led into JRO, then continue by road to Moshi, so the town is practical for climb staging but not a direct-arrival destination.",
+    "airports": [
+      {
+        "name": "Kilimanjaro International Airport",
+        "code": "JRO",
+        "km": 41,
+        "dgw": false
+      }
+    ],
+    "currency": "Tanzanian shilling (TZS); larger hotels and operators may take cards, but cash is still important for guides, tips, cafés, and smaller everyday purchases.",
+    "lang": "Swahili and English are both common in tourism-facing settings, with English especially widespread among trek operators and hotels.",
+    "tz": "EAT (UTC+3), no daylight saving time.",
+    "visa": "British citizens need a visa for Tanzania; an e-visa before travel is the usual low-friction option, though a single-entry tourist visa may also be available on arrival at major ports of entry.",
+    "bestFor": [
+      "Kilimanjaro climb staging",
+      "Adventure gateway towns",
+      "Coffee-and-waterfall day trips",
+      "Pre-safari or post-trek recovery stays",
+      "Mountain-view travel"
+    ],
+    "alerts": [
+      "Moshi is functional rather than polished, so hotel choice matters more than usual if you want comfort before or after a climb.",
+      "Mountain views are never guaranteed and often vanish into cloud after early morning, especially in wetter periods.",
+      "March to May is the main rainier stretch, when foothill paths, village roads, and day-trip comfort can deteriorate quickly."
+    ]
+  },
+  "sweet": "January to February and June to October are usually Moshi's strongest windows, with the best odds for Kilimanjaro views, drier trekking conditions, and easier foothill day trips.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 25,
+      "hi": 33,
+      "lo": 17,
+      "daylight": 12.0,
+      "cld": 71,
+      "rain": 30,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 25,
+      "hi": 33,
+      "lo": 17,
+      "daylight": 12.0,
+      "cld": 73,
+      "rain": 50,
+      "busy": 9,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 25,
+      "hi": 32,
+      "lo": 18,
+      "daylight": 12.0,
+      "cld": 73,
+      "rain": 110,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 24,
+      "hi": 29,
+      "lo": 19,
+      "daylight": 12.0,
+      "cld": 69,
+      "rain": 350,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 12.0,
+      "cld": 57,
+      "rain": 230,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 20,
+      "hi": 25,
+      "lo": 16,
+      "daylight": 11.9,
+      "cld": 47,
+      "rain": 30,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 20,
+      "hi": 25,
+      "lo": 15,
+      "daylight": 11.9,
+      "cld": 40,
+      "rain": 20,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 20,
+      "hi": 26,
+      "lo": 15,
+      "daylight": 12.0,
+      "cld": 34,
+      "rain": 10,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 22,
+      "hi": 28,
+      "lo": 15,
+      "daylight": 12.0,
+      "cld": 38,
+      "rain": 10,
+      "busy": 9,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 24,
+      "hi": 31,
+      "lo": 16,
+      "daylight": 12.0,
+      "cld": 54,
+      "rain": 20,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 24,
+      "hi": 31,
+      "lo": 17,
+      "daylight": 12.0,
+      "cld": 57,
+      "rain": 60,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 24,
+      "hi": 32,
+      "lo": 17,
+      "daylight": 12.0,
+      "cld": 65,
+      "rain": 50,
+      "busy": 6,
+      "ac": 3,
+      "fl": 5
+    }
+  ]
+}

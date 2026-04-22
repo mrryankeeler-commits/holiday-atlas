@@ -1,0 +1,246 @@
+{
+  "id": "salta-argentina",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/27945/Average-Weather-in-Salta-Argentina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Salta",
+  "country": "Argentina",
+  "region": "Salta Province, Lerma Valley",
+  "desc": "Salta is one of Argentina's most rewarding regional city breaks if you want colonial architecture, strong northwest food-and-folklore identity, and easy access to the Quebrada, high-altitude rail and road scenery, making it far more than a transfer stop into the wider province.",
+  "hls": [
+    "The historic center is more coherent and visually rewarding than many inland Argentine cities, with plaza, cathedral, Cabildo, and San Francisco all close together.",
+    "Salta's peñas and regional food culture matter as much to the trip as museums and facades, especially around Balcarce at night.",
+    "The city is the practical gateway to some of northwest Argentina's best scenery, from Quebrada routes to the Puna and Train to the Clouds.",
+    "Dry-season months are dramatically easier for day trips, road reliability, and high-altitude views than the summer rainy stretch.",
+    "The city sits at manageable elevation itself, but many classic excursions climb far higher and need more respect than first-time visitors expect.",
+    "Works especially well for 3-4 nights, with more time only if you are adding Cafayate, Cachi, or deeper Puna travel."
+  ],
+  "todo": [
+    {
+      "name": "Plaza 9 de Julio, cathedral, and Cabildo circuit",
+      "cat": "Historic center",
+      "desc": "Start here because Salta's central square is the clearest way to understand why the city itself deserves time, not only the surrounding province."
+    },
+    {
+      "name": "MAAM museum visit",
+      "cat": "Museum",
+      "desc": "Make room for the High Mountain Archaeology Museum because it gives the city a deeper Andean historical weight than its pretty streets alone suggest."
+    },
+    {
+      "name": "Cerro San Bernardo by teleférico or stairs",
+      "cat": "Viewpoint",
+      "desc": "Use the hill for the best city orientation and to see how Salta sits inside the wider valley setting."
+    },
+    {
+      "name": "Balcarce peña evening",
+      "cat": "Music & food",
+      "desc": "Build at least one night around live folklore and regional dishes because Salta's after-dark identity is a major part of the destination."
+    },
+    {
+      "name": "Tren a las Nubes or Quebrada del Toro route day",
+      "cat": "Scenic excursion",
+      "desc": "Choose one major altitude-focused outing because this is the easiest way to connect the city with the dramatic landscapes beyond it."
+    },
+    {
+      "name": "Cafayate or Quebrada de las Conchas day trip",
+      "cat": "Road trip",
+      "desc": "Keep one full day for rock formations and wine-country scenery if you want the wider province to feel like part of the stay."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30–100 Mbps",
+      "note": "Central hotels, apartment rentals, and café-work setups are usually solid for basic remote use, with fewer reliability worries than in smaller northwest towns."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Salta has its own airport and some international links within the region, but there is no LGW or LCY nonstop. UK trips are still connection-led, usually via Buenos Aires or another hub before the final leg, so Salta is easier than its map position suggests without being direct-access.",
+    "airports": [
+      {
+        "name": "Martín Miguel de Güemes International Airport",
+        "code": "SLA",
+        "km": 10,
+        "dgw": false
+      }
+    ],
+    "currency": "Argentine peso (ARS); card use is common in hotels and established restaurants, but exchange-rate behavior and cash needs can change quickly enough that flexibility still matters.",
+    "lang": "Spanish is the everyday language; English is most dependable in better hotels, organized tours, and some city-center hospitality spots.",
+    "tz": "ART (UTC-3), no daylight saving time.",
+    "visa": "Argentina allows British citizens to visit visa-free for tourism for up to 90 days, with longer stays or non-tourist trips requiring the relevant Argentine permission.",
+    "bestFor": [
+      "Northwest Argentina city breaks",
+      "Colonial-core plus day-trip travel",
+      "Folklore-and-food evenings",
+      "Andean scenic gateways",
+      "Dry-season road itineraries"
+    ],
+    "alerts": [
+      "The city itself is manageable, but headline excursions can jump above 4,000 meters quickly, so altitude becomes a real issue even if Salta town does not feel extreme.",
+      "Summer rains from roughly December to March can cloud out scenery, slow roads, and remove some of the easy certainty from classic day trips.",
+      "Dry-season evenings can be much cooler than daytime temperatures suggest, especially if you are mixing city nights with higher-altitude outings."
+    ]
+  },
+  "sweet": "April to November is usually Salta's strongest window, with the driest conditions for city walking and scenic excursions, while July and August bring the clearest classic high-altitude travel weather.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 22,
+      "hi": 27,
+      "lo": 17,
+      "daylight": 13.5,
+      "cld": 47,
+      "rain": 165,
+      "busy": 2,
+      "ac": 1,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 21,
+      "hi": 26,
+      "lo": 17,
+      "daylight": 12.9,
+      "cld": 41,
+      "rain": 155,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 20,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 12.2,
+      "cld": 32,
+      "rain": 107,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 17,
+      "hi": 22,
+      "lo": 13,
+      "daylight": 11.5,
+      "cld": 26,
+      "rain": 38,
+      "busy": 6,
+      "ac": 3,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 20,
+      "lo": 9,
+      "daylight": 10.9,
+      "cld": 30,
+      "rain": 8,
+      "busy": 7,
+      "ac": 3,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 11,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 10.6,
+      "cld": 34,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 11,
+      "hi": 19,
+      "lo": 4,
+      "daylight": 10.8,
+      "cld": 28,
+      "rain": 2,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 22,
+      "lo": 6,
+      "daylight": 11.3,
+      "cld": 22,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 24,
+      "lo": 9,
+      "daylight": 12.0,
+      "cld": 20,
+      "rain": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 19,
+      "hi": 27,
+      "lo": 13,
+      "daylight": 12.7,
+      "cld": 24,
+      "rain": 23,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 21,
+      "hi": 27,
+      "lo": 15,
+      "daylight": 13.3,
+      "cld": 27,
+      "rain": 58,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 22,
+      "hi": 28,
+      "lo": 17,
+      "daylight": 13.7,
+      "cld": 37,
+      "rain": 122,
+      "busy": 4,
+      "ac": 2,
+      "fl": 5
+    }
+  ]
+}

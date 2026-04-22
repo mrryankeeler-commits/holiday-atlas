@@ -1,0 +1,246 @@
+{
+  "id": "montevideo-uruguay",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/29220/Average-Weather-in-Montevideo-Uruguay-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "region": "Montevideo Department, Río de la Plata coast",
+  "desc": "Montevideo is one of South America's easiest capital-city breaks for travelers who want coastal walks, relaxed café rhythm, and enough heritage in Ciudad Vieja to feel anchored without dealing with the scale or intensity of Buenos Aires, making it stronger for slow urban days than for box-ticking monument tourism.",
+  "hls": [
+    "The Rambla is the city's real signature, shaping daily life more than any single landmark and making Montevideo feel unusually open and liveable for a capital.",
+    "Ciudad Vieja gives the trip its historical core, but Montevideo works best when you treat it as a lived-in neighbourhood city rather than a museum city.",
+    "Plaza Independencia, Teatro Solís, and the old city gate provide the clearest orientation between the historic and modern halves of town.",
+    "Mercado del Puerto matters more for atmosphere and parrilla culture than for quiet dining, especially at busier lunch hours.",
+    "Summer brings the most beach and terrace energy, while autumn and spring are often better for long city walks.",
+    "Works especially well for 3-4 nights or as a calmer Río de la Plata contrast to Buenos Aires."
+  ],
+  "todo": [
+    {
+      "name": "Ciudad Vieja and Peatonal Sarandí walk",
+      "cat": "Historic core",
+      "desc": "Use the old quarter as the backbone of the trip so the city's layered architecture, museums, and café life connect properly."
+    },
+    {
+      "name": "Plaza Independencia and Teatro Solís",
+      "cat": "City landmarks",
+      "desc": "Pair the main square with the theatre to understand where Montevideo's civic and cultural identity really sits."
+    },
+    {
+      "name": "Mercado del Puerto lunch",
+      "cat": "Food",
+      "desc": "Go for the smoke, noise, and parrilla atmosphere rather than expecting a quiet market-hall meal."
+    },
+    {
+      "name": "Rambla walk from Pocitos toward Parque Rodó",
+      "cat": "Coastal walk",
+      "desc": "Leave a long unhurried block for the waterfront because Montevideo's payoff is often pace, not dense sightseeing."
+    },
+    {
+      "name": "Casco Histórico museums or galleries",
+      "cat": "Culture",
+      "desc": "Keep one flexible museum block in the old city so the trip has more depth than food-and-coastline wandering alone."
+    },
+    {
+      "name": "Sunset by the waterfront with maté-and-people-watching time",
+      "cat": "Pacing",
+      "desc": "Make room for a simple coastal evening because Montevideo often feels best when you slow down and join the local rhythm."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–150 Mbps",
+      "note": "Central hotels, apartment rentals, and café-work spots are usually dependable, making Montevideo one of the easier South American capitals for light remote routines."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Montevideo has a straightforward main airport at Carrasco, but there is no LGW or LCY nonstop. Current London routing is connection-led, commonly via Madrid, so the destination is practical from the UK without being a true direct long-haul capital break.",
+    "airports": [
+      {
+        "name": "Carrasco International Airport",
+        "code": "MVD",
+        "km": 19,
+        "dgw": false
+      }
+    ],
+    "currency": "Uruguayan peso (UYU); cards are widely accepted across the city, though carrying some cash still helps for smaller bars, kiosks, and taxis.",
+    "lang": "Rioplatense Spanish is the everyday language; English is workable in better hotels, some restaurants, and established visitor-facing businesses.",
+    "tz": "UYT (UTC-3), no daylight saving time.",
+    "visa": "Uruguay allows British citizens to visit without a visa for up to 90 days, though you should still check the current entry rules before departure.",
+    "bestFor": [
+      "Relaxed South American capitals",
+      "Food-and-wine city breaks",
+      "Urban coastal walks",
+      "Río de la Plata itineraries",
+      "Longer-stay city pacing"
+    ],
+    "alerts": [
+      "Montevideo is more relaxed than some regional capitals, but petty theft still matters around bus terminals, busy central areas, and emptier stretches of Ciudad Vieja after dark.",
+      "Winter is workable for city travel, though wind off the Río de la Plata can make the coast feel colder and grayer than the temperature suggests.",
+      "January can feel quieter in business districts while beach and waterfront areas become much more of the city's focus."
+    ]
+  },
+  "sweet": "October to April is usually Montevideo's easiest window, with the most waterfront life and terrace energy, while March and November often give the best balance of warmth and walkability.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 23,
+      "hi": 27,
+      "lo": 18,
+      "daylight": 14.2,
+      "cld": 29,
+      "rain": 81,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 13.3,
+      "cld": 32,
+      "rain": 96,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 21,
+      "hi": 24,
+      "lo": 17,
+      "daylight": 12.2,
+      "cld": 33,
+      "rain": 96,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 17,
+      "hi": 21,
+      "lo": 14,
+      "daylight": 11.2,
+      "cld": 41,
+      "rain": 104,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 10.3,
+      "cld": 50,
+      "rain": 76,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 11,
+      "hi": 15,
+      "lo": 8,
+      "daylight": 9.8,
+      "cld": 52,
+      "rain": 74,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 11,
+      "hi": 14,
+      "lo": 7,
+      "daylight": 10.1,
+      "cld": 51,
+      "rain": 69,
+      "busy": 2,
+      "ac": 1,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 10.9,
+      "cld": 48,
+      "rain": 71,
+      "busy": 3,
+      "ac": 1,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 17,
+      "lo": 10,
+      "daylight": 11.9,
+      "cld": 43,
+      "rain": 76,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 20,
+      "lo": 12,
+      "daylight": 13.0,
+      "cld": 39,
+      "rain": 91,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 18,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 14.0,
+      "cld": 35,
+      "rain": 96,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 21,
+      "hi": 26,
+      "lo": 17,
+      "daylight": 14.5,
+      "cld": 32,
+      "rain": 79,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

@@ -856,6 +856,22 @@
     "lng": -74.1153
   },
   {
+    "id": "montevideo-uruguay",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "region": "Montevideo Department, Río de la Plata coast",
+    "lat": -34.9033,
+    "lng": -56.1882
+  },
+  {
+    "id": "moshi-tanzania",
+    "city": "Moshi",
+    "country": "Tanzania",
+    "region": "Kilimanjaro Region, Mount Kilimanjaro foothills",
+    "lat": -3.3349,
+    "lng": 37.3404
+  },
+  {
     "id": "mostar",
     "city": "Mostar",
     "country": "Bosnia & Herzegovina",
@@ -1102,6 +1118,14 @@
     "region": "Quindío Department",
     "lat": 4.6374,
     "lng": -75.5708
+  },
+  {
+    "id": "salta-argentina",
+    "city": "Salta",
+    "country": "Argentina",
+    "region": "Salta Province, Lerma Valley",
+    "lat": -24.8065,
+    "lng": -65.42
   },
   {
     "id": "samarkand",
