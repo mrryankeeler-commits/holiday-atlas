@@ -296,6 +296,14 @@
     "lng": 104.0668
   },
   {
+    "id": "cochabamba-bolivia",
+    "city": "Cochabamba",
+    "country": "Bolivia",
+    "region": "Cochabamba Valley, Central Bolivia",
+    "lat": -17.382,
+    "lng": -66.16
+  },
+  {
     "id": "colombo",
     "city": "Colombo",
     "country": "Sri Lanka",
@@ -304,12 +312,28 @@
     "lng": 79.8612
   },
   {
+    "id": "cordoba-argentina",
+    "city": "Córdoba",
+    "country": "Argentina",
+    "region": "Córdoba Province, Central Argentina",
+    "lat": -31.4167,
+    "lng": -64.1833
+  },
+  {
     "id": "copenhagen",
     "city": "Copenhagen",
     "country": "Denmark",
     "region": "Zealand",
     "lat": 55.6761,
     "lng": 12.5683
+  },
+  {
+    "id": "cortina-d-ampezzo-italy",
+    "city": "Cortina d'Ampezzo",
+    "country": "Italy",
+    "region": "Ampezzo Valley, Belluno Dolomites",
+    "lat": 46.5381,
+    "lng": 12.1372
   },
   {
     "id": "cuenca-ecuador",

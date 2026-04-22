@@ -1,0 +1,246 @@
+{
+  "id": "cochabamba-bolivia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/27676/Average-Weather-in-Cochabamba-Bolivia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Cochabamba",
+  "country": "Bolivia",
+  "region": "Cochabamba Valley, Central Bolivia",
+  "desc": "Cochabamba is Bolivia's most comfortable big-city base for travelers who want market energy, strong local food culture, and milder valley weather than La Paz or Santa Cruz, with Cristo de la Concordia and Palacio Portales giving the city more visual payoff than a pure transit stop.",
+  "hls": [
+    "Known as Bolivia's 'city of eternal spring' because temperatures stay workable for city days through much of the year.",
+    "Cristo de la Concordia gives the city its defining hilltop viewpoint and is the obvious skyline anchor.",
+    "La Cancha is one of the country's great market experiences and matters more to the trip than a tidy old-town checklist.",
+    "Palacio Portales adds an unexpectedly grand heritage stop with gardens and a strong cultural-program feel.",
+    "Works well for 2-3 nights or as a softer acclimatisation stop before higher Bolivian altitudes.",
+    "Rainier months can dull the surrounding mountain views even when the city itself still feels usable."
+  ],
+  "todo": [
+    {
+      "name": "Cristo de la Concordia cable-car or stair climb",
+      "cat": "Viewpoint",
+      "desc": "Use the hilltop statue as the opening orientation stop because it explains the shape of the valley and the spread of the city at once."
+    },
+    {
+      "name": "Palacio Portales guided visit",
+      "cat": "Heritage",
+      "desc": "Pair the palace interior with the gardens so the stop feels like a real heritage visit rather than a quick facade photo."
+    },
+    {
+      "name": "La Cancha market morning",
+      "cat": "Market",
+      "desc": "Go early and keep it focused on one or two sectors, because the scale is the point and trying to 'do it all' quickly gets exhausting."
+    },
+    {
+      "name": "Plaza 14 de Septiembre and central cathedral area",
+      "cat": "Historic core",
+      "desc": "Use the main square and surrounding civic blocks as the compact center-of-town walk before branching into markets or food stops."
+    },
+    {
+      "name": "Tunari foothills or valley-edge viewpoint outing",
+      "cat": "Outdoor",
+      "desc": "Keep one half-day flexible for clearer weather if you want the surrounding mountains to feel like part of the trip rather than background."
+    },
+    {
+      "name": "Cochabamba food crawl",
+      "cat": "Food",
+      "desc": "Build one evening around salteñas, pique macho, and busy local dining streets because eating well is central to why Cochabamba works."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–120 Mbps",
+      "note": "Business hotels, modern apartments, and central cafés are usually workable for remote basics, but outages and mobile-network fallback still matter more than in a larger South American capital."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Cochabamba's own airport keeps transfers simple once you are in Bolivia, but there is no LGW or LCY nonstop. UK trips are still connection-led, often via Madrid or another regional hub, and Bolivia-side retiming can matter more than the final airport distance because schedules are thinner than in bigger South American gateways.",
+    "airports": [
+      {
+        "name": "Jorge Wilstermann International Airport",
+        "code": "CBB",
+        "km": 4,
+        "dgw": false
+      }
+    ],
+    "currency": "Boliviano (BOB); cards work in many hotels and smarter restaurants, but markets, taxis, and smaller everyday purchases are still easier with cash.",
+    "lang": "Spanish is the default working language; Quechua is also widely heard in markets and around the wider valley.",
+    "tz": "BOT (UTC-4), no daylight saving time.",
+    "visa": "Bolivia allows British citizens up to 90 days of visa-free tourism in a one-year period, though border officials often stamp a shorter initial stay and your passport should have at least 6 months' validity plus blank pages.",
+    "bestFor": [
+      "Market-and-food city breaks",
+      "Bolivian urban culture",
+      "Mild-climate short stays",
+      "Soft acclimatisation stops",
+      "Central Bolivia routing"
+    ],
+    "alerts": [
+      "Cochabamba is easier than La Paz for altitude, but it still sits high enough that hydration and a lighter first day help.",
+      "La Cancha is enormous and crowded, so it rewards focused browsing and close attention to belongings.",
+      "From December to March, cloudier afternoons and heavier rain can flatten viewpoint plans and foothill outings."
+    ]
+  },
+  "sweet": "April to September is usually the easiest Cochabamba window, with drier weather and clearer valley views, while October and November still work well if you want warmer days before the rainier stretch builds.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 13.0,
+      "cld": 82,
+      "rain": 79,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 12.6,
+      "cld": 80,
+      "rain": 64,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 12.2,
+      "cld": 70,
+      "rain": 43,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 17,
+      "hi": 25,
+      "lo": 10,
+      "daylight": 11.7,
+      "cld": 51,
+      "rain": 13,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 15,
+      "hi": 24,
+      "lo": 6,
+      "daylight": 11.3,
+      "cld": 39,
+      "rain": 2,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 13,
+      "hi": 23,
+      "lo": 4,
+      "daylight": 11.1,
+      "cld": 33,
+      "rain": 2,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 13,
+      "hi": 23,
+      "lo": 4,
+      "daylight": 11.2,
+      "cld": 26,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 24,
+      "lo": 6,
+      "daylight": 11.6,
+      "cld": 27,
+      "rain": 5,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 17,
+      "hi": 26,
+      "lo": 9,
+      "daylight": 12.0,
+      "cld": 36,
+      "rain": 5,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 19,
+      "hi": 26,
+      "lo": 12,
+      "daylight": 12.5,
+      "cld": 55,
+      "rain": 13,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 19,
+      "hi": 26,
+      "lo": 13,
+      "daylight": 12.9,
+      "cld": 64,
+      "rain": 25,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 19,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 13.2,
+      "cld": 76,
+      "rain": 53,
+      "busy": 4,
+      "ac": 3,
+      "fl": 5
+    }
+  ]
+}

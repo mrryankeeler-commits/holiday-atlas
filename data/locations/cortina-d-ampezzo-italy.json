@@ -1,0 +1,258 @@
+{
+  "id": "cortina-d-ampezzo-italy",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark (Colle Santa Lucia) + Weather Atlas",
+        "url": "https://weatherspark.com/y/72803/Average-Weather-in-Colle-Santa-Lucia-Italy-Year-Round | https://www.weather-atlas.com/en/italy/cortina-dampezzo-climate"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Cortina d'Ampezzo",
+  "country": "Italy",
+  "region": "Ampezzo Valley, Belluno Dolomites",
+  "desc": "Cortina d'Ampezzo is one of the Dolomites' strongest prestige bases, combining dramatic lift-access mountain scenery, a polished resort center, and real two-season appeal for skiing in winter and classic hut-and-viewpoint days in summer, with the trade-off that prices and crowd pressure rise fast when the season is truly on.",
+  "hls": [
+    "One of the most visually dramatic stay bases in the Dolomites, ringed by the Tofane, Cristallo, Faloria, and Cinque Torri sectors.",
+    "A genuine dual-season destination: ski and snow focus in winter, lift-assisted hiking and alpine road-trip appeal in summer.",
+    "Cinque Torri and the open-air Great War sites give Cortina more historical texture than a pure luxury resort label suggests.",
+    "Corso Italia keeps the town center lively enough that the trip is not only about mountain logistics.",
+    "Shoulder seasons can be awkward because lifts, huts, and transport links do not all transition at the same pace.",
+    "Accommodation pressure is among the highest in the Dolomites when snow and school-holiday timing line up well."
+  ],
+  "todo": [
+    {
+      "name": "Freccia nel Cielo / Tofana viewpoint day",
+      "cat": "Mountain lift",
+      "desc": "Use one high-lift day for the big Dolomite panorama rather than trying to stack too many lower valley viewpoints into the same weather window."
+    },
+    {
+      "name": "Cinque Torri and Great War open-air museum",
+      "cat": "Scenic & history",
+      "desc": "This is the best single outing if you want Cortina's mix of mountain drama and World War I history in one block."
+    },
+    {
+      "name": "Lago di Sorapis hike",
+      "cat": "Hiking",
+      "desc": "Treat Sorapis as a clear-weather, early-start summer objective because it is iconic, busy, and not a shoulder-season certainty."
+    },
+    {
+      "name": "Corso Italia aperitivo and town-center wander",
+      "cat": "Town life",
+      "desc": "Keep one lower-effort evening for Cortina's polished center so the trip is not only cable cars, boots, and transfer logistics."
+    },
+    {
+      "name": "Lunga Via delle Dolomiti cycle or valley ride",
+      "cat": "Active",
+      "desc": "Use the old railway corridor if you want a scenic movement day that is less demanding than a full mountain hike."
+    },
+    {
+      "name": "Rifugio lunch or ski-sector day",
+      "cat": "Alpine experience",
+      "desc": "Commit one block to the classic Cortina rhythm of lift, refuge, and views, because that is the destination's real signature."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "50–200 Mbps",
+      "note": "Upscale hotels and apartments are often very workable, but mountain huts, lift-side spots, and stormy-weather days are much less predictable."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Cortina has no commercial airport, so this is always a gateway-and-transfer trip despite strong tourism infrastructure. Venice Marco Polo and Treviso are the main air arrivals, with daily or high-season bus links onward, and even when London flights exist to those gateways Cortina itself should not carry a direct-flight badge.",
+    "airports": [
+      {
+        "name": "Treviso Airport",
+        "code": "TSF",
+        "km": 130,
+        "dgw": false
+      },
+      {
+        "name": "Venice Marco Polo Airport",
+        "code": "VCE",
+        "km": 162,
+        "dgw": false
+      },
+      {
+        "name": "Innsbruck Airport",
+        "code": "INN",
+        "km": 170,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR); cards are standard, but mountain huts, small shuttle situations, and parking/payment edge cases are easier if you keep some cash backup.",
+    "lang": "Italian is the main working language; English is common in tourism, and Ladin still has local cultural presence.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy follows Schengen rules, so British citizens can visit visa-free for up to 90 days in any 180-day period, with passport-validity and onward-travel requirements needing attention.",
+    "bestFor": [
+      "Dolomites scenery",
+      "Ski weeks",
+      "Lift-assisted hiking",
+      "Alpine road trips",
+      "Higher-end mountain stays"
+    ],
+    "alerts": [
+      "Spring and late-autumn shoulder periods can leave you between seasons, with partial lift and hut coverage even in decent weather.",
+      "Peak winter and August pricing can be sharp enough that late booking meaningfully changes the trip budget.",
+      "Road traffic, car-park pressure, and weather-sensitive high plans all get worse fast in headline periods."
+    ]
+  },
+  "sweet": "Late June to September is usually the easiest Cortina hiking window, while late January to March is strongest for ski-focused trips; the in-between shoulder stretches are much trickier because mountain operations turn on and off unevenly.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -7,
+      "hi": -2,
+      "lo": -11,
+      "daylight": 9.0,
+      "cld": 47,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": -6,
+      "hi": -1,
+      "lo": -11,
+      "daylight": 10.0,
+      "cld": 58,
+      "rain": 49,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": -3,
+      "hi": 2,
+      "lo": -8,
+      "daylight": 11.1,
+      "cld": 58,
+      "rain": 67,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 2,
+      "hi": 6,
+      "lo": -3,
+      "daylight": 13.1,
+      "cld": 59,
+      "rain": 84,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 6,
+      "hi": 10,
+      "lo": 1,
+      "daylight": 15.0,
+      "cld": 60,
+      "rain": 112,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 10,
+      "hi": 16,
+      "lo": 5,
+      "daylight": 15.1,
+      "cld": 52,
+      "rain": 115,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 12,
+      "hi": 18,
+      "lo": 6,
+      "daylight": 15.0,
+      "cld": 44,
+      "rain": 124,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 12,
+      "hi": 18,
+      "lo": 7,
+      "daylight": 14.0,
+      "cld": 47,
+      "rain": 144,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 9,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 12.1,
+      "cld": 53,
+      "rain": 95,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 4,
+      "hi": 9,
+      "lo": 0,
+      "daylight": 10.1,
+      "cld": 50,
+      "rain": 91,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 0,
+      "hi": 3,
+      "lo": -4,
+      "daylight": 9.0,
+      "cld": 58,
+      "rain": 127,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -5,
+      "hi": -1,
+      "lo": -9,
+      "daylight": 8.1,
+      "cld": 43,
+      "rain": 38,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}

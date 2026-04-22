@@ -1,0 +1,246 @@
+{
+  "id": "cordoba-argentina",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/28147/Average-Weather-in-Córdoba-Argentina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Córdoba",
+  "country": "Argentina",
+  "region": "Córdoba Province, Central Argentina",
+  "desc": "Córdoba is one of Argentina's best-value city breaks if you want Jesuit heritage, a lively student-city rhythm, and easier day-to-day scale than Buenos Aires, with enough nightlife and food culture that the trip should be planned around neighborhoods as much as monuments.",
+  "hls": [
+    "The Jesuit Block is the city's clearest anchor and gives Córdoba stronger historical identity than many inland Latin American cities.",
+    "University life matters to the feel of the trip, especially around café streets, bookish corners, and late-night energy.",
+    "Güemes and the broader center reward unhurried evening wandering rather than a strict museum-first approach.",
+    "Córdoba works as a proper city break on its own, not only as a transfer point to the sierras.",
+    "Spring and autumn are usually the easiest walking seasons; midsummer heat and storms are the main comfort trade-off.",
+    "Works especially well for 2-4 nights, with a fifth day only if you want an estancia or sierras add-on."
+  ],
+  "todo": [
+    {
+      "name": "Jesuit Block and university quarter",
+      "cat": "History",
+      "desc": "Treat the Jesuit core as the cultural anchor of the trip because it explains why Córdoba feels more learned and institutional than many peer cities."
+    },
+    {
+      "name": "Plaza San Martín, cathedral, and Cabildo area",
+      "cat": "Historic center",
+      "desc": "Walk the civic heart slowly so the colonial grid and everyday city life register together rather than as a checklist of facades."
+    },
+    {
+      "name": "Güemes evening and Paseo de las Artes zone",
+      "cat": "Neighborhood",
+      "desc": "Use one evening here for bars, design shops, and food because modern Córdoba shows best after dark."
+    },
+    {
+      "name": "La Cañada and Nueva Córdoba walk",
+      "cat": "Urban walk",
+      "desc": "Link the old stone channel with student-heavy districts to understand the city's more everyday, lived-in side."
+    },
+    {
+      "name": "Sarmiento Park and museum pairing",
+      "cat": "Parks & culture",
+      "desc": "Keep one lower-effort block for green space and nearby cultural stops if you want relief from pure center-city walking."
+    },
+    {
+      "name": "Alta Gracia or Jesuit-estancia side trip",
+      "cat": "Day trip",
+      "desc": "Add a provincial heritage day only if you have enough time to let Córdoba itself breathe first."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "50–150 Mbps",
+      "note": "Central hotels, apartment rentals, and café-work setups are usually solid, with fewer reliability worries than in smaller Argentine towns."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Córdoba's airport sits close enough to the city to make arrivals easy, but there is no LGW or LCY nonstop. UK itineraries are still usually connection-led via Buenos Aires, Madrid, Panama, or another hub, and long-haul route options can be more seasonal than Buenos Aires even when Córdoba itself has good air access by Argentine standards.",
+    "airports": [
+      {
+        "name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+        "code": "COR",
+        "km": 9,
+        "dgw": false
+      }
+    ],
+    "currency": "Argentine peso (ARS); card use is common, but exchange-rate behavior and cash needs can move quickly enough that pre-trip assumptions date fast.",
+    "lang": "Rioplatense Spanish is the everyday language; English is most workable in hotels, tours, and higher-end dining rather than routine city transactions.",
+    "tz": "ART (UTC-3), no daylight saving time.",
+    "visa": "Argentina allows British citizens to visit visa-free for tourism for up to 90 days, with longer stays or non-tourist trips requiring the relevant Argentine permission.",
+    "bestFor": [
+      "Jesuit heritage city breaks",
+      "Student-city energy",
+      "Food and nightlife weekends",
+      "Argentina stopovers beyond Buenos Aires",
+      "City-plus-sierras itineraries"
+    ],
+    "alerts": [
+      "January can feel hot, stormy, and slower-paced than the shoulder seasons that suit city walking best.",
+      "Güemes and nightlife-heavy districts are part of the appeal, but weekend noise can matter when choosing where to sleep.",
+      "Traffic and broad avenues make central distances feel longer on foot than the map first suggests."
+    ]
+  },
+  "sweet": "March to May and September to November are usually Córdoba's strongest windows, with the best balance of walkable temperatures, city energy, and fewer weather-related compromises than midsummer.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 24,
+      "hi": 29,
+      "lo": 18,
+      "daylight": 13.9,
+      "cld": 24,
+      "rain": 127,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 23,
+      "hi": 28,
+      "lo": 18,
+      "daylight": 13.2,
+      "cld": 21,
+      "rain": 124,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 21,
+      "hi": 27,
+      "lo": 16,
+      "daylight": 12.2,
+      "cld": 21,
+      "rain": 102,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 11.3,
+      "cld": 25,
+      "rain": 58,
+      "busy": 7,
+      "ac": 3,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 21,
+      "lo": 9,
+      "daylight": 10.5,
+      "cld": 35,
+      "rain": 20,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 11,
+      "hi": 18,
+      "lo": 6,
+      "daylight": 10.1,
+      "cld": 36,
+      "rain": 8,
+      "busy": 4,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 11,
+      "hi": 18,
+      "lo": 6,
+      "daylight": 10.3,
+      "cld": 29,
+      "rain": 10,
+      "busy": 6,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 21,
+      "lo": 7,
+      "daylight": 11.0,
+      "cld": 26,
+      "rain": 10,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 23,
+      "lo": 9,
+      "daylight": 11.9,
+      "cld": 25,
+      "rain": 28,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 19,
+      "hi": 26,
+      "lo": 13,
+      "daylight": 12.9,
+      "cld": 24,
+      "rain": 61,
+      "busy": 9,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 21,
+      "hi": 28,
+      "lo": 16,
+      "daylight": 13.7,
+      "cld": 22,
+      "rain": 104,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 23,
+      "hi": 29,
+      "lo": 18,
+      "daylight": 14.2,
+      "cld": 22,
+      "rain": 127,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}
