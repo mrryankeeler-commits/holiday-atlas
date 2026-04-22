@@ -1,0 +1,252 @@
+{
+  "id": "buenos-aires-argentina",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/28981/Average-Weather-in-Buenos-Aires-Argentina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Buenos Aires",
+  "country": "Argentina",
+  "region": "Buenos Aires Autonomous City (Río de la Plata)",
+  "desc": "Buenos Aires is one of South America's strongest city-break bases, combining grand belle-époque avenues, neighborhood-scale café life, late-night dining, tango culture, and a deep bench of museums, markets, and urban parks.",
+  "hls": [
+    "Best for travelers who want a genuinely big city with distinct neighborhoods rather than a checklist of isolated sights.",
+    "Recoleta, San Telmo, Palermo, and the historic center each change the feel of the trip more than most capitals manage in a short radius.",
+    "Food, nightlife, and café culture are as central to the experience as museums and monuments.",
+    "Spring and autumn are usually the most comfortable city-walking seasons; midsummer can feel hot and sticky.",
+    "Airport logistics matter because Ezeiza sits well outside the core neighborhoods and traffic can stretch transfers heavily.",
+    "Works well for 4-6 nights, especially if you want to mix classic sights with slower neighborhood time."
+  ],
+  "todo": [
+    {
+      "name": "Plaza de Mayo + Monserrat core",
+      "cat": "History",
+      "desc": "Use the old civic center as the historical anchor for the trip rather than treating it as a quick photo stop."
+    },
+    {
+      "name": "San Telmo wander",
+      "cat": "Neighborhood",
+      "desc": "Give San Telmo an unhurried block for cobbled streets, bars, antiques, and tango energy instead of rushing through one square."
+    },
+    {
+      "name": "Recoleta cemetery and park zone",
+      "cat": "Landmark",
+      "desc": "Pair the cemetery with nearby plazas and cafés so the district feels like a neighborhood, not just one attraction."
+    },
+    {
+      "name": "Palermo parks and evening food stop",
+      "cat": "Parks",
+      "desc": "Use Palermo for the green side of Buenos Aires by day and its café-bar scene after dark."
+    },
+    {
+      "name": "Teatro Colón tour or performance",
+      "cat": "Culture",
+      "desc": "Book this in advance if culture matters to you because the building is one of the city's clearest big-name classics."
+    },
+    {
+      "name": "Parrilla dinner + tango night",
+      "cat": "Food & nightlife",
+      "desc": "Make one evening properly porteño with steak, wine, and either a milonga or a higher-production tango show."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "50–200 Mbps",
+      "note": "Buenos Aires is usually one of the easier Latin American city bases for remote work, especially in Palermo, Recoleta, and central apartment-heavy districts."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Buenos Aires has strong international access, but there is no current LGW or LCY nonstop. Most UK trips use Heathrow or connect via Europe or Brazil, and Ezeiza's distance from the core neighborhoods means airport-to-hotel timing can be much longer than the map suggests. AEP is much closer for domestic or regional hops.",
+    "airports": [
+      {
+        "name": "Aeroparque Jorge Newbery",
+        "code": "AEP",
+        "km": 8,
+        "dgw": false
+      },
+      {
+        "name": "Ministro Pistarini International Airport",
+        "code": "EZE",
+        "km": 32,
+        "dgw": false
+      }
+    ],
+    "currency": "Argentine peso (ARS); card use is common, but exchange-rate norms, card acceptance, and cash needs can shift quickly enough that you should check current on-the-ground practice before arrival.",
+    "lang": "Rioplatense Spanish; English is common in higher-end hotels and tours but much less universal in everyday city transactions.",
+    "tz": "ART (UTC-3), no daylight saving time.",
+    "visa": "Argentina entry rules vary by nationality, so check current passport-specific entry, stay-limit, and any reciprocity-related requirements before booking long-haul flights.",
+    "bestFor": [
+      "Big-city culture trips",
+      "Food-focused stays",
+      "Tango and nightlife",
+      "Museum and architecture city breaks",
+      "South America multi-stop itineraries"
+    ],
+    "alerts": [
+      "Airport transfers, especially from Ezeiza, can expand sharply in rush-hour traffic.",
+      "Prices and payment habits can shift fast in Argentina, so pre-trip money assumptions date quickly.",
+      "Late dining and nightlife patterns are part of the city's appeal, but they can surprise travelers expecting an early-evening rhythm."
+    ]
+  },
+  "sweet": "March-April and October-November are usually the strongest Buenos Aires windows, with comfortable walking weather and better city-break conditions than the hottest stretch of high summer.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 24,
+      "hi": 28,
+      "lo": 21,
+      "daylight": 14.2,
+      "cld": 29,
+      "rain": 102,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 23,
+      "hi": 27,
+      "lo": 21,
+      "daylight": 13.3,
+      "cld": 31,
+      "rain": 117,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 22,
+      "hi": 25,
+      "lo": 18,
+      "daylight": 12.2,
+      "cld": 31,
+      "rain": 114,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 18,
+      "hi": 21,
+      "lo": 15,
+      "daylight": 11.2,
+      "cld": 38,
+      "rain": 99,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 15,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 10.3,
+      "cld": 48,
+      "rain": 71,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 9.9,
+      "cld": 50,
+      "rain": 53,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 10.1,
+      "cld": 48,
+      "rain": 51,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Aug",
+      "avg": 13,
+      "hi": 16,
+      "lo": 10,
+      "daylight": 10.9,
+      "cld": 45,
+      "rain": 58,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 11.9,
+      "cld": 41,
+      "rain": 74,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 21,
+      "lo": 14,
+      "daylight": 13.0,
+      "cld": 37,
+      "rain": 99,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 20,
+      "hi": 24,
+      "lo": 17,
+      "daylight": 14.0,
+      "cld": 33,
+      "rain": 107,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 23,
+      "hi": 27,
+      "lo": 19,
+      "daylight": 14.4,
+      "cld": 30,
+      "rain": 94,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

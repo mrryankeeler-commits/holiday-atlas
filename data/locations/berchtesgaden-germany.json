@@ -1,0 +1,252 @@
+{
+  "id": "berchtesgaden-germany",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75422/Average-Weather-in-Berchtesgaden-Bavaria-Germany-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Berchtesgaden",
+  "country": "Germany",
+  "region": "Berchtesgadener Land, Bavarian Alps",
+  "desc": "Berchtesgaden is the cleanest alpine base for Königssee, the Eagle's Nest, and the southeast Bavarian high-mountain scenery, combining strong local transport links with a real mountain-town feel rather than a vague Alps-wide label.",
+  "hls": [
+    "Best practical base for Königssee and Obersalzberg sights without splitting nights across multiple villages.",
+    "The appeal is a mix of lake scenery, cable cars, salt-mining history, and serious mountain backdrops rather than one single landmark.",
+    "Summer is strongest for full lift-and-lake access, while winter and shoulder seasons can close key high attractions.",
+    "This is a destination where weather and operating windows matter more than raw temperature alone.",
+    "Works especially well for 2-4 nights paired with Salzburg or a wider Bavarian Alps route.",
+    "Peak summer weekends can feel crowded and parking-heavy despite the small-town setting."
+  ],
+  "todo": [
+    {
+      "name": "Königssee boat trip",
+      "cat": "Lake",
+      "desc": "Treat the lake cruise as the anchor experience and go early if you want the quietest light and shortest queue profile."
+    },
+    {
+      "name": "Eagle's Nest / Kehlsteinhaus day",
+      "cat": "Scenic",
+      "desc": "Check seasonal opening first, because this is a classic Berchtesgaden highlight but not a year-round certainty."
+    },
+    {
+      "name": "Obersalzberg documentation stop",
+      "cat": "History",
+      "desc": "Pair panoramic viewpoints with the historical context rather than treating the area only as a photo stop."
+    },
+    {
+      "name": "Berchtesgaden Salt Mine",
+      "cat": "Heritage",
+      "desc": "Use the salt mine as the weather-proof option when higher mountain plans are clouded out."
+    },
+    {
+      "name": "Jenner or nearby cable-car viewpoint",
+      "cat": "Mountain",
+      "desc": "Use one lift-based day for the big mountain perspective instead of trying to stack too many valleys into one itinerary."
+    },
+    {
+      "name": "Ramsau or Hintersee half-day",
+      "cat": "Scenic drive",
+      "desc": "Keep one quieter valley outing for postcard scenery beyond the headline Königssee/Kehlstein axis."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "25–100 Mbps",
+      "note": "Town hotels and guesthouses are usually fine for light remote work, but mountain huts and edge-of-valley stays are far less predictable."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Berchtesgaden has no airport, so this is always a gateway-and-transfer trip. Salzburg Airport is the closest air arrival at roughly 25 km, while Munich offers the broader long-haul network but a much longer transfer. Even if London flights exist to those gateways, Berchtesgaden itself should not carry a direct-flight badge.",
+    "airports": [
+      {
+        "name": "Salzburg Airport",
+        "code": "SZG",
+        "km": 25,
+        "dgw": false
+      },
+      {
+        "name": "Munich Airport",
+        "code": "MUC",
+        "km": 185,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR); cards are common, but parking machines, mountain snack stops, and some smaller alpine businesses are still easier with cash.",
+    "lang": "German; English is usually workable in tourism-facing hotels, attractions, and transport nodes.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Germany follows Schengen entry rules, so passport, stay-limit, and visa requirements depend on nationality and current EU rules.",
+    "bestFor": [
+      "Alpine scenery",
+      "Lake-and-mountain short breaks",
+      "Bavarian road trips",
+      "Cable-car viewpoints",
+      "History plus outdoors itineraries"
+    ],
+    "alerts": [
+      "Summer queues around Königssee and the Eagle's Nest are real, especially on fine-weather weekends.",
+      "Several headline experiences are seasonal, so shoulder and winter trips need more operating-hours discipline.",
+      "Mountain weather shifts quickly, which can flatten viewpoint value even when valley conditions seem fine."
+    ]
+  },
+  "sweet": "Late June to early October is usually the easiest window for full Berchtesgaden access, while late May and September often give the best compromise between open attractions and lighter crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -3,
+      "hi": 0,
+      "lo": -6,
+      "daylight": 8.9,
+      "cld": 61,
+      "rain": 30,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -2,
+      "hi": 2,
+      "lo": -5,
+      "daylight": 10.3,
+      "cld": 62,
+      "rain": 30,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 3,
+      "hi": 8,
+      "lo": -1,
+      "daylight": 12.0,
+      "cld": 62,
+      "rain": 51,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 13,
+      "lo": 3,
+      "daylight": 13.7,
+      "cld": 59,
+      "rain": 64,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 15.2,
+      "cld": 59,
+      "rain": 104,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 15,
+      "hi": 20,
+      "lo": 11,
+      "daylight": 15.9,
+      "cld": 56,
+      "rain": 140,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 15.5,
+      "cld": 46,
+      "rain": 150,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 14.2,
+      "cld": 47,
+      "rain": 135,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "daylight": 12.5,
+      "cld": 53,
+      "rain": 104,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 12,
+      "lo": 4,
+      "daylight": 10.8,
+      "cld": 57,
+      "rain": 66,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 2,
+      "hi": 6,
+      "lo": -1,
+      "daylight": 9.3,
+      "cld": 62,
+      "rain": 46,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": 1,
+      "lo": -4,
+      "daylight": 8.5,
+      "cld": 64,
+      "rain": 33,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

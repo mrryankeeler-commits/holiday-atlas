@@ -96,6 +96,14 @@
     "lng": -74.7813
   },
   {
+    "id": "batumi-georgia",
+    "city": "Batumi",
+    "country": "Georgia",
+    "region": "Adjara (Black Sea coast)",
+    "lat": 41.6423,
+    "lng": 41.6339
+  },
+  {
     "id": "belize-city-belize",
     "city": "Belize City",
     "country": "Belize",
@@ -110,6 +118,14 @@
     "region": "Ōita Prefecture",
     "lat": 33.2794,
     "lng": 131.4975
+  },
+  {
+    "id": "berchtesgaden-germany",
+    "city": "Berchtesgaden",
+    "country": "Germany",
+    "region": "Berchtesgadener Land, Bavarian Alps",
+    "lat": 47.6324,
+    "lng": 13.0019
   },
   {
     "id": "berat-albania",
@@ -184,6 +200,14 @@
     "lng": 17.1077
   },
   {
+    "id": "brecon-wales",
+    "city": "Brecon",
+    "country": "Wales",
+    "region": "Powys, Bannau Brycheiniog gateway",
+    "lat": 51.9489,
+    "lng": -3.3915
+  },
+  {
     "id": "brno-czechia",
     "city": "Brno",
     "country": "Czechia",
@@ -208,6 +232,14 @@
     "lng": 18.84
   },
   {
+    "id": "buenos-aires-argentina",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Buenos Aires Autonomous City (Río de la Plata)",
+    "lat": -34.6132,
+    "lng": -58.3772
+  },
+  {
     "id": "bushmills-northern-ireland",
     "city": "Bushmills",
     "country": "Northern Ireland",
@@ -230,6 +262,14 @@
     "region": "Southern Region",
     "lat": -14.0167,
     "lng": 34.85
+  },
+  {
+    "id": "caraz-peru",
+    "city": "Caraz",
+    "country": "Peru",
+    "region": "Huaylas Province, Ancash (north Cordillera Blanca)",
+    "lat": -9.0485,
+    "lng": -77.8101
   },
   {
     "id": "cartagena-colombia",

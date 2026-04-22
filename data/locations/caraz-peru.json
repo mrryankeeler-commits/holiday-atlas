@@ -1,0 +1,252 @@
+{
+  "id": "caraz-peru",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/20520/Average-Weather-in-Car%C3%A1s-Peru-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Caraz",
+  "country": "Peru",
+  "region": "Huaylas Province, Ancash (north Cordillera Blanca)",
+  "desc": "Caraz is the cleanest town anchor for Laguna Parón and the north side of Peru's Cordillera Blanca, giving you a lower-stress mountain base than a vague lake label and a calmer alternative to busier Huaraz-centered itineraries.",
+  "hls": [
+    "Best practical anchor for Laguna Parón if you want the actual town base rather than staging an attraction as the destination.",
+    "Caraz works especially well for north-Cordillera Blanca scenery, acclimatization, and a slower small-town mountain rhythm.",
+    "The dry season from roughly May to September is usually the easiest window for clear views and road reliability.",
+    "Cloud and rain matter more than temperature here, because mountain visibility drives the payoff of big-view outings.",
+    "This is a better fit for hikers, photographers, and road-trip mountain travelers than for nightlife or urban comforts.",
+    "Works well for 2-4 nights, especially if paired with Laguna Parón plus one or two other Huaylas-valley outings."
+  ],
+  "todo": [
+    {
+      "name": "Laguna Parón day trip",
+      "cat": "Mountain lake",
+      "desc": "Treat this as the anchor outing and avoid overstacking the same day, because the road, altitude, and viewpoint time are the point of the trip."
+    },
+    {
+      "name": "Caraz plaza and market stroll",
+      "cat": "Town life",
+      "desc": "Keep one low-key town block for bakeries, market rhythm, and acclimatization rather than spending every hour in transit."
+    },
+    {
+      "name": "Santa Cruz trail logistics day",
+      "cat": "Trekking",
+      "desc": "Use Caraz to organize the north-side logistics if you are turning the stay into a trek start or mountain-focused extension."
+    },
+    {
+      "name": "Cañón del Pato road outing",
+      "cat": "Scenic drive",
+      "desc": "Do this only if road conditions and timing are comfortable, because it is a bigger commitment than a casual half-day drive."
+    },
+    {
+      "name": "Huaylas valley village loop",
+      "cat": "Scenic drive",
+      "desc": "Build one gentler day around valley towns and views if you want a break from higher-altitude lake or trek days."
+    },
+    {
+      "name": "Easy acclimatization walk above town",
+      "cat": "Pacing",
+      "desc": "Use the first day to move lightly and assess altitude response before committing to the harder scenic days."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15–50 Mbps",
+      "note": "Basic hotels and cafés are workable for light tasks, but this is not a high-confidence always-on remote-work destination."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Caraz has no airport. The closest realistic gateway is Anta/Huaraz-side service at ATA, but schedules can be sparse enough that many trips still route via Lima and continue overland. Even when ATA is operating, Caraz remains a transfer destination rather than a direct-arrival one.",
+    "airports": [
+      {
+        "name": "Comandante FAP Germán Arias Graziani Airport",
+        "code": "ATA",
+        "km": 47,
+        "dgw": false
+      },
+      {
+        "name": "Jorge Chávez International Airport",
+        "code": "LIM",
+        "km": 465,
+        "dgw": false
+      }
+    ],
+    "currency": "Peruvian sol (PEN); cash is still useful in Caraz for local transport, market buys, and smaller mountain-trip logistics.",
+    "lang": "Spanish is the working language; Quechua also has local presence, and English is limited outside tour-facing businesses.",
+    "tz": "PET (UTC-5), no daylight saving time.",
+    "visa": "Peru entry rules vary by nationality, so check current passport-specific entry and stay rules before combining flights with overland mountain travel.",
+    "bestFor": [
+      "Laguna Parón access",
+      "Cordillera Blanca scenery",
+      "Andean hiking logistics",
+      "Acclimatization-friendly mountain bases",
+      "Photographic Peru itineraries"
+    ],
+    "alerts": [
+      "Altitude affects even moderate day trips, so pacing and hydration matter from day one.",
+      "Road conditions and weather can reshape lake and canyon timing quickly.",
+      "Transport flexibility is thinner than in bigger hubs, so last-minute changes are more awkward than in Huaraz or Lima."
+    ]
+  },
+  "sweet": "May to September is usually the strongest Caraz window for clear mountain views and easier road access, while April and October can still work if you accept more cloud and a higher chance of weather disruption.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 16,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 12.6,
+      "cld": 82,
+      "rain": 23,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 16,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 12.4,
+      "cld": 87,
+      "rain": 28,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 16,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 12.1,
+      "cld": 85,
+      "rain": 28,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 23,
+      "lo": 12,
+      "daylight": 11.9,
+      "cld": 68,
+      "rain": 18,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 16,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 11.7,
+      "cld": 50,
+      "rain": 8,
+      "busy": 7,
+      "ac": 3,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 23,
+      "lo": 10,
+      "daylight": 11.6,
+      "cld": 43,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 24,
+      "lo": 10,
+      "daylight": 11.7,
+      "cld": 35,
+      "rain": 2,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 24,
+      "lo": 11,
+      "daylight": 11.8,
+      "cld": 36,
+      "rain": 2,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 17,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 12.1,
+      "cld": 51,
+      "rain": 5,
+      "busy": 8,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 12.3,
+      "cld": 66,
+      "rain": 15,
+      "busy": 6,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 16,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 12.5,
+      "cld": 71,
+      "rain": 18,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 16,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 12.6,
+      "cld": 77,
+      "rain": 23,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}
