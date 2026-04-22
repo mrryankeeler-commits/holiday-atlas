@@ -11,6 +11,11 @@ Holiday Atlas is a static front-end app (`index.html`, `app.js`, `styles.css`) t
 - One file per location: `data/locations/<id>.json`
 - `id` must be lowercase kebab-case and match filename exactly.
 
+## Country naming convention
+- `England`, `Scotland`, `Wales`, and `Northern Ireland` are valid final `country` values in this repo.
+- Do not normalize those four values to `United Kingdom` during CSV intake, pending staging, or live-location enrichment.
+- Keep `country` aligned with the destination's intended home-nation identity when that is the established repo convention, and use `region` for more specific local context.
+
 ## Task routing guidance
 - “Add/edit a destination”:
   1) Update `data/locations/index.json`
