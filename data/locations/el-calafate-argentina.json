@@ -1,0 +1,246 @@
+{
+  "id": "el-calafate-argentina",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/25104/Average-Weather-in-El-Calafate-Argentina-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "El Calafate",
+  "country": "Argentina",
+  "region": "Lake Argentino, Santa Cruz Patagonia",
+  "desc": "El Calafate is Patagonia's most practical glacier gateway rather than a pure town-first destination, built around access to Perito Moreno, Lake Argentino boat days, and big-sky steppe scenery, with the strongest trips shaped by excursion timing, wind, and daylight more than by urban sightseeing density.",
+  "hls": [
+    "The main reason to stay is direct access to Perito Moreno Glacier and the wider Los Glaciares excursion network.",
+    "Long summer daylight is a genuine advantage here because it gives glacier outings and lake-navigation days much more breathing room.",
+    "Laguna Nimez and the lakefront help the town work beyond full-day excursions, especially on arrival or departure days.",
+    "Glaciarium is one of the better weather-proof add-ons in a destination otherwise driven by outdoors logistics.",
+    "Patagonian wind is a bigger comfort factor than rainfall totals alone suggest.",
+    "Works best for 3-4 nights; shorter stays can feel rushed once park travel times and boat departures are factored in."
+  ],
+  "todo": [
+    {
+      "name": "Perito Moreno Glacier boardwalk day",
+      "cat": "Landmark",
+      "desc": "Make this the anchor outing and leave enough time on the walkways for multiple viewing angles rather than reducing the glacier to one fast stop."
+    },
+    {
+      "name": "Lake Argentino glacier navigation",
+      "cat": "Cruise",
+      "desc": "Use one boat day for the scale of Patagonian ice rather than relying only on road-based viewpoints."
+    },
+    {
+      "name": "Laguna Nimez reserve walk",
+      "cat": "Nature",
+      "desc": "Keep this for arrival, departure, or a lower-energy afternoon because it is close to town and adds birdlife to a glacier-heavy itinerary."
+    },
+    {
+      "name": "Glaciarium visit",
+      "cat": "Museum",
+      "desc": "This is the best weather-proof context stop if you want the glacier trip to feel more informed than a photo exercise."
+    },
+    {
+      "name": "Estancia Cristina or deeper-lake excursion",
+      "cat": "Scenic day trip",
+      "desc": "Add one longer premium outing if you want the trip to extend beyond the standard Perito Moreno loop."
+    },
+    {
+      "name": "Punta Walichu or lakeside cultural half-day",
+      "cat": "Culture & landscape",
+      "desc": "Use a shorter local excursion on a flight day or windy afternoon when a full glacier day is not practical."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–80 Mbps",
+      "note": "Solid hotels and newer lodges are usually fine for light remote needs, but speed and stability are less dependable than in Argentina's biggest cities and can dip during busy weather-locked periods."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "El Calafate has no UK nonstop and currently behaves as a domestic-air gateway, so most international arrivals route via Buenos Aires and sometimes another Argentine city before the final hop south. The airport itself is close enough to town to be easy once you land, but the trip is still connection-heavy by definition.",
+    "airports": [
+      {
+        "name": "Comandante Armando Tola International Airport",
+        "code": "FTE",
+        "km": 17,
+        "dgw": false
+      }
+    ],
+    "currency": "Argentine peso (ARS); tourist services are card-friendly, but cash still helps for smaller shops, tips, and occasional payment frictions in Patagonia.",
+    "lang": "Spanish is the everyday language; English is common in excursion booking, hotels, and major tourism services but less universal outside that bubble.",
+    "tz": "ART (UTC-3), no daylight saving time.",
+    "visa": "Argentina allows British citizens to visit visa-free for tourism for up to 90 days, with longer stays or non-tourism purposes requiring the relevant Argentine permission.",
+    "bestFor": [
+      "Glacier-first Patagonia trips",
+      "Scenic cruise itineraries",
+      "Wildlife and wetland add-ons",
+      "Short premium adventure breaks",
+      "Southern Argentina routing"
+    ],
+    "alerts": [
+      "Patagonian wind can change the feel of a day far more than the temperature reading suggests.",
+      "Signature excursions often need advance booking in the warm-season peak, especially if you want premium boat or glacier-trek slots.",
+      "Several products are seasonal or weather-limited, so winter and shoulder trips need tighter planning than summer brochure photos imply."
+    ]
+  },
+  "sweet": "Late October to early April is usually the easiest El Calafate window for long daylight and fuller excursion choice, while November and March often give the best balance between access, weather, and crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 15.8,
+      "cld": 49,
+      "rain": 15,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "daylight": 14.2,
+      "cld": 47,
+      "rain": 18,
+      "busy": 9,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 15,
+      "lo": 7,
+      "daylight": 12.4,
+      "cld": 49,
+      "rain": 23,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 11,
+      "lo": 4,
+      "daylight": 10.5,
+      "cld": 52,
+      "rain": 20,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 4,
+      "hi": 7,
+      "lo": 1,
+      "daylight": 8.9,
+      "cld": 54,
+      "rain": 23,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 1,
+      "hi": 4,
+      "lo": -1,
+      "daylight": 8.1,
+      "cld": 55,
+      "rain": 18,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 1,
+      "hi": 4,
+      "lo": -2,
+      "daylight": 8.6,
+      "cld": 54,
+      "rain": 15,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 3,
+      "hi": 6,
+      "lo": 0,
+      "daylight": 10.0,
+      "cld": 51,
+      "rain": 15,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 6,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 11.8,
+      "cld": 48,
+      "rain": 13,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 13,
+      "lo": 4,
+      "daylight": 13.7,
+      "cld": 48,
+      "rain": 13,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 11,
+      "hi": 15,
+      "lo": 7,
+      "daylight": 15.4,
+      "cld": 48,
+      "rain": 10,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 12,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 16.3,
+      "cld": 50,
+      "rain": 18,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

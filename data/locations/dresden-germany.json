@@ -1,0 +1,246 @@
+{
+  "id": "dresden-germany",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75895/Average-Weather-in-Dresden-Saxony-Germany-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Dresden",
+  "country": "Germany",
+  "region": "Saxon Elbe Valley",
+  "desc": "Dresden is one of Germany's strongest short-break cities for travelers who want grand baroque architecture, heavyweight art collections, and a rebuilt old-town skyline with real historical depth, while still having Neustadt nightlife and Elbe-side walks to stop the trip becoming museum-only.",
+  "hls": [
+    "The rebuilt Frauenkirche and surrounding Neumarkt make Dresden one of Europe's clearest examples of postwar urban reconstruction done at full scale.",
+    "The Zwinger, Semperoper, and royal collections give the old town unusual cultural density for a compact footprint.",
+    "Neustadt adds bars, cafés, and a looser local rhythm that balances the polished historic core.",
+    "The city works especially well for 2-4 nights because most headline sights are close together, but there is more depth than a one-day stop suggests.",
+    "December is a real draw thanks to Dresden's Christmas-market tradition rather than a minor seasonal extra.",
+    "Air access is efficient once you connect in, but the route network is thinner than Berlin or Prague and that matters when pricing trips."
+  ],
+  "todo": [
+    {
+      "name": "Frauenkirche and Neumarkt circuit",
+      "cat": "Landmark",
+      "desc": "Start here to understand Dresden's reconstruction story before you branch into museums, river walks, or Neustadt."
+    },
+    {
+      "name": "Zwinger and Old Masters block",
+      "cat": "Art & architecture",
+      "desc": "Give the Zwinger proper time, because it is both a landmark in its own right and home to some of the city's best museum value."
+    },
+    {
+      "name": "Semperoper and Theaterplatz",
+      "cat": "Culture",
+      "desc": "Even if you do not attend a performance, this square is central to why Dresden feels so grand at close range."
+    },
+    {
+      "name": "Brühl's Terrace and Elbe walk",
+      "cat": "Urban walk",
+      "desc": "Use the river edge for breathing room between museums, especially in warmer months or at golden hour."
+    },
+    {
+      "name": "Neustadt evening",
+      "cat": "Neighborhood",
+      "desc": "Keep one night for Neustadt so the trip includes Dresden's younger, less ceremonial side as well as the old town."
+    },
+    {
+      "name": "Procession of Princes and royal-core wander",
+      "cat": "Historic core",
+      "desc": "Bundle the mural, palace zone, and nearby churches into one compact old-town pass instead of treating them as disconnected stops."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "50–200 Mbps",
+      "note": "Dresden is usually easy for city-break remote basics, with strong hotel and apartment connectivity and little reason to worry unless you stay very far from the core."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Dresden Airport is close to town, but there is no current LGW or LCY nonstop. From the repo's configured London airports, most trips connect via German or nearby European hubs such as Frankfurt, Munich, or Zurich, which keeps access practical but not truly point-to-point.",
+    "airports": [
+      {
+        "name": "Dresden Airport",
+        "code": "DRS",
+        "km": 9,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR); cards are widely accepted, though smaller Christmas-market stalls and some older-style cafés still reward carrying a little cash.",
+    "lang": "German is the everyday language; English is usually workable in hotels, museums, and major tourism-facing venues.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Germany follows Schengen rules, so British citizens can visit visa-free for up to 90 days in any 180-day period, subject to passport-validity and broader Schengen entry requirements.",
+    "bestFor": [
+      "Baroque city breaks",
+      "Art-heavy weekends",
+      "Christmas-market trips",
+      "Opera and museum stays",
+      "Germany multi-stop rail itineraries"
+    ],
+    "alerts": [
+      "Some flagship museums and palace collections have uneven closure days or renovation windows, so do not assume every headline site works on the same schedule.",
+      "December Advent weekends drive serious crowd and room-pressure spikes relative to the rest of the year.",
+      "Dresden's airport is convenient, but the thinner nonstop network means delays or missed connections ripple harder than in a mega-hub city."
+    ]
+  },
+  "sweet": "May to June and September to October are usually Dresden's best all-round windows for walking and museum days, while December is the obvious seasonal exception if Christmas markets are the point of the trip.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 8.5,
+      "cld": 65,
+      "rain": 28,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 2,
+      "hi": 4,
+      "lo": -1,
+      "daylight": 10.1,
+      "cld": 63,
+      "rain": 23,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 12.0,
+      "cld": 61,
+      "rain": 30,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 13.9,
+      "cld": 55,
+      "rain": 33,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 15.6,
+      "cld": 53,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 17,
+      "hi": 22,
+      "lo": 13,
+      "daylight": 16.5,
+      "cld": 50,
+      "rain": 58,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 20,
+      "hi": 24,
+      "lo": 15,
+      "daylight": 16.0,
+      "cld": 46,
+      "rain": 69,
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 19,
+      "hi": 24,
+      "lo": 14,
+      "daylight": 14.4,
+      "cld": 46,
+      "rain": 58,
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 12.6,
+      "cld": 50,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 14,
+      "lo": 7,
+      "daylight": 10.6,
+      "cld": 59,
+      "rain": 36,
+      "busy": 9,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 8.9,
+      "cld": 68,
+      "rain": 38,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 2,
+      "hi": 4,
+      "lo": 0,
+      "daylight": 8.0,
+      "cld": 69,
+      "rain": 33,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

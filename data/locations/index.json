@@ -376,6 +376,14 @@
     "lng": 88.2639
   },
   {
+    "id": "dresden-germany",
+    "city": "Dresden",
+    "country": "Germany",
+    "region": "Saxon Elbe Valley",
+    "lat": 51.0509,
+    "lng": 13.7383
+  },
+  {
     "id": "dubai-uae",
     "city": "Dubai",
     "country": "United Arab Emirates",
@@ -390,6 +398,14 @@
     "region": "Adriatic Balkans",
     "lat": 42.6507,
     "lng": 18.0944
+  },
+  {
+    "id": "el-calafate-argentina",
+    "city": "El Calafate",
+    "country": "Argentina",
+    "region": "Lake Argentino, Santa Cruz Patagonia",
+    "lat": -50.3408,
+    "lng": -72.2768
   },
   {
     "id": "el-cotillo-fuerteventura-spain",
