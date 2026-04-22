@@ -1,0 +1,252 @@
+{
+  "id": "bad-schandau-germany",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/77915/Average-Weather-in-Bad-Schandau-Saxony-Germany-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bad Schandau",
+  "country": "Germany",
+  "region": "Saxon Switzerland, Elbe Sandstone Mountains",
+  "desc": "Bad Schandau is the strongest no-car base for Saxon Switzerland, combining direct rail access, ferries, sandstone-ridge hiking, and a genuine spa-town core that makes the area feel like a stayable destination rather than just a jumping-off point for one viewpoint.",
+  "hls": [
+    "Bad Schandau's main advantage is practical access: it is the rail-and-ferry hub that makes Saxon Switzerland work without driving.",
+    "The Schrammsteine, Elbe valley scenery, and Kirnitzschtal routes give the town a real outdoor identity rather than a generic German spa label.",
+    "The town is small, but it has enough services, transport logic, and relaxation options to support a proper 2-4 night stay.",
+    "This is a destination where trail conditions and weather matter more than raw temperatures, especially on ladders, rock paths, and exposed viewpoints.",
+    "The Kirnitzschtal tram and ferries add character as well as utility, which is part of why Bad Schandau feels more memorable than a simple hiking car park.",
+    "Works especially well when paired with Dresden or Prague, but is strong enough to justify staying in the park region itself."
+  ],
+  "todo": [
+    {
+      "name": "Schrammsteine viewpoint hike",
+      "cat": "Hiking",
+      "desc": "Use one good-weather day for the ridge-and-viewpoint classic because this is the clearest expression of why Bad Schandau is here."
+    },
+    {
+      "name": "Kirnitzschtal tram ride",
+      "cat": "Scenic transport",
+      "desc": "Treat the tram as part of the destination rather than a novelty, because it opens up several easy walking starts in the valley."
+    },
+    {
+      "name": "Toskana Therme session",
+      "cat": "Wellness",
+      "desc": "Keep this as the bad-weather or post-hike counterbalance that helps the town feel like more than an outdoors logistics stop."
+    },
+    {
+      "name": "Elbe ferry and riverside wander",
+      "cat": "Slow travel",
+      "desc": "Build one quieter stretch around the riverfront because the transport rhythm and valley setting are part of the town's charm."
+    },
+    {
+      "name": "Ostrau or panoramic upper-town walk",
+      "cat": "Viewpoint",
+      "desc": "Use a half-day for the higher village side if you want broad scenery without committing to the longest ridge hikes."
+    },
+    {
+      "name": "Königstein or wider park add-on",
+      "cat": "Nearby excursion",
+      "desc": "Add one rail-or-bus extension only after giving Bad Schandau's own hiking network proper time first."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20–80 Mbps",
+      "note": "Hotels and guesthouses are usually good enough for light remote basics, but this is still a small hiking town rather than a full digital-nomad base."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Bad Schandau has no airport. Official Saxon Switzerland transport guidance puts the park about 40 km east of Dresden and around 150 km from Prague, with direct international rail into Bad Schandau national park station and Dresden's S-Bahn every 30 minutes. Prague is often the broader London-flight gateway while Dresden is closer, but the destination itself should remain a transfer-based arrival with no nonstop badge from LGW or LCY.",
+    "airports": [
+      {
+        "name": "Dresden Airport",
+        "code": "DRS",
+        "km": 65,
+        "dgw": false
+      },
+      {
+        "name": "Václav Havel Airport Prague",
+        "code": "PRG",
+        "km": 145,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR); cards are common, but ferries, smaller cafés, and hiking-day incidental spending are still easier with some cash.",
+    "lang": "German is the everyday language; English is usually workable in tourism-facing hotels and visitor information, with some Czech support also common in the border-region context.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Germany follows Schengen rules, so British citizens can usually visit visa-free for up to 90 days in any 180-day period, subject to passport-validity and broader Schengen requirements.",
+    "bestFor": [
+      "Car-free hiking trips",
+      "Saxon Switzerland bases",
+      "Sandstone-views weekends",
+      "Dresden-plus-nature itineraries",
+      "Spa-and-walk short breaks"
+    ],
+    "alerts": [
+      "Some of the best hikes involve ladders, steps, and exposed rock sections, so the park is less soft-going than the spa-town label suggests.",
+      "Fine-weather weekends drive real trail and accommodation pressure despite the area's calm overall feel.",
+      "Weather can shift quickly enough to change the value and safety of ridge routes, ferries, and viewpoint plans in the same day."
+    ]
+  },
+  "sweet": "May to June and September to October are usually Bad Schandau's best all-round windows for hiking, transport ease, and scenery, with October especially appealing if you want autumn color without midsummer crowd levels.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -1,
+      "hi": 2,
+      "lo": -3,
+      "daylight": 8.5,
+      "cld": 64,
+      "rain": 23,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 3,
+      "lo": -2,
+      "daylight": 10.1,
+      "cld": 62,
+      "rain": 20,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 60,
+      "rain": 25,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 13,
+      "lo": 4,
+      "daylight": 13.9,
+      "cld": 55,
+      "rain": 30,
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 15.6,
+      "cld": 52,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 17,
+      "hi": 21,
+      "lo": 12,
+      "daylight": 16.5,
+      "cld": 49,
+      "rain": 58,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 19,
+      "hi": 23,
+      "lo": 14,
+      "daylight": 16.0,
+      "cld": 45,
+      "rain": 69,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "daylight": 14.4,
+      "cld": 45,
+      "rain": 58,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 18,
+      "lo": 10,
+      "daylight": 12.6,
+      "cld": 50,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 10.6,
+      "cld": 58,
+      "rain": 33,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 7,
+      "lo": 2,
+      "daylight": 8.9,
+      "cld": 68,
+      "rain": 33,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 8.0,
+      "cld": 68,
+      "rain": 30,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

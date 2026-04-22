@@ -1,0 +1,246 @@
+{
+  "id": "angeles-city-philippines",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/135034/Average-Weather-in-Angeles-City-Philippines-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Angeles City",
+  "country": "Philippines",
+  "region": "Pampanga, Central Luzon",
+  "desc": "Angeles City works best as a practical Central Luzon base rather than a classic pretty-city break, pairing Clark airport convenience with strong Kapampangan food culture, easy access to Clark Freeport, and realistic day-trip reach for Mt. Pinatubo and other Pampanga outings.",
+  "hls": [
+    "The main strength is convenience: Angeles and nearby Clark make one of the easiest non-Manila arrival bases in the Philippines for north and central Luzon itineraries.",
+    "Pampanga's food reputation matters here, especially if the trip includes serious sisig and wider Kapampangan dining rather than resort-style beach expectations.",
+    "Clark Freeport gives the area a cleaner, more planned contrast to older central Angeles and broadens the stay beyond simple airport logistics.",
+    "Mt. Pinatubo remains the biggest adventure-led add-on from this area, but it works as a proper early-start excursion rather than a casual half-day extra.",
+    "This is a useful destination for stopovers, event stays, and practical regional access more than for slow heritage wandering.",
+    "The driest months are easiest for food-and-outings trips; wet-season travel is still possible but much more interruption-prone."
+  ],
+  "todo": [
+    {
+      "name": "Kapampangan food crawl",
+      "cat": "Food",
+      "desc": "Make at least one meal block specifically about Pampanga's cooking, because regional food is one of the strongest reasons to stop here at all."
+    },
+    {
+      "name": "Clark Museum and parade grounds",
+      "cat": "History",
+      "desc": "Use this to understand how Clark changed from US base to modern freeport rather than treating the area as airport-only infrastructure."
+    },
+    {
+      "name": "Mt. Pinatubo day trip",
+      "cat": "Adventure",
+      "desc": "Commit a full early-start day if Pinatubo is the point, because the lahar-track logistics are part of the experience."
+    },
+    {
+      "name": "Clark boulevard and Freeport evening",
+      "cat": "Urban ease",
+      "desc": "Spend one calmer evening in Clark if you want the trip to feel broader than central Angeles nightlife zones."
+    },
+    {
+      "name": "Puning or lahar-landscape excursion",
+      "cat": "Nature",
+      "desc": "Choose one landscape-heavy half-day if you want a stronger sense of the post-Pinatubo terrain that shapes the region."
+    },
+    {
+      "name": "Clark leisure-day pick",
+      "cat": "Flexible add-on",
+      "desc": "Keep one slot open for a waterpark, golf, shopping, or rest day, because the area often works best as a practical pause between bigger legs."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40–150 Mbps",
+      "note": "Hotels, condos, and cafés around Clark and the stronger commercial parts of Angeles are usually dependable for remote basics, with mobile data generally solid."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Clark International Airport is the practical air gateway and currently lists a regional-and-Gulf route mix rather than any London service, with destinations such as Doha, Singapore, Hong Kong, Bangkok, Taipei, and several Korean cities. That makes Angeles City a connection-led arrival from the repo's London airports, often compared with Manila depending fares and onward plans, but not a nonstop destination from LGW or LCY.",
+    "airports": [
+      {
+        "name": "Clark International Airport",
+        "code": "CRK",
+        "km": 8,
+        "dgw": false
+      }
+    ],
+    "currency": "Philippine peso (PHP); cards work in Clark and stronger hotel/restaurant zones, but cash is still useful for smaller eateries, local transport, and everyday extras.",
+    "lang": "Filipino and English are both widely used, with Kapampangan also prominent locally.",
+    "tz": "PHT (UTC+8)",
+    "visa": "The Philippines allows many nationalities visa-free short stays, but onward-ticket and passport-validity checks are commonly enforced at airline check-in and arrival.",
+    "bestFor": [
+      "Central Luzon stopovers",
+      "Kapampangan food-led stays",
+      "Clark event or conference trips",
+      "Mt. Pinatubo add-on itineraries",
+      "Practical north-Luzon flight bases"
+    ],
+    "alerts": [
+      "Parts of central Angeles are nightlife-heavy and can feel very different from the more controlled Clark Freeport environment, so neighbourhood choice matters.",
+      "March to May heat is tiring for daytime outings, even before the wet season arrives in force.",
+      "Wet-season downpours and storms can disrupt road-based excursions and flatten the value of Pinatubo-style day trips."
+    ]
+  },
+  "sweet": "December to February is usually the easiest Angeles City window for food, day trips, and smoother regional logistics, with March still workable if you can handle rising heat.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "daylight": 11.3,
+      "cld": 49,
+      "rain": 10,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 26,
+      "hi": 31,
+      "lo": 22,
+      "daylight": 11.7,
+      "cld": 46,
+      "rain": 10,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 28,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 12.1,
+      "cld": 49,
+      "rain": 13,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 29,
+      "hi": 34,
+      "lo": 24,
+      "daylight": 12.5,
+      "cld": 65,
+      "rain": 28,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 28,
+      "hi": 33,
+      "lo": 25,
+      "daylight": 12.8,
+      "cld": 87,
+      "rain": 152,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 13.0,
+      "cld": 92,
+      "rain": 310,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.9,
+      "cld": 91,
+      "rain": 455,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Aug",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 12.6,
+      "cld": 92,
+      "rain": 528,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Sep",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 90,
+      "rain": 371,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.8,
+      "cld": 82,
+      "rain": 175,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 11.4,
+      "cld": 70,
+      "rain": 69,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "daylight": 11.2,
+      "cld": 58,
+      "rain": 33,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

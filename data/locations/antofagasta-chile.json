@@ -1,0 +1,246 @@
+{
+  "id": "antofagasta-chile",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-22",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/26546/Average-Weather-in-Antofagasta-Chile-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_data_06 - Climate_Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-22",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Antofagasta",
+  "country": "Chile",
+  "region": "Antofagasta Region, Atacama coast",
+  "desc": "Antofagasta is more useful than beautiful for most leisure travelers, but it earns its place as a northern Chile base where desert light meets the Pacific, with La Portada, big coastal skies, and practical regional access making it stronger as a staging city than as a polished standalone urban break.",
+  "hls": [
+    "The key contrast is physical rather than architectural: Antofagasta sits between the Atacama Desert and the Pacific in a way few larger Chilean cities can match.",
+    "La Portada is the clearest signature sight and gives the city its strongest visual payoff if you are not using Antofagasta purely as a transport base.",
+    "The city works better for one or two nights than for a long urban stay, especially if your wider plan includes the desert north or observatory-related travel.",
+    "Antofagasta's climate is unusually dry and stable year-round, so season choice matters less here than in wetter or more temperature-volatile cities.",
+    "This is a functional mining-and-port city first, which means expectations should be set around access, scenery, and logistics rather than romance or old-town charm.",
+    "Travelers who enjoy stark landscapes, coastal drives, and northern-Chile atmosphere usually get more from it than those looking for a classic city-break shortlist."
+  ],
+  "todo": [
+    {
+      "name": "La Portada natural monument",
+      "cat": "Coastal landmark",
+      "desc": "Treat this as the headline outing because it is the clearest expression of Antofagasta's desert-meets-ocean identity."
+    },
+    {
+      "name": "Huanchaca ruins and museum zone",
+      "cat": "Industrial heritage",
+      "desc": "Use this for historical grounding if you want Antofagasta to feel like more than a hotel-and-airport stop."
+    },
+    {
+      "name": "Costanera sunset walk",
+      "cat": "Urban walk",
+      "desc": "Keep one evening for the seafront because the city's best mood often appears in the light and open Pacific views."
+    },
+    {
+      "name": "Central seafood or ceviche meal",
+      "cat": "Food",
+      "desc": "Build in one coast-led meal rather than treating Antofagasta as a place to simply pass through between flights."
+    },
+    {
+      "name": "Regional beach or bay half-day",
+      "cat": "Coast",
+      "desc": "Use a warmer day for a short coast add-on if you want a softer counterpoint to the city's port-and-desert feel."
+    },
+    {
+      "name": "Astronomy or Paranal-linked logistics day",
+      "cat": "Special-interest add-on",
+      "desc": "Only add this if the trip already has observatory or desert plans, because Antofagasta works best when linked to a wider northern-Chile route."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35–120 Mbps",
+      "note": "Business hotels and better apartments are usually fine for remote basics, though the city feels more functional than café-forward for work-from-anywhere trips."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Antofagasta's Cerro Moreno airport sits about 25 km north of the city and current nonstop coverage is mostly regional, with Santiago doing the heaviest routing work and only limited international service beyond that. There is no LGW or LCY nonstop, so London access is connection-led and usually built around Santiago rather than treated as a direct northern-Chile arrival.",
+    "airports": [
+      {
+        "name": "Andrés Sabella Gálvez International Airport",
+        "code": "ANF",
+        "km": 25,
+        "dgw": false
+      }
+    ],
+    "currency": "Chilean peso (CLP); cards are widely accepted, but cash still helps for taxis, smaller seaside businesses, and low-friction everyday spending.",
+    "lang": "Spanish is the everyday language; English is limited outside stronger hotels, organized tours, and some business-facing settings.",
+    "tz": "CLT/CLST (UTC-4/-3)",
+    "visa": "British citizens can usually visit Chile for up to 90 days without a visa, with entry length and conditions confirmed by Chilean immigration on arrival.",
+    "bestFor": [
+      "Northern Chile stopovers",
+      "Atacama-coast contrast trips",
+      "La Portada outings",
+      "Paranal or astronomy-linked itineraries",
+      "Regional Chile air-hub stays"
+    ],
+    "alerts": [
+      "Antofagasta is practical rather than especially charming, so it works best when you know why you are using it.",
+      "The airport sits outside town and the city stretches along the coast, so transfers and cross-city movement take longer than the map first suggests.",
+      "The desert climate is forgiving on rain but harsh on sun, wind, and dryness, especially if you are walking exposed coastal stretches."
+    ]
+  },
+  "sweet": "September to December and March to May are usually Antofagasta's nicest windows for brighter coastal days without pushing into the more exposed midsummer feel, though the city is broadly usable year-round.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 22,
+      "hi": 24,
+      "lo": 18,
+      "daylight": 13.4,
+      "cld": 25,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 22,
+      "hi": 25,
+      "lo": 18,
+      "daylight": 12.9,
+      "cld": 21,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 21,
+      "hi": 24,
+      "lo": 17,
+      "daylight": 12.2,
+      "cld": 18,
+      "rain": 0,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 19,
+      "hi": 22,
+      "lo": 16,
+      "daylight": 11.5,
+      "cld": 21,
+      "rain": 0,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 20,
+      "lo": 14,
+      "daylight": 11.0,
+      "cld": 24,
+      "rain": 0,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 10.7,
+      "cld": 27,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 15,
+      "hi": 18,
+      "lo": 13,
+      "daylight": 10.8,
+      "cld": 23,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 18,
+      "lo": 13,
+      "daylight": 11.3,
+      "cld": 17,
+      "rain": 0,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 19,
+      "lo": 14,
+      "daylight": 12.0,
+      "cld": 14,
+      "rain": 0,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 20,
+      "lo": 15,
+      "daylight": 12.7,
+      "cld": 16,
+      "rain": 0,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 18,
+      "hi": 22,
+      "lo": 16,
+      "daylight": 13.3,
+      "cld": 19,
+      "rain": 0,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 20,
+      "hi": 23,
+      "lo": 17,
+      "daylight": 13.6,
+      "cld": 23,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

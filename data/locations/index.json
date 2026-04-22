@@ -16,6 +16,14 @@
     "lng": 1.5218
   },
   {
+    "id": "angeles-city-philippines",
+    "city": "Angeles City",
+    "country": "Philippines",
+    "region": "Pampanga, Central Luzon",
+    "lat": 15.15,
+    "lng": 120.5833
+  },
+  {
     "id": "antalya-turkey",
     "city": "Antalya",
     "country": "Turkey",
@@ -30,6 +38,14 @@
     "region": "Sacatepéquez, Guatemalan Highlands",
     "lat": 14.5597,
     "lng": -90.7347
+  },
+  {
+    "id": "antofagasta-chile",
+    "city": "Antofagasta",
+    "country": "Chile",
+    "region": "Antofagasta Region, Atacama coast",
+    "lat": -23.6509,
+    "lng": -70.3975
   },
   {
     "id": "arequipa-peru",
@@ -86,6 +102,14 @@
     "region": "Quintana Roo",
     "lat": 18.6813,
     "lng": -88.3936
+  },
+  {
+    "id": "bad-schandau-germany",
+    "city": "Bad Schandau",
+    "country": "Germany",
+    "region": "Saxon Switzerland, Elbe Sandstone Mountains",
+    "lat": 50.9174,
+    "lng": 14.1549
   },
   {
     "id": "barranquilla-colombia",
