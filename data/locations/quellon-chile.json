@@ -18,7 +18,7 @@
   "city": "Quellon",
   "country": "Chile",
   "region": "Chiloe Island, Los Lagos Region",
-  "desc": "Quellon is a Chiloe Island, Los Lagos Region base shaped by end of the pan-american highway, chiloe island culture, working fishing harbour. It suits remote island road trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Quellon sits at the far southern end of Chiloe with a weather-beaten working-harbour feel, best known as the symbolic finish line of the Pan-American Highway and as a practical jumping-off point for the island's more remote side. It is less polished than Castro and much more about atmosphere, ferries, seafood and the satisfaction of reaching the end of the road than about headline attractions stacked close together.",
   "hls": [
     "End of the Pan-American Highway",
     "Chiloe island culture",
@@ -47,20 +47,30 @@
       "name": "Seafood meal",
       "cat": "Food",
       "desc": "Try curanto-style island cooking or simple harbour seafood when local kitchens are open."
+    },
+    {
+      "name": "Yaldad or nearby south-island church stop",
+      "cat": "Culture",
+      "desc": "Use the quieter southern roads to reach one of Chiloe's wooden-church communities rather than stopping only in the larger island hubs."
+    },
+    {
+      "name": "Ferry-watch harbour morning",
+      "cat": "Local life",
+      "desc": "Spend an early hour by the waterfront to catch the fishing-port rhythm before weather and ferries reshape the day."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "15-50 Mbps",
-      "note": "Typical visitor connectivity in Quellon is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually usable in central stays and cafes, but this is a working southern port rather than a polished remote-work base, so weather, smaller guesthouses and rural drives around southern Chiloe make backup data worthwhile."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Quellon has no airport; Mocopulli is the island gateway and Puerto Montt offers broader domestic links, with road/ferry timing important in summer.",
+    "fltNote": "Quellon is reached by road from Chiloe's Mocopulli airport near Castro or, less neatly, via Puerto Montt plus the island crossing and a long onward drive south. From the UK you are looking at a Santiago connection and then another domestic hop or overland segment, so arrival timing matters more than raw distance. Summer is the easiest season for road logistics, but ferry queues and self-drive demand still add friction in January and February.",
     "airports": [
       {
         "name": "Mocopulli Airport",
@@ -86,20 +96,23 @@
     "currency": "Chilean peso (CLP)",
     "lang": "Spanish; English is limited outside major tourism operators",
     "tz": "CLT/CLST (UTC-4/-3, varies seasonally)",
-    "visa": "UK/Irish passport holders should verify Chile entry rules before travel; immigration conditions and reciprocity rules can change.",
+    "visa": "British citizens can visit Chile visa-free for up to 90 days, and GOV.UK says your passport should be valid for the full length of your stay. On arrival you are normally issued a tourist card, which you should keep safe for departure.",
     "bestFor": [
       "Remote island road trips",
       "Chiloe culture seekers",
       "Ferry-and-road travellers",
-      "Slow southern summer journeys"
+      "Slow southern summer journeys",
+      "End-of-the-road milestone stops",
+      "Working-harbour photography"
     ],
     "alerts": [
       "Rain and wind can disrupt ferry-linked plans.",
       "Distances on Chiloe feel longer than the map suggests.",
+      "Quellon is better for atmosphere and route context than for big-sight checklist tourism, so expectations matter.",
       "Book ahead around January-February Chilean holiday travel."
     ]
   },
-  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "December to February is usually the most workable window for Quellon, when daylight is long enough for southern-island driving and the weather is least likely to turn the trip into a pure rain-and-road exercise.",
   "months": [
     {
       "m": "Jan",

@@ -18,7 +18,7 @@
   "city": "Taroudant",
   "country": "Morocco",
   "region": "Souss Valley, Souss-Massa",
-  "desc": "Taroudant is a Souss Valley, Souss-Massa base shaped by ochre city walls, souk craft lanes, anti-atlas gateway. It suits market culture without big crowds and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Taroudant is one of the strongest inland alternatives to Marrakech in southern Morocco: a walled market town with ochre ramparts, busy but not overwhelming souks, and enough everyday Amazigh and Souss Valley life to feel grounded rather than staged. It suits travellers who want medina atmosphere and day-trip range without the scale, hassle and tourism volume of Morocco's bigger names.",
   "hls": [
     "Ochre city walls",
     "Souk craft lanes",
@@ -47,20 +47,30 @@
       "name": "Anti-Atlas road loop",
       "cat": "Mountains",
       "desc": "Use a driver for villages and dry-mountain landscapes when heat is manageable."
+    },
+    {
+      "name": "Tannery and craft quarter wander",
+      "cat": "Crafts",
+      "desc": "Look beyond the main souk lanes for leatherwork and quieter workshops that show Taroudant's more workaday side."
+    },
+    {
+      "name": "Sunset wall walk or carriage loop",
+      "cat": "Town atmosphere",
+      "desc": "The ramparts make more sense late in the day, when the light softens and the medina starts to cool."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-55 Mbps",
-      "note": "Typical visitor connectivity in Taroudant is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually fine in riads and central cafes, but once you move toward smaller guesthouses, mountain drives or oasis outings, coverage and consistency feel much less certain."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Taroudant has no airport; Agadir is the closest useful gateway and Marrakech offers more UK choice but a much longer transfer.",
+    "fltNote": "Taroudant is usually reached from Agadir rather than flown to directly, and ONDA's airport information for Agadir shows London Gatwick service at airport level. That makes Agadir the cleanest UK gateway, while Marrakech only makes sense if flight timing or a wider Morocco itinerary justifies the much longer inland transfer. In practice, heat, road timing and whether you plan mountain detours matter more here than airport choice alone.",
     "airports": [
       {
         "name": "Agadir Al Massira Airport",
@@ -86,20 +96,23 @@
     "currency": "Moroccan dirham (MAD)",
     "lang": "Arabic and Amazigh; French is widely useful and English varies",
     "tz": "GMT/+1 seasonal time (UTC+0/+1)",
-    "visa": "UK/Irish passport holders should verify Morocco entry rules; short visa-free tourism stays are commonly available.",
+    "visa": "British citizens can visit Morocco visa-free for up to 90 days for tourism, and GOV.UK says your passport should be valid for at least 3 months after arrival. Make sure your passport is stamped on entry, as missing stamps can cause problems when leaving.",
     "bestFor": [
       "Market culture without big crowds",
       "Morocco road trips",
       "Winter sun with inland character",
-      "Photography and craft shopping"
+      "Photography and craft shopping",
+      "Calmer medina stays",
+      "Couples avoiding Marrakech intensity"
     ],
     "alerts": [
       "Summer heat is intense inside the walls.",
       "Friday and religious-holiday rhythms affect souk activity.",
+      "Taroudant is easier-going than Marrakech, but that also means quieter evenings and less polished tourist infrastructure.",
       "Use guides or drivers for remote mountain routes."
     ]
   },
-  "sweet": "Apr, May and Oct are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "April, May and October are usually the sweet spot for Taroudant, when the medina is still lively, the valleys are easier to explore and the heat has not yet flattened the day.",
   "months": [
     {
       "m": "Jan",

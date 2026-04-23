@@ -18,7 +18,7 @@
   "city": "Valdivia",
   "country": "Chile",
   "region": "Los Rios Region",
-  "desc": "Valdivia is a Los Rios Region base shaped by riverfront seafood market, kunstmann beer culture, sea-lion riverfront scenes. It suits river-city food breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Valdivia is one of southern Chile's most likeable small cities: a river-wrapped university town with a fluvial market, sea lions lounging by the waterfront, German-influenced food and beer culture, and easy escapes to forts, wetlands and the coast. It works especially well for travellers who want a city break with nature stitched into it rather than a purely urban stop.",
   "hls": [
     "Riverfront seafood market",
     "Kunstmann beer culture",
@@ -47,20 +47,30 @@
       "name": "Oncol Park or wetlands",
       "cat": "Nature",
       "desc": "Choose a forest or wetland outing to feel the rain-fed landscape around the city."
+    },
+    {
+      "name": "Isla Teja and botanical garden",
+      "cat": "City nature",
+      "desc": "Cross to Isla Teja for Valdivia's greener, calmer side and an easy walk through the university botanical garden."
+    },
+    {
+      "name": "Corral ferry or river navigation",
+      "cat": "Water",
+      "desc": "Use the river and bay crossings to understand why Valdivia feels inseparable from its waterways rather than treating them as background scenery."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Valdivia is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Generally good in central hotels, apartments and cafe-heavy parts of town, though wetland outings, coastal fort trips and smaller guesthouses are much less dependable than the city core."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Valdivia is reached by domestic Chilean flights via Santiago or by road from Puerto Montt; southern summer is the easiest season for logistics.",
+    "fltNote": "Valdivia's Pichoy airport keeps access easier than many southern Chile bases, but UK trips still route through Santiago before the final domestic leg. The city works well once you are there, yet the wider region quickly becomes car- or transfer-dependent if you want Niebla, Corral or forest detours. Southern summer is the cleanest season for building those add-ons around a short stay.",
     "airports": [
       {
         "name": "Pichoy Airport",
@@ -86,20 +96,23 @@
     "currency": "Chilean peso (CLP)",
     "lang": "Spanish; English is limited outside major tourism operators",
     "tz": "CLT/CLST (UTC-4/-3, varies seasonally)",
-    "visa": "UK/Irish passport holders should verify Chile entry rules before travel; immigration conditions and reciprocity rules can change.",
+    "visa": "British citizens can visit Chile visa-free for up to 90 days, and GOV.UK says your passport should be valid for the length of your stay. Keep the tourist card you are normally issued on arrival, as you may need it when you leave.",
     "bestFor": [
       "River-city food breaks",
       "Rainforest and coast add-ons",
       "Beer-focused weekends",
-      "Southern Chile slow travel"
+      "Southern Chile slow travel",
+      "Short urban breaks with nature",
+      "Cooler-weather city escapes"
     ],
     "alerts": [
       "Rain is part of the Valdivia experience in every season.",
       "Reserve cars early for summer coast and forest side trips.",
+      "The city is compact, but many of the best side trips need transport planning beyond the centre.",
       "Riverfront wildlife should be observed without feeding."
     ]
   },
-  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "January to March is usually the best stretch for Valdivia, with the driest urban walking weather, more reliable coast outings and the liveliest riverfront rhythm.",
   "months": [
     {
       "m": "Jan",
