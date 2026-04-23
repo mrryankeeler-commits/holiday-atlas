@@ -18,14 +18,15 @@
   "city": "Bath",
   "country": "England",
   "region": "Somerset, southwest England",
-  "desc": "Bath is a Somerset, southwest England base shaped by roman baths and georgian crescents, thermae spa rooftop pool, pulteney bridge. It suits heritage weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Bath is one of the UK's easiest heritage weekends to overfill: Roman bathing remains, Georgian set-piece streets, the only natural thermal spa you can bathe in, independent shopping, steep skyline walks and a Christmas-market season that can overwhelm the compact centre. It is best by rail, with timed tickets and restaurant bookings, because the city is small enough to walk but popular enough that spontaneity gets expensive.",
   "hls": [
     "Roman Baths and Georgian crescents",
     "Thermae spa rooftop pool",
     "Pulteney Bridge",
     "Jane Austen associations",
     "Walkable honey-stone centre",
-    "Cotswolds and Bristol add-ons"
+    "Cotswolds and Bristol add-ons",
+    "UNESCO whole-city heritage"
   ],
   "todo": [
     {
@@ -47,20 +48,30 @@
       "name": "Bath Skyline walk",
       "cat": "Walking",
       "desc": "Loop above the city for countryside views without leaving on a train or tour bus."
+    },
+    {
+      "name": "Bath Abbey and Pulteney Bridge",
+      "cat": "Architecture",
+      "desc": "Link the Abbey, river weir and Pulteney Bridge for the city's most compact architecture-and-water circuit."
+    },
+    {
+      "name": "No.1 Royal Crescent or Fashion Museum context",
+      "cat": "Museums",
+      "desc": "Add a Georgian interiors or fashion-history stop to make the crescents feel lived-in rather than just photographed."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "55-130 Mbps",
-      "note": "Typical visitor connectivity in Bath is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Strong in most hotels, apartments and cafes; mobile data can dip in basement restaurants, thick Georgian buildings and surrounding valleys."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Bath has no airport; Bristol is closest and London rail links are often simpler for UK visitors, with weekends and Christmas-market dates lifting hotel rates.",
+    "fltNote": "Bath has no airport and no destination-level LGW/LCY nonstop routing. Bristol Airport is closest via the A4 Air Decker bus, but many UK visitors are better served by direct London Paddington-Bath Spa trains of around 1 hour 20 minutes; hotel rates spike on Saturdays, spa-heavy weekends and Bath Christmas Market dates.",
     "airports": [
       {
         "name": "Bristol Airport",
@@ -101,15 +112,18 @@
       "Heritage weekends",
       "Spa breaks",
       "Rail-based UK trips",
-      "Architecture and literature fans"
+      "Architecture and literature fans",
+      "Christmas-market breaks",
+      "Car-free city stays"
     ],
     "alerts": [
-      "Roman Baths and spa sessions should be booked ahead.",
-      "Christmas-market weekends are especially crowded and expensive.",
-      "Steep side streets can be tiring with luggage."
+      "Roman Baths tickets often sell out in advance, especially in summer; book a timed slot rather than relying on walk-up availability.",
+      "Thermae Bath Spa is adults-only from age 16, and rooftop-pool sessions are most pressured on weekends and gift-voucher seasons.",
+      "Bath Christmas Market 2026 runs 26 November to 13 December and makes weekends especially crowded and expensive.",
+      "The historic centre is walkable but hilly; steep streets and cobbles are tiring with luggage."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are the best balance for gardens, skyline walks and lighter crowds; late November to mid-December is atmospheric for Christmas-market trips but needs early booking.",
   "months": [
     {
       "m": "Jan",
@@ -167,7 +181,7 @@
       "daylight": 15.7,
       "cld": 53,
       "rain": 41,
-      "busy": 7,
+      "busy": 8,
       "ac": 4,
       "fl": 4
     },
@@ -203,7 +217,7 @@
       "daylight": 14.5,
       "cld": 46,
       "rain": 41,
-      "busy": 9,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -239,9 +253,9 @@
       "daylight": 8.9,
       "cld": 66,
       "rain": 64,
-      "busy": 3,
-      "ac": 2,
-      "fl": 2
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Dec",
@@ -251,9 +265,9 @@
       "daylight": 7.9,
       "cld": 70,
       "rain": 61,
-      "busy": 2,
-      "ac": 2,
-      "fl": 2
+      "busy": 8,
+      "ac": 5,
+      "fl": 3
     }
   ]
 }

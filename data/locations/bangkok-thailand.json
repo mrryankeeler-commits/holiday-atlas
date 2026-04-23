@@ -18,14 +18,15 @@
   "city": "Bangkok",
   "country": "Thailand",
   "region": "Chao Phraya River, Central Thailand",
-  "desc": "Bangkok is a Chao Phraya River, Central Thailand base shaped by grand palace and temples, street-food districts, chao phraya river ferries. It suits food-first city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Bangkok is less a single city break than a high-energy operating system for Thailand: royal temples and river ferries in Rattanakosin, food alleys in Chinatown, malls and BTS links in Sukhumvit/Siam, weekend-market sprawl at Chatuchak, and two airports feeding beach, island and northern itineraries. It rewards planning around heat, rain, traffic and airport choice, but it is one of Asia's strongest food-first stopovers when you build in air-conditioned pauses.",
   "hls": [
     "Grand Palace and temples",
     "Street-food districts",
     "Chao Phraya river ferries",
     "Rooftop bars",
     "Markets from Chatuchak to Talat Noi",
-    "Gateway to Thailand"
+    "Gateway to Thailand",
+    "Two-airport onward connections"
   ],
   "todo": [
     {
@@ -47,28 +48,38 @@
       "name": "Chatuchak Market",
       "cat": "Market",
       "desc": "Visit on the weekend for the widest market choice, allowing heat breaks and luggage space."
+    },
+    {
+      "name": "Wat Pho and massage-school area",
+      "cat": "Temple & wellness",
+      "desc": "Pair the Reclining Buddha with a traditional massage nearby, keeping clothing and shoe etiquette in mind."
+    },
+    {
+      "name": "Talat Noi and river warehouses",
+      "cat": "Neighbourhood",
+      "desc": "Walk the lanes between old shophouses, shrines, street art and coffee stops for a slower counterpoint to malls and rooftop bars."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "80-180 Mbps",
-      "note": "Typical visitor connectivity in Bangkok is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Excellent in hotels, serviced apartments, coworking cafes and malls; buy an eSIM/local SIM for taxis, food courts, markets and two-airport transfers."
     },
-    "directGW": false,
+    "directGW": true,
     "directFrom": {
-      "LGW": false,
+      "LGW": true,
       "LCY": false
     },
-    "fltNote": "Bangkok has two major airports; UK nonstop options usually use non-LGW London airports or connections, with winter sun and Thai holiday periods affecting fares.",
+    "fltNote": "Bangkok has realistic London nonstop service into Suvarnabhumi, including LGW-BKK flights in the current long-haul schedule as well as Heathrow options; LCY is not practical. Don Mueang is mainly useful for low-cost regional hops. Fares are usually most pressured around December-January winter sun, Easter/Songkran, July-August UK school holidays and Thai holiday peaks.",
     "airports": [
       {
         "name": "Suvarnabhumi Airport",
         "code": "BKK",
         "km": 30,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,20 +97,23 @@
     "currency": "Thai baht (THB)",
     "lang": "Thai; English is common in main tourism areas",
     "tz": "ICT (UTC+7)",
-    "visa": "UK/Irish passport holders should verify Thailand visa-exempt stay limits and arrival rules before travel.",
+    "visa": "British citizens can normally visit Thailand visa-exempt for 60 days for tourism/business, with possible extension; complete Thailand's digital arrival card before arrival and verify passport validity.",
     "bestFor": [
       "Food-first city breaks",
       "Thailand gateway stops",
       "Markets and temples",
-      "Urban nightlife"
+      "Urban nightlife",
+      "Long-haul stopovers",
+      "Rail-and-river exploring"
     ],
     "alerts": [
-      "Heat and humidity are draining; plan air-conditioned breaks.",
-      "Temple dress codes are enforced at major sights.",
-      "Traffic can make airport transfers much longer than distance suggests."
+      "Heat and humidity are draining year-round, and April is especially punishing despite Songkran demand.",
+      "Temple dress codes are enforced at the Grand Palace and Wat Phra Kaew; cover shoulders and legs before arriving.",
+      "Traffic can make airport transfers much longer than distance suggests; the Airport Rail Link is often safer for Suvarnabhumi at rush hour.",
+      "Do not mix up BKK and DMK on onward flights; allow generous time if transferring between airports."
     ]
   },
-  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "December to February is the most comfortable Bangkok window, with lower rain and slightly less oppressive humidity; November is a good value shoulder month, while April is culturally lively but very hot.",
   "months": [
     {
       "m": "Jan",
@@ -133,7 +147,7 @@
       "daylight": 12.1,
       "cld": 58,
       "rain": 25,
-      "busy": 8,
+      "busy": 7,
       "ac": 3,
       "fl": 3
     },
@@ -145,9 +159,9 @@
       "daylight": 12.5,
       "cld": 76,
       "rain": 56,
-      "busy": 3,
-      "ac": 2,
-      "fl": 1
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
     },
     {
       "m": "May",
@@ -157,7 +171,7 @@
       "daylight": 12.8,
       "cld": 90,
       "rain": 114,
-      "busy": 3,
+      "busy": 4,
       "ac": 2,
       "fl": 2
     },
@@ -169,8 +183,8 @@
       "daylight": 12.9,
       "cld": 92,
       "rain": 112,
-      "busy": 5,
-      "ac": 3,
+      "busy": 4,
+      "ac": 2,
       "fl": 4
     },
     {
@@ -182,7 +196,7 @@
       "cld": 91,
       "rain": 104,
       "busy": 6,
-      "ac": 5,
+      "ac": 3,
       "fl": 5
     },
     {
@@ -193,8 +207,8 @@
       "daylight": 12.6,
       "cld": 91,
       "rain": 127,
-      "busy": 4,
-      "ac": 4,
+      "busy": 5,
+      "ac": 3,
       "fl": 5
     },
     {
@@ -229,9 +243,9 @@
       "daylight": 11.5,
       "cld": 65,
       "rain": 46,
-      "busy": 7,
-      "ac": 2,
-      "fl": 2
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
     },
     {
       "m": "Dec",

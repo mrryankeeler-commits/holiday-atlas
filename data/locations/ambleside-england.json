@@ -18,14 +18,15 @@
   "city": "Ambleside",
   "country": "England",
   "region": "Lake District, Cumbria",
-  "desc": "Ambleside is a Lake District, Cumbria base shaped by lake windermere access, fairfield and loughrigg walks, stone village lanes. It suits lake district walking weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Ambleside is one of the Lake District's most useful no-wasted-days bases: close to Windermere boats at Waterhead, low fells such as Loughrigg, higher Fairfield routes, waterfalls, pubs and bus links into Grasmere and the central Lakes. It is not a cheap or secret village, so the best trips use boats, buses and early starts to avoid car-park pressure while keeping flexible plans for wet fells.",
   "hls": [
     "Lake Windermere access",
     "Fairfield and Loughrigg walks",
     "Stone village lanes",
     "Waterfall and woodland routes",
     "Classic Lakeland pubs",
-    "Car-free bus and boat options"
+    "Car-free bus and boat options",
+    "Rydal and Grasmere literary walks"
   ],
   "todo": [
     {
@@ -47,20 +48,30 @@
       "name": "Rydal and Grasmere walk",
       "cat": "Literary landscape",
       "desc": "Link lakes, caves and Wordsworth country on a full but flexible walking day."
+    },
+    {
+      "name": "Bridge House and Ambleside lanes",
+      "cat": "Heritage",
+      "desc": "Use the tiny National Trust Bridge House, slate lanes and outdoor shops as a low-effort town circuit between bigger walks."
+    },
+    {
+      "name": "Fairfield Horseshoe",
+      "cat": "Mountain route",
+      "desc": "Save this classic ridge walk for a settled forecast, good visibility and enough daylight; it is a proper mountain day, not a casual stroll."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "30-85 Mbps",
-      "note": "Typical visitor connectivity in Ambleside is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Good enough in most central inns, cafes and holiday lets; expect weaker mobile data on fells, in valleys and inside older stone buildings."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Ambleside has no airport; Manchester is usually the main gateway, while UK school holidays and sunny hiking weekends drive accommodation more than flights.",
+    "fltNote": "Ambleside has no airport and no destination-level LGW/LCY nonstop routing. Manchester is the most useful air gateway for rail-based trips, with trains to Windermere and a bus/taxi onward to Ambleside; Liverpool and Newcastle can work by road but are less seamless. Accommodation, parking and restaurant prices move with UK school holidays, bank holidays and sunny walking weekends more than with airfare seasonality.",
     "airports": [
       {
         "name": "Manchester Airport",
@@ -101,15 +112,18 @@
       "Lake District walking weekends",
       "Pub-and-boot trips",
       "Car-light UK breaks",
-      "Autumn colour stays"
+      "Autumn colour stays",
+      "Boat-and-bus itineraries",
+      "Mixed-ability walking groups"
     ],
     "alerts": [
-      "Car parks fill early in peak walking season.",
-      "Fell weather changes fast; carry layers and maps.",
-      "Book restaurants and rooms early for bank holidays."
+      "Ambleside and Bowness car parks are busiest from mid-morning to mid-afternoon; arrive early or lean on buses and boats.",
+      "Fell weather changes fast; carry waterproofs, warm layers, navigation and enough daylight margin for ridge routes.",
+      "Book restaurants and rooms early for bank holidays, school holidays and sunny late-notice weekends.",
+      "Waterhead pier is about 0.8 km from the village centre, so allow time for the walk or use the bus if connections are tight."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are the best balance for long daylight, open boat services and slightly less accommodation pressure than the July-August school-holiday peak.",
   "months": [
     {
       "m": "Jan",
@@ -203,7 +217,7 @@
       "daylight": 14.8,
       "cld": 52,
       "rain": 79,
-      "busy": 8,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -227,7 +241,7 @@
       "daylight": 10.4,
       "cld": 64,
       "rain": 94,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
       "fl": 3
     },
