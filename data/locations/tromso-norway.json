@@ -18,7 +18,7 @@
   "city": "Tromso",
   "country": "Norway",
   "region": "Northern Norway, Troms",
-  "desc": "Tromso is a Northern Norway, Troms base shaped by northern lights season, midnight sun summer, fjord and island road trips. It suits northern lights trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Tromso is the easiest Arctic city break to understand but one of the hardest to do casually: aurora season, polar-night atmosphere, midnight-sun energy and quick escapes to fjords, islands and whale-watching water all meet in one compact place. It works best when you treat it as an experience-led trip rather than a normal city weekend, because weather, darkness, snow and tour timing shape everything.",
   "hls": [
     "Northern lights season",
     "Midnight sun summer",
@@ -47,20 +47,30 @@
       "name": "Kvaloya road trip",
       "cat": "Landscape",
       "desc": "Use a car or tour for fjords, beaches and mountain views just outside town."
+    },
+    {
+      "name": "Harbour sauna or Arctic dip",
+      "cat": "Wellness",
+      "desc": "Lean into the Arctic setting with a sauna session instead of treating Tromso only as a tour-launch hub."
+    },
+    {
+      "name": "Polar Museum or science-centre reset",
+      "cat": "Museum",
+      "desc": "Keep an indoor plan ready so bad weather or a missed aurora window does not flatten the whole trip."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "60-150 Mbps",
-      "note": "Typical visitor connectivity in Tromso is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually excellent in town hotels, cafes and co-working-friendly stays; the real issue is not connectivity but the way tours, weather windows and time outside the city pull you away from that comfort zone."
     },
     "directGW": true,
     "directFrom": {
       "LGW": true,
       "LCY": false
     },
-    "fltNote": "Tromso has its own airport and seasonal UK winter demand can include LGW-linked options; aurora and Christmas periods push fares and rooms up.",
+    "fltNote": "Tromso does have genuine LGW nonstop service in the winter market, with easyJet currently selling Gatwick-Tromso flights, but that does not make it a cheap or low-friction break. Aurora season, Christmas, half term and limited shoulder-season frequency can all push fares hard, so this is one of the destinations where timing matters as much as route existence.",
     "airports": [
       {
         "name": "Tromso Airport",
@@ -76,9 +86,9 @@
         "name": "Oslo Airport",
         "code": "OSL",
         "km": 1750,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -99,7 +109,7 @@
       "Rental cars need winter-driving confidence outside town."
     ]
   },
-  "sweet": "Jun, Jul and Aug stand out for the signature seasonal experience, while adding extra nights helps buffer weather disruption.",
+  "sweet": "February-March and late September-October are usually the smartest Tromso windows: you still have a strong shot at aurora conditions or early winter atmosphere, but prices and logistics can be kinder than the most intense festive peak. June-July are for midnight-sun energy, not for everyone.",
   "months": [
     {
       "m": "Jan",

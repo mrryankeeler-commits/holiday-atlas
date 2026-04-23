@@ -18,7 +18,7 @@
   "city": "Villach",
   "country": "Austria",
   "region": "Carinthia, southern Austria",
-  "desc": "Villach is a Carinthia, southern Austria base shaped by carinthian lake access, dobratsch mountain views, thermal spa options. It suits lake-and-mountain combinations and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Villach is one of those Austrian bases that makes more sense the longer you look at the map: warm lakes, bike routes, thermal-spa fallback, easy rail access and day-trip reach into Italy and Slovenia all sit around a compact Carinthian town. It suits travellers who want a practical south-Alps hub rather than a single-icon destination.",
   "hls": [
     "Carinthian lake access",
     "Dobratsch mountain views",
@@ -47,20 +47,30 @@
       "name": "Drau cycle path",
       "cat": "Cycling",
       "desc": "Follow riverside sections for an easy active day without needing high-alpine conditions."
+    },
+    {
+      "name": "Villach old town and market rhythm",
+      "cat": "Town life",
+      "desc": "Use the centre as more than a sleep base, especially if you catch one of the region's market or festival days."
+    },
+    {
+      "name": "Cross-border day trip",
+      "cat": "Day trip",
+      "desc": "Take advantage of the three-cultures location with a simple Slovenia or Italy detour instead of staying local every day."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "40-100 Mbps",
-      "note": "Typical visitor connectivity in Villach is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually reliable in town hotels and apartments; the practical friction comes when you spend full days around lakes, alpine roads or cross-border transport links rather than from weak urban connectivity."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Villach has no major airport; Klagenfurt and Ljubljana are the closest gateways, with lake-season weekends and ski weeks creating the main price spikes.",
+    "fltNote": "Villach is a gateway-and-train destination, not a nonstop one. Ljubljana currently has a direct Gatwick link and Salzburg also has current LGW service, while Klagenfurt is closest but thinner on UK airlift; once you land, the final rail or road leg is simple. Summer lake weekends and winter ski weeks are the periods when prices tighten most noticeably.",
     "airports": [
       {
         "name": "Klagenfurt Airport",
@@ -76,9 +86,9 @@
         "name": "Ljubljana Airport",
         "code": "LJU",
         "km": 95,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,9 +96,9 @@
         "name": "Salzburg Airport",
         "code": "SZG",
         "km": 185,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -109,7 +119,7 @@
       "Cross-border rail and bus timings need checking on Sundays."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "June and September are usually Villach's smartest months: the lakes and bike routes work well, the town still has life, and you avoid some of the heavier midsummer accommodation pressure around the Carinthian water belt.",
   "months": [
     {
       "m": "Jan",

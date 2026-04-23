@@ -18,7 +18,7 @@
   "city": "Rauma",
   "country": "Finland",
   "region": "Satakunta, Bothnian Sea coast",
-  "desc": "Rauma is a Satakunta, Bothnian Sea coast base shaped by old rauma wooden town, unesco timber lanes, bothnian sea coast. It suits architecture-focused slow travel and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Rauma is for travellers who like their UNESCO sites lived-in rather than monumental: a still-inhabited Nordic wooden town, lace-making identity, a calm working coast and enough maritime grit to stop the place feeling stage-set pretty. It suits architecture-led slow travel, gentle summer wandering and anyone happy to trade big-name sights for atmosphere and texture.",
   "hls": [
     "Old Rauma wooden town",
     "UNESCO timber lanes",
@@ -47,20 +47,30 @@
       "name": "Poroholma and coast",
       "cat": "Coast",
       "desc": "Use the waterfront paths and nearby islands for low-key summer walking or cycling."
+    },
+    {
+      "name": "Old Rauma craft and courtyard browsing",
+      "cat": "Slow travel",
+      "desc": "Let the small workshops, cafes and yards set the pace rather than trying to rush the town like a checklist stop."
+    },
+    {
+      "name": "Reksaari or archipelago outing",
+      "cat": "Nature",
+      "desc": "Give the coast its own half-day so Rauma feels like a sea town as well as a heritage district."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Rauma is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually straightforward in town accommodation and cafes; the bigger practical limitation is that Rauma is quiet, not disconnected, so closures and reduced hours matter more than internet quality."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Rauma has no major passenger airport; UK travellers usually connect through Helsinki or use Turku/Pori regionally, with summer weekends most constrained.",
+    "fltNote": "Rauma is a transfer destination rather than a fly-to one. Most international visitors route through Helsinki and continue by rail or coach, while Pori and Turku only matter if the schedules happen to line up. That makes Rauma more about timetable discipline than airfare drama, with the town at its easiest once the Finnish summer season is fully running.",
     "airports": [
       {
         "name": "Pori Airport",
@@ -109,7 +119,7 @@
       "Regional buses need planning around weekends."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "June through August are the natural Rauma months, but late June and early August are often the nicest balance of long light, open courtyards and fewer hard edges than the very busiest holiday weeks.",
   "months": [
     {
       "m": "Jan",
