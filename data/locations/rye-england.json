@@ -18,7 +18,7 @@
   "city": "Rye",
   "country": "England",
   "region": "East Sussex, Romney Marsh edge",
-  "desc": "Rye is a East Sussex, Romney Marsh edge base shaped by cobbled mermaid street, medieval hilltop town, camber sands nearby. It suits historic uk weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Rye is one of those English short-break towns that looks almost too arranged until you stay long enough to notice the marshes, harbour history and bird-filled edge beyond the postcard streets. Mermaid Street, the Ypres Tower, antique shops and old inns are the obvious draw, but the town works best when paired with Camber Sands or Rye Harbour Nature Reserve rather than treated as a one-street photo stop.",
   "hls": [
     "Cobbled Mermaid Street",
     "Medieval hilltop town",
@@ -47,20 +47,30 @@
       "name": "Rye Harbour Nature Reserve",
       "cat": "Nature",
       "desc": "Walk the flat reserve for birds, shingle coast and big skies."
+    },
+    {
+      "name": "St Mary's tower views",
+      "cat": "Views",
+      "desc": "Climb for the marsh, harbour and red-roof perspective that explains Rye's old port geography."
+    },
+    {
+      "name": "Lamb House and citadel lanes",
+      "cat": "Literary",
+      "desc": "Use the quieter lanes around Lamb House to feel the town beyond the busiest camera spots."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Rye is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually solid in inns, cafes and rentals, but thick historic buildings, reserve walks and beach days make mobile data a useful backup."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Rye has no airport; London rail and road access are the reality, with sunny weekends and Camber Sands beach days creating the main demand spikes.",
+    "fltNote": "Rye has no airport and no destination-level LGW/LCY nonstop routing. In practice this is a rail-and-road town: the station is central, staffed and much more useful than trying to think in airport terms, while Camber beach traffic and hot-weather parking pressure often matter more than any inbound flight choice. If you are arriving from London airports, plan the final rail leg rather than assuming the airport distance tells you much.",
     "airports": [
       {
         "name": "London Gatwick Airport",
@@ -101,15 +111,18 @@
       "Historic UK weekends",
       "Beach-plus-inn breaks",
       "Antique browsing",
-      "Birdwatching and marsh walks"
+      "Birdwatching and marsh walks",
+      "Literary and old-town stays",
+      "Car-light southeast escapes"
     ],
     "alerts": [
-      "Cobbles are awkward with wheeled luggage.",
+      "Cobbles, slopes and older inns are awkward with wheeled luggage.",
       "Camber traffic and parking can be difficult on hot weekends.",
-      "Some restaurants need reservations despite the town's small size."
+      "Some restaurants need reservations despite the town's small size.",
+      "Reserve and marsh walks are exposed, so wind and sun can feel stronger than in town."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are the best balance for old-town wandering, reserve walks and beach add-ons without the full squeeze of peak summer weekends.",
   "months": [
     {
       "m": "Jan",

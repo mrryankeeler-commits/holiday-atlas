@@ -18,7 +18,7 @@
   "city": "Izola",
   "country": "Slovenia",
   "region": "Slovenian Istria, Adriatic coast",
-  "desc": "Izola is a Slovenian Istria, Adriatic coast base shaped by compact fishing harbour, slovenian istria cycling, piran and koper day trips. It suits small adriatic towns and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Izola is one of the quieter ways into the Adriatic side of Istria: a compact fishing harbour, easy sea swims, the Parenzana cycling route, and enough local life that it still feels like a town rather than a stage set. It works best for travellers who want a slower base than Piran, with short hops to Koper or Portorož and enough structure for beach-and-bike days without needing a car all the time.",
   "hls": [
     "Compact fishing harbour",
     "Slovenian Istria cycling",
@@ -47,20 +47,30 @@
       "name": "Simonov zaliv beach",
       "cat": "Beach",
       "desc": "Pick this easy bay for swimming access close to town during warmer months."
+    },
+    {
+      "name": "Simonov zaliv archaeological park",
+      "cat": "History",
+      "desc": "Add the Roman villa remains and visitor centre for a more layered stop than just another swim platform."
+    },
+    {
+      "name": "Svetilnik swim and sunset",
+      "cat": "Seafront",
+      "desc": "Use the lighthouse-side waterfront for an easy evening dip or a slower old-town sunset lap."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Izola is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually reliable in apartments, harbour cafes and most hotels, but beach days, cycle rides and older stone interiors are still easier with mobile data in reserve."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Izola has no airport; Trieste and Ljubljana are closest, while Venice can work for broader route choice but adds transfer time.",
+    "fltNote": "Izola has no airport and no destination-level LGW/LCY nonstop routing. Trieste is geographically closest, Ljubljana is often the cleaner all-round gateway, and Venice only really makes sense if you need wider route choice and accept the longer transfer. Once in Slovenian Istria, bus links are decent but summer traffic and parking still punish over-ambitious same-day arrivals.",
     "airports": [
       {
         "name": "Trieste Airport",
@@ -76,9 +86,9 @@
         "name": "Ljubljana Airport",
         "code": "LJU",
         "km": 130,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -96,20 +106,23 @@
     "currency": "Euro (EUR)",
     "lang": "Slovenian; Italian is useful on the coast and English is common in tourism",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "visa": "Schengen rules apply; British citizens can normally visit visa-free for up to 90 days in any 180-day period and should account for the staged rollout of the EU Entry/Exit System.",
     "bestFor": [
       "Small Adriatic towns",
       "Cycling and swimming trips",
       "Piran/Koper alternatives",
-      "Seafood-focused weekends"
+      "Seafood-focused weekends",
+      "Shoulder-season coast breaks",
+      "Car-light Istria bases"
     ],
     "alerts": [
-      "Beach space is limited in July and August.",
-      "Bora winds can make exposed waterfront plans uncomfortable.",
-      "Book coastal rooms early for Slovenian and Italian holiday weeks."
+      "Beach space is limited in July and August, especially near the easiest town beaches.",
+      "Bora and other wind spells can make exposed promenades, cycling sections and swimming plans much less relaxed.",
+      "Book coastal rooms early for Slovenian, Italian and wider summer-holiday weeks.",
+      "Traffic and parking around the coast are much worse in high summer than the map makes them look."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "May, June and September are the best balance for swimming, cycling and harbour evenings without the tighter beach and parking pressure of peak summer.",
   "months": [
     {
       "m": "Jan",

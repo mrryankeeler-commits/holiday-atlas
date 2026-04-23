@@ -18,7 +18,7 @@
   "city": "Holyhead",
   "country": "Wales",
   "region": "Anglesey, northwest Wales",
-  "desc": "Holyhead is a Anglesey, northwest Wales base shaped by south stack lighthouse, ferry-port energy, anglesey coast paths. It suits coastal walking and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Holyhead is a working port town that makes most sense when you lean into its edge-of-Wales character: South Stack cliffs and seabirds, Holyhead Mountain for quick big views, the breakwater and maritime infrastructure, and ferries shuttling to Dublin around the clock. It is less polished than postcard Anglesey villages, but it is useful for walkers, ferry-linked trips and travellers who like their coast a little windier and more functional.",
   "hls": [
     "South Stack lighthouse",
     "Ferry-port energy",
@@ -47,20 +47,30 @@
       "name": "Anglesey coast path section",
       "cat": "Walking",
       "desc": "Pick a manageable coastal-path segment rather than underestimating wind and distance."
+    },
+    {
+      "name": "St Cybi's Church and Roman walls",
+      "cat": "History",
+      "desc": "Use the churchyard, walls and compact old core to understand Holyhead as more than just a ferry terminal."
+    },
+    {
+      "name": "Celtic Gateway and port approach",
+      "cat": "Maritime",
+      "desc": "Walk the bridge and station-port edge to see how closely rail, road and ferry movements shape the town."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "25-70 Mbps",
-      "note": "Typical visitor connectivity in Holyhead is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Fine in most central hotels, chain cafes and station-adjacent stops, but cliff walks, lighthouse areas and some older buildings are much less dependable for mobile data."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Holyhead is more ferry-and-rail than flight destination; Liverpool and Manchester are the main air gateways, with ferry timings shaping arrivals.",
+    "fltNote": "Holyhead is primarily a ferry-and-rail destination, not a fly-to resort. The town is tied into the Dublin route operated by Irish Ferries and Stena Line, so sailing times and check-in windows shape plans more than airfare seasonality. Liverpool and Manchester are the realistic air gateways; Anglesey Airport exists but is too niche to be the normal planning basis for most leisure trips.",
     "airports": [
       {
         "name": "Anglesey Airport",
@@ -101,15 +111,18 @@
       "Coastal walking",
       "Ferry-linked trips",
       "Birdwatching and lighthouse views",
-      "Anglesey road trips"
+      "Anglesey road trips",
+      "Irish Sea stopovers",
+      "Windy shoulder-season coast breaks"
     ],
     "alerts": [
-      "Cliff paths can be dangerous in high wind.",
-      "Ferry disruption affects town demand and onward plans.",
-      "Some attractions have reduced winter hours."
+      "Cliff paths and South Stack steps can be dangerous in high wind or wet conditions.",
+      "Ferry disruption affects hotel demand, food timings and onward plans much more than many first-time visitors expect.",
+      "Some attractions and cafes reduce hours sharply outside the main season.",
+      "Port traffic, late sailings and overnight movements mean parts of town feel operational rather than sleepy."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are the best balance for coast-path walking, birdlife and usable daylight without the full school-holiday crowding of high summer.",
   "months": [
     {
       "m": "Jan",

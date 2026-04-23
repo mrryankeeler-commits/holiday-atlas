@@ -18,7 +18,7 @@
   "city": "Conwy",
   "country": "Wales",
   "region": "North Wales coast, Eryri gateway",
-  "desc": "Conwy is a North Wales coast, Eryri gateway base shaped by conwy castle walls, medieval harbour town, smallest house landmark. It suits castle-focused weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Conwy is one of the strongest short-break bases in North Wales if you want medieval walls and mountain access in the same trip: a heavyweight castle, a harbour that still feels compact and real, quick rail links, and easy onward hops into Eryri, Llandudno or Anglesey. It is compact enough to do without a car, but popular enough that sunny weekends and school holidays change the mood fast.",
   "hls": [
     "Conwy Castle walls",
     "Medieval harbour town",
@@ -47,20 +47,30 @@
       "name": "Eryri/Snowdonia side trip",
       "cat": "Mountains",
       "desc": "Use Conwy as a coast base for mountain railways, lakes or lower-level walks when weather suits."
+    },
+    {
+      "name": "Plas Mawr and old-town lanes",
+      "cat": "Historic house",
+      "desc": "Add Britain's best-preserved Elizabethan town house and the backstreets around it for more than just castle views."
+    },
+    {
+      "name": "Harbour and suspension bridge",
+      "cat": "Waterside",
+      "desc": "Use the quay, estuary edge and Telford bridge for the best of Conwy's water-and-walls perspective."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Conwy is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Generally reliable in hotels and cafes inside the walls, but the station itself is basic and public coverage is patchier once you head out toward the coast or mountains."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Conwy has no airport; Manchester and Liverpool are practical gateways, while accommodation pressure follows UK holiday weeks and sunny weekends.",
+    "fltNote": "Conwy has no airport and no destination-level LGW/LCY nonstop routing. Manchester and Liverpool are the practical air gateways, but rail often matters more than flying because Conwy station sits right by the town and onward North Wales links are straightforward. The main friction is not route choice so much as parking, old-town congestion and peak-day pressure on headline sights.",
     "airports": [
       {
         "name": "Liverpool John Lennon Airport",
@@ -101,15 +111,18 @@
       "Castle-focused weekends",
       "North Wales road trips",
       "Rail-friendly heritage breaks",
-      "Mountain-and-coast combinations"
+      "Mountain-and-coast combinations",
+      "Car-light short breaks",
+      "Family history weekends"
     ],
     "alerts": [
-      "Castle tickets and parking are busiest on school-holiday days.",
-      "Mountain weather can differ sharply from the coast.",
-      "Narrow old-town streets are easier without a car."
+      "Castle tickets, harbour parking and town-centre circulation are busiest on school-holiday days and sunny weekends.",
+      "Mountain weather can differ sharply from the coast even when Conwy itself looks settled.",
+      "Narrow old-town streets are easier without a car.",
+      "Conwy station is useful but limited, so do not expect big-city facilities there."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are the best balance for castle time, harbour walks and Eryri side trips without the thickest summer-weekend pressure.",
   "months": [
     {
       "m": "Jan",

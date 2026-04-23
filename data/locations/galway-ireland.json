@@ -18,7 +18,7 @@
   "city": "Galway",
   "country": "Ireland",
   "region": "County Galway, west Ireland",
-  "desc": "Galway is a County Galway, west Ireland base shaped by latin quarter music pubs, galway bay walks, aran islands gateway. It suits live-music weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Galway is one of the easiest places to build a west-of-Ireland trip around: trad sessions in the Latin Quarter, sea air and long walks in Salthill, buses and tours into Connemara, and weather-dependent island days when the Aran connections line up. It is lively without being huge, but it is rarely cheap or quiet once festival season and summer weekends kick in.",
   "hls": [
     "Latin Quarter music pubs",
     "Galway Bay walks",
@@ -47,20 +47,30 @@
       "name": "Connemara day trip",
       "cat": "Landscape",
       "desc": "Head west for bog, mountains and coastline when weather gives you a window."
+    },
+    {
+      "name": "Blackrock and the Salthill Prom",
+      "cat": "Seafront",
+      "desc": "Walk out for bay views, sea-swimming energy and the classic kick-the-wall finish at the end of the promenade."
+    },
+    {
+      "name": "Spanish Arch and Corrib edge",
+      "cat": "City fabric",
+      "desc": "Use the river and harbour edge to connect Galway's medieval core with its more open waterfront feel."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "40-100 Mbps",
-      "note": "Typical visitor connectivity in Galway is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Good in most city hotels, pubs and cafes, but island excursions, Connemara drives and some older stone venues are easier if you keep mobile data in reserve."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Galway has no commercial airport; Shannon, Knock and Dublin are the practical gateways, with festival dates and summer road trips driving price spikes.",
+    "fltNote": "Galway has no commercial airport. Shannon and Ireland West Airport Knock are the closest useful gateways, while Dublin works well if you are happy to finish with an intercity coach or rail-plus-coach leg; Irish Citylink runs frequent non-stop Galway-Dublin Airport services. Festival dates, bank-holiday weekends and summer west-coast road trips tend to drive costs more than any one flight route does.",
     "airports": [
       {
         "name": "Shannon Airport",
@@ -96,20 +106,23 @@
     "currency": "Euro (EUR)",
     "lang": "English and Irish",
     "tz": "GMT/IST (UTC+0/+1)",
-    "visa": "Common Travel Area rules may apply for UK/Irish citizens; other travellers should verify Ireland entry requirements.",
+    "visa": "The Common Travel Area applies for British and Irish citizens; other travellers should check Ireland entry rules separately from the UK.",
     "bestFor": [
       "Live-music weekends",
       "West Ireland road trips",
       "Island and Connemara gateways",
-      "Festival breaks"
+      "Festival breaks",
+      "Pub-and-promenade city stays",
+      "Car-light west-coast bases"
     ],
     "alerts": [
-      "Festival weekends sell out far in advance.",
-      "Atlantic rain and wind can change island plans.",
-      "Late-night taxis can be scarce after busy pub nights."
+      "Festival weekends sell out far in advance and can push room rates up hard.",
+      "Atlantic rain and wind can cancel or reshape Aran and Connemara plans at short notice.",
+      "Late-night taxis can be scarce after busy pub nights.",
+      "Central accommodation can be noisy when live-music venues spill out late."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are the best balance for music, daylight and west-coast side trips, while July and August are livelier but more expensive and more weather-fragile for island plans.",
   "months": [
     {
       "m": "Jan",
