@@ -71,16 +71,16 @@
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Alkmaar has no airport; Schiphol is the practical gateway, followed by an NS rail transfer of roughly 45-55 minutes with a change, or Amsterdam Centraal-Alkmaar direct trains of about 35-40 minutes. Destination-level LGW/LCY nonstop is false; pricing pressure is mostly Amsterdam/Schiphol flight demand plus cheese-market Fridays, tulip season and summer beach weekends.",
+    "fltNote": "Schiphol is the practical gateway for Alkmaar, with current nonstop options from both London Gatwick and London City at airport level before an easy onward rail leg into North Holland. Destination-level LGW/LCY nonstop stays false because Alkmaar itself is still a rail-transfer city, and the real pricing pressure comes from wider Amsterdam demand plus cheese-market Fridays, tulip season and summer beach weekends.",
     "airports": [
       {
         "name": "Amsterdam Schiphol Airport",
         "code": "AMS",
         "km": 45,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
-          "LCY": false
+          "LGW": true,
+          "LCY": true
         }
       },
       {
@@ -90,7 +90,7 @@
         "dgw": false,
         "directFrom": {
           "LGW": false,
-          "LCY": false
+          "LCY": true
         }
       }
     ],

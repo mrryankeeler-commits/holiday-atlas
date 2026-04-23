@@ -66,23 +66,35 @@
       "note": "Good across lakefront stays and cafés, with some weaker performance in rural guesthouses beyond the core."
     },
     "directGW": false,
-    "fltNote": "Bled has no airport; most routes use Ljubljana (LJU) then transfer about 40-60 minutes by bus, shuttle, or car. Return fares are often ~£70-£170 off-peak, ~£170-£280 in shoulder demand, and ~£280+ around summer peaks.",
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Most Bled trips route through Ljubljana, and easyJet currently serves London Gatwick-Ljubljana directly before the final 40-60 minute road or shuttle transfer. Destination-level LGW/LCY nonstop stays false because Bled itself is still a gateway transfer, while summer lake demand and school-holiday weekends are what tighten prices fastest.",
     "airports": [
       {
         "name": "Ljubljana Jože Pučnik Airport",
         "code": "LJU",
         "km": 36,
-        "dgw": false
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
       },
       {
         "name": "Klagenfurt Airport",
         "code": "KLU",
         "km": 85,
-        "dgw": false
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "Slovene (English widely spoken in tourism)",
+    "lang": "Slovene; English is widely spoken in tourism",
     "tz": "CET/CEST (UTC+1/+2)",
     "visa": "Slovenia is in Schengen; UK and US passport holders can generally stay visa-free up to 90 days in any 180-day period.",
     "bestFor": [
