@@ -18,7 +18,7 @@
   "city": "Theth",
   "country": "Albania",
   "region": "Albanian Alps, Shkoder County",
-  "desc": "Theth is a Albanian Alps, Shkoder County base shaped by accursed mountains trailhead, blue eye of theth, stone lock-in tower. It suits mountain hiking trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Theth is one of the Balkans' most dramatic mountain-valley bases: a small cluster of guesthouses and farm stays set beneath huge limestone walls, with the Blue Eye, Grunas waterfall and the Valbona pass route all pulling you into the landscape. It works best for travellers who are happy to trade smooth logistics for a bigger sense of remoteness, because the last leg into the valley still matters almost as much as the hike itself.",
   "hls": [
     "Accursed Mountains trailhead",
     "Blue Eye of Theth",
@@ -47,28 +47,38 @@
       "name": "Grunas waterfall and canyon",
       "cat": "Nature",
       "desc": "Combine the waterfall and canyon for a shorter walk close to the village."
+    },
+    {
+      "name": "Theth church and valley floor walk",
+      "cat": "Village life",
+      "desc": "Use the church and nearby meadows for an easier orientation loop before committing to longer mountain days."
+    },
+    {
+      "name": "Nderlysaj river stretch",
+      "cat": "Scenic drive",
+      "desc": "Head down-valley for clearer river views and to understand how Theth's scattered hamlets fit together."
     }
   ],
   "prac": {
     "wifi": {
       "r": 2,
       "spd": "8-30 Mbps",
-      "note": "Typical visitor connectivity in Theth is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Patchy even by mountain-village standards: some guesthouses and cafes manage workable connections, but outages, weak signal and dead stretches on valley walks are normal rather than exceptional."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Theth has no airport; Tirana and Podgorica are road gateways, and mountain-road transfer times vary sharply with season and weather.",
+    "fltNote": "Theth is reached by road rather than by flying into the destination itself. Tirana is the main Albania gateway and Tirana Airport has London Gatwick service at airport level, while Podgorica can work from the Montenegro side if the wider route suits you better. Once you leave the airport, the real question is the mountain transfer via Shkoder, because snow, roadworks and shared-transport timings can change the day more than the flight does.",
     "airports": [
       {
         "name": "Tirana International Airport",
         "code": "TIA",
         "km": 160,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,20 +96,23 @@
     "currency": "Albanian lek (ALL)",
     "lang": "Albanian; English is common in tourism pockets",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "UK/Irish passport holders should verify Albania entry rules before travel; short visa-free stays are commonly available for tourism.",
+    "visa": "British citizens can visit Albania visa-free for up to 90 days in a 180-day period, and GOV.UK says your passport must be valid for at least 3 months after the day you plan to leave Albania.",
     "bestFor": [
       "Mountain hiking trips",
       "Guesthouse-to-guesthouse travel",
       "Cooler summer escapes",
-      "Photographers wanting rugged valleys"
+      "Photographers wanting rugged valleys",
+      "Valbona-pass itineraries",
+      "Remote car-light adventure travel"
     ],
     "alerts": [
       "High-pass hikes are seasonal and can hold snow or storm risk outside summer.",
       "Road access has improved but transfer times remain weather-sensitive.",
-      "Carry cash; card acceptance is limited in village guesthouses."
+      "Carry cash; card acceptance is limited in village guesthouses.",
+      "Do not assume seamless ATMs, pharmacies or mobile signal once you are in the valley."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "June, July and September are usually the best balance for pass access, guesthouse availability and long hiking daylight, with August busier but not always meaning easier logistics.",
   "months": [
     {
       "m": "Jan",

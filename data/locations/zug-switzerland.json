@@ -18,7 +18,7 @@
   "city": "Zug",
   "country": "Switzerland",
   "region": "Central Switzerland, Lake Zug",
-  "desc": "Zug is a Central Switzerland, Lake Zug base shaped by lake zug sunsets, compact old town, zugerberg viewpoints. It suits polished lake weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Zug is one of those Swiss towns that looks understated until you spend a day in it: a clean lakefront, a compact old town, quick lifts to the Zugerberg, cherry-cake culture and railway efficiency that makes the whole place feel frictionless. It is more polished than dramatic, but that is exactly the appeal if you want a calm Central Switzerland base without Zurich's scale.",
   "hls": [
     "Lake Zug sunsets",
     "Compact old town",
@@ -47,29 +47,39 @@
       "name": "Cherry cake stop",
       "cat": "Food",
       "desc": "Try Zuger Kirschtorte to connect the city with its best-known local sweet."
+    },
+    {
+      "name": "Zuger Kirschtorten Museum",
+      "cat": "Local culture",
+      "desc": "Drop into the small museum at Treichler if you want the city's signature dessert to feel like more than just a bakery purchase."
+    },
+    {
+      "name": "Etter kirsch or confectionery stop",
+      "cat": "Food & drink",
+      "desc": "Use a tasting or guided stop to connect Zug's tidy image with its deeper kirsch and cherry-growing tradition."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "80-180 Mbps",
-      "note": "Typical visitor connectivity in Zug is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Excellent by normal visitor standards: central hotels, trains and cafes are strong, and Zug has a real work-friendly feel, though lakeside walks and mountain sections are still not office-grade everywhere."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Zug has no airport; Zurich is the obvious gateway and rail transfer, with business-week demand sometimes more relevant than leisure seasonality.",
+    "fltNote": "Zug is all about airport-to-rail simplicity. Zurich Airport is the obvious gateway and has nonstop service from both London Gatwick and London City at airport level, but the destination itself does not have nonstop flags because the final leg is a straightforward train. Weekday business demand can influence hotel pricing more than classic leisure seasonality does.",
     "airports": [
       {
         "name": "Zurich Airport",
         "code": "ZRH",
         "km": 50,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
-          "LCY": false
+          "LGW": true,
+          "LCY": true
         }
       },
       {
@@ -86,20 +96,23 @@
     "currency": "Swiss franc (CHF)",
     "lang": "German in Zug; English is common in business and travel contexts",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "visa": "Switzerland follows Schengen rules: British citizens can visit visa-free for up to 90 days in any 180-day period, and GOV.UK says passports must be less than 10 years old and valid for at least 3 months after the day you plan to leave the Schengen area.",
     "bestFor": [
       "Polished lake weekends",
       "Zurich-adjacent stays",
       "Easy rail trips",
-      "Low-key Swiss hiking"
+      "Low-key Swiss hiking",
+      "Business-plus-leisure stays",
+      "Calm Central Switzerland bases"
     ],
     "alerts": [
       "Weekday hotel rates can be high because of business travel.",
       "Lake fog can hide mountain views in cooler months.",
-      "Swiss prices are high even outside peak leisure season."
+      "Swiss prices are high even outside peak leisure season.",
+      "Sunday and evening rhythms are quieter than Zurich, which can feel elegant or flat depending on what you want."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are usually the best balance for lake evenings, Zugerberg outings and lower accommodation pressure than the height of summer or weekday fair-period peaks.",
   "months": [
     {
       "m": "Jan",

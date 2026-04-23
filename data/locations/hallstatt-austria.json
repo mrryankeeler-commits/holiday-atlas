@@ -18,7 +18,7 @@
   "city": "Hallstatt",
   "country": "Austria",
   "region": "Salzkammergut, Upper Austria",
-  "desc": "Hallstatt is a Salzkammergut, Upper Austria base shaped by lake hallstatt reflections, salt-mine history, skywalk viewpoint. It suits alpine lake scenery and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Hallstatt is the postcard Alpine village that really does look that good in person, but it only works if you plan around its realities: a tiny lakefront core, heavy day-trip pressure, a railway station across the water, and a lot of your experience determined by when you arrive rather than simply where you stand. It is beautiful, but it is not secret, cheap or spacious.",
   "hls": [
     "Lake Hallstatt reflections",
     "Salt-mine history",
@@ -31,12 +31,12 @@
     {
       "name": "Hallstatt Skywalk",
       "cat": "Views",
-      "desc": "Ride or hike up for the classic view over the lake, village roofs and steep Salzkammergut slopes."
+      "desc": "This is one of the signature viewpoints above town, but the Hallstatt tourism site says the cable car, Skywalk and salt mine are closed for reconstruction until 29 June 2026, with reopening planned for 30 June 2026."
     },
     {
       "name": "Salt mine tour",
       "cat": "History",
-      "desc": "Use the salt mine to understand why this tiny lakeside village became historically important."
+      "desc": "The salt story is essential to Hallstatt, but tourism guidance says the Hallstatt mine itself is closed until late June 2026 and currently redirects visitors by shuttle toward Altaussee."
     },
     {
       "name": "Lake ferry arrival",
@@ -47,20 +47,30 @@
       "name": "Dachstein caves and glacier road",
       "cat": "Nature",
       "desc": "Use a clear day for ice caves, alpine viewpoints or nearby Obertraun walks."
+    },
+    {
+      "name": "Bone house and parish church hill",
+      "cat": "History",
+      "desc": "Climb above the centre for one of Hallstatt's strangest and most memorable historic stops, with lake views included."
+    },
+    {
+      "name": "Evening or dawn lakefront circuit",
+      "cat": "Photography",
+      "desc": "Build time specifically for the hours before tour-bus pressure ramps up or after it drops away, because that changes the whole feel of Hallstatt."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-55 Mbps",
-      "note": "Typical visitor connectivity in Hallstatt is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually fine in hotels and cafes, but the village fabric is awkward for seamless coverage and the moment you shift to ferries, hillside walks or Obertraun-side excursions, reliability becomes less predictable."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Hallstatt has no airport; Salzburg is the closest useful gateway, and winter/summer holiday weeks raise both rail-and-room demand.",
+    "fltNote": "Hallstatt is a rail-and-ferry destination, not a fly-to one. Salzburg is geographically closest, but Vienna can be the cleaner UK gateway because easyJet launched London Gatwick-Vienna service in December 2025 and Austria's rail network does the rest; whichever airport you choose, the key detail is that Hallstatt station sits across the lake and the final ferry crossing is part of the trip. Peak holiday weeks push train, ferry and room pressure together.",
     "airports": [
       {
         "name": "Salzburg Airport",
@@ -86,9 +96,9 @@
         "name": "Vienna Airport",
         "code": "VIE",
         "km": 290,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -96,20 +106,23 @@
     "currency": "Euro (EUR)",
     "lang": "German; English is common in visitor-facing services",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "visa": "Austria follows Schengen rules: British citizens can visit visa-free for up to 90 days in any 180-day period, and GOV.UK says passports must be less than 10 years old and valid for at least 3 months after the day you plan to leave the Schengen area.",
     "bestFor": [
       "Alpine lake scenery",
       "Photographers starting early",
       "Rail-and-ferry slow travel",
-      "Shoulder-season village stays"
+      "Shoulder-season village stays",
+      "One-night splurge stops",
+      "Train-first Austrian itineraries"
     ],
     "alerts": [
       "Day-tripper crowding is intense between mid-morning and late afternoon.",
       "Parking is limited; rail and ferry are often calmer.",
-      "Snow or low cloud can disrupt high viewpoints in winter."
+      "Snow or low cloud can disrupt high viewpoints in winter.",
+      "As of April 2026, Hallstatt tourism pages say the cable car, Skywalk and Hallstatt salt mine remain closed until 29 June 2026."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, September and early October are usually the best balance for lake scenery and walkable weather without Hallstatt at full daytime saturation, though clear dawn starts matter in any season.",
   "months": [
     {
       "m": "Jan",
