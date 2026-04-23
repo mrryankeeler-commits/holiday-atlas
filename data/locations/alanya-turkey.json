@@ -18,14 +18,15 @@
   "city": "Alanya",
   "country": "Turkey",
   "region": "Antalya Province, Turkish Riviera",
-  "desc": "Alanya is a Antalya Province, Turkish Riviera base shaped by alanya castle headland, kleopatra beach, red tower harbour. It suits mediterranean beach breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Alanya is the eastern, value-leaning end of the Turkish Riviera: a beach city wrapped around a castle peninsula, with Kleopatra Beach on one side, the Red Tower and harbour on the other, and hot-weather escape routes into caves, rivers and the Taurus foothills. It is strongest for shoulder-season sun and family-friendly resort logistics, while July and August are better treated as swim-and-siesta months than sightseeing months.",
   "hls": [
     "Alanya Castle headland",
     "Kleopatra Beach",
     "Red Tower harbour",
     "Dim River lunches",
     "Cable-car viewpoints",
-    "Long Mediterranean swim season"
+    "Long Mediterranean swim season",
+    "Damlataş Cave and harbour walks"
   ],
   "todo": [
     {
@@ -47,20 +48,30 @@
       "name": "Dim River",
       "cat": "Food & nature",
       "desc": "Head inland to shaded riverside restaurants when the coast is at its hottest."
+    },
+    {
+      "name": "Damlataş Cave",
+      "cat": "Nature",
+      "desc": "Use the cool cave near Kleopatra Beach as a short heat-break stop before or after the cable car."
+    },
+    {
+      "name": "Sapadere Canyon",
+      "cat": "Day trip",
+      "desc": "Book a canyon trip or drive inland for waterfalls and cooler mountain air when beach humidity builds."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "30-80 Mbps",
-      "note": "Typical visitor connectivity in Alanya is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Generally reliable in central hotels, apartments and seafront cafes; speeds are less predictable in hillside villas, canyon trips and older resort blocks."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "Alanya itself is usually reached via Gazipasa or Antalya; Antalya has the stronger seasonal UK leisure market, while Gazipasa cuts transfer time when routes line up.",
+    "fltNote": "Alanya is usually reached via Gazipaşa-Alanya for the shortest transfer or Antalya for the strongest UK leisure schedule. Treat destination-level LGW/LCY nonstop as false: LGW has direct Antalya gateway flights, but not a reliable nonstop into Gazipaşa-Alanya itself; Antalya adds roughly a 2-2.5 hour road transfer and peaks hard in UK school-holiday weeks.",
     "airports": [
       {
         "name": "Gazipasa-Alanya Airport",
@@ -86,20 +97,23 @@
     "currency": "Turkish lira (TRY)",
     "lang": "Turkish; English varies outside resorts and major hotels",
     "tz": "TRT (UTC+3)",
-    "visa": "UK/Irish passport holders should verify Turkey short-stay entry rules before travel; rules can change.",
+    "visa": "British citizens can normally visit Turkey visa-free for up to 90 days in any 180-day period; still verify passport-validity and entry rules before booking.",
     "bestFor": [
       "Mediterranean beach breaks",
       "Castle-and-harbour wandering",
       "Warm shoulder-season escapes",
-      "Families wanting resort infrastructure"
+      "Families wanting resort infrastructure",
+      "Value-focused Turkish Riviera stays",
+      "Travellers who do not mind gateway transfers"
     ],
     "alerts": [
-      "July and August can feel very hot on castle climbs; start early or go near sunset.",
-      "Boat-trip and beach prices rise sharply in peak Turkish school-holiday weeks.",
-      "Winter rain can interrupt coastal day plans, so keep one flexible indoor or hammam slot."
+      "July and August are extremely hot for castle walls, canyon boardwalks and exposed harbour walks; start early or go near sunset.",
+      "Gateway choice matters: Gazipaşa is quicker but thinner on routes, while Antalya has more UK choice and a much longer transfer.",
+      "Boat-trip, beach-club and family-room prices rise sharply in Turkish and UK school-holiday weeks.",
+      "Winter rain can interrupt coastal day plans, so keep one flexible hammam, cave or market slot."
     ]
   },
-  "sweet": "May, Sep and Oct usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "May, early June, September and October are the sweet spots for warm seas, open resort services and less punishing sightseeing heat than July-August.",
   "months": [
     {
       "m": "Jan",

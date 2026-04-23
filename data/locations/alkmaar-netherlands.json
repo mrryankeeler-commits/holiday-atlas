@@ -18,14 +18,15 @@
   "city": "Alkmaar",
   "country": "Netherlands",
   "region": "North Holland",
-  "desc": "Alkmaar is a North Holland base shaped by historic cheese market, canal-ring old town, dutch golden age streets. It suits amsterdam-adjacent slow stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Alkmaar is North Holland's calmer canal-city alternative to sleeping in Amsterdam: compact enough for a weekend, close enough for Schiphol rail access, and distinctive because its old weighing-house square still stages the famous cheese-market ritual in season. It is best when you pair the historic centre with dunes, beaches, Bergen art heritage or a wider North Holland cycling loop rather than treating it as a one-hour photo stop.",
   "hls": [
     "Historic cheese market",
     "Canal-ring old town",
     "Dutch Golden Age streets",
     "Easy Amsterdam rail link",
     "North Sea beach access",
-    "Compact cafe scene"
+    "Compact cafe scene",
+    "Bergen art and dune-country side trips"
   ],
   "todo": [
     {
@@ -47,20 +48,30 @@
       "name": "Bergen aan Zee side trip",
       "cat": "Coast",
       "desc": "Use a clear day for dunes, beach air and cycling routes west of town."
+    },
+    {
+      "name": "Grote Sint-Laurenskerk",
+      "cat": "Architecture",
+      "desc": "Step into the large late-Gothic church for scale, organ heritage and a useful cultural anchor away from the market crowds."
+    },
+    {
+      "name": "Dutch Cheese Museum",
+      "cat": "Food history",
+      "desc": "Visit the museum in the Waag building to turn the cheese-market spectacle into proper regional dairy context."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "60-140 Mbps",
-      "note": "Typical visitor connectivity in Alkmaar is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Strong by visitor standards in central hotels, apartments and cafes; mobile coverage is also generally dependable for beach, dune and rail day trips."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Alkmaar has no airport; Schiphol plus a rail transfer is the simplest route, with spring tulip season and summer weekends lifting accommodation pressure.",
+    "fltNote": "Alkmaar has no airport; Schiphol is the practical gateway, followed by an NS rail transfer of roughly 45-55 minutes with a change, or Amsterdam Centraal-Alkmaar direct trains of about 35-40 minutes. Destination-level LGW/LCY nonstop is false; pricing pressure is mostly Amsterdam/Schiphol flight demand plus cheese-market Fridays, tulip season and summer beach weekends.",
     "airports": [
       {
         "name": "Amsterdam Schiphol Airport",
@@ -84,22 +95,25 @@
       }
     ],
     "currency": "Euro (EUR)",
-    "lang": "Dutch; English is widely spoken",
+    "lang": "Dutch; English is widely spoken in hotels, museums and restaurants, with some Frisian/West Frisian regional place-name context nearby",
     "tz": "CET/CEST (UTC+1/+2)",
     "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
     "bestFor": [
       "Amsterdam-adjacent slow stays",
       "Canal-town weekends",
       "Food-market timing",
-      "Cycling and beach add-ons"
+      "Cycling and beach add-ons",
+      "Museum-and-market short breaks",
+      "Travellers using Schiphol without sleeping in Amsterdam"
     ],
     "alerts": [
-      "Cheese-market mornings are crowded and seasonal.",
-      "Canal paths can be slick in wet winter weather.",
-      "Book rooms early if pairing Alkmaar with tulip-season day trips."
+      "The cheese market is seasonal and Friday-morning focused, with extra Tuesday-evening sessions only in the high summer pattern.",
+      "Arrive early on market days; Waagplein viewing spots and cafe terraces fill well before the ceremony starts.",
+      "Canal bridges and brick lanes can be slick in wet winter weather.",
+      "Book rooms early if combining Alkmaar with tulip-season day trips or North Sea beach weekends."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "Late April to June is the best overall window for cheese-market atmosphere, cycling weather and tulip/flower-region add-ons; September is calmer and still works well for museums, canals and dune walks.",
   "months": [
     {
       "m": "Jan",

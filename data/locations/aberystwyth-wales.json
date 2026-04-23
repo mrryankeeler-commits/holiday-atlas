@@ -18,14 +18,15 @@
   "city": "Aberystwyth",
   "country": "Wales",
   "region": "Ceredigion, Mid Wales coast",
-  "desc": "Aberystwyth is a Ceredigion, Mid Wales coast base shaped by victorian seafront promenade, constitution hill cliff railway, national library of wales. It suits welsh seaside breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Aberystwyth is a proper Mid Wales seaside town rather than a resort strip: a university base with a long Victorian promenade, a national cultural archive above the bay, steam-rail access into the Rheidol Valley, and weather that can swing from golden Cardigan Bay evenings to horizontal rain in the same trip. It works best for rail-based slow travel, coastal walking and indoor-outdoor planning rather than guaranteed beach heat.",
   "hls": [
     "Victorian seafront promenade",
     "Constitution Hill cliff railway",
     "National Library of Wales",
     "Cambrian Coast rail scenery",
     "Student-town energy",
-    "Cardigan Bay sunsets"
+    "Cardigan Bay sunsets",
+    "Vale of Rheidol steam railway"
   ],
   "todo": [
     {
@@ -47,20 +48,30 @@
       "name": "Vale of Rheidol Railway",
       "cat": "Scenic rail",
       "desc": "Take the narrow-gauge railway inland to Devil's Bridge for a classic wet-weather-friendly day trip."
+    },
+    {
+      "name": "Aberystwyth Castle and Old College",
+      "cat": "History & architecture",
+      "desc": "Link the ruined castle, sea-facing Old College and south promenade to understand the town's university and maritime layers."
+    },
+    {
+      "name": "Ceredigion Coast Path",
+      "cat": "Walking",
+      "desc": "Use short sections toward Clarach, Borth or Llanrhystud for cliffs, beaches and dolphin-watching chances without committing to a full-distance hike."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Aberystwyth is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Good enough for most town-centre stays and university-area cafes; coverage drops on coast-path sections, valley rail stops and rural guesthouse lanes."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Aberystwyth has no airport; rail or road from larger UK airports is the reality, and domestic holiday weeks affect rooms more than flights.",
+    "fltNote": "Aberystwyth has no airport and no practical nonstop-flight story from LGW/LCY; most visitors arrive by rail via Shrewsbury/Birmingham or by road from Cardiff, Birmingham or Manchester. Accommodation pressure is driven more by UK school holidays, university events, graduation periods and sunny-weekend rail demand than airfare seasonality.",
     "airports": [
       {
         "name": "Cardiff Airport",
@@ -94,22 +105,25 @@
       }
     ],
     "currency": "Pound sterling (GBP)",
-    "lang": "English and Welsh",
+    "lang": "Welsh and English; bilingual signage is routine and Welsh is especially visible in cultural and university contexts",
     "tz": "GMT/BST (UTC+0/+1)",
     "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
     "bestFor": [
       "Welsh seaside breaks",
       "Rail-based slow travel",
       "University-town weekends",
-      "Coastal walking"
+      "Coastal walking",
+      "Rain-proof culture days",
+      "Travellers without a car"
     ],
     "alerts": [
-      "Atlantic wind and rain can change plans quickly; pack waterproof layers.",
-      "Rail journeys are scenic but slow, so check engineering works.",
-      "Graduation and university weekends can tighten accommodation."
+      "Cardigan Bay weather changes fast; keep waterproof layers handy even in the better summer months.",
+      "Rail journeys are scenic but slow and can be affected by engineering work, so avoid tight same-day airport connections.",
+      "Graduation, university open days and summer weekends can make small-town accommodation unexpectedly tight.",
+      "The National Library sits above town on Penglais Hill; allow time or use local transport if mobility or rain is a factor."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "Late May to early July is the best balance for long daylight, open attractions and manageable crowds; September is a good quieter backup if you are comfortable with more changeable weather.",
   "months": [
     {
       "m": "Jan",
