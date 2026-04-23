@@ -1,0 +1,249 @@
+{
+  "id": "taroudant-morocco",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/32140/Average-Weather-in-Taroudant-Morocco-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Taroudant",
+  "country": "Morocco",
+  "region": "Souss Valley, Souss-Massa",
+  "desc": "Taroudant is a Souss Valley, Souss-Massa base shaped by ochre city walls, souk craft lanes, anti-atlas gateway. It suits market culture without big crowds and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Ochre city walls",
+    "Souk craft lanes",
+    "Anti-Atlas gateway",
+    "Calmer alternative to Marrakech",
+    "Berber market culture",
+    "Palm and citrus landscapes"
+  ],
+  "todo": [
+    {
+      "name": "Taroudant ramparts",
+      "cat": "History",
+      "desc": "Circle the ochre walls by caleche or on foot to appreciate the scale of the old trading city."
+    },
+    {
+      "name": "Souk Arabe and Souk Berbere",
+      "cat": "Market",
+      "desc": "Browse spices, leather and local crafts in a calmer setting than Marrakech."
+    },
+    {
+      "name": "Tiout oasis trip",
+      "cat": "Oasis",
+      "desc": "Head to the palm oasis and kasbah scenery for a classic Souss Valley day out."
+    },
+    {
+      "name": "Anti-Atlas road loop",
+      "cat": "Mountains",
+      "desc": "Use a driver for villages and dry-mountain landscapes when heat is manageable."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-55 Mbps",
+      "note": "Typical visitor connectivity in Taroudant is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Taroudant has no airport; Agadir is the closest useful gateway and Marrakech offers more UK choice but a much longer transfer.",
+    "airports": [
+      {
+        "name": "Agadir Al Massira Airport",
+        "code": "AGA",
+        "km": 65,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Marrakech Menara Airport",
+        "code": "RAK",
+        "km": 250,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Moroccan dirham (MAD)",
+    "lang": "Arabic and Amazigh; French is widely useful and English varies",
+    "tz": "GMT/+1 seasonal time (UTC+0/+1)",
+    "visa": "UK/Irish passport holders should verify Morocco entry rules; short visa-free tourism stays are commonly available.",
+    "bestFor": [
+      "Market culture without big crowds",
+      "Morocco road trips",
+      "Winter sun with inland character",
+      "Photography and craft shopping"
+    ],
+    "alerts": [
+      "Summer heat is intense inside the walls.",
+      "Friday and religious-holiday rhythms affect souk activity.",
+      "Use guides or drivers for remote mountain routes."
+    ]
+  },
+  "sweet": "Apr, May and Oct are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 13,
+      "hi": 22,
+      "lo": 7,
+      "daylight": 10.4,
+      "cld": 29,
+      "rain": 28,
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 16,
+      "hi": 23,
+      "lo": 9,
+      "daylight": 11.1,
+      "cld": 27,
+      "rain": 33,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 26,
+      "lo": 11,
+      "daylight": 12.0,
+      "cld": 28,
+      "rain": 28,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 20,
+      "hi": 27,
+      "lo": 13,
+      "daylight": 13.0,
+      "cld": 23,
+      "rain": 15,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "May",
+      "avg": 23,
+      "hi": 30,
+      "lo": 16,
+      "daylight": 13.7,
+      "cld": 21,
+      "rain": 8,
+      "busy": 4,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Jun",
+      "avg": 26,
+      "hi": 33,
+      "lo": 19,
+      "daylight": 14.1,
+      "cld": 11,
+      "rain": 2,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 37,
+      "lo": 22,
+      "daylight": 13.9,
+      "cld": 4,
+      "rain": 2,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 36,
+      "lo": 22,
+      "daylight": 13.2,
+      "cld": 8,
+      "rain": 2,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Sep",
+      "avg": 26,
+      "hi": 33,
+      "lo": 20,
+      "daylight": 12.3,
+      "cld": 24,
+      "rain": 5,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 22,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 11.4,
+      "cld": 34,
+      "rain": 18,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 18,
+      "hi": 26,
+      "lo": 12,
+      "daylight": 10.6,
+      "cld": 32,
+      "rain": 36,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 14,
+      "hi": 22,
+      "lo": 8,
+      "daylight": 10.2,
+      "cld": 32,
+      "rain": 33,
+      "busy": 7,
+      "ac": 3,
+      "fl": 4
+    }
+  ]
+}

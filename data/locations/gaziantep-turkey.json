@@ -1,0 +1,249 @@
+{
+  "id": "gaziantep-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/100231/Average-Weather-in-Gaziantep-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Gaziantep",
+  "country": "Turkey",
+  "region": "Southeastern Anatolia",
+  "desc": "Gaziantep is a Southeastern Anatolia base shaped by unesco-listed food culture, zeugma mosaic museum, copper bazaar craft. It suits food-led city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "UNESCO-listed food culture",
+    "Zeugma Mosaic Museum",
+    "Copper bazaar craft",
+    "Baklava heritage",
+    "Gaziantep Castle area",
+    "Old hans and covered markets"
+  ],
+  "todo": [
+    {
+      "name": "Zeugma Mosaic Museum",
+      "cat": "Museum",
+      "desc": "Spend time with the Roman mosaics, including the famous Gypsy Girl fragment, before exploring the old city."
+    },
+    {
+      "name": "Bakırcılar Bazaar",
+      "cat": "Market",
+      "desc": "Watch copper workers and sample pistachio sweets in the lanes around the historic market core."
+    },
+    {
+      "name": "Gaziantep food crawl",
+      "cat": "Food",
+      "desc": "Build a day around katmer, kebab, beyran and baklava rather than treating meals as an afterthought."
+    },
+    {
+      "name": "Gaziantep Castle quarter",
+      "cat": "History",
+      "desc": "Use the elevated castle area as an orientation point for the old hans, mosques and museums nearby."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-70 Mbps",
+      "note": "Typical visitor connectivity in Gaziantep is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "No routine LGW/LCY nonstop reaches Gaziantep; most UK trips connect via Istanbul, with domestic Turkish holiday periods tightening fares.",
+    "airports": [
+      {
+        "name": "Gaziantep Oğuzeli Airport",
+        "code": "GZT",
+        "km": 20,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Adana Sakirpasa/Cukurova gateway",
+        "code": "COV",
+        "km": 220,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Turkish lira (TRY)",
+    "lang": "Turkish; English varies outside resorts and major hotels",
+    "tz": "TRT (UTC+3)",
+    "visa": "UK/Irish passport holders should verify Turkey short-stay entry rules before travel; rules can change.",
+    "bestFor": [
+      "Food-led city breaks",
+      "Museum-rich culture stops",
+      "Overland Turkey itineraries",
+      "Cooler spring and autumn exploring"
+    ],
+    "alerts": [
+      "Summer afternoons are very hot for market wandering.",
+      "Check current regional travel advice before planning wider southeast Turkey road trips.",
+      "Popular baklava shops can queue around local holiday periods."
+    ]
+  },
+  "sweet": "May, Jun and Sep are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 3,
+      "hi": 7,
+      "lo": -1,
+      "daylight": 10.0,
+      "cld": 48,
+      "rain": 51,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 9,
+      "lo": 1,
+      "daylight": 10.9,
+      "cld": 47,
+      "rain": 51,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 13,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 42,
+      "rain": 41,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 19,
+      "lo": 7,
+      "daylight": 13.2,
+      "cld": 37,
+      "rain": 33,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 24,
+      "lo": 12,
+      "daylight": 14.2,
+      "cld": 23,
+      "rain": 18,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 24,
+      "hi": 31,
+      "lo": 17,
+      "daylight": 14.7,
+      "cld": 5,
+      "rain": 5,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 28,
+      "hi": 34,
+      "lo": 21,
+      "daylight": 14.4,
+      "cld": 0,
+      "rain": 2,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 34,
+      "lo": 21,
+      "daylight": 13.5,
+      "cld": 0,
+      "rain": 2,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 23,
+      "hi": 30,
+      "lo": 16,
+      "daylight": 12.4,
+      "cld": 8,
+      "rain": 5,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 23,
+      "lo": 11,
+      "daylight": 11.2,
+      "cld": 28,
+      "rain": 28,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 9,
+      "hi": 15,
+      "lo": 4,
+      "daylight": 10.2,
+      "cld": 40,
+      "rain": 46,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 9,
+      "lo": 1,
+      "daylight": 9.7,
+      "cld": 48,
+      "rain": 53,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

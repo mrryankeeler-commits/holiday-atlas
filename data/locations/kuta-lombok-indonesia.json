@@ -1,0 +1,249 @@
+{
+  "id": "kuta-lombok-indonesia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/130084/Average-Weather-in-Kute-Indonesia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Kuta, Lombok",
+  "country": "Indonesia",
+  "region": "South Lombok, West Nusa Tenggara",
+  "desc": "Kuta, Lombok is a South Lombok, West Nusa Tenggara base shaped by south lombok surf beaches, mandalika coast roads, tanjung aan turquoise bays. It suits surf progression trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "South Lombok surf beaches",
+    "Mandalika coast roads",
+    "Tanjung Aan turquoise bays",
+    "Merese Hill sunsets",
+    "Warung and cafe scene",
+    "Dry-season scooter exploring"
+  ],
+  "todo": [
+    {
+      "name": "Tanjung Aan",
+      "cat": "Beach",
+      "desc": "Spend a beach day on the pale sand and clear bays east of town before sunset crowds build."
+    },
+    {
+      "name": "Merese Hill",
+      "cat": "Views",
+      "desc": "Walk up late in the day for rolling headlands and one of South Lombok's easiest viewpoints."
+    },
+    {
+      "name": "Surf lesson",
+      "cat": "Adventure",
+      "desc": "Choose a reputable surf school and beach break matched to your level rather than chasing the biggest waves."
+    },
+    {
+      "name": "Mawun or Selong Belanak",
+      "cat": "Coast",
+      "desc": "Use a scooter or driver for a wider south-coast beach loop."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-60 Mbps",
+      "note": "Typical visitor connectivity in Kuta, Lombok is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Kuta is close to Lombok airport; UK trips usually connect through Southeast Asian hubs, with dry-season surf months raising room demand.",
+    "airports": [
+      {
+        "name": "Lombok International Airport",
+        "code": "LOP",
+        "km": 18,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Ngurah Rai Airport, Bali",
+        "code": "DPS",
+        "km": 170,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Indonesian rupiah (IDR)",
+    "lang": "Indonesian; English is common in established tourism areas",
+    "tz": "WITA (UTC+8) for Lombok",
+    "visa": "UK/Irish passport holders should verify Indonesia visa-on-arrival/e-visa rules before travel.",
+    "bestFor": [
+      "Surf progression trips",
+      "Scooter beach exploring",
+      "Dry-season tropical breaks",
+      "Cafe-and-coast remote work"
+    ],
+    "alerts": [
+      "Scooter crashes are a common visitor risk; use helmets and avoid night riding.",
+      "Some beaches have strong currents and reef hazards.",
+      "Wet-season downpours can roughen minor roads."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.6,
+      "cld": 87,
+      "rain": 226,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.4,
+      "cld": 85,
+      "rain": 224,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.1,
+      "cld": 78,
+      "rain": 155,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 28,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.9,
+      "cld": 73,
+      "rain": 99,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 62,
+      "rain": 58,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 26,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 11.6,
+      "cld": 56,
+      "rain": 30,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "daylight": 11.7,
+      "cld": 52,
+      "rain": 20,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "daylight": 11.8,
+      "cld": 50,
+      "rain": 10,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 27,
+      "hi": 30,
+      "lo": 23,
+      "daylight": 12.1,
+      "cld": 57,
+      "rain": 28,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.3,
+      "cld": 67,
+      "rain": 71,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.5,
+      "cld": 81,
+      "rain": 145,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.6,
+      "cld": 86,
+      "rain": 203,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

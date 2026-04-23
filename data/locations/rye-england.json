@@ -1,0 +1,259 @@
+{
+  "id": "rye-england",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/44767/Average-Weather-in-Rye-United-Kingdom-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Rye",
+  "country": "England",
+  "region": "East Sussex, Romney Marsh edge",
+  "desc": "Rye is a East Sussex, Romney Marsh edge base shaped by cobbled mermaid street, medieval hilltop town, camber sands nearby. It suits historic uk weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Cobbled Mermaid Street",
+    "Medieval hilltop town",
+    "Camber Sands nearby",
+    "Romney Marsh landscapes",
+    "Antique shops and inns",
+    "Easy London rail escape"
+  ],
+  "todo": [
+    {
+      "name": "Mermaid Street",
+      "cat": "Architecture",
+      "desc": "Walk the cobbled hill early before day visitors arrive and shopfronts get busy."
+    },
+    {
+      "name": "Ypres Tower and town walls",
+      "cat": "History",
+      "desc": "Use the tower and viewpoints to understand Rye's defensive and maritime past."
+    },
+    {
+      "name": "Camber Sands",
+      "cat": "Beach",
+      "desc": "Add a wind-aware beach session at Camber when tides and weather suit."
+    },
+    {
+      "name": "Rye Harbour Nature Reserve",
+      "cat": "Nature",
+      "desc": "Walk the flat reserve for birds, shingle coast and big skies."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Rye is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Rye has no airport; London rail and road access are the reality, with sunny weekends and Camber Sands beach days creating the main demand spikes.",
+    "airports": [
+      {
+        "name": "London Gatwick Airport",
+        "code": "LGW",
+        "km": 105,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "London Heathrow Airport",
+        "code": "LHR",
+        "km": 150,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "London City Airport",
+        "code": "LCY",
+        "km": 110,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Pound sterling (GBP)",
+    "lang": "English; Sussex and Romney Marsh place names are common in local visitor context",
+    "tz": "GMT/BST (UTC+0/+1)",
+    "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
+    "bestFor": [
+      "Historic UK weekends",
+      "Beach-plus-inn breaks",
+      "Antique browsing",
+      "Birdwatching and marsh walks"
+    ],
+    "alerts": [
+      "Cobbles are awkward with wheeled luggage.",
+      "Camber traffic and parking can be difficult on hot weekends.",
+      "Some restaurants need reservations despite the town's small size."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 6,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 8.5,
+      "cld": 63,
+      "rain": 51,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 10.1,
+      "cld": 60,
+      "rain": 38,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 9,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 58,
+      "rain": 33,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 13.9,
+      "cld": 51,
+      "rain": 33,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 15.6,
+      "cld": 51,
+      "rain": 36,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 15,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 16.5,
+      "cld": 47,
+      "rain": 38,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 20,
+      "lo": 14,
+      "daylight": 16.0,
+      "cld": 41,
+      "rain": 36,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 21,
+      "lo": 14,
+      "daylight": 14.4,
+      "cld": 44,
+      "rain": 38,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 12.6,
+      "cld": 48,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 14,
+      "lo": 10,
+      "daylight": 10.6,
+      "cld": 54,
+      "rain": 64,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 9,
+      "hi": 11,
+      "lo": 7,
+      "daylight": 8.9,
+      "cld": 60,
+      "rain": 61,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 7,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 8.0,
+      "cld": 63,
+      "rain": 58,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

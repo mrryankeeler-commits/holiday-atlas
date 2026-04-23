@@ -1,0 +1,259 @@
+{
+  "id": "ambleside-england",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/40033/Average-Weather-in-Ambleside-United-Kingdom-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Ambleside",
+  "country": "England",
+  "region": "Lake District, Cumbria",
+  "desc": "Ambleside is a Lake District, Cumbria base shaped by lake windermere access, fairfield and loughrigg walks, stone village lanes. It suits lake district walking weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Lake Windermere access",
+    "Fairfield and Loughrigg walks",
+    "Stone village lanes",
+    "Waterfall and woodland routes",
+    "Classic Lakeland pubs",
+    "Car-free bus and boat options"
+  ],
+  "todo": [
+    {
+      "name": "Loughrigg Fell",
+      "cat": "Walking",
+      "desc": "Choose this manageable fell for big Lake District views without committing to the highest peaks."
+    },
+    {
+      "name": "Stock Ghyll Force",
+      "cat": "Nature",
+      "desc": "Walk from town to the waterfall for an easy bad-weather-friendly outing."
+    },
+    {
+      "name": "Windermere boat trip",
+      "cat": "Lake",
+      "desc": "Use boats between Ambleside, Bowness and Lakeside to reduce car dependence in busy periods."
+    },
+    {
+      "name": "Rydal and Grasmere walk",
+      "cat": "Literary landscape",
+      "desc": "Link lakes, caves and Wordsworth country on a full but flexible walking day."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-85 Mbps",
+      "note": "Typical visitor connectivity in Ambleside is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Ambleside has no airport; Manchester is usually the main gateway, while UK school holidays and sunny hiking weekends drive accommodation more than flights.",
+    "airports": [
+      {
+        "name": "Manchester Airport",
+        "code": "MAN",
+        "km": 150,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Liverpool John Lennon Airport",
+        "code": "LPL",
+        "km": 160,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Newcastle Airport",
+        "code": "NCL",
+        "km": 155,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Pound sterling (GBP)",
+    "lang": "English; Cumbrian place names and Lake District walking terminology are common locally",
+    "tz": "GMT/BST (UTC+0/+1)",
+    "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
+    "bestFor": [
+      "Lake District walking weekends",
+      "Pub-and-boot trips",
+      "Car-light UK breaks",
+      "Autumn colour stays"
+    ],
+    "alerts": [
+      "Car parks fill early in peak walking season.",
+      "Fell weather changes fast; carry layers and maps.",
+      "Book restaurants and rooms early for bank holidays."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 3,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 8.0,
+      "cld": 71,
+      "rain": 91,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 3,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 9.8,
+      "cld": 68,
+      "rain": 71,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 5,
+      "hi": 8,
+      "lo": 2,
+      "daylight": 12.0,
+      "cld": 67,
+      "rain": 61,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 11,
+      "lo": 4,
+      "daylight": 14.2,
+      "cld": 60,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 10,
+      "hi": 13,
+      "lo": 7,
+      "daylight": 16.1,
+      "cld": 54,
+      "rain": 53,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 13,
+      "hi": 16,
+      "lo": 9,
+      "daylight": 17.2,
+      "cld": 54,
+      "rain": 58,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 14,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 16.6,
+      "cld": 50,
+      "rain": 66,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 14,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 14.8,
+      "cld": 52,
+      "rain": 79,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 12.6,
+      "cld": 56,
+      "rain": 76,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 9,
+      "hi": 12,
+      "lo": 7,
+      "daylight": 10.4,
+      "cld": 64,
+      "rain": 94,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 6,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 8.4,
+      "cld": 69,
+      "rain": 96,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 7.4,
+      "cld": 71,
+      "rain": 99,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

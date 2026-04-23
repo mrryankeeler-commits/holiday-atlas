@@ -1,0 +1,259 @@
+{
+  "id": "phetchaburi-thailand",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/113028/Average-Weather-in-Phetchaburi-Thailand-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Phetchaburi",
+  "country": "Thailand",
+  "region": "Phetchaburi Province, upper Gulf of Thailand",
+  "desc": "Phetchaburi is a Phetchaburi Province, upper Gulf of Thailand base shaped by phra nakhon khiri hill palace, cave temples, thai dessert heritage. It suits thai heritage without big crowds and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Phra Nakhon Khiri hill palace",
+    "Cave temples",
+    "Thai dessert heritage",
+    "Gateway to Kaeng Krachan",
+    "Quiet old shophouse streets",
+    "Near Hua Hin coast"
+  ],
+  "todo": [
+    {
+      "name": "Phra Nakhon Khiri",
+      "cat": "History",
+      "desc": "Ride or walk up the hill palace for breezes, monkeys and views across the flat province."
+    },
+    {
+      "name": "Khao Luang Cave",
+      "cat": "Temple",
+      "desc": "Visit the cave temple when sunbeams drop through the roof openings for the most atmospheric light."
+    },
+    {
+      "name": "Thai dessert stops",
+      "cat": "Food",
+      "desc": "Try local sweets; Phetchaburi is known in Thailand for palm sugar and dessert craft."
+    },
+    {
+      "name": "Kaeng Krachan National Park",
+      "cat": "Nature",
+      "desc": "Use a guide or car day for forest, birds and viewpoints when park conditions suit."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Phetchaburi is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Phetchaburi has no major international airport; Bangkok airports are the dependable gateways, with road traffic and Thai holiday weekends shaping transfers.",
+    "airports": [
+      {
+        "name": "Hua Hin Airport",
+        "code": "HHQ",
+        "km": 60,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Suvarnabhumi Airport",
+        "code": "BKK",
+        "km": 125,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Don Mueang International Airport",
+        "code": "DMK",
+        "km": 140,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Thai baht (THB)",
+    "lang": "Thai; English is common in main tourism areas",
+    "tz": "ICT (UTC+7)",
+    "visa": "UK/Irish passport holders should verify Thailand visa-exempt stay limits and arrival rules before travel.",
+    "bestFor": [
+      "Thai heritage without big crowds",
+      "Food-focused side trips",
+      "Bangkok-Hua Hin overland stops",
+      "Nature add-ons"
+    ],
+    "alerts": [
+      "Monkeys around hill sights can grab loose items.",
+      "Cave steps and heat are tiring in late dry season.",
+      "National-park access can change with weather and conservation rules."
+    ]
+  },
+  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 26,
+      "hi": 31,
+      "lo": 21,
+      "daylight": 11.5,
+      "cld": 45,
+      "rain": 5,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 28,
+      "hi": 32,
+      "lo": 23,
+      "daylight": 11.7,
+      "cld": 45,
+      "rain": 10,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 29,
+      "hi": 33,
+      "lo": 25,
+      "daylight": 12.1,
+      "cld": 59,
+      "rain": 25,
+      "busy": 8,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 30,
+      "hi": 34,
+      "lo": 27,
+      "daylight": 12.4,
+      "cld": 77,
+      "rain": 41,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 29,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 12.7,
+      "cld": 91,
+      "rain": 89,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 29,
+      "hi": 33,
+      "lo": 26,
+      "daylight": 12.9,
+      "cld": 93,
+      "rain": 84,
+      "busy": 4,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.8,
+      "cld": 92,
+      "rain": 81,
+      "busy": 6,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.5,
+      "cld": 92,
+      "rain": 84,
+      "busy": 5,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.2,
+      "cld": 91,
+      "rain": 160,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 11.8,
+      "cld": 83,
+      "rain": 190,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 11.5,
+      "cld": 68,
+      "rain": 69,
+      "busy": 7,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 26,
+      "hi": 30,
+      "lo": 21,
+      "daylight": 11.4,
+      "cld": 50,
+      "rain": 8,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    }
+  ]
+}

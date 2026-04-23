@@ -1,0 +1,249 @@
+{
+  "id": "fethiye-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/95926/Average-Weather-in-Fethiye-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Fethiye",
+  "country": "Turkey",
+  "region": "Mugla Province, Turquoise Coast",
+  "desc": "Fethiye is a Mugla Province, Turquoise Coast base shaped by lycian rock tombs, oludeniz lagoon access, butterfly valley boats. It suits turquoise coast road trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Lycian rock tombs",
+    "Oludeniz lagoon access",
+    "Butterfly Valley boats",
+    "Calis Beach sunsets",
+    "Saklikent Gorge day trips",
+    "Harbour-front dining"
+  ],
+  "todo": [
+    {
+      "name": "Lycian rock tombs",
+      "cat": "History",
+      "desc": "Climb above town to see the carved Amyntas tombs and wide views back over Fethiye bay."
+    },
+    {
+      "name": "Oludeniz and Blue Lagoon",
+      "cat": "Beach",
+      "desc": "Base a beach day around the lagoon, then watch paragliders descend from Babadag."
+    },
+    {
+      "name": "Butterfly Valley boat trip",
+      "cat": "Coast",
+      "desc": "Use a boat day to reach steep-sided coves that are awkward by road."
+    },
+    {
+      "name": "Saklikent Gorge",
+      "cat": "Adventure",
+      "desc": "Cool off inland with a gorge walk and river-platform lunch during hotter months."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-80 Mbps",
+      "note": "Typical visitor connectivity in Fethiye is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Fethiye has no airport; Dalaman is the practical gateway and has seasonal UK leisure flights, with fares and seats tightest around summer school holidays.",
+    "airports": [
+      {
+        "name": "Dalaman Airport",
+        "code": "DLM",
+        "km": 45,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Antalya Airport",
+        "code": "AYT",
+        "km": 200,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Turkish lira (TRY)",
+    "lang": "Turkish; English varies outside resorts and major hotels",
+    "tz": "TRT (UTC+3)",
+    "visa": "UK/Irish passport holders should verify Turkey short-stay entry rules before travel; rules can change.",
+    "bestFor": [
+      "Turquoise Coast road trips",
+      "Paragliding and boat days",
+      "Families mixing beaches with ruins",
+      "Late spring and early autumn sun"
+    ],
+    "alerts": [
+      "Oludeniz road traffic is slow in peak summer afternoons.",
+      "Boat days can be wind-affected outside the settled summer pattern.",
+      "Saklikent water levels and gorge access vary by season."
+    ]
+  },
+  "sweet": "May, Jun and Sep usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 10.0,
+      "cld": 42,
+      "rain": 142,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 11,
+      "hi": 15,
+      "lo": 6,
+      "daylight": 10.9,
+      "cld": 40,
+      "rain": 122,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 12.0,
+      "cld": 35,
+      "rain": 74,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 21,
+      "lo": 10,
+      "daylight": 13.2,
+      "cld": 31,
+      "rain": 43,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 20,
+      "hi": 25,
+      "lo": 14,
+      "daylight": 14.2,
+      "cld": 23,
+      "rain": 23,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 24,
+      "hi": 30,
+      "lo": 18,
+      "daylight": 14.6,
+      "cld": 6,
+      "rain": 5,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 33,
+      "lo": 22,
+      "daylight": 14.4,
+      "cld": 0,
+      "rain": 2,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 33,
+      "lo": 22,
+      "daylight": 13.5,
+      "cld": 1,
+      "rain": 2,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 24,
+      "hi": 30,
+      "lo": 18,
+      "daylight": 12.4,
+      "cld": 9,
+      "rain": 13,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 19,
+      "hi": 26,
+      "lo": 14,
+      "daylight": 11.2,
+      "cld": 27,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 14,
+      "hi": 20,
+      "lo": 9,
+      "daylight": 10.2,
+      "cld": 38,
+      "rain": 104,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 9.7,
+      "cld": 44,
+      "rain": 147,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

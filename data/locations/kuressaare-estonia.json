@@ -1,0 +1,249 @@
+{
+  "id": "kuressaare-estonia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/89055/Average-Weather-in-Kuressaare-Estonia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Kuressaare",
+  "country": "Estonia",
+  "region": "Saaremaa Island, Western Estonia",
+  "desc": "Kuressaare is a Saaremaa Island, Western Estonia base shaped by kuressaare castle, saaremaa spa culture, windmills and island roads. It suits quiet baltic island breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Kuressaare Castle",
+    "Saaremaa spa culture",
+    "Windmills and island roads",
+    "Mild Baltic summer light",
+    "Quiet beaches and juniper coast",
+    "Easy cycling pace"
+  ],
+  "todo": [
+    {
+      "name": "Kuressaare Castle",
+      "cat": "History",
+      "desc": "Explore the moated bishop's castle and its museum before walking the surrounding parkland."
+    },
+    {
+      "name": "Saaremaa spa afternoon",
+      "cat": "Wellness",
+      "desc": "Use the town's spa hotels for a bad-weather reset or a relaxed winter island break."
+    },
+    {
+      "name": "Angla windmills",
+      "cat": "Island culture",
+      "desc": "Drive or cycle to the preserved windmills for a compact look at Saaremaa rural heritage."
+    },
+    {
+      "name": "Sõrve Peninsula",
+      "cat": "Coast",
+      "desc": "Head south for lighthouse views, windswept beaches and a sense of the island's scale."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-55 Mbps",
+      "note": "Typical visitor connectivity in Kuressaare is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Kuressaare is normally reached via Tallinn connections or ferry-and-road travel; summer island demand is stronger but flight frequency remains limited.",
+    "airports": [
+      {
+        "name": "Kuressaare Airport",
+        "code": "URE",
+        "km": 3,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Tallinn Airport",
+        "code": "TLL",
+        "km": 220,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Estonian; English is common with younger speakers and visitor services",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Quiet Baltic island breaks",
+      "Spa weekends",
+      "Cycling and slow roads",
+      "Long-light summer escapes"
+    ],
+    "alerts": [
+      "Island transport schedules need checking outside summer.",
+      "Wind can make coastal cycling tougher than distances suggest.",
+      "Many small restaurants and museums reduce hours in winter."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 1,
+      "lo": -3,
+      "daylight": 7.3,
+      "cld": 71,
+      "rain": 23,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -3,
+      "hi": -1,
+      "lo": -4,
+      "daylight": 9.4,
+      "cld": 69,
+      "rain": 18,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 0,
+      "hi": 2,
+      "lo": -2,
+      "daylight": 11.9,
+      "cld": 62,
+      "rain": 20,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 4,
+      "hi": 8,
+      "lo": 2,
+      "daylight": 14.5,
+      "cld": 57,
+      "rain": 25,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 10,
+      "hi": 13,
+      "lo": 7,
+      "daylight": 16.9,
+      "cld": 47,
+      "rain": 30,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 18.1,
+      "cld": 44,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 20,
+      "lo": 14,
+      "daylight": 17.4,
+      "cld": 41,
+      "rain": 46,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 15.2,
+      "cld": 45,
+      "rain": 51,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 16,
+      "lo": 10,
+      "daylight": 12.7,
+      "cld": 49,
+      "rain": 46,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 10,
+      "lo": 6,
+      "daylight": 10.2,
+      "cld": 58,
+      "rain": 48,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 3,
+      "hi": 5,
+      "lo": 2,
+      "daylight": 7.8,
+      "cld": 69,
+      "rain": 46,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 2,
+      "lo": -1,
+      "daylight": 6.5,
+      "cld": 71,
+      "rain": 28,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

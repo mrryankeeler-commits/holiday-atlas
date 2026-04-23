@@ -1,0 +1,239 @@
+{
+  "id": "muscat-oman",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/105797/Average-Weather-in-Muscat-Oman-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Muscat",
+  "country": "Oman",
+  "region": "Muscat Governorate, Gulf of Oman",
+  "desc": "Muscat is a Muscat Governorate, Gulf of Oman base shaped by sultan qaboos grand mosque, mutrah corniche and souq, hajar mountain backdrop. It suits winter sun city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Sultan Qaboos Grand Mosque",
+    "Mutrah Corniche and souq",
+    "Hajar mountain backdrop",
+    "Wadi day trips",
+    "Omani coffee and dates",
+    "Warm winter coast"
+  ],
+  "todo": [
+    {
+      "name": "Sultan Qaboos Grand Mosque",
+      "cat": "Architecture",
+      "desc": "Visit outside prayer times and dress appropriately for one of Muscat's signature architectural sights."
+    },
+    {
+      "name": "Mutrah Souq and Corniche",
+      "cat": "Market",
+      "desc": "Walk the waterfront, then dive into incense, textile and silver lanes in the souq."
+    },
+    {
+      "name": "Royal Opera House area",
+      "cat": "Culture",
+      "desc": "Check performances or simply use the district for polished modern Omani design."
+    },
+    {
+      "name": "Wadi Shab or Wadi Bani Khalid trip",
+      "cat": "Nature",
+      "desc": "Plan a full day with swimming gear and careful heat timing for a wadi excursion."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "50-140 Mbps",
+      "note": "Typical visitor connectivity in Muscat is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Muscat has its own international airport; UK trips usually use Heathrow or connecting options rather than LGW/LCY, with winter sun weeks strongest.",
+    "airports": [
+      {
+        "name": "Muscat International Airport",
+        "code": "MCT",
+        "km": 15,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Omani rial (OMR)",
+    "lang": "Arabic; English is common in hotels and transport",
+    "tz": "GST (UTC+4)",
+    "visa": "UK/Irish passport holders should verify Oman visa-free/e-visa eligibility and stay limits before travel.",
+    "bestFor": [
+      "Winter sun city breaks",
+      "Culture-and-coast trips",
+      "Wadi and mountain day trips",
+      "Calm Gulf stopovers"
+    ],
+    "alerts": [
+      "Summer heat can be extreme and limits outdoor sightseeing.",
+      "Dress codes matter at mosques and conservative public spaces.",
+      "Wadi trips can be flash-flood sensitive after rain."
+    ]
+  },
+  "sweet": "Feb, Mar and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 21,
+      "hi": 24,
+      "lo": 18,
+      "daylight": 10.9,
+      "cld": 18,
+      "rain": 10,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 11.4,
+      "cld": 18,
+      "rain": 15,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 25,
+      "hi": 28,
+      "lo": 21,
+      "daylight": 12.0,
+      "cld": 23,
+      "rain": 15,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 29,
+      "hi": 33,
+      "lo": 26,
+      "daylight": 12.7,
+      "cld": 24,
+      "rain": 10,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 34,
+      "hi": 38,
+      "lo": 29,
+      "daylight": 13.3,
+      "cld": 16,
+      "rain": 5,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 34,
+      "hi": 38,
+      "lo": 31,
+      "daylight": 13.6,
+      "cld": 38,
+      "rain": 5,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 33,
+      "hi": 36,
+      "lo": 30,
+      "daylight": 13.4,
+      "cld": 51,
+      "rain": 5,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 31,
+      "hi": 34,
+      "lo": 28,
+      "daylight": 12.9,
+      "cld": 42,
+      "rain": 5,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 31,
+      "hi": 34,
+      "lo": 27,
+      "daylight": 12.3,
+      "cld": 21,
+      "rain": 2,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 29,
+      "hi": 33,
+      "lo": 25,
+      "daylight": 11.6,
+      "cld": 9,
+      "rain": 2,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 26,
+      "hi": 29,
+      "lo": 22,
+      "daylight": 11.0,
+      "cld": 14,
+      "rain": 5,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 23,
+      "hi": 26,
+      "lo": 19,
+      "daylight": 10.7,
+      "cld": 19,
+      "rain": 5,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

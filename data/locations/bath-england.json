@@ -1,0 +1,259 @@
+{
+  "id": "bath-england",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/39602/Average-Weather-in-Bath-United-Kingdom-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bath",
+  "country": "England",
+  "region": "Somerset, southwest England",
+  "desc": "Bath is a Somerset, southwest England base shaped by roman baths and georgian crescents, thermae spa rooftop pool, pulteney bridge. It suits heritage weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Roman Baths and Georgian crescents",
+    "Thermae spa rooftop pool",
+    "Pulteney Bridge",
+    "Jane Austen associations",
+    "Walkable honey-stone centre",
+    "Cotswolds and Bristol add-ons"
+  ],
+  "todo": [
+    {
+      "name": "Roman Baths",
+      "cat": "History",
+      "desc": "Book ahead for the city's core Roman site and go early or late to reduce crowding."
+    },
+    {
+      "name": "Royal Crescent and Circus",
+      "cat": "Architecture",
+      "desc": "Walk the Georgian set pieces as one route, leaving time for the smaller streets between them."
+    },
+    {
+      "name": "Thermae Bath Spa",
+      "cat": "Wellness",
+      "desc": "Use the rooftop pool for a distinct Bath experience, especially outside peak weekend slots."
+    },
+    {
+      "name": "Bath Skyline walk",
+      "cat": "Walking",
+      "desc": "Loop above the city for countryside views without leaving on a train or tour bus."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "55-130 Mbps",
+      "note": "Typical visitor connectivity in Bath is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Bath has no airport; Bristol is closest and London rail links are often simpler for UK visitors, with weekends and Christmas-market dates lifting hotel rates.",
+    "airports": [
+      {
+        "name": "Bristol Airport",
+        "code": "BRS",
+        "km": 30,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "London Heathrow Airport",
+        "code": "LHR",
+        "km": 160,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Cardiff Airport",
+        "code": "CWL",
+        "km": 110,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Pound sterling (GBP)",
+    "lang": "English; Somerset and Georgian-era place names are common in local visitor context",
+    "tz": "GMT/BST (UTC+0/+1)",
+    "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
+    "bestFor": [
+      "Heritage weekends",
+      "Spa breaks",
+      "Rail-based UK trips",
+      "Architecture and literature fans"
+    ],
+    "alerts": [
+      "Roman Baths and spa sessions should be booked ahead.",
+      "Christmas-market weekends are especially crowded and expensive.",
+      "Steep side streets can be tiring with luggage."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 8.5,
+      "cld": 68,
+      "rain": 56,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 5,
+      "hi": 7,
+      "lo": 2,
+      "daylight": 10.0,
+      "cld": 64,
+      "rain": 43,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 9,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 63,
+      "rain": 38,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 8,
+      "hi": 13,
+      "lo": 5,
+      "daylight": 13.9,
+      "cld": 56,
+      "rain": 38,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 15.7,
+      "cld": 53,
+      "rain": 41,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 16.5,
+      "cld": 49,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 16.0,
+      "cld": 43,
+      "rain": 38,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 20,
+      "lo": 13,
+      "daylight": 14.5,
+      "cld": 46,
+      "rain": 41,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 12.6,
+      "cld": 49,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 10.6,
+      "cld": 58,
+      "rain": 61,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 10,
+      "lo": 5,
+      "daylight": 8.9,
+      "cld": 66,
+      "rain": 64,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 7.9,
+      "cld": 70,
+      "rain": 61,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

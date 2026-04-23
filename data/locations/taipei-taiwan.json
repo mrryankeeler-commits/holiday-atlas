@@ -1,0 +1,249 @@
+{
+  "id": "taipei-taiwan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/137170/Average-Weather-in-Taipei-Taiwan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Taipei",
+  "country": "Taiwan",
+  "region": "Taipei Basin, northern Taiwan",
+  "desc": "Taipei is a Taipei Basin, northern Taiwan base shaped by night markets, hot springs at beitou, taipei 101 skyline. It suits food-first city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Night markets",
+    "Hot springs at Beitou",
+    "Taipei 101 skyline",
+    "Temple and food streets",
+    "Fast MRT exploring",
+    "Mountain-edge day hikes"
+  ],
+  "todo": [
+    {
+      "name": "Raohe or Ningxia night market",
+      "cat": "Food",
+      "desc": "Build an evening around small dishes, queues and repeat laps rather than one sit-down meal."
+    },
+    {
+      "name": "Taipei 101 and Xiangshan",
+      "cat": "Views",
+      "desc": "Pair the tower district with Elephant Mountain for the best skyline perspective."
+    },
+    {
+      "name": "Beitou hot springs",
+      "cat": "Wellness",
+      "desc": "Ride the MRT to hot springs and Japanese-era architecture when you want a slower half-day."
+    },
+    {
+      "name": "Longshan Temple and old streets",
+      "cat": "Culture",
+      "desc": "Use Wanhua for temple life, herbal alleys and historic Taipei texture."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "80-180 Mbps",
+      "note": "Typical visitor connectivity in Taipei is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Taipei is served by Taoyuan for long-haul routes and Songshan regionally; UK trips usually connect or use non-LGW London options when available.",
+    "airports": [
+      {
+        "name": "Taiwan Taoyuan International Airport",
+        "code": "TPE",
+        "km": 40,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Taipei Songshan Airport",
+        "code": "TSA",
+        "km": 5,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "New Taiwan dollar (TWD)",
+    "lang": "Mandarin Chinese; English support varies by district and transport hub",
+    "tz": "CST (UTC+8)",
+    "visa": "UK/Irish passport holders should verify Taiwan visa-exempt stay rules and passport validity before travel.",
+    "bestFor": [
+      "Food-first city breaks",
+      "Transit-friendly exploring",
+      "Hot-spring add-ons",
+      "Urban hiking"
+    ],
+    "alerts": [
+      "Typhoon season can disrupt flights and outdoor plans.",
+      "Summer humidity is intense; plan indoor breaks.",
+      "Popular night-market stalls can involve queues even on weeknights."
+    ]
+  },
+  "sweet": "Apr, Oct and Nov are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 16,
+      "hi": 19,
+      "lo": 14,
+      "daylight": 10.8,
+      "cld": 50,
+      "rain": 64,
+      "busy": 6,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 17,
+      "hi": 19,
+      "lo": 14,
+      "daylight": 11.3,
+      "cld": 50,
+      "rain": 96,
+      "busy": 5,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 18,
+      "hi": 22,
+      "lo": 16,
+      "daylight": 12.0,
+      "cld": 47,
+      "rain": 104,
+      "busy": 7,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 22,
+      "hi": 26,
+      "lo": 19,
+      "daylight": 12.8,
+      "cld": 55,
+      "rain": 117,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 25,
+      "hi": 28,
+      "lo": 23,
+      "daylight": 13.4,
+      "cld": 67,
+      "rain": 178,
+      "busy": 4,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 32,
+      "lo": 25,
+      "daylight": 13.7,
+      "cld": 81,
+      "rain": 185,
+      "busy": 2,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 13.5,
+      "cld": 76,
+      "rain": 114,
+      "busy": 3,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 33,
+      "lo": 26,
+      "daylight": 13.0,
+      "cld": 72,
+      "rain": 170,
+      "busy": 1,
+      "ac": 3,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.3,
+      "cld": 58,
+      "rain": 198,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 24,
+      "hi": 27,
+      "lo": 22,
+      "daylight": 11.5,
+      "cld": 40,
+      "rain": 117,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Nov",
+      "avg": 21,
+      "hi": 24,
+      "lo": 19,
+      "daylight": 10.9,
+      "cld": 42,
+      "rain": 91,
+      "busy": 9,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 18,
+      "hi": 21,
+      "lo": 16,
+      "daylight": 10.6,
+      "cld": 46,
+      "rain": 66,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

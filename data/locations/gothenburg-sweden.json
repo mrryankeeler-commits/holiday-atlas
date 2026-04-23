@@ -1,0 +1,239 @@
+{
+  "id": "gothenburg-sweden",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/71566/Average-Weather-in-G%C3%B6teborg-Sweden-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "region": "Vastra Gotaland, Swedish west coast",
+  "desc": "Gothenburg is a Vastra Gotaland, Swedish west coast base shaped by west-coast seafood, archipelago ferries, liseberg amusement park. It suits seafood weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "West-coast seafood",
+    "Archipelago ferries",
+    "Liseberg amusement park",
+    "Canal and tram city",
+    "Design-forward cafes",
+    "Summer harbour light"
+  ],
+  "todo": [
+    {
+      "name": "Southern archipelago ferries",
+      "cat": "Islands",
+      "desc": "Ride public ferries to car-free islands for granite coast, swimming spots and a slower west-coast rhythm."
+    },
+    {
+      "name": "Feskekorka and seafood",
+      "cat": "Food",
+      "desc": "Use the fish-market area and harbour restaurants to make seafood a centrepiece of the trip."
+    },
+    {
+      "name": "Liseberg",
+      "cat": "Theme park",
+      "desc": "Plan around seasonal openings, from summer rides to the winter lights and Christmas market."
+    },
+    {
+      "name": "Haga district",
+      "cat": "Neighbourhood",
+      "desc": "Walk cobbled streets, browse small shops and split an oversized cinnamon bun."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "70-160 Mbps",
+      "note": "Typical visitor connectivity in Gothenburg is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Gothenburg is a straightforward one-airport city; UK schedules vary by airline and season, while summer events and Liseberg dates lift fares and rooms.",
+    "airports": [
+      {
+        "name": "Goteborg Landvetter Airport",
+        "code": "GOT",
+        "km": 25,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Swedish krona (SEK)",
+    "lang": "Swedish; English is widely spoken",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Seafood weekends",
+      "Island-hopping without a car",
+      "Design and cafe breaks",
+      "Summer city stays"
+    ],
+    "alerts": [
+      "Archipelago ferry frequency is better in the warmer season.",
+      "Rain jackets matter; west-coast showers can arrive quickly.",
+      "Major events can make central hotels expensive for a city of this size."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -1,
+      "hi": 2,
+      "lo": -3,
+      "daylight": 7.4,
+      "cld": 68,
+      "rain": 61,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -1,
+      "hi": 2,
+      "lo": -3,
+      "daylight": 9.5,
+      "cld": 66,
+      "rain": 46,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 2,
+      "hi": 5,
+      "lo": -1,
+      "daylight": 11.9,
+      "cld": 63,
+      "rain": 43,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 6,
+      "hi": 10,
+      "lo": 2,
+      "daylight": 14.5,
+      "cld": 56,
+      "rain": 43,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 11,
+      "hi": 15,
+      "lo": 7,
+      "daylight": 16.7,
+      "cld": 48,
+      "rain": 48,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 18,
+      "lo": 10,
+      "daylight": 18.0,
+      "cld": 44,
+      "rain": 66,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 20,
+      "lo": 13,
+      "daylight": 17.3,
+      "cld": 44,
+      "rain": 66,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 19,
+      "lo": 12,
+      "daylight": 15.2,
+      "cld": 48,
+      "rain": 74,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 13,
+      "hi": 16,
+      "lo": 9,
+      "daylight": 12.7,
+      "cld": 50,
+      "rain": 76,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 8,
+      "hi": 11,
+      "lo": 5,
+      "daylight": 10.2,
+      "cld": 59,
+      "rain": 81,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 7.9,
+      "cld": 67,
+      "rain": 76,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 6.7,
+      "cld": 68,
+      "rain": 69,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

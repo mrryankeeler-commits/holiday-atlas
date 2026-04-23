@@ -1,0 +1,259 @@
+{
+  "id": "aberystwyth-wales",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/36293/Average-Weather-in-Aberystwyth-United-Kingdom-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Aberystwyth",
+  "country": "Wales",
+  "region": "Ceredigion, Mid Wales coast",
+  "desc": "Aberystwyth is a Ceredigion, Mid Wales coast base shaped by victorian seafront promenade, constitution hill cliff railway, national library of wales. It suits welsh seaside breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Victorian seafront promenade",
+    "Constitution Hill cliff railway",
+    "National Library of Wales",
+    "Cambrian Coast rail scenery",
+    "Student-town energy",
+    "Cardigan Bay sunsets"
+  ],
+  "todo": [
+    {
+      "name": "Seafront promenade",
+      "cat": "Coast",
+      "desc": "Walk the full curve from harbour to Constitution Hill, timing it for sunset over Cardigan Bay."
+    },
+    {
+      "name": "Cliff Railway and camera obscura",
+      "cat": "Views",
+      "desc": "Ride up Constitution Hill for coast views when the weather is clear."
+    },
+    {
+      "name": "National Library of Wales",
+      "cat": "Culture",
+      "desc": "Use the library and exhibitions as Aberystwyth's strongest indoor cultural anchor."
+    },
+    {
+      "name": "Vale of Rheidol Railway",
+      "cat": "Scenic rail",
+      "desc": "Take the narrow-gauge railway inland to Devil's Bridge for a classic wet-weather-friendly day trip."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Aberystwyth is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Aberystwyth has no airport; rail or road from larger UK airports is the reality, and domestic holiday weeks affect rooms more than flights.",
+    "airports": [
+      {
+        "name": "Cardiff Airport",
+        "code": "CWL",
+        "km": 160,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Birmingham Airport",
+        "code": "BHX",
+        "km": 175,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Manchester Airport",
+        "code": "MAN",
+        "km": 200,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Pound sterling (GBP)",
+    "lang": "English and Welsh",
+    "tz": "GMT/BST (UTC+0/+1)",
+    "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
+    "bestFor": [
+      "Welsh seaside breaks",
+      "Rail-based slow travel",
+      "University-town weekends",
+      "Coastal walking"
+    ],
+    "alerts": [
+      "Atlantic wind and rain can change plans quickly; pack waterproof layers.",
+      "Rail journeys are scenic but slow, so check engineering works.",
+      "Graduation and university weekends can tighten accommodation."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 6,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 8.3,
+      "cld": 69,
+      "rain": 89,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 6,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 10.0,
+      "cld": 65,
+      "rain": 69,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 9,
+      "lo": 5,
+      "daylight": 12.0,
+      "cld": 65,
+      "rain": 58,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 14.0,
+      "cld": 57,
+      "rain": 46,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 15.8,
+      "cld": 54,
+      "rain": 48,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 16.7,
+      "cld": 52,
+      "rain": 53,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 18,
+      "lo": 13,
+      "daylight": 16.2,
+      "cld": 48,
+      "rain": 53,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 18,
+      "lo": 13,
+      "daylight": 14.6,
+      "cld": 49,
+      "rain": 58,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 17,
+      "lo": 12,
+      "daylight": 12.6,
+      "cld": 53,
+      "rain": 66,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.5,
+      "cld": 62,
+      "rain": 89,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 11,
+      "lo": 7,
+      "daylight": 8.7,
+      "cld": 67,
+      "rain": 96,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 7,
+      "hi": 8,
+      "lo": 4,
+      "daylight": 7.8,
+      "cld": 69,
+      "rain": 99,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

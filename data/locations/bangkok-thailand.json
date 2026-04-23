@@ -1,0 +1,249 @@
+{
+  "id": "bangkok-thailand",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/113416/Average-Weather-in-Bangkok-Thailand-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bangkok",
+  "country": "Thailand",
+  "region": "Chao Phraya River, Central Thailand",
+  "desc": "Bangkok is a Chao Phraya River, Central Thailand base shaped by grand palace and temples, street-food districts, chao phraya river ferries. It suits food-first city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Grand Palace and temples",
+    "Street-food districts",
+    "Chao Phraya river ferries",
+    "Rooftop bars",
+    "Markets from Chatuchak to Talat Noi",
+    "Gateway to Thailand"
+  ],
+  "todo": [
+    {
+      "name": "Grand Palace and Wat Phra Kaew",
+      "cat": "Culture",
+      "desc": "Go early, dress correctly and pair the palace complex with nearby Wat Pho."
+    },
+    {
+      "name": "Chao Phraya ferry day",
+      "cat": "River",
+      "desc": "Use public boats to link temples, old quarters and newer riverside malls without sitting in traffic."
+    },
+    {
+      "name": "Chinatown food crawl",
+      "cat": "Food",
+      "desc": "Build an evening around Yaowarat snacks, seafood and neon-lit side streets."
+    },
+    {
+      "name": "Chatuchak Market",
+      "cat": "Market",
+      "desc": "Visit on the weekend for the widest market choice, allowing heat breaks and luggage space."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "80-180 Mbps",
+      "note": "Typical visitor connectivity in Bangkok is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Bangkok has two major airports; UK nonstop options usually use non-LGW London airports or connections, with winter sun and Thai holiday periods affecting fares.",
+    "airports": [
+      {
+        "name": "Suvarnabhumi Airport",
+        "code": "BKK",
+        "km": 30,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Don Mueang International Airport",
+        "code": "DMK",
+        "km": 25,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Thai baht (THB)",
+    "lang": "Thai; English is common in main tourism areas",
+    "tz": "ICT (UTC+7)",
+    "visa": "UK/Irish passport holders should verify Thailand visa-exempt stay limits and arrival rules before travel.",
+    "bestFor": [
+      "Food-first city breaks",
+      "Thailand gateway stops",
+      "Markets and temples",
+      "Urban nightlife"
+    ],
+    "alerts": [
+      "Heat and humidity are draining; plan air-conditioned breaks.",
+      "Temple dress codes are enforced at major sights.",
+      "Traffic can make airport transfers much longer than distance suggests."
+    ]
+  },
+  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 32,
+      "lo": 22,
+      "daylight": 11.4,
+      "cld": 43,
+      "rain": 5,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 28,
+      "hi": 33,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 44,
+      "rain": 10,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 29,
+      "hi": 34,
+      "lo": 26,
+      "daylight": 12.1,
+      "cld": 58,
+      "rain": 25,
+      "busy": 8,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 31,
+      "hi": 35,
+      "lo": 27,
+      "daylight": 12.5,
+      "cld": 76,
+      "rain": 56,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 30,
+      "hi": 34,
+      "lo": 27,
+      "daylight": 12.8,
+      "cld": 90,
+      "rain": 114,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 29,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 12.9,
+      "cld": 92,
+      "rain": 112,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 33,
+      "lo": 26,
+      "daylight": 12.8,
+      "cld": 91,
+      "rain": 104,
+      "busy": 6,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 33,
+      "lo": 26,
+      "daylight": 12.6,
+      "cld": 91,
+      "rain": 127,
+      "busy": 4,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.2,
+      "cld": 90,
+      "rain": 218,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 11.8,
+      "cld": 81,
+      "rain": 175,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 11.5,
+      "cld": 65,
+      "rain": 46,
+      "busy": 7,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 31,
+      "lo": 22,
+      "daylight": 11.3,
+      "cld": 48,
+      "rain": 5,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    }
+  ]
+}

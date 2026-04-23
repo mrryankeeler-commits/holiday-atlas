@@ -1,0 +1,259 @@
+{
+  "id": "rauma-finland",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/87753/Average-Weather-in-Rauma-Finland-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Rauma",
+  "country": "Finland",
+  "region": "Satakunta, Bothnian Sea coast",
+  "desc": "Rauma is a Satakunta, Bothnian Sea coast base shaped by old rauma wooden town, unesco timber lanes, bothnian sea coast. It suits architecture-focused slow travel and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Old Rauma wooden town",
+    "UNESCO timber lanes",
+    "Bothnian Sea coast",
+    "Lace-making heritage",
+    "Calm Finnish summer light",
+    "Easy harbour walks"
+  ],
+  "todo": [
+    {
+      "name": "Old Rauma",
+      "cat": "Architecture",
+      "desc": "Wander the preserved wooden old town slowly, using small shops and courtyards as the rhythm of the visit."
+    },
+    {
+      "name": "Rauma Maritime Museum",
+      "cat": "Museum",
+      "desc": "Connect the town's harbour identity with its trading and seafaring history."
+    },
+    {
+      "name": "Sammallahdenmäki",
+      "cat": "Archaeology",
+      "desc": "Visit the Bronze Age burial site outside town for a different UNESCO layer."
+    },
+    {
+      "name": "Poroholma and coast",
+      "cat": "Coast",
+      "desc": "Use the waterfront paths and nearby islands for low-key summer walking or cycling."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Rauma is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Rauma has no major passenger airport; UK travellers usually connect through Helsinki or use Turku/Pori regionally, with summer weekends most constrained.",
+    "airports": [
+      {
+        "name": "Pori Airport",
+        "code": "POR",
+        "km": 52,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Turku Airport",
+        "code": "TKU",
+        "km": 94,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Helsinki Airport",
+        "code": "HEL",
+        "km": 240,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Finnish and Swedish; English is widely understood in visitor services",
+    "tz": "EET/EEST (UTC+2/+3)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Architecture-focused slow travel",
+      "Quiet Nordic summer trips",
+      "UNESCO collectors",
+      "Cycling and coastal walks"
+    ],
+    "alerts": [
+      "Museum and restaurant hours narrow significantly outside summer.",
+      "Winter ice and wind can make harbour walks feel much colder than the temperature.",
+      "Regional buses need planning around weekends."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -4,
+      "hi": -2,
+      "lo": -6,
+      "daylight": 6.6,
+      "cld": 71,
+      "rain": 23,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -4,
+      "hi": -2,
+      "lo": -7,
+      "daylight": 9.1,
+      "cld": 70,
+      "rain": 15,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": -1,
+      "hi": 2,
+      "lo": -4,
+      "daylight": 11.9,
+      "cld": 65,
+      "rain": 18,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 4,
+      "hi": 7,
+      "lo": 0,
+      "daylight": 14.8,
+      "cld": 59,
+      "rain": 30,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 9,
+      "hi": 13,
+      "lo": 4,
+      "daylight": 17.6,
+      "cld": 49,
+      "rain": 36,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 17,
+      "lo": 9,
+      "daylight": 19.2,
+      "cld": 47,
+      "rain": 48,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 20,
+      "lo": 12,
+      "daylight": 18.2,
+      "cld": 44,
+      "rain": 48,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 15.6,
+      "cld": 47,
+      "rain": 56,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 11,
+      "hi": 14,
+      "lo": 7,
+      "daylight": 12.8,
+      "cld": 51,
+      "rain": 53,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 9.9,
+      "cld": 62,
+      "rain": 53,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 2,
+      "hi": 3,
+      "lo": -1,
+      "daylight": 7.2,
+      "cld": 69,
+      "rain": 46,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": 1,
+      "lo": -4,
+      "daylight": 5.6,
+      "cld": 69,
+      "rain": 30,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

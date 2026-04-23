@@ -1,0 +1,249 @@
+{
+  "id": "alanya-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/96973/Average-Weather-in-Alanya-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Alanya",
+  "country": "Turkey",
+  "region": "Antalya Province, Turkish Riviera",
+  "desc": "Alanya is a Antalya Province, Turkish Riviera base shaped by alanya castle headland, kleopatra beach, red tower harbour. It suits mediterranean beach breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Alanya Castle headland",
+    "Kleopatra Beach",
+    "Red Tower harbour",
+    "Dim River lunches",
+    "Cable-car viewpoints",
+    "Long Mediterranean swim season"
+  ],
+  "todo": [
+    {
+      "name": "Alanya Castle",
+      "cat": "Culture & views",
+      "desc": "Walk the Seljuk-era fortress walls for harbour views and a strong sense of Alanya's layered coastal history."
+    },
+    {
+      "name": "Kleopatra Beach",
+      "cat": "Beach",
+      "desc": "Use the wide west-side beach for swims, sunset walks and easy access to cafes below the castle cliffs."
+    },
+    {
+      "name": "Red Tower and harbour",
+      "cat": "History",
+      "desc": "Pair the octagonal Kizil Kule with the old shipyard and evening promenade around the marina."
+    },
+    {
+      "name": "Dim River",
+      "cat": "Food & nature",
+      "desc": "Head inland to shaded riverside restaurants when the coast is at its hottest."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-80 Mbps",
+      "note": "Typical visitor connectivity in Alanya is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
+    "fltNote": "Alanya itself is usually reached via Gazipasa or Antalya; Antalya has the stronger seasonal UK leisure market, while Gazipasa cuts transfer time when routes line up.",
+    "airports": [
+      {
+        "name": "Gazipasa-Alanya Airport",
+        "code": "GZP",
+        "km": 40,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Antalya Airport",
+        "code": "AYT",
+        "km": 125,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Turkish lira (TRY)",
+    "lang": "Turkish; English varies outside resorts and major hotels",
+    "tz": "TRT (UTC+3)",
+    "visa": "UK/Irish passport holders should verify Turkey short-stay entry rules before travel; rules can change.",
+    "bestFor": [
+      "Mediterranean beach breaks",
+      "Castle-and-harbour wandering",
+      "Warm shoulder-season escapes",
+      "Families wanting resort infrastructure"
+    ],
+    "alerts": [
+      "July and August can feel very hot on castle climbs; start early or go near sunset.",
+      "Boat-trip and beach prices rise sharply in peak Turkish school-holiday weeks.",
+      "Winter rain can interrupt coastal day plans, so keep one flexible indoor or hammam slot."
+    ]
+  },
+  "sweet": "May, Sep and Oct usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.0,
+      "cld": 41,
+      "rain": 130,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 10.9,
+      "cld": 39,
+      "rain": 112,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 14,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 12.0,
+      "cld": 34,
+      "rain": 66,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 18,
+      "hi": 21,
+      "lo": 14,
+      "daylight": 13.2,
+      "cld": 30,
+      "rain": 46,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 22,
+      "hi": 24,
+      "lo": 18,
+      "daylight": 14.1,
+      "cld": 21,
+      "rain": 25,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 14.6,
+      "cld": 5,
+      "rain": 8,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 14.4,
+      "cld": 0,
+      "rain": 2,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 13.5,
+      "cld": 1,
+      "rain": 2,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 12.4,
+      "cld": 8,
+      "rain": 15,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 22,
+      "hi": 25,
+      "lo": 18,
+      "daylight": 11.2,
+      "cld": 27,
+      "rain": 61,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 17,
+      "hi": 20,
+      "lo": 14,
+      "daylight": 10.2,
+      "cld": 36,
+      "rain": 102,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 13,
+      "hi": 16,
+      "lo": 11,
+      "daylight": 9.7,
+      "cld": 41,
+      "rain": 147,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

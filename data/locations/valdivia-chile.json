@@ -1,0 +1,249 @@
+{
+  "id": "valdivia-chile",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/24136/Average-Weather-in-Valdivia-Chile-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Valdivia",
+  "country": "Chile",
+  "region": "Los Rios Region",
+  "desc": "Valdivia is a Los Rios Region base shaped by riverfront seafood market, kunstmann beer culture, sea-lion riverfront scenes. It suits river-city food breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Riverfront seafood market",
+    "Kunstmann beer culture",
+    "Sea-lion riverfront scenes",
+    "Niebla fort coast",
+    "Rainy temperate forests",
+    "University-town energy"
+  ],
+  "todo": [
+    {
+      "name": "Valdivia river market",
+      "cat": "Food & local life",
+      "desc": "Visit the riverside market for seafood, produce and the famous sea lions waiting nearby."
+    },
+    {
+      "name": "Niebla forts",
+      "cat": "History",
+      "desc": "Head to the coast for Spanish fortifications and views across the river mouth."
+    },
+    {
+      "name": "Isla Teja breweries",
+      "cat": "Food & drink",
+      "desc": "Use the beer halls and university district for Valdivia's social side."
+    },
+    {
+      "name": "Oncol Park or wetlands",
+      "cat": "Nature",
+      "desc": "Choose a forest or wetland outing to feel the rain-fed landscape around the city."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Valdivia is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Valdivia is reached by domestic Chilean flights via Santiago or by road from Puerto Montt; southern summer is the easiest season for logistics.",
+    "airports": [
+      {
+        "name": "Pichoy Airport",
+        "code": "ZAL",
+        "km": 32,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "El Tepual Airport, Puerto Montt",
+        "code": "PMC",
+        "km": 210,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Chilean peso (CLP)",
+    "lang": "Spanish; English is limited outside major tourism operators",
+    "tz": "CLT/CLST (UTC-4/-3, varies seasonally)",
+    "visa": "UK/Irish passport holders should verify Chile entry rules before travel; immigration conditions and reciprocity rules can change.",
+    "bestFor": [
+      "River-city food breaks",
+      "Rainforest and coast add-ons",
+      "Beer-focused weekends",
+      "Southern Chile slow travel"
+    ],
+    "alerts": [
+      "Rain is part of the Valdivia experience in every season.",
+      "Reserve cars early for summer coast and forest side trips.",
+      "Riverfront wildlife should be observed without feeding."
+    ]
+  },
+  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 16,
+      "hi": 22,
+      "lo": 10,
+      "daylight": 14.6,
+      "cld": 24,
+      "rain": 33,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 16,
+      "hi": 22,
+      "lo": 10,
+      "daylight": 13.6,
+      "cld": 23,
+      "rain": 36,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 14,
+      "hi": 20,
+      "lo": 9,
+      "daylight": 12.3,
+      "cld": 34,
+      "rain": 51,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 11,
+      "hi": 16,
+      "lo": 7,
+      "daylight": 11.0,
+      "cld": 51,
+      "rain": 89,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 10,
+      "hi": 13,
+      "lo": 7,
+      "daylight": 9.9,
+      "cld": 66,
+      "rain": 158,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 8,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 9.4,
+      "cld": 71,
+      "rain": 190,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 8,
+      "hi": 11,
+      "lo": 5,
+      "daylight": 9.7,
+      "cld": 70,
+      "rain": 165,
+      "busy": 2,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 8,
+      "hi": 12,
+      "lo": 5,
+      "daylight": 10.7,
+      "cld": 65,
+      "rain": 132,
+      "busy": 3,
+      "ac": 3,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 9,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 11.9,
+      "cld": 57,
+      "rain": 89,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 15,
+      "lo": 7,
+      "daylight": 13.2,
+      "cld": 51,
+      "rain": 64,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 12,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 14.4,
+      "cld": 42,
+      "rain": 53,
+      "busy": 7,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 14,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 14.9,
+      "cld": 32,
+      "rain": 41,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

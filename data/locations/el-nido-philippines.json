@@ -1,0 +1,249 @@
+{
+  "id": "el-nido-philippines",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/133187/Average-Weather-in-El-Nido-Philippines-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "El Nido",
+  "country": "Philippines",
+  "region": "Northern Palawan",
+  "desc": "El Nido is a Northern Palawan base shaped by bacuit bay limestone lagoons, island-hopping boat tours, nacpan beach. It suits island-hopping honeymoons and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Bacuit Bay limestone lagoons",
+    "Island-hopping boat tours",
+    "Nacpan Beach",
+    "Kayaking clear coves",
+    "Dramatic karst sunsets",
+    "Dry-season boat days"
+  ],
+  "todo": [
+    {
+      "name": "Bacuit Bay island hopping",
+      "cat": "Boat trip",
+      "desc": "Choose a licensed boat tour for lagoons, snorkel stops and limestone scenery, checking conditions on the day."
+    },
+    {
+      "name": "Nacpan Beach",
+      "cat": "Beach",
+      "desc": "Spend a slower day on the long sand north of town when road conditions are good."
+    },
+    {
+      "name": "Kayaking lagoons",
+      "cat": "Adventure",
+      "desc": "Use kayaks for quieter corners of the lagoons when tour routing allows."
+    },
+    {
+      "name": "Taraw viewpoint area",
+      "cat": "Views",
+      "desc": "Pick a safe guided viewpoint or canopy walk rather than attempting risky informal climbs."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10-45 Mbps",
+      "note": "Typical visitor connectivity in El Nido is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "El Nido has a small airport with limited seats; Puerto Princesa is the fallback but adds a long road transfer, especially busy in dry-season peaks.",
+    "airports": [
+      {
+        "name": "El Nido Lio Airport",
+        "code": "ENI",
+        "km": 5,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Puerto Princesa International Airport",
+        "code": "PPS",
+        "km": 270,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Philippine peso (PHP)",
+    "lang": "Filipino and English; regional languages vary",
+    "tz": "PHT (UTC+8)",
+    "visa": "UK/Irish passport holders should verify Philippines visa-free stay limits and onward-ticket rules before travel.",
+    "bestFor": [
+      "Island-hopping honeymoons",
+      "Limestone lagoon photography",
+      "Dry-season tropical trips",
+      "Backpacker-to-boutique beach stays"
+    ],
+    "alerts": [
+      "Boat tours are weather and sea-state dependent.",
+      "Small-airport seats sell out early in high season.",
+      "Cash and backup connectivity help outside higher-end resorts."
+    ]
+  },
+  "sweet": "Jan, Feb and Mar tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 28,
+      "lo": 26,
+      "daylight": 11.6,
+      "cld": 65,
+      "rain": 13,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 28,
+      "lo": 26,
+      "daylight": 11.8,
+      "cld": 59,
+      "rain": 8,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 28,
+      "hi": 29,
+      "lo": 27,
+      "daylight": 12.1,
+      "cld": 59,
+      "rain": 10,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Apr",
+      "avg": 29,
+      "hi": 30,
+      "lo": 28,
+      "daylight": 12.4,
+      "cld": 70,
+      "rain": 28,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 29,
+      "hi": 30,
+      "lo": 28,
+      "daylight": 12.6,
+      "cld": 87,
+      "rain": 114,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 29,
+      "lo": 28,
+      "daylight": 12.8,
+      "cld": 92,
+      "rain": 252,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 28,
+      "hi": 28,
+      "lo": 27,
+      "daylight": 12.7,
+      "cld": 92,
+      "rain": 305,
+      "busy": 1,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 28,
+      "lo": 27,
+      "daylight": 12.5,
+      "cld": 92,
+      "rain": 287,
+      "busy": 2,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 28,
+      "lo": 27,
+      "daylight": 12.2,
+      "cld": 92,
+      "rain": 254,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 28,
+      "lo": 27,
+      "daylight": 11.9,
+      "cld": 88,
+      "rain": 173,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 28,
+      "hi": 28,
+      "lo": 27,
+      "daylight": 11.6,
+      "cld": 82,
+      "rain": 102,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 28,
+      "hi": 28,
+      "lo": 27,
+      "daylight": 11.5,
+      "cld": 72,
+      "rain": 53,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

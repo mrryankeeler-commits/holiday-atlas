@@ -1,0 +1,249 @@
+{
+  "id": "alkmaar-netherlands",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/51384/Average-Weather-in-Alkmaar-Netherlands-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Alkmaar",
+  "country": "Netherlands",
+  "region": "North Holland",
+  "desc": "Alkmaar is a North Holland base shaped by historic cheese market, canal-ring old town, dutch golden age streets. It suits amsterdam-adjacent slow stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Historic cheese market",
+    "Canal-ring old town",
+    "Dutch Golden Age streets",
+    "Easy Amsterdam rail link",
+    "North Sea beach access",
+    "Compact cafe scene"
+  ],
+  "todo": [
+    {
+      "name": "Alkmaar cheese market",
+      "cat": "Food & culture",
+      "desc": "Time a visit for the traditional cheese-market spectacle, then stay for the quieter lanes after groups leave."
+    },
+    {
+      "name": "Canal walk",
+      "cat": "Architecture",
+      "desc": "Loop the old centre by canal bridges, hofjes and gabled houses at a calmer pace than Amsterdam."
+    },
+    {
+      "name": "Stedelijk Museum Alkmaar",
+      "cat": "Museum",
+      "desc": "Use the museum for Dutch Revolt and regional art context before exploring the old town."
+    },
+    {
+      "name": "Bergen aan Zee side trip",
+      "cat": "Coast",
+      "desc": "Use a clear day for dunes, beach air and cycling routes west of town."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "60-140 Mbps",
+      "note": "Typical visitor connectivity in Alkmaar is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Alkmaar has no airport; Schiphol plus a rail transfer is the simplest route, with spring tulip season and summer weekends lifting accommodation pressure.",
+    "airports": [
+      {
+        "name": "Amsterdam Schiphol Airport",
+        "code": "AMS",
+        "km": 45,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Rotterdam The Hague Airport",
+        "code": "RTM",
+        "km": 105,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Dutch; English is widely spoken",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Amsterdam-adjacent slow stays",
+      "Canal-town weekends",
+      "Food-market timing",
+      "Cycling and beach add-ons"
+    ],
+    "alerts": [
+      "Cheese-market mornings are crowded and seasonal.",
+      "Canal paths can be slick in wet winter weather.",
+      "Book rooms early if pairing Alkmaar with tulip-season day trips."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 8.3,
+      "cld": 65,
+      "rain": 53,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 9.9,
+      "cld": 62,
+      "rain": 43,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 60,
+      "rain": 38,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 14.0,
+      "cld": 52,
+      "rain": 30,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 15.8,
+      "cld": 50,
+      "rain": 38,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 15,
+      "hi": 17,
+      "lo": 12,
+      "daylight": 16.8,
+      "cld": 48,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 19,
+      "lo": 14,
+      "daylight": 16.2,
+      "cld": 43,
+      "rain": 51,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 20,
+      "lo": 14,
+      "daylight": 14.6,
+      "cld": 45,
+      "rain": 56,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 15,
+      "hi": 18,
+      "lo": 13,
+      "daylight": 12.6,
+      "cld": 51,
+      "rain": 58,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.5,
+      "cld": 57,
+      "rain": 61,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 9,
+      "lo": 6,
+      "daylight": 8.7,
+      "cld": 64,
+      "rain": 64,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 7.7,
+      "cld": 65,
+      "rain": 61,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

@@ -1,11 +1,43 @@
 [
   {
+    "id": "aberystwyth-wales",
+    "city": "Aberystwyth",
+    "country": "Wales",
+    "region": "Ceredigion, Mid Wales coast",
+    "lat": 52.4153,
+    "lng": -4.0829
+  },
+  {
     "id": "accra-ghana",
     "city": "Accra",
     "country": "Ghana",
     "region": "Greater Accra Region",
     "lat": 5.6037,
     "lng": -0.187
+  },
+  {
+    "id": "alanya-turkey",
+    "city": "Alanya",
+    "country": "Turkey",
+    "region": "Antalya Province, Turkish Riviera",
+    "lat": 36.5444,
+    "lng": 31.9954
+  },
+  {
+    "id": "alkmaar-netherlands",
+    "city": "Alkmaar",
+    "country": "Netherlands",
+    "region": "North Holland",
+    "lat": 52.6326,
+    "lng": 4.7534
+  },
+  {
+    "id": "ambleside-england",
+    "city": "Ambleside",
+    "country": "England",
+    "region": "Lake District, Cumbria",
+    "lat": 54.4326,
+    "lng": -2.9613
   },
   {
     "id": "andorra-la-vella",
@@ -120,6 +152,14 @@
     "lng": -115.5708
   },
   {
+    "id": "bangkok-thailand",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "region": "Chao Phraya River, Central Thailand",
+    "lat": 13.7563,
+    "lng": 100.5018
+  },
+  {
     "id": "bansko-bulgaria",
     "city": "Bansko",
     "country": "Bulgaria",
@@ -136,12 +176,28 @@
     "lng": -74.7813
   },
   {
+    "id": "bath-england",
+    "city": "Bath",
+    "country": "England",
+    "region": "Somerset, southwest England",
+    "lat": 51.3811,
+    "lng": -2.359
+  },
+  {
     "id": "batumi-georgia",
     "city": "Batumi",
     "country": "Georgia",
     "region": "Adjara (Black Sea coast)",
     "lat": 41.6423,
     "lng": 41.6339
+  },
+  {
+    "id": "beirut-lebanon",
+    "city": "Beirut",
+    "country": "Lebanon",
+    "region": "Beirut Governorate, Mediterranean coast",
+    "lat": 33.8938,
+    "lng": 35.5018
   },
   {
     "id": "belize-city-belize",
@@ -160,20 +216,20 @@
     "lng": 131.4975
   },
   {
-    "id": "berchtesgaden-germany",
-    "city": "Berchtesgaden",
-    "country": "Germany",
-    "region": "Berchtesgadener Land, Bavarian Alps",
-    "lat": 47.6324,
-    "lng": 13.0019
-  },
-  {
     "id": "berat-albania",
     "city": "Berat",
     "country": "Albania",
     "region": "Berat County",
     "lat": 40.7058,
     "lng": 19.9522
+  },
+  {
+    "id": "berchtesgaden-germany",
+    "city": "Berchtesgaden",
+    "country": "Germany",
+    "region": "Berchtesgadener Land, Bavarian Alps",
+    "lat": 47.6324,
+    "lng": 13.0019
   },
   {
     "id": "bergen",
@@ -184,6 +240,14 @@
     "lng": 5.3221
   },
   {
+    "id": "betws-y-coed",
+    "city": "Betws-y-Coed",
+    "country": "Wales",
+    "region": "Eryri/Snowdonia, Conwy Valley",
+    "lat": 53.093,
+    "lng": -3.806
+  },
+  {
     "id": "bishkek-kyrgyzstan",
     "city": "Bishkek",
     "country": "Kyrgyzstan",
@@ -192,12 +256,28 @@
     "lng": 74.5698
   },
   {
+    "id": "bitola-north-macedonia",
+    "city": "Bitola",
+    "country": "North Macedonia",
+    "region": "Pelagonia, southwest North Macedonia",
+    "lat": 41.0319,
+    "lng": 21.3347
+  },
+  {
     "id": "bled",
     "city": "Bled",
     "country": "Slovenia",
     "region": "Upper Carniola",
     "lat": 46.3692,
     "lng": 14.1136
+  },
+  {
+    "id": "bocas-del-toro-panama",
+    "city": "Bocas del Toro",
+    "country": "Panama",
+    "region": "Bocas del Toro Archipelago, Caribbean Panama",
+    "lat": 9.3403,
+    "lng": -82.242
   },
   {
     "id": "bodrum-turkey",
@@ -328,6 +408,22 @@
     "lng": 15.083
   },
   {
+    "id": "cesky-krumlov-czechia",
+    "city": "Cesky Krumlov",
+    "country": "Czechia",
+    "region": "South Bohemia",
+    "lat": 48.8127,
+    "lng": 14.3175
+  },
+  {
+    "id": "cheddar-england",
+    "city": "Cheddar",
+    "country": "England",
+    "region": "Mendip Hills, Somerset",
+    "lat": 51.2751,
+    "lng": -2.7766
+  },
+  {
     "id": "chengdu",
     "city": "Chengdu",
     "country": "China",
@@ -352,12 +448,12 @@
     "lng": 79.8612
   },
   {
-    "id": "cordoba-argentina",
-    "city": "Córdoba",
-    "country": "Argentina",
-    "region": "Córdoba Province, Central Argentina",
-    "lat": -31.4167,
-    "lng": -64.1833
+    "id": "conwy-wales",
+    "city": "Conwy",
+    "country": "Wales",
+    "region": "North Wales coast, Eryri gateway",
+    "lat": 53.2809,
+    "lng": -3.8304
   },
   {
     "id": "copenhagen",
@@ -366,6 +462,14 @@
     "region": "Zealand",
     "lat": 55.6761,
     "lng": 12.5683
+  },
+  {
+    "id": "cordoba-argentina",
+    "city": "Córdoba",
+    "country": "Argentina",
+    "region": "Córdoba Province, Central Argentina",
+    "lat": -31.4167,
+    "lng": -64.1833
   },
   {
     "id": "cortina-d-ampezzo-italy",
@@ -416,20 +520,20 @@
     "lng": 88.2639
   },
   {
+    "id": "diani-beach-kenya",
+    "city": "Diani Beach",
+    "country": "Kenya",
+    "region": "Kwale County, south coast Kenya",
+    "lat": -4.2797,
+    "lng": 39.5945
+  },
+  {
     "id": "dresden-germany",
     "city": "Dresden",
     "country": "Germany",
     "region": "Saxon Elbe Valley",
     "lat": 51.0509,
     "lng": 13.7383
-  },
-  {
-    "id": "garmisch-partenkirchen-germany",
-    "city": "Garmisch-Partenkirchen",
-    "country": "Germany",
-    "region": "Werdenfelser Land, Bavarian Alps",
-    "lat": 47.4917,
-    "lng": 11.0955
   },
   {
     "id": "dubai-uae",
@@ -448,6 +552,14 @@
     "lng": 18.0944
   },
   {
+    "id": "durres-albania",
+    "city": "Durres",
+    "country": "Albania",
+    "region": "Adriatic coast, Durres County",
+    "lat": 41.3231,
+    "lng": 19.4414
+  },
+  {
     "id": "el-calafate-argentina",
     "city": "El Calafate",
     "country": "Argentina",
@@ -464,6 +576,22 @@
     "lng": -14.0101
   },
   {
+    "id": "el-nido-philippines",
+    "city": "El Nido",
+    "country": "Philippines",
+    "region": "Northern Palawan",
+    "lat": 11.2027,
+    "lng": 119.4166
+  },
+  {
+    "id": "essaouira-morocco",
+    "city": "Essaouira",
+    "country": "Morocco",
+    "region": "Marrakesh-Safi, Atlantic coast",
+    "lat": 31.5085,
+    "lng": -9.7595
+  },
+  {
     "id": "faro",
     "city": "Faro",
     "country": "Portugal",
@@ -472,12 +600,44 @@
     "lng": -7.9304
   },
   {
+    "id": "fethiye-turkey",
+    "city": "Fethiye",
+    "country": "Turkey",
+    "region": "Mugla Province, Turquoise Coast",
+    "lat": 36.659,
+    "lng": 29.1263
+  },
+  {
     "id": "florence",
     "city": "Florence",
     "country": "Italy",
     "region": "Tuscany, Central Italy",
     "lat": 43.7696,
     "lng": 11.2558
+  },
+  {
+    "id": "galway-ireland",
+    "city": "Galway",
+    "country": "Ireland",
+    "region": "County Galway, west Ireland",
+    "lat": 53.2707,
+    "lng": -9.0568
+  },
+  {
+    "id": "garmisch-partenkirchen-germany",
+    "city": "Garmisch-Partenkirchen",
+    "country": "Germany",
+    "region": "Werdenfelser Land, Bavarian Alps",
+    "lat": 47.4917,
+    "lng": 11.0955
+  },
+  {
+    "id": "gaziantep-turkey",
+    "city": "Gaziantep",
+    "country": "Turkey",
+    "region": "Southeastern Anatolia",
+    "lat": 37.0662,
+    "lng": 37.3833
   },
   {
     "id": "gdansk",
@@ -512,12 +672,28 @@
     "lng": 34.8284
   },
   {
+    "id": "gothenburg-sweden",
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "region": "Vastra Gotaland, Swedish west coast",
+    "lat": 57.7089,
+    "lng": 11.9746
+  },
+  {
     "id": "granada",
     "city": "Granada",
     "country": "Spain",
     "region": "Andalusia",
     "lat": 37.1773,
     "lng": -3.5986
+  },
+  {
+    "id": "granada-nicaragua",
+    "city": "Granada",
+    "country": "Nicaragua",
+    "region": "Lake Nicaragua, Granada Department",
+    "lat": 11.9344,
+    "lng": -85.956
   },
   {
     "id": "graz-austria",
@@ -550,6 +726,22 @@
     "region": "Northern Vietnam",
     "lat": 22.8233,
     "lng": 104.9836
+  },
+  {
+    "id": "hadibu-yemen",
+    "city": "Hadibu",
+    "country": "Yemen",
+    "region": "Socotra Island, Arabian Sea",
+    "lat": 12.65,
+    "lng": 54.0333
+  },
+  {
+    "id": "hallstatt-austria",
+    "city": "Hallstatt",
+    "country": "Austria",
+    "region": "Salzkammergut, Upper Austria",
+    "lat": 47.5622,
+    "lng": 13.6493
   },
   {
     "id": "havana-cuba",
@@ -592,6 +784,14 @@
     "lng": 108.338
   },
   {
+    "id": "holyhead-wales",
+    "city": "Holyhead",
+    "country": "Wales",
+    "region": "Anglesey, northwest Wales",
+    "lat": 53.3105,
+    "lng": -4.6333
+  },
+  {
     "id": "hurghada",
     "city": "Hurghada",
     "country": "Egypt",
@@ -608,14 +808,6 @@
     "lng": -25.6756
   },
   {
-    "id": "ipoh-malaysia",
-    "city": "Ipoh",
-    "country": "Malaysia",
-    "region": "Perak",
-    "lat": 4.5975,
-    "lng": 101.0901
-  },
-  {
     "id": "innsbruck-austria",
     "city": "Innsbruck",
     "country": "Austria",
@@ -624,12 +816,28 @@
     "lng": 11.4041
   },
   {
+    "id": "ipoh-malaysia",
+    "city": "Ipoh",
+    "country": "Malaysia",
+    "region": "Perak",
+    "lat": 4.5975,
+    "lng": 101.0901
+  },
+  {
     "id": "istanbul",
     "city": "Istanbul",
     "country": "Turkey",
     "region": "Straddling Europe & Asia",
     "lat": 41.0082,
     "lng": 28.9784
+  },
+  {
+    "id": "izola-slovenia",
+    "city": "Izola",
+    "country": "Slovenia",
+    "region": "Slovenian Istria, Adriatic coast",
+    "lat": 45.5374,
+    "lng": 13.6601
   },
   {
     "id": "jaipur-india",
@@ -720,6 +928,22 @@
     "lng": 104.3167
   },
   {
+    "id": "kuressaare-estonia",
+    "city": "Kuressaare",
+    "country": "Estonia",
+    "region": "Saaremaa Island, Western Estonia",
+    "lat": 58.253,
+    "lng": 22.4894
+  },
+  {
+    "id": "kuta-lombok-indonesia",
+    "city": "Kuta, Lombok",
+    "country": "Indonesia",
+    "region": "South Lombok, West Nusa Tenggara",
+    "lat": -8.8948,
+    "lng": 116.2821
+  },
+  {
     "id": "kutaisi-georgia",
     "city": "Kutaisi",
     "country": "Georgia",
@@ -744,6 +968,14 @@
     "lng": -68.15
   },
   {
+    "id": "larnaca-cyprus",
+    "city": "Larnaca",
+    "country": "Cyprus",
+    "region": "Southeast Cyprus",
+    "lat": 34.9229,
+    "lng": 33.6233
+  },
+  {
     "id": "leh-kashmir-india",
     "city": "Leh",
     "country": "India",
@@ -760,6 +992,22 @@
     "lng": 12.3731
   },
   {
+    "id": "leon-nicaragua",
+    "city": "Leon",
+    "country": "Nicaragua",
+    "region": "Leon Department, western Nicaragua",
+    "lat": 12.434,
+    "lng": -86.879
+  },
+  {
+    "id": "liepaja-latvia",
+    "city": "Liepaja",
+    "country": "Latvia",
+    "region": "Kurzeme, Latvian Baltic coast",
+    "lat": 56.5047,
+    "lng": 21.0108
+  },
+  {
     "id": "lima-peru",
     "city": "Lima",
     "country": "Peru",
@@ -774,6 +1022,14 @@
     "region": "Southern Province (Victoria Falls gateway)",
     "lat": -17.8419,
     "lng": 25.8542
+  },
+  {
+    "id": "livno-bosnia-and-herzegovina",
+    "city": "Livno",
+    "country": "Bosnia and Herzegovina",
+    "region": "Canton 10, Dinaric Alps",
+    "lat": 43.8269,
+    "lng": 17.0076
   },
   {
     "id": "ljubljana-slovenia",
@@ -928,6 +1184,30 @@
     "lng": 77.0595
   },
   {
+    "id": "muscat-oman",
+    "city": "Muscat",
+    "country": "Oman",
+    "region": "Muscat Governorate, Gulf of Oman",
+    "lat": 23.588,
+    "lng": 58.3829
+  },
+  {
+    "id": "naxos-greece",
+    "city": "Naxos",
+    "country": "Greece",
+    "region": "Cyclades, South Aegean",
+    "lat": 37.1021,
+    "lng": 25.3764
+  },
+  {
+    "id": "neum-bosnia-and-herzegovina",
+    "city": "Neum",
+    "country": "Bosnia and Herzegovina",
+    "region": "Adriatic coast, Herzegovina-Neretva Canton",
+    "lat": 42.9231,
+    "lng": 17.6156
+  },
+  {
     "id": "ohrid-north-macedonia",
     "city": "Ohrid",
     "country": "North Macedonia",
@@ -998,6 +1278,14 @@
     "region": "Southwestern Cyprus",
     "lat": 34.7754,
     "lng": 32.4245
+  },
+  {
+    "id": "phetchaburi-thailand",
+    "city": "Phetchaburi",
+    "country": "Thailand",
+    "region": "Phetchaburi Province, upper Gulf of Thailand",
+    "lat": 13.1118,
+    "lng": 99.9398
   },
   {
     "id": "phoenix-arizona-united-states",
@@ -1088,6 +1376,14 @@
     "lng": 168.6626
   },
   {
+    "id": "quellon-chile",
+    "city": "Quellon",
+    "country": "Chile",
+    "region": "Chiloe Island, Los Lagos Region",
+    "lat": -43.1167,
+    "lng": -73.6167
+  },
+  {
     "id": "quetzaltenango-guatemala",
     "city": "Quetzaltenango",
     "country": "Guatemala",
@@ -1102,6 +1398,14 @@
     "region": "Pichincha Province (Andean Highlands)",
     "lat": -0.1807,
     "lng": -78.4678
+  },
+  {
+    "id": "rauma-finland",
+    "city": "Rauma",
+    "country": "Finland",
+    "region": "Satakunta, Bothnian Sea coast",
+    "lat": 61.128,
+    "lng": 21.5113
   },
   {
     "id": "reckong-peo-india",
@@ -1150,6 +1454,22 @@
     "region": "Serranía de Ronda (Andalusia)",
     "lat": 36.7467,
     "lng": -5.1612
+  },
+  {
+    "id": "rovinj-croatia",
+    "city": "Rovinj",
+    "country": "Croatia",
+    "region": "Istria, northern Adriatic",
+    "lat": 45.0812,
+    "lng": 13.6387
+  },
+  {
+    "id": "rye-england",
+    "city": "Rye",
+    "country": "England",
+    "region": "East Sussex, Romney Marsh edge",
+    "lat": 50.9513,
+    "lng": 0.7337
   },
   {
     "id": "salento-colombia",
@@ -1232,6 +1552,14 @@
     "lng": 109.5119
   },
   {
+    "id": "sapporo-japan",
+    "city": "Sapporo",
+    "country": "Japan",
+    "region": "Hokkaido",
+    "lat": 43.0618,
+    "lng": 141.3545
+  },
+  {
     "id": "sarajevo-bosnia-and-herzegovina",
     "city": "Sarajevo",
     "country": "Bosnia and Herzegovina",
@@ -1272,12 +1600,28 @@
     "lng": 115.45
   },
   {
+    "id": "sidi-bou-said-tunisia",
+    "city": "Sidi Bou Said",
+    "country": "Tunisia",
+    "region": "Tunis coast, Carthage peninsula",
+    "lat": 36.8702,
+    "lng": 10.3417
+  },
+  {
     "id": "sidi-ifni-morocco",
     "city": "Sidi Ifni",
     "country": "Morocco",
     "region": "Guelmim-Oued Noun",
     "lat": 29.3798,
     "lng": -10.172
+  },
+  {
+    "id": "siena-italy",
+    "city": "Siena",
+    "country": "Italy",
+    "region": "Tuscany",
+    "lat": 43.3188,
+    "lng": 11.3308
   },
   {
     "id": "siquijor-philippines",
@@ -1320,6 +1664,14 @@
     "lng": 151.2093
   },
   {
+    "id": "taipei-taiwan",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "region": "Taipei Basin, northern Taiwan",
+    "lat": 25.033,
+    "lng": 121.5654
+  },
+  {
     "id": "tallinn",
     "city": "Tallinn",
     "country": "Estonia",
@@ -1352,6 +1704,14 @@
     "lng": 80.7941
   },
   {
+    "id": "taroudant-morocco",
+    "city": "Taroudant",
+    "country": "Morocco",
+    "region": "Souss Valley, Souss-Massa",
+    "lat": 30.4703,
+    "lng": -8.8769
+  },
+  {
     "id": "tbilisi",
     "city": "Tbilisi",
     "country": "Georgia",
@@ -1376,12 +1736,36 @@
     "lng": 170.479
   },
   {
+    "id": "terracina-italy",
+    "city": "Terracina",
+    "country": "Italy",
+    "region": "Lazio coast, Riviera di Ulisse",
+    "lat": 41.2906,
+    "lng": 13.2481
+  },
+  {
+    "id": "theth-albania",
+    "city": "Theth",
+    "country": "Albania",
+    "region": "Albanian Alps, Shkoder County",
+    "lat": 42.395,
+    "lng": 19.774
+  },
+  {
     "id": "tilcara-argentina",
     "city": "Tilcara",
     "country": "Argentina",
     "region": "Quebrada de Humahuaca (Jujuy Province)",
     "lat": -23.5775,
     "lng": -65.394
+  },
+  {
+    "id": "timbuktu-mali",
+    "city": "Timbuktu",
+    "country": "Mali",
+    "region": "Tombouctou Region, Sahara edge",
+    "lat": 16.7666,
+    "lng": -3.0026
   },
   {
     "id": "tirana",
@@ -1416,6 +1800,14 @@
     "lng": -6.7716
   },
   {
+    "id": "trebizat-bosnia-and-herzegovina",
+    "city": "Trebizat",
+    "country": "Bosnia and Herzegovina",
+    "region": "Herzegovina-Neretva Canton, near Capljina",
+    "lat": 43.131,
+    "lng": 17.727
+  },
+  {
     "id": "trieste",
     "city": "Trieste",
     "country": "Italy",
@@ -1424,12 +1816,28 @@
     "lng": 13.7768
   },
   {
+    "id": "tromso-norway",
+    "city": "Tromso",
+    "country": "Norway",
+    "region": "Northern Norway, Troms",
+    "lat": 69.6492,
+    "lng": 18.9553
+  },
+  {
     "id": "turin",
     "city": "Turin",
     "country": "Italy",
     "region": "Piedmont, Northern Italy",
     "lat": 45.0703,
     "lng": 7.6869
+  },
+  {
+    "id": "tyre-lebanon",
+    "city": "Tyre",
+    "country": "Lebanon",
+    "region": "South Lebanon, Mediterranean coast",
+    "lat": 33.2704,
+    "lng": 35.2038
   },
   {
     "id": "ulaanbaatar-mongolia",
@@ -1444,7 +1852,7 @@
     "city": "Ulcinj",
     "country": "Montenegro",
     "region": "Western Balkans",
-    "lat": 41.92,
+    "lat": 41.9294,
     "lng": 19.2244
   },
   {
@@ -1454,6 +1862,14 @@
     "region": "Bora Bora, Society Islands",
     "lat": -16.5074,
     "lng": -151.7491
+  },
+  {
+    "id": "valdivia-chile",
+    "city": "Valdivia",
+    "country": "Chile",
+    "region": "Los Rios Region",
+    "lat": -39.8142,
+    "lng": -73.2459
   },
   {
     "id": "valletta",
@@ -1488,6 +1904,14 @@
     "lng": 16.3738
   },
   {
+    "id": "villach-austria",
+    "city": "Villach",
+    "country": "Austria",
+    "region": "Carinthia, southern Austria",
+    "lat": 46.6103,
+    "lng": 13.8558
+  },
+  {
     "id": "vinales-cuba",
     "city": "Viñales",
     "country": "Cuba",
@@ -1512,12 +1936,28 @@
     "lng": 130.6
   },
   {
+    "id": "windhoek-namibia",
+    "city": "Windhoek",
+    "country": "Namibia",
+    "region": "Khomas Highland, central Namibia",
+    "lat": -22.5609,
+    "lng": 17.0658
+  },
+  {
     "id": "xingping-china",
     "city": "Xingping",
     "country": "China",
     "region": "Guangxi",
     "lat": 24.9167,
     "lng": 110.5
+  },
+  {
+    "id": "yerevan-armenia",
+    "city": "Yerevan",
+    "country": "Armenia",
+    "region": "Ararat plain, central Armenia",
+    "lat": 40.1872,
+    "lng": 44.5152
   },
   {
     "id": "zakopane",
@@ -1558,5 +1998,13 @@
     "region": "Gansu Corridor",
     "lat": 38.9259,
     "lng": 100.4498
+  },
+  {
+    "id": "zug-switzerland",
+    "city": "Zug",
+    "country": "Switzerland",
+    "region": "Central Switzerland, Lake Zug",
+    "lat": 47.1662,
+    "lng": 8.5155
   }
 ]

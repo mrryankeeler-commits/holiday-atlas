@@ -1,0 +1,259 @@
+{
+  "id": "rovinj-croatia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75036/Average-Weather-in-Rovinj-Croatia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Rovinj",
+  "country": "Croatia",
+  "region": "Istria, northern Adriatic",
+  "desc": "Rovinj is a Istria, northern Adriatic base shaped by st euphemia hilltop church, venetian old-town lanes, istrian seafood and truffles. It suits romantic adriatic town stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "St Euphemia hilltop church",
+    "Venetian old-town lanes",
+    "Istrian seafood and truffles",
+    "Golden Cape forest park",
+    "Island boat trips",
+    "Sunset harbour views"
+  ],
+  "todo": [
+    {
+      "name": "St Euphemia Church",
+      "cat": "Views",
+      "desc": "Climb through the old town to the church for the best rooftops-and-sea perspective."
+    },
+    {
+      "name": "Old town harbour loop",
+      "cat": "Architecture",
+      "desc": "Wander polished stone lanes, galleries and waterfront cafes before day-trippers arrive."
+    },
+    {
+      "name": "Golden Cape forest park",
+      "cat": "Nature",
+      "desc": "Walk or cycle to rocky swim spots under pines close to town."
+    },
+    {
+      "name": "Istrian food evening",
+      "cat": "Food",
+      "desc": "Base dinner around seafood, olive oil, local wine or truffles depending on season."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-100 Mbps",
+      "note": "Typical visitor connectivity in Rovinj is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Rovinj has no airport; Pula is the closest seasonal gateway and Venice/Trieste add options with longer transfers.",
+    "airports": [
+      {
+        "name": "Pula Airport",
+        "code": "PUY",
+        "km": 40,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Trieste Airport",
+        "code": "TRS",
+        "km": 145,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Venice Marco Polo Airport",
+        "code": "VCE",
+        "km": 260,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Croatian; English is common around coastal tourism",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Romantic Adriatic town stays",
+      "Istria food trips",
+      "Car-free coastal weekends",
+      "Shoulder-season photography"
+    ],
+    "alerts": [
+      "July-August old-town lanes and swim spots are crowded.",
+      "Parking outside the pedestrian core needs planning.",
+      "Many boat trips and restaurants scale back in winter."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 6,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 9.2,
+      "cld": 52,
+      "rain": 56,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 6,
+      "hi": 10,
+      "lo": 2,
+      "daylight": 10.5,
+      "cld": 49,
+      "rain": 61,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "daylight": 12.0,
+      "cld": 49,
+      "rain": 56,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 13.6,
+      "cld": 49,
+      "rain": 61,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 14.9,
+      "cld": 46,
+      "rain": 58,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 21,
+      "hi": 26,
+      "lo": 16,
+      "daylight": 15.6,
+      "cld": 37,
+      "rain": 56,
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 24,
+      "hi": 28,
+      "lo": 18,
+      "daylight": 15.2,
+      "cld": 24,
+      "rain": 41,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 28,
+      "lo": 18,
+      "daylight": 14.0,
+      "cld": 26,
+      "rain": 53,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 19,
+      "hi": 24,
+      "lo": 15,
+      "daylight": 12.5,
+      "cld": 38,
+      "rain": 84,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 15,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 10.9,
+      "cld": 46,
+      "rain": 91,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 11,
+      "hi": 14,
+      "lo": 7,
+      "daylight": 9.5,
+      "cld": 53,
+      "rain": 96,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 7,
+      "hi": 10,
+      "lo": 3,
+      "daylight": 8.8,
+      "cld": 53,
+      "rain": 74,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

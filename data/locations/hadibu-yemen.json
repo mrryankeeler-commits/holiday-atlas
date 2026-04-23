@@ -1,0 +1,249 @@
+{
+  "id": "hadibu-yemen",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/105358/Average-Weather-in-Hadibu-Yemen-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Hadibu",
+  "country": "Yemen",
+  "region": "Socotra Island, Arabian Sea",
+  "desc": "Hadibu is a Socotra Island, Arabian Sea base shaped by socotra dragon blood trees, dixam plateau landscapes, detwah lagoon. It suits expedition-style nature travel and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Socotra dragon blood trees",
+    "Dixam Plateau landscapes",
+    "Detwah Lagoon",
+    "Arabian Sea beaches",
+    "Endemic island biodiversity",
+    "Expedition-style travel"
+  ],
+  "todo": [
+    {
+      "name": "Dixam Plateau",
+      "cat": "Nature",
+      "desc": "Use a local guide to see dragon blood trees and highland views without damaging fragile habitats."
+    },
+    {
+      "name": "Detwah Lagoon",
+      "cat": "Coast",
+      "desc": "Spend time at the lagoon for turquoise shallows, cliffs and birdlife near Qalansiyah."
+    },
+    {
+      "name": "Hoq Cave",
+      "cat": "Adventure",
+      "desc": "Plan the cave hike with guides, water and heat awareness."
+    },
+    {
+      "name": "Hadibu market",
+      "cat": "Local life",
+      "desc": "Use the town carefully as the practical base for supplies and island logistics."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 1,
+      "spd": "2-15 Mbps",
+      "note": "Typical visitor connectivity in Hadibu is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Hadibu is served by limited Socotra flights; access depends on permits, security conditions and specialist logistics rather than normal leisure seasonality.",
+    "airports": [
+      {
+        "name": "Socotra Airport",
+        "code": "SCT",
+        "km": 15,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Aden International Airport",
+        "code": "ADE",
+        "km": 1100,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Yemeni rial (YER)",
+    "lang": "Arabic",
+    "tz": "AST (UTC+3)",
+    "visa": "UK/Irish travellers should verify Yemen visa, security and access requirements before considering travel.",
+    "bestFor": [
+      "Expedition-style nature travel",
+      "Endemic wildlife interest",
+      "Remote island photography",
+      "Experienced travellers with guides"
+    ],
+    "alerts": [
+      "Check official travel advice; Yemen/Socotra access can be restricted or inappropriate.",
+      "Use local guides and low-impact practices around fragile endemic ecosystems.",
+      "Medical and connectivity backup is limited."
+    ]
+  },
+  "sweet": "Feb, Nov and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 25,
+      "hi": 27,
+      "lo": 23,
+      "daylight": 11.5,
+      "cld": 38,
+      "rain": 5,
+      "busy": 10,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 26,
+      "hi": 28,
+      "lo": 23,
+      "daylight": 11.7,
+      "cld": 36,
+      "rain": 5,
+      "busy": 8,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.1,
+      "cld": 32,
+      "rain": 2,
+      "busy": 9,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 28,
+      "hi": 32,
+      "lo": 25,
+      "daylight": 12.4,
+      "cld": 38,
+      "rain": 2,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 31,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 12.7,
+      "cld": 57,
+      "rain": 5,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 30,
+      "hi": 33,
+      "lo": 27,
+      "daylight": 12.9,
+      "cld": 50,
+      "rain": 5,
+      "busy": 2,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 32,
+      "lo": 27,
+      "daylight": 12.8,
+      "cld": 48,
+      "rain": 2,
+      "busy": 7,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.5,
+      "cld": 40,
+      "rain": 2,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 29,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.2,
+      "cld": 28,
+      "rain": 0,
+      "busy": 4,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 30,
+      "lo": 25,
+      "daylight": 11.8,
+      "cld": 29,
+      "rain": 10,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.5,
+      "cld": 31,
+      "rain": 15,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 26,
+      "hi": 28,
+      "lo": 24,
+      "daylight": 11.4,
+      "cld": 36,
+      "rain": 8,
+      "busy": 6,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "leon-nicaragua",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/14373/Average-Weather-in-Le%C3%B3n-Nicaragua-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Leon",
+  "country": "Nicaragua",
+  "region": "Leon Department, western Nicaragua",
+  "desc": "Leon is a Leon Department, western Nicaragua base shaped by white cathedral rooftop, volcano boarding access, revolutionary murals. It suits colonial city culture and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "White cathedral rooftop",
+    "Volcano boarding access",
+    "Revolutionary murals",
+    "Colonial university streets",
+    "Pacific beach day trips",
+    "Low-cost food scene"
+  ],
+  "todo": [
+    {
+      "name": "Leon Cathedral roof",
+      "cat": "Views",
+      "desc": "Climb to the white rooftop for volcano views and the city's most memorable photo stop."
+    },
+    {
+      "name": "Cerro Negro volcano boarding",
+      "cat": "Adventure",
+      "desc": "Book a reputable operator for the ash-slope descent and bring clothes you do not mind dusting up."
+    },
+    {
+      "name": "Museum of the Revolution",
+      "cat": "History",
+      "desc": "Use a guided visit to connect Leon's murals and politics with recent Nicaraguan history."
+    },
+    {
+      "name": "Las Penitas beach",
+      "cat": "Coast",
+      "desc": "Head west for surf, seafood and sunset when the city heat builds."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-55 Mbps",
+      "note": "Typical visitor connectivity in Leon is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Leon has no airport; Managua is the practical gateway, with overland transfers and volcano tours easiest in the drier months.",
+    "airports": [
+      {
+        "name": "Augusto C. Sandino International Airport",
+        "code": "MGA",
+        "km": 105,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Nicaraguan cordoba (NIO); US dollars are useful in tourism",
+    "lang": "Spanish; English varies outside tourism operators",
+    "tz": "CST (UTC-6)",
+    "visa": "UK/Irish passport holders should verify Nicaragua entry card, passport and onward-ticket rules before travel.",
+    "bestFor": [
+      "Colonial city culture",
+      "Volcano adventure days",
+      "Budget Central America travel",
+      "Backpacker-style itineraries"
+    ],
+    "alerts": [
+      "Heat is severe in late dry season; start city walks early.",
+      "Volcano trips are wind and safety dependent.",
+      "Check current local travel advice and protest/security conditions before travel."
+    ]
+  },
+  "sweet": "Feb, Nov and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 28,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 11.5,
+      "cld": 23,
+      "rain": 0,
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 28,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 11.7,
+      "cld": 28,
+      "rain": 2,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Mar",
+      "avg": 29,
+      "hi": 34,
+      "lo": 24,
+      "daylight": 12.1,
+      "cld": 34,
+      "rain": 5,
+      "busy": 8,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 29,
+      "hi": 34,
+      "lo": 25,
+      "daylight": 12.4,
+      "cld": 58,
+      "rain": 18,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 29,
+      "hi": 33,
+      "lo": 25,
+      "daylight": 12.7,
+      "cld": 83,
+      "rain": 107,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.8,
+      "cld": 87,
+      "rain": 142,
+      "busy": 3,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.8,
+      "cld": 80,
+      "rain": 76,
+      "busy": 6,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.5,
+      "cld": 78,
+      "rain": 104,
+      "busy": 4,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 27,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 82,
+      "rain": 183,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 27,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 11.8,
+      "cld": 79,
+      "rain": 150,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 32,
+      "lo": 23,
+      "daylight": 11.5,
+      "cld": 57,
+      "rain": 38,
+      "busy": 7,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 28,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 11.4,
+      "cld": 31,
+      "rain": 8,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "hallstatt-austria",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75344/Average-Weather-in-Bad-Aussee-Austria-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Hallstatt",
+  "country": "Austria",
+  "region": "Salzkammergut, Upper Austria",
+  "desc": "Hallstatt is a Salzkammergut, Upper Austria base shaped by lake hallstatt reflections, salt-mine history, skywalk viewpoint. It suits alpine lake scenery and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Lake Hallstatt reflections",
+    "Salt-mine history",
+    "Skywalk viewpoint",
+    "Compact pastel village",
+    "Dachstein day trips",
+    "Early-morning photo calm"
+  ],
+  "todo": [
+    {
+      "name": "Hallstatt Skywalk",
+      "cat": "Views",
+      "desc": "Ride or hike up for the classic view over the lake, village roofs and steep Salzkammergut slopes."
+    },
+    {
+      "name": "Salt mine tour",
+      "cat": "History",
+      "desc": "Use the salt mine to understand why this tiny lakeside village became historically important."
+    },
+    {
+      "name": "Lake ferry arrival",
+      "cat": "Scenic transport",
+      "desc": "Arrive by train and ferry if possible; the lake crossing is one of Hallstatt's best moments."
+    },
+    {
+      "name": "Dachstein caves and glacier road",
+      "cat": "Nature",
+      "desc": "Use a clear day for ice caves, alpine viewpoints or nearby Obertraun walks."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-55 Mbps",
+      "note": "Typical visitor connectivity in Hallstatt is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Hallstatt has no airport; Salzburg is the closest useful gateway, and winter/summer holiday weeks raise both rail-and-room demand.",
+    "airports": [
+      {
+        "name": "Salzburg Airport",
+        "code": "SZG",
+        "km": 80,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Linz Airport",
+        "code": "LNZ",
+        "km": 120,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Vienna Airport",
+        "code": "VIE",
+        "km": 290,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "German; English is common in visitor-facing services",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Alpine lake scenery",
+      "Photographers starting early",
+      "Rail-and-ferry slow travel",
+      "Shoulder-season village stays"
+    ],
+    "alerts": [
+      "Day-tripper crowding is intense between mid-morning and late afternoon.",
+      "Parking is limited; rail and ferry are often calmer.",
+      "Snow or low cloud can disrupt high viewpoints in winter."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -4,
+      "hi": -1,
+      "lo": -7,
+      "daylight": 8.9,
+      "cld": 62,
+      "rain": 23,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -2,
+      "hi": 2,
+      "lo": -6,
+      "daylight": 10.3,
+      "cld": 64,
+      "rain": 23,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 2,
+      "hi": 7,
+      "lo": -2,
+      "daylight": 12.0,
+      "cld": 63,
+      "rain": 43,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 7,
+      "hi": 12,
+      "lo": 2,
+      "daylight": 13.7,
+      "cld": 59,
+      "rain": 53,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 11,
+      "hi": 17,
+      "lo": 6,
+      "daylight": 15.2,
+      "cld": 59,
+      "rain": 94,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 15.9,
+      "cld": 56,
+      "rain": 130,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 15.5,
+      "cld": 46,
+      "rain": 142,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 16,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 14.2,
+      "cld": 47,
+      "rain": 127,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 12.5,
+      "cld": 54,
+      "rain": 99,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 7,
+      "hi": 12,
+      "lo": 3,
+      "daylight": 10.8,
+      "cld": 58,
+      "rain": 64,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 1,
+      "hi": 4,
+      "lo": -2,
+      "daylight": 9.3,
+      "cld": 64,
+      "rain": 41,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": -3,
+      "hi": 0,
+      "lo": -6,
+      "daylight": 8.5,
+      "cld": 65,
+      "rain": 25,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}

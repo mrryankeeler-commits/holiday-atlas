@@ -1,0 +1,249 @@
+{
+  "id": "diani-beach-kenya",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/101138/Average-Weather-in-Gazi-Kenya-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Diani Beach",
+  "country": "Kenya",
+  "region": "Kwale County, south coast Kenya",
+  "desc": "Diani Beach is a Kwale County, south coast Kenya base shaped by white sand and reef lagoon, colobus monkey sightings, kite and dive seasons. It suits beach resort downtime and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "White sand and reef lagoon",
+    "Colobus monkey sightings",
+    "Kite and dive seasons",
+    "Wasini and Kisite trips",
+    "Relaxed resort strip",
+    "Mombasa add-on access"
+  ],
+  "todo": [
+    {
+      "name": "Diani Beach lagoon",
+      "cat": "Beach",
+      "desc": "Use tide timing for swims, reef walks and long beach strolls on the white-sand strip."
+    },
+    {
+      "name": "Colobus conservation stop",
+      "cat": "Wildlife",
+      "desc": "Visit or support responsible conservation work focused on the area's colobus monkeys."
+    },
+    {
+      "name": "Kisite-Mpunguti marine trip",
+      "cat": "Snorkelling",
+      "desc": "Book a reputable operator for reef snorkelling and dolphin-aware boat practices."
+    },
+    {
+      "name": "Kongo River sunset",
+      "cat": "Local scenery",
+      "desc": "Head toward the river mouth for a quieter late-day view away from the central resort strip."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "25-75 Mbps",
+      "note": "Typical visitor connectivity in Diani Beach is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Diani is reached via Ukunda domestic flights or Mombasa plus road/ferry transfer; UK long-haul demand is strongest in winter and school holidays.",
+    "airports": [
+      {
+        "name": "Ukunda Airstrip",
+        "code": "UKA",
+        "km": 5,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Moi International Airport, Mombasa",
+        "code": "MBA",
+        "km": 45,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Kenyan shilling (KES)",
+    "lang": "Swahili and English",
+    "tz": "EAT (UTC+3)",
+    "visa": "Kenya uses electronic travel authorisation/entry permission processes; UK/Irish travellers should verify requirements before booking.",
+    "bestFor": [
+      "Beach resort downtime",
+      "Kitesurf and dive trips",
+      "Safari-and-coast combinations",
+      "Winter sun escapes"
+    ],
+    "alerts": [
+      "Reef walking needs footwear and tide awareness.",
+      "Mombasa ferry/road transfers can be slow.",
+      "Use reputable operators for marine wildlife trips."
+    ]
+  },
+  "sweet": "Jul, Aug and Sep tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.3,
+      "cld": 68,
+      "rain": 18,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.2,
+      "cld": 69,
+      "rain": 15,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 28,
+      "hi": 32,
+      "lo": 26,
+      "daylight": 12.1,
+      "cld": 69,
+      "rain": 53,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 28,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.0,
+      "cld": 66,
+      "rain": 127,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.9,
+      "cld": 52,
+      "rain": 132,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 26,
+      "hi": 28,
+      "lo": 23,
+      "daylight": 11.9,
+      "cld": 42,
+      "rain": 43,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 24,
+      "hi": 27,
+      "lo": 22,
+      "daylight": 11.9,
+      "cld": 36,
+      "rain": 15,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 27,
+      "lo": 22,
+      "daylight": 12.0,
+      "cld": 30,
+      "rain": 13,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 25,
+      "hi": 28,
+      "lo": 22,
+      "daylight": 12.1,
+      "cld": 32,
+      "rain": 13,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 12.2,
+      "cld": 45,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 30,
+      "lo": 24,
+      "daylight": 12.3,
+      "cld": 50,
+      "rain": 66,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 31,
+      "lo": 25,
+      "daylight": 12.4,
+      "cld": 59,
+      "rain": 48,
+      "busy": 4,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

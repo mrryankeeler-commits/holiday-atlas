@@ -1,0 +1,259 @@
+{
+  "id": "terracina-italy",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/74413/Average-Weather-in-Terracina-Italy-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Terracina",
+  "country": "Italy",
+  "region": "Lazio coast, Riviera di Ulisse",
+  "desc": "Terracina is a Lazio coast, Riviera di Ulisse base shaped by temple of jupiter anxur, long sandy lazio beach, old town on the hill. It suits rome-plus-coast trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Temple of Jupiter Anxur",
+    "Long sandy Lazio beach",
+    "Old town on the hill",
+    "Seafood harbour",
+    "Pontine coast day trips",
+    "Rome-and-beach combination"
+  ],
+  "todo": [
+    {
+      "name": "Temple of Jupiter Anxur",
+      "cat": "History",
+      "desc": "Climb or drive up for ancient ruins and a sweeping view along the Pontine coastline."
+    },
+    {
+      "name": "Terracina beach",
+      "cat": "Beach",
+      "desc": "Use the long sand strand for an easy beach day that feels more local than the Amalfi or Tuscan coast."
+    },
+    {
+      "name": "Centro storico alta",
+      "cat": "Old town",
+      "desc": "Walk the upper old town for Roman paving, small piazzas and evening views."
+    },
+    {
+      "name": "Harbour seafood dinner",
+      "cat": "Food",
+      "desc": "Base one evening around the fishing harbour and simple seafood cooking."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Terracina is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Terracina has no airport; Rome airports are the normal gateways, with Lazio beach demand strongest in Italian summer holiday weeks.",
+    "airports": [
+      {
+        "name": "Rome Fiumicino Airport",
+        "code": "FCO",
+        "km": 115,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Rome Ciampino Airport",
+        "code": "CIA",
+        "km": 100,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Naples Airport",
+        "code": "NAP",
+        "km": 130,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Italian; English is common in larger visitor areas",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Rome-plus-coast trips",
+      "Italian beach towns",
+      "Ancient ruins with sea views",
+      "Family summer stays"
+    ],
+    "alerts": [
+      "August is very busy with domestic beach holidays.",
+      "Parking near the beach and old town can be awkward in peak season.",
+      "Temple paths are exposed in midday heat."
+    ]
+  },
+  "sweet": "Jun, Jul and Sep usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 9.6,
+      "cld": 46,
+      "rain": 64,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 10.7,
+      "cld": 44,
+      "rain": 61,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 12,
+      "hi": 15,
+      "lo": 8,
+      "daylight": 12.0,
+      "cld": 44,
+      "rain": 48,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 14,
+      "hi": 18,
+      "lo": 10,
+      "daylight": 13.4,
+      "cld": 43,
+      "rain": 43,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 14.5,
+      "cld": 38,
+      "rain": 28,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 22,
+      "hi": 27,
+      "lo": 18,
+      "daylight": 15.1,
+      "cld": 24,
+      "rain": 20,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 25,
+      "hi": 29,
+      "lo": 20,
+      "daylight": 14.8,
+      "cld": 11,
+      "rain": 13,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 29,
+      "lo": 21,
+      "daylight": 13.7,
+      "cld": 16,
+      "rain": 20,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 12.4,
+      "cld": 31,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 11.0,
+      "cld": 42,
+      "rain": 79,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 17,
+      "lo": 10,
+      "daylight": 9.9,
+      "cld": 46,
+      "rain": 96,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 10,
+      "hi": 13,
+      "lo": 7,
+      "daylight": 9.2,
+      "cld": 45,
+      "rain": 71,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

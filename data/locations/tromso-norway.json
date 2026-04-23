@@ -1,0 +1,249 @@
+{
+  "id": "tromso-norway",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/84211/Average-Weather-in-Troms%C3%B8-Norway-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Tromso",
+  "country": "Norway",
+  "region": "Northern Norway, Troms",
+  "desc": "Tromso is a Northern Norway, Troms base shaped by northern lights season, midnight sun summer, fjord and island road trips. It suits northern lights trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Northern lights season",
+    "Midnight sun summer",
+    "Fjord and island road trips",
+    "Arctic Cathedral skyline",
+    "Cable-car viewpoint",
+    "Whale-season excursions"
+  ],
+  "todo": [
+    {
+      "name": "Fjellheisen cable car",
+      "cat": "Views",
+      "desc": "Ride up Storsteinen for the classic island-city view, especially around sunset or blue hour."
+    },
+    {
+      "name": "Northern lights tour",
+      "cat": "Nature",
+      "desc": "Use a reputable guide in winter to chase clearer skies outside the city lights."
+    },
+    {
+      "name": "Arctic Cathedral",
+      "cat": "Architecture",
+      "desc": "Cross the bridge for the sharp modern landmark and evening concerts when scheduled."
+    },
+    {
+      "name": "Kvaloya road trip",
+      "cat": "Landscape",
+      "desc": "Use a car or tour for fjords, beaches and mountain views just outside town."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "60-150 Mbps",
+      "note": "Typical visitor connectivity in Tromso is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
+    "fltNote": "Tromso has its own airport and seasonal UK winter demand can include LGW-linked options; aurora and Christmas periods push fares and rooms up.",
+    "airports": [
+      {
+        "name": "Tromso Airport",
+        "code": "TOS",
+        "km": 5,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Oslo Airport",
+        "code": "OSL",
+        "km": 1750,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Norwegian krone (NOK)",
+    "lang": "Norwegian; English is widely spoken",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "bestFor": [
+      "Northern lights trips",
+      "Arctic winter breaks",
+      "Midnight-sun summer hikes",
+      "Wildlife and fjord tours"
+    ],
+    "alerts": [
+      "Winter weather can disrupt tours and flights.",
+      "Aurora sightings are never guaranteed; stay several nights if possible.",
+      "Rental cars need winter-driving confidence outside town."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug stand out for the signature seasonal experience, while adding extra nights helps buffer weather disruption.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -4,
+      "hi": -2,
+      "lo": -6,
+      "daylight": 1.8,
+      "cld": 79,
+      "rain": 43,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -3,
+      "hi": -2,
+      "lo": -6,
+      "daylight": 7.4,
+      "cld": 78,
+      "rain": 43,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": -2,
+      "hi": 1,
+      "lo": -4,
+      "daylight": 11.9,
+      "cld": 76,
+      "rain": 41,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 1,
+      "hi": 3,
+      "lo": -2,
+      "daylight": 16.4,
+      "cld": 69,
+      "rain": 41,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 22.3,
+      "cld": 60,
+      "rain": 51,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 9,
+      "hi": 12,
+      "lo": 7,
+      "daylight": 24.0,
+      "cld": 58,
+      "rain": 61,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 23.5,
+      "cld": 60,
+      "rain": 76,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 17.8,
+      "cld": 61,
+      "rain": 74,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 7,
+      "hi": 10,
+      "lo": 4,
+      "daylight": 13.2,
+      "cld": 66,
+      "rain": 89,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 3,
+      "hi": 5,
+      "lo": 1,
+      "daylight": 8.8,
+      "cld": 74,
+      "rain": 91,
+      "busy": 4,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": -1,
+      "hi": 2,
+      "lo": -3,
+      "daylight": 3.5,
+      "cld": 77,
+      "rain": 61,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -2,
+      "hi": -1,
+      "lo": -5,
+      "daylight": 0.0,
+      "cld": 79,
+      "rain": 53,
+      "busy": 1,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

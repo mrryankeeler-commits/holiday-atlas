@@ -1,0 +1,239 @@
+{
+  "id": "yerevan-armenia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/103294/Average-Weather-in-Yerevan-Armenia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Yerevan",
+  "country": "Armenia",
+  "region": "Ararat plain, central Armenia",
+  "desc": "Yerevan is a Ararat plain, central Armenia base shaped by cascade stairway views, republic square evenings, armenian brandy cellars. It suits caucasus city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Cascade stairway views",
+    "Republic Square evenings",
+    "Armenian brandy cellars",
+    "Mount Ararat backdrop",
+    "Ancient monastery day trips",
+    "Cafe-heavy city centre"
+  ],
+  "todo": [
+    {
+      "name": "Cascade Complex",
+      "cat": "Views",
+      "desc": "Climb the steps or use escalators for sculpture, city views and Mount Ararat glimpses on clear days."
+    },
+    {
+      "name": "Republic Square",
+      "cat": "Architecture",
+      "desc": "Return after dark for lit stone facades, fountains and easy orientation."
+    },
+    {
+      "name": "Matenadaran",
+      "cat": "Culture",
+      "desc": "Visit the manuscript museum to understand Armenia's written heritage before monastery trips."
+    },
+    {
+      "name": "Garni and Geghard day trip",
+      "cat": "History",
+      "desc": "Use a guided or taxi day for the Roman-style temple and rock-cut monastery outside the city."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "60-140 Mbps",
+      "note": "Typical visitor connectivity in Yerevan is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Yerevan uses one main airport close to the city; UK trips often connect through European or Gulf hubs, with summer diaspora travel lifting fares.",
+    "airports": [
+      {
+        "name": "Zvartnots International Airport",
+        "code": "EVN",
+        "km": 12,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Armenian dram (AMD)",
+    "lang": "Armenian; Russian and English appear in visitor services",
+    "tz": "AMT (UTC+4)",
+    "visa": "UK/Irish passport holders should verify Armenia entry rules before travel; short tourist visits are often visa-free for many European passports.",
+    "bestFor": [
+      "Caucasus city breaks",
+      "Monastery day trips",
+      "Food and wine weekends",
+      "Spring and autumn culture travel"
+    ],
+    "alerts": [
+      "Summer heat is strong on exposed city walks.",
+      "Clear Ararat views are weather and haze dependent.",
+      "Border and regional conditions should be checked before wider road trips."
+    ]
+  },
+  "sweet": "May, Jun and Sep are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 3,
+      "lo": -7,
+      "daylight": 9.7,
+      "cld": 43,
+      "rain": 2,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 0,
+      "hi": 6,
+      "lo": -5,
+      "daylight": 10.7,
+      "cld": 45,
+      "rain": 5,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 12,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 47,
+      "rain": 10,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 19,
+      "lo": 6,
+      "daylight": 13.3,
+      "cld": 47,
+      "rain": 20,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 24,
+      "lo": 11,
+      "daylight": 14.4,
+      "cld": 36,
+      "rain": 28,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 15.0,
+      "cld": 15,
+      "rain": 20,
+      "busy": 10,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 33,
+      "lo": 19,
+      "daylight": 14.7,
+      "cld": 4,
+      "rain": 13,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 33,
+      "lo": 18,
+      "daylight": 13.7,
+      "cld": 3,
+      "rain": 8,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 28,
+      "lo": 13,
+      "daylight": 12.4,
+      "cld": 12,
+      "rain": 10,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 20,
+      "lo": 7,
+      "daylight": 11.1,
+      "cld": 31,
+      "rain": 15,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 6,
+      "hi": 12,
+      "lo": 1,
+      "daylight": 9.9,
+      "cld": 39,
+      "rain": 13,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": -1,
+      "hi": 5,
+      "lo": -4,
+      "daylight": 9.4,
+      "cld": 41,
+      "rain": 5,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

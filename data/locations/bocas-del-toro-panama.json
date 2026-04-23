@@ -1,0 +1,249 @@
+{
+  "id": "bocas-del-toro-panama",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/16751/Average-Weather-in-Bocas-del-Toro-Panama-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bocas del Toro",
+  "country": "Panama",
+  "region": "Bocas del Toro Archipelago, Caribbean Panama",
+  "desc": "Bocas del Toro is a Bocas del Toro Archipelago, Caribbean Panama base shaped by caribbean island-hopping, red frog beach, water taxis between islands. It suits caribbean island hopping and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Caribbean island-hopping",
+    "Red Frog Beach",
+    "Water taxis between islands",
+    "Surf and snorkel seasons",
+    "Rainforest-meets-reef setting",
+    "Afro-Caribbean food culture"
+  ],
+  "todo": [
+    {
+      "name": "Island boat loop",
+      "cat": "Islands",
+      "desc": "Use water taxis or a boat tour to connect beaches, mangroves and snorkel stops across the archipelago."
+    },
+    {
+      "name": "Red Frog Beach",
+      "cat": "Beach",
+      "desc": "Spend a day on Isla Bastimentos for surf, jungle edges and a wilder beach feel."
+    },
+    {
+      "name": "Starfish Beach",
+      "cat": "Nature",
+      "desc": "Visit carefully and never handle starfish; the stop is best treated as wildlife viewing, not a prop photo."
+    },
+    {
+      "name": "Bocas Town evening",
+      "cat": "Local life",
+      "desc": "Use the stilt bars and casual restaurants for the archipelago's social centre."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-50 Mbps",
+      "note": "Typical visitor connectivity in Bocas del Toro is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Bocas uses small domestic flights or overland/water transfers; UK trips connect through Panama City or Costa Rica, with dry-season demand strongest.",
+    "airports": [
+      {
+        "name": "Bocas del Toro Isla Colon Airport",
+        "code": "BOC",
+        "km": 2,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Tocumen International Airport, Panama City",
+        "code": "PTY",
+        "km": 520,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "US dollar (USD) and Panamanian balboa (PAB)",
+    "lang": "Spanish; English is useful in Bocas and Panama City tourism services",
+    "tz": "EST (UTC-5)",
+    "visa": "UK/Irish passport holders should verify Panama entry rules, onward-ticket expectations and stay limits before travel.",
+    "bestFor": [
+      "Caribbean island hopping",
+      "Surf-and-snorkel trips",
+      "Backpacker beach stays",
+      "Dry-window winter escapes"
+    ],
+    "alerts": [
+      "Rain is common even in better months; protect electronics on boat transfers.",
+      "Water taxis can be choppy after dark or in squalls.",
+      "Respect wildlife rules around starfish and reefs."
+    ]
+  },
+  "sweet": "Jan, Feb and Mar tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 11.7,
+      "cld": 43,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 11.8,
+      "cld": 48,
+      "rain": 25,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 12.1,
+      "cld": 55,
+      "rain": 23,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Apr",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.3,
+      "cld": 72,
+      "rain": 69,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.6,
+      "cld": 90,
+      "rain": 180,
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.7,
+      "cld": 96,
+      "rain": 224,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.6,
+      "cld": 95,
+      "rain": 236,
+      "busy": 1,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.4,
+      "cld": 95,
+      "rain": 218,
+      "busy": 3,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 26,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 95,
+      "rain": 203,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 26,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.9,
+      "cld": 92,
+      "rain": 218,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 26,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 77,
+      "rain": 213,
+      "busy": 5,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 26,
+      "hi": 29,
+      "lo": 23,
+      "daylight": 11.6,
+      "cld": 51,
+      "rain": 104,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

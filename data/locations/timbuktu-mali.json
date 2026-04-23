@@ -1,0 +1,249 @@
+{
+  "id": "timbuktu-mali",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/36520/Average-Weather-in-Timbuktu-Mali-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Timbuktu",
+  "country": "Mali",
+  "region": "Tombouctou Region, Sahara edge",
+  "desc": "Timbuktu is a Tombouctou Region, Sahara edge base shaped by saharan manuscript heritage, mud-brick mosque architecture, niger bend history. It suits specialist heritage travel and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Saharan manuscript heritage",
+    "Mud-brick mosque architecture",
+    "Niger bend history",
+    "Legendary caravan-city identity",
+    "Desert-edge light",
+    "Remote Sahel setting"
+  ],
+  "todo": [
+    {
+      "name": "Sankore and Djinguereber mosque exteriors",
+      "cat": "History",
+      "desc": "View the historic mud-brick mosque architecture respectfully and with local guidance."
+    },
+    {
+      "name": "Manuscript heritage context",
+      "cat": "Culture",
+      "desc": "Learn about the city's manuscript libraries and preservation work through locally appropriate channels."
+    },
+    {
+      "name": "Old town walk",
+      "cat": "History",
+      "desc": "Use a guide to understand caravan routes, trade history and neighbourhood context."
+    },
+    {
+      "name": "Niger River approach",
+      "cat": "Landscape",
+      "desc": "If security and logistics allow, connect the desert-edge city with the wider Niger bend setting."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 1,
+      "spd": "2-15 Mbps",
+      "note": "Typical visitor connectivity in Timbuktu is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Timbuktu is not a routine leisure-flight destination; access depends on domestic/security conditions from Bamako and specialist operators rather than simple seasonal fares.",
+    "airports": [
+      {
+        "name": "Timbuktu Airport",
+        "code": "TOM",
+        "km": 5,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Bamako Modibo Keita International Airport",
+        "code": "BKO",
+        "km": 1000,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "West African CFA franc (XOF)",
+    "lang": "French and Bambara; local languages are widely used",
+    "tz": "GMT (UTC+0)",
+    "visa": "UK/Irish travellers should verify Mali visa and security requirements before considering travel.",
+    "bestFor": [
+      "Specialist heritage travel",
+      "Sahel history research",
+      "Guided expeditions only",
+      "Experienced travellers monitoring security"
+    ],
+    "alerts": [
+      "Check official travel advice closely; security conditions can make travel inappropriate.",
+      "Flights and overland access are highly variable.",
+      "Independent wandering is not advisable; use trusted local arrangements."
+    ]
+  },
+  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 21,
+      "hi": 28,
+      "lo": 14,
+      "daylight": 11.3,
+      "cld": 38,
+      "rain": 0,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 24,
+      "hi": 32,
+      "lo": 17,
+      "daylight": 11.6,
+      "cld": 34,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 28,
+      "hi": 36,
+      "lo": 21,
+      "daylight": 12.1,
+      "cld": 33,
+      "rain": 0,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 32,
+      "hi": 39,
+      "lo": 24,
+      "daylight": 12.5,
+      "cld": 36,
+      "rain": 0,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 35,
+      "hi": 42,
+      "lo": 28,
+      "daylight": 12.9,
+      "cld": 37,
+      "rain": 2,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 35,
+      "hi": 41,
+      "lo": 29,
+      "daylight": 13.1,
+      "cld": 33,
+      "rain": 10,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 33,
+      "hi": 38,
+      "lo": 28,
+      "daylight": 13.0,
+      "cld": 45,
+      "rain": 43,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Aug",
+      "avg": 31,
+      "hi": 37,
+      "lo": 27,
+      "daylight": 12.7,
+      "cld": 52,
+      "rain": 53,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 32,
+      "hi": 38,
+      "lo": 26,
+      "daylight": 12.2,
+      "cld": 42,
+      "rain": 28,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 31,
+      "hi": 38,
+      "lo": 24,
+      "daylight": 11.7,
+      "cld": 36,
+      "rain": 5,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 34,
+      "lo": 19,
+      "daylight": 11.3,
+      "cld": 41,
+      "rain": 0,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 22,
+      "hi": 29,
+      "lo": 15,
+      "daylight": 11.1,
+      "cld": 43,
+      "rain": 0,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

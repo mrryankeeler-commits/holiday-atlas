@@ -1,0 +1,249 @@
+{
+  "id": "theth-albania",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/85663/Average-Weather-in-Bajram-Curri-Albania-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Theth",
+  "country": "Albania",
+  "region": "Albanian Alps, Shkoder County",
+  "desc": "Theth is a Albanian Alps, Shkoder County base shaped by accursed mountains trailhead, blue eye of theth, stone lock-in tower. It suits mountain hiking trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Accursed Mountains trailhead",
+    "Blue Eye of Theth",
+    "Stone lock-in tower",
+    "Valbona pass hiking",
+    "Guesthouse mountain culture",
+    "Clear river pools"
+  ],
+  "todo": [
+    {
+      "name": "Valbona Pass hike",
+      "cat": "Hiking",
+      "desc": "Use Theth as one end of the classic pass walk, only tackling it with suitable weather and transport plans."
+    },
+    {
+      "name": "Blue Eye of Theth",
+      "cat": "Nature",
+      "desc": "Walk to the cold turquoise pool for one of the valley's signature day hikes."
+    },
+    {
+      "name": "Lock-in Tower",
+      "cat": "Culture",
+      "desc": "Visit the stone tower to understand local history and the Kanun traditions linked to the valley."
+    },
+    {
+      "name": "Grunas waterfall and canyon",
+      "cat": "Nature",
+      "desc": "Combine the waterfall and canyon for a shorter walk close to the village."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "8-30 Mbps",
+      "note": "Typical visitor connectivity in Theth is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Theth has no airport; Tirana and Podgorica are road gateways, and mountain-road transfer times vary sharply with season and weather.",
+    "airports": [
+      {
+        "name": "Tirana International Airport",
+        "code": "TIA",
+        "km": 160,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Podgorica Airport",
+        "code": "TGD",
+        "km": 120,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Albanian lek (ALL)",
+    "lang": "Albanian; English is common in tourism pockets",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "UK/Irish passport holders should verify Albania entry rules before travel; short visa-free stays are commonly available for tourism.",
+    "bestFor": [
+      "Mountain hiking trips",
+      "Guesthouse-to-guesthouse travel",
+      "Cooler summer escapes",
+      "Photographers wanting rugged valleys"
+    ],
+    "alerts": [
+      "High-pass hikes are seasonal and can hold snow or storm risk outside summer.",
+      "Road access has improved but transfer times remain weather-sensitive.",
+      "Carry cash; card acceptance is limited in village guesthouses."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 2,
+      "hi": 7,
+      "lo": -2,
+      "daylight": 9.5,
+      "cld": 53,
+      "rain": 71,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 3,
+      "hi": 8,
+      "lo": -1,
+      "daylight": 10.6,
+      "cld": 54,
+      "rain": 74,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 12,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 53,
+      "rain": 71,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 13.4,
+      "cld": 52,
+      "rain": 74,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 22,
+      "lo": 11,
+      "daylight": 14.6,
+      "cld": 46,
+      "rain": 56,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 21,
+      "hi": 26,
+      "lo": 14,
+      "daylight": 15.2,
+      "cld": 28,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 23,
+      "hi": 29,
+      "lo": 17,
+      "daylight": 14.9,
+      "cld": 14,
+      "rain": 30,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 23,
+      "hi": 29,
+      "lo": 17,
+      "daylight": 13.8,
+      "cld": 18,
+      "rain": 36,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 18,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 12.4,
+      "cld": 34,
+      "rain": 74,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 11.0,
+      "cld": 47,
+      "rain": 91,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 12,
+      "lo": 3,
+      "daylight": 9.8,
+      "cld": 55,
+      "rain": 112,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 3,
+      "hi": 7,
+      "lo": -1,
+      "daylight": 9.1,
+      "cld": 56,
+      "rain": 91,
+      "busy": 1,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "cheddar-england",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-23",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/39570/Average-Weather-in-Cheddar-United-Kingdom-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-23",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Cheddar",
+  "country": "England",
+  "region": "Mendip Hills, Somerset",
+  "desc": "Cheddar is a Mendip Hills, Somerset base shaped by cheddar gorge cliffs, cave tours, mendip hills walks. It suits gorge walks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "hls": [
+    "Cheddar Gorge cliffs",
+    "Cave tours",
+    "Mendip Hills walks",
+    "Cheddar cheese heritage",
+    "Clifftop viewpoints",
+    "Bristol and Wells side trips"
+  ],
+  "todo": [
+    {
+      "name": "Cheddar Gorge cliff walk",
+      "cat": "Walking",
+      "desc": "Take the clifftop route for views into the gorge, allowing for wind and muddy sections."
+    },
+    {
+      "name": "Gough's Cave",
+      "cat": "Caves",
+      "desc": "Use the show-cave visit for geology, prehistory and a reliable rainy-day plan."
+    },
+    {
+      "name": "Cheddar cheese tasting",
+      "cat": "Food",
+      "desc": "Tie the village's name to actual cheddar-making heritage rather than just the scenery."
+    },
+    {
+      "name": "Wells side trip",
+      "cat": "Culture",
+      "desc": "Add Wells Cathedral and the Bishop's Palace for an easy heritage extension."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Typical visitor connectivity in Cheddar is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Cheddar has no airport; Bristol is very close, and demand is driven more by UK school holidays and weekend day trips than flight seasonality.",
+    "airports": [
+      {
+        "name": "Bristol Airport",
+        "code": "BRS",
+        "km": 18,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Cardiff Airport",
+        "code": "CWL",
+        "km": 95,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
+        "name": "London Heathrow Airport",
+        "code": "LHR",
+        "km": 180,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Pound sterling (GBP)",
+    "lang": "English; Somerset and Mendip place names are common in local visitor context",
+    "tz": "GMT/BST (UTC+0/+1)",
+    "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
+    "bestFor": [
+      "Gorge walks",
+      "Family cave days",
+      "Somerset road trips",
+      "Short nature breaks from Bristol"
+    ],
+    "alerts": [
+      "Clifftop paths can be slippery after rain.",
+      "Parking fills on sunny weekends and school holidays.",
+      "Caves and attractions have seasonal opening patterns."
+    ]
+  },
+  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 8.5,
+      "cld": 67,
+      "rain": 61,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 5,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 10.0,
+      "cld": 63,
+      "rain": 48,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 10,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 62,
+      "rain": 43,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 13.9,
+      "cld": 55,
+      "rain": 38,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 12,
+      "hi": 16,
+      "lo": 8,
+      "daylight": 15.6,
+      "cld": 52,
+      "rain": 43,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 15,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 16.5,
+      "cld": 49,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 16.0,
+      "cld": 43,
+      "rain": 41,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 20,
+      "lo": 13,
+      "daylight": 14.5,
+      "cld": 46,
+      "rain": 43,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 12.6,
+      "cld": 49,
+      "rain": 48,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 10.6,
+      "cld": 57,
+      "rain": 66,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 11,
+      "lo": 6,
+      "daylight": 8.9,
+      "cld": 65,
+      "rain": 69,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 6,
+      "hi": 8,
+      "lo": 3,
+      "daylight": 8.0,
+      "cld": 69,
+      "rain": 69,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

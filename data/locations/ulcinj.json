@@ -2,16 +2,16 @@
   "id": "ulcinj",
   "source": {
     "climateVerified": true,
-    "climateVerifiedOn": "2026-04-15",
+    "climateVerifiedOn": "2026-04-23",
     "climate": [
       {
         "name": "WeatherSpark",
         "url": "https://weatherspark.com/y/84403/Average-Weather-in-Ulcinj-Montenegro-Year-Round"
       }
     ],
-    "importedFromCsv": "data/climate/uploads/monthly_climate_01.csv",
+    "importedFromCsv": "data/climate/uploads/Climate_Date_07 - Climate Data.csv",
     "scoring": {
-      "reviewedOn": "2026-04-15",
+      "reviewedOn": "2026-04-23",
       "profile": "seasonality-inference-v1"
     }
   },
@@ -126,7 +126,7 @@
       "daylight": 10.6,
       "cld": 50,
       "rain": 112,
-      "busy": 1,
+      "busy": 3,
       "ac": 1,
       "fl": 1
     },
@@ -138,8 +138,8 @@
       "daylight": 12.0,
       "cld": 49,
       "rain": 91,
-      "busy": 2,
-      "ac": 1,
+      "busy": 4,
+      "ac": 2,
       "fl": 2
     },
     {
@@ -150,8 +150,8 @@
       "daylight": 13.4,
       "cld": 47,
       "rain": 86,
-      "busy": 4,
-      "ac": 2,
+      "busy": 5,
+      "ac": 3,
       "fl": 3
     },
     {
@@ -164,7 +164,7 @@
       "rain": 56,
       "busy": 7,
       "ac": 4,
-      "fl": 3
+      "fl": 4
     },
     {
       "m": "Jun",
@@ -174,8 +174,8 @@
       "daylight": 15.2,
       "cld": 25,
       "rain": 38,
-      "busy": 9,
-      "ac": 5,
+      "busy": 10,
+      "ac": 4,
       "fl": 4
     },
     {
@@ -186,7 +186,7 @@
       "daylight": 14.9,
       "cld": 11,
       "rain": 20,
-      "busy": 10,
+      "busy": 9,
       "ac": 5,
       "fl": 5
     },
@@ -198,7 +198,7 @@
       "daylight": 13.8,
       "cld": 15,
       "rain": 33,
-      "busy": 10,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -222,9 +222,9 @@
       "daylight": 11.0,
       "cld": 42,
       "rain": 109,
-      "busy": 5,
+      "busy": 6,
       "ac": 3,
-      "fl": 2
+      "fl": 3
     },
     {
       "m": "Nov",
@@ -248,7 +248,7 @@
       "rain": 124,
       "busy": 2,
       "ac": 2,
-      "fl": 3
+      "fl": 2
     }
   ]
 }
