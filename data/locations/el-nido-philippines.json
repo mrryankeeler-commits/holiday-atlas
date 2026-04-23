@@ -18,7 +18,7 @@
   "city": "El Nido",
   "country": "Philippines",
   "region": "Northern Palawan",
-  "desc": "El Nido is a Northern Palawan base shaped by bacuit bay limestone lagoons, island-hopping boat tours, nacpan beach. It suits island-hopping honeymoons and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "El Nido is the headline act of northern Palawan: a compact, busy beach town wrapped in dark limestone cliffs and used mainly as the launchpad for Bacuit Bay's lagoons, coves and island-hopping routes. It is spectacular when weather and boats align, but it is not a remote-empty paradise in the literal sense; the town itself is dense, transfer-heavy and strongly shaped by tour schedules, small-airport capacity and sea conditions.",
   "hls": [
     "Bacuit Bay limestone lagoons",
     "Island-hopping boat tours",
@@ -47,20 +47,30 @@
       "name": "Taraw viewpoint area",
       "cat": "Views",
       "desc": "Pick a safe guided viewpoint or canopy walk rather than attempting risky informal climbs."
+    },
+    {
+      "name": "Seven Commandos or Maremegmeg sunset",
+      "cat": "Beach",
+      "desc": "Use an easy late-day beach stop for a lower-effort break from boat schedules and tricycle traffic."
+    },
+    {
+      "name": "Lio beach and cafe stop",
+      "cat": "Beach town",
+      "desc": "Spend a slower half-day near the airport side if you want a tidier, less cramped alternative to the main town strip."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "10-45 Mbps",
-      "note": "Typical visitor connectivity in El Nido is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usable in better hotels, cafes and some co-working-oriented stays, but power cuts, weather, island-hopping days and smaller guesthouses make it too patchy to treat as frictionless remote-work infrastructure."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "El Nido has a small airport with limited seats; Puerto Princesa is the fallback but adds a long road transfer, especially busy in dry-season peaks.",
+    "fltNote": "El Nido's own Lio airport keeps the final transfer easy but seat supply is limited and usually relies on domestic links via Manila or other Philippine hubs. Puerto Princesa is the usual fallback, but that swaps flight availability for a long van transfer north, so weather, arrival time and tour-day sequencing matter more here than in a standard fly-and-flop beach destination.",
     "airports": [
       {
         "name": "El Nido Lio Airport",
@@ -86,20 +96,23 @@
     "currency": "Philippine peso (PHP)",
     "lang": "Filipino and English; regional languages vary",
     "tz": "PHT (UTC+8)",
-    "visa": "UK/Irish passport holders should verify Philippines visa-free stay limits and onward-ticket rules before travel.",
+    "visa": "British citizens can visit the Philippines visa-free for up to 30 days for tourism, but GOV.UK says you need a passport valid for at least 6 months, proof of onward travel, and should complete the Philippines eTravel registration before departure.",
     "bestFor": [
       "Island-hopping honeymoons",
       "Limestone lagoon photography",
       "Dry-season tropical trips",
-      "Backpacker-to-boutique beach stays"
+      "Backpacker-to-boutique beach stays",
+      "Boat-day focused holidays",
+      "Palawan trip splurges"
     ],
     "alerts": [
       "Boat tours are weather and sea-state dependent.",
       "Small-airport seats sell out early in high season.",
+      "Town streets are tighter, busier and noisier than many first-time visitors expect from the brochure images.",
       "Cash and backup connectivity help outside higher-end resorts."
     ]
   },
-  "sweet": "Jan, Feb and Mar tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "sweet": "January to March is usually the strongest window for calmer boat conditions, brighter lagoon days and fewer transfer headaches than the wetter middle of the year.",
   "months": [
     {
       "m": "Jan",

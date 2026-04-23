@@ -18,7 +18,7 @@
   "city": "Granada",
   "country": "Nicaragua",
   "region": "Lake Nicaragua, Granada Department",
-  "desc": "Granada is a Lake Nicaragua, Granada Department base shaped by colonial plaza colour, islets of granada boats, mombacho volcano views. It suits colonial lake stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Granada is the more polished face of inland Nicaragua: a colour-soaked colonial city on the edge of Lake Nicaragua, built for courtyard hotels, carriage-clattering streets, church towers and easy boat or volcano day trips. Compared with Leon it feels slower, prettier and more boutique, making it stronger for couples and first-time visitors who want atmosphere without giving up easy logistics.",
   "hls": [
     "Colonial plaza colour",
     "Islets of Granada boats",
@@ -47,20 +47,30 @@
       "name": "Masaya Volcano night visit",
       "cat": "Volcano",
       "desc": "If conditions allow, add the lava-glow viewpoint as a dramatic evening trip."
+    },
+    {
+      "name": "La Merced tower",
+      "cat": "Views",
+      "desc": "Climb the bell tower for tiled-roof views that show off Granada's church domes and courtyard pattern."
+    },
+    {
+      "name": "Convento San Francisco",
+      "cat": "Culture",
+      "desc": "Use the museum stop for indigenous sculpture and a more grounded sense of Granada's layered history."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "25-70 Mbps",
-      "note": "Typical visitor connectivity in Granada is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually solid in courtyard hotels, cafes and co-working-friendly stays around the centre, though lake outings, volcano trips and cheaper guesthouses are less dependable."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Granada is reached through Managua airport, and dry-season demand plus holiday periods shape both transfers and hotel rates.",
+    "fltNote": "Granada is close enough to Managua airport to work well as a first or last-night base, but it is still a transfer destination rather than a fly-straight-in city. From the UK, expect at least one long-haul connection and remember that Christmas, Easter and the driest early-year months can tighten both hotel pricing and private-transfer availability.",
     "airports": [
       {
         "name": "Augusto C. Sandino International Airport",
@@ -76,20 +86,23 @@
     "currency": "Nicaraguan cordoba (NIO); US dollars are useful in tourism",
     "lang": "Spanish; English varies outside tourism operators",
     "tz": "CST (UTC-6)",
-    "visa": "UK/Irish passport holders should verify Nicaragua entry card, passport and onward-ticket rules before travel.",
+    "visa": "British citizens do not need a visa for short visits to Nicaragua, but GOV.UK says you should be ready for entry documentation, possible onward-travel checks, and a passport valid for the length of your stay plus any airline-imposed buffer.",
     "bestFor": [
       "Colonial lake stays",
       "Volcano-and-market day trips",
       "Budget boutique hotels",
-      "Warm winter escapes"
+      "Warm winter escapes",
+      "Couples wanting atmosphere without resort isolation",
+      "First-stop Nicaragua itineraries"
     ],
     "alerts": [
       "Lakefront insects and heat increase in wetter months.",
       "Masaya access can change with volcanic activity and park rules.",
+      "Horse-carriage pitches and central-tour sales are part of the city rhythm, so prices are smoother if you compare options rather than book the first offer.",
       "Use trusted transport for late airport arrivals."
     ]
   },
-  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "January, February and December are usually Granada's easiest months for dry evenings, reliable boat and volcano outings, and the strongest city-break atmosphere.",
   "months": [
     {
       "m": "Jan",

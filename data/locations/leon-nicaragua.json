@@ -18,7 +18,7 @@
   "city": "Leon",
   "country": "Nicaragua",
   "region": "Leon Department, western Nicaragua",
-  "desc": "Leon is a Leon Department, western Nicaragua base shaped by white cathedral rooftop, volcano boarding access, revolutionary murals. It suits colonial city culture and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Leon is Nicaragua's rougher-edged colonial counterweight to Granada: a hot, low-rise university city where revolutionary history, mural-covered streets and one of Central America's most striking cathedrals sit within easy reach of ash-black volcano adventures and Pacific surf. It works best for travellers who want a city with real local rhythm and a strong day-trip menu rather than a polished lakefront boutique base.",
   "hls": [
     "White cathedral rooftop",
     "Volcano boarding access",
@@ -47,20 +47,30 @@
       "name": "Las Penitas beach",
       "cat": "Coast",
       "desc": "Head west for surf, seafood and sunset when the city heat builds."
+    },
+    {
+      "name": "Murals and street-art walk",
+      "cat": "Culture",
+      "desc": "Use the city centre's political murals and faded facades to understand why Leon feels more radical and less manicured than Granada."
+    },
+    {
+      "name": "Ruins of Leon Viejo",
+      "cat": "History",
+      "desc": "Add the UNESCO-listed original colonial settlement if you want a deeper historical layer beyond the current city."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-55 Mbps",
-      "note": "Typical visitor connectivity in Leon is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually workable in central cafes, hostels and mid-range hotels, but consistency drops fast once you move to budget guesthouses, beach day trips or volcano excursions."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Leon has no airport; Managua is the practical gateway, with overland transfers and volcano tours easiest in the drier months.",
+    "fltNote": "Leon is normally reached overland from Managua rather than by air, so even though the airport hop is straightforward on paper, the real planning question is how cleanly your arrival time matches the onward road transfer west. From the UK this is a long-haul, one-stop trip at best, and late arrivals into Managua can make the first night in the capital the more sensible option.",
     "airports": [
       {
         "name": "Augusto C. Sandino International Airport",
@@ -76,20 +86,23 @@
     "currency": "Nicaraguan cordoba (NIO); US dollars are useful in tourism",
     "lang": "Spanish; English varies outside tourism operators",
     "tz": "CST (UTC-6)",
-    "visa": "UK/Irish passport holders should verify Nicaragua entry card, passport and onward-ticket rules before travel.",
+    "visa": "British citizens do not need a visa for short visits to Nicaragua, but GOV.UK says you should expect to complete entry documentation, show onward or return travel, and carry a passport valid for the length of your stay plus any airline-imposed buffer.",
     "bestFor": [
       "Colonial city culture",
       "Volcano adventure days",
       "Budget Central America travel",
-      "Backpacker-style itineraries"
+      "Backpacker-style itineraries",
+      "Street-art and political-history travel",
+      "Surf-plus-city combinations"
     ],
     "alerts": [
       "Heat is severe in late dry season; start city walks early.",
       "Volcano trips are wind and safety dependent.",
+      "Las Penitas and Cerro Negro outings are easy to book, but transport coordination is less seamless than in more packaged destinations.",
       "Check current local travel advice and protest/security conditions before travel."
     ]
   },
-  "sweet": "Feb, Nov and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "February, November and December are usually the best mix of manageable heat, easier volcano and beach day trips, and lower disruption risk than the wetter middle of the year.",
   "months": [
     {
       "m": "Jan",
