@@ -18,7 +18,7 @@
   "city": "Siena",
   "country": "Italy",
   "region": "Tuscany",
-  "desc": "Siena is a Tuscany base shaped by piazza del campo, duomo marble interiors, contrade and palio culture. It suits medieval city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Siena is one of the few Italian city breaks where the famous square is only the surface layer. The shell of Piazza del Campo, the striped Duomo, the weight of contrada identity and the city's brick-and-stone medieval fabric make it feel ceremonial, proud and unusually self-contained even by Tuscan standards.",
   "hls": [
     "Piazza del Campo",
     "Duomo marble interiors",
@@ -47,20 +47,30 @@
       "name": "Chianti or Val d'Orcia day trip",
       "cat": "Countryside",
       "desc": "Use Siena as a base for vineyards, hill towns and cypress-lined roads."
+    },
+    {
+      "name": "Evening Campo circuit",
+      "cat": "Atmosphere",
+      "desc": "Stay in the centre after day-trippers thin out, when Siena feels less like a museum stop and more like a lived-in city."
+    },
+    {
+      "name": "Santa Maria della Scala or civic museum",
+      "cat": "Art & history",
+      "desc": "Give Siena indoor time as well as skyline views so the city's political and religious history actually lands."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Siena is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually reliable in hotels, apartments and cafes, but the old-city building stock can make signal strength inconsistent room to room and the bigger practical issue is navigating the car-restricted centre, not staying online."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Siena has no commercial airport; Florence and Pisa are the most practical gateways, with Palio dates and summer Tuscany demand driving room pressure.",
+    "fltNote": "Siena has no airport. Pisa is often the simplest Gatwick gateway, while Florence is geographically tidier if the air options suit you; Rome Fiumicino is workable but usually the long-way-round choice. The real planning issue is not the flight but Palio and high-summer Tuscany pressure, when rooms and trains tighten quickly.",
     "airports": [
       {
         "name": "Florence Airport",
@@ -76,9 +86,9 @@
         "name": "Pisa Airport",
         "code": "PSA",
         "km": 120,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,9 +96,9 @@
         "name": "Rome Fiumicino Airport",
         "code": "FCO",
         "km": 250,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -109,7 +119,7 @@
       "Summer afternoons are exposed on stone streets."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "Late April to June and September to October are usually Siena's best windows: the city is lively, the countryside works beautifully as a side trip, and you dodge some of the hardest midsummer heat and Palio-driven pressure.",
   "months": [
     {
       "m": "Jan",

@@ -18,7 +18,7 @@
   "city": "Hadibu",
   "country": "Yemen",
   "region": "Socotra Island, Arabian Sea",
-  "desc": "Hadibu is a Socotra Island, Arabian Sea base shaped by socotra dragon blood trees, dixam plateau landscapes, detwah lagoon. It suits expedition-style nature travel and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Hadibu is the rough practical base for Socotra rather than the reason to go in itself: supplies, guides, vehicles and island logistics tend to funnel through town before people head out toward dragon blood tree plateaus, lagoons and one of the most distinctive biodiversity landscapes on earth. The natural value is extraordinary, but this is not normal leisure travel and current security advice matters more than climate perfection.",
   "hls": [
     "Socotra dragon blood trees",
     "Dixam Plateau landscapes",
@@ -53,14 +53,14 @@
     "wifi": {
       "r": 1,
       "spd": "2-15 Mbps",
-      "note": "Typical visitor connectivity in Hadibu is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Connectivity is limited and inconsistent even by remote-island standards; expect weak hotel setups, patchy mobile data and long stretches where expedition logistics matter far more than being reachable."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Hadibu is served by limited Socotra flights; access depends on permits, security conditions and specialist logistics rather than normal leisure seasonality.",
+    "fltNote": "Hadibu is not a normal book-a-flight destination. Socotra access depends on limited air links, permit and operator arrangements, and the wider Yemen security picture; current UK advice is against all travel to Yemen, so route existence does not make the trip straightforward or currently appropriate for ordinary holiday planning.",
     "airports": [
       {
         "name": "Socotra Airport",
@@ -86,7 +86,7 @@
     "currency": "Yemeni rial (YER)",
     "lang": "Arabic",
     "tz": "AST (UTC+3)",
-    "visa": "UK/Irish travellers should verify Yemen visa, security and access requirements before considering travel.",
+    "visa": "British travellers considering Socotra need to understand that FCDO currently advises against all travel to Yemen. Entry rules, permits and practical access should only be assessed in that context, and normal leisure-planning assumptions do not apply.",
     "bestFor": [
       "Expedition-style nature travel",
       "Endemic wildlife interest",
@@ -94,12 +94,12 @@
       "Experienced travellers with guides"
     ],
     "alerts": [
-      "Check official travel advice; Yemen/Socotra access can be restricted or inappropriate.",
+      "FCDO currently advises against all travel to Yemen, including the wider Yemen context around Socotra.",
       "Use local guides and low-impact practices around fragile endemic ecosystems.",
-      "Medical and connectivity backup is limited."
+      "Medical support, evacuation options and connectivity are all very limited."
     ]
   },
-  "sweet": "Feb, Nov and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "From a climate-only point of view, the cooler months are the easiest, but that should not be read as a travel recommendation while UK advice remains against all travel to Yemen.",
   "months": [
     {
       "m": "Jan",
