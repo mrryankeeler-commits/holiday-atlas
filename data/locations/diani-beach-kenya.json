@@ -18,7 +18,7 @@
   "city": "Diani Beach",
   "country": "Kenya",
   "region": "Kwale County, south coast Kenya",
-  "desc": "Diani Beach is a Kwale County, south coast Kenya base shaped by white sand and reef lagoon, colobus monkey sightings, kite and dive seasons. It suits beach resort downtime and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Diani Beach is one of East Africa's easier coast add-ons if you want long white sand, warm water and resort comfort without giving up access to reefs, kite spots and a little wildlife interest inland. It works best as a laid-back beach base with selective outings, because tides, marine conditions and transfer times all matter more than the map initially suggests.",
   "hls": [
     "White sand and reef lagoon",
     "Colobus monkey sightings",
@@ -47,20 +47,30 @@
       "name": "Kongo River sunset",
       "cat": "Local scenery",
       "desc": "Head toward the river mouth for a quieter late-day view away from the central resort strip."
+    },
+    {
+      "name": "Kaya Kinondo Sacred Forest",
+      "cat": "Culture & nature",
+      "desc": "Add a guided forest visit for a break from the beach and a better sense of local Mijikenda heritage."
+    },
+    {
+      "name": "Galu beach walk",
+      "cat": "Beach",
+      "desc": "Use the southern end of the coast for a longer, quieter sand walk when the central resort area feels too busy."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "25-75 Mbps",
-      "note": "Typical visitor connectivity in Diani Beach is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually fine in established resorts, cowork-friendly cafes and villa compounds, but beach stretches, marine trips and some smaller boutique stays are patchier than the main strip suggests."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Diani is reached via Ukunda domestic flights or Mombasa plus road/ferry transfer; UK long-haul demand is strongest in winter and school holidays.",
+    "fltNote": "Diani has no practical direct UK routing. Most travellers either connect onto Ukunda for the shortest final transfer or fly into Mombasa and finish by road to the south coast, which can still take longer than it looks once traffic stacks up. UK demand is strongest in winter-sun periods, Christmas and safari-plus-beach combinations rather than evenly across the year.",
     "airports": [
       {
         "name": "Ukunda Airstrip",
@@ -86,20 +96,23 @@
     "currency": "Kenyan shilling (KES)",
     "lang": "Swahili and English",
     "tz": "EAT (UTC+3)",
-    "visa": "Kenya uses electronic travel authorisation/entry permission processes; UK/Irish travellers should verify requirements before booking.",
+    "visa": "Kenya requires advance electronic travel authorisation for most British visitors, and GOV.UK says the local authorities recommend applying at least 2 weeks before departure.",
     "bestFor": [
       "Beach resort downtime",
       "Kitesurf and dive trips",
       "Safari-and-coast combinations",
-      "Winter sun escapes"
+      "Winter sun escapes",
+      "Indian Ocean snorkelling",
+      "Long-stay beach resets"
     ],
     "alerts": [
       "Reef walking needs footwear and tide awareness.",
-      "Mombasa ferry/road transfers can be slow.",
-      "Use reputable operators for marine wildlife trips."
+      "Final transfers from Mombasa can be slow even when the straight-line distance looks modest.",
+      "Use reputable operators for marine wildlife trips.",
+      "Beach quality changes with tides, sea grass and wind, so the sea can look very different from brochure photos."
     ]
   },
-  "sweet": "Jul, Aug and Sep tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "sweet": "July to September are usually the cleanest window for beach time, marine trips and lower-humidity days, while January and February are strong if you want hotter winter-sun weather.",
   "months": [
     {
       "m": "Jan",

@@ -18,7 +18,7 @@
   "city": "Cheddar",
   "country": "England",
   "region": "Mendip Hills, Somerset",
-  "desc": "Cheddar is a Mendip Hills, Somerset base shaped by cheddar gorge cliffs, cave tours, mendip hills walks. It suits gorge walks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Cheddar is less a neat village break than a gorge-and-caves stop with a proper limestone landscape around it: steep cliff walls, show caves, Jacob's Ladder views and quick escapes onto the Mendip plateau. It works best when you treat it as a short active base for walking, geology and Somerset side trips rather than expecting a large town with lots of evening life.",
   "hls": [
     "Cheddar Gorge cliffs",
     "Cave tours",
@@ -47,20 +47,30 @@
       "name": "Wells side trip",
       "cat": "Culture",
       "desc": "Add Wells Cathedral and the Bishop's Palace for an easy heritage extension."
+    },
+    {
+      "name": "Jacob's Ladder and lookout tower",
+      "cat": "Views",
+      "desc": "Climb the steps for the classic top-down view over the gorge if you are happy with the effort and exposure."
+    },
+    {
+      "name": "Mendip plateau walk",
+      "cat": "Walking",
+      "desc": "Use a shorter upland circuit to see beyond the ticketed gorge attractions and into the wider Mendip landscape."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Cheddar is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually dependable in village cafes, inns and larger stays, but cave interiors, clifftop stretches and smaller guesthouses are less consistent than the centre suggests."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Cheddar has no airport; Bristol is very close, and demand is driven more by UK school holidays and weekend day trips than flight seasonality.",
+    "fltNote": "Cheddar has no airport and no destination-level LGW/LCY nonstop routing. Bristol is the obvious air gateway, but in practice this is a drive-first or airport-plus-car-hire destination where weekend parking pressure matters more than airfare patterns. School holidays, bank-holiday traffic and attraction opening times shape the trip more than any flight market does.",
     "airports": [
       {
         "name": "Bristol Airport",
@@ -101,15 +111,18 @@
       "Gorge walks",
       "Family cave days",
       "Somerset road trips",
-      "Short nature breaks from Bristol"
+      "Short nature breaks from Bristol",
+      "Geology-focused day trips",
+      "Active shoulder-season weekends"
     ],
     "alerts": [
       "Clifftop paths can be slippery after rain.",
       "Parking fills on sunny weekends and school holidays.",
-      "Caves and attractions have seasonal opening patterns."
+      "Caves and attractions have seasonal opening patterns.",
+      "The village is compact and attractive, but it does not have a huge evening dining scene if you stay overnight."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are usually the best balance for dry walking windows, open attractions and easier parking than the busiest school-holiday weeks.",
   "months": [
     {
       "m": "Jan",

@@ -18,7 +18,7 @@
   "city": "Durres",
   "country": "Albania",
   "region": "Adriatic coast, Durres County",
-  "desc": "Durres is a Adriatic coast, Durres County base shaped by roman amphitheatre, long adriatic beach strip, seafront xhiro culture. It suits low-cost adriatic breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Durres is the practical, lower-frills side of the Albanian coast: a big Roman amphitheatre, a broad urban beach strip, evening xhiro along the seafront and an easy hop from Tirana's airport. It is more useful than pretty, but that makes it a workable base for budget beach time, Albanian city access and travellers who do not need a polished old-town resort.",
   "hls": [
     "Roman amphitheatre",
     "Long Adriatic beach strip",
@@ -47,28 +47,38 @@
       "name": "Tirana day trip",
       "cat": "City add-on",
       "desc": "Use the short road link to add Albania's capital without changing base."
+    },
+    {
+      "name": "Forum and bath remains",
+      "cat": "History",
+      "desc": "Add the scattered Roman and Byzantine fragments around the centre so the city reads as more than just beach frontage."
+    },
+    {
+      "name": "Vollga promenade at dusk",
+      "cat": "Seafront",
+      "desc": "Join the evening walk when locals come out and the seafront feels busiest and most social."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Durres is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Generally good in seafront hotels, apartments and central cafes, but some older buildings and beach sections are less consistent once you move away from the main strip."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Durres is reached through Tirana airport; summer beach traffic can make the short transfer much slower on weekends.",
+    "fltNote": "Durres is reached through Tirana International Airport rather than by flying into the destination itself. Tirana currently has a London Gatwick nonstop, so airport access is easy, but the last leg can still drag on in summer because beach traffic and Friday-Sunday movements slow the otherwise short transfer. Destination-level nonstop flags stay false because the flight is to Tirana, not Durres.",
     "airports": [
       {
         "name": "Tirana International Airport",
         "code": "TIA",
         "km": 33,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -76,20 +86,23 @@
     "currency": "Albanian lek (ALL)",
     "lang": "Albanian; English is common in tourism pockets",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "UK/Irish passport holders should verify Albania entry rules before travel; short visa-free stays are commonly available for tourism.",
+    "visa": "British citizens can visit Albania visa-free for up to 90 days in any 180-day period, and GOV.UK says your passport should be valid for at least 3 months after the day you plan to leave.",
     "bestFor": [
       "Low-cost Adriatic breaks",
       "History plus beach trips",
       "Tirana-adjacent stays",
-      "Families wanting easy logistics"
+      "Families wanting easy logistics",
+      "Airport-convenient coast breaks",
+      "Urban beach weekends"
     ],
     "alerts": [
       "Urban beach quality varies by section; choose accommodation carefully.",
       "Weekend traffic from Tirana is heavy in summer.",
-      "Construction and beach-club noise can affect seafront stays."
+      "Construction and beach-club noise can affect seafront stays.",
+      "Some of the best-known archaeology is compact rather than grand, so expectations should match the city's practical feel."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "June and September are usually the best balance for warm sea weather, lighter traffic and a more relaxed seafront than peak July and August.",
   "months": [
     {
       "m": "Jan",
