@@ -18,7 +18,7 @@
   "city": "Gothenburg",
   "country": "Sweden",
   "region": "Vastra Gotaland, Swedish west coast",
-  "desc": "Gothenburg is a Vastra Gotaland, Swedish west coast base shaped by west-coast seafood, archipelago ferries, liseberg amusement park. It suits seafood weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Gothenburg is Sweden's softer, saltier second city: a tram-and-canal west-coast hub where seafood, design, brewery bars, Haga cafés and easy archipelago ferries give it a more relaxed rhythm than Stockholm. It suits travellers who want a city break with water, food and neighbourhood character rather than monument-chasing intensity.",
   "hls": [
     "West-coast seafood",
     "Archipelago ferries",
@@ -47,20 +47,30 @@
       "name": "Haga district",
       "cat": "Neighbourhood",
       "desc": "Walk cobbled streets, browse small shops and split an oversized cinnamon bun."
+    },
+    {
+      "name": "Stenpiren or Saltholmen archipelago jump-off",
+      "cat": "Waterfront movement",
+      "desc": "Treat the ferry system as part of the city experience, not a side detail, because Gothenburg's island access is one of its biggest advantages."
+    },
+    {
+      "name": "Lindholmen or city-sauna evening",
+      "cat": "Modern city feel",
+      "desc": "Balance the postcard districts with one more contemporary waterside area if you want the full range of Gothenburg's personality."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "70-160 Mbps",
-      "note": "Typical visitor connectivity in Gothenburg is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Excellent across hotels, cafés, trams and much of the city centre, so Gothenburg is easy to navigate and re-plan from on the fly; ferry days are the only times it feels less frictionless."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Gothenburg is a straightforward one-airport city; UK schedules vary by airline and season, while summer events and Liseberg dates lift fares and rooms.",
+    "fltNote": "Landvetter makes Gothenburg easy to use, and Swedavia's airport information confirms London is one of its nonstop markets even though the destination-level LGW and LCY flags remain false here. In practice the city is simple once you land; the bigger price swings come from summer event traffic, Liseberg peaks and long-light weekend demand rather than from difficult transfers.",
     "airports": [
       {
         "name": "Goteborg Landvetter Airport",
@@ -89,7 +99,7 @@
       "Major events can make central hotels expensive for a city of this size."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May to August is usually Gothenburg's best stretch for archipelago ferries, outdoor seafood terraces and those very long Scandinavian evenings, with June and early September especially good if you want light without absolute peak pressure.",
   "months": [
     {
       "m": "Jan",

@@ -18,7 +18,7 @@
   "city": "Kuressaare",
   "country": "Estonia",
   "region": "Saaremaa Island, Western Estonia",
-  "desc": "Kuressaare is a Saaremaa Island, Western Estonia base shaped by kuressaare castle, saaremaa spa culture, windmills and island roads. It suits quiet baltic island breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Kuressaare is the calm, low-rise heart of Saaremaa: a spa-town island capital where a medieval castle, juniper-scented coast, cycling roads and old resort traditions combine into one of the Baltics' gentlest slow-travel bases. It works best for travellers who like small places with room to breathe rather than packed city-break checklists.",
   "hls": [
     "Kuressaare Castle",
     "Saaremaa spa culture",
@@ -47,20 +47,30 @@
       "name": "Sõrve Peninsula",
       "cat": "Coast",
       "desc": "Head south for lighthouse views, windswept beaches and a sense of the island's scale."
+    },
+    {
+      "name": "Town park and old resort streets",
+      "cat": "Spa-town atmosphere",
+      "desc": "Let yourself drift around the calmer central streets and parkland so the trip feels like an island retreat, not only a castle stop."
+    },
+    {
+      "name": "Juniper coast or Kaali detour",
+      "cat": "Island landscape",
+      "desc": "Give Saaremaa at least one proper outward-looking drive, because the island's texture is as important as Kuressaare itself."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-55 Mbps",
-      "note": "Typical visitor connectivity in Kuressaare is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually fine in town hotels and spas, but once you move into rural Saaremaa, coastal drives or smaller guesthouses, connection quality becomes less consistent than the town centre suggests."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Kuressaare is normally reached via Tallinn connections or ferry-and-road travel; summer island demand is stronger but flight frequency remains limited.",
+    "fltNote": "Kuressaare is easy once you accept that it is an island destination with limited frequency rather than a high-volume city break. NyxAir currently operates the Tallinn-Kuressaare route, but many visitors still come via Tallinn and continue by ferry-and-road depending on timing, luggage and car-hire plans. Summer is the smoothest period, though it is also when accommodation and island transport need the most advance thought.",
     "airports": [
       {
         "name": "Kuressaare Airport",
@@ -99,7 +109,7 @@
       "Many small restaurants and museums reduce hours in winter."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "June to August is usually Kuressaare's best window for long daylight, cycling weather and fully alive island services, with late May and early September working well if you want more quiet than midsummer brings.",
   "months": [
     {
       "m": "Jan",

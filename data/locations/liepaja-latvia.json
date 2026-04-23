@@ -18,7 +18,7 @@
   "city": "Liepaja",
   "country": "Latvia",
   "region": "Kurzeme, Latvian Baltic coast",
-  "desc": "Liepaja is a Kurzeme, Latvian Baltic coast base shaped by wide baltic beach, karosta military heritage, concert-hall culture. It suits baltic beach alternatives and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Liepāja is Latvia's windy culture-and-beach city: part music capital, part white-sand Baltic coast, part military-history outlier, with enough Art Nouveau streets and seaside space to feel very different from Riga. It suits travellers who want a more characterful, rough-edged coastal break than the usual polished old-town weekend.",
   "hls": [
     "Wide Baltic beach",
     "Karosta military heritage",
@@ -47,20 +47,30 @@
       "name": "Seaside Park",
       "cat": "Local life",
       "desc": "Use the park and promenade for a relaxed link between town and beach."
+    },
+    {
+      "name": "Art Nouveau and old centre walk",
+      "cat": "Architecture",
+      "desc": "Look beyond the beach and Karosta, because the city's streets and façades carry much of its personality."
+    },
+    {
+      "name": "Festival or concert-hall timing check",
+      "cat": "Culture",
+      "desc": "Liepāja's mood changes a lot with its event calendar, so one cultural booking can make the whole stay click into place."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Liepaja is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually solid in central stays and cafés, but the destination's real friction is weather and spread rather than connectivity; the coast and Karosta feel bigger and windier than the map suggests."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Liepaja has limited air service; Riga plus road or bus is the dependable gateway, with summer events driving the biggest room spikes.",
+    "fltNote": "Liepāja is easy by bus, rail or road from Riga, but for many international visitors the more practical commercial air gateway can also be nearby Palanga in Lithuania rather than the city's own small airport. That means this is still a transfer destination in reality, even if the final overland leg is manageable. Summer festivals and European Capital of Culture buildup are the moments when room pressure jumps most sharply.",
     "airports": [
       {
         "name": "Liepaja International Airport",
@@ -99,7 +109,7 @@
       "Winter daylight is short for coast-heavy plans."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "June to August is usually Liepāja's best stretch for beach weather, park life and event energy, while late May and early September are often better if you want the coast without the busiest summer rhythm.",
   "months": [
     {
       "m": "Jan",
