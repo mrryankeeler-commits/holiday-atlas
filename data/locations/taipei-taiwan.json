@@ -18,7 +18,7 @@
   "city": "Taipei",
   "country": "Taiwan",
   "region": "Taipei Basin, northern Taiwan",
-  "desc": "Taipei is a Taipei Basin, northern Taiwan base shaped by night markets, hot springs at beitou, taipei 101 skyline. It suits food-first city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Taipei is one of Asia's easiest big cities to use well: a food-heavy, temple-threaded, mountain-edged capital where the MRT makes neighbourhood-hopping simple and where hot springs, hikes, old streets and polished shopping districts all sit in the same compact urban basin. It suits travellers who like cities that feel dense but highly manageable rather than intimidating.",
   "hls": [
     "Night markets",
     "Hot springs at Beitou",
@@ -47,20 +47,30 @@
       "name": "Longshan Temple and old streets",
       "cat": "Culture",
       "desc": "Use Wanhua for temple life, herbal alleys and historic Taipei texture."
+    },
+    {
+      "name": "Yongkang, Zhongshan or Ximending district drift",
+      "cat": "Neighbourhoods",
+      "desc": "Give yourself time to explore one district without a checklist, because Taipei's appeal often comes from cafe, design and snack-shop rhythm rather than single monuments."
+    },
+    {
+      "name": "Geothermal Valley with Beitou stop",
+      "cat": "Hot spring area",
+      "desc": "Pair the Beitou area with the steaming valley and museum zone rather than treating it as just a quick soak detour."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "80-180 Mbps",
-      "note": "Typical visitor connectivity in Taipei is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Excellent across most hotels, cafes, stations and commercial districts, making Taipei one of the easier cities here for fully online navigation and trip changes."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Taipei is served by Taoyuan for long-haul routes and Songshan regionally; UK trips usually connect or use non-LGW London options when available.",
+    "fltNote": "Taipei's long-haul reality runs through Taoyuan rather than Songshan, and the city is easy to reach from the airport thanks to the Airport MRT and in-town check-in options. For UK travellers, the important distinction is that Taiwan has London Heathrow service rather than LGW or LCY, so destination-level direct flags remain false only because the renderer tracks Gatwick and City. Songshan is useful mostly for regional and domestic legs once you are already in Taiwan.",
     "airports": [
       {
         "name": "Taiwan Taoyuan International Airport",
@@ -86,20 +96,23 @@
     "currency": "New Taiwan dollar (TWD)",
     "lang": "Mandarin Chinese; English support varies by district and transport hub",
     "tz": "CST (UTC+8)",
-    "visa": "UK/Irish passport holders should verify Taiwan visa-exempt stay rules and passport validity before travel.",
+    "visa": "British citizens can visit Taiwan visa-free for up to 90 days, and GOV.UK says your passport must be valid for at least 6 months after arrival. You must also complete the Taiwan Arrival Card online within 3 days before arrival.",
     "bestFor": [
       "Food-first city breaks",
       "Transit-friendly exploring",
       "Hot-spring add-ons",
-      "Urban hiking"
+      "Urban hiking",
+      "First-time East Asia city breaks",
+      "Neighbourhood-hopping short stays"
     ],
     "alerts": [
       "Typhoon season can disrupt flights and outdoor plans.",
       "Summer humidity is intense; plan indoor breaks.",
-      "Popular night-market stalls can involve queues even on weeknights."
+      "Popular night-market stalls can involve queues even on weeknights.",
+      "Do not confuse Taoyuan and Songshan when booking flights, especially if you are connecting onward in Asia."
     ]
   },
-  "sweet": "Apr, Oct and Nov are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "October to December and April are usually Taipei's best balance of manageable humidity, strong food-and-walking energy and fewer weather headaches than peak summer.",
   "months": [
     {
       "m": "Jan",

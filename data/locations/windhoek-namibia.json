@@ -18,7 +18,7 @@
   "city": "Windhoek",
   "country": "Namibia",
   "region": "Khomas Highland, central Namibia",
-  "desc": "Windhoek is a Khomas Highland, central Namibia base shaped by namibia road-trip launchpad, christuskirche landmark, craft beer and game meat restaurants. It suits namibia self-drive starts and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Windhoek is less a classic sightseeing capital than Namibia's practical nerve centre: a highland city where German colonial remnants, government buildings, useful hotels and car-hire desks come together before travellers fan out toward Etosha, Sossusvlei or the coast. It works best as a staging post with a couple of worthwhile half-days, not as the country's emotional high point in its own right.",
   "hls": [
     "Namibia road-trip launchpad",
     "Christuskirche landmark",
@@ -47,20 +47,30 @@
       "name": "Daan Viljoen reserve",
       "cat": "Nature",
       "desc": "Use the nearby reserve for an easy wildlife-and-walking warm-up."
+    },
+    {
+      "name": "Craft centre and Independence Avenue stroll",
+      "cat": "City feel",
+      "desc": "Use the centre for orientation, practical shopping and one grounded look at Windhoek before the huge distances begin."
+    },
+    {
+      "name": "Early vehicle and grocery stock-up",
+      "cat": "Trip prep",
+      "desc": "Treat the city as the place to sort SIMs, cash, fuel strategy and self-drive basics before heading remote."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Windhoek is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually solid in business hotels, lodges and cafe-heavy central areas, but it becomes much less relevant once you leave the city because Namibia's road-trip rhythm quickly outruns reliable coverage."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Windhoek is Namibia's main air gateway; UK trips usually connect, and dry-season safari months can raise both flight and vehicle costs.",
+    "fltNote": "Hosea Kutako is Namibia's main international gateway, but there is no LGW or LCY nonstop and most UK trips connect through hubs such as Frankfurt, Addis Ababa, Doha or Johannesburg. The airport itself is well outside town, so first-night transfer planning matters if you land late. Namibia's main safari and self-drive season also pushes up 4x4, lodge and flight pressure together rather than in isolation.",
     "airports": [
       {
         "name": "Hosea Kutako International Airport",
@@ -86,20 +96,23 @@
     "currency": "Namibian dollar (NAD), pegged to South African rand",
     "lang": "English official; Afrikaans, Oshiwambo and German are also encountered",
     "tz": "CAT (UTC+2)",
-    "visa": "UK/Irish passport holders should verify Namibia visa and arrival requirements before travel.",
+    "visa": "British citizens now need a visa to visit Namibia. GOV.UK says that from 1 April 2025 UK passport holders can either apply online for an e-visa or use Namibia's visa-on-arrival scheme, with a fee of 1,600 Namibian dollars for travellers over 11, and your passport must have at least 6 months validity and 3 blank pages.",
     "bestFor": [
       "Namibia self-drive starts",
       "Desert and wildlife itineraries",
       "Calm city stopovers",
-      "Dry-season road trips"
+      "Dry-season road trips",
+      "Trip-prep overnights",
+      "Pre-safari logistics"
     ],
     "alerts": [
       "Distances beyond Windhoek are vast; plan fuel, water and daylight.",
       "Car rental demand peaks in dry-season safari months.",
+      "Do not assume old visa-free habits still apply: the Namibia visa change is now a real planning step.",
       "Urban safety is manageable but use taxis after dark."
     ]
   },
-  "sweet": "Mar, Sep and Oct are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "March, September and October are usually the most useful Windhoek months, either side of the hardest dry-season bottlenecks and before the city becomes simply a hot logistics stop.",
   "months": [
     {
       "m": "Jan",

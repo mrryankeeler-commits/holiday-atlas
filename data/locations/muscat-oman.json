@@ -18,7 +18,7 @@
   "city": "Muscat",
   "country": "Oman",
   "region": "Muscat Governorate, Gulf of Oman",
-  "desc": "Muscat is a Muscat Governorate, Gulf of Oman base shaped by sultan qaboos grand mosque, mutrah corniche and souq, hajar mountain backdrop. It suits winter sun city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Muscat is one of the Gulf's calmer capitals: low-rise, sea-facing and mountain-backed, with whitewashed districts, a striking grand mosque, a long Mutrah waterfront and easy escapes to wadis, forts and desert-edge scenery. It works best for travellers who want winter sun and culture without the vertical-city intensity of Dubai or Doha.",
   "hls": [
     "Sultan Qaboos Grand Mosque",
     "Mutrah Corniche and souq",
@@ -47,20 +47,30 @@
       "name": "Wadi Shab or Wadi Bani Khalid trip",
       "cat": "Nature",
       "desc": "Plan a full day with swimming gear and careful heat timing for a wadi excursion."
+    },
+    {
+      "name": "Old Muscat and Al Alam Palace area",
+      "cat": "City character",
+      "desc": "Use the older ceremonial district to see how Muscat shifts from souq bustle to clipped, official sea-facing grandeur."
+    },
+    {
+      "name": "Sunset on Mutrah Fort side",
+      "cat": "Views",
+      "desc": "Climb above the corniche late in the day for the best look at the harbour curve and the city's softer evening light."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "50-140 Mbps",
-      "note": "Typical visitor connectivity in Muscat is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually excellent in city hotels, malls and cafe districts, but once you head into wadis, beach coves or mountain roads you should not assume reliable coverage."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Muscat has its own international airport; UK trips usually use Heathrow or connecting options rather than LGW/LCY, with winter sun weeks strongest.",
+    "fltNote": "Muscat International is close enough to keep arrivals easy, but the relevant UK reality is Heathrow and hub connections rather than LGW or LCY. Oman Air is currently selling Muscat-London Heathrow flights, so destination-level direct flags stay false only because the UI tracks Gatwick and City. Winter sun demand from late November into March is when fares and better hotels tend to tighten fastest.",
     "airports": [
       {
         "name": "Muscat International Airport",
@@ -76,20 +86,23 @@
     "currency": "Omani rial (OMR)",
     "lang": "Arabic; English is common in hotels and transport",
     "tz": "GST (UTC+4)",
-    "visa": "UK/Irish passport holders should verify Oman visa-free/e-visa eligibility and stay limits before travel.",
+    "visa": "British citizens can visit Oman for up to 14 days without a visa, and GOV.UK says your passport must be valid for at least 6 months after arrival. If you want to stay longer, it is better to arrange the appropriate visa online before travel, and border officials may ask for onward travel, accommodation proof and travel health insurance.",
     "bestFor": [
       "Winter sun city breaks",
       "Culture-and-coast trips",
       "Wadi and mountain day trips",
-      "Calm Gulf stopovers"
+      "Calm Gulf stopovers",
+      "First-time Oman itineraries",
+      "Low-rise Gulf city breaks"
     ],
     "alerts": [
       "Summer heat can be extreme and limits outdoor sightseeing.",
       "Dress codes matter at mosques and conservative public spaces.",
+      "Friday timings and prayer hours can reshape sightseeing plans more than first-time visitors expect.",
       "Wadi trips can be flash-flood sensitive after rain."
     ]
   },
-  "sweet": "Feb, Mar and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "December to March is usually Muscat's strongest stretch, with genuinely pleasant walking weather, sea-facing evenings that feel good rather than punishing, and the cleanest conditions for mosque, corniche and wadi days.",
   "months": [
     {
       "m": "Jan",
