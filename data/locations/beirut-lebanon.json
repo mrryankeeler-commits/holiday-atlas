@@ -18,14 +18,14 @@
   "city": "Beirut",
   "country": "Lebanon",
   "region": "Beirut Governorate, Mediterranean coast",
-  "desc": "Beirut is a Beirut Governorate, Mediterranean coast base shaped by corniche seaside walks, armenian and levantine food scenes, national museum antiquities. It suits food-led city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Beirut is a city break that only makes sense if you build in uncertainty: Corniche walks and Raouche sunsets, one of the Levant's best food scenes, major archaeology at the National Museum, and layered neighbourhoods that still reward slow exploration when conditions are stable. For travellers who choose to go, the city offers real cultural depth and nightlife energy, but every trip needs flexible plans, close attention to official advice and realistic transfer timing.",
   "hls": [
-    "Corniche seaside walks",
+    "Corniche and Raouche sunsets",
     "Armenian and Levantine food scenes",
-    "National Museum antiquities",
-    "Mar Mikhael nightlife",
-    "Mediterranean sunsets",
-    "Day trips to Byblos and mountains"
+    "National Museum archaeology",
+    "Mar Mikhael and Gemmayzeh evenings",
+    "Mediterranean city energy",
+    "Fast access to Byblos or mountain escapes when conditions allow"
   ],
   "todo": [
     {
@@ -47,20 +47,30 @@
       "name": "Byblos day trip",
       "cat": "History",
       "desc": "Add the coast north of Beirut for harbour ruins, old souks and a different pace."
+    },
+    {
+      "name": "Raouche and Pigeon Rocks",
+      "cat": "Seafront",
+      "desc": "Time this for late afternoon or sunset, when the sea breeze softens the heat and the limestone stacks feel most dramatic."
+    },
+    {
+      "name": "Hamra cafes and bookshops",
+      "cat": "Neighbourhood",
+      "desc": "Use Hamra for a lower-key afternoon of cafes, old Beirut institutions and people-watching away from the late-night bar strip."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "15-60 Mbps",
-      "note": "Typical visitor connectivity in Beirut is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usable in many central hotels, cafes and coworking spots, but power cuts and neighbourhood-level disruptions mean mobile data and a battery pack are sensible backups."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Beirut uses one main airport close to the city; route availability and fares can shift quickly with regional conditions, so check schedules before committing.",
+    "fltNote": "Beirut uses one main airport close to the city, and London service is more realistically Heathrow-linked than LGW/LCY-linked. Route availability, timings and fares can change quickly with regional airspace and security conditions, so do not assume a schedule is stable until very near departure and re-check before heading to the airport.",
     "airports": [
       {
         "name": "Beirut-Rafic Hariri International Airport",
@@ -76,20 +86,23 @@
     "currency": "Lebanese pound (LBP); US dollars are also widely used in some travel contexts",
     "lang": "Arabic; French and English are common in Beirut and tourism services",
     "tz": "EET/EEST (UTC+2/+3)",
-    "visa": "UK/Irish passport holders should verify Lebanon visa-on-arrival and security-related entry rules before travel.",
+    "visa": "British citizens can normally get a free single-entry tourist or family-visit visa on arrival at Beirut airport for one month, but rules can change quickly; passports with Israeli stamps can lead to refusal, so verify entry conditions before booking.",
     "bestFor": [
       "Food-led city breaks",
       "Layered history trips",
       "Mediterranean nightlife",
-      "Day trips with a private driver"
+      "Diaspora or family-linked visits",
+      "Driver-supported coast or mountain day trips",
+      "Short urban stops with flexible planning"
     ],
     "alerts": [
-      "Monitor official travel advice and local security conditions.",
-      "Traffic can make short airport distances slow.",
-      "Power cuts and infrastructure disruption can affect some stays."
+      "Monitor official travel advice closely; parts of Lebanon are under FCDO warnings and conditions can change at short notice.",
+      "Traffic can make the short airport run slow, especially if checkpoints, diversions or evening congestion build up.",
+      "Power cuts, card-machine failures and infrastructure disruption can affect hotels, restaurants and cash access.",
+      "Keep plans flexible and confirm restaurant openings, museum hours and intercity movements locally rather than assuming normal patterns."
     ]
   },
-  "sweet": "May, Jul and Oct are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June, September and October are the best balance for warm evenings and outdoor walking without the full July-August heat, but only if the wider security situation is stable enough to make a leisure trip sensible.",
   "months": [
     {
       "m": "Jan",

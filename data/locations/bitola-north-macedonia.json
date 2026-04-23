@@ -18,12 +18,12 @@
   "city": "Bitola",
   "country": "North Macedonia",
   "region": "Pelagonia, southwest North Macedonia",
-  "desc": "Bitola is a Pelagonia, southwest North Macedonia base shaped by sirok sokak cafe street, heraclea lyncestis ruins, pelister national park access. It suits balkan city value and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Bitola is one of the Balkans' better-value slow city breaks: consular-era facades and cafe life on Sirok Sokak, serious Roman and early Christian remains at Heraclea Lyncestis, and quick access to Pelister for pine forests and cooler mountain air. It works best when you treat it as a layered regional base rather than a checklist city, giving space for long evenings, archaeology and one properly planned mountain day.",
   "hls": [
     "Sirok Sokak cafe street",
     "Heraclea Lyncestis ruins",
     "Pelister National Park access",
-    "Ottoman consular history",
+    "Ottoman and consular history",
     "Baba Mountain views",
     "Low-key Balkan value"
   ],
@@ -47,20 +47,30 @@
       "name": "Old Bazaar and mosques",
       "cat": "Culture",
       "desc": "Explore the Ottoman-era trading lanes and religious architecture around the centre."
+    },
+    {
+      "name": "Magnolia Square and clock tower quarter",
+      "cat": "City fabric",
+      "desc": "Use the square, pedestrian core and side streets to read Bitola's mix of consular grandeur and everyday local life."
+    },
+    {
+      "name": "Pelister viewpoints or mountain drive",
+      "cat": "Scenic day",
+      "desc": "Even without a full hike, the climb onto Baba Mountain changes the mood completely and offers cooler air in warm months."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "25-70 Mbps",
-      "note": "Typical visitor connectivity in Bitola is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually fine in central apartments, cafes and hotels; expect weaker coverage on Pelister and in older buildings with thick walls."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Bitola has no airport; Ohrid and Skopje are the realistic gateways, and summer lake traffic around Ohrid can affect transfer times.",
+    "fltNote": "Bitola has no airport and no destination-level LGW/LCY nonstop routing. Ohrid is closest but is more seasonal and less forgiving if flights change, while Skopje is the more reliable year-round gateway with a longer road transfer. For a smooth trip, treat flights plus transfer as one chain rather than assuming the airport is the last hard part.",
     "airports": [
       {
         "name": "Ohrid St Paul the Apostle Airport",
@@ -86,20 +96,23 @@
     "currency": "Macedonian denar (MKD)",
     "lang": "Macedonian; Albanian and English may be encountered",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "UK/Irish passport holders should verify North Macedonia entry rules; short visa-free tourist stays are commonly available.",
+    "visa": "British citizens can visit North Macedonia for up to 3 months without a visa, but must register with local police within 48 hours unless their hotel or host does it for them.",
     "bestFor": [
       "Balkan city value",
       "Roman and Ottoman history",
       "Mountain add-on days",
-      "Cafe culture without big crowds"
+      "Cafe culture without big crowds",
+      "Slow regional road trips",
+      "Shoulder-season cultural breaks"
     ],
     "alerts": [
-      "Summer afternoons are hot for ruins and exposed streets.",
-      "Pelister trails need weather checks outside the main walking season.",
-      "Cash is useful in smaller cafes and local transport."
+      "Summer afternoons are hot for Heraclea and exposed squares, so do ruins early and save cafe time for later.",
+      "Pelister weather can shift fast outside settled summer spells; check conditions before committing to higher trails.",
+      "Cash is still useful in smaller cafes, taxis and local transport.",
+      "Intercity public transport is less forgiving in the evening than in larger Balkan capitals, so do not assume frequent late departures."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are the best balance for archaeology, cafe evenings and Pelister add-on days without the full heat of high summer.",
   "months": [
     {
       "m": "Jan",

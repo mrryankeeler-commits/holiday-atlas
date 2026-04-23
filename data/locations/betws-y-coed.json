@@ -18,14 +18,14 @@
   "city": "Betws-y-Coed",
   "country": "Wales",
   "region": "Eryri/Snowdonia, Conwy Valley",
-  "desc": "Betws-y-Coed is a Eryri/Snowdonia, Conwy Valley base shaped by eryri walking base, swallow falls, stone bridges and river pools. It suits walking weekends and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Betws-y-Coed is one of the easiest ways into Eryri without committing to full mountain logistics from the first hour: rivers and stone bridges in the village, Swallow Falls and Gwydir Forest for lower-level days, and rail or bus links that let you build a car-light North Wales break. It is not a secret base, though, so the best trips lean into shoulder seasons, early starts and weather-contingency walks rather than assuming Snowdon-country sunshine.",
   "hls": [
     "Eryri walking base",
-    "Swallow Falls",
+    "Swallow Falls and the Llugwy gorge",
     "Stone bridges and river pools",
-    "Forest trails",
-    "Mountain railway day trips",
-    "Cosy rainy-day pubs"
+    "Gwydir Forest low-level trails",
+    "Rail-served mountain base",
+    "Cosy rainy-day pubs and cafes"
   ],
   "todo": [
     {
@@ -47,20 +47,30 @@
       "name": "Eryri mountain day",
       "cat": "Mountains",
       "desc": "Use the village as a base for Snowdon-area walks only after checking weather and parking plans."
+    },
+    {
+      "name": "Conwy Valley Railway Museum",
+      "cat": "Rail heritage",
+      "desc": "Add the miniature railway and museum beside the station for an easy family stop or a wet-weather break between walks."
+    },
+    {
+      "name": "Ty Hyll and west-village lanes",
+      "cat": "Short outing",
+      "desc": "Pair the Ugly House and woodland edge west of the village with an easy stroll when you want scenery without a full mountain commitment."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "30-80 Mbps",
-      "note": "Typical visitor connectivity in Betws-y-Coed is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Solid in most village hotels, pubs and self-catering stays, but mobile signal and data can drop quickly once you move into forested valleys or higher on the hills."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Betws-y-Coed has no airport; Manchester and Liverpool are practical gateways, and UK holiday periods matter more than airfare seasonality.",
+    "fltNote": "Betws-y-Coed has no airport and no destination-level LGW/LCY nonstop routing. Manchester is usually the cleanest international gateway, with Liverpool also workable, but rail via Chester and North Wales or a road transfer matters more than airfare seasonality. The village station is central but lightly equipped, so check the last train or bus before relying on a car-free arrival.",
     "airports": [
       {
         "name": "Liverpool John Lennon Airport",
@@ -99,17 +109,20 @@
     "visa": "UK domestic destination for British citizens; Irish and other travellers should verify UK entry rules if applicable.",
     "bestFor": [
       "Walking weekends",
-      "Car-free-ish mountain bases",
+      "Car-light mountain breaks",
       "Waterfall photography",
-      "Cosy wet-weather escapes"
+      "Cosy wet-weather escapes",
+      "Forest-and-river families",
+      "Shoulder-season North Wales stays"
     ],
     "alerts": [
-      "Mountain weather changes quickly; carry waterproofs even on bright mornings.",
-      "Parking around popular trailheads fills early.",
-      "Waterfall paths can be slippery after rain."
+      "Mountain weather changes quickly; carry waterproofs, warm layers and a backup lower-level route even on bright mornings.",
+      "Parking around popular trailheads and Swallow Falls fills early on sunny weekends, bank holidays and school-holiday mornings.",
+      "Waterfall paths, stone steps and riverside rocks are slippery after rain.",
+      "Betws-y-Coed station is convenient but basic, so plan onward buses, food stops and ticketing before you arrive."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually offer the strongest mix of daylight, open sights and manageable weather for this northern itinerary.",
+  "sweet": "May, June and September are the best balance for long daylight, fuller trail choice and slightly lighter pressure than the July-August school-holiday peak.",
   "months": [
     {
       "m": "Jan",

@@ -18,14 +18,14 @@
   "city": "Bocas del Toro",
   "country": "Panama",
   "region": "Bocas del Toro Archipelago, Caribbean Panama",
-  "desc": "Bocas del Toro is a Bocas del Toro Archipelago, Caribbean Panama base shaped by caribbean island-hopping, red frog beach, water taxis between islands. It suits caribbean island hopping and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Bocas del Toro is a boat-shaped trip as much as a beach trip: Bocas Town on Isla Colon for bars and logistics, Bastimentos and Red Frog for jungle-edge sand, day boats to snorkel spots and outer cays, and frequent decisions shaped by rain squalls, water-taxi timing and the domestic-flight link from Panama City. It works best for travellers who enjoy improvised island days rather than polished resort predictability.",
   "hls": [
     "Caribbean island-hopping",
     "Red Frog Beach",
     "Water taxis between islands",
-    "Surf and snorkel seasons",
+    "Surf and snorkel days",
     "Rainforest-meets-reef setting",
-    "Afro-Caribbean food culture"
+    "Afro-Caribbean island culture"
   ],
   "todo": [
     {
@@ -47,20 +47,30 @@
       "name": "Bocas Town evening",
       "cat": "Local life",
       "desc": "Use the stilt bars and casual restaurants for the archipelago's social centre."
+    },
+    {
+      "name": "Bluff Beach surf day",
+      "cat": "Beach & surf",
+      "desc": "Head out when the sea is behaving for a longer, wilder beach backed by palms and a less built-up feel than town."
+    },
+    {
+      "name": "Bastimentos boat-and-trail mix",
+      "cat": "Island day",
+      "desc": "Combine a water taxi, a short jungle walk and a beach stop so the archipelago feels more varied than just sitting in Bocas Town."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "15-50 Mbps",
-      "note": "Typical visitor connectivity in Bocas del Toro is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Fine for messaging and light planning in Bocas Town, but island lodges, power interruptions and boat days make backup mobile data and offline maps worthwhile."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Bocas uses small domestic flights or overland/water transfers; UK trips connect through Panama City or Costa Rica, with dry-season demand strongest.",
+    "fltNote": "Bocas is rarely a one-ticket journey from the UK. Most trips run through Panama City, then require either a transfer from Tocumen (PTY) across town to Albrook (PAC) for the domestic Air Panama hop to BOC, or a much longer bus-and-boat route via Almirante. Same-day international to domestic connections can be fragile if the PTY-PAC transfer slips.",
     "airports": [
       {
         "name": "Bocas del Toro Isla Colon Airport",
@@ -73,9 +83,19 @@
         }
       },
       {
+        "name": "Marcos A. Gelabert Airport, Panama City",
+        "code": "PAC",
+        "km": 300,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      },
+      {
         "name": "Tocumen International Airport, Panama City",
         "code": "PTY",
-        "km": 520,
+        "km": 325,
         "dgw": false,
         "directFrom": {
           "LGW": false,
@@ -86,20 +106,23 @@
     "currency": "US dollar (USD) and Panamanian balboa (PAB)",
     "lang": "Spanish; English is useful in Bocas and Panama City tourism services",
     "tz": "EST (UTC-5)",
-    "visa": "UK/Irish passport holders should verify Panama entry rules, onward-ticket expectations and stay limits before travel.",
+    "visa": "British citizens can normally visit Panama for up to 3 months without a visa, but may be asked for an onward ticket, accommodation details and proof of funds at the border.",
     "bestFor": [
       "Caribbean island hopping",
       "Surf-and-snorkel trips",
       "Backpacker beach stays",
-      "Dry-window winter escapes"
+      "Dry-window winter escapes",
+      "Boat-based wildlife days",
+      "Mixed-budget island trips"
     ],
     "alerts": [
-      "Rain is common even in better months; protect electronics on boat transfers.",
-      "Water taxis can be choppy after dark or in squalls.",
-      "Respect wildlife rules around starfish and reefs."
+      "Rain is common even in the better months, so protect electronics and soft luggage on boat transfers.",
+      "Water taxis can be choppy after dark or in squalls, and some island logistics effectively shut down earlier than mainland travellers expect.",
+      "Respect wildlife rules around starfish, coral and mangroves; treat them as viewing zones, not handling opportunities.",
+      "If you fly in via Panama City, leave enough time for the PTY-to-PAC transfer or plan an overnight stop rather than gambling on a tight same-day connection."
     ]
   },
-  "sweet": "Jan, Feb and Mar tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "sweet": "January to March is the easiest window for boat days, beach time and lower transfer friction; December and early April can also work well if you want some winter-sun energy without the absolute February peak.",
   "months": [
     {
       "m": "Jan",

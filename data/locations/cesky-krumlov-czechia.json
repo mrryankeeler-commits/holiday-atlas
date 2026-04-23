@@ -18,12 +18,12 @@
   "city": "Cesky Krumlov",
   "country": "Czechia",
   "region": "South Bohemia",
-  "desc": "Cesky Krumlov is a South Bohemia base shaped by vltava-loop old town, cesky krumlov castle, baroque theatre heritage. It suits fairytale old-town stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Cesky Krumlov is one of Europe's most photogenic old towns, but the real trick is staying overnight rather than treating it as a quick coach-stop: castle courtyards and tower views above the Vltava loop, a genuinely rare Baroque theatre, riverside rafting in warm months and quiet lanes once the late-morning day-trip crush fades. It rewards early starts and evening wandering far more than it rewards ticking off the postcard angle at noon.",
   "hls": [
     "Vltava-loop old town",
     "Cesky Krumlov Castle",
     "Baroque theatre heritage",
-    "Rafting through town",
+    "River rafting and wooden rafts",
     "South Bohemian beer halls",
     "Golden-hour castle views"
   ],
@@ -47,20 +47,30 @@
       "name": "Egon Schiele Art Centrum",
       "cat": "Museum",
       "desc": "Balance medieval streets with modern art and local cultural context."
+    },
+    {
+      "name": "Castle tower and gardens",
+      "cat": "Views",
+      "desc": "Climb for the essential panorama, then use the gardens to escape the tightest old-town lanes for a while."
+    },
+    {
+      "name": "Latran and evening old town",
+      "cat": "Neighbourhood",
+      "desc": "Walk the quieter streets after the day-trippers leave, when the town finally feels like a place rather than a queue."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Cesky Krumlov is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Good across most hotels, pensions and cafes; expect occasional drops in older stone buildings and don't rely on perfect coverage in castle grounds."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Cesky Krumlov has no airport; Prague, Linz and Vienna are gateway choices, with transfer time and tour-bus crowding highest from late spring to early autumn.",
+    "fltNote": "Cesky Krumlov has no airport and no destination-level LGW/LCY nonstop routing. Prague is usually the easiest UK gateway thanks to direct London links including LGW service, while Linz is closer but more limited and Vienna offers more flight choice with a longer onward transfer. The town's bigger friction is not the flight itself but the final rail, bus or road leg and the late-morning day-trip crowding.",
     "airports": [
       {
         "name": "Linz Airport",
@@ -76,9 +86,9 @@
         "name": "Prague Airport",
         "code": "PRG",
         "km": 180,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -96,20 +106,23 @@
     "currency": "Czech koruna (CZK)",
     "lang": "Czech; English is common in main visitor areas",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "Schengen rules apply; UK/Irish travellers should verify 90-in-180-day limits and passport validity before travel.",
+    "visa": "Schengen rules apply; British citizens can normally visit visa-free for up to 90 days in any 180-day period and should also note the phased rollout of the EU Entry/Exit System from 10 April 2026.",
     "bestFor": [
       "Fairytale old-town stays",
       "Castle and theatre lovers",
       "Slow South Bohemia trips",
-      "Shoulder-season photography"
+      "Shoulder-season photography",
+      "One-night escapes from Prague or Austria",
+      "River-and-history weekends"
     ],
     "alerts": [
-      "Day-trip groups crowd the core from late morning to mid-afternoon.",
+      "Day-trip groups crowd the core from late morning to mid-afternoon, so do headline viewpoints early or stay overnight.",
+      "Baroque theatre and some castle interiors need advance booking and have limited access because of conservation needs.",
       "River activities are seasonal and water-level dependent.",
-      "Cobblestones and slopes make light luggage useful."
+      "Cobblestones, slopes and the walk from the station make light luggage far more pleasant than a big case."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are the best balance for castle access, river activity and lighter crowd pressure than the height of summer, while December suits festive atmosphere more than outdoor exploring.",
   "months": [
     {
       "m": "Jan",
