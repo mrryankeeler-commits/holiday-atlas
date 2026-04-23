@@ -18,7 +18,7 @@
   "city": "Essaouira",
   "country": "Morocco",
   "region": "Marrakesh-Safi, Atlantic coast",
-  "desc": "Essaouira is a Marrakesh-Safi, Atlantic coast base shaped by unesco medina ramparts, atlantic wind sports, blue fishing boats. It suits wind-sport breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Essaouira is the kind of Atlantic break that works even when the beach is not the whole point: cannon-lined ramparts, blue boats and seafood by the port, a UNESCO medina that is calmer than Marrakech, and enough wind for kitesurfing, surfing and long salty walks. The city is small and easy to use, but its airport is thinner than travellers often assume, so routing and season matter as much as the weather.",
   "hls": [
     "UNESCO medina ramparts",
     "Atlantic wind sports",
@@ -53,19 +53,19 @@
     "wifi": {
       "r": 4,
       "spd": "30-80 Mbps",
-      "note": "Typical visitor connectivity in Essaouira is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually reliable in riads, cafes and coworking-friendly stays inside or just outside the medina, but thicker walls and beach-club day setups can make mobile data a helpful backup."
     },
-    "directGW": true,
+    "directGW": false,
     "directFrom": {
-      "LGW": true,
+      "LGW": false,
       "LCY": false
     },
-    "fltNote": "Essaouira has a small airport with variable seasonal service; Marrakech is the stronger UK gateway, adding a long but straightforward road transfer.",
+    "fltNote": "Essaouira-Mogador is a small airport about 16 km from town. In current schedules the London nonstop is tied to Stansted rather than LGW or LCY, so destination-level direct flags from those UI origins stay false. Marrakech is still the stronger fallback gateway when Essaouira frequencies are thin or seasonal, with a road transfer of roughly 2.5 to 3.5 hours depending on traffic and stops.",
     "airports": [
       {
         "name": "Essaouira-Mogador Airport",
         "code": "ESU",
-        "km": 17,
+        "km": 16,
         "dgw": false,
         "directFrom": {
           "LGW": false,
@@ -86,7 +86,7 @@
     "currency": "Moroccan dirham (MAD)",
     "lang": "Arabic and Amazigh; French is widely useful and English varies",
     "tz": "GMT/+1 seasonal time (UTC+0/+1)",
-    "visa": "UK/Irish passport holders should verify Morocco entry rules; short visa-free tourism stays are commonly available.",
+    "visa": "British citizens can normally visit Morocco visa-free for up to 90 days for tourism, but should still check passport-validity requirements and any carrier-specific document checks before travel.",
     "bestFor": [
       "Wind-sport breaks",
       "Medina stays without Marrakech heat",
@@ -99,7 +99,7 @@
       "Evenings can feel cool because of Atlantic exposure."
     ]
   },
-  "sweet": "Jun, Aug and Sep are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "April to June and September to October are the best balance for medina wandering, seafood lunches and wind-sport conditions without the busier midsummer squeeze.",
   "months": [
     {
       "m": "Jan",
