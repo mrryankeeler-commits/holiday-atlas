@@ -9,6 +9,9 @@ import json
 from pathlib import Path
 
 CLIMATE_KEYS = ("avg", "hi", "lo", "daylight", "cld", "rain")
+MONTH_LABELS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+MONTH_LOOKUP = {label.lower(): label for label in MONTH_LABELS}
+MONTH_LOOKUP.update({str(i): MONTH_LABELS[i - 1] for i in range(1, 13)})
 
 
 def _normalized_col_key(value: str) -> str:
@@ -27,6 +30,16 @@ def _row_get(row: dict[str, str], col: str, aliases: tuple[str, ...] = ()) -> st
         if mapped is not None:
             return str(row.get(mapped, ""))
     return ""
+
+
+def normalize_month(raw: str) -> str:
+    value = str(raw).strip()
+    key = value.lower()
+    if key in MONTH_LOOKUP:
+        return MONTH_LOOKUP[key]
+    if len(key) >= 3 and key[:3] in MONTH_LOOKUP:
+        return MONTH_LOOKUP[key[:3]]
+    return value
 
 
 def parse_args() -> argparse.Namespace:
@@ -53,7 +66,7 @@ def load_rows_by_url(csv_files: list[Path]) -> dict[str, dict[str, dict[str, str
                 url = _row_get(row, "Source URL", ("Source",)).strip()
                 if not url:
                     continue
-                month = _row_get(row, "Month").strip()
+                month = normalize_month(_row_get(row, "Month"))
                 if month:
                     rows_by_url.setdefault(url, {})[month] = row
     return rows_by_url
