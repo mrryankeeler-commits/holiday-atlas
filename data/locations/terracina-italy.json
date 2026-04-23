@@ -18,7 +18,7 @@
   "city": "Terracina",
   "country": "Italy",
   "region": "Lazio coast, Riviera di Ulisse",
-  "desc": "Terracina is a Lazio coast, Riviera di Ulisse base shaped by temple of jupiter anxur, long sandy lazio beach, old town on the hill. It suits rome-plus-coast trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Terracina gives you a big sandy Lazio beach with an actual Roman-and-medieval spine: Jupiter Anxur above, a lived-in old town in between and a working seafront below. It makes most sense as a Rome-plus-coast extension or a lower-key Italian summer base rather than a glamorous fly-and-flop resort.",
   "hls": [
     "Temple of Jupiter Anxur",
     "Long sandy Lazio beach",
@@ -47,28 +47,38 @@
       "name": "Harbour seafood dinner",
       "cat": "Food",
       "desc": "Base one evening around the fishing harbour and simple seafood cooking."
+    },
+    {
+      "name": "Pisco Montano and Via Appia traces",
+      "cat": "History walk",
+      "desc": "Link the beach town to its Roman road history so Terracina feels like more than a strip of sand."
+    },
+    {
+      "name": "Sunset lungomare walk",
+      "cat": "Evening stroll",
+      "desc": "Save energy for the cooler end of the day, when the seafront feels more local and much less punishing than midday."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Terracina is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually straightforward in seafront hotels and modern apartments, but it can feel patchier up in the older hill town and around long beach days where heat and parking are the real frictions."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Terracina has no airport; Rome airports are the normal gateways, with Lazio beach demand strongest in Italian summer holiday weeks.",
+    "fltNote": "Terracina has no airport. In practice you fly into Rome - with current Gatwick nonstops to Fiumicino - and continue by rail, bus or car; Naples can work too, but it is usually the less natural gateway. Keep destination-level nonstop flags false because this is still a Rome-transfer beach town, and August domestic beach demand pushes rooms hardest.",
     "airports": [
       {
         "name": "Rome Fiumicino Airport",
         "code": "FCO",
         "km": 115,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,9 +96,9 @@
         "name": "Naples Airport",
         "code": "NAP",
         "km": 130,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -109,7 +119,7 @@
       "Temple paths are exposed in midday heat."
     ]
   },
-  "sweet": "Jun, Jul and Sep usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "June and early September are usually Terracina's best balance of sea warmth, active beach life and manageable pressure; August is lively but much more domestic-holiday intense.",
   "months": [
     {
       "m": "Jan",

@@ -18,7 +18,7 @@
   "city": "Rovinj",
   "country": "Croatia",
   "region": "Istria, northern Adriatic",
-  "desc": "Rovinj is a Istria, northern Adriatic base shaped by st euphemia hilltop church, venetian old-town lanes, istrian seafood and truffles. It suits romantic adriatic town stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Rovinj is Istria at its prettiest: a pastel old town rising into St Euphemia, pine-edged swim coves, Venetian harbour light and a polished food scene that still feels rooted in place. It works brilliantly for romantic coastal breaks, slow evenings and people who want Adriatic atmosphere without the scale and churn of Croatia's biggest-name cities.",
   "hls": [
     "St Euphemia hilltop church",
     "Venetian old-town lanes",
@@ -47,20 +47,30 @@
       "name": "Istrian food evening",
       "cat": "Food",
       "desc": "Base dinner around seafood, olive oil, local wine or truffles depending on season."
+    },
+    {
+      "name": "Batana heritage stop",
+      "cat": "Local culture",
+      "desc": "Give the old fishing identity some time rather than treating Rovinj as just a photogenic backdrop."
+    },
+    {
+      "name": "Island or cove boat outing",
+      "cat": "Boat trip",
+      "desc": "Use the harbour for a short-island trip or swim stop once you have seen the old town on foot."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "40-100 Mbps",
-      "note": "Typical visitor connectivity in Rovinj is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually solid in hotels, apartments and cafes, though the old stone core and pine-fringed swim spots are the places where connectivity feels less seamless than the polished harbourfront suggests."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Rovinj has no airport; Pula is the closest seasonal gateway and Venice/Trieste add options with longer transfers.",
+    "fltNote": "Rovinj has no airport. Pula is the closest gateway and easyJet currently sells London Gatwick-Pula nonstop in season; Venice Marco Polo adds more year-round airlift but at the cost of a much longer cross-border transfer. Keep destination-level nonstop flags false, because the last leg is still road or ferry logistics rather than a true fly-to city.",
     "airports": [
       {
         "name": "Pula Airport",
@@ -86,9 +96,9 @@
         "name": "Venice Marco Polo Airport",
         "code": "VCE",
         "km": 260,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -109,7 +119,7 @@
       "Many boat trips and restaurants scale back in winter."
     ]
   },
-  "sweet": "Jun, Jul and Aug usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "June and September are usually Rovinj's sweet spot: the sea is inviting, the harbour life is fully switched on, and the town is easier to enjoy than in the thick of July-August crowding.",
   "months": [
     {
       "m": "Jan",

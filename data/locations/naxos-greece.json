@@ -18,7 +18,7 @@
   "city": "Naxos",
   "country": "Greece",
   "region": "Cyclades, South Aegean",
-  "desc": "Naxos is a Cyclades, South Aegean base shaped by portara sunset landmark, long sandy west-coast beaches, mountain villages. It suits greek island beach trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Naxos is the Cyclades island for travellers who want real beach time without giving up village depth, food identity and a sense of space. Portara sunsets, long west-coast sands, marble inland settlements and farm-rooted cooking make it feel more rounded and less scene-driven than some of its better-known neighbours.",
   "hls": [
     "Portara sunset landmark",
     "Long sandy west-coast beaches",
@@ -47,20 +47,30 @@
       "name": "Temple of Demeter",
       "cat": "Archaeology",
       "desc": "Pair the inland temple with village stops to break up a beach-heavy itinerary."
+    },
+    {
+      "name": "Halki kitron stop",
+      "cat": "Food & drink",
+      "desc": "Use Halki for a slower inland pause with distillery culture and a different rhythm from the coast."
+    },
+    {
+      "name": "Early bus or drive into the interior",
+      "cat": "Scenic drive",
+      "desc": "Make time for one mountain-village loop so Naxos feels like more than beaches stitched together by the port."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "30-75 Mbps",
-      "note": "Typical visitor connectivity in Naxos is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually reliable in Chora and the main west-coast beach belt, but inland villages and smaller family-run stays are where patchier setups show up, so mobile backup still helps."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Naxos relies on domestic flights or ferries via Athens; summer ferry and room demand peaks hard from July into August.",
+    "fltNote": "Naxos is usually reached via Athens: easyJet currently sells London Gatwick-Athens nonstop, then you connect onward by short domestic flight or a Piraeus ferry. The real bottleneck is the island leg rather than the UK leg, because summer ferry capacity, Meltemi disruption and small-aircraft seats all tighten together.",
     "airports": [
       {
         "name": "Naxos Island National Airport",
@@ -76,9 +86,9 @@
         "name": "Athens International Airport",
         "code": "ATH",
         "km": 185,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -99,7 +109,7 @@
       "Small-airport seats via Athens are limited and book early."
     ]
   },
-  "sweet": "May, Aug and Sep usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "June and September are usually Naxos at its best: beach weather is strong, the island feels fully alive, and you avoid some of the July-August crush on ferries, rentals and waterfront rooms.",
   "months": [
     {
       "m": "Jan",
