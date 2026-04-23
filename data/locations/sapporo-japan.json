@@ -18,7 +18,7 @@
   "city": "Sapporo",
   "country": "Japan",
   "region": "Hokkaido",
-  "desc": "Sapporo is a Hokkaido base shaped by snow festival winter peak, ramen and beer culture, odori park grid city. It suits winter snow trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Sapporo is a spacious, grid-planned northern city that works both as Hokkaido's urban anchor and as a base for snow, food and seasonal festivals: beer halls, ramen lanes, seafood markets, broad boulevards and easy rail access sit beside one of Japan's most famous winter-event calendars. It suits travellers who want Japan with more breathing room, colder seasons and stronger outdoor identity than Tokyo or Osaka.",
   "hls": [
     "Snow Festival winter peak",
     "Ramen and beer culture",
@@ -47,20 +47,30 @@
       "name": "Otaru or ski day trip",
       "cat": "Day trip",
       "desc": "Use rail for canal-town Otaru or winter connections toward nearby ski areas."
+    },
+    {
+      "name": "Susukino evening food crawl",
+      "cat": "Nightlife & food",
+      "desc": "Give the city a proper evening slot for ramen, jingisukan, bars and the brighter side of Sapporo after dark."
+    },
+    {
+      "name": "Seasonal Odori event timing",
+      "cat": "Festival",
+      "desc": "Check what is actually on in Odori Park before you go, because Sapporo changes character a lot between Snow Festival, lilac season, beer garden and autumn food events."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "80-180 Mbps",
-      "note": "Typical visitor connectivity in Sapporo is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Excellent across stations, business hotels and city cafes, so Sapporo is easy to navigate and re-plan from on the fly; the bigger issue is winter weather, not connectivity."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Sapporo is served mainly through New Chitose; UK trips connect via Tokyo or Asian hubs, with Snow Festival and ski season creating major fare pressure.",
+    "fltNote": "New Chitose is the real gateway for Sapporo and Hokkaido trips, while Okadama is a much more minor domestic airport. From the UK, most itineraries still connect through Tokyo or other Asian hubs rather than flying directly into Hokkaido, and the city can feel expensive and capacity-tight when Snow Festival dates, ski traffic and holiday demand all pile into the same winter window.",
     "airports": [
       {
         "name": "New Chitose Airport",
@@ -86,20 +96,23 @@
     "currency": "Japanese yen (JPY)",
     "lang": "Japanese; English support varies by city and transport hub",
     "tz": "JST (UTC+9)",
-    "visa": "UK/Irish passport holders should verify Japan short-stay rules and passport requirements before travel.",
+    "visa": "British citizens can enter Japan for tourism or business for up to 90 days on arrival, and GOV.UK says your passport only needs to be valid for the length of your stay, with a blank page for the entry stamp.",
     "bestFor": [
       "Winter snow trips",
       "Japanese food weekends",
       "Cool summer city breaks",
-      "Hokkaido rail itineraries"
+      "Hokkaido rail itineraries",
+      "Festival-timed city stays",
+      "First Hokkaido bases"
     ],
     "alerts": [
       "Snow Festival dates sell out early.",
       "Winter storms can delay flights and trains.",
-      "Restaurant queues are common for famous ramen and seafood spots."
+      "Restaurant queues are common for famous ramen and seafood spots.",
+      "Do not underestimate how spread-out Hokkaido add-ons can be, even if Sapporo itself feels easy."
     ]
   },
-  "sweet": "Jun, Jul and Aug stand out for the signature seasonal experience, while adding extra nights helps buffer weather disruption.",
+  "sweet": "February for the full snow-city version, or June to September for cooler-weather city breaks, are usually Sapporo's strongest windows depending on whether you want festival winter or easy Hokkaido summer movement.",
   "months": [
     {
       "m": "Jan",

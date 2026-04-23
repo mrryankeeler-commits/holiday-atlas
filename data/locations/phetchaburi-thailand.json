@@ -18,7 +18,7 @@
   "city": "Phetchaburi",
   "country": "Thailand",
   "region": "Phetchaburi Province, upper Gulf of Thailand",
-  "desc": "Phetchaburi is a Phetchaburi Province, upper Gulf of Thailand base shaped by phra nakhon khiri hill palace, cave temples, thai dessert heritage. It suits thai heritage without big crowds and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Phetchaburi is one of central Thailand's most under-sold heritage towns: part old royal stop, part provincial market city, with cave shrines, a hilltop palace, serious dessert culture and just enough faded shophouse atmosphere to feel rewarding without turning into a full tourist circuit. It suits travellers who want historical texture and food depth between Bangkok and the coast, not a resort stay.",
   "hls": [
     "Phra Nakhon Khiri hill palace",
     "Cave temples",
@@ -47,20 +47,30 @@
       "name": "Kaeng Krachan National Park",
       "cat": "Nature",
       "desc": "Use a guide or car day for forest, birds and viewpoints when park conditions suit."
+    },
+    {
+      "name": "Wat Mahathat and old-town lanes",
+      "cat": "Town heritage",
+      "desc": "Spend time on the flatter old-town side as well, so the visit is not only hill-palace and cave icons."
+    },
+    {
+      "name": "Palm-sugar and khanom stop",
+      "cat": "Food",
+      "desc": "Treat the city like a sweets destination, not just a temple stop, and sample the local dessert culture that gives Phetchaburi its identity."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Phetchaburi is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually good in town hotels and cafes, but if you are day-tripping into caves, parks or rural dessert stops, mobile backup is still useful."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Phetchaburi has no major international airport; Bangkok airports are the dependable gateways, with road traffic and Thai holiday weekends shaping transfers.",
+    "fltNote": "Phetchaburi is really an overland destination from Bangkok rather than an airport-led one, and that is part of its advantage: it works neatly by road or rail on a Bangkok-Hua Hin line of travel. Bangkok's airports are the realistic long-haul gateways, while Hua Hin is secondary and not something to build UK planning around. Holiday weekends and Friday-evening traffic can make the final transfer feel much longer than the map implies.",
     "airports": [
       {
         "name": "Hua Hin Airport",
@@ -96,20 +106,23 @@
     "currency": "Thai baht (THB)",
     "lang": "Thai; English is common in main tourism areas",
     "tz": "ICT (UTC+7)",
-    "visa": "UK/Irish passport holders should verify Thailand visa-exempt stay limits and arrival rules before travel.",
+    "visa": "British citizens can visit Thailand for up to 60 days for tourism, business engagements and urgent or ad-hoc work, and GOV.UK says your passport must be valid for at least 6 months with at least 1 blank page. From 1 May 2025, foreign travellers must also complete Thailand's digital arrival card online within 3 days before arrival.",
     "bestFor": [
       "Thai heritage without big crowds",
       "Food-focused side trips",
       "Bangkok-Hua Hin overland stops",
-      "Nature add-ons"
+      "Nature add-ons",
+      "Temple-and-dessert detours",
+      "Low-key central Thailand culture"
     ],
     "alerts": [
       "Monkeys around hill sights can grab loose items.",
       "Cave steps and heat are tiring in late dry season.",
+      "English support is lighter than in Thailand's headline tourist cities, which is part of the charm but also part of the friction.",
       "National-park access can change with weather and conservation rules."
     ]
   },
-  "sweet": "Jan, Feb and Dec are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "December to February is usually the easiest Phetchaburi window for palace and cave sightseeing, town wandering and onward overland travel without the worst heat or monsoon drag.",
   "months": [
     {
       "m": "Jan",

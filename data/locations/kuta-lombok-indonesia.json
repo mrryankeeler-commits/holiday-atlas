@@ -18,7 +18,7 @@
   "city": "Kuta, Lombok",
   "country": "Indonesia",
   "region": "South Lombok, West Nusa Tenggara",
-  "desc": "Kuta, Lombok is a South Lombok, West Nusa Tenggara base shaped by south lombok surf beaches, mandalika coast roads, tanjung aan turquoise bays. It suits surf progression trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Kuta, Lombok is the laid-back surf-and-scooter base of south Lombok: a low-rise town backed by scrubby hills and ringed by bright bays, beginner-to-improver surf breaks and long, curving roads through the Mandalika coast. It is less polished than Bali's big resort zones and works best if you want beach-hopping freedom, a smaller-town feel and active days rather than nightlife-first tourism.",
   "hls": [
     "South Lombok surf beaches",
     "Mandalika coast roads",
@@ -47,20 +47,30 @@
       "name": "Mawun or Selong Belanak",
       "cat": "Coast",
       "desc": "Use a scooter or driver for a wider south-coast beach loop."
+    },
+    {
+      "name": "Mandalika coast loop",
+      "cat": "Road trip",
+      "desc": "Give yourself half a day to string together viewpoints, quieter coves and roadside warungs instead of treating the town beach as the whole story."
+    },
+    {
+      "name": "Early-morning surf or fish-market rhythm",
+      "cat": "Local life",
+      "desc": "Get out early to catch the town before the heat rises and before the beach circuit turns fully visitor-facing."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-60 Mbps",
-      "note": "Typical visitor connectivity in Kuta, Lombok is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Fine in many cafes, villas and established stays, but power blips, smaller guesthouses and full beach days mean it is still much less seamless than a mature digital-nomad hub."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Kuta is close to Lombok airport; UK trips usually connect through Southeast Asian hubs, with dry-season surf months raising room demand.",
+    "fltNote": "Kuta's big advantage is that Lombok airport is genuinely close, so you avoid the long final transfer that haunts a lot of island destinations. From the UK you still connect through Asian or Middle Eastern hubs, and some itineraries fall back on Bali plus sea or air connections, but once you land on Lombok the last leg is easy. Peak dry-season surf months and event periods around Mandalika push villa and driver demand up fast.",
     "airports": [
       {
         "name": "Lombok International Airport",
@@ -86,20 +96,23 @@
     "currency": "Indonesian rupiah (IDR)",
     "lang": "Indonesian; English is common in established tourism areas",
     "tz": "WITA (UTC+8) for Lombok",
-    "visa": "UK/Irish passport holders should verify Indonesia visa-on-arrival/e-visa rules before travel.",
+    "visa": "British citizens need a visa to visit Indonesia. GOV.UK says most tourists can use a 30-day visa on arrival for 500,000 rupiah, with the option to extend once for another 30 days, and your passport must be valid for at least 6 months with 2 blank pages. You should also complete the online All Indonesia declaration within 72 hours before arrival.",
     "bestFor": [
       "Surf progression trips",
       "Scooter beach exploring",
       "Dry-season tropical breaks",
-      "Cafe-and-coast remote work"
+      "Cafe-and-coast remote work",
+      "Couples wanting a lower-key Bali alternative",
+      "Beach-loop road days"
     ],
     "alerts": [
       "Scooter crashes are a common visitor risk; use helmets and avoid night riding.",
       "Some beaches have strong currents and reef hazards.",
+      "Town growth is rapid, so the destination feels more dusty-and-developing than the prettiest beach photos suggest.",
       "Wet-season downpours can roughen minor roads."
     ]
   },
-  "sweet": "Jun, Jul and Aug tend to offer the most useful dry-weather window for boats, beaches and easier transfers.",
+  "sweet": "June to September is usually the strongest Kuta Lombok window for reliable beach days, cleaner surf patterns and easy scooter-driven exploring, with May and October working as softer shoulder options.",
   "months": [
     {
       "m": "Jan",
