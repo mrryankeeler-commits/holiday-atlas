@@ -18,7 +18,7 @@
   "city": "Fethiye",
   "country": "Turkey",
   "region": "Mugla Province, Turquoise Coast",
-  "desc": "Fethiye is a Mugla Province, Turquoise Coast base shaped by lycian rock tombs, oludeniz lagoon access, butterfly valley boats. It suits turquoise coast road trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Fethiye is one of the most flexible bases on Turkey's Turquoise Coast: a working harbour town with Lycian tombs above it, easy access to Ölüdeniz and Babadağ, boat days into steep-sided coves, and enough everyday life that it does not feel like a sealed resort enclave. It works best for travellers who want to mix beaches, short drives and active days rather than stay planted in one all-inclusive strip.",
   "hls": [
     "Lycian rock tombs",
     "Oludeniz lagoon access",
@@ -47,20 +47,30 @@
       "name": "Saklikent Gorge",
       "cat": "Adventure",
       "desc": "Cool off inland with a gorge walk and river-platform lunch during hotter months."
+    },
+    {
+      "name": "Paspatur old town and fish market",
+      "cat": "Town life",
+      "desc": "Use the older centre for a more grounded evening than the seafront alone, especially if you want shops, meze and people-watching."
+    },
+    {
+      "name": "Kayakoy ghost village",
+      "cat": "History",
+      "desc": "Head uphill to the abandoned Greek village for a more haunting counterpoint to the coast-and-boat side of the area."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "30-80 Mbps",
-      "note": "Typical visitor connectivity in Fethiye is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually solid in town hotels, marina cafes and larger apartment stays, but boat trips, gorge outings and smaller pension-style places are less reliable than the centre."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Fethiye has no airport; Dalaman is the practical gateway and has seasonal UK leisure flights, with fares and seats tightest around summer school holidays.",
+    "fltNote": "Fethiye has no airport and no destination-level LGW/LCY nonstop routing. Dalaman is the practical gateway and does have London Gatwick service at airport level, with easyJet currently selling London Gatwick-Dalaman nonstop flights, but the final transfer to Fethiye or Ölüdeniz still matters. Summer school holidays tighten prices fast, while afternoon road traffic toward Ölüdeniz can add another layer of friction after landing.",
     "airports": [
       {
         "name": "Dalaman Airport",
@@ -86,20 +96,23 @@
     "currency": "Turkish lira (TRY)",
     "lang": "Turkish; English varies outside resorts and major hotels",
     "tz": "TRT (UTC+3)",
-    "visa": "UK/Irish passport holders should verify Turkey short-stay entry rules before travel; rules can change.",
+    "visa": "British citizens can visit Turkey visa-free for up to 90 days in any 180-day period, and GOV.UK says your passport must be valid for at least 150 days after the date you arrive with at least 1 blank page.",
     "bestFor": [
       "Turquoise Coast road trips",
       "Paragliding and boat days",
       "Families mixing beaches with ruins",
-      "Late spring and early autumn sun"
+      "Late spring and early autumn sun",
+      "Harbour-town beach bases",
+      "Active coast holidays"
     ],
     "alerts": [
       "Oludeniz road traffic is slow in peak summer afternoons.",
       "Boat days can be wind-affected outside the settled summer pattern.",
-      "Saklikent water levels and gorge access vary by season."
+      "Saklikent water levels and gorge access vary by season.",
+      "July and August heat can make tomb climbs, market walks and non-beach sightseeing feel punishing by midday."
     ]
   },
-  "sweet": "May, Jun and Sep usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "May, June and September are usually the best balance for warm sea weather, full boat and paragliding operations, and less pressure than the hottest midsummer weeks.",
   "months": [
     {
       "m": "Jan",

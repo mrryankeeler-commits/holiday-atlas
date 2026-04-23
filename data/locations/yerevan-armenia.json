@@ -18,7 +18,7 @@
   "city": "Yerevan",
   "country": "Armenia",
   "region": "Ararat plain, central Armenia",
-  "desc": "Yerevan is a Ararat plain, central Armenia base shaped by cascade stairway views, republic square evenings, armenian brandy cellars. It suits caucasus city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Yerevan is a warm-toned pink-stone capital that works best as both a city break and a launchpad: the Cascade and Republic Square for evening rhythm, Soviet and pre-Soviet layers, brandy, cafés and markets, then monastery and mountain day trips once you are ready to leave town. It feels more lived-in and relaxed than many first-time visitors expect, though summer heat on the Ararat plain is no joke.",
   "hls": [
     "Cascade stairway views",
     "Republic Square evenings",
@@ -47,20 +47,30 @@
       "name": "Garni and Geghard day trip",
       "cat": "History",
       "desc": "Use a guided or taxi day for the Roman-style temple and rock-cut monastery outside the city."
+    },
+    {
+      "name": "Vernissage market",
+      "cat": "Shopping & culture",
+      "desc": "Browse for carpets, woodwork, prints and Soviet-era odds and ends rather than defaulting to generic souvenir shops."
+    },
+    {
+      "name": "Tsitsernakaberd and museum",
+      "cat": "History",
+      "desc": "Make space for the genocide memorial and museum if you want a fuller understanding of modern Armenian identity."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "60-140 Mbps",
-      "note": "Typical visitor connectivity in Yerevan is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Very good in central apartments, cafes and hotels, with a stronger remote-work feel than many regional capitals, though monastery day trips and mountain roads are a different story."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Yerevan uses one main airport close to the city; UK trips often connect through European or Gulf hubs, with summer diaspora travel lifting fares.",
+    "fltNote": "Zvartnots Airport is close to the city, but there is currently no LGW or LCY nonstop so destination-level direct flags stay false. Most UK trips still connect through European hubs or Istanbul, though Zvartnots Airport says Wizz Air will start a twice-weekly Yerevan-London Luton route on 12 June 2026. Summer diaspora traffic and September demand around harvest-season travel tend to lift fares.",
     "airports": [
       {
         "name": "Zvartnots International Airport",
@@ -76,20 +86,23 @@
     "currency": "Armenian dram (AMD)",
     "lang": "Armenian; Russian and English appear in visitor services",
     "tz": "AMT (UTC+4)",
-    "visa": "UK/Irish passport holders should verify Armenia entry rules before travel; short tourist visits are often visa-free for many European passports.",
+    "visa": "British citizens can visit Armenia visa-free for up to 180 days in a year for tourism or business, and GOV.UK says your passport only needs to be valid for the duration of your stay.",
     "bestFor": [
       "Caucasus city breaks",
       "Monastery day trips",
       "Food and wine weekends",
-      "Spring and autumn culture travel"
+      "Spring and autumn culture travel",
+      "Cafe-heavy capital stays",
+      "Ararat-view urban bases"
     ],
     "alerts": [
       "Summer heat is strong on exposed city walks.",
       "Clear Ararat views are weather and haze dependent.",
-      "Border and regional conditions should be checked before wider road trips."
+      "Border and regional conditions should be checked before wider road trips.",
+      "If you are planning eastern-border excursions, remember FCDO advises against travel within 5 km of the Armenia-Azerbaijan border."
     ]
   },
-  "sweet": "May, Jun and Sep are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June, September and early October are the best balance for walkable temperatures, open-air café life and clearer day-trip conditions than the peak summer heat.",
   "months": [
     {
       "m": "Jan",

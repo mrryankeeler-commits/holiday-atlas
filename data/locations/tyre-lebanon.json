@@ -18,7 +18,7 @@
   "city": "Tyre",
   "country": "Lebanon",
   "region": "South Lebanon, Mediterranean coast",
-  "desc": "Tyre is a South Lebanon, Mediterranean coast base shaped by unesco phoenician and roman ruins, south lebanon beaches, old harbour lanes. It suits archaeology plus beach trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Tyre is one of the Levant's great archaeological coast cities, with Roman streets, a huge hippodrome, a smaller old harbour and long sandy shoreline all tied to an extraordinary Phoenician history. Under normal conditions it would be an easy archaeology-and-sea destination, but practical planning is currently dominated by South Lebanon security conditions rather than classic holiday logic.",
   "hls": [
     "UNESCO Phoenician and Roman ruins",
     "South Lebanon beaches",
@@ -47,20 +47,30 @@
       "name": "Old harbour dinner",
       "cat": "Food",
       "desc": "Finish with seafood around the small harbour when conditions and opening hours line up."
+    },
+    {
+      "name": "Harbour quarter walk",
+      "cat": "Old town",
+      "desc": "Use the tighter lanes around the fishing harbour for a feel of the older city beyond the headline archaeological compounds."
+    },
+    {
+      "name": "Sandy public beach edge",
+      "cat": "Coast",
+      "desc": "If local conditions are calm and current advice allows, the open shoreline shows why Tyre has long mattered as more than a ruins stop."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "15-50 Mbps",
-      "note": "Typical visitor connectivity in Tyre is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usable in central guesthouses and some seafront cafes, but outages, generator dependence and weaker consistency outside the core mean you should not plan on seamless always-on connectivity."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Tyre has no airport; Beirut is the gateway and road travel south should be planned around current security advice and checkpoint realities.",
+    "fltNote": "Tyre has no airport and no destination-level LGW/LCY nonstop routing. Beirut is the only practical air gateway, and Beirut airport's own distance guide puts Tyre at roughly 77 to 83 km away, but the key issue is not distance: FCDO currently advises against all travel to South Governorate, which includes Tyre. If someone is already making an essential trip, they should plan around confirmed flights, current road conditions and trusted local logistics rather than assume a routine coastal transfer.",
     "airports": [
       {
         "name": "Beirut-Rafic Hariri International Airport",
@@ -76,20 +86,21 @@
     "currency": "Lebanese pound (LBP); US dollars are also widely used in some travel contexts",
     "lang": "Arabic; French and English are common in Beirut and tourism services",
     "tz": "EET/EEST (UTC+2/+3)",
-    "visa": "UK/Irish passport holders should verify Lebanon visa-on-arrival and security-related entry rules before travel.",
+    "visa": "For British citizens who choose to travel against FCDO advice, GOV.UK says a free single-entry tourist or family visit visa can normally be obtained on arrival at Beirut airport, your passport should be valid for at least 3 months from entry, and travellers with Israeli stamps may be refused entry.",
     "bestFor": [
-      "Archaeology plus beach trips",
-      "South Lebanon heritage",
-      "Seafood-focused coast days",
-      "Guided day trips from Beirut"
+      "Serious archaeology interest",
+      "Phoenician and Roman history",
+      "Lebanon specialists with trusted logistics",
+      "Harbour-and-ruins photography"
     ],
     "alerts": [
-      "Check official travel advice for South Lebanon before planning.",
-      "Summer beach demand is local and weekend-heavy.",
-      "Use trusted drivers for Beirut transfers."
+      "FCDO currently advises against all travel to South Governorate, which includes Tyre.",
+      "If your presence in Lebanon is not essential, GOV.UK says you should consider departing now if you judge you can do so safely.",
+      "Road access, checkpoints and local conditions can change quickly.",
+      "If travel is essential, use trusted local drivers and keep plans flexible to same-day disruption."
     ]
   },
-  "sweet": "May, Jun and Oct usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "In pure weather terms May, June and October would usually be the most comfortable months, but current security advice should outweigh seasonality when planning Tyre at all.",
   "months": [
     {
       "m": "Jan",
