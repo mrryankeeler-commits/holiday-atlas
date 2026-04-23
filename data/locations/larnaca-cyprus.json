@@ -18,7 +18,7 @@
   "city": "Larnaca",
   "country": "Cyprus",
   "region": "Southeast Cyprus",
-  "desc": "Larnaca is a Southeast Cyprus base shaped by finikoudes waterfront, salt lake flamingos, hala sultan tekke. It suits easy winter sun and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Larnaca is Cyprus at its easiest: a compact palm-lined seafront city where airport access, beach, old church quarter, diving and winter-sun practicality all sit within a very manageable footprint. It is less about dramatic headline sights than about smooth, low-friction Mediterranean time, which makes it especially strong for short breaks and easy shoulder-season sun.",
   "hls": [
     "Finikoudes waterfront",
     "Salt Lake flamingos",
@@ -47,20 +47,30 @@
       "name": "St Lazarus Church",
       "cat": "Culture",
       "desc": "Step into the stone church and surrounding old streets for Larnaca's historic core."
+    },
+    {
+      "name": "Hala Sultan Tekke with Salt Lake walk",
+      "cat": "Culture & nature",
+      "desc": "Pair the mosque setting with the lake trail rather than treating the birdlife and the monument as separate stops."
+    },
+    {
+      "name": "Piale Pasha evening walk",
+      "cat": "Seafront",
+      "desc": "Keep going beyond Finikoudes for a less package-holiday seafront stretch with local fish taverns and a calmer pace."
     }
   ],
   "prac": {
     "wifi": {
       "r": 5,
       "spd": "50-130 Mbps",
-      "note": "Typical visitor connectivity in Larnaca is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Excellent across most hotels, apartments and seafront cafes, so Larnaca is one of the lower-friction places here for simple work-and-holiday overlap."
     },
     "directGW": true,
     "directFrom": {
       "LGW": true,
       "LCY": false
     },
-    "fltNote": "Larnaca has its own airport and realistic LGW nonstop service in the leisure schedule; fares rise in school holidays and around warm shoulder-season breaks.",
+    "fltNote": "Larnaca's biggest advantage is that the airport is genuinely part of the destination rather than a distant gateway, and easyJet is currently operating Larnaca-London Gatwick service. That keeps the destination-level LGW nonstop truth as `true`. Prices still jump around school holidays and warm shoulder-season weekends, but the short airport transfer makes Larnaca more forgiving than most resort-style sun breaks.",
     "airports": [
       {
         "name": "Larnaca International Airport",
@@ -86,20 +96,23 @@
     "currency": "Euro (EUR)",
     "lang": "Greek and Turkish; English is widely used in tourism",
     "tz": "EET/EEST (UTC+2/+3)",
-    "visa": "Cyprus has its own entry regime outside Schengen; UK/Irish travellers should verify short-stay rules before booking.",
+    "visa": "British citizens can visit Cyprus visa-free for up to 90 days in any 180-day period, and GOV.UK says your passport must be less than 10 years old on arrival, valid for at least 3 months after the day you plan to leave, and have at least 1 blank page. Cyprus is not in Schengen and you do not register for EES when entering.",
     "bestFor": [
       "Easy winter sun",
       "Short transfers",
       "Diving trips",
-      "Families wanting simple logistics"
+      "Families wanting simple logistics",
+      "Beginner-friendly Cyprus breaks",
+      "Warm shoulder-season weekends"
     ],
     "alerts": [
       "Beachfront rooms are most expensive during UK school-holiday sun weeks.",
       "Salt Lake birdlife is seasonal, not a summer guarantee.",
-      "Midday heat is strong from June through September."
+      "Midday heat is strong from June through September.",
+      "Cyprus is outside Schengen, so do not assume mainland-Europe border rules apply one-for-one."
     ]
   },
-  "sweet": "May, Sep and Oct usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "May, September and October are usually Larnaca's sweet spot for warm sea weather, active restaurant life and lower pressure than the most intense midsummer weeks.",
   "months": [
     {
       "m": "Jan",

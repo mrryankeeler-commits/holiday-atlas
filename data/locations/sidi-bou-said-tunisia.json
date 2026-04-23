@@ -18,7 +18,7 @@
   "city": "Sidi Bou Said",
   "country": "Tunisia",
   "region": "Tunis coast, Carthage peninsula",
-  "desc": "Sidi Bou Said is a Tunis coast, Carthage peninsula base shaped by blue-and-white hill village, bay of tunis views, cafe des delices terraces. It suits tunis city add-ons and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Sidi Bou Said is the polished blue-and-white clifftop village on the Carthage peninsula, best treated as a stylish Tunis coast base rather than only a photo stop: artful doors, terraces over the Bay of Tunis, house museums and easy links to Carthage and central Tunis all sit within a compact hilltop setting. It suits travellers who want atmosphere and sea views with city access, not a full beach holiday.",
   "hls": [
     "Blue-and-white hill village",
     "Bay of Tunis views",
@@ -47,20 +47,30 @@
       "name": "Carthage side trip",
       "cat": "Archaeology",
       "desc": "Combine nearby Punic and Roman sites with Sidi Bou Said rather than treating it as only a photo stop."
+    },
+    {
+      "name": "Dar el Annabi and back-lane wander",
+      "cat": "House & streets",
+      "desc": "Step off the main terrace drag and use the quieter lanes and traditional house details to see why the village became an artistic retreat."
+    },
+    {
+      "name": "TGM ride into Tunis",
+      "cat": "Transport-linked outing",
+      "desc": "Use the local rail link as part of the experience, not just a transfer, because it makes the Tunis-Carthage-Sidi Bou Said chain feel easy and coherent."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "35-90 Mbps",
-      "note": "Typical visitor connectivity in Sidi Bou Said is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Generally good in cafes and boutique stays around the main village core, though not something to take for granted once you start moving between Tunis, Carthage and smaller guesthouses."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Sidi Bou Said is reached through Tunis airport; short transfer times make it easy, while spring and autumn city-break demand can tighten rooms.",
+    "fltNote": "Tunis-Carthage airport makes Sidi Bou Said one of the easier North African culture stops for a short trip, because the final transfer is short and the TGM rail corridor links Tunis, Carthage and the village well. That said, the destination works best when paired with Tunis-region sightseeing rather than imagined as a standalone multi-day beach base. Spring and autumn are when the prettiness-to-crowd ratio is usually most favourable.",
     "airports": [
       {
         "name": "Tunis-Carthage International Airport",
@@ -76,17 +86,20 @@
     "currency": "Tunisian dinar (TND)",
     "lang": "Arabic; French is widely useful and English varies",
     "tz": "CET (UTC+1)",
-    "visa": "UK/Irish passport holders should verify Tunisia entry rules and passport validity before travel.",
+    "visa": "British citizens can visit Tunisia visa-free for up to 90 days, and GOV.UK says your passport should be valid for the duration of your stay. Border officials can ask for onward travel and accommodation proof, and you should make sure your passport is stamped on entry.",
     "bestFor": [
       "Tunis city add-ons",
       "Photogenic village stays",
       "Mediterranean cafe culture",
-      "Archaeology plus sea views"
+      "Archaeology plus sea views",
+      "Short romantic coast breaks",
+      "Design-and-photography detours"
     ],
     "alerts": [
       "Day-tripper crowds build in the middle of the day.",
       "Steep cobbled lanes are awkward with heavy luggage.",
-      "Cafe viewpoints are priced for the location."
+      "Cafe viewpoints are priced for the location.",
+      "It can feel more polished and performative than relaxed if you arrive at the busiest hour."
     ]
   },
   "sweet": "May, Jun and Oct usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",

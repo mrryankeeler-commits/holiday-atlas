@@ -18,7 +18,7 @@
   "city": "Gaziantep",
   "country": "Turkey",
   "region": "Southeastern Anatolia",
-  "desc": "Gaziantep is a Southeastern Anatolia base shaped by unesco-listed food culture, zeugma mosaic museum, copper bazaar craft. It suits food-led city breaks and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Gaziantep is one of Turkey's richest food cities and one of its most distinctive inland culture stops: a serious baklava-and-kebab capital with a magnificent mosaic museum, dense bazaar streets, old hans and a long trading history that still feels alive rather than staged. It suits travellers who want an urban trip built around eating and museum depth, not nightlife or coast-and-sun routines.",
   "hls": [
     "UNESCO-listed food culture",
     "Zeugma Mosaic Museum",
@@ -47,20 +47,30 @@
       "name": "Gaziantep Castle quarter",
       "cat": "History",
       "desc": "Use the elevated castle area as an orientation point for the old hans, mosques and museums nearby."
+    },
+    {
+      "name": "Emine Göğüş or culinary museum stop",
+      "cat": "Food culture",
+      "desc": "Give the city's food identity some context rather than treating Gaziantep cuisine as just a restaurant checklist."
+    },
+    {
+      "name": "Pistachio dessert pause",
+      "cat": "Food",
+      "desc": "Build in a slower sweet stop for katmer or baklava so the city does not become an endless heavy meal marathon."
     }
   ],
   "prac": {
     "wifi": {
       "r": 4,
       "spd": "30-70 Mbps",
-      "note": "Typical visitor connectivity in Gaziantep is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually dependable in city hotels and cafes, though older guesthouses and covered-market areas can feel less seamless than the modern business side of town."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "No routine LGW/LCY nonstop reaches Gaziantep; most UK trips connect via Istanbul, with domestic Turkish holiday periods tightening fares.",
+    "fltNote": "Gaziantep has its own airport, but in practice UK trips still route through Istanbul or another Turkish hub rather than reaching the city nonstop from Gatwick or City. Once you land, the final transfer is easy; the bigger practical question is whether you are treating Gaziantep as a standalone city break or as part of a wider southeast-Turkey itinerary, where regional advice and road logic matter more.",
     "airports": [
       {
         "name": "Gaziantep Oğuzeli Airport",
@@ -86,20 +96,23 @@
     "currency": "Turkish lira (TRY)",
     "lang": "Turkish; English varies outside resorts and major hotels",
     "tz": "TRT (UTC+3)",
-    "visa": "UK/Irish passport holders should verify Turkey short-stay entry rules before travel; rules can change.",
+    "visa": "British citizens can visit Turkey visa-free for up to 90 days in any 180-day period, and GOV.UK says your passport must be valid for at least 150 days after arrival with at least 1 blank page.",
     "bestFor": [
       "Food-led city breaks",
       "Museum-rich culture stops",
       "Overland Turkey itineraries",
-      "Cooler spring and autumn exploring"
+      "Cooler spring and autumn exploring",
+      "Baklava-and-bazaar weekends",
+      "History plus gastronomy trips"
     ],
     "alerts": [
       "Summer afternoons are very hot for market wandering.",
       "Check current regional travel advice before planning wider southeast Turkey road trips.",
+      "Meals here are rich and heavy enough that pacing matters if you want to enjoy the city rather than burn out by day two.",
       "Popular baklava shops can queue around local holiday periods."
     ]
   },
-  "sweet": "May, Jun and Sep are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are usually Gaziantep's best mix of comfortable museum-and-market weather, strong food culture rhythm and easier walking than the punishing midsummer heat.",
   "months": [
     {
       "m": "Jan",
