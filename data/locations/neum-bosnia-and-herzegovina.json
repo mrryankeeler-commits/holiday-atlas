@@ -18,7 +18,7 @@
   "city": "Neum",
   "country": "Bosnia and Herzegovina",
   "region": "Adriatic coast, Herzegovina-Neretva Canton",
-  "desc": "Neum is a Adriatic coast, Herzegovina-Neretva Canton base shaped by bosnia's only seaside town, sheltered adriatic bay, lower-cost coast base. It suits budget adriatic beach stays and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Neum is Bosnia and Herzegovina's slim Adriatic outlet: a steep, built-up bay with calm water, practical beach hotels and a more budget-minded feel than much of nearby Croatia. It works best if you want a lower-key coast base with easy access to Herzegovina's hinterland, rather than a polished old town or a long open sandy shoreline.",
   "hls": [
     "Bosnia's only seaside town",
     "Sheltered Adriatic bay",
@@ -47,28 +47,38 @@
       "name": "Dubrovnik day trip",
       "cat": "Culture",
       "desc": "Visit Dubrovnik from Neum only with an early start, especially in cruise-heavy months."
+    },
+    {
+      "name": "Neum hinterland drive",
+      "cat": "Scenic route",
+      "desc": "Head up into the stony interior for a better sense of how quickly the coast gives way to Herzegovina's harsher landscape."
+    },
+    {
+      "name": "Klek peninsula lookouts",
+      "cat": "Views",
+      "desc": "Use the viewpoints around the bay to understand why Neum feels more sheltered and enclosed than many Adriatic resort towns."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "25-65 Mbps",
-      "note": "Typical visitor connectivity in Neum is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Generally fine in seafront hotels and apartment blocks, but hidden coves, hillside roads and smaller family-run stays are patchier than the main promenade suggests."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Neum has no airport; Dubrovnik and Mostar are practical gateways, but border crossings and summer coast traffic can stretch transfers.",
+    "fltNote": "Neum itself is reached overland. Dubrovnik is often the easiest international gateway and easyJet is currently selling London Gatwick-Dubrovnik nonstop flights at airport level, while Mostar is closer on paper but much thinner on routes; Split offers broader choice if you are happy with the longer drive. Border formalities and summer coast traffic can stretch what looks like a simple transfer, especially if you add Croatia side trips.",
     "airports": [
       {
         "name": "Dubrovnik Airport",
         "code": "DBV",
         "km": 85,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,9 +96,9 @@
         "name": "Split Airport",
         "code": "SPU",
         "km": 170,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -96,20 +106,23 @@
     "currency": "Bosnia and Herzegovina convertible mark (BAM)",
     "lang": "Bosnian/Croatian/Serbian; English varies outside major tourist areas",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "UK/Irish passport holders should verify Bosnia and Herzegovina entry rules; short visa-free tourist stays are commonly available.",
+    "visa": "British citizens can travel to Bosnia and Herzegovina without a visa for up to 90 days within a 6-month period, and GOV.UK says you should make sure your passport is stamped on entry and exit.",
     "bestFor": [
       "Budget Adriatic beach stays",
       "Bosnia-Croatia road trips",
       "Families wanting calm water",
-      "Shoulder-season coast bases"
+      "Shoulder-season coast bases",
+      "Car-based Herzegovina itineraries",
+      "Lower-frills family seaside weeks"
     ],
     "alerts": [
       "Border and coast-road delays are common in peak summer.",
       "Beachfront inventory is limited, so book early for July-August.",
-      "Some side trips require passport checks when crossing into Croatia."
+      "Some side trips require passport checks when crossing into Croatia.",
+      "Many beaches are pebbly platforms or compact coves rather than broad sand, so expectations matter."
     ]
   },
-  "sweet": "Jun, Jul and Sep usually give the best balance of warmth, open seasonal services and less pressure than the absolute midsummer peak.",
+  "sweet": "June and September are usually the best balance for warm sea days, open restaurants and fewer coast-road headaches than the height of July and August.",
   "months": [
     {
       "m": "Jan",

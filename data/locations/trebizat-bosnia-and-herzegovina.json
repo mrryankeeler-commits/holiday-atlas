@@ -18,7 +18,7 @@
   "city": "Trebizat",
   "country": "Bosnia and Herzegovina",
   "region": "Herzegovina-Neretva Canton, near Capljina",
-  "desc": "Trebizat is a Herzegovina-Neretva Canton, near Capljina base shaped by trebižat river swimming spots, kravica waterfalls nearby, capljina and pocitelj access. It suits waterfall and river days and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Trebizat is really a river-valley base rather than a town break: swimming spots on the Trebižat, Kravica close by, wine country and Ottoman stone villages within easy reach, and enough shade-and-water appeal to balance the summer heat of lower Herzegovina. It makes most sense for travellers with a car who want to stay near the landscape instead of inside Mostar or on the Croatian coast.",
   "hls": [
     "Trebižat River swimming spots",
     "Kravica waterfalls nearby",
@@ -47,20 +47,30 @@
       "name": "Herzegovina wine tasting",
       "cat": "Food & drink",
       "desc": "Book a cellar visit around Capljina or Ljubuski to connect the trip with local Zilavka and Blatina wines."
+    },
+    {
+      "name": "Kocusa waterfall side stop",
+      "cat": "Nature",
+      "desc": "Add Koćuša if you want a second waterfall stop with a more local, less headline feel than Kravica."
+    },
+    {
+      "name": "Ceveljusa river mills",
+      "cat": "Landscape",
+      "desc": "Look for older mill and riverside sections to understand the Trebižat as a lived-in working landscape, not just a swim hole."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-60 Mbps",
-      "note": "Typical visitor connectivity in Trebizat is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually adequate in apartments and guesthouses near the main road, but riverside outings, cellar visits and waterfall areas are less dependable."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Trebizat has no airport; Mostar is closest but seasonal, while Dubrovnik and Split provide broader route choice with longer transfers.",
+    "fltNote": "Trebizat is reached by road. Mostar is the nearest airport but its airline list is still thin, while Dubrovnik and Split give you broader route choice and both currently have airport-level London Gatwick service via easyJet. In practice the right gateway depends on whether you value the shortest inland transfer or the simplest UK nonstop.",
     "airports": [
       {
         "name": "Mostar Airport",
@@ -76,9 +86,9 @@
         "name": "Dubrovnik Airport",
         "code": "DBV",
         "km": 120,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -86,9 +96,9 @@
         "name": "Split Airport",
         "code": "SPU",
         "km": 140,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       }
@@ -96,20 +106,23 @@
     "currency": "Bosnia and Herzegovina convertible mark (BAM)",
     "lang": "Bosnian/Croatian/Serbian; English varies outside major tourist areas",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "UK/Irish passport holders should verify Bosnia and Herzegovina entry rules; short visa-free tourist stays are commonly available.",
+    "visa": "British citizens can travel to Bosnia and Herzegovina without a visa for up to 90 days within a 6-month period, and GOV.UK says foreign nationals must register with the police within 72 hours of arrival if their accommodation does not handle this for them.",
     "bestFor": [
       "Waterfall and river days",
       "Herzegovina road trips",
       "Wine-country add-ons",
-      "Mostar-Dubrovnik overland stops"
+      "Mostar-Dubrovnik overland stops",
+      "Summer freshwater breaks",
+      "Couples with a rental car"
     ],
     "alerts": [
       "Kravica is crowded in peak summer afternoons.",
       "River swimming depends on water level and local safety advice.",
-      "Border routes toward Croatia can slow in holiday traffic."
+      "Border routes toward Croatia can slow in holiday traffic.",
+      "Travertine edges, wet rocks and improvised swimming entries can be slippery."
     ]
   },
-  "sweet": "May, Jun and Sep are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are usually the best balance for river swimming, waterfall flow and manageable crowd levels before or after the hottest peak weeks.",
   "months": [
     {
       "m": "Jan",

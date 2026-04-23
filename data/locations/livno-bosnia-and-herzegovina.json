@@ -18,7 +18,7 @@
   "city": "Livno",
   "country": "Bosnia and Herzegovina",
   "region": "Canton 10, Dinaric Alps",
-  "desc": "Livno is a Canton 10, Dinaric Alps base shaped by wild horses of kruzi plateau, dinaric mountain scenery, old bridge and river source. It suits offbeat balkan road trips and rewards timing around the local weather curve, because crowding, room rates and transfer friction shift noticeably by season.",
+  "desc": "Livno is a high karst plain town that feels more like an inland staging post for huge sky, pasture and mountain drives than a conventional sightseeing stop. People come for the wild horses on the Kruzi plateau, the Duman spring and the plateau scenery, then stay long enough to notice the cheese culture, Ottoman and Austro-Hungarian layers, and the unusual calm of western Herzegovina's upland edge.",
   "hls": [
     "Wild horses of Kruzi plateau",
     "Dinaric mountain scenery",
@@ -47,28 +47,38 @@
       "name": "Local cheese tasting",
       "cat": "Food",
       "desc": "Seek out Livno cheese and simple highland cooking as part of the trip, not just a snack."
+    },
+    {
+      "name": "Gorica and Franciscan museum",
+      "cat": "Culture",
+      "desc": "Add the monastery complex and museum if you want more context than just the horse-and-landscape side of Livno."
+    },
+    {
+      "name": "Kamesnica or Cincar panorama drive",
+      "cat": "Scenic route",
+      "desc": "Use a longer mountain drive for the full sense of how exposed and spacious the Livno field really is."
     }
   ],
   "prac": {
     "wifi": {
       "r": 3,
       "spd": "20-60 Mbps",
-      "note": "Typical visitor connectivity in Livno is usable around central stays, but backup mobile data is wise for day trips and smaller guesthouses."
+      "note": "Usually workable in central hotels, cafes and apartments, but plateau excursions, horse-viewing drives and smaller guesthouses can be much less dependable."
     },
     "directGW": false,
     "directFrom": {
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Livno has no airport; Split is often practical for road trips, while Sarajevo and Mostar work better for Bosnia-focused itineraries and seasonal schedules.",
+    "fltNote": "Livno itself is reached by road rather than by flying into the destination. Split is often the easiest UK gateway and easyJet is currently selling London Gatwick-Split nonstop flights, while Sarajevo makes more sense if the wider trip is Bosnia-focused and Mostar remains the closest Herzegovina airport with a much thinner airline list. The main planning question is road time over high ground, not airport distance alone.",
     "airports": [
       {
         "name": "Split Airport",
         "code": "SPU",
         "km": 120,
-        "dgw": false,
+        "dgw": true,
         "directFrom": {
-          "LGW": false,
+          "LGW": true,
           "LCY": false
         }
       },
@@ -96,20 +106,23 @@
     "currency": "Bosnia and Herzegovina convertible mark (BAM)",
     "lang": "Bosnian/Croatian/Serbian; English varies outside major tourist areas",
     "tz": "CET/CEST (UTC+1/+2)",
-    "visa": "UK/Irish passport holders should verify Bosnia and Herzegovina entry rules; short visa-free tourist stays are commonly available.",
+    "visa": "British citizens can travel to Bosnia and Herzegovina without a visa for up to 90 days within a 6-month period, and GOV.UK says your passport must be less than 10 years old and valid for at least 90 days after the date you plan to leave.",
     "bestFor": [
       "Offbeat Balkan road trips",
       "Wildlife and landscape photography",
       "Quiet mountain towns",
-      "Travellers with a rental car"
+      "Travellers with a rental car",
+      "Highland food-and-scenery detours",
+      "Shoulder-season inland Balkans"
     ],
     "alerts": [
       "Wild-horse visits should use responsible local guides and keep distance.",
       "Winter roads over high ground can be snow-affected.",
-      "Public transport is limited, so car planning matters."
+      "Public transport is limited, so car planning matters.",
+      "Do not expect a polished tourist-town evening scene once day driving is done."
     ]
   },
-  "sweet": "Jun, Jul and Aug are the most balanced months for weather comfort, trip logistics and destination atmosphere.",
+  "sweet": "May, June and September are usually the best balance for horse-plateau outings, road conditions and cooler walking weather than the full summer heat.",
   "months": [
     {
       "m": "Jan",
