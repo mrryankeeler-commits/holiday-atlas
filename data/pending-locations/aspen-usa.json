@@ -1,0 +1,141 @@
+{
+  "id": "aspen-usa",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Aspen",
+  "country": "USA",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Aspen, USA",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-8.3",
+      "Avg High (°C)": "-2.2",
+      "Avg Low (°C)": "-13.9",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Feb",
+      "Avg Temp (°C)": "-7.2",
+      "Avg High (°C)": "0.0",
+      "Avg Low (°C)": "-12.2",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Mar",
+      "Avg Temp (°C)": "-2.8",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-8.3",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Apr",
+      "Avg Temp (°C)": "1.7",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "-4.4",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "May",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "14.4",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Jun",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "14.9",
+      "Cloud Cover (%)": "29",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Jul",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "14.6",
+      "Cloud Cover (%)": "33",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Aug",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "35",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Sep",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Oct",
+      "Avg Temp (°C)": "3.3",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "-2.8",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Nov",
+      "Avg Temp (°C)": "-3.3",
+      "Avg High (°C)": "3.3",
+      "Avg Low (°C)": "-8.3",
+      "Daylight (h/day)": "10.0",
+      "Cloud Cover (%)": "40",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    },
+    {
+      "Location": "Aspen, USA",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-8.3",
+      "Avg High (°C)": "-1.7",
+      "Avg Low (°C)": "-12.8",
+      "Daylight (h/day)": "9.5",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/3360/Average-Weather-in-Aspen-Colorado-United-States-Year-Round"
+    }
+  ]
+}

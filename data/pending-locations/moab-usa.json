@@ -1,0 +1,141 @@
+{
+  "id": "moab-usa",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Moab",
+  "country": "USA",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Moab, USA",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-1.7",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "-6.1",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Feb",
+      "Avg Temp (°C)": "2.8",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "-2.2",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "45",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Mar",
+      "Avg Temp (°C)": "8.3",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Apr",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "May",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "26.1",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "14.3",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Jun",
+      "Avg Temp (°C)": "24.4",
+      "Avg High (°C)": "32.2",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "14.8",
+      "Cloud Cover (%)": "23",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Jul",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "35.0",
+      "Avg Low (°C)": "20.0",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Aug",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "32.8",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Sep",
+      "Avg Temp (°C)": "20.6",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Oct",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Nov",
+      "Avg Temp (°C)": "5.0",
+      "Avg High (°C)": "11.7",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "36",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    },
+    {
+      "Location": "Moab, USA",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-1.1",
+      "Avg High (°C)": "5.0",
+      "Avg Low (°C)": "-5.0",
+      "Daylight (h/day)": "9.5",
+      "Cloud Cover (%)": "40",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "gallipoli-italy",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Gallipoli",
+  "country": "Italy",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Jan",
+      "Avg Temp (°C)": "10.0",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "9.7",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Feb",
+      "Avg Temp (°C)": "10.0",
+      "Avg High (°C)": "13.3",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "10.7",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Mar",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "15.0",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Apr",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "May",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.4",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Jun",
+      "Avg Temp (°C)": "23.3",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "18.9",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "20",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Jul",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "21.1",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "7",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Aug",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "21.1",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "12",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Sep",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Oct",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "15.0",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Nov",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "17.2",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "10.0",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    },
+    {
+      "Location": "Gallipoli, Italy",
+      "Month": "Dec",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/82017/Average-Weather-in-Gallipoli-Italy-Year-Round"
+    }
+  ]
+}
