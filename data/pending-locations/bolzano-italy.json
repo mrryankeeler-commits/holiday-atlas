@@ -1,0 +1,141 @@
+{
+  "id": "bolzano-italy",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Bolzano",
+  "country": "Italy",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-0.6",
+      "Avg High (°C)": "5",
+      "Avg Low (°C)": "-4.4",
+      "Daylight (h/day)": "9.1",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Feb",
+      "Avg Temp (°C)": "2.2",
+      "Avg High (°C)": "8.3",
+      "Avg Low (°C)": "-2.2",
+      "Daylight (h/day)": "10.4",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Mar",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Apr",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "May",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "10",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Jun",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "25.6",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "15.8",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Jul",
+      "Avg Temp (°C)": "21.7",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "15.6",
+      "Daylight (h/day)": "15.4",
+      "Cloud Cover (%)": "38",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Aug",
+      "Avg Temp (°C)": "21.1",
+      "Avg High (°C)": "27.2",
+      "Avg Low (°C)": "15",
+      "Daylight (h/day)": "14.1",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Sep",
+      "Avg Temp (°C)": "17.2",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Oct",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "10.8",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Nov",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "10",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    },
+    {
+      "Location": "Bolzano, Italy",
+      "Month": "Dec",
+      "Avg Temp (°C)": "0",
+      "Avg High (°C)": "5.6",
+      "Avg Low (°C)": "-3.9",
+      "Daylight (h/day)": "8.6",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/69940/Average-Weather-in-Bolzano-Italy-Year-Round"
+    }
+  ]
+}

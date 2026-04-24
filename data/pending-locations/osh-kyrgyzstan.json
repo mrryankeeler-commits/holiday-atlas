@@ -1,0 +1,141 @@
+{
+  "id": "osh-kyrgyzstan",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Osh",
+  "country": "Kyrgyzstan",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-1.7",
+      "Avg High (°C)": "2.2",
+      "Avg Low (°C)": "-5",
+      "Daylight (h/day)": "9.7",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Feb",
+      "Avg Temp (°C)": "0.6",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "-2.8",
+      "Daylight (h/day)": "10.7",
+      "Cloud Cover (%)": "67",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Mar",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "66",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Apr",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "18.9",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "May",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Jun",
+      "Avg Temp (°C)": "23.3",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "15",
+      "Cloud Cover (%)": "23",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Jul",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "31.7",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "9",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Aug",
+      "Avg Temp (°C)": "23.9",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "6",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Sep",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "25.6",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "14",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Oct",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "38",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Nov",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "1.7",
+      "Daylight (h/day)": "9.9",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    },
+    {
+      "Location": "Osh, Kyrgyzstan",
+      "Month": "Dec",
+      "Avg Temp (°C)": "0",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "-3.3",
+      "Daylight (h/day)": "9.3",
+      "Cloud Cover (%)": "60",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+    }
+  ]
+}

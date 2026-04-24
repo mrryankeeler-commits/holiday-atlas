@@ -1,0 +1,141 @@
+{
+  "id": "charkestown-st-kitts-nevis",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Charkestown",
+  "country": "St. kitts & Nevis",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Jan",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "23",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Feb",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "11.6",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Mar",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "28",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Apr",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "May",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "25.6",
+      "Daylight (h/day)": "12.9",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Jun",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "13.1",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Jul",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "26.7",
+      "Daylight (h/day)": "13",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Aug",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "26.7",
+      "Daylight (h/day)": "12.7",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Sep",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Oct",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "11.7",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Nov",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "25",
+      "Daylight (h/day)": "11.3",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    },
+    {
+      "Location": "Charkestown, St. kitts & Nevis",
+      "Month": "Dec",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+    }
+  ]
+}

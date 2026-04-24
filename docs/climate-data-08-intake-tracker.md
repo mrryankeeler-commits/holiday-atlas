@@ -55,11 +55,11 @@ Summary:
 | 13 | 3 | `doha-qatar` | Doha, Qatar | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 14 | 3 | `suchitoto-el-salvador` | Suchitoto, El Salvador | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 15 | 3 | `angra-dos-reis-brazil` | Angra dos Reis, Brazil | 12 | staged | promote to live schema, then enrich in max-3 batch |
-| 16 | 4 | `charkestown-st-kitts-nevis` | Charkestown, St. kitts & Nevis | 12 | not staged | stage pending JSON in a max-5 staging batch; name/country capitalization review |
-| 17 | 4 | `skardu-pakistan` | Skardu, Pakistan | 12 | not staged | stage pending JSON in a max-5 staging batch; diacritic/id review |
-| 18 | 4 | `osh-kyrgyzstan` | Osh, Kyrgyzstan | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 19 | 4 | `lucerne-switzerland` | Lucerne, Switzerland | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 20 | 4 | `bolzano-italy` | Bolzano, Italy | 12 | not staged | stage pending JSON in a max-5 staging batch |
+| 16 | 4 | `charkestown-st-kitts-nevis` | Charkestown, St. kitts & Nevis | 12 | staged | name/country capitalization review; promote to live schema, then enrich in max-3 batch |
+| 17 | 4 | `skardu-pakistan` | Skardu, Pakistan | 12 | staged | diacritic/id review; promote to live schema, then enrich in max-3 batch |
+| 18 | 4 | `osh-kyrgyzstan` | Osh, Kyrgyzstan | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 19 | 4 | `lucerne-switzerland` | Lucerne, Switzerland | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 20 | 4 | `bolzano-italy` | Bolzano, Italy | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 21 | 5 | `miskolc-hungary` | Miskolc, Hungary | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 22 | 5 | `anchorage-alaska` | Anchorage, Alaska | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 23 | 5 | `motovan-croatia` | Motovan, Croatia | 12 | not staged | stage pending JSON in a max-5 staging batch; name review likely Motovun |
