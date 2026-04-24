@@ -14,10 +14,10 @@ Current audit snapshot:
 - `0` locations with generic `desc`
 - `0` locations with generic `prac.wifi.note`
 - `0` locations with generic `visa`
-- `1` location with flight-note wording still flagged for manual review
+- `0` locations with flight-note wording still flagged for manual review
 
 Remaining audit target:
-- `vinales-cuba`
+- none
 
 ## Completion Summary
 
@@ -37,18 +37,16 @@ Completed remediation batches:
 - Batch 13: `alkmaar-netherlands`, `bled`, `zakopane`
 
 Batch 14 status:
-- Done: `minca-colombia`, `torshavn-faroe-islands`
-- Remaining: `vinales-cuba`
+- Done: `minca-colombia`, `torshavn-faroe-islands`, `vinales-cuba`
+- Remaining: none
 
 ## Active Queue
 
 ### Next Batch
-- `vinales-cuba`
+- none
 
 Focus:
-- flight-note cleanup only
-- keep gateway-vs-destination nonstop semantics explicit
-- preserve the stronger existing wifi/cash/transfer detail
+- travel-copy remediation track complete
 
 ## Workflow Rules
 
@@ -60,7 +58,7 @@ Working rule for systematic enrichment:
 
 ## Validation Checklist
 
-Use this before marking the remaining item done.
+Use this checklist for any future follow-up edits on this workstream.
 
 - [ ] `prac.fltNote` reflects actual airport or transfer reality
 - [ ] destination-level `directFrom` remains distinct from airport-level `directFrom`

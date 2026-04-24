@@ -70,19 +70,27 @@
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Viñales has no airport; José Martí (HAV) is the main gateway. Havana→Viñales options: shared shuttle (typically 2.5-4 hours door-to-door with multiple hotel pickups), Viazul coach (about 3.5-4.5 hours plus bus-terminal check-in and limited baggage flexibility), or private taxi/transfer (about 2.5-3.5 hours, fastest but costly and fuel/cash dependent). Build buffer time for pickup delays, police checkpoints, and weather-affected road pace.",
+    "fltNote": "Viñales is usually reached via Havana's José Martí gateway rather than by flying straight into western Cuba. Current airport-level LGW and LCY flags stay false, so the real planning question is the overland chain west: shared shuttle is usually about 2.5-4 hours door-to-door after multiple pickups, Viazul is more like 3.5-4.5 hours once you factor in terminal check-in and fixed departure times, and a private taxi/transfer is the fastest option at roughly 2.5-3.5 hours but still depends on fuel availability, checkpoints, and road pace.",
     "airports": [
       {
         "name": "José Martí International Airport",
         "code": "HAV",
         "km": 180,
-        "dgw": true
+        "dgw": true,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
       },
       {
         "name": "Juan Gualberto Gómez Airport",
         "code": "VRA",
         "km": 300,
-        "dgw": false
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
       }
     ],
     "currency": "Cuba is cash-heavy: many casas, taxis, and small restaurants in Viñales prefer cash (often EUR/USD exchanged to CUP locally). Foreign cards can fail or be refused, and ATM cash-outs are unpredictable—arrive with enough cash for lodging, transfers, and at least 1-2 contingency days.",
