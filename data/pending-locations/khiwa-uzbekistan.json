@@ -1,0 +1,141 @@
+{
+  "id": "khiwa-uzbekistan",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Khiwa",
+  "country": "Uzbekistan",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-2.2",
+      "Avg High (°C)": "2.2",
+      "Avg Low (°C)": "-5.6",
+      "Daylight (h/day)": "9.6",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Feb",
+      "Avg Temp (°C)": "0.0",
+      "Avg High (°C)": "5.0",
+      "Avg Low (°C)": "-4.4",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "45",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Mar",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "12.2",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Apr",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "13.4",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "May",
+      "Avg Temp (°C)": "21.7",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "28",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Jun",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "33.9",
+      "Avg Low (°C)": "18.9",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "10",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Jul",
+      "Avg Temp (°C)": "28.9",
+      "Avg High (°C)": "35.6",
+      "Avg Low (°C)": "20.6",
+      "Daylight (h/day)": "14.8",
+      "Cloud Cover (%)": "4",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Aug",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "33.3",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "13.8",
+      "Cloud Cover (%)": "3",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Sep",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "27.2",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "10",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Oct",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "18.9",
+      "Avg Low (°C)": "5.0",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Nov",
+      "Avg Temp (°C)": "5.0",
+      "Avg High (°C)": "10.0",
+      "Avg Low (°C)": "-0.6",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    },
+    {
+      "Location": "Khiwa, Uzbekistan",
+      "Month": "Dec",
+      "Avg Temp (°C)": "0.0",
+      "Avg High (°C)": "4.4",
+      "Avg Low (°C)": "-4.4",
+      "Daylight (h/day)": "9.2",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+    }
+  ]
+}

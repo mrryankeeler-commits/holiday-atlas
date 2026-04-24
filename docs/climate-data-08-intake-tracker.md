@@ -70,11 +70,11 @@ Summary:
 | 28 | 6 | `meissen-germany` | Meissen, Germany | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 29 | 6 | `postiano-italy` | Postiano, Italy | 12 | staged | name review likely Positano; promote to live schema, then enrich in max-3 batch |
 | 30 | 6 | `mardin-turkey` | Mardin, Turkey | 12 | staged | promote to live schema, then enrich in max-3 batch |
-| 31 | 7 | `hopa-turkey` | Hopa, Turkey | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 32 | 7 | `almaty-kazakhstan` | Almaty, Kazakhstan | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 33 | 7 | `karakol-kyrgyzstan` | Karakol, Kyrgyzstan | 12 | not staged | stage pending JSON in a max-5 staging batch |
+| 31 | 7 | `hopa-turkey` | Hopa, Turkey | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 32 | 7 | `almaty-kazakhstan` | Almaty, Kazakhstan | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 33 | 7 | `karakol-kyrgyzstan` | Karakol, Kyrgyzstan | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 34 | 7 | `bishkek-kyrgyzstan` | Bishkek, Kyrgyzstan | 12 | live exists | existing live file; decide whether CSV refresh is intended |
-| 35 | 7 | `khiwa-uzbekistan` | Khiwa, Uzbekistan | 12 | not staged | stage pending JSON in a max-5 staging batch; name review likely Khiva |
+| 35 | 7 | `khiwa-uzbekistan` | Khiwa, Uzbekistan | 12 | staged | name review likely Khiva; promote to live schema, then enrich in max-3 batch |
 | 36 | 8 | `aktau-kazakhstan` | Aktau, Kazakhstan | 12 | blocked | routing decision: preflight fuzzy-matches `astana`; do not bulk import |
 | 37 | 8 | `panjakent-tajikistan` | Panjakent, Tajikistan | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 38 | 8 | `tataouine-tunisia` | Tataouine, Tunisia | 12 | not staged | stage pending JSON in a max-5 staging batch |

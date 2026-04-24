@@ -1,0 +1,141 @@
+{
+  "id": "almaty-kazakhstan",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Almaty",
+  "country": "Kazakhstan",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-6.7",
+      "Avg High (°C)": "-1.7",
+      "Avg Low (°C)": "-10.6",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Feb",
+      "Avg Temp (°C)": "-4.4",
+      "Avg High (°C)": "0.6",
+      "Avg Low (°C)": "-8.9",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Mar",
+      "Avg Temp (°C)": "2.8",
+      "Avg High (°C)": "8.3",
+      "Avg Low (°C)": "-2.2",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Apr",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "5.0",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "May",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "45",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Jun",
+      "Avg Temp (°C)": "20.6",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "15.3",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Jul",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "17",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Aug",
+      "Avg Temp (°C)": "21.7",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "13.9",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "14",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Sep",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Oct",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "11.0",
+      "Cloud Cover (%)": "38",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Nov",
+      "Avg Temp (°C)": "1.7",
+      "Avg High (°C)": "6.7",
+      "Avg Low (°C)": "-3.3",
+      "Daylight (h/day)": "9.7",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    },
+    {
+      "Location": "Almaty, Kazakhstan",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-3.9",
+      "Avg High (°C)": "0.6",
+      "Avg Low (°C)": "-8.3",
+      "Daylight (h/day)": "9.0",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+    }
+  ]
+}
