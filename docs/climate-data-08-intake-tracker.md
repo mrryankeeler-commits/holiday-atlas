@@ -50,11 +50,11 @@ Summary:
 | 8 | 2 | `lyon-france` | Lyon, France | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 9 | 2 | `rotterdam-netherlands` | Rotterdam, Netherlands | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 10 | 2 | `amsterdam-netherlands` | Amsterdam, Netherlands | 12 | staged | promote to live schema, then enrich in max-3 batch |
-| 11 | 3 | `bruges-belgium` | Bruges, Belgium | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 12 | 3 | `busan-south-korea` | Busan, South Korea | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 13 | 3 | `doha-qatar` | Doha, Qatar | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 14 | 3 | `suchitoto-el-salvador` | Suchitoto, El Salvador | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 15 | 3 | `angra-dos-reis-brazil` | Angra dos Reis, Brazil | 12 | not staged | stage pending JSON in a max-5 staging batch |
+| 11 | 3 | `bruges-belgium` | Bruges, Belgium | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 12 | 3 | `busan-south-korea` | Busan, South Korea | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 13 | 3 | `doha-qatar` | Doha, Qatar | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 14 | 3 | `suchitoto-el-salvador` | Suchitoto, El Salvador | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 15 | 3 | `angra-dos-reis-brazil` | Angra dos Reis, Brazil | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 16 | 4 | `charkestown-st-kitts-nevis` | Charkestown, St. kitts & Nevis | 12 | not staged | stage pending JSON in a max-5 staging batch; name/country capitalization review |
 | 17 | 4 | `skardu-pakistan` | Skardu, Pakistan | 12 | not staged | stage pending JSON in a max-5 staging batch; diacritic/id review |
 | 18 | 4 | `osh-kyrgyzstan` | Osh, Kyrgyzstan | 12 | not staged | stage pending JSON in a max-5 staging batch |

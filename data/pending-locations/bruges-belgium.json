@@ -1,0 +1,141 @@
+{
+  "id": "bruges-belgium",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Bruges",
+  "country": "Belgium",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Jan",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "6.1",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "8.5",
+      "Cloud Cover (%)": "66",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Feb",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "6.7",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Mar",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Apr",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "12.2",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "May",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "15.6",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Jun",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "16.5",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Jul",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "16",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Aug",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Sep",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Oct",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "56",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Nov",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "10",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "8.9",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    },
+    {
+      "Location": "Bruges, Belgium",
+      "Month": "Dec",
+      "Avg Temp (°C)": "5",
+      "Avg High (°C)": "7.2",
+      "Avg Low (°C)": "3.3",
+      "Daylight (h/day)": "8",
+      "Cloud Cover (%)": "67",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+    }
+  ]
+}
