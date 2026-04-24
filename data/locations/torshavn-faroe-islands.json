@@ -70,13 +70,17 @@
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Tórshavn itself has no airport; arrivals use Vágar Airport (FAE) then continue by road and subsea tunnel. UK routings are usually via Copenhagen or another Nordic hub, and even when London-Faroe flights appear seasonally, they do not make Tórshavn a nonstop destination badge in repo terms because there is still an airport-to-town transfer.",
+    "fltNote": "Faroe trips for Tórshavn normally land at Vágar and then continue roughly 45 minutes by road and subsea tunnel into the capital. Atlantic Airways' 2026 schedule includes seasonal London Gatwick-Vágar nonstops on Tuesdays and Saturdays from late May to late August, so the airport-level LGW flag is true, but destination-level LGW/LCY stays false because Tórshavn still requires the onward transfer and most shoulder/winter trips route via Copenhagen or another Nordic hub.",
     "airports": [
       {
         "name": "Vágar Airport",
         "code": "FAE",
         "km": 47,
-        "dgw": false
+        "dgw": false,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
       }
     ],
     "currency": "Faroese króna / Danish krone (DKK); cards are widely accepted, but having a small cash fallback is useful for ferries, village cafés, and weather-disrupted plans.",

@@ -70,7 +70,7 @@
       "LGW": false,
       "LCY": false
     },
-    "fltNote": "Beirut uses one main airport close to the city, and London service is more realistically Heathrow-linked than LGW/LCY-linked. Route availability, timings and fares can change quickly with regional airspace and security conditions, so do not assume a schedule is stable until very near departure and re-check before heading to the airport.",
+    "fltNote": "Beirut-Rafic Hariri is the practical gateway, and current London access is Heathrow-led on MEA rather than LGW- or LCY-led. Airport-level LGW/LCY flags therefore stay false, while the bigger planning issue is operational volatility: regional airspace and security disruptions can still trigger late schedule changes, so keep transfers flexible and re-check flight status before setting off for BEY.",
     "airports": [
       {
         "name": "Beirut-Rafic Hariri International Airport",
