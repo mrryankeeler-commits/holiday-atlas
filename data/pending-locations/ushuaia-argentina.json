@@ -1,0 +1,141 @@
+{
+  "id": "ushuaia-argentina",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Ushuaia",
+  "country": "Argentina",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Jan",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "16.6",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Feb",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "14.6",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Mar",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "5.0",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Apr",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "8.3",
+      "Avg Low (°C)": "3.3",
+      "Daylight (h/day)": "10.2",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "May",
+      "Avg Temp (°C)": "3.3",
+      "Avg High (°C)": "5.6",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "8.3",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Jun",
+      "Avg Temp (°C)": "1.7",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-0.6",
+      "Daylight (h/day)": "7.3",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Jul",
+      "Avg Temp (°C)": "1.1",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-0.6",
+      "Daylight (h/day)": "7.9",
+      "Cloud Cover (%)": "63",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Aug",
+      "Avg Temp (°C)": "2.2",
+      "Avg High (°C)": "5.0",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "9.6",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Sep",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "7.2",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Oct",
+      "Avg Temp (°C)": "5.6",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Nov",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "16.1",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    },
+    {
+      "Location": "Ushuaia, Argentina",
+      "Month": "Dec",
+      "Avg Temp (°C)": "8.3",
+      "Avg High (°C)": "11.7",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "17.2",
+      "Cloud Cover (%)": "56",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/27291/Average-Weather-in-Ushuaia-Argentina-Year-Round"
+    }
+  ]
+}

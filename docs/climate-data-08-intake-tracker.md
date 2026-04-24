@@ -65,11 +65,11 @@ Summary:
 | 23 | 5 | `motovan-croatia` | Motovan, Croatia | 12 | staged | name review likely Motovun; promote to live schema, then enrich in max-3 batch |
 | 24 | 5 | `capri-italy` | Capri, Italy | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 25 | 5 | `natal-brazil` | Natal, Brazil | 12 | staged | promote to live schema, then enrich in max-3 batch |
-| 26 | 6 | `ushuaia-argentina` | Ushuaia, Argentina | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 27 | 6 | `petra-jordan` | Petra, Jordan | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 28 | 6 | `meissen-germany` | Meissen, Germany | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 29 | 6 | `postiano-italy` | Postiano, Italy | 12 | not staged | stage pending JSON in a max-5 staging batch; name review likely Positano |
-| 30 | 6 | `mardin-turkey` | Mardin, Turkey | 12 | not staged | stage pending JSON in a max-5 staging batch |
+| 26 | 6 | `ushuaia-argentina` | Ushuaia, Argentina | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 27 | 6 | `petra-jordan` | Petra, Jordan | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 28 | 6 | `meissen-germany` | Meissen, Germany | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 29 | 6 | `postiano-italy` | Postiano, Italy | 12 | staged | name review likely Positano; promote to live schema, then enrich in max-3 batch |
+| 30 | 6 | `mardin-turkey` | Mardin, Turkey | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 31 | 7 | `hopa-turkey` | Hopa, Turkey | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 32 | 7 | `almaty-kazakhstan` | Almaty, Kazakhstan | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 33 | 7 | `karakol-kyrgyzstan` | Karakol, Kyrgyzstan | 12 | not staged | stage pending JSON in a max-5 staging batch |
