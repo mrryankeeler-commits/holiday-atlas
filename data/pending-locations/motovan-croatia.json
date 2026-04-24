@@ -1,0 +1,141 @@
+{
+  "id": "motovan-croatia",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Motovan",
+  "country": "Croatia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "9.2",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "10.4",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "May",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "14.9",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "25.0",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "15.6",
+      "Cloud Cover (%)": "37",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "28.3",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "15.2",
+      "Cloud Cover (%)": "25",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "27",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "38",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "94.0",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "9.5",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    },
+    {
+      "Location": "Motovan, Croatia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "5.0",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "8.8",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "73.7",
+      "Source URL": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+    }
+  ]
+}

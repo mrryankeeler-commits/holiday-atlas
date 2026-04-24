@@ -1,0 +1,141 @@
+{
+  "id": "natal-brazil",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Natal",
+  "country": "Brazil",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Jan",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Feb",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "66.0",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Mar",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "31.1",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "109.2",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Apr",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "24.4",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "142.2",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "May",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30.0",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "124.5",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Jun",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "132.1",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Jul",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "22.8",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "25",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Aug",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "22.2",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "25",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Sep",
+      "Avg Temp (°C)": "26.1",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "23.3",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "28",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Oct",
+      "Avg Temp (°C)": "26.7",
+      "Avg High (°C)": "30.0",
+      "Avg Low (°C)": "23.9",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Nov",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "30.0",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    },
+    {
+      "Location": "Natal, Brazil",
+      "Month": "Dec",
+      "Avg Temp (°C)": "27.8",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "12.5",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/31427/Average-Weather-in-Natal-Rio-Grande-do-Norte-Brazil-Year-Round"
+    }
+  ]
+}

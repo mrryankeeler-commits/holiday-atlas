@@ -60,11 +60,11 @@ Summary:
 | 18 | 4 | `osh-kyrgyzstan` | Osh, Kyrgyzstan | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 19 | 4 | `lucerne-switzerland` | Lucerne, Switzerland | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 20 | 4 | `bolzano-italy` | Bolzano, Italy | 12 | staged | promote to live schema, then enrich in max-3 batch |
-| 21 | 5 | `miskolc-hungary` | Miskolc, Hungary | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 22 | 5 | `anchorage-alaska` | Anchorage, Alaska | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 23 | 5 | `motovan-croatia` | Motovan, Croatia | 12 | not staged | stage pending JSON in a max-5 staging batch; name review likely Motovun |
-| 24 | 5 | `capri-italy` | Capri, Italy | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 25 | 5 | `natal-brazil` | Natal, Brazil | 12 | not staged | stage pending JSON in a max-5 staging batch |
+| 21 | 5 | `miskolc-hungary` | Miskolc, Hungary | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 22 | 5 | `anchorage-alaska` | Anchorage, Alaska | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 23 | 5 | `motovan-croatia` | Motovan, Croatia | 12 | staged | name review likely Motovun; promote to live schema, then enrich in max-3 batch |
+| 24 | 5 | `capri-italy` | Capri, Italy | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 25 | 5 | `natal-brazil` | Natal, Brazil | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 26 | 6 | `ushuaia-argentina` | Ushuaia, Argentina | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 27 | 6 | `petra-jordan` | Petra, Jordan | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 28 | 6 | `meissen-germany` | Meissen, Germany | 12 | not staged | stage pending JSON in a max-5 staging batch |
