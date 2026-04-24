@@ -1,0 +1,141 @@
+{
+  "id": "huangzhou-china",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Huangzhou",
+  "country": "China",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Jan",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "10.4",
+      "Cloud Cover (%)": "37",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Feb",
+      "Avg Temp (°C)": "6.1",
+      "Avg High (°C)": "10.0",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "66.0",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Mar",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Apr",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "12.9",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "May",
+      "Avg Temp (°C)": "21.7",
+      "Avg High (°C)": "26.1",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "114.3",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Jun",
+      "Avg Temp (°C)": "25.0",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "22.2",
+      "Daylight (h/day)": "14.1",
+      "Cloud Cover (%)": "68",
+      "Rainfall (mm)": "193.0",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Jul",
+      "Avg Temp (°C)": "28.9",
+      "Avg High (°C)": "32.8",
+      "Avg Low (°C)": "25.6",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "70",
+      "Rainfall (mm)": "144.8",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Aug",
+      "Avg Temp (°C)": "28.3",
+      "Avg High (°C)": "32.2",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "13.2",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "132.1",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Sep",
+      "Avg Temp (°C)": "23.9",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "20.6",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "109.2",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Oct",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "15.0",
+      "Daylight (h/day)": "11.4",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "63.5",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Nov",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "32",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    },
+    {
+      "Location": "Huangzhou, China",
+      "Month": "Dec",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "10.2",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+    }
+  ]
+}

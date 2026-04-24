@@ -45,11 +45,11 @@ Summary:
 | 3 | 1 | `gallipoli-italy` | Gallipoli, Italy | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 4 | 1 | `moab-usa` | Moab, USA | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 5 | 1 | `aspen-usa` | Aspen, USA | 12 | staged | promote to live schema, then enrich in max-3 batch |
-| 6 | 2 | `burlington-usa` | Burlington, USA | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 7 | 2 | `huangzhou-china` | Huangzhou, China | 12 | not staged | stage pending JSON in a max-5 staging batch; name review likely Hangzhou/Huangzhou |
-| 8 | 2 | `lyon-france` | Lyon, France | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 9 | 2 | `rotterdam-netherlands` | Rotterdam, Netherlands | 12 | not staged | stage pending JSON in a max-5 staging batch |
-| 10 | 2 | `amsterdam-netherlands` | Amsterdam, Netherlands | 12 | not staged | stage pending JSON in a max-5 staging batch |
+| 6 | 2 | `burlington-usa` | Burlington, USA | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 7 | 2 | `huangzhou-china` | Huangzhou, China | 12 | staged | name review likely Hangzhou/Huangzhou; promote to live schema, then enrich in max-3 batch |
+| 8 | 2 | `lyon-france` | Lyon, France | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 9 | 2 | `rotterdam-netherlands` | Rotterdam, Netherlands | 12 | staged | promote to live schema, then enrich in max-3 batch |
+| 10 | 2 | `amsterdam-netherlands` | Amsterdam, Netherlands | 12 | staged | promote to live schema, then enrich in max-3 batch |
 | 11 | 3 | `bruges-belgium` | Bruges, Belgium | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 12 | 3 | `busan-south-korea` | Busan, South Korea | 12 | not staged | stage pending JSON in a max-5 staging batch |
 | 13 | 3 | `doha-qatar` | Doha, Qatar | 12 | not staged | stage pending JSON in a max-5 staging batch |

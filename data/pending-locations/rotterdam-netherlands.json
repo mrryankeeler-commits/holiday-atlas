@@ -1,0 +1,141 @@
+{
+  "id": "rotterdam-netherlands",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Jan",
+      "Avg Temp (°C)": "3.3",
+      "Avg High (°C)": "6.1",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "8.4",
+      "Cloud Cover (%)": "66",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Feb",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "6.7",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "10.0",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Mar",
+      "Avg Temp (°C)": "6.1",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Apr",
+      "Avg Temp (°C)": "9.4",
+      "Avg High (°C)": "13.3",
+      "Avg Low (°C)": "5.0",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "May",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "17.2",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "15.7",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Jun",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "16.6",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Jul",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "16.1",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Aug",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Sep",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Oct",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Nov",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "8.8",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    },
+    {
+      "Location": "Rotterdam, Netherlands",
+      "Month": "Dec",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "6.7",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "7.8",
+      "Cloud Cover (%)": "67",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+    }
+  ]
+}
