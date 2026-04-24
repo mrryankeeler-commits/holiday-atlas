@@ -4,7 +4,7 @@ Use this checklist for each destination touched in a remediation/enrichment batc
 
 ## Batch metadata
 - Batch doc: <!-- link to source batch plan -->
-- Batch ID: <!-- e.g. generic-content-remediation-2026-04-17 / batch-1 -->
+- Batch ID: <!-- e.g. travel-copy-remediation / batch-1 -->
 - Reviewed on (YYYY-MM-DD): <!-- date -->
 - Author: <!-- handle/name -->
 - Reviewer: <!-- handle/name -->
