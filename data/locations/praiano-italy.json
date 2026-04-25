@@ -1,0 +1,250 @@
+{
+  "id": "praiano-italy",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/76551/Average-Weather-in-Praiano-Italy-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Praiano",
+  "country": "Italy",
+  "region": "Amalfi Coast, Campania",
+  "desc": "Praiano is one of the Amalfi Coast's calmer bases, sitting between Positano and Amalfi but feeling noticeably less showy and less frantic than either. It works best for travelers who want the cliffside sea views and stepped-lane drama of the coast without staying inside its most crowded spotlight towns, and who are happy to trade nightlife and name recognition for a more balanced base.",
+  "hls": [
+    "Praiano gives you Amalfi Coast views and access with less constant crowd pressure than Positano",
+    "Its stepped streets, church squares, and sea platforms feel more lived-in than polished-for-day-trippers",
+    "The Church of San Gennaro and the Gavitella side of town give the destination a clear visual identity beyond generic coast scenery",
+    "It is well placed for Path of the Gods planning and wider coast day trips without needing to stay in the busiest towns",
+    "Late spring and September are usually the best balance of warmth, transport function, and manageable crowd levels",
+    "The trade-off is that this is still a vertical Amalfi Coast town, so stairwork and road logistics are part of the experience"
+  ],
+  "todo": [
+    {
+      "name": "Church of San Gennaro area",
+      "cat": "Viewpoint & heritage",
+      "desc": "Use the church square and surrounding lanes for one of Praiano's clearest village-and-sea viewpoints."
+    },
+    {
+      "name": "Passeggiata di Grado",
+      "cat": "Coastal walk",
+      "desc": "Take the sea-facing walk for the kind of lower-key Amalfi Coast scenery that makes Praiano feel different from its bigger neighbors."
+    },
+    {
+      "name": "Gavitella or sea-level time",
+      "cat": "Coast",
+      "desc": "Keep one slow coastal block in the plan because Praiano is strongest when you let the sea-access rhythm set the pace."
+    },
+    {
+      "name": "Path of the Gods planning start",
+      "cat": "Hiking",
+      "desc": "If hiking is part of the trip, use Praiano's position to build in one big scenic trail day rather than only short village walks."
+    },
+    {
+      "name": "Amalfi Coast evening dinner with a view",
+      "cat": "Dining",
+      "desc": "Praiano rewards one slower dinner built around sunset and terrace views rather than trying to keep moving between towns."
+    },
+    {
+      "name": "One neighboring-town outing",
+      "cat": "Day trip",
+      "desc": "Use Praiano as a base, not a cage: one bus, boat, or taxi outing to Amalfi or Positano rounds out the stay well."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "25-90 Mbps",
+      "note": "Usually solid in hotels, apartments, and cafe-like settings, though cliffside properties and old stone buildings can vary."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Praiano has no airport, so Naples is the normal gateway and currently has Gatwick nonstop service at the airport level. After that you are into Amalfi Coast transfer reality by road, ferry combinations, or private transfer, which is why destination-level nonstop flags stay false even though the Naples leg itself is easy enough from London.",
+    "airports": [
+      {
+        "name": "Naples International Airport",
+        "code": "NAP",
+        "km": 68,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Italian is the main language; English is common in tourism-facing hotels and restaurants.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy follows Schengen rules, so entry and passport-validity requirements depend on nationality and current EU travel rules.",
+    "bestFor": [
+      "Quieter Amalfi Coast stays",
+      "Sea-view couples trips",
+      "Shoulder-season south Italy breaks",
+      "Hiking-and-coast combinations",
+      "Base-town Amalfi itineraries"
+    ],
+    "alerts": [
+      "Praiano still involves major stairwork and sloping lanes, so mobility trade-offs matter more than postcard photos suggest.",
+      "Summer road congestion and transfer delays affect even the quieter coast towns, not just Positano and Amalfi.",
+      "October to December becomes much wetter, which changes the feel of terraces, swims, and sea-view days considerably."
+    ]
+  },
+  "sweet": "Late April to June and September are Praiano's best all-round windows for warm sea-view days and workable Amalfi Coast logistics without the heaviest midsummer crowd pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 11,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 9.7,
+      "cld": 48,
+      "rain": 69,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 11,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.7,
+      "cld": 46,
+      "rain": 64,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 13,
+      "hi": 17,
+      "lo": 11,
+      "daylight": 12.0,
+      "cld": 45,
+      "rain": 53,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 13.3,
+      "cld": 42,
+      "rain": 48,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 20,
+      "hi": 24,
+      "lo": 16,
+      "daylight": 14.5,
+      "cld": 37,
+      "rain": 30,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 24,
+      "hi": 28,
+      "lo": 20,
+      "daylight": 15.0,
+      "cld": 24,
+      "rain": 18,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 14.7,
+      "cld": 10,
+      "rain": 13,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 27,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 13.7,
+      "cld": 15,
+      "rain": 20,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 23,
+      "hi": 27,
+      "lo": 20,
+      "daylight": 12.4,
+      "cld": 31,
+      "rain": 58,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 20,
+      "hi": 23,
+      "lo": 17,
+      "daylight": 11.1,
+      "cld": 42,
+      "rain": 79,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 16,
+      "hi": 18,
+      "lo": 13,
+      "daylight": 9.9,
+      "cld": 46,
+      "rain": 102,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 12,
+      "hi": 15,
+      "lo": 10,
+      "daylight": 9.3,
+      "cld": 47,
+      "rain": 81,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}

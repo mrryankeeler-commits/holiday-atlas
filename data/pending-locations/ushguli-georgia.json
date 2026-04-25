@@ -1,0 +1,141 @@
+{
+  "id": "ushguli-georgia",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Ushguli",
+  "country": "Georgia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-10.0",
+      "Avg High (°C)": "-5.0",
+      "Avg Low (°C)": "-15.0",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "39.6",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "-9.2",
+      "Avg High (°C)": "-3.9",
+      "Avg Low (°C)": "-14.4",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "43.4",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "-6.4",
+      "Avg High (°C)": "-1.1",
+      "Avg Low (°C)": "-11.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "46.7",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "-1.1",
+      "Avg High (°C)": "3.9",
+      "Avg Low (°C)": "-6.1",
+      "Daylight (h/day)": "13.4",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "58.2",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "May",
+      "Avg Temp (°C)": "6.1",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "14.6",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "5.0",
+      "Daylight (h/day)": "15.3",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "41.9",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "13.6",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "38.4",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "13.6",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "29",
+      "Rainfall (mm)": "27.2",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "9.8",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "38",
+      "Rainfall (mm)": "31.2",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "19.6",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "-2.5",
+      "Avg High (°C)": "2.2",
+      "Avg Low (°C)": "-7.2",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "40.4",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    },
+    {
+      "Location": "Ushguli, Georgia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-7.8",
+      "Avg High (°C)": "-2.8",
+      "Avg Low (°C)": "-12.8",
+      "Daylight (h/day)": "9.1",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "37.1",
+      "Source URL": "https://www.timeanddate.com/weather/@6621468/climate | https://wanderlog.com/tp/21770/ushguli-trip-planner"
+    }
+  ]
+}

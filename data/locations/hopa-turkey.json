@@ -1,0 +1,252 @@
+{
+  "id": "hopa-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/102069/Average-Weather-in-Hopa-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Hopa",
+  "country": "Turkey",
+  "region": "Artvin Province, eastern Black Sea coast",
+  "desc": "Hopa is a humid, green Black Sea border town where the appeal is less about polished sightseeing and more about coast, mountains, tea-country atmosphere, and the feeling of being at Turkey's far northeastern edge. It works best as a road-trip or regional base for travelers who like rugged coastlines, local food, and practical access toward Georgia rather than a classic resort setup.",
+  "hls": [
+    "Turkey's far eastern Black Sea coast near the Georgian border",
+    "Green Artvin hills, coast roads, and wet Black Sea scenery",
+    "Local Laz and Artvin food traditions, including Hopa Laz boregi",
+    "Useful overland stop between Turkey and Georgia",
+    "Clearest coastal window from June to August",
+    "Better for road-trip texture than resort polish"
+  ],
+  "todo": [
+    {
+      "name": "Black Sea waterfront walk",
+      "cat": "Coast",
+      "desc": "Use the seafront to understand Hopa's working-coast feel before heading into the greener hills and neighboring districts."
+    },
+    {
+      "name": "Town-center and old-house wander",
+      "cat": "Local life",
+      "desc": "Keep expectations grounded and use the center for local rhythm, errands, and regional character rather than big-ticket sights."
+    },
+    {
+      "name": "Taste Hopa Laz boregi",
+      "cat": "Food",
+      "desc": "Try the registered local pastry so the stop connects with Artvin's coastal food culture rather than only the scenery."
+    },
+    {
+      "name": "Sarp border or Batumi add-on",
+      "cat": "Regional link",
+      "desc": "If border rules and timing fit, Hopa pairs naturally with the short hop toward Georgia and the Batumi side of the coast."
+    },
+    {
+      "name": "Artvin hills day",
+      "cat": "Nature",
+      "desc": "Use one day for the greener inland side of Artvin Province, where the Black Sea climate becomes part of the landscape."
+    },
+    {
+      "name": "Rain-ready cafe block",
+      "cat": "Slow travel",
+      "desc": "Build in one flexible wet-weather pause because Hopa's climate can reshape outdoor plans even in otherwise usable seasons."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-60 Mbps",
+      "note": "Usually workable in central hotels and cafes, but smaller guesthouses and mountain-side stays can be less consistent."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Hopa has no airport. Pegasus markets Hopa access via Batumi Airport with onward shuttles, and Rize-Artvin is the other practical regional Turkish gateway, but neither creates a destination-level nonstop from the repo's London origins. Expect Istanbul or regional connections, border/road timing, and heavier summer demand rather than a simple direct-flight city break.",
+    "airports": [
+      {
+        "name": "Batumi International Airport",
+        "code": "BUS",
+        "km": 32,
+        "dgw": false
+      },
+      {
+        "name": "Rize-Artvin Airport",
+        "code": "RZV",
+        "km": 75,
+        "dgw": false
+      }
+    ],
+    "currency": "Turkish lira (TRY)",
+    "lang": "Turkish is the main public language, with Laz and Georgian cultural influences in the wider region; English is limited outside travel-facing services.",
+    "tz": "TRT (UTC+3) year-round",
+    "visa": "Turkey entry rules depend on nationality and current e-visa arrangements; check both Turkey and Georgia rules if crossing the border near Hopa.",
+    "bestFor": [
+      "Eastern Black Sea road trips",
+      "Turkey-Georgia overland routes",
+      "Green-coast scenery",
+      "Regional food stops",
+      "Low-key coastal bases"
+    ],
+    "alerts": [
+      "Rain is a real planning factor, especially from autumn into winter when outdoor days can become very wet.",
+      "Airport access depends on regional gateways and road or shuttle transfers, so late arrivals need extra care.",
+      "Hopa is not a polished beach resort; its value is in regional texture, scenery, and transit logic."
+    ]
+  },
+  "sweet": "June to August is Hopa's easiest window for coastal movement and regional drives, while May and September can work well for greener scenery if you accept more rain risk.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 7,
+      "hi": 9,
+      "lo": 4,
+      "daylight": 9.6,
+      "cld": 63,
+      "rain": 81,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 7,
+      "hi": 10,
+      "lo": 4,
+      "daylight": 10.6,
+      "cld": 62,
+      "rain": 66,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 12.0,
+      "cld": 58,
+      "rain": 56,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 12,
+      "hi": 16,
+      "lo": 9,
+      "daylight": 13.4,
+      "cld": 55,
+      "rain": 43,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 14.5,
+      "cld": 44,
+      "rain": 36,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 20,
+      "hi": 23,
+      "lo": 17,
+      "daylight": 15.1,
+      "cld": 23,
+      "rain": 38,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 23,
+      "hi": 26,
+      "lo": 19,
+      "daylight": 14.8,
+      "cld": 6,
+      "rain": 36,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 23,
+      "hi": 26,
+      "lo": 20,
+      "daylight": 13.8,
+      "cld": 6,
+      "rain": 43,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 20,
+      "hi": 23,
+      "lo": 17,
+      "daylight": 12.4,
+      "cld": 23,
+      "rain": 84,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 11.0,
+      "cld": 47,
+      "rain": 114,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 12,
+      "hi": 15,
+      "lo": 9,
+      "daylight": 9.8,
+      "cld": 56,
+      "rain": 122,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 8,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 9.2,
+      "cld": 60,
+      "rain": 96,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

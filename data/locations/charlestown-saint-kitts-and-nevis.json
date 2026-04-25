@@ -1,0 +1,256 @@
+{
+  "id": "charlestown-saint-kitts-and-nevis",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/28555/Average-Weather-in-Charlestown-St.-Kitts-&-Nevis-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Charlestown",
+  "country": "Saint Kitts and Nevis",
+  "region": "Nevis Island, Leeward Islands",
+  "desc": "Charlestown is a small Caribbean capital that works less like a city break and more like the practical and historical heart of a relaxed Nevis stay. Its appeal comes from low-key Georgian streets, easy access to beaches and plantation landscapes, and a slower island rhythm that suits travelers who want warm-weather ease without a mega-resort atmosphere.",
+  "hls": [
+    "Nevis keeps a calmer, quieter profile than many better-known Caribbean islands",
+    "Charlestown's compact center is useful for history stops, errands, and ferry logistics rather than big-city sightseeing",
+    "Pinney's Beach gives the destination a strong sand-and-sunset anchor within a short drive of town",
+    "The Alexander Hamilton and heritage angle adds more historical depth than the town's size first suggests",
+    "Dry-season winter is the obvious prime window, while late summer and autumn bring the highest rain and storm risk",
+    "The island works best for travelers who value low-stress pace, boutique stays, and easy sea views over nonstop activity"
+  ],
+  "todo": [
+    {
+      "name": "Museum of Nevis History",
+      "cat": "History",
+      "desc": "Use the small museum for the island's most direct historical stop, especially if you want context beyond beach time."
+    },
+    {
+      "name": "Pinney's Beach afternoon",
+      "cat": "Beach",
+      "desc": "Keep one long beach block for calm water, sunset light, and the laid-back side of Nevis that most visitors come for."
+    },
+    {
+      "name": "Charlestown heritage walk",
+      "cat": "Town stroll",
+      "desc": "Walk the central streets slowly rather than treating town as a transfer point, because the civic buildings and scale are part of its charm."
+    },
+    {
+      "name": "Plantation inn or estate visit",
+      "cat": "Island character",
+      "desc": "Fit in one plantation-era property to understand Nevis's hotel style and old-estate landscape."
+    },
+    {
+      "name": "Ferry crossing to St Kitts",
+      "cat": "Transport experience",
+      "desc": "If time allows, use the short sea link to see how Charlestown fits into the wider twin-island travel pattern."
+    },
+    {
+      "name": "Sunset dinner near the water",
+      "cat": "Dining",
+      "desc": "Nevis is strongest when you lean into an unhurried evening meal rather than trying to fill every hour with sights."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-80 Mbps",
+      "note": "Usually fine in boutique hotels, villas, and cafe-style venues around Charlestown and Pinney's Beach, but island-wide consistency is less dependable than in big urban hubs."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Charlestown itself has no nonstop link from the repo's London airports. Most UK trips route into St Kitts's Robert L. Bradshaw airport and continue by ferry or water taxi to Nevis, while Vance W. Amory on Nevis is mainly a regional hop airport; December to April is the clearest peak for both room prices and flight competition.",
+    "airports": [
+      {
+        "name": "Vance W. Amory International Airport",
+        "code": "NEV",
+        "km": 10,
+        "dgw": false
+      },
+      {
+        "name": "Robert L. Bradshaw International Airport",
+        "code": "SKB",
+        "km": 25,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "East Caribbean dollar (XCD)",
+    "lang": "English is the everyday language.",
+    "tz": "AST (UTC-4) year-round; no daylight saving time.",
+    "visa": "Saint Kitts and Nevis entry rules depend on nationality, so check the current visa-free or eTA-style requirements before travel.",
+    "bestFor": [
+      "Relaxed Caribbean boutique stays",
+      "Winter-sun escapes",
+      "Beach-and-history combinations",
+      "Couples trips",
+      "Low-key resort alternatives"
+    ],
+    "alerts": [
+      "Late summer into autumn is the wettest and riskiest stretch for tropical-weather disruption.",
+      "Charlestown itself is small, so the island experience depends on beaches, hotel grounds, and short drives rather than a packed sightseeing list.",
+      "Inter-island ferry timings and small-aircraft connections can reshape arrival days more than travelers used to major hubs might expect."
+    ]
+  },
+  "sweet": "January to April is Charlestown's easiest sweet spot for dry weather, calmer planning, and classic winter-sun appeal, while May and June can still work well if you want fewer people and accept a little more humidity.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 26,
+      "hi": 28,
+      "lo": 24,
+      "daylight": 11.2,
+      "cld": 23,
+      "rain": 15,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 26,
+      "hi": 28,
+      "lo": 23,
+      "daylight": 11.6,
+      "cld": 24,
+      "rain": 13,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 26,
+      "hi": 28,
+      "lo": 24,
+      "daylight": 12.1,
+      "cld": 28,
+      "rain": 13,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 26,
+      "hi": 29,
+      "lo": 24,
+      "daylight": 12.5,
+      "cld": 39,
+      "rain": 30,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 29,
+      "lo": 26,
+      "daylight": 12.9,
+      "cld": 61,
+      "rain": 51,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 28,
+      "hi": 30,
+      "lo": 26,
+      "daylight": 13.1,
+      "cld": 62,
+      "rain": 38,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 28,
+      "hi": 31,
+      "lo": 27,
+      "daylight": 13.0,
+      "cld": 52,
+      "rain": 46,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 31,
+      "lo": 27,
+      "daylight": 12.7,
+      "cld": 54,
+      "rain": 56,
+      "busy": 5,
+      "ac": 2,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 28,
+      "hi": 31,
+      "lo": 26,
+      "daylight": 12.2,
+      "cld": 64,
+      "rain": 81,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 28,
+      "hi": 30,
+      "lo": 26,
+      "daylight": 11.7,
+      "cld": 64,
+      "rain": 89,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 27,
+      "hi": 29,
+      "lo": 25,
+      "daylight": 11.3,
+      "cld": 48,
+      "rain": 76,
+      "busy": 3,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 26,
+      "hi": 28,
+      "lo": 24,
+      "daylight": 11.1,
+      "cld": 30,
+      "rain": 38,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    }
+  ]
+}

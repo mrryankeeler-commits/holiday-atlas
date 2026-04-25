@@ -1,0 +1,141 @@
+{
+  "id": "puerto-varas-chile",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Puerto",
+  "country": "Varas, Chile",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Jan",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "20.0",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Feb",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "20.0",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Mar",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Apr",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "15.0",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "May",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "12.2",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "69",
+      "Rainfall (mm)": "149.9",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Jun",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "10.0",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "9.2",
+      "Cloud Cover (%)": "72",
+      "Rainfall (mm)": "165.1",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Jul",
+      "Avg Temp (°C)": "6.7",
+      "Avg High (°C)": "10.0",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "9.6",
+      "Cloud Cover (%)": "72",
+      "Rainfall (mm)": "142.2",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Aug",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "67",
+      "Rainfall (mm)": "124.5",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Sep",
+      "Avg Temp (°C)": "8.3",
+      "Avg High (°C)": "12.2",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Oct",
+      "Avg Temp (°C)": "10.0",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Nov",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "66.0",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    },
+    {
+      "Location": "Puerto, Varas, Chile",
+      "Month": "Dec",
+      "Avg Temp (°C)": "13.3",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/25112/Average-Weather-in-Puerto-Varas-Chile-Year-Round"
+    }
+  ]
+}

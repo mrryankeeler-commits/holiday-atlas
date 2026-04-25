@@ -1,0 +1,126 @@
+{
+  "id": "piran-slovenia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-25",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75151/Average-Weather-in-Piran-Slovenia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Piran",
+  "country": "Slovenia",
+  "region": "Slovenian Istria, Adriatic coast",
+  "desc": "Piran is the most atmospheric short-stay base on Slovenia's coast: a compact Venetian old town wrapped around the sea, with Tartini Square, church viewpoints, stone lanes, and swim platforms all packed into a walkable peninsula. It suits travelers who want heritage and Adriatic light more than beach sprawl or resort convenience.",
+  "hls": [
+    "Piran is the prettiest urban stop on Slovenia's coast, with a stronger sense of old-town drama than the rest of the short Adriatic strip",
+    "Tartini Square, the hilltop church, and the sea wall give the town real visual payoff even on a quick stay",
+    "The destination works best as a compact walk-and-swim break rather than a beach-first holiday base",
+    "Late spring and early autumn are usually better than peak summer if you want atmosphere without maximum crowd pressure",
+    "It makes an easy pair with Trieste, Izola, or inland Istria, but parking and traffic punish over-complicated day trips in summer",
+    "Piran's appeal is strongest after day visitors leave and the old town settles into an evening rhythm"
+  ],
+  "todo": [
+    {
+      "name": "Tartini Square and old-town lane circuit",
+      "cat": "Historic core",
+      "desc": "Walk the old town slowly rather than treating the square as the whole destination, because the side lanes are a big part of Piran's character."
+    },
+    {
+      "name": "St George's Parish Church viewpoint",
+      "cat": "Panorama",
+      "desc": "Climb to the church precinct for the clearest read on Piran's peninsula setting and the Venetian roofscape."
+    },
+    {
+      "name": "Town walls walk",
+      "cat": "History",
+      "desc": "Use the walls for one of the best overview angles on the coast and to understand how compact the historic town really is."
+    },
+    {
+      "name": "Seafront swim platform block",
+      "cat": "Adriatic swim",
+      "desc": "Treat Piran's swimming as a sea-wall and platform experience, not as a classic sandy-beach day."
+    },
+    {
+      "name": "Harbour-side seafood dinner",
+      "cat": "Food",
+      "desc": "Keep one evening for the waterfront because Piran is much more rewarding after late-day light softens and excursion crowds fade."
+    },
+    {
+      "name": "Short side trip to Fiesa or Izola",
+      "cat": "Coast outing",
+      "desc": "If you want a slower second-day contrast, add a nearby coast walk or neighboring town rather than forcing a long inland detour."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "35-90 Mbps",
+      "note": "Usually solid in apartments, cafes, and hotels, though older stone buildings and busy summer evenings can still slow room-level performance."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Piran has no airport and no destination-level nonstop from Gatwick or London City. Trieste is the closest practical air gateway, Ljubljana is often the cleaner Slovenia-first routing, and summer visitors should remember that the last stretch is about traffic, bus links, and parking discipline rather than a quick resort transfer.",
+    "airports": [
+      {
+        "name": "Portoroz Airport",
+        "code": "POW",
+        "km": 8,
+        "dgw": false
+      },
+      {
+        "name": "Trieste Airport",
+        "code": "TRS",
+        "km": 80,
+        "dgw": false
+      },
+      {
+        "name": "Ljubljana Joze Pucnik Airport",
+        "code": "LJU",
+        "km": 140,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Slovenian is the main language; Italian is also useful on the coast and English is widely workable in tourism.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "British citizens can visit Slovenia and the wider Schengen area visa-free for up to 90 days in any 180-day period. GOV.UK says your passport must meet Schengen validity rules, and the EU Entry/Exit System rollout can add extra border formalities on some trips.",
+    "bestFor": [
+      "Adriatic old towns",
+      "Short romantic coast breaks",
+      "Walk-and-swim weekends",
+      "Photography-focused city stays",
+      "Venetian-style architecture"
+    ],
+    "alerts": [
+      "Piran is beautiful but logistically tight, so summer parking, luggage handling, and same-day arrivals can be more annoying than the map suggests.",
+      "This is a stone-town and swim-platform destination, not a broad-beach resort, so set expectations accordingly.",
+      "Midday crowding is real in peak season, and the town is much nicer if you build at least one overnight stay around morning or evening light."
+    ]
+  },
+  "sweet": "May, June, and September are Piran's best all-round months for walking, sea swims, and evening atmosphere without the heaviest midsummer pressure.",
+  "months": [
+    { "m": "Jan", "avg": 5, "hi": 8, "lo": 2, "daylight": 9.2, "cld": 52, "rain": 48, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Feb", "avg": 6, "hi": 9, "lo": 2, "daylight": 10.4, "cld": 49, "rain": 53, "busy": 3, "ac": 1, "fl": 1 },
+    { "m": "Mar", "avg": 9, "hi": 13, "lo": 5, "daylight": 12.0, "cld": 50, "rain": 53, "busy": 4, "ac": 2, "fl": 2 },
+    { "m": "Apr", "avg": 13, "hi": 17, "lo": 8, "daylight": 13.6, "cld": 50, "rain": 64, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "May", "avg": 17, "hi": 22, "lo": 12, "daylight": 15.0, "cld": 47, "rain": 66, "busy": 8, "ac": 4, "fl": 3 },
+    { "m": "Jun", "avg": 21, "hi": 26, "lo": 16, "daylight": 15.6, "cld": 38, "rain": 64, "busy": 10, "ac": 5, "fl": 4 },
+    { "m": "Jul", "avg": 24, "hi": 28, "lo": 18, "daylight": 15.2, "cld": 26, "rain": 48, "busy": 9, "ac": 5, "fl": 5 },
+    { "m": "Aug", "avg": 23, "hi": 28, "lo": 18, "daylight": 14.0, "cld": 28, "rain": 58, "busy": 8, "ac": 5, "fl": 5 },
+    { "m": "Sep", "avg": 19, "hi": 24, "lo": 15, "daylight": 12.5, "cld": 39, "rain": 86, "busy": 9, "ac": 4, "fl": 3 },
+    { "m": "Oct", "avg": 15, "hi": 19, "lo": 11, "daylight": 10.9, "cld": 47, "rain": 91, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Nov", "avg": 10, "hi": 13, "lo": 7, "daylight": 9.5, "cld": 54, "rain": 91, "busy": 3, "ac": 2, "fl": 1 },
+    { "m": "Dec", "avg": 6, "hi": 9, "lo": 3, "daylight": 8.8, "cld": 54, "rain": 69, "busy": 2, "ac": 1, "fl": 1 }
+  ]
+}

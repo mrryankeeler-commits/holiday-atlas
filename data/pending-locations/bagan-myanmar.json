@@ -1,0 +1,141 @@
+{
+  "id": "bagan-myanmar",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Bagan",
+  "country": "Myanmar",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Jan",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "31.7",
+      "Avg Low (°C)": "15.0",
+      "Daylight (h/day)": "11.0",
+      "Cloud Cover (%)": "20",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Feb",
+      "Avg Temp (°C)": "25.6",
+      "Avg High (°C)": "34.4",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "11.5",
+      "Cloud Cover (%)": "17",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Mar",
+      "Avg Temp (°C)": "29.4",
+      "Avg High (°C)": "38.3",
+      "Avg Low (°C)": "21.7",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "22",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Apr",
+      "Avg Temp (°C)": "32.8",
+      "Avg High (°C)": "40.0",
+      "Avg Low (°C)": "25.6",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "May",
+      "Avg Temp (°C)": "32.8",
+      "Avg High (°C)": "38.3",
+      "Avg Low (°C)": "27.2",
+      "Daylight (h/day)": "13.1",
+      "Cloud Cover (%)": "70",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Jun",
+      "Avg Temp (°C)": "31.1",
+      "Avg High (°C)": "36.1",
+      "Avg Low (°C)": "26.7",
+      "Daylight (h/day)": "13.4",
+      "Cloud Cover (%)": "85",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Jul",
+      "Avg Temp (°C)": "30.6",
+      "Avg High (°C)": "35.6",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "89",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Aug",
+      "Avg Temp (°C)": "30.0",
+      "Avg High (°C)": "35.6",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "12.8",
+      "Cloud Cover (%)": "88",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Sep",
+      "Avg Temp (°C)": "30.6",
+      "Avg High (°C)": "35.6",
+      "Avg Low (°C)": "26.1",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "83",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Oct",
+      "Avg Temp (°C)": "30.0",
+      "Avg High (°C)": "35.6",
+      "Avg Low (°C)": "25.0",
+      "Daylight (h/day)": "11.6",
+      "Cloud Cover (%)": "60",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Nov",
+      "Avg Temp (°C)": "27.2",
+      "Avg High (°C)": "33.9",
+      "Avg Low (°C)": "21.1",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "35",
+      "Rainfall (mm)": "7.6",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    },
+    {
+      "Location": "Bagan, Myanmar",
+      "Month": "Dec",
+      "Avg Temp (°C)": "23.9",
+      "Avg High (°C)": "32.2",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "24",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/112231/Average-Weather-in-Chauk-Myanmar-(Burma)-Year-Round"
+    }
+  ]
+}

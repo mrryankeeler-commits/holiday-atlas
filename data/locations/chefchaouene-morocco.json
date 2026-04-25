@@ -1,0 +1,263 @@
+{
+  "id": "chefchaouene-morocco",
+  "source": {
+    "climateVerified": true,
+    "climate": [
+      {
+        "name": "Weather Atlas",
+        "url": "https://weatherspark.com/y/83393/Average-Weather-in-Chefchaouene-Morocco-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    },
+    "climateVerifiedOn": "2026-04-25"
+  },
+  "city": "Chefchaouene",
+  "country": "Morocco",
+  "region": "Tangier-Tétouan-Al Hoceïma, Rif Mountains",
+  "desc": "Chefchaouene is the Rif Mountains' most photographed town, known for its labyrinth of blue-washed medina streets that slope downward to a central plaza. The town sits at 610 m elevation in Morocco's northwestern highlands, where mountain air is noticeably cooler than coastal cities and wildflower valleys radiate in all directions. Chefchaouene balances fame (it's become a social-media hotspot) with genuine mountain-town texture—small bakeries, quiet Friday prayers, local-run riads, and access to serious hiking trails that most day-trippers never find.",
+  "hls": [
+    "The blue medina is visually striking enough to justify a multi-day stay, especially if you explore beyond the main photo-op corners into residential streets and smaller plazas.",
+    "The town sits surrounded by Rif Mountain trails offering everything from morning walks to multi-day treks through valleys, forests, and traditional Rif villages.",
+    "Access to the medina is still genuinely local—prices are lower than Fez or Marrakech, and the tourism economy has not yet replaced everyday commerce as the main town activity.",
+    "Akchour Waterfalls (15 km away) offer a day-trip waterfall hike that feels more secluded than Imlil or other Moroccan waterfall destinations.",
+    "The Rif is geographically and culturally distinct from the High Atlas, with different flora, Amazigh dialects, and a reputation for independence from central authority.",
+    "Chefchaouene works best as a 2–3 day base rather than a single-afternoon visit; staying overnight changes the rhythm and reveals the town's actual character."
+  ],
+  "todo": [
+    {
+      "name": "Blue medina exploration and photography",
+      "cat": "Photography",
+      "desc": "Spend multiple hours in the morning light walking the stone steps and blue-washed lanes, starting early before tour groups and moving into smaller residential quarters away from main plazas."
+    },
+    {
+      "name": "Akchour Waterfalls day hike",
+      "cat": "Hiking",
+      "desc": "Arrange transport or a guide for this 4–6 hour round-trip hike to Rif waterfalls; the trail is less crowded than comparable Moroccan waterfall hikes."
+    },
+    {
+      "name": "Traditional mint tea and pastries in a local cafe",
+      "cat": "Food",
+      "desc": "Sit in a small tea house off the main square, order sweet mint tea and fresh pastries, and observe town life in the early evening."
+    },
+    {
+      "name": "Rif Mountain trek (2–4 days)",
+      "cat": "Hiking",
+      "desc": "Hire a local guide for multi-day trekking through Rif villages, mountain passes, and valleys; homestay or guesthouse-to-guesthouse itineraries are available."
+    },
+    {
+      "name": "Hammam (traditional bathhouse) visit",
+      "cat": "Wellness",
+      "desc": "Experience a working hammam with locals—enter the steam room, scrub with a rough mitt, and feel the physical difference afterward."
+    },
+    {
+      "name": "Craft workshops: local pottery or weaving",
+      "cat": "Craft",
+      "desc": "Visit workshops where Rif weavers and potters still work in traditional styles; some offer demonstrations or informal lessons."
+    },
+    {
+      "name": "Sunset from Ras el-Maa viewpoint",
+      "cat": "Viewpoint",
+      "desc": "Hike or drive to the overlook north of town for panoramic medina and mountain views, especially beautiful at golden hour."
+    },
+    {
+      "name": "Market day visit (Sundays, Thursdays)",
+      "cat": "Local experience",
+      "desc": "Time a visit with the weekly market to see locals buying produce, fabric, and goods; the plaza fills with Rif vendors and the town's non-tourist character is most visible."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "5-20 Mbps",
+      "note": "WiFi is available in central riads and tourist cafes but often slow and unreliable. Expect outages during busy hours."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Chefchaouene has no commercial airport; fly into Tangier or Fez (3–5 hours away by road). No direct nonstop from Gatwick or London City to either; route via a European hub. Overland from Tangier or Fez adds scenery and local immersion compared to a short hop from Europe.",
+    "airports": [
+      {
+        "name": "Ibn Batouta Airport, Tangier",
+        "code": "TNG",
+        "km": 75,
+        "dgw": false
+      },
+      {
+        "name": "Fez–Saïss Airport",
+        "code": "FEZ",
+        "km": 150,
+        "dgw": false
+      }
+    ],
+    "currency": "Moroccan dirham (MAD); ATMs are available in town but cash is preferable for small vendors, guides, and mountain homestays.",
+    "lang": "Arabic and Tamazight (Rif dialect) are spoken locally; French is more common in Chefchaouene than in more rural areas, and English is inconsistent. A phrasebook or translation app is helpful.",
+    "tz": "UTC+1 (UTC+0 in winter, but Morocco does not observe daylight saving)",
+    "visa": "British citizens can visit Morocco visa-free for up to 90 days; passport must be valid for 6 months beyond your intended stay.",
+    "bestFor": [
+      "Mountain town photography",
+      "Rif hiking",
+      "Traditional Moroccan culture",
+      "Spring and autumn weather",
+      "Quieter alternatives to Marrakech",
+      "Waterfall hikes"
+    ],
+    "alerts": [
+      "Chefchaouene's fame has brought tourism pressure; the experience is best if you stay 2+ nights and explore beyond central streets.",
+      "Winter (Dec–Feb) brings rain and occasional snow at elevation; roads can become impassable briefly.",
+      "Guides are useful for serious trekking, but vet them personally rather than booking through central tourist offices."
+    ]
+  },
+  "sweet": "April to May (spring flowers, fresh air, moderate crowds) and September to October (clear skies, comfortable hiking temperatures) are Chefchaouene's best windows; July–August brings peak heat and tourist congestion.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 8,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 9.5,
+      "cld": 49,
+      "rain": 103,
+      "busy": 2,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 9,
+      "hi": 15,
+      "lo": 4,
+      "daylight": 10.4,
+      "cld": 48,
+      "rain": 86,
+      "busy": 2,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 18,
+      "lo": 6,
+      "daylight": 11.9,
+      "cld": 43,
+      "rain": 76,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 20,
+      "lo": 8,
+      "daylight": 13.3,
+      "cld": 38,
+      "rain": 65,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 24,
+      "lo": 11,
+      "daylight": 14.4,
+      "cld": 28,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 21,
+      "hi": 28,
+      "lo": 15,
+      "daylight": 15.1,
+      "cld": 15,
+      "rain": 11,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Jul",
+      "avg": 24,
+      "hi": 31,
+      "lo": 18,
+      "daylight": 14.8,
+      "cld": 7,
+      "rain": 4,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 30,
+      "lo": 18,
+      "daylight": 14.0,
+      "cld": 9,
+      "rain": 6,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 27,
+      "lo": 16,
+      "daylight": 12.8,
+      "cld": 16,
+      "rain": 13,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 16,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 11.3,
+      "cld": 29,
+      "rain": 59,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 11,
+      "hi": 18,
+      "lo": 7,
+      "daylight": 9.9,
+      "cld": 44,
+      "rain": 95,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 9,
+      "hi": 15,
+      "lo": 5,
+      "daylight": 9.2,
+      "cld": 51,
+      "rain": 109,
+      "busy": 2,
+      "ac": 2,
+      "fl": 1
+    }
+  ]
+}

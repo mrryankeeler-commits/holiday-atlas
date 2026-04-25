@@ -1,0 +1,126 @@
+{
+  "id": "mestia-georgia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-25",
+    "climate": [
+      {
+        "name": "Weather Atlas",
+        "url": "https://www.weather-atlas.com/en/georgia/mestia-climate"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Mestia",
+  "country": "Georgia",
+  "region": "Upper Svaneti, Samegrelo-Zemo Svaneti",
+  "desc": "Mestia is Georgia's best-known high-Caucasus base for travelers who want serious mountain scenery without giving up all structure and services. Svan towers, glacier-backed ridges, cable-car access, and multi-day trekking routes all radiate from a town that still feels remote enough to be memorable, but practical enough to sustain a proper hiking stay.",
+  "hls": [
+    "Mestia is the easiest way into Upper Svaneti if you want big Caucasus scenery with an actual town base rather than a pure mountain hamlet",
+    "Svan defensive towers and village architecture give the destination a cultural identity beyond its hiking reputation",
+    "The Mestia-Ushguli corridor is one of Georgia's classic multi-day trekking routes",
+    "Summer is the obvious prime season, but early autumn can be even better for clear mountain views and calmer trail pressure",
+    "Hatsvali and Zuruldi make it possible to get high views without committing every day to a full trek",
+    "Weather changes quickly here, so flexible plans matter as much as physical fitness"
+  ],
+  "todo": [
+    {
+      "name": "Svaneti Museum of History and Ethnography",
+      "cat": "Culture",
+      "desc": "Start here to make the towers, churches, and village routes feel grounded in Svan history instead of reading the place as scenery alone."
+    },
+    {
+      "name": "Hatsvali lift and Zuruldi ridge",
+      "cat": "Mountain views",
+      "desc": "Use the lift-assisted high point for one of the easiest big-payoff panorama days from town, especially if longer trekking is not the whole purpose of the trip."
+    },
+    {
+      "name": "Chalaadi Glacier walk",
+      "cat": "Hiking",
+      "desc": "Treat this as the straightforward glacier outing from Mestia rather than an afterthought, because it is one of the clearest first-day mountain options."
+    },
+    {
+      "name": "Tower-house lane walk in Mestia",
+      "cat": "Town character",
+      "desc": "Leave time for the town itself because the mix of stone lanes, towers, and mountain backdrops is part of why Mestia works as a base."
+    },
+    {
+      "name": "Ushguli day or trek planning block",
+      "cat": "Route-building",
+      "desc": "Even if you do not walk the full route, build one block around the road or trail logic to see how Mestia connects to the broader Svaneti landscape."
+    },
+    {
+      "name": "Regional food and wine evening",
+      "cat": "Food",
+      "desc": "Use one slower night for Svan staples such as kubdari and local hospitality rather than treating the town only as a bed between hikes."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "10-40 Mbps",
+      "note": "Usable in central guesthouses and newer hotels, but outages, weak room-by-room coverage, and weather-related disruption are much more common than in Tbilisi."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Mestia has a tiny local airport with very limited weather-sensitive domestic service, so most international visitors still route through Kutaisi or Tbilisi and continue by road or internal transfer. There is no destination-level nonstop from Gatwick or London City, and the trip works best when you treat the final approach as part of a mountain itinerary rather than a simple airport-to-hotel transfer.",
+    "airports": [
+      {
+        "name": "Queen Tamar Airport",
+        "code": "SZX",
+        "km": 3,
+        "dgw": false
+      },
+      {
+        "name": "Kutaisi International Airport",
+        "code": "KUT",
+        "km": 220,
+        "dgw": false
+      },
+      {
+        "name": "Tbilisi International Airport",
+        "code": "TBS",
+        "km": 460,
+        "dgw": false
+      }
+    ],
+    "currency": "Georgian lari (GEL); carry cash because drivers, smaller guesthouses, and mountain-side stops are much less card-friendly than Georgia's big-city norm.",
+    "lang": "Georgian is the main language, Svan identity is strong locally, and English is improving in tourism but still inconsistent once you move beyond better-known stays and guides.",
+    "tz": "UTC+4 (no daylight saving)",
+    "visa": "British citizens can visit Georgia visa-free for up to one year, and GOV.UK says your passport only needs to be valid for the duration of your stay. Georgia now also requires visitors to have health and accident insurance with adequate coverage, so do not treat this as an informal fly-in mountain trip with no paperwork.",
+    "bestFor": [
+      "Caucasus trekking bases",
+      "Mountain scenery",
+      "Svaneti culture",
+      "Summer hiking trips",
+      "Shoulder-season alpine photography"
+    ],
+    "alerts": [
+      "Mountain weather changes fast, and even easy-looking trail days can turn cold, wet, or foggy with little warning.",
+      "Road access into Svaneti can be delayed by landslides, roadworks, or weather, so avoid over-tight onward schedules.",
+      "Do not assume the small Mestia airport makes arrival simple: flights are limited, weather-sensitive, and not a reliable substitute for flexible ground planning."
+    ]
+  },
+  "sweet": "Late June to September is Mestia's best all-round window for high trails and broad mountain access, with September especially strong for clearer views and steadier trekking conditions.",
+  "months": [
+    { "m": "Jan", "avg": -2, "hi": 1, "lo": -5, "daylight": 9.0, "cld": 48, "rain": 82, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Feb", "avg": -1, "hi": 2, "lo": -5, "daylight": 10.1, "cld": 43, "rain": 77, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Mar", "avg": 1, "hi": 5, "lo": -2, "daylight": 11.1, "cld": 49, "rain": 116, "busy": 1, "ac": 1, "fl": 1 },
+    { "m": "Apr", "avg": 6, "hi": 11, "lo": 2, "daylight": 13.0, "cld": 40, "rain": 97, "busy": 3, "ac": 2, "fl": 1 },
+    { "m": "May", "avg": 12, "hi": 17, "lo": 7, "daylight": 14.1, "cld": 35, "rain": 124, "busy": 5, "ac": 3, "fl": 2 },
+    { "m": "Jun", "avg": 17, "hi": 22, "lo": 12, "daylight": 15.0, "cld": 30, "rain": 144, "busy": 8, "ac": 4, "fl": 3 },
+    { "m": "Jul", "avg": 19, "hi": 24, "lo": 14, "daylight": 15.0, "cld": 29, "rain": 120, "busy": 10, "ac": 5, "fl": 5 },
+    { "m": "Aug", "avg": 19, "hi": 24, "lo": 13, "daylight": 13.1, "cld": 20, "rain": 75, "busy": 9, "ac": 5, "fl": 5 },
+    { "m": "Sep", "avg": 14, "hi": 19, "lo": 10, "daylight": 12.1, "cld": 25, "rain": 85, "busy": 10, "ac": 4, "fl": 3 },
+    { "m": "Oct", "avg": 10, "hi": 14, "lo": 6, "daylight": 11.0, "cld": 30, "rain": 91, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Nov", "avg": 4, "hi": 8, "lo": 1, "daylight": 9.1, "cld": 32, "rain": 94, "busy": 3, "ac": 2, "fl": 1 },
+    { "m": "Dec", "avg": 0, "hi": 3, "lo": -3, "daylight": 9.0, "cld": 40, "rain": 89, "busy": 2, "ac": 1, "fl": 1 }
+  ]
+}

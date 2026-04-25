@@ -1,0 +1,246 @@
+{
+  "id": "mardin-turkey",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/101596/Average-Weather-in-Mardin-Turkey-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Mardin",
+  "country": "Turkey",
+  "region": "Upper Mesopotamia, southeastern Türkiye",
+  "desc": "Mardin is one of the most visually distinct city bases in Türkiye, with honey-stone architecture cascading along a ridge above the Mesopotamian plain. It works best for travelers who want layered religious and architectural history, terrace views, and a deep sense of place rather than a long list of modern city comforts.",
+  "hls": [
+    "The old city's stone terraces and skyline over the Mesopotamian plain are the destination's defining experience",
+    "Mardin's mix of monasteries, madrasas, museums, and old lanes gives it far more depth than a single-viewpoint town",
+    "Spring and autumn are the obvious prime seasons because the summer heat is intense and sustained",
+    "This is one of Türkiye's strongest destinations for atmosphere and architectural texture rather than big-ticket nightlife or shopping",
+    "The city feels culturally layered in a way few other Turkish breaks do, with Syriac, Arab, Kurdish, and Turkish influences all present",
+    "Mardin rewards slow walking and terrace time more than rushed landmark-chasing"
+  ],
+  "todo": [
+    {
+      "name": "Old-city ridge walk",
+      "cat": "Historic quarter",
+      "desc": "Keep one long, unhurried walk for the stone lanes and terrace viewpoints, because Mardin's feel matters as much as any single monument."
+    },
+    {
+      "name": "Zinciriye Medresesi",
+      "cat": "Historic complex",
+      "desc": "Use Zinciriye for one of the city's clearest combinations of architecture, history, and wide plain views."
+    },
+    {
+      "name": "Kasımiye Medresesi",
+      "cat": "Historic complex",
+      "desc": "Add Kasımiye to see one of Mardin's most important large-scale stone complexes and its open Mesopotamian outlook."
+    },
+    {
+      "name": "Mardin Museum",
+      "cat": "Museum",
+      "desc": "Give the museum a proper stop so the wider archaeological and cultural layers of the region come into focus."
+    },
+    {
+      "name": "Terrace breakfast or sunset tea",
+      "cat": "Atmosphere",
+      "desc": "Mardin is strongest when you leave room to simply look outward over the plain in changing light."
+    },
+    {
+      "name": "Local food block",
+      "cat": "Food",
+      "desc": "The city's cuisine is part of the experience, so plan one meal around regional dishes instead of generic restaurant convenience."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-60 Mbps",
+      "note": "Usually adequate in central hotels and cafes, though older stone properties can be less consistent than modern city stays."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Mardin has its own airport near Kızıltepe, but it currently functions as a domestic Turkish airport rather than an international UK-facing gateway. Most London-origin trips connect through Istanbul or another Turkish hub before the final short sector, so destination-level nonstop flags stay false and schedule resilience matters more than raw distance.",
+    "airports": [
+      {
+        "name": "Mardin Prof. Dr. Aziz Sancar Airport",
+        "code": "MQM",
+        "km": 21,
+        "dgw": false
+      }
+    ],
+    "currency": "Turkish lira (TRY)",
+    "lang": "Turkish is the main public language, with Kurdish and Arabic also common locally; English is present in tourism-facing stays but is not universal.",
+    "tz": "TRT (UTC+3) year-round",
+    "visa": "Türkiye entry rules depend on nationality and any current e-visa arrangements, so check the latest before booking connecting domestic flights.",
+    "bestFor": [
+      "Architecture-led trips",
+      "Spring and autumn cultural breaks",
+      "Southeastern Türkiye itineraries",
+      "History-and-food travel",
+      "Photogenic slow-travel stays"
+    ],
+    "alerts": [
+      "Summer heat is severe enough to change how much walking and sightseeing you can realistically enjoy.",
+      "The old city is hilly and uneven underfoot, so luggage and footwear matter more than they would in flatter city breaks.",
+      "Because access is usually connection-based, delays in the domestic flight chain can affect the arrival day more than travelers expect."
+    ]
+  },
+  "sweet": "April to May and late September to October are Mardin's best all-round windows for walking the old city and enjoying terrace views without the punishing midsummer heat.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 2,
+      "hi": 7,
+      "lo": -2,
+      "daylight": 9.9,
+      "cld": 47,
+      "rain": 33,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 9,
+      "lo": -1,
+      "daylight": 10.8,
+      "cld": 46,
+      "rain": 38,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 13,
+      "lo": 2,
+      "daylight": 12.0,
+      "cld": 42,
+      "rain": 38,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 19,
+      "lo": 7,
+      "daylight": 13.2,
+      "cld": 37,
+      "rain": 36,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 26,
+      "lo": 11,
+      "daylight": 14.2,
+      "cld": 23,
+      "rain": 18,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 25,
+      "hi": 33,
+      "lo": 17,
+      "daylight": 14.7,
+      "cld": 4,
+      "rain": 2,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 37,
+      "lo": 20,
+      "daylight": 14.4,
+      "cld": 0,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 36,
+      "lo": 19,
+      "daylight": 13.5,
+      "cld": 0,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 3
+    },
+    {
+      "m": "Sep",
+      "avg": 23,
+      "hi": 31,
+      "lo": 16,
+      "daylight": 12.4,
+      "cld": 6,
+      "rain": 2,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 17,
+      "hi": 24,
+      "lo": 10,
+      "daylight": 11.2,
+      "cld": 28,
+      "rain": 18,
+      "busy": 9,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 9,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 10.2,
+      "cld": 40,
+      "rain": 30,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 8,
+      "lo": 0,
+      "daylight": 9.6,
+      "cld": 46,
+      "rain": 38,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

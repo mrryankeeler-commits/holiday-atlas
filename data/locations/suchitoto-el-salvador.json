@@ -1,0 +1,248 @@
+{
+  "id": "suchitoto-el-salvador",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/12237/Average-Weather-in-Suchitoto-El-Salvador-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Suchitoto",
+  "country": "El Salvador",
+  "region": "Cuscatlán Norte, Suchitlán Lake region",
+  "desc": "Suchitoto is one of El Salvador's most atmospheric small towns, with cobbled streets, colonial facades, art spaces, and broad views toward Suchitlán Lake. It is better as a slow overnight cultural stop than a rushed day trip, because the real payoff comes from the evening calm, lakeside add-ons, and the town's festival rhythm as much as from the historic centre itself.",
+  "hls": [
+    "Well-preserved colonial streetscape",
+    "Suchitlán Lake boat and viewpoint add-ons",
+    "Strong arts-and-culture identity for a small town",
+    "Los Tercios basalt formations nearby",
+    "Compact overnightable historic core",
+    "Easy pairing with San Salvador arrival days",
+    "Best weather in the dry season"
+  ],
+  "todo": [
+    {
+      "name": "Historic-core walk",
+      "cat": "Townscape",
+      "desc": "Wander the tiled roofs, balconies, galleries, and church-front streets without trying to compress it into a checklist."
+    },
+    {
+      "name": "Suchitlán Lake outing",
+      "cat": "Nature",
+      "desc": "Add a boat ride, kayak session, or lakeside viewpoint to give the trip more than just colonial-street appeal."
+    },
+    {
+      "name": "Los Tercios",
+      "cat": "Geology",
+      "desc": "Visit the unusual basalt rock formation and go in the wetter season if you want the waterfall looking fuller."
+    },
+    {
+      "name": "Arts-and-culture evening",
+      "cat": "Culture",
+      "desc": "Stay overnight so the town's quieter evening restaurants, bars, and cultural venues actually have time to matter."
+    },
+    {
+      "name": "Festival-timed visit",
+      "cat": "Events",
+      "desc": "If dates line up, build around the February arts festival, August corn festival, or November film-festival period."
+    },
+    {
+      "name": "Cafe and viewpoint morning",
+      "cat": "Slow travel",
+      "desc": "Use an easy first hour for coffee, church-square atmosphere, and hill-and-lake light before the heat builds."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-60 Mbps",
+      "note": "Fine for general travel in boutique hotels and cafes, but not something to trust blindly for intensive remote-work days without checking the exact property."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Suchitoto has no airport, so this is always a road-transfer destination after arriving into San Salvador. There is no practical LGW or LCY nonstop story to the main gateway; current El Salvador service is stronger via Madrid or U.S./Central American hubs, so UK routings are usually one stop or more before the final drive of roughly 75-80 km to town.",
+    "airports": [
+      {
+        "name": "El Salvador International Airport",
+        "code": "SAL",
+        "km": 78,
+        "dgw": false
+      }
+    ],
+    "currency": "United States dollar (USD)",
+    "lang": "Spanish is the main language; English appears in some boutique hotels, tour operators, and visitor-facing restaurants.",
+    "tz": "CST (UTC-6) year-round; no daylight saving time.",
+    "visa": "El Salvador uses nationality-based entry rules, and CA-4 regional time limits can matter if your trip also includes Guatemala, Honduras, or Nicaragua.",
+    "bestFor": [
+      "Colonial-town overnights",
+      "Arts-and-culture travel",
+      "Slow Central America itineraries",
+      "Lake-and-town combinations",
+      "Dry-season weekend escapes"
+    ],
+    "alerts": [
+      "Heavy-rain months can make the Los Tercios approach muddier and more slippery even when the scenery is greener.",
+      "Cobbled streets and slopes are charming but awkward with rolling luggage and flimsy footwear.",
+      "Festival weeks in February, August, and November change the crowd level and room availability much more than an ordinary weekend does.",
+      "A same-day airport arrival plus full Suchitoto sightseeing often feels rushed; the town works better with at least one night."
+    ]
+  },
+  "sweet": "November to March is the strongest window for Suchitoto's streets, lake views, and walking comfort; the wetter months are greener and dramatic, but much less reliable for easy logistics.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 25,
+      "hi": 33,
+      "lo": 19,
+      "daylight": 11.4,
+      "cld": 22,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Feb",
+      "avg": 26,
+      "hi": 34,
+      "lo": 19,
+      "daylight": 11.7,
+      "cld": 25,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 35,
+      "lo": 21,
+      "daylight": 12.1,
+      "cld": 32,
+      "rain": 2,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 28,
+      "hi": 35,
+      "lo": 22,
+      "daylight": 12.5,
+      "cld": 58,
+      "rain": 15,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 33,
+      "lo": 23,
+      "daylight": 12.8,
+      "cld": 86,
+      "rain": 79,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 27,
+      "hi": 32,
+      "lo": 22,
+      "daylight": 12.9,
+      "cld": 92,
+      "rain": 135,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 26,
+      "hi": 32,
+      "lo": 22,
+      "daylight": 12.8,
+      "cld": 86,
+      "rain": 104,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 32,
+      "lo": 22,
+      "daylight": 12.6,
+      "cld": 86,
+      "rain": 119,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 26,
+      "hi": 32,
+      "lo": 22,
+      "daylight": 12.2,
+      "cld": 89,
+      "rain": 137,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 26,
+      "hi": 31,
+      "lo": 22,
+      "daylight": 11.8,
+      "cld": 80,
+      "rain": 99,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Nov",
+      "avg": 25,
+      "hi": 32,
+      "lo": 21,
+      "daylight": 11.5,
+      "cld": 56,
+      "rain": 25,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 25,
+      "hi": 32,
+      "lo": 19,
+      "daylight": 11.3,
+      "cld": 31,
+      "rain": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

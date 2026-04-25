@@ -1,0 +1,141 @@
+{
+  "id": "sibenik-croatia",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Šibenik",
+  "country": "Croatia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "11.1",
+      "Avg Low (°C)": "3.3",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "11.7",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "10.5",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "66",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "10",
+      "Avg High (°C)": "14.4",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "13.3",
+      "Avg High (°C)": "17.8",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "May",
+      "Avg Temp (°C)": "18.3",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "14.8",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "48.3",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "22.2",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "15.4",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "19.4",
+      "Daylight (h/day)": "15",
+      "Cloud Cover (%)": "18",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "18.9",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "20.6",
+      "Avg High (°C)": "25",
+      "Avg Low (°C)": "15.6",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "68.6",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "11",
+      "Cloud Cover (%)": "43",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "9.6",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "88.9",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    },
+    {
+      "Location": "Šibenik, Croatia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "8.3",
+      "Avg High (°C)": "12.2",
+      "Avg Low (°C)": "5",
+      "Daylight (h/day)": "9",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/78885/Average-Weather-in-%C5%A0ibenik-Croatia-Year-Round"
+    }
+  ]
+}

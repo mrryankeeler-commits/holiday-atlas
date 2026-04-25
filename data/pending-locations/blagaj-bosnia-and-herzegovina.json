@@ -1,0 +1,141 @@
+{
+  "id": "blagaj-bosnia-and-herzegovina",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Blagaj",
+  "country": "Bosnia and Herzegovina",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Jan",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "8.3",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Feb",
+      "Avg Temp (°C)": "5",
+      "Avg High (°C)": "10",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "86.4",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Mar",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "3.3",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "78.7",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Apr",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "73.7",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "May",
+      "Avg Temp (°C)": "17.2",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "58.4",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Jun",
+      "Avg Temp (°C)": "21.7",
+      "Avg High (°C)": "27.8",
+      "Avg Low (°C)": "15",
+      "Daylight (h/day)": "15.3",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "45.7",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Jul",
+      "Avg Temp (°C)": "24.4",
+      "Avg High (°C)": "31.1",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "15",
+      "Cloud Cover (%)": "17",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Aug",
+      "Avg Temp (°C)": "24.4",
+      "Avg High (°C)": "30.6",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "13.9",
+      "Cloud Cover (%)": "21",
+      "Rainfall (mm)": "38.1",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Sep",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "25.6",
+      "Avg Low (°C)": "13.3",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Oct",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "20",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "11",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "91.4",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Nov",
+      "Avg Temp (°C)": "8.9",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "9.7",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "114.3",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    },
+    {
+      "Location": "Blagaj, Bosnia and Herzegovina",
+      "Month": "Dec",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "9",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "99.1",
+      "Source URL": "https://weatherspark.com/y/82114/Average-Weather-in-Blagaj-Bosnia-&-Herzegovina-Year-Round"
+    }
+  ]
+}

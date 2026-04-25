@@ -1,0 +1,246 @@
+{
+  "id": "moab-utah-united-states",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/3012/Average-Weather-in-Moab-Utah-United-States-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Moab",
+  "country": "United States",
+  "region": "Canyon Country, eastern Utah",
+  "desc": "Moab is one of the clearest adventure-base destinations in the American West: a red-rock town built around Arches, Canyonlands, desert trails, river trips, and huge open scenery rather than conventional urban sightseeing. It works best when you treat the town as a practical basecamp for dawn starts, scenic drives, and active days rather than expecting a deep standalone city break.",
+  "hls": [
+    "Moab's strength is concentration: Arches, Canyonlands, Dead Horse Point, and the Colorado River all sit within a practical active-travel radius.",
+    "Spring and autumn are the obvious prime windows because the shoulder between cold mornings and punishing heat is much narrower here than the photos imply.",
+    "This is a destination where logistics matter: park-entry timing, trail starts, shade, and water planning shape the experience as much as the headline sights.",
+    "The town itself is functional rather than charming, but that works in Moab's favor because nearly every stay is set up around early starts and gear-heavy days.",
+    "Mountain biking and 4x4 culture are part of the destination identity even if you are visiting mainly for viewpoints and national parks.",
+    "Summer is still possible, but midday desert heat makes it a very different trip from April or October."
+  ],
+  "todo": [
+    {
+      "name": "Arches National Park drive-and-viewpoint block",
+      "cat": "National park",
+      "desc": "Give Arches a substantial early start, because it is the headline Moab experience and the traffic-and-heat penalties rise quickly."
+    },
+    {
+      "name": "Canyonlands Island in the Sky",
+      "cat": "National park",
+      "desc": "Use one half-day for the mesa-top overlooks so the trip includes the bigger-scale canyon perspective beyond Arches."
+    },
+    {
+      "name": "Dead Horse Point State Park",
+      "cat": "Viewpoint",
+      "desc": "Add Dead Horse Point for one of the region's simplest and strongest scenic payoffs, especially around sunrise or sunset."
+    },
+    {
+      "name": "Colorado River rafting or river-side time",
+      "cat": "Adventure",
+      "desc": "Balance the rock-and-road itinerary with at least one river-based outing if temperatures and energy allow."
+    },
+    {
+      "name": "Sand Flats or slickrock session",
+      "cat": "Active",
+      "desc": "Use one block for biking, walking, or watching the off-road culture that helps define Moab's outdoor identity."
+    },
+    {
+      "name": "Main Street recovery evening",
+      "cat": "Town life",
+      "desc": "Keep one easier evening for food and gear-shop browsing, because Moab works best when the pace includes actual recovery time."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "25-100 Mbps",
+      "note": "Usually fine for basic work and trip admin in town hotels and rentals, but performance can dip in older motels and once you spend most of the day outside mobile coverage becomes the bigger issue."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Moab has its own small airport, but no nonstop from the repo's London origins and only limited regional air service. Current Canyonlands Field schedules are built around Denver and Phoenix, so UK trips are connection-led by definition; some travelers also use longer-drive gateways for more flexibility, but destination-level direct flags must stay false.",
+    "airports": [
+      {
+        "name": "Canyonlands Field Airport",
+        "code": "CNY",
+        "km": 29,
+        "dgw": false
+      }
+    ],
+    "currency": "US dollar (USD)",
+    "lang": "English is the main language",
+    "tz": "Mountain Time (MST/MDT, UTC-7/-6)",
+    "visa": "United States entry rules depend on nationality and current ESTA or visa requirements, so check the latest federal guidance before travel.",
+    "bestFor": [
+      "U.S. national park bases",
+      "Red-rock road trips",
+      "Desert hiking in shoulder season",
+      "Mountain biking trips",
+      "Active long weekends"
+    ],
+    "alerts": [
+      "Heat management is a real safety issue from late spring into summer, especially once you leave the car and shade disappears.",
+      "Arches entry systems, timed access, and trailhead pressure can materially change how early you need to start.",
+      "Accommodation can tighten fast around spring break, Easter, and peak autumn weekends."
+    ]
+  },
+  "sweet": "April to early May and late September to October are usually Moab's best all-round windows for hiking comfort, big-view days, and manageable desert conditions.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 4,
+      "lo": -6,
+      "daylight": 9.8,
+      "cld": 41,
+      "rain": 10,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 3,
+      "hi": 9,
+      "lo": -2,
+      "daylight": 10.8,
+      "cld": 45,
+      "rain": 10,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 16,
+      "lo": 2,
+      "daylight": 12.0,
+      "cld": 43,
+      "rain": 13,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 13,
+      "hi": 21,
+      "lo": 6,
+      "daylight": 13.3,
+      "cld": 39,
+      "rain": 13,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 26,
+      "lo": 11,
+      "daylight": 14.3,
+      "cld": 34,
+      "rain": 15,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 24,
+      "hi": 32,
+      "lo": 17,
+      "daylight": 14.8,
+      "cld": 23,
+      "rain": 10,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 28,
+      "hi": 35,
+      "lo": 20,
+      "daylight": 14.5,
+      "cld": 27,
+      "rain": 15,
+      "busy": 3,
+      "ac": 1,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 26,
+      "hi": 33,
+      "lo": 18,
+      "daylight": 13.6,
+      "cld": 27,
+      "rain": 20,
+      "busy": 4,
+      "ac": 2,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 21,
+      "hi": 28,
+      "lo": 14,
+      "daylight": 12.4,
+      "cld": 21,
+      "rain": 25,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 21,
+      "lo": 7,
+      "daylight": 11.1,
+      "cld": 27,
+      "rain": 23,
+      "busy": 8,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 5,
+      "hi": 12,
+      "lo": 0,
+      "daylight": 10.1,
+      "cld": 36,
+      "rain": 15,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -1,
+      "hi": 5,
+      "lo": -5,
+      "daylight": 9.5,
+      "cld": 40,
+      "rain": 10,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}

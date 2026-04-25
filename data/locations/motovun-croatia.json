@@ -1,0 +1,261 @@
+{
+  "id": "motovun-croatia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/75041/Average-Weather-in-Motovun-Croatia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Motovun",
+  "country": "Croatia",
+  "region": "Istrian interior, Mirna valley",
+  "desc": "Motovun is an Istrian hilltop town for travellers who want medieval walls, inland food culture, and valley views rather than a coast-first Croatia trip. It works especially well as a slow 1-3 night stay or inland detour built around truffles, wine, and nearby villages, with the main trade-off being that access is easiest by car.",
+  "hls": [
+    "Hilltop medieval walls over the Mirna valley",
+    "Motovun Forest and truffle country",
+    "Bell tower and preserved old-town gates",
+    "Strong autumn truffle-and-wine identity",
+    "Easy pairing with Grožnjan and inland Istria",
+    "Quieter alternative to Croatia's Adriatic coast"
+  ],
+  "todo": [
+    {
+      "name": "Walk the old walls and gates",
+      "cat": "History",
+      "desc": "Take time for the fortified lanes and viewpoints instead of reducing Motovun to a quick photo stop."
+    },
+    {
+      "name": "Truffle-focused lunch or tasting",
+      "cat": "Food",
+      "desc": "Lean into the town's strongest identity with a proper Istrian truffle meal rather than generic Croatian dining."
+    },
+    {
+      "name": "Motovun Forest outing",
+      "cat": "Nature",
+      "desc": "Use the Mirna-valley forest context to understand why Motovun feels tied to truffles and the inland landscape."
+    },
+    {
+      "name": "Bell tower and central square block",
+      "cat": "Scenic",
+      "desc": "Base one town session around the core square, tower, and the best valley outlooks."
+    },
+    {
+      "name": "Istrian interior village loop",
+      "cat": "Road trip",
+      "desc": "Pair Motovun with another inland stop such as Grožnjan so the trip becomes a fuller Green Istria day."
+    },
+    {
+      "name": "Autumn truffle or Teran timing",
+      "cat": "Seasonal",
+      "desc": "If visiting in October, shape the stay around the truffle-and-Teran calendar because that's when Motovun feels most itself."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "25-80 Mbps",
+      "note": "Usually fine in hotels and apartments, but the small hilltop layout and stone buildings make it less predictable than a major Croatian city."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Motovun has no airport. Pula is the natural flight gateway and current Gatwick-Pula service is mainly seasonal from early May, while shoulder and winter trips often end up routing via Trieste, Venice, or Ljubljana before a car transfer into inland Istria. Keep destination-level nonstop flags false because any 'direct' claim applies only to the gateway airport, not Motovun itself.",
+    "airports": [
+      {
+        "name": "Pula Airport",
+        "code": "PUY",
+        "km": 70,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Trieste Airport",
+        "code": "TRS",
+        "km": 95,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Croatian and Italian influences are visible; English is common in tourism-facing businesses",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Croatia applies Schengen entry rules; UK and Irish travellers should verify passport validity and 90-in-180-day limits before travel.",
+    "bestFor": [
+      "Istrian food trips",
+      "Hilltop villages",
+      "Autumn truffle weekends",
+      "Inland Croatia detours"
+    ],
+    "alerts": [
+      "Parking is usually below the old town, so arrival still involves an uphill walk or shuttle-style final stretch.",
+      "October is one of the most atmospheric months, but event weekends can tighten rooms quickly.",
+      "Without a car, inland-Istria logistics are far less flexible than Croatia's coast routes."
+    ]
+  },
+  "sweet": "Late May to June and September to October are usually Motovun's best windows, with warm walking weather and stronger food-season appeal than midsummer heat or quiet winter lull.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 9.2,
+      "cld": 53,
+      "rain": 53,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 9,
+      "lo": 1,
+      "daylight": 10.4,
+      "cld": 50,
+      "rain": 58,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 13,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 50,
+      "rain": 56,
+      "busy": 3,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 12,
+      "hi": 17,
+      "lo": 7,
+      "daylight": 13.6,
+      "cld": 50,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 17,
+      "hi": 21,
+      "lo": 11,
+      "daylight": 14.9,
+      "cld": 47,
+      "rain": 64,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 20,
+      "hi": 25,
+      "lo": 14,
+      "daylight": 15.6,
+      "cld": 37,
+      "rain": 61,
+      "busy": 6,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 23,
+      "hi": 28,
+      "lo": 17,
+      "daylight": 15.2,
+      "cld": 25,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 23,
+      "hi": 28,
+      "lo": 17,
+      "daylight": 14.0,
+      "cld": 27,
+      "rain": 56,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "daylight": 12.5,
+      "cld": 38,
+      "rain": 89,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 14,
+      "hi": 18,
+      "lo": 9,
+      "daylight": 10.9,
+      "cld": 47,
+      "rain": 94,
+      "busy": 10,
+      "ac": 5,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 9,
+      "hi": 13,
+      "lo": 6,
+      "daylight": 9.5,
+      "cld": 55,
+      "rain": 96,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 5,
+      "hi": 9,
+      "lo": 2,
+      "daylight": 8.8,
+      "cld": 55,
+      "rain": 74,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ],
+  "lat": 45.3367,
+  "lng": 13.8286
+}

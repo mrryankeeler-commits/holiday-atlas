@@ -1,0 +1,120 @@
+{
+  "id": "karakol-kyrgyzstan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/109679/Average-Weather-in-Karakol-Kyrgyzstan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Karakol",
+  "country": "Kyrgyzstan",
+  "region": "Issyk-Kul Region, eastern Kyrgyzstan",
+  "desc": "Karakol is Kyrgyzstan's most useful mountain town for travelers who want a mix of culture, lake-region access, and serious Tien Shan scenery. It is not glossy, but that is part of the draw: Dungan and Russian heritage sit beside trekking logistics, ski slopes, hot springs, and big valley day trips from a compact town near the eastern end of Issyk-Kul.",
+  "hls": [
+    "Eastern Issyk-Kul base for hikes, gorges, hot springs, and winter mountains",
+    "Dungan Mosque and Holy Trinity Cathedral heritage stops",
+    "Jeti-Oguz and Altyn Arashan as classic day or overnight add-ons",
+    "Summer trekking access and specialist winter ski appeal",
+    "Budget-friendly mountain logistics compared with polished alpine resorts",
+    "Best for flexible travelers comfortable with simple infrastructure"
+  ],
+  "todo": [
+    {
+      "name": "Dungan Mosque",
+      "cat": "Architecture",
+      "desc": "Visit the colorful wooden mosque to understand Karakol's Dungan heritage and one of Kyrgyzstan's most distinctive religious buildings."
+    },
+    {
+      "name": "Holy Trinity Cathedral",
+      "cat": "Heritage",
+      "desc": "Add the wooden Orthodox cathedral for the Russian-era side of the town's identity."
+    },
+    {
+      "name": "Jeti-Oguz day trip",
+      "cat": "Nature",
+      "desc": "Use one day for the red-rock valley and nearby mountain scenery, one of the easiest high-impact outings from Karakol."
+    },
+    {
+      "name": "Altyn Arashan plan",
+      "cat": "Hot springs & hiking",
+      "desc": "Treat Altyn Arashan as a proper rough-road or trekking day rather than a casual town-side excursion."
+    },
+    {
+      "name": "Karakol food stop",
+      "cat": "Food",
+      "desc": "Try ashlyan-fu or other local dishes so the stay has a town-life layer between mountain plans."
+    },
+    {
+      "name": "Ski or valley viewpoint block",
+      "cat": "Seasonal outdoors",
+      "desc": "Use winter for the ski base or summer for valley viewpoints, depending on which version of Karakol you came for."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-60 Mbps",
+      "note": "Fine for basic planning in central guesthouses and cafes, but mountain lodges, yurt camps, and trail valleys are much less reliable."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Karakol has a newly upgraded local airport, but London-origin travel remains connection-heavy and mostly built around Bishkek, Almaty, or regional links plus a long road transfer. There is no destination-level nonstop from Gatwick or London City, and summer trekking season plus winter ski weeks are the periods most likely to tighten rooms and transport.",
+    "airports": [
+      {
+        "name": "Karakol International Airport",
+        "code": "IKG",
+        "km": 4,
+        "dgw": false
+      },
+      {
+        "name": "Manas International Airport",
+        "code": "FRU",
+        "km": 400,
+        "dgw": true
+      }
+    ],
+    "currency": "Kyrgyzstani som (KGS)",
+    "lang": "Kyrgyz and Russian are widely used; English is most common with guides, guesthouses, and outdoor operators.",
+    "tz": "KGT (UTC+6) year-round",
+    "visa": "Kyrgyzstan entry rules depend on nationality and stay length, so confirm current visa-free and registration requirements before travel.",
+    "bestFor": [
+      "Tien Shan trekking bases",
+      "Issyk-Kul regional routes",
+      "Budget mountain travel",
+      "Winter ski add-ons",
+      "Culture-and-nature combinations"
+    ],
+    "alerts": [
+      "Winter temperatures are genuinely cold, so casual city-break packing does not work here.",
+      "Road and mountain conditions can change quickly, especially for Altyn Arashan and higher valleys.",
+      "Karakol is practical rather than polished, so build in patience for transport, language, and booking logistics."
+    ]
+  },
+  "sweet": "June to September is Karakol's best all-round window for hiking, lake-region movement, and valley access, while January to March is the specialist window for colder ski-focused trips.",
+  "months": [
+    { "m": "Jan", "avg": -10, "hi": -4, "lo": -14, "daylight": 9.5, "cld": 56, "rain": 0, "busy": 7, "ac": 4, "fl": 3 },
+    { "m": "Feb", "avg": -7, "hi": -2, "lo": -12, "daylight": 10.6, "cld": 60, "rain": 0, "busy": 7, "ac": 4, "fl": 3 },
+    { "m": "Mar", "avg": 0, "hi": 5, "lo": -5, "daylight": 12.0, "cld": 62, "rain": 5, "busy": 4, "ac": 2, "fl": 1 },
+    { "m": "Apr", "avg": 7, "hi": 13, "lo": 2, "daylight": 13.4, "cld": 56, "rain": 13, "busy": 4, "ac": 2, "fl": 1 },
+    { "m": "May", "avg": 12, "hi": 17, "lo": 6, "daylight": 14.6, "cld": 52, "rain": 23, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Jun", "avg": 16, "hi": 21, "lo": 9, "daylight": 15.2, "cld": 38, "rain": 23, "busy": 9, "ac": 4, "fl": 3 },
+    { "m": "Jul", "avg": 17, "hi": 23, "lo": 11, "daylight": 14.9, "cld": 22, "rain": 23, "busy": 10, "ac": 5, "fl": 5 },
+    { "m": "Aug", "avg": 17, "hi": 23, "lo": 9, "daylight": 13.8, "cld": 16, "rain": 18, "busy": 10, "ac": 5, "fl": 5 },
+    { "m": "Sep", "avg": 12, "hi": 18, "lo": 5, "daylight": 12.4, "cld": 23, "rain": 15, "busy": 8, "ac": 4, "fl": 3 },
+    { "m": "Oct", "avg": 6, "hi": 11, "lo": -1, "daylight": 11.0, "cld": 39, "rain": 10, "busy": 5, "ac": 3, "fl": 2 },
+    { "m": "Nov", "avg": -1, "hi": 3, "lo": -6, "daylight": 9.8, "cld": 48, "rain": 2, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Dec", "avg": -7, "hi": -3, "lo": -12, "daylight": 9.1, "cld": 51, "rain": 0, "busy": 4, "ac": 2, "fl": 2 }
+  ]
+}

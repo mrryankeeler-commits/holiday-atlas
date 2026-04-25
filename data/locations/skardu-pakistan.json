@@ -1,0 +1,252 @@
+{
+  "id": "skardu-pakistan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/108433/Average-Weather-in-Skārdu-Pakistan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Skardu",
+  "country": "Pakistan",
+  "region": "Skardu Valley, Gilgit-Baltistan",
+  "desc": "Skardu is a high-altitude mountain gateway rather than a conventional city break, with broad valley scenery, desert-meets-river landscapes, and access toward some of the Karakoram's most famous trekking corridors. It is strongest for travelers who want a dramatic northern Pakistan base with big-sky views and expedition energy, not polished urban comforts.",
+  "hls": [
+    "Skardu's appeal comes from mountain scale and valley setting more than from the town center itself",
+    "Satpara Lake, Katpana Desert, and old fort viewpoints give the destination more variety than a single trekking gateway might suggest",
+    "Summer and early autumn are the core access window, while winter is far colder and much more limiting",
+    "Flights are short from Islamabad when they operate, but weather disruption is part of the reality",
+    "Road journeys are scenic but long enough to feel like expedition logistics rather than a casual transfer",
+    "This is one of South Asia's most photogenic high-valley bases if you catch clear weather"
+  ],
+  "todo": [
+    {
+      "name": "Kharpocho Fort viewpoint",
+      "cat": "Viewpoint",
+      "desc": "Climb for the essential perspective over Skardu town, the Indus-side valley, and the surrounding brown-and-snow landscape."
+    },
+    {
+      "name": "Satpara Lake outing",
+      "cat": "Nature",
+      "desc": "Use the lake for Skardu's calmer scenic side, especially if you want a non-trekking half-day with strong views."
+    },
+    {
+      "name": "Katpana Cold Desert",
+      "cat": "Landscape",
+      "desc": "Make time for the dunes, because the desert-meets-mountain contrast is part of what makes Skardu feel so unusual."
+    },
+    {
+      "name": "Slow town-and-bazaar walk",
+      "cat": "Local life",
+      "desc": "Keep expectations realistic and use the town center for atmosphere, supplies, and everyday mountain-hub rhythm rather than heavyweight sightseeing."
+    },
+    {
+      "name": "Clear-weather sunrise or sunset session",
+      "cat": "Scenic",
+      "desc": "Skardu is at its best when the light is low and the valley walls read properly, so give one good forecast window to photography or simply being outside."
+    },
+    {
+      "name": "Buffer day for transport volatility",
+      "cat": "Trip planning",
+      "desc": "Treat one spare day as part of the destination design if flights or road timing are central to your wider Pakistan itinerary."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "8-35 Mbps",
+      "note": "Usable in better hotels and some cafes, but outages, backup-power moments, and inconsistent room-by-room performance are all realistic."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Skardu has its own airport very close to town, but London-origin trips are connection-based and the final domestic sector is famously weather-sensitive. Many itineraries route into Islamabad first and then either fly onward when conditions allow or commit to a long mountain road journey; June to September is the clearest practical season, with July-August bringing the highest airfare and hotel pressure.",
+    "airports": [
+      {
+        "name": "Skardu Airport",
+        "code": "KDU",
+        "km": 14,
+        "dgw": false
+      },
+      {
+        "name": "Islamabad International Airport",
+        "code": "ISB",
+        "km": 285,
+        "dgw": true
+      }
+    ],
+    "currency": "Pakistani rupee (PKR)",
+    "lang": "Urdu and regional languages are widely used; English appears in better hotels, guides, and tourism-facing services but should not be assumed everywhere.",
+    "tz": "PKT (UTC+5) year-round",
+    "visa": "Pakistan entry rules vary by passport and e-visa eligibility, so confirm the current requirements before planning internal flights.",
+    "bestFor": [
+      "Karakoram gateway trips",
+      "Big-landscape photography",
+      "Adventure-focused Pakistan itineraries",
+      "High-altitude summer travel",
+      "Trek-support stopovers"
+    ],
+    "alerts": [
+      "Skardu flights are regularly affected by weather and visibility, so tight onward connections are risky.",
+      "Cold-season travel is much harsher than the sunny summer imagery suggests, with real temperature drops and shorter usable days.",
+      "Road access is long and fatigue-heavy, so the destination rewards slower pacing more than rushed checklists."
+    ]
+  },
+  "sweet": "June to September is Skardu's clearest sweet spot for road and flight access, clear mountain light, and workable temperatures, while May and October can still reward flexible travelers who accept more volatility and colder nights.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -3,
+      "hi": 3,
+      "lo": -8,
+      "daylight": 10.1,
+      "cld": 63,
+      "rain": 8,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -1,
+      "hi": 4,
+      "lo": -7,
+      "daylight": 10.9,
+      "cld": 69,
+      "rain": 18,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 4,
+      "hi": 9,
+      "lo": -2,
+      "daylight": 12.0,
+      "cld": 64,
+      "rain": 30,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 10,
+      "hi": 14,
+      "lo": 5,
+      "daylight": 13.1,
+      "cld": 53,
+      "rain": 30,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 14,
+      "hi": 20,
+      "lo": 9,
+      "daylight": 14.0,
+      "cld": 36,
+      "rain": 20,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 19,
+      "hi": 25,
+      "lo": 13,
+      "daylight": 14.5,
+      "cld": 16,
+      "rain": 18,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 23,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 14.3,
+      "cld": 10,
+      "rain": 23,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 22,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 13.4,
+      "cld": 11,
+      "rain": 23,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 18,
+      "hi": 24,
+      "lo": 11,
+      "daylight": 12.4,
+      "cld": 8,
+      "rain": 15,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 17,
+      "lo": 6,
+      "daylight": 11.3,
+      "cld": 20,
+      "rain": 10,
+      "busy": 4,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 6,
+      "hi": 11,
+      "lo": 1,
+      "daylight": 10.3,
+      "cld": 37,
+      "rain": 8,
+      "busy": 2,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 6,
+      "lo": -4,
+      "daylight": 9.8,
+      "cld": 52,
+      "rain": 8,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

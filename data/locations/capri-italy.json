@@ -1,0 +1,253 @@
+{
+  "id": "capri-italy",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/150411/Average-Weather-in-Isola-di-Capri-Italy-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Capri",
+  "country": "Italy",
+  "region": "Island of Capri, Bay of Naples",
+  "desc": "Capri is best treated as a polished Bay of Naples island splurge rather than a lazy beach resort: dramatic boat arrivals, polished lanes around the Piazzetta, and a calmer Anacapri counterpoint all packed into a very small island. It works best for 1-3 nights or a tightly planned day trip, with the main trade-off being ferry logistics and crowd pressure once peak season hits.",
+  "hls": [
+    "Blue Grotto when sea conditions allow",
+    "Anacapri and Monte Solaro chairlift",
+    "Gardens of Augustus views over the Faraglioni",
+    "Boat circuit past Capri's sea grottoes",
+    "Marina Grande to Capri-town funicular arrival",
+    "Villa San Michele and quieter Anacapri lanes"
+  ],
+  "todo": [
+    {
+      "name": "Blue Grotto timing run",
+      "cat": "Boat trip",
+      "desc": "Go early and stay flexible, because sea state can close the grotto even on bright days."
+    },
+    {
+      "name": "Monte Solaro chairlift from Anacapri",
+      "cat": "Scenic",
+      "desc": "Ride up from Piazza Vittoria for the island's biggest panorama over Capri, the bay and the Sorrentine coast."
+    },
+    {
+      "name": "Gardens of Augustus and Capri town walk",
+      "cat": "Viewpoint",
+      "desc": "Use the terraced gardens for classic Faraglioni views, then loop back through the polished center before day-trippers thin out."
+    },
+    {
+      "name": "Boat around the island",
+      "cat": "Coast",
+      "desc": "See the Faraglioni, White Grotto, Green Grotto and cliff-backed shoreline that you miss if you stay only on land."
+    },
+    {
+      "name": "Villa San Michele",
+      "cat": "Culture",
+      "desc": "Base one Anacapri stop around Axel Munthe's villa for gardens, sea views and a break from Capri town crowds."
+    },
+    {
+      "name": "Sunset aperitivo above Marina Piccola",
+      "cat": "Evening",
+      "desc": "End the day with a west-facing drink or short walk once excursion traffic drops and the island feels more balanced."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "30-100 Mbps",
+      "note": "Usually strong in established hotels and upscale rentals, but ferry days, cliffside terraces, and old-stone buildings can make it feel less dependable than a mainland city break."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Capri has no airport; you normally fly to Naples, then transfer to Molo Beverello or Calata di Massa and continue by ferry or hydrofoil. Gatwick-Naples is the cleanest one-ticket pattern when schedules line up, while Rome works but usually turns the trip into a much longer rail-plus-port transfer. July-August ferry capacity and rough-sea disruption are usually the real pinch points, not the flight itself.",
+    "airports": [
+      {
+        "name": "Naples International Airport",
+        "code": "NAP",
+        "km": 40,
+        "dgw": true
+      },
+      {
+        "name": "Rome Fiumicino Airport",
+        "code": "FCO",
+        "km": 270,
+        "dgw": true
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Italian; English is widely used around hotels, ferries, and restaurants",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Italy applies Schengen entry rules; UK and Irish travellers should check passport validity and 90-in-180-day limits before travel.",
+    "bestFor": [
+      "Bay of Naples island breaks",
+      "Scenic boat days",
+      "Honeymoon splurges",
+      "Short high-impact Italy trips"
+    ],
+    "alerts": [
+      "Blue Grotto access can stop at short notice when swell or wind changes.",
+      "Hydrofoils are the first services to be disrupted in rough seas, so ferry backup matters in shoulder season.",
+      "July and August buses, funicular queues, and port transfers can eat more time than the island's size suggests."
+    ]
+  },
+  "sweet": "Late April to June and September to early October are usually Capri's best balance of bright weather, running ferries, and manageable crowd levels; July and August are spectacular but much more logistically heavy.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 12,
+      "hi": 15,
+      "lo": 11,
+      "daylight": 9.7,
+      "cld": 47,
+      "rain": 74,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 12,
+      "hi": 15,
+      "lo": 10,
+      "daylight": 10.7,
+      "cld": 45,
+      "rain": 71,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 14,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 12.0,
+      "cld": 44,
+      "rain": 56,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 13.3,
+      "cld": 41,
+      "rain": 48,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 21,
+      "hi": 25,
+      "lo": 17,
+      "daylight": 14.5,
+      "cld": 37,
+      "rain": 30,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 25,
+      "hi": 29,
+      "lo": 21,
+      "daylight": 15.0,
+      "cld": 23,
+      "rain": 18,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 27,
+      "hi": 32,
+      "lo": 24,
+      "daylight": 14.7,
+      "cld": 10,
+      "rain": 13,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 33,
+      "lo": 24,
+      "daylight": 13.7,
+      "cld": 15,
+      "rain": 20,
+      "busy": 8,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 24,
+      "hi": 29,
+      "lo": 21,
+      "daylight": 12.4,
+      "cld": 31,
+      "rain": 64,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 21,
+      "hi": 24,
+      "lo": 18,
+      "daylight": 11.1,
+      "cld": 42,
+      "rain": 86,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 17,
+      "hi": 19,
+      "lo": 14,
+      "daylight": 9.9,
+      "cld": 46,
+      "rain": 112,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 14,
+      "hi": 16,
+      "lo": 12,
+      "daylight": 9.3,
+      "cld": 46,
+      "rain": 89,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    }
+  ],
+  "lat": 40.5532,
+  "lng": 14.2222
+}

@@ -1,0 +1,120 @@
+{
+  "id": "khiva-uzbekistan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-25",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/105974/Average-Weather-in-Khiwa-Uzbekistan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Khiva",
+  "country": "Uzbekistan",
+  "region": "Xorazm Region, lower Amu Darya oasis",
+  "desc": "Khiva is one of Central Asia's most complete walled heritage cities, where madrasa courtyards, carved wooden columns, minarets, and mud-brick lanes all sit inside a compact UNESCO core that still feels coherent on foot. It works best for travelers who want Silk Road history in a concentrated, atmospheric form rather than a sprawling modern city break.",
+  "hls": [
+    "Itchan Kala packs a remarkable amount of preserved Silk Road architecture into a walkable old-city grid",
+    "The destination is strongest when you stay overnight and see the walls, towers, and courtyards after day groups thin out",
+    "Spring and autumn are the obvious comfort windows because Khiva's exposed streets get punishingly hot in midsummer",
+    "Kalta Minor, Juma Mosque, and the city walls make the appeal much broader than one postcard minaret shot",
+    "Khiva suits architecture-first itineraries and pairs naturally with Urgench, Nukus, or wider Uzbekistan rail-and-road routes",
+    "The old city feels curated and touristed, but that polish is also what makes a short heritage stay work so well"
+  ],
+  "todo": [
+    {
+      "name": "Itchan Kala dawn or late-day circuit",
+      "cat": "UNESCO core",
+      "desc": "Walk the inner city when the light is low and the stone-and-mud palette looks its best, rather than only arriving in the harsh middle of the day."
+    },
+    {
+      "name": "Juma Mosque",
+      "cat": "Architecture",
+      "desc": "Make time for the forest of carved wooden columns because it gives Khiva a texture that the tiled monuments alone do not."
+    },
+    {
+      "name": "Islam Khoja Minaret area",
+      "cat": "Landmark",
+      "desc": "Use one of the minaret and madrasa clusters to read the skyline properly instead of treating the city as a single-viewpoint stop."
+    },
+    {
+      "name": "City-wall walk or rampart viewpoint",
+      "cat": "Scenic history",
+      "desc": "Get up on or beside the walls to understand how self-contained the old city still feels inside the desert-edge plain."
+    },
+    {
+      "name": "Tash Hovli or Kunya-Ark block",
+      "cat": "Palace history",
+      "desc": "Add one palace complex so the khanate story lands alongside the mosque-and-madrasa architecture."
+    },
+    {
+      "name": "Evening meal inside the old city",
+      "cat": "Atmosphere",
+      "desc": "Keep one slower nighttime block because Khiva is noticeably more atmospheric once excursion groups have gone."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-60 Mbps",
+      "note": "Usually workable in restored old-city hotels and newer cafes, though signal consistency can drop behind thick historic walls and in more traditional guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Khiva's practical air gateway is Urgench, followed by a short road transfer of roughly 30-40 minutes into the old city. There is no destination-level nonstop from Gatwick or London City, and most London-origin itineraries connect via Tashkent, Istanbul, or another regional hub before the final domestic or regional leg. Spring and autumn usually bring the strongest culture-trip demand, even though the absolute school-holiday flight squeeze is sharper in midsummer.",
+    "airports": [
+      {
+        "name": "Urgench International Airport",
+        "code": "UGC",
+        "km": 35,
+        "dgw": false
+      },
+      {
+        "name": "Tashkent International Airport",
+        "code": "TAS",
+        "km": 990,
+        "dgw": false
+      }
+    ],
+    "currency": "Uzbekistani so'm (UZS); cash is still useful for tickets, smaller shops, and older guesthouses even when hotels and larger restaurants accept cards.",
+    "lang": "Uzbek is the main language, Russian is widely understood in tourism, and English is increasingly common with hotels, guides, and ticketed heritage sites.",
+    "tz": "Uzbekistan Time (UTC+5)",
+    "visa": "British citizens can visit Uzbekistan visa-free for up to 30 days, and GOV.UK says your passport should be valid for at least 3 months after arrival. If you stay in hotels they usually handle registration, but independent stays still need to keep registration requirements in view.",
+    "bestFor": [
+      "Silk Road architecture",
+      "UNESCO old-city stays",
+      "Uzbekistan culture itineraries",
+      "Photography-focused trips",
+      "Short heritage stopovers"
+    ],
+    "alerts": [
+      "Summer heat is severe here, and the old city has long exposed stretches with limited shade once the sun is high.",
+      "Many visitors underestimate how much better Khiva feels with one overnight stay instead of a rushed same-day in-and-out transfer.",
+      "Historic paving, steps, and wall-top viewpoints can be awkward in poor footwear, especially when squeezing multiple monuments into one day."
+    ]
+  },
+  "sweet": "April to May and September to October are Khiva's best all-round windows for walking the old city comfortably, while midsummer is clearest but much hotter and more draining on foot.",
+  "months": [
+    { "m": "Jan", "avg": -2, "hi": 2, "lo": -6, "daylight": 9.6, "cld": 48, "rain": 2, "busy": 1, "ac": 1, "fl": 1 },
+    { "m": "Feb", "avg": 0, "hi": 5, "lo": -4, "daylight": 10.6, "cld": 45, "rain": 5, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Mar", "avg": 7, "hi": 12, "lo": 1, "daylight": 12.0, "cld": 43, "rain": 13, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Apr", "avg": 16, "hi": 22, "lo": 9, "daylight": 13.4, "cld": 41, "rain": 10, "busy": 9, "ac": 4, "fl": 3 },
+    { "m": "May", "avg": 22, "hi": 28, "lo": 14, "daylight": 14.5, "cld": 28, "rain": 8, "busy": 10, "ac": 5, "fl": 3 },
+    { "m": "Jun", "avg": 27, "hi": 34, "lo": 19, "daylight": 15.1, "cld": 10, "rain": 2, "busy": 6, "ac": 3, "fl": 3 },
+    { "m": "Jul", "avg": 29, "hi": 36, "lo": 21, "daylight": 14.8, "cld": 4, "rain": 0, "busy": 3, "ac": 2, "fl": 4 },
+    { "m": "Aug", "avg": 26, "hi": 33, "lo": 18, "daylight": 13.8, "cld": 3, "rain": 0, "busy": 3, "ac": 2, "fl": 4 },
+    { "m": "Sep", "avg": 19, "hi": 27, "lo": 12, "daylight": 12.4, "cld": 10, "rain": 2, "busy": 8, "ac": 4, "fl": 3 },
+    { "m": "Oct", "avg": 12, "hi": 19, "lo": 5, "daylight": 11.1, "cld": 27, "rain": 5, "busy": 10, "ac": 5, "fl": 2 },
+    { "m": "Nov", "avg": 5, "hi": 10, "lo": -1, "daylight": 9.8, "cld": 39, "rain": 5, "busy": 5, "ac": 2, "fl": 2 },
+    { "m": "Dec", "avg": 0, "hi": 4, "lo": -4, "daylight": 9.2, "cld": 44, "rain": 5, "busy": 2, "ac": 1, "fl": 1 }
+  ]
+}

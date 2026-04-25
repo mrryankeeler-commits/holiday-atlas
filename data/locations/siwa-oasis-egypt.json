@@ -1,0 +1,263 @@
+{
+  "id": "siwa-oasis-egypt",
+  "source": {
+    "climateVerified": true,
+    "climate": [
+      {
+        "name": "Weather Atlas",
+        "url": "https://weatherspark.com/y/21333/Average-Weather-in-Siwa-Oasis-Egypt-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    },
+    "climateVerifiedOn": "2026-04-25"
+  },
+  "city": "Siwa",
+  "country": "Egypt",
+  "region": "Matrouh Governorate, Western Desert",
+  "desc": "Siwa Oasis is one of Egypt's remotest inhabited settlements, a cluster of salt-palm villages 50 km west of Libya in the Western Desert where Siwan identity, language, and architecture remain distinct from the Nile-based Egypt most travelers encounter. The oasis is surrounded by sand dunes, salt lakes, and ancient ruins; life moves at a deliberately slow rhythm, and tourist infrastructure is deliberately minimal. Siwa works as a complete escape—from crowds, from digital noise, from the heat-and-hurry rhythm of Cairo and Luxor. The trade-off is accessibility; reaching Siwa requires advance planning and patience.",
+  "hls": [
+    "Siwa feels like an island in the desert, with its own language, customs, and architectural style distinct from mainstream Egypt.",
+    "The dunes surrounding the oasis create a stark desert backdrop; dune trekking, star-gazing, and sunrise/sunset experiences are the main outdoor activities.",
+    "Shali, the old mudbrick settlement atop a hill in the center of town, is crumbling but still inhabited and offers panoramic oasis views.",
+    "Underground salt lakes (Gaet el-Mouweis, El-Zeitoun) provide a unique swimming experience in warm mineral water amid palm groves.",
+    "The journey to Siwa (7–8 hours from Marsa Matruh or 10+ from Cairo) is part of the destination; the isolation is intentional and essential to the Siwan experience.",
+    "October to April is the only viable visiting season; summer heat exceeds 45°C and tourism effectively ceases."
+  ],
+  "todo": [
+    {
+      "name": "Shali old town exploration",
+      "cat": "Heritage",
+      "desc": "Walk the narrow streets and multiple levels of the ancient mudbrick settlement; sunrise or sunset visits avoid the heat and offer the best light."
+    },
+    {
+      "name": "Salt lake swimming (Gaet el-Mouweis or El-Zeitoun)",
+      "cat": "Wellness",
+      "desc": "Float effortlessly in warm mineral water surrounded by date palms; the buoyancy and mineral content create a therapeutic, almost surreal experience."
+    },
+    {
+      "name": "Dune trekking and star-gazing",
+      "cat": "Desert",
+      "desc": "Book a desert guide for sunset/sunrise dune walks and full-night star-gazing; Siwa's distance from light pollution makes it one of Egypt's best locations for astronomy."
+    },
+    {
+      "name": "Temple of Amun (oracle temple) visit",
+      "cat": "Ancient sites",
+      "desc": "Explore Siwa's Pharaonic heritage at this temple dedicated to the sun god; the site is manageable and less crowded than Luxor."
+    },
+    {
+      "name": "Date harvest and local hospitality",
+      "cat": "Food",
+      "desc": "Time a visit (Sept–Oct) for date harvest season; stay in a family-run guesthouse and participate in local food traditions."
+    },
+    {
+      "name": "Cycling through palm groves",
+      "cat": "Nature",
+      "desc": "Rent a bicycle and explore the palm-lined paths connecting oasis settlements; early morning rides are cooler and reveal local village life."
+    },
+    {
+      "name": "Souq browsing and local crafts",
+      "cat": "Shopping",
+      "desc": "The main market sells Siwan handwoven baskets, pottery, and jewelry; prices are low and haggling is expected."
+    },
+    {
+      "name": "Sunset from Temple of Ageeba ridge",
+      "cat": "Viewpoint",
+      "desc": "Climb to this remote temple ruin for panoramic oasis and dune views at golden hour; the journey through desert sand is part of the reward."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 1,
+      "spd": "1-5 Mbps",
+      "note": "Internet is extremely limited in Siwa; satellite connections are slow and unreliable. Expect disconnection and plan accordingly. Some guesthouses have very basic WiFi, but it often fails."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "No airport serves Siwa directly. Fly to Cairo or Alexandria, then overland south/west to Marsa Matruh (8 hours) or drive directly to Siwa (10–12 hours from Cairo). The journey is the commitment; no quick transfer exists. Some travelers add Siwa to a broader Egypt itinerary or make it a standalone desert expedition.",
+    "airports": [
+      {
+        "name": "Cairo International Airport",
+        "code": "CAI",
+        "km": 500,
+        "dgw": false
+      },
+      {
+        "name": "Alexandria International Airport",
+        "code": "HBE",
+        "km": 350,
+        "dgw": false
+      }
+    ],
+    "currency": "Egyptian pound (EGP); ATMs in Siwa are unreliable or absent. Bring all the cash you need from Marsa Matruh or Cairo; credit cards are not accepted in Siwa.",
+    "lang": "Siwan (a Berber dialect distinct from Arabic) is spoken locally; many Siwans understand Arabic but prefer Siwan. English is almost nonexistent. A local guide or phrasebook is essential.",
+    "tz": "UTC+2 (no daylight saving)",
+    "visa": "British citizens need an Egyptian visa obtained before travel (tourist visa available on arrival at some ports, but pre-arranged is safer). Passport must be valid for 6 months.",
+    "bestFor": [
+      "Desert isolation retreats",
+      "Salt lake bathing",
+      "Dune trekking",
+      "Minimal-tourism experiences",
+      "Astronomy and stargazing",
+      "Ancient Egyptian sites"
+    ],
+    "alerts": [
+      "Siwa is extremely remote; medical services are limited to basic care. Any serious illness requires evacuation to Alexandria or Cairo.",
+      "Summer (May–Sept) is too hot for comfortable travel; daytime temperatures exceed 45°C and many guesthouses close.",
+      "Bring more cash than you think necessary; ATMs cannot be relied upon and prices are negotiable rather than fixed."
+    ]
+  },
+  "sweet": "October to April is Siwa's only viable season; October–November (post-summer, date harvest) and March–April (spring blooms, cool mornings) offer the best conditions for dune exploration and comfort.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 10,
+      "hi": 20,
+      "lo": 4,
+      "daylight": 10.0,
+      "cld": 32,
+      "rain": 5,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 12,
+      "hi": 23,
+      "lo": 5,
+      "daylight": 10.7,
+      "cld": 28,
+      "rain": 3,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 16,
+      "hi": 28,
+      "lo": 9,
+      "daylight": 12.1,
+      "cld": 20,
+      "rain": 1,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 21,
+      "hi": 33,
+      "lo": 13,
+      "daylight": 13.5,
+      "cld": 10,
+      "rain": 0,
+      "busy": 8,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 27,
+      "hi": 39,
+      "lo": 18,
+      "daylight": 14.5,
+      "cld": 5,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jun",
+      "avg": 30,
+      "hi": 41,
+      "lo": 21,
+      "daylight": 15.1,
+      "cld": 3,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Jul",
+      "avg": 31,
+      "hi": 42,
+      "lo": 22,
+      "daylight": 14.9,
+      "cld": 2,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Aug",
+      "avg": 30,
+      "hi": 40,
+      "lo": 22,
+      "daylight": 14.2,
+      "cld": 3,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Sep",
+      "avg": 27,
+      "hi": 37,
+      "lo": 19,
+      "daylight": 12.9,
+      "cld": 8,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Oct",
+      "avg": 22,
+      "hi": 33,
+      "lo": 14,
+      "daylight": 11.6,
+      "cld": 15,
+      "rain": 0,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 16,
+      "hi": 27,
+      "lo": 9,
+      "daylight": 10.4,
+      "cld": 24,
+      "rain": 1,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 11,
+      "hi": 21,
+      "lo": 5,
+      "daylight": 9.8,
+      "cld": 31,
+      "rain": 3,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    }
+  ]
+}

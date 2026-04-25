@@ -1,0 +1,141 @@
+{
+  "id": "cuenca-spain",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Cuenca",
+  "country": "Spain",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Jan",
+      "Avg Temp (°C)": "3.9",
+      "Avg High (°C)": "8.9",
+      "Avg Low (°C)": "-0.6",
+      "Daylight (h/day)": "9.7",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Feb",
+      "Avg Temp (°C)": "5",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "10.7",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Mar",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Apr",
+      "Avg Temp (°C)": "10",
+      "Avg High (°C)": "16.1",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "May",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "14.4",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "33",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Jun",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "26.1",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "15",
+      "Cloud Cover (%)": "29",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Jul",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "30",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "13",
+      "Rainfall (mm)": "10.2",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Aug",
+      "Avg Temp (°C)": "22.2",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "13.7",
+      "Cloud Cover (%)": "20",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Sep",
+      "Avg Temp (°C)": "17.8",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "35",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Oct",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Nov",
+      "Avg Temp (°C)": "7.2",
+      "Avg High (°C)": "12.8",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "9.9",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "27.9",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    },
+    {
+      "Location": "Cuenca, Spain",
+      "Month": "Dec",
+      "Avg Temp (°C)": "4.4",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "0",
+      "Daylight (h/day)": "9.4",
+      "Cloud Cover (%)": "52",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/38473/Average-Weather-in-Cuenca-Spain-Year-Round"
+    }
+  ]
+}

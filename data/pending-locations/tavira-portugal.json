@@ -1,0 +1,141 @@
+{
+  "id": "tavira-portugal",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Tavira",
+  "country": "Portugal",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Jan",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "15.6",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "9.9",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Feb",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "8.9",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "40",
+      "Rainfall (mm)": "43.2",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Mar",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "12",
+      "Cloud Cover (%)": "39",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Apr",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "20",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "13.2",
+      "Cloud Cover (%)": "36",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "May",
+      "Avg Temp (°C)": "18.9",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "14.4",
+      "Daylight (h/day)": "14.2",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Jun",
+      "Avg Temp (°C)": "22.2",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "17.8",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "20",
+      "Rainfall (mm)": "5.1",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Jul",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "29.4",
+      "Avg Low (°C)": "20",
+      "Daylight (h/day)": "14.4",
+      "Cloud Cover (%)": "8",
+      "Rainfall (mm)": "0",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Aug",
+      "Avg Temp (°C)": "25",
+      "Avg High (°C)": "28.9",
+      "Avg Low (°C)": "20",
+      "Daylight (h/day)": "13.5",
+      "Cloud Cover (%)": "13",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Sep",
+      "Avg Temp (°C)": "22.8",
+      "Avg High (°C)": "26.7",
+      "Avg Low (°C)": "18.3",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "30",
+      "Rainfall (mm)": "15.2",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Oct",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "15.6",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "55.9",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Nov",
+      "Avg Temp (°C)": "15",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "10.2",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    },
+    {
+      "Location": "Tavira, Portugal",
+      "Month": "Dec",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "9.7",
+      "Cloud Cover (%)": "44",
+      "Rainfall (mm)": "76.2",
+      "Source URL": "https://weatherspark.com/y/32767/Average-Weather-in-Tavira-Portugal-Year-Round"
+    }
+  ]
+}

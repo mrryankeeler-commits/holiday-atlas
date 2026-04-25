@@ -1,0 +1,141 @@
+{
+  "id": "san-carlos-de-bariloche-argentina",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "San Carlos de Bariloche",
+  "country": "Argentina",
+  "region": "",
+  "rows": [
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Jan",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "14.7",
+      "Cloud Cover (%)": "28",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Feb",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "7.2",
+      "Daylight (h/day)": "13.6",
+      "Cloud Cover (%)": "28",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Mar",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "18.3",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "40",
+      "Rainfall (mm)": "30.5",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Apr",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "13.3",
+      "Avg Low (°C)": "2.8",
+      "Daylight (h/day)": "10.9",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "53.3",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "May",
+      "Avg Temp (°C)": "5.0",
+      "Avg High (°C)": "9.4",
+      "Avg Low (°C)": "1.1",
+      "Daylight (h/day)": "9.8",
+      "Cloud Cover (%)": "65",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Jun",
+      "Avg Temp (°C)": "2.8",
+      "Avg High (°C)": "6.7",
+      "Avg Low (°C)": "0.0",
+      "Daylight (h/day)": "9.3",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "121.9",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Jul",
+      "Avg Temp (°C)": "2.2",
+      "Avg High (°C)": "6.1",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "9.6",
+      "Cloud Cover (%)": "59",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Aug",
+      "Avg Temp (°C)": "3.3",
+      "Avg High (°C)": "7.8",
+      "Avg Low (°C)": "-0.6",
+      "Daylight (h/day)": "10.6",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "81.3",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Sep",
+      "Avg Temp (°C)": "5.0",
+      "Avg High (°C)": "10.6",
+      "Avg Low (°C)": "0.6",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "48",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Oct",
+      "Avg Temp (°C)": "7.8",
+      "Avg High (°C)": "13.9",
+      "Avg Low (°C)": "2.2",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "42",
+      "Rainfall (mm)": "35.6",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Nov",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "16.7",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "14.5",
+      "Cloud Cover (%)": "38",
+      "Rainfall (mm)": "25.4",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    },
+    {
+      "Location": "San Carlos de Bariloche, Argentina",
+      "Month": "Dec",
+      "Avg Temp (°C)": "12.8",
+      "Avg High (°C)": "19.4",
+      "Avg Low (°C)": "6.7",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "34",
+      "Rainfall (mm)": "20.3",
+      "Source URL": "https://weatherspark.com/y/25786/Average-Weather-in-San-Carlos-de-Bariloche-Argentina-Year-Round"
+    }
+  ]
+}

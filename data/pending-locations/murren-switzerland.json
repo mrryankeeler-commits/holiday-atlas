@@ -1,0 +1,141 @@
+{
+  "id": "murren-switzerland",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Mürren",
+  "country": "Switzerland",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-7.5",
+      "Avg High (°C)": "-3.1",
+      "Avg Low (°C)": "-11.9",
+      "Daylight (h/day)": "9.0",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "45.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Feb",
+      "Avg Temp (°C)": "-7.4",
+      "Avg High (°C)": "-2.9",
+      "Avg Low (°C)": "-11.9",
+      "Daylight (h/day)": "10.0",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "43.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Mar",
+      "Avg Temp (°C)": "-4.4",
+      "Avg High (°C)": "0.0",
+      "Avg Low (°C)": "-8.8",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "60",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Apr",
+      "Avg Temp (°C)": "-0.2",
+      "Avg High (°C)": "3.8",
+      "Avg Low (°C)": "-4.3",
+      "Daylight (h/day)": "13.1",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "70.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "May",
+      "Avg Temp (°C)": "2.8",
+      "Avg High (°C)": "6.8",
+      "Avg Low (°C)": "-1.2",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "111.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Jun",
+      "Avg Temp (°C)": "8.0",
+      "Avg High (°C)": "12.5",
+      "Avg Low (°C)": "3.5",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "116.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Jul",
+      "Avg Temp (°C)": "10.5",
+      "Avg High (°C)": "15.3",
+      "Avg Low (°C)": "5.7",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "109.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Aug",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "15.4",
+      "Avg Low (°C)": "5.7",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "113.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Sep",
+      "Avg Temp (°C)": "7.0",
+      "Avg High (°C)": "11.3",
+      "Avg Low (°C)": "2.6",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "54.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Oct",
+      "Avg Temp (°C)": "2.5",
+      "Avg High (°C)": "6.6",
+      "Avg Low (°C)": "-1.5",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "57.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Nov",
+      "Avg Temp (°C)": "-2.2",
+      "Avg High (°C)": "1.4",
+      "Avg Low (°C)": "-5.9",
+      "Daylight (h/day)": "9.0",
+      "Cloud Cover (%)": "54",
+      "Rainfall (mm)": "60.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    },
+    {
+      "Location": "Mürren, Switzerland",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-6.2",
+      "Avg High (°C)": "-1.7",
+      "Avg Low (°C)": "-10.8",
+      "Daylight (h/day)": "8.1",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "69.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/murren-climate"
+    }
+  ]
+}

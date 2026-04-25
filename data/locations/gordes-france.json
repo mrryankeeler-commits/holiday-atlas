@@ -1,0 +1,260 @@
+{
+  "id": "gordes-france",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/51627/Average-Weather-in-Gordes-France-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Gordes",
+  "country": "France",
+  "region": "Luberon, Vaucluse, Provence",
+  "desc": "Gordes is one of Provence's most polished hill-village stays: honey-stone lanes, broad Luberon views, the nearby lavender-and-stone iconography of Sénanque, and a hotel-and-restaurant scene that skews more romantic and design-conscious than rustic. It suits travelers who want a beautiful base for drives and slow lunches rather than a big list of urban sights.",
+  "hls": [
+    "Gordes is one of the strongest postcard villages in Provence, but it still works best as a base rather than a quick photo stop.",
+    "The village, Sénanque Abbey, and the Village des Bories give the destination more range than a single panoramic viewpoint suggests.",
+    "This is classic Luberon territory, so the appeal is as much about the surrounding drives, stone hamlets, and market rhythm as the village itself.",
+    "Lavender-season demand is real here, and the difference between shoulder-season calm and midsummer pressure is noticeable.",
+    "Gordes feels more upscale than many Provençal villages, especially in hotels, dining, and summer pricing.",
+    "Late May, June, and September usually give the best balance of scenery, daylight, and manageable crowd levels."
+  ],
+  "todo": [
+    {
+      "name": "Village lane and viewpoint walk",
+      "cat": "Old village",
+      "desc": "Take time to wander the calades and lookouts, because Gordes is really about the stone setting and Luberon panorama."
+    },
+    {
+      "name": "Abbaye de Sénanque",
+      "cat": "Monastery",
+      "desc": "Visit the abbey just outside town to see the monastic side of Gordes' landscape, especially if lavender season is part of the trip."
+    },
+    {
+      "name": "Village des Bories",
+      "cat": "Heritage site",
+      "desc": "Add the dry-stone settlement so Gordes feels grounded in local rural history rather than only polished village aesthetics."
+    },
+    {
+      "name": "Market-and-cafe morning",
+      "cat": "Local life",
+      "desc": "Use one slower morning for the center at village pace, when Gordes feels more like a place to stay than a coach stop."
+    },
+    {
+      "name": "Luberon scenic drive",
+      "cat": "Road trip",
+      "desc": "Keep half a day for nearby villages and viewpoints, because Gordes is strongest as part of a wider Luberon circuit."
+    },
+    {
+      "name": "Golden-hour terrace dinner",
+      "cat": "Food",
+      "desc": "Save one evening for a view-led dinner, since the destination's appeal is heavily tied to atmosphere, light, and setting."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "25-80 Mbps",
+      "note": "Usually good in upscale hotels and renovated rentals, but rural villas and thick-stone properties can still be less consistent than the headline rate suggests."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Gordes has no airport. Most visitors use Marseille Provence, which currently has Gatwick nonstops, then continue by rental car or transfer into the Luberon; Avignon is closer on the map but far less useful for regular UK access. Keep destination-level nonstop flags false because the direct service is only to the gateway airport.",
+    "airports": [
+      {
+        "name": "Marseille Provence Airport",
+        "code": "MRS",
+        "km": 75,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      },
+      {
+        "name": "Avignon Provence Airport",
+        "code": "AVN",
+        "km": 35,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "French is the default; English is common in hotels, restaurants, and tourism-facing businesses, but less so for smaller village errands.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "France follows Schengen rules, so UK travellers should check passport validity and the standard 90-in-180-day limit before travel.",
+    "bestFor": [
+      "Provence hill villages",
+      "Lavender-season trips",
+      "Romantic short breaks",
+      "Design-led countryside stays",
+      "Luberon driving itineraries"
+    ],
+    "alerts": [
+      "June and July bring serious daytime crowding around viewpoints, Sénanque, and parking.",
+      "A car is the most practical way to use Gordes well, especially if you are staying outside the core village.",
+      "Summer prices skew high here even by Provence standards, particularly for pool hotels and view properties."
+    ]
+  },
+  "sweet": "Late May, June, and September are usually Gordes' best all-round periods for light, scenery, and village atmosphere without the hardest midsummer congestion.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 9,
+      "lo": 0,
+      "daylight": 9.3,
+      "cld": 45,
+      "rain": 38,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 5,
+      "hi": 11,
+      "lo": 1,
+      "daylight": 10.5,
+      "cld": 42,
+      "rain": 33,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 8,
+      "hi": 14,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 43,
+      "rain": 30,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 12,
+      "hi": 17,
+      "lo": 6,
+      "daylight": 13.5,
+      "cld": 44,
+      "rain": 43,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 16,
+      "hi": 22,
+      "lo": 10,
+      "daylight": 14.8,
+      "cld": 45,
+      "rain": 43,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 20,
+      "hi": 26,
+      "lo": 14,
+      "daylight": 15.4,
+      "cld": 34,
+      "rain": 30,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 23,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 15.1,
+      "cld": 21,
+      "rain": 18,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 22,
+      "hi": 29,
+      "lo": 16,
+      "daylight": 13.9,
+      "cld": 25,
+      "rain": 28,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 12.5,
+      "cld": 35,
+      "rain": 56,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 19,
+      "lo": 9,
+      "daylight": 10.9,
+      "cld": 46,
+      "rain": 69,
+      "busy": 5,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 13,
+      "lo": 4,
+      "daylight": 9.6,
+      "cld": 46,
+      "rain": 64,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 9,
+      "lo": 1,
+      "daylight": 9.0,
+      "cld": 44,
+      "rain": 41,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

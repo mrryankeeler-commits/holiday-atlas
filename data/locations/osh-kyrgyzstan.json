@@ -1,0 +1,252 @@
+{
+  "id": "osh-kyrgyzstan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/107431/Average-Weather-in-Osh-Kyrgyzstan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Osh",
+  "country": "Kyrgyzstan",
+  "region": "Fergana Valley, southern Kyrgyzstan",
+  "desc": "Osh is one of Central Asia's oldest cities, but it works best as a living southern crossroads rather than a polished museum piece. The draw is the mix of bazaar life, Silk Road identity, and the sacred mountain rising right out of the city, making it a strong stop for travelers who want regional character and overland-energy instead of a capital-city gloss.",
+  "hls": [
+    "Sulayman-Too gives Osh an instantly recognizable sacred-landscape anchor inside the city itself",
+    "The bazaar and riverside trade atmosphere still make Osh feel like a real crossroads rather than a staged heritage zone",
+    "Spring and early autumn are usually the best comfort windows before the hottest summer days",
+    "Osh is more compelling for culture, transit logic, and local life than for big-ticket urban sightseeing density",
+    "It fits naturally into broader Kyrgyzstan, Uzbekistan, or overland Fergana itineraries",
+    "The city feels notably different from Bishkek in pace, architecture, and cultural mix"
+  ],
+  "todo": [
+    {
+      "name": "Sulayman-Too climb and museum",
+      "cat": "UNESCO site",
+      "desc": "Give the sacred mountain real time, because it is the clearest reason Osh feels unlike any other city in the country."
+    },
+    {
+      "name": "Jayma Bazaar walk",
+      "cat": "Market",
+      "desc": "Use the bazaar for everyday trade atmosphere and a stronger read on Osh than you get from monuments alone."
+    },
+    {
+      "name": "Old-core and riverfront wander",
+      "cat": "City walk",
+      "desc": "Keep one slower block for the city's informal rhythm, bridges, and street life rather than only ticking off named sights."
+    },
+    {
+      "name": "Regional food stop",
+      "cat": "Food",
+      "desc": "Make room for southern Kyrgyz and Uzbek-influenced cooking, which is part of the city's identity."
+    },
+    {
+      "name": "Sunset from the mountain edge",
+      "cat": "Viewpoint",
+      "desc": "Low light over the valley and city is when Osh's geography makes the most sense."
+    },
+    {
+      "name": "Extra buffer for onward travel",
+      "cat": "Trip planning",
+      "desc": "If Osh is a transit point to other valleys or borders, keep your schedule loose enough for transport shifts and slower station days."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-60 Mbps",
+      "note": "Usually workable in central hotels and newer cafes, though consistency drops outside the main center and on busier local networks."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Osh has its own airport close to town, but there is no realistic destination-level nonstop from the repo's London airports. Most trips connect into Bishkek, Almaty, Istanbul, or another regional hub before the final sector, and midsummer plus holiday periods usually bring the sharpest fare pressure on already connection-heavy routes.",
+    "airports": [
+      {
+        "name": "Osh International Airport",
+        "code": "OSS",
+        "km": 11,
+        "dgw": false
+      },
+      {
+        "name": "Manas International Airport",
+        "code": "FRU",
+        "km": 305,
+        "dgw": true
+      }
+    ],
+    "currency": "Kyrgyzstani som (KGS)",
+    "lang": "Kyrgyz and Russian are widely used, with Uzbek also common in the south; English is limited outside tourism-facing stays and guides.",
+    "tz": "KGT (UTC+6) year-round",
+    "visa": "Kyrgyzstan's short-stay rules depend on nationality and length of stay, so confirm current entry and registration requirements before travel.",
+    "bestFor": [
+      "Silk Road-flavored city stops",
+      "Market-led cultural travel",
+      "Southern Kyrgyzstan overland routes",
+      "Budget-to-midrange Central Asia trips",
+      "Shoulder-season city breaks"
+    ],
+    "alerts": [
+      "High summer can feel hotter and harsher on foot than the raw averages suggest, especially around exposed market streets and the mountain climb.",
+      "English support is thinner than in Bishkek, so transport and accommodation logistics reward a little more preparation.",
+      "If you are using Osh as a border or onward-travel hub, schedule slack matters more than it would on a simple city-only break."
+    ]
+  },
+  "sweet": "May to June and September are usually Osh's best all-round windows for bazaar wandering, the sacred mountain, and manageable heat, while July and August are drier but noticeably hotter.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -2,
+      "hi": 2,
+      "lo": -5,
+      "daylight": 9.7,
+      "cld": 64,
+      "rain": 2,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 4,
+      "lo": -3,
+      "daylight": 10.7,
+      "cld": 67,
+      "rain": 8,
+      "busy": 1,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 11,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 66,
+      "rain": 18,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 14,
+      "hi": 19,
+      "lo": 8,
+      "daylight": 13.3,
+      "cld": 58,
+      "rain": 23,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 18,
+      "hi": 24,
+      "lo": 13,
+      "daylight": 14.5,
+      "cld": 46,
+      "rain": 18,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 23,
+      "hi": 29,
+      "lo": 17,
+      "daylight": 15.0,
+      "cld": 23,
+      "rain": 10,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 25,
+      "hi": 32,
+      "lo": 18,
+      "daylight": 14.7,
+      "cld": 9,
+      "rain": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 24,
+      "hi": 30,
+      "lo": 17,
+      "daylight": 13.7,
+      "cld": 6,
+      "rain": 2,
+      "busy": 7,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 19,
+      "hi": 26,
+      "lo": 13,
+      "daylight": 12.4,
+      "cld": 14,
+      "rain": 2,
+      "busy": 10,
+      "ac": 5,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 18,
+      "lo": 7,
+      "daylight": 11.1,
+      "cld": 38,
+      "rain": 13,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 6,
+      "hi": 11,
+      "lo": 2,
+      "daylight": 9.9,
+      "cld": 55,
+      "rain": 15,
+      "busy": 2,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 0,
+      "hi": 4,
+      "lo": -3,
+      "daylight": 9.3,
+      "cld": 60,
+      "rain": 8,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    }
+  ]
+}

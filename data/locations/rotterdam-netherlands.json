@@ -1,0 +1,250 @@
+{
+  "id": "rotterdam-netherlands",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/51258/Average-Weather-in-Rotterdam-Netherlands-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "region": "South Holland, Nieuwe Maas waterfront",
+  "desc": "Rotterdam is the Netherlands city break for travelers who care more about contemporary design, waterfront scale, and urban reinvention than canal-house prettiness. It feels sharper, more architectural, and more openly modern than Amsterdam, with a skyline-and-river identity that makes it one of the easiest short breaks in northwestern Europe to give a distinct visual character.",
+  "hls": [
+    "Rotterdam works best when you lean into its architecture and riverfront personality rather than expecting a second Amsterdam.",
+    "The Erasmus Bridge, Cube Houses, and Markthal make the city unusually legible through a compact set of modern icons.",
+    "This is one of Europe's best easy short breaks for travelers who like design, skyline views, and big-station urban energy.",
+    "The center feels modern because the city rebuilt differently after wartime destruction, and that difference is the whole point.",
+    "Rotterdam's scale stays manageable for a 2-3 night trip, especially if you are happy mixing ferries, trams, and long waterfront walks.",
+    "Late spring and summer bring the city's most open, outdoorsy feel, but shoulder months still work well for architecture-first trips."
+  ],
+  "todo": [
+    {
+      "name": "Erasmus Bridge and Kop van Zuid walk",
+      "cat": "Architecture",
+      "desc": "Use the bridge as the city's central visual anchor and a way to understand how north and south Rotterdam connect."
+    },
+    {
+      "name": "Markthal and Blaak area",
+      "cat": "Food and design",
+      "desc": "Give Markthal proper time because it combines one of Rotterdam's best-known buildings with an easy food stop."
+    },
+    {
+      "name": "Cube Houses exterior and Kijk-Kubus area",
+      "cat": "Design icon",
+      "desc": "See the Cube Houses in context around Blaak so they register as part of Rotterdam's broader architectural experiment."
+    },
+    {
+      "name": "Harbour or river cruise block",
+      "cat": "Waterfront",
+      "desc": "Add one water-based segment if you want the port-city scale to feel real rather than abstract."
+    },
+    {
+      "name": "Witte de Withstraat or city-center evening",
+      "cat": "Nightlife",
+      "desc": "Use one evening for bars, galleries, or restaurants so the trip is not only walking between icons."
+    },
+    {
+      "name": "Station-to-river architecture route",
+      "cat": "Urban walk",
+      "desc": "Link the central station, modern core, and riverfront on foot if design is the reason you came."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "60-220 Mbps",
+      "note": "Usually very reliable in hotels, apartments, and cafes, making Rotterdam an easy city for light remote work or hybrid short stays."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": true
+    },
+    "fltNote": "Rotterdam The Hague Airport currently has London City nonstops, while Gatwick is not part of the current direct pattern. That makes Rotterdam especially handy for short, businesslike city breaks, though many travelers still compare it with arriving via Amsterdam and onward rail.",
+    "airports": [
+      {
+        "name": "Rotterdam The Hague Airport",
+        "code": "RTM",
+        "km": 8,
+        "dgw": false,
+        "directFrom": {
+          "LGW": false,
+          "LCY": true
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Dutch is the main language; English is widely spoken and unusually frictionless for visitors.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "The Netherlands follows Schengen rules, so UK travellers should check passport validity and the standard 90-in-180-day limit before travel.",
+    "bestFor": [
+      "Modern architecture breaks",
+      "Design-led weekends",
+      "Waterfront city stays",
+      "Short LCY getaways",
+      "Second-city Netherlands trips"
+    ],
+    "alerts": [
+      "Wind and rain can make exposed waterfront walking feel harsher than the temperature suggests.",
+      "If you come expecting canal-house old-world charm, Rotterdam can feel too modern unless that is part of the plan.",
+      "Big event weekends and trade-fair spillover can push central-room rates higher than first-timers expect."
+    ]
+  },
+  "sweet": "May to September is usually Rotterdam's strongest window for riverfront walking, architecture routes, and outdoor city energy, while April and October still work well for design-first weekends.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 3,
+      "hi": 6,
+      "lo": 1,
+      "daylight": 8.4,
+      "cld": 66,
+      "rain": 53,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 7,
+      "lo": 1,
+      "daylight": 10.0,
+      "cld": 62,
+      "rain": 43,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 9,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 59,
+      "rain": 38,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "daylight": 14.0,
+      "cld": 52,
+      "rain": 30,
+      "busy": 6,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 15.7,
+      "cld": 50,
+      "rain": 38,
+      "busy": 8,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 16.6,
+      "cld": 47,
+      "rain": 46,
+      "busy": 9,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 22,
+      "lo": 13,
+      "daylight": 16.1,
+      "cld": 43,
+      "rain": 48,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 22,
+      "lo": 13,
+      "daylight": 14.5,
+      "cld": 44,
+      "rain": 51,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 15,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 12.6,
+      "cld": 50,
+      "rain": 56,
+      "busy": 7,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 10.6,
+      "cld": 57,
+      "rain": 56,
+      "busy": 5,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 7,
+      "hi": 9,
+      "lo": 4,
+      "daylight": 8.8,
+      "cld": 65,
+      "rain": 58,
+      "busy": 4,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 7,
+      "lo": 2,
+      "daylight": 7.8,
+      "cld": 67,
+      "rain": 58,
+      "busy": 4,
+      "ac": 2,
+      "fl": 3
+    }
+  ]
+}

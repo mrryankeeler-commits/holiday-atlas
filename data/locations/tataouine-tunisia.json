@@ -1,0 +1,120 @@
+{
+  "id": "tataouine-tunisia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-25",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/65616/Average-Weather-in-Tataouine-Tunisia-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Tataouine",
+  "country": "Tunisia",
+  "region": "Tataouine Governorate, southeastern Tunisia",
+  "desc": "Tataouine is a desert-edge gateway rather than a polished resort town, valued for its ksour granaries, Berber hill villages, and big-sky road-trip access across southeastern Tunisia. It suits travelers who want architecture, arid landscapes, and a strong sense of regional identity more than nightlife or beach comfort.",
+  "hls": [
+    "The real draw is the wider Tataouine region: ksour, ridge villages, and desert-margin scenery rather than the town center alone",
+    "Chenini, Douiret, and the old granary complexes give the area a visual identity unlike Tunisia's coast-first destinations",
+    "Spring and autumn are clearly the easiest seasons for long driving days and exposed village walks",
+    "The destination works best with a car or driver because the best sights are spread out across a dry, lightly populated region",
+    "Star Wars associations exist, but the place is stronger when approached through real Amazigh and caravan-route history",
+    "This is a road-trip and landscape destination, not a lazy hotel-base break"
+  ],
+  "todo": [
+    {
+      "name": "Chenini hill village",
+      "cat": "Heritage landscape",
+      "desc": "Treat Chenini as a slow climb-and-look destination because the layered village setting matters as much as any single viewpoint."
+    },
+    {
+      "name": "Ksar Ouled Soltane",
+      "cat": "Architecture",
+      "desc": "Use one of the best-preserved granary compounds to understand why the region's built heritage is so distinctive."
+    },
+    {
+      "name": "Douiret old village",
+      "cat": "Historic settlement",
+      "desc": "Pair Douiret with Chenini so you see more than one version of the region's ridge-settlement story."
+    },
+    {
+      "name": "Tataouine market and town food stop",
+      "cat": "Local life",
+      "desc": "Keep one town block for produce, bread, and everyday rhythm so the trip is not only an out-of-town photo circuit."
+    },
+    {
+      "name": "Ksar Hallouf or remote ksour loop",
+      "cat": "Road trip",
+      "desc": "Build in a longer drive if you want the region to feel expansive rather than just a couple of headline villages."
+    },
+    {
+      "name": "Sunrise or late-afternoon desert-edge drive",
+      "cat": "Scenic timing",
+      "desc": "Plan the biggest landscape block at the ends of the day because light and heat both improve dramatically outside midday."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "10-35 Mbps",
+      "note": "Fine for basic planning in town hotels and cafes, but not something to count on once you are out in village stays, desert-edge routes, or more remote guesthouses."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Tataouine has no practical commercial airport, so most travelers arrive via Djerba-Zarzis and continue by road for roughly 2-3 hours, with Tunis as the longer but broader-flight fallback. There is no destination-level nonstop from Gatwick or London City, and the destination is much more about spring and autumn road-trip conditions than about chasing a direct-flight badge.",
+    "airports": [
+      {
+        "name": "Djerba-Zarzis International Airport",
+        "code": "DJE",
+        "km": 145,
+        "dgw": false
+      },
+      {
+        "name": "Tunis-Carthage International Airport",
+        "code": "TUN",
+        "km": 530,
+        "dgw": false
+      }
+    ],
+    "currency": "Tunisian dinar (TND); cash is useful for smaller cafes, drivers, village stops, and fuel-station purchases outside the main coastal corridors.",
+    "lang": "Arabic is the main language, French is very useful, and English is patchier than in Tunisia's main beach and capital-region tourism zones.",
+    "tz": "CET (UTC+1)",
+    "visa": "British citizens can visit Tunisia visa-free for up to 90 days, and GOV.UK says your passport should be valid for the duration of your stay. Border officials can ask for onward travel and accommodation details, so keep the road-trip logistics documented rather than assuming a loose arrival will be enough.",
+    "bestFor": [
+      "Ksour road trips",
+      "Desert-edge scenery",
+      "Amazigh heritage routes",
+      "Photography-focused drives",
+      "Offbeat Tunisia itineraries"
+    ],
+    "alerts": [
+      "Heat rises fast outside spring and autumn, and even short exposed village walks can feel much harder than the averages suggest.",
+      "You will get more from the region with your own car or a driver because public transport is not well set up for multi-site sightseeing days.",
+      "Roads can feel very quiet after dark, so front-load the scenic driving and avoid leaving the longest transfer until late evening."
+    ]
+  },
+  "sweet": "March to April and October to November are Tataouine's best all-round windows for ksour loops, hill villages, and long scenic drives without the fiercest desert-edge heat.",
+  "months": [
+    { "m": "Jan", "avg": 9, "hi": 16, "lo": 4, "daylight": 10.3, "cld": 25, "rain": 13, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Feb", "avg": 11, "hi": 18, "lo": 6, "daylight": 11.0, "cld": 25, "rain": 13, "busy": 3, "ac": 1, "fl": 1 },
+    { "m": "Mar", "avg": 14, "hi": 22, "lo": 8, "daylight": 12.0, "cld": 26, "rain": 15, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Apr", "avg": 18, "hi": 26, "lo": 12, "daylight": 13.0, "cld": 28, "rain": 10, "busy": 9, "ac": 4, "fl": 3 },
+    { "m": "May", "avg": 23, "hi": 30, "lo": 16, "daylight": 13.9, "cld": 30, "rain": 8, "busy": 10, "ac": 5, "fl": 3 },
+    { "m": "Jun", "avg": 27, "hi": 34, "lo": 19, "daylight": 14.3, "cld": 15, "rain": 2, "busy": 6, "ac": 3, "fl": 3 },
+    { "m": "Jul", "avg": 29, "hi": 37, "lo": 21, "daylight": 14.1, "cld": 2, "rain": 0, "busy": 2, "ac": 1, "fl": 4 },
+    { "m": "Aug", "avg": 29, "hi": 37, "lo": 22, "daylight": 13.3, "cld": 4, "rain": 0, "busy": 2, "ac": 1, "fl": 5 },
+    { "m": "Sep", "avg": 26, "hi": 33, "lo": 19, "daylight": 12.3, "cld": 20, "rain": 8, "busy": 4, "ac": 2, "fl": 3 },
+    { "m": "Oct", "avg": 22, "hi": 28, "lo": 15, "daylight": 11.3, "cld": 33, "rain": 15, "busy": 8, "ac": 4, "fl": 3 },
+    { "m": "Nov", "avg": 15, "hi": 22, "lo": 9, "daylight": 10.5, "cld": 32, "rain": 15, "busy": 7, "ac": 3, "fl": 2 },
+    { "m": "Dec", "avg": 11, "hi": 17, "lo": 6, "daylight": 10.0, "cld": 28, "rain": 15, "busy": 4, "ac": 2, "fl": 2 }
+  ]
+}

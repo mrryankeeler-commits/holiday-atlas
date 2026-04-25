@@ -1,0 +1,263 @@
+{
+  "id": "lijiang-china",
+  "source": {
+    "climateVerified": true,
+    "climate": [
+      {
+        "name": "Weather Atlas",
+        "url": "https://weatherspark.com/y/58439/Average-Weather-in-Lijiang-China-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    },
+    "climateVerifiedOn": "2026-04-25"
+  },
+  "city": "Lijiang",
+  "country": "China",
+  "region": "Yunnan, Diqing",
+  "desc": "Lijiang is a UNESCO-listed Old Town in Yunnan's upland Himalayan fringe where 800 years of Naxi culture, Chinese imperial architecture, and patchwork hillside farms create a multi-layered heritage destination. The car-free town center preserves narrow stone streets, wooden bridge networks, and canal-threaded plazas that feel both manicured and lived-in. Lijiang serves as the gateway to Tiger Leaping Gorge and the alpine trails of Jade Dragon Mountain, making it possible to move between cultural immersion and high-altitude trekking within an afternoon.",
+  "hls": [
+    "The Old Town's architecture and social fabric are protected by UNESCO status, but the place still functions as a market town rather than a pure museum.",
+    "Lijiang is the most accessible entry to Yunnan's Himalayan foothill landscapes—steep valleys, alpine meadows, and ethnic-minority villages radiate outward.",
+    "Tiger Leaping Gorge, one of the world's deepest canyons, is a 2–3 day trek from Lijiang and rewards effort with dramatic geology and sparse tourist presence.",
+    "Jade Dragon Mountain (Yulong) rises above town as both a spiritual symbol and a trekking destination; cable cars and high-altitude day walks offer options for various fitness levels.",
+    "March to May and September to November offer stable weather, wildflower blooms (spring) and clear mountain views (autumn) without the summer tourist peak.",
+    "Lijiang's elevation (2,400 m) means temperatures are mild year-round, but monsoon rains (June–Aug) and winter snow can disrupt trail access."
+  ],
+  "todo": [
+    {
+      "name": "Old Town walking tour and Naxi history",
+      "cat": "Heritage",
+      "desc": "Spend a full morning or evening in the narrow lanes, visiting Mu Family Mansion and the galleries that explain Naxi culture and Lijiang's role as a Silk Road trading post."
+    },
+    {
+      "name": "Tiger Leaping Gorge 2–3 day trek",
+      "cat": "Hiking",
+      "desc": "The gorge is one of China's most dramatic canyons; the high-trail route above the Jinsha River offers exposure, altitude, and sparse tourist pressure over 2–3 days."
+    },
+    {
+      "name": "Jade Dragon Mountain day hike or cable car",
+      "cat": "Mountain views",
+      "desc": "Either trek the alpine meadows above 3,000 m or take the cable car to Glacier Park for a faster summit perspective without full hiking commitment."
+    },
+    {
+      "name": "Local market and street food",
+      "cat": "Food",
+      "desc": "Visit Sifang Square or local markets early morning for Naxi bread, yak meat, and wild mushrooms. Street vendors and small restaurants offer food that changes seasonally."
+    },
+    {
+      "name": "Ethnic minority villages and homestays",
+      "cat": "Culture",
+      "desc": "Visit Baisha village (15 km away) or stay in Lugu Lake minority communities (day trip); homestay immersion is more rewarding than day-tripping from town."
+    },
+    {
+      "name": "Photography from Lijiang vantage points",
+      "cat": "Viewpoint",
+      "desc": "Hilltop temples and viewpoints around Lijiang offer iconic Old Town silhouettes, especially golden-hour framing of the town and Jade Dragon backdrop."
+    },
+    {
+      "name": "Lugu Lake (2 days from Lijiang)",
+      "cat": "Lake tourism",
+      "desc": "A high-altitude lake 2 hours away is home to the matrilineal Mosuo people; homestay tourism here is more developed than in some other minority regions."
+    },
+    {
+      "name": "Zhongyi Paving Stone Workshop",
+      "cat": "Craft",
+      "desc": "Learn about Lijiang's traditional stone-paving craft from a working artisan; some workshops offer hands-on sessions."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "10-40 Mbps",
+      "note": "WiFi is reliable in the Old Town guesthouses and cafes, but patchy in outlying villages and mountain homestays."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Lijiang is reachable by domestic flight from Kunming (Yunnan's capital) or by road from Dali. No direct nonstop from Gatwick or London City; fly to a major Chinese hub (Beijing, Shanghai, Chengdu) and transfer domestically. Ground transport (bus/train) from Kunming is also viable and adds landscape time.",
+    "airports": [
+      {
+        "name": "Lijiang Sanyi International Airport",
+        "code": "LJG",
+        "km": 20,
+        "dgw": false
+      },
+      {
+        "name": "Kunming Changshui International Airport",
+        "code": "KMG",
+        "km": 230,
+        "dgw": false
+      }
+    ],
+    "currency": "Chinese yuan (CNY); cash ATMs are available in Lijiang but become less reliable in remote villages. Bring backup cash, and note that some rural areas do not accept cards.",
+    "lang": "Mandarin Chinese; Naxi is spoken locally but not by younger generations. English is inconsistent even in tourist areas; phrasebook or translation app essential.",
+    "tz": "UTC+8 (no daylight saving)",
+    "visa": "British citizens need a Chinese visa (generally tourist L-visa for 30–90 days) arranged before travel. Processing typically takes 5–10 working days.",
+    "bestFor": [
+      "High-altitude trekking",
+      "Himalayan culture",
+      "Ethnic minority experiences",
+      "Alpine photography",
+      "Gorge trekking",
+      "Traditional architecture"
+    ],
+    "alerts": [
+      "Altitude is 2,400 m; allow 1–2 days for acclimatization before strenuous hiking.",
+      "Monsoon rains (June–Aug) can wash out trails and close hiking routes with little notice.",
+      "Winter snow (Nov–Feb) can also disrupt mountain access; check weather and trail reports before booking treks."
+    ]
+  },
+  "sweet": "March to May (spring wildflowers, stable weather) and September to October (clear skies, comfortable temperatures) are Lijiang's dual peaks; each season offers different rewards for trekking and mountain photography.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 5,
+      "hi": 15,
+      "lo": -2,
+      "daylight": 9.7,
+      "cld": 22,
+      "rain": 12,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 6,
+      "hi": 17,
+      "lo": -1,
+      "daylight": 10.9,
+      "cld": 21,
+      "rain": 11,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 22,
+      "lo": 3,
+      "daylight": 12.2,
+      "cld": 20,
+      "rain": 10,
+      "busy": 6,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": 15,
+      "hi": 26,
+      "lo": 7,
+      "daylight": 13.5,
+      "cld": 20,
+      "rain": 48,
+      "busy": 8,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "May",
+      "avg": 19,
+      "hi": 28,
+      "lo": 11,
+      "daylight": 14.5,
+      "cld": 29,
+      "rain": 122,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jun",
+      "avg": 21,
+      "hi": 28,
+      "lo": 14,
+      "daylight": 14.8,
+      "cld": 50,
+      "rain": 190,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 21,
+      "hi": 28,
+      "lo": 14,
+      "daylight": 14.3,
+      "cld": 59,
+      "rain": 227,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 20,
+      "hi": 27,
+      "lo": 14,
+      "daylight": 13.4,
+      "cld": 58,
+      "rain": 181,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 17,
+      "hi": 26,
+      "lo": 11,
+      "daylight": 12.4,
+      "cld": 38,
+      "rain": 101,
+      "busy": 8,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 13,
+      "hi": 23,
+      "lo": 6,
+      "daylight": 11.2,
+      "cld": 15,
+      "rain": 36,
+      "busy": 9,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 20,
+      "lo": 2,
+      "daylight": 10.1,
+      "cld": 16,
+      "rain": 20,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 5,
+      "hi": 16,
+      "lo": -1,
+      "daylight": 9.5,
+      "cld": 21,
+      "rain": 9,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "amsterdam-netherlands",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/51381/Average-Weather-in-Amsterdam-Netherlands-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "North Holland, Randstad",
+  "desc": "Amsterdam is a canal-ring capital that rewards a neighborhood-based trip more than a checklist sprint: world-class museums, handsome merchant houses, waterfront ferries, and easy cycling all sit inside a compact core that can feel magical at dawn and punishingly busy by midday. It works best when you balance the postcard centre with the Jordaan, Amsterdam-Noord or De Pijp instead of spending the whole stay in the Dam Square crush.",
+  "hls": [
+    "UNESCO-listed canal belt",
+    "Rijksmuseum and Museumplein heavyweights",
+    "Jordaan cafe and canal-house atmosphere",
+    "Easy ferry hops to Amsterdam-Noord",
+    "Strong cycling-and-tram city mobility",
+    "High-density food, bar, and design scene",
+    "Fast Schiphol-to-centre access"
+  ],
+  "todo": [
+    {
+      "name": "Canal cruise early in the trip",
+      "cat": "City orientation",
+      "desc": "Use the canal belt from the water to get your bearings before diving into individual neighborhoods on foot."
+    },
+    {
+      "name": "Rijksmuseum",
+      "cat": "Museum",
+      "desc": "Book a timed slot in advance for Dutch masters and a strong overview of national history."
+    },
+    {
+      "name": "Jordaan wander",
+      "cat": "Neighborhood",
+      "desc": "Walk the narrower canals, independent shops, and brown-cafe streets west of the central belt."
+    },
+    {
+      "name": "Museumplein and De Pijp pairing",
+      "cat": "Culture",
+      "desc": "Combine the museum district with a food-and-cafe evening in De Pijp for a fuller city day."
+    },
+    {
+      "name": "Amsterdam-Noord ferry hop",
+      "cat": "Local life",
+      "desc": "Take the free ferry behind Centraal for a looser, more contemporary contrast to the historic centre."
+    },
+    {
+      "name": "Canal belt after dark",
+      "cat": "Atmosphere",
+      "desc": "Save one evening for bridge lights, houseboat reflections, and quieter streets once day-trippers thin out."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "80-220 Mbps",
+      "note": "Strong across hotels, apartments, coworking spaces, and most cafes; mobile coverage is also dependable across the urban core."
+    },
+    "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": true
+    },
+    "fltNote": "Amsterdam itself has current nonstop service from both London Gatwick and London City into Schiphol, so the destination-level direct badges are genuinely true here rather than just gateway proxies. Prices and competition climb hardest around April tulip season, long spring weekends, major summer dates, and big event periods, but Schiphol's sheer frequency still makes Amsterdam one of the easiest short-haul city breaks in the repo.",
+    "airports": [
+      {
+        "name": "Amsterdam Schiphol Airport",
+        "code": "AMS",
+        "km": 18,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": true
+        }
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Dutch is the main language; English is widely spoken across hotels, museums, restaurants, and transport.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Schengen rules apply; UK and Irish travellers should check passport-validity and 90-in-180-day requirements where relevant.",
+    "bestFor": [
+      "First-time European city breaks",
+      "Museum-heavy weekends",
+      "Canal-district atmosphere",
+      "Food-and-neighborhood trips",
+      "Short rail-and-flight combinations"
+    ],
+    "alerts": [
+      "Book Rijksmuseum and other top museums ahead, especially from April through summer weekends.",
+      "Central canal-belt hotels can be noisy and expensive on Fridays, Saturdays, and event dates.",
+      "Bike lanes are fast and busy; step carefully at crossings and avoid stopping in cycle paths for photos.",
+      "King's Day week, tulip season, and high-summer weekends push room rates well above the city's shoulder-season norm."
+    ]
+  },
+  "sweet": "Late April to early June and September are the strongest all-round windows for long daylight, museum-and-canal weather, and fewer extremes than the busiest midsummer dates.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 3,
+      "hi": 6,
+      "lo": 1,
+      "daylight": 8.3,
+      "cld": 67,
+      "rain": 53,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 3,
+      "hi": 6,
+      "lo": 1,
+      "daylight": 10.0,
+      "cld": 63,
+      "rain": 41,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 6,
+      "hi": 9,
+      "lo": 3,
+      "daylight": 12.0,
+      "cld": 60,
+      "rain": 38,
+      "busy": 4,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 13,
+      "lo": 5,
+      "daylight": 14.0,
+      "cld": 52,
+      "rain": 30,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 17,
+      "lo": 9,
+      "daylight": 15.8,
+      "cld": 51,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 19,
+      "lo": 11,
+      "daylight": 16.7,
+      "cld": 48,
+      "rain": 46,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 16.2,
+      "cld": 44,
+      "rain": 51,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 14.6,
+      "cld": 46,
+      "rain": 53,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 15,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 12.6,
+      "cld": 51,
+      "rain": 58,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 11,
+      "hi": 14,
+      "lo": 8,
+      "daylight": 10.5,
+      "cld": 58,
+      "rain": 58,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 7,
+      "hi": 9,
+      "lo": 4,
+      "daylight": 8.7,
+      "cld": 66,
+      "rain": 58,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 7.8,
+      "cld": 67,
+      "rain": 61,
+      "busy": 4,
+      "ac": 3,
+      "fl": 3
+    }
+  ]
+}

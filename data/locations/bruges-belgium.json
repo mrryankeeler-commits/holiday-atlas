@@ -1,0 +1,254 @@
+{
+  "id": "bruges-belgium",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/49983/Average-Weather-in-Brugge-Belgium-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Bruges",
+  "country": "Belgium",
+  "region": "West Flanders, Flemish Region",
+  "desc": "Bruges is one of Europe's most complete medieval city centres, but its beauty comes with a catch: the core can feel overrun by day-trippers by late morning. The city is best when you lean into early starts, canal edges, quieter backstreets, and one well-planned museum or boat ride rather than trying to rush every postcard angle in the busiest hours.",
+  "hls": [
+    "UNESCO-listed medieval centre",
+    "Belfry and Markt skyline views",
+    "Canal boat perspective through the old core",
+    "Rozenhoedkaai and Minnewater atmosphere",
+    "Strong chocolate, beer, and cafe culture",
+    "Compact walkable city break",
+    "Easy rail access from Brussels gateways"
+  ],
+  "todo": [
+    {
+      "name": "Markt and Belfry",
+      "cat": "Heritage",
+      "desc": "Start in the main square, then climb the Belfry if you want the classic skyline overview."
+    },
+    {
+      "name": "Canal boat ride",
+      "cat": "Sightseeing",
+      "desc": "See Bruges from the water for the best medieval facades, bridges, and hidden gardens perspective."
+    },
+    {
+      "name": "Rozenhoedkaai at off-peak hours",
+      "cat": "Photography",
+      "desc": "Visit the city's signature canal viewpoint early or late for the strongest atmosphere and fewer crowds."
+    },
+    {
+      "name": "Groeninge or Memling-focused museum stop",
+      "cat": "Museum",
+      "desc": "Add Flemish art or hospital-history depth so the trip is more than a surface-level old-town walk."
+    },
+    {
+      "name": "Minnewater and Begijnhof loop",
+      "cat": "Walk",
+      "desc": "Use the calmer southern edge of the centre for a quieter contrast to the busiest central lanes."
+    },
+    {
+      "name": "Beer bar or chocolate pause",
+      "cat": "Food & drink",
+      "desc": "Build in one dedicated tasting stop rather than only browsing shop windows between landmarks."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-140 Mbps",
+      "note": "Generally reliable in hotels, cafes, and larger guesthouses, though some historic-building stays still have patchier room-by-room coverage."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Bruges has no airport, so this is a gateway-and-rail destination rather than a true nonstop city badge from the repo's London airports. Brussels Airport is the practical main arrival, followed by a train into Bruges; current FlightsFrom data shows neither LGW-BRU nor LCY-BRU as active nonstop pairs, so route planning is connection-led unless you're using another London airport or arriving overland.",
+    "airports": [
+      {
+        "name": "Brussels Airport",
+        "code": "BRU",
+        "km": 110,
+        "dgw": true
+      },
+      {
+        "name": "Ostend-Bruges Airport",
+        "code": "OST",
+        "km": 32,
+        "dgw": false
+      }
+    ],
+    "currency": "Euro (EUR)",
+    "lang": "Dutch (Flemish) dominates daily use in Bruges; English is common in visitor-facing businesses, and French is also widely understood.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Belgium follows Schengen rules, so short-stay visa-free access depends on nationality and passport validity requirements.",
+    "bestFor": [
+      "Classic European weekends",
+      "Medieval-city atmosphere",
+      "Slow walking itineraries",
+      "Food-and-drink city breaks",
+      "Short Belgium rail combinations"
+    ],
+    "alerts": [
+      "The historic centre gets heavily congested from late morning to mid-afternoon, especially on weekends and cruise-linked day-trip peaks.",
+      "Christmas-period and high-summer weekends can push hotel prices surprisingly high for such a compact city.",
+      "Cobbles are everywhere, so hard-shell wheeled luggage and flimsy footwear are both annoying here.",
+      "Canal boats may involve waits in peak hours because individual visitors cannot reserve standard departures in advance."
+    ]
+  },
+  "sweet": "May to June and September are the best all-round months for canal walks and long daylight, while December works well only if you actively want the festive atmosphere and higher crowding.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 6,
+      "lo": 2,
+      "daylight": 8.5,
+      "cld": 66,
+      "rain": 48,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 4,
+      "hi": 7,
+      "lo": 2,
+      "daylight": 10.1,
+      "cld": 62,
+      "rain": 38,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 7,
+      "hi": 9,
+      "lo": 4,
+      "daylight": 12.0,
+      "cld": 59,
+      "rain": 36,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 12,
+      "lo": 6,
+      "daylight": 13.9,
+      "cld": 53,
+      "rain": 30,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 16,
+      "lo": 9,
+      "daylight": 15.6,
+      "cld": 51,
+      "rain": 41,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 16,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 16.5,
+      "cld": 47,
+      "rain": 46,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 18,
+      "hi": 21,
+      "lo": 14,
+      "daylight": 16.0,
+      "cld": 42,
+      "rain": 48,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 21,
+      "lo": 14,
+      "daylight": 14.5,
+      "cld": 44,
+      "rain": 46,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 16,
+      "hi": 18,
+      "lo": 12,
+      "daylight": 12.6,
+      "cld": 49,
+      "rain": 51,
+      "busy": 7,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 12,
+      "hi": 14,
+      "lo": 9,
+      "daylight": 10.6,
+      "cld": 56,
+      "rain": 53,
+      "busy": 5,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 8,
+      "hi": 10,
+      "lo": 6,
+      "daylight": 8.9,
+      "cld": 64,
+      "rain": 56,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 5,
+      "hi": 7,
+      "lo": 3,
+      "daylight": 8.0,
+      "cld": 67,
+      "rain": 56,
+      "busy": 8,
+      "ac": 5,
+      "fl": 4
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "doha-qatar",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/105083/Average-Weather-in-Doha-Qatar-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Doha",
+  "country": "Qatar",
+  "region": "Doha Municipality, Arabian Gulf coast",
+  "desc": "Doha is a polished Gulf capital where museums, waterfront promenades, souqs, and glossy hotel districts all sit inside a compact urban footprint. It works best as a winter-sun city break or long stopover rather than a summer classic, because the cultural core is strong but the heat from late spring into early autumn can dominate everything except indoor plans.",
+  "hls": [
+    "Souq Waqif and the adjoining old-core atmosphere",
+    "Museum of Islamic Art on the Corniche",
+    "Katara Cultural Village between West Bay and The Pearl",
+    "Easy metro-and-taxi city logistics",
+    "Slick Hamad International stopover access",
+    "Strong luxury-hotel and dining scene",
+    "Best seasonal window from November to March"
+  ],
+  "todo": [
+    {
+      "name": "Souq Waqif evening wander",
+      "cat": "Culture",
+      "desc": "Save the souq for late afternoon into night, when the lanes, cafes, and market stalls feel most alive."
+    },
+    {
+      "name": "Museum of Islamic Art",
+      "cat": "Museum",
+      "desc": "Use the I.M. Pei landmark for both the collection and the skyline-and-Corniche setting around it."
+    },
+    {
+      "name": "Corniche walk",
+      "cat": "City walk",
+      "desc": "Walk the waterfront in the cooler part of the day for skyline views and a sense of Doha's layout."
+    },
+    {
+      "name": "Katara Cultural Village",
+      "cat": "Art & culture",
+      "desc": "Pair galleries, public art, beach edges, and cafe stops in one of Doha's most visitor-friendly districts."
+    },
+    {
+      "name": "National Museum of Qatar",
+      "cat": "Museum",
+      "desc": "Add the dramatic desert-rose building for a broader read on Qatari identity and state-building."
+    },
+    {
+      "name": "One polished rooftop or hotel-bar night",
+      "cat": "Nightlife",
+      "desc": "Doha's licensed hotel scene is the easiest way to sample the city's upscale after-dark side."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "120-320 Mbps",
+      "note": "Very strong in hotels, malls, cafes, airport lounges, and business districts; one of the easier Middle East city bases for reliable remote-work connectivity."
+    },
+    "directGW": true,
+    "directFrom": {
+      "LGW": true,
+      "LCY": false
+    },
+    "fltNote": "Doha itself has current nonstop service from London Gatwick into Hamad International, so the destination-level LGW direct flag is genuinely true, while LCY remains false. The airport is close enough to make short stopovers practical, but the real demand spike comes in the November-March comfort season and during major events, not in the punishing midsummer heat.",
+    "airports": [
+      {
+        "name": "Hamad International Airport",
+        "code": "DOH",
+        "km": 14,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Qatari riyal (QAR)",
+    "lang": "Arabic is the official language; English is widely used across hotels, restaurants, museums, and transport.",
+    "tz": "AST (UTC+3) year-round; no daylight saving time.",
+    "visa": "Qatar uses nationality-based entry rules, with many visitors able to enter visa-free or via simple pre-arrival processes, but passport-specific requirements should still be checked before travel.",
+    "bestFor": [
+      "Winter-sun city breaks",
+      "Luxury stopovers",
+      "Museum-led itineraries",
+      "Gulf first-timers",
+      "Short high-comfort breaks"
+    ],
+    "alerts": [
+      "From roughly May to September, the heat can make daytime walking feel brutal even for experienced hot-weather travellers.",
+      "During Ramadan, opening hours, nightlife rhythm, and dining patterns shift noticeably, so daytime expectations need adjusting.",
+      "Alcohol is limited to licensed venues such as hotels, bars, and certain restaurants rather than everyday street-level options.",
+      "Souq Waqif and top museums are much more enjoyable in evening or early-day slots than in midday sun."
+    ]
+  },
+  "sweet": "November to March is Doha's clear sweet spot, with comfortable temperatures for the Corniche, souqs, and museum-hopping; April and late October can still work, but summer is a specialist choice only.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 18,
+      "hi": 22,
+      "lo": 14,
+      "daylight": 10.8,
+      "cld": 24,
+      "rain": 8,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 19,
+      "hi": 23,
+      "lo": 15,
+      "daylight": 11.3,
+      "cld": 23,
+      "rain": 8,
+      "busy": 9,
+      "ac": 5,
+      "fl": 4
+    },
+    {
+      "m": "Mar",
+      "avg": 22,
+      "hi": 27,
+      "lo": 18,
+      "daylight": 12.0,
+      "cld": 28,
+      "rain": 10,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 27,
+      "hi": 32,
+      "lo": 23,
+      "daylight": 12.8,
+      "cld": 30,
+      "rain": 2,
+      "busy": 5,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 33,
+      "hi": 38,
+      "lo": 27,
+      "daylight": 13.4,
+      "cld": 18,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 35,
+      "hi": 41,
+      "lo": 30,
+      "daylight": 13.7,
+      "cld": 19,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 36,
+      "hi": 41,
+      "lo": 31,
+      "daylight": 13.5,
+      "cld": 43,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Aug",
+      "avg": 36,
+      "hi": 40,
+      "lo": 31,
+      "daylight": 13.0,
+      "cld": 45,
+      "rain": 0,
+      "busy": 1,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Sep",
+      "avg": 33,
+      "hi": 38,
+      "lo": 29,
+      "daylight": 12.3,
+      "cld": 19,
+      "rain": 0,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 30,
+      "hi": 34,
+      "lo": 26,
+      "daylight": 11.5,
+      "cld": 12,
+      "rain": 0,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 25,
+      "hi": 29,
+      "lo": 21,
+      "daylight": 10.9,
+      "cld": 21,
+      "rain": 5,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Dec",
+      "avg": 20,
+      "hi": 24,
+      "lo": 17,
+      "daylight": 10.6,
+      "cld": 26,
+      "rain": 8,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}

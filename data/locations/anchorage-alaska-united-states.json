@@ -1,0 +1,247 @@
+{
+  "id": "anchorage-alaska-united-states",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/252/Average-Weather-in-Anchorage-Alaska-United-States-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Anchorage",
+  "country": "United States",
+  "region": "Southcentral Alaska",
+  "desc": "Anchorage is less about classic city sightseeing and more about having a functional, comfortable Alaska base with mountains, wildlife edges, and transport links all close at hand. It works best as a 2-5 night launch point for Alaska rail trips, Kenai detours, glacier outings, and urban trail time rather than as a standalone metropolis.",
+  "hls": [
+    "Ted Stevens Anchorage as Alaska's main air gateway",
+    "Tony Knowles Coastal Trail and Cook Inlet views",
+    "Chugach Mountains on the city edge",
+    "Museum and Alaska Native culture stops",
+    "Long usable summer daylight",
+    "Easy launch point for Denali, Kenai, and rail extensions"
+  ],
+  "todo": [
+    {
+      "name": "Tony Knowles Coastal Trail ride or walk",
+      "cat": "Outdoors",
+      "desc": "Use the paved waterfront trail for Anchorage's easiest wildlife-and-mountain payoff without leaving town."
+    },
+    {
+      "name": "Anchorage Museum block",
+      "cat": "Culture",
+      "desc": "Ground the trip in Alaska history and contemporary culture before treating the city only as a transport node."
+    },
+    {
+      "name": "Earthquake Park and Kincaid side",
+      "cat": "Scenic",
+      "desc": "Pair Cook Inlet viewpoints with a sense of Anchorage's landscape and the 1964 earthquake story."
+    },
+    {
+      "name": "Downtown and market session",
+      "cat": "Town life",
+      "desc": "Keep one slower block for downtown, local food, and practical trip setup before heading deeper into Alaska."
+    },
+    {
+      "name": "Day trip into Chugach or Turnagain Arm",
+      "cat": "Nature",
+      "desc": "Use Anchorage's position to add a short mountain or coastal day rather than staying entirely in the urban grid."
+    },
+    {
+      "name": "Summer late-light evening",
+      "cat": "Seasonal experience",
+      "desc": "Save one evening for the very long daylight hours, which change the whole feel of summer travel here."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-180 Mbps",
+      "note": "Usually dependable in downtown hotels, chain properties, and modern rentals, though wilderness-heavy day plans still make mobile coverage and weather a bigger practical factor than in a typical U.S. city break."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Anchorage has a major airport, but not nonstop service from the repo's London origins. Current Anchorage guidance points to strong U.S. hub links and there is also a seasonal Frankfurt nonstop, so UK trips are usually routed via Seattle, another U.S. hub, or occasionally Germany. Summer availability is best, but July-August flight and car-hire pressure rises sharply because Anchorage is the main Alaska gateway.",
+    "airports": [
+      {
+        "name": "Ted Stevens Anchorage International Airport",
+        "code": "ANC",
+        "km": 10,
+        "dgw": false
+      }
+    ],
+    "currency": "US dollar (USD)",
+    "lang": "English is the main language",
+    "tz": "Alaska Time (AKST/AKDT, UTC-9/-8)",
+    "visa": "United States entry rules depend on nationality and current ESTA or visa requirements, so check the latest federal guidance before travel.",
+    "bestFor": [
+      "Alaska first-time bases",
+      "Summer long-daylight trips",
+      "Rail and road-trip starts",
+      "Urban-plus-wilderness itineraries"
+    ],
+    "alerts": [
+      "Peak summer rooms, rental cars, and rail seats tighten much earlier than many travellers expect.",
+      "Even in summer, temperatures stay moderate rather than hot and weather can turn quickly around mountain or inlet day trips.",
+      "Wildlife distance rules matter on trails and park edges, especially around moose."
+    ]
+  },
+  "sweet": "Mid-June to August is usually Anchorage's easiest all-round window for daylight, transport coverage, and wider Alaska touring, while late May and early September can work well if you want cooler shoulder conditions and slightly less summer pressure.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -8,
+      "hi": -4,
+      "lo": -11,
+      "daylight": 6.6,
+      "cld": 59,
+      "rain": 10,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": -6,
+      "hi": -2,
+      "lo": -9,
+      "daylight": 9.1,
+      "cld": 56,
+      "rain": 8,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": -3,
+      "hi": 2,
+      "lo": -6,
+      "daylight": 12.0,
+      "cld": 53,
+      "rain": 8,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 3,
+      "hi": 8,
+      "lo": 0,
+      "daylight": 14.9,
+      "cld": 57,
+      "rain": 13,
+      "busy": 4,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "May",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 17.6,
+      "cld": 58,
+      "rain": 23,
+      "busy": 6,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 19.2,
+      "cld": 59,
+      "rain": 41,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 16,
+      "hi": 19,
+      "lo": 13,
+      "daylight": 18.2,
+      "cld": 61,
+      "rain": 56,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 14,
+      "hi": 18,
+      "lo": 11,
+      "daylight": 15.6,
+      "cld": 58,
+      "rain": 76,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 10,
+      "hi": 13,
+      "lo": 7,
+      "daylight": 12.8,
+      "cld": 60,
+      "rain": 79,
+      "busy": 7,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 2,
+      "hi": 6,
+      "lo": -1,
+      "daylight": 9.9,
+      "cld": 57,
+      "rain": 51,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": -5,
+      "hi": -2,
+      "lo": -7,
+      "daylight": 7.2,
+      "cld": 57,
+      "rain": 18,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": -7,
+      "hi": -4,
+      "lo": -10,
+      "daylight": 5.6,
+      "cld": 61,
+      "rain": 10,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    }
+  ],
+  "lat": 61.2181,
+  "lng": -149.9003
+}

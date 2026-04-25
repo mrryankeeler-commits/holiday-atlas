@@ -1,0 +1,120 @@
+{
+  "id": "stepantsminda-georgia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-25",
+    "climate": [
+      {
+        "name": "Climate-Data.org",
+        "url": "https://en.climate-data.org/asia/georgia/mtskheta-mtianeti/stepantsminda-33126/"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Stepantsminda",
+  "country": "Georgia",
+  "region": "Mtskheta-Mtianeti, Greater Caucasus on the Georgian Military Highway",
+  "desc": "Stepantsminda is Georgia's most iconic roadside mountain base, where the Gergeti Trinity silhouette, the flanks of Kazbek, and the drama of the Georgian Military Highway create one of the country's strongest short alpine stays. It works best for travelers who want high-altitude scenery and day-hike access, but who are realistic about weather, road closures, and genuinely cold shoulder-season conditions.",
+  "hls": [
+    "Gergeti Trinity Church with Mount Kazbek behind it is one of the Caucasus' defining viewpoints",
+    "The destination is excellent for a short mountain stop even if you are not attempting serious high-altitude trekking",
+    "Summer and early autumn are clearly the easiest months because snow, rain, and road closures shape the rest of the year",
+    "The Georgian Military Highway approach is part of the appeal, but it also means transport reliability is never something to take for granted",
+    "Stepantsminda feels more dramatic than comfortable, which is exactly why it works for mountain-first itineraries",
+    "Cloud cover can hide the mountain completely, so flexibility matters more here than in easier scenic towns"
+  ],
+  "todo": [
+    {
+      "name": "Gergeti Trinity Church ascent",
+      "cat": "Landmark walk",
+      "desc": "Do the church properly rather than as a rushed roadside photo stop, because the climb and shifting Kazbek views are the whole point."
+    },
+    {
+      "name": "Town-to-viewpoint weather window block",
+      "cat": "Scenery planning",
+      "desc": "Keep your best visibility window free because clouds can close and reopen the mountain far faster than a rigid schedule allows."
+    },
+    {
+      "name": "Gveleti Waterfalls",
+      "cat": "Short hike",
+      "desc": "Use this as the easier active add-on if you want more than the church but are not committing to a full mountain day."
+    },
+    {
+      "name": "Juta or Truso valley decision day",
+      "cat": "Bigger outing",
+      "desc": "If conditions are right, pick one valley route rather than overloading the stay, because transport and weather can easily stretch timings."
+    },
+    {
+      "name": "Slow evening in town",
+      "cat": "Mountain base rhythm",
+      "desc": "Give the town one unhurried evening because Stepantsminda is as much about mountain atmosphere and changing light as about named sights."
+    },
+    {
+      "name": "Early departure buffer on the highway",
+      "cat": "Trip planning",
+      "desc": "Keep slack for the Georgian Military Highway because weather, freight traffic, and border-related congestion can all disrupt onward plans."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "10-35 Mbps",
+      "note": "Usually fine for basic planning in guesthouses and cafes, but power blips, weather, and mountain location make it less dependable than lower-altitude Georgia bases."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Stepantsminda has no airport, so the practical gateway is Tbilisi followed by a mountain road transfer of roughly 3 hours in good conditions. There is no destination-level nonstop from Gatwick or London City, and the real transport story is the Georgian Military Highway: visually brilliant, but vulnerable to weather, freight traffic, and temporary closures.",
+    "airports": [
+      {
+        "name": "Tbilisi International Airport",
+        "code": "TBS",
+        "km": 155,
+        "dgw": false
+      },
+      {
+        "name": "Kutaisi International Airport",
+        "code": "KUT",
+        "km": 330,
+        "dgw": false
+      }
+    ],
+    "currency": "Georgian lari (GEL); cash is useful for drivers, smaller guesthouses, and remote-valley logistics around Stepantsminda.",
+    "lang": "Georgian is the main language, Russian is still widely useful for transport and mountain logistics, and English support varies a lot by accommodation and guide quality.",
+    "tz": "UTC+4 (no daylight saving)",
+    "visa": "British citizens can visit Georgia visa-free for up to one year, and GOV.UK says your passport should be valid for the duration of your stay. Georgia also requires visitors to carry health and accident insurance, which matters even more here because mountain travel raises the stakes of doing this cheaply or casually.",
+    "bestFor": [
+      "Short alpine stays",
+      "Caucasus viewpoints",
+      "Road-trip mountain stops",
+      "Summer hiking windows",
+      "High-altitude photography"
+    ],
+    "alerts": [
+      "Bad weather can erase the main mountain views completely, so treat a one-night stay as a gamble rather than a guaranteed postcard stop.",
+      "The Georgian Military Highway can close or slow dramatically, especially outside stable summer periods, so avoid tight same-day flight connections.",
+      "Even in peak season, this is a cold, wet, high-altitude destination by many travelers' standards, not a casual light-jacket hill town."
+    ]
+  },
+  "sweet": "July to September is Stepantsminda's best all-round window for views, hikes, and road reliability, with early autumn often giving the cleanest mountain visibility if weather cooperates.",
+  "months": [
+    { "m": "Jan", "avg": -11, "hi": -7, "lo": -15, "daylight": 9.0, "cld": 47, "rain": 36, "busy": 1, "ac": 1, "fl": 1 },
+    { "m": "Feb", "avg": -10, "hi": -5, "lo": -13, "daylight": 11.0, "cld": 51, "rain": 37, "busy": 1, "ac": 1, "fl": 1 },
+    { "m": "Mar", "avg": -6, "hi": -2, "lo": -11, "daylight": 12.0, "cld": 56, "rain": 84, "busy": 1, "ac": 1, "fl": 1 },
+    { "m": "Apr", "avg": -2, "hi": 2, "lo": -6, "daylight": 13.0, "cld": 66, "rain": 132, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "May", "avg": 3, "hi": 7, "lo": -1, "daylight": 15.0, "cld": 66, "rain": 182, "busy": 3, "ac": 2, "fl": 2 },
+    { "m": "Jun", "avg": 8, "hi": 12, "lo": 3, "daylight": 15.0, "cld": 62, "rain": 273, "busy": 5, "ac": 3, "fl": 2 },
+    { "m": "Jul", "avg": 11, "hi": 15, "lo": 6, "daylight": 15.0, "cld": 58, "rain": 282, "busy": 9, "ac": 5, "fl": 4 },
+    { "m": "Aug", "avg": 11, "hi": 15, "lo": 7, "daylight": 14.0, "cld": 53, "rain": 227, "busy": 10, "ac": 5, "fl": 5 },
+    { "m": "Sep", "avg": 7, "hi": 11, "lo": 3, "daylight": 12.0, "cld": 49, "rain": 123, "busy": 10, "ac": 4, "fl": 3 },
+    { "m": "Oct", "avg": 2, "hi": 6, "lo": -2, "daylight": 11.0, "cld": 47, "rain": 79, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Nov", "avg": -5, "hi": 0, "lo": -8, "daylight": 10.0, "cld": 48, "rain": 45, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Dec", "avg": -9, "hi": -5, "lo": -13, "daylight": 9.0, "cld": 48, "rain": 34, "busy": 1, "ac": 1, "fl": 1 }
+  ]
+}

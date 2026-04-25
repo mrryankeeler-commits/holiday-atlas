@@ -1,0 +1,141 @@
+{
+  "id": "villa-de-leiva-colombia",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Villa de Leiva",
+  "country": "Colombia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "82",
+      "Rainfall (mm)": "40.6",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "86",
+      "Rainfall (mm)": "66.0",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "90",
+      "Rainfall (mm)": "104.1",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "93",
+      "Rainfall (mm)": "182.9",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "May",
+      "Avg Temp (°C)": "16.7",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "12.8",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "91",
+      "Rainfall (mm)": "188.0",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "12.2",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "82",
+      "Rainfall (mm)": "124.5",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "78",
+      "Rainfall (mm)": "96.5",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "79",
+      "Rainfall (mm)": "106.7",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "11.1",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "84",
+      "Rainfall (mm)": "142.2",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "91",
+      "Rainfall (mm)": "198.1",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "16.1",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "11.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "91",
+      "Rainfall (mm)": "160.0",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    },
+    {
+      "Location": "Villa de Leiva, Colombia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "10.6",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "84",
+      "Rainfall (mm)": "78.7",
+      "Source URL": "https://weatherspark.com/y/24306/Average-Weather-in-Villa-de-Leiva-Colombia-Year-Round"
+    }
+  ]
+}

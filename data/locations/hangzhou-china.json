@@ -1,0 +1,246 @@
+{
+  "id": "hangzhou-china",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/135673/Average-Weather-in-Hangzhou-China-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Hangzhou",
+  "country": "China",
+  "region": "Zhejiang, Lower Yangtze delta",
+  "desc": "Hangzhou is one of China's most polished big-city breaks for travelers who want classical scenery without giving up urban comfort. West Lake, temple hills, tea villages, and a long cultural afterlife make it feel more poetic and landscaped than a business-first metropolis, though the city is still large enough that humidity, holiday surges, and transport scale shape the trip.",
+  "hls": [
+    "West Lake is the emotional center of the city and gives Hangzhou a softer, more cultural identity than many Chinese megacities.",
+    "The classic Hangzhou mix is water, hills, pagodas, tea culture, and Buddhism rather than skyscraper sightseeing alone.",
+    "Lingyin Temple adds a major spiritual and historical stop that feels integrated with the wooded landscape, not detached from it.",
+    "Longjing tea villages and surrounding slopes make the city feel grounded in a famous local product rather than generic urban tourism.",
+    "Spring and autumn are the clearest prime windows; summer is lush but hot, humid, and heavier with domestic demand.",
+    "Hangzhou works best when you give it enough time to slow down around the lake instead of treating it as a rushed Shanghai side trip."
+  ],
+  "todo": [
+    {
+      "name": "West Lake circuit by foot and boat",
+      "cat": "Scenic core",
+      "desc": "Use the lake properly rather than as a quick viewpoint, because it is the defining landscape that gives Hangzhou its identity."
+    },
+    {
+      "name": "Lingyin Temple and Feilai Peak area",
+      "cat": "Temple",
+      "desc": "Set aside a substantial block for Lingyin, where temple history, wooded hills, and rock carvings all matter to the experience."
+    },
+    {
+      "name": "Leifeng Pagoda at dusk",
+      "cat": "Landmark",
+      "desc": "Time this for later in the day if possible, since the pagoda's setting over West Lake is part of the classic Hangzhou image."
+    },
+    {
+      "name": "Longjing or Meijiawu tea village visit",
+      "cat": "Tea culture",
+      "desc": "Use one half-day for tea-country atmosphere so Hangzhou feels tied to its most famous cultural product."
+    },
+    {
+      "name": "Lakeside evening performance or stroll",
+      "cat": "Evening",
+      "desc": "Keep one evening for the lake after dark, when the city leans hardest into its romantic and theatrical side."
+    },
+    {
+      "name": "Wetland or museum extension",
+      "cat": "Culture",
+      "desc": "Add Xixi or a museum if you want Hangzhou to read as a fuller city break instead of only a West Lake postcard."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-150 Mbps",
+      "note": "Usually strong in major hotels and apartments, but international app access can still require planning around local internet restrictions."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Hangzhou has a major airport, but not a practical nonstop from the repo's London origins. Current long-haul service from Hangzhou includes routes such as Lisbon and Madrid rather than London, so UK trips are connection-led via other European, Gulf, or Chinese hubs by default.",
+    "airports": [
+      {
+        "name": "Hangzhou Xiaoshan International Airport",
+        "code": "HGH",
+        "km": 29,
+        "dgw": false
+      }
+    ],
+    "currency": "Chinese yuan renminbi (CNY)",
+    "lang": "Mandarin Chinese",
+    "tz": "China Standard Time (UTC+8)",
+    "visa": "China entry rules vary by passport and current policy, so verify visa or transit eligibility before travel.",
+    "bestFor": [
+      "Scenic city breaks in China",
+      "West Lake culture trips",
+      "Tea-focused travel",
+      "Temple-and-garden pacing",
+      "Shanghai add-on stays"
+    ],
+    "alerts": [
+      "Chinese national-holiday periods, especially early October, can transform key sights and transport lines.",
+      "Late spring and summer bring real humidity and heavier rain, which changes how long outdoor lake loops feel.",
+      "Some international services and payment flows can be less frictionless for foreign visitors than hotel marketing suggests."
+    ]
+  },
+  "sweet": "March to May and late September to November are usually Hangzhou's strongest windows for lake scenery, temple visits, and tea-country day trips without the worst summer humidity.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 10.4,
+      "cld": 37,
+      "rain": 46,
+      "busy": 2,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Feb",
+      "avg": 6,
+      "hi": 10,
+      "lo": 3,
+      "daylight": 11.1,
+      "cld": 44,
+      "rain": 66,
+      "busy": 3,
+      "ac": 1,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 11,
+      "hi": 14,
+      "lo": 7,
+      "daylight": 12.0,
+      "cld": 54,
+      "rain": 104,
+      "busy": 6,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Apr",
+      "avg": 17,
+      "hi": 21,
+      "lo": 13,
+      "daylight": 12.9,
+      "cld": 58,
+      "rain": 104,
+      "busy": 8,
+      "ac": 3,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 22,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 13.7,
+      "cld": 57,
+      "rain": 114,
+      "busy": 9,
+      "ac": 4,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 25,
+      "hi": 29,
+      "lo": 22,
+      "daylight": 14.1,
+      "cld": 68,
+      "rain": 193,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Jul",
+      "avg": 29,
+      "hi": 33,
+      "lo": 26,
+      "daylight": 13.9,
+      "cld": 70,
+      "rain": 145,
+      "busy": 4,
+      "ac": 2,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 28,
+      "hi": 32,
+      "lo": 25,
+      "daylight": 13.2,
+      "cld": 58,
+      "rain": 132,
+      "busy": 5,
+      "ac": 2,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 24,
+      "hi": 28,
+      "lo": 21,
+      "daylight": 12.3,
+      "cld": 42,
+      "rain": 109,
+      "busy": 8,
+      "ac": 4,
+      "fl": 3
+    },
+    {
+      "m": "Oct",
+      "avg": 18,
+      "hi": 23,
+      "lo": 15,
+      "daylight": 11.4,
+      "cld": 30,
+      "rain": 64,
+      "busy": 10,
+      "ac": 5,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 13,
+      "hi": 17,
+      "lo": 8,
+      "daylight": 10.6,
+      "cld": 32,
+      "rain": 56,
+      "busy": 5,
+      "ac": 2,
+      "fl": 1
+    },
+    {
+      "m": "Dec",
+      "avg": 7,
+      "hi": 11,
+      "lo": 3,
+      "daylight": 10.2,
+      "cld": 31,
+      "rain": 36,
+      "busy": 2,
+      "ac": 1,
+      "fl": 3
+    }
+  ]
+}

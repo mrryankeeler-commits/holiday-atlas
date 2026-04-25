@@ -1,0 +1,141 @@
+{
+  "id": "sucre-bolivia",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Sucre",
+  "country": "Bolivia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "22.2",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "13.1",
+      "Cloud Cover (%)": "78",
+      "Rainfall (mm)": "86.4",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "12.7",
+      "Cloud Cover (%)": "78",
+      "Rainfall (mm)": "71.1",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "14.4",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "12.2",
+      "Cloud Cover (%)": "67",
+      "Rainfall (mm)": "50.8",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "13.9",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "7.8",
+      "Daylight (h/day)": "11.6",
+      "Cloud Cover (%)": "51",
+      "Rainfall (mm)": "17.8",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "May",
+      "Avg Temp (°C)": "12.2",
+      "Avg High (°C)": "21.1",
+      "Avg Low (°C)": "5.6",
+      "Daylight (h/day)": "11.2",
+      "Cloud Cover (%)": "40",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "11.1",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "3.9",
+      "Daylight (h/day)": "11.0",
+      "Cloud Cover (%)": "37",
+      "Rainfall (mm)": "0.0",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "10.6",
+      "Avg High (°C)": "20.6",
+      "Avg Low (°C)": "3.3",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "11.7",
+      "Avg High (°C)": "21.7",
+      "Avg Low (°C)": "4.4",
+      "Daylight (h/day)": "11.5",
+      "Cloud Cover (%)": "31",
+      "Rainfall (mm)": "2.5",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "13.3",
+      "Avg High (°C)": "22.8",
+      "Avg Low (°C)": "6.1",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "41",
+      "Rainfall (mm)": "12.7",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "15.0",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "8.3",
+      "Daylight (h/day)": "12.6",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "22.9",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "9.4",
+      "Daylight (h/day)": "13.0",
+      "Cloud Cover (%)": "64",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    },
+    {
+      "Location": "Sucre, Bolivia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "15.6",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "10.0",
+      "Daylight (h/day)": "13.3",
+      "Cloud Cover (%)": "73",
+      "Rainfall (mm)": "61.0",
+      "Source URL": "https://weatherspark.com/y/27971/Average-Weather-in-Sucre-Bolivia-Year-Round"
+    }
+  ]
+}

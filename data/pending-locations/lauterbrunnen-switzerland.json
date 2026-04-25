@@ -1,0 +1,141 @@
+{
+  "id": "lauterbrunnen-switzerland",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Lauterbrunnen",
+  "country": "Switzerland",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Jan",
+      "Avg Temp (°C)": "-7.3",
+      "Avg High (°C)": "-2.7",
+      "Avg Low (°C)": "-11.9",
+      "Daylight (h/day)": "9.0",
+      "Cloud Cover (%)": "58",
+      "Rainfall (mm)": "36.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Feb",
+      "Avg Temp (°C)": "-7.3",
+      "Avg High (°C)": "-2.5",
+      "Avg Low (°C)": "-12.1",
+      "Daylight (h/day)": "10.0",
+      "Cloud Cover (%)": "62",
+      "Rainfall (mm)": "33.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Mar",
+      "Avg Temp (°C)": "-3.9",
+      "Avg High (°C)": "0.7",
+      "Avg Low (°C)": "-8.4",
+      "Daylight (h/day)": "11.1",
+      "Cloud Cover (%)": "60",
+      "Rainfall (mm)": "46.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Apr",
+      "Avg Temp (°C)": "0.0",
+      "Avg High (°C)": "4.3",
+      "Avg Low (°C)": "-4.3",
+      "Daylight (h/day)": "13.1",
+      "Cloud Cover (%)": "57",
+      "Rainfall (mm)": "50.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "May",
+      "Avg Temp (°C)": "3.2",
+      "Avg High (°C)": "7.4",
+      "Avg Low (°C)": "-1.1",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "61",
+      "Rainfall (mm)": "80.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Jun",
+      "Avg Temp (°C)": "8.2",
+      "Avg High (°C)": "12.9",
+      "Avg Low (°C)": "3.4",
+      "Daylight (h/day)": "15.1",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "92.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Jul",
+      "Avg Temp (°C)": "10.8",
+      "Avg High (°C)": "15.7",
+      "Avg Low (°C)": "5.8",
+      "Daylight (h/day)": "15.0",
+      "Cloud Cover (%)": "49",
+      "Rainfall (mm)": "85.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Aug",
+      "Avg Temp (°C)": "10.9",
+      "Avg High (°C)": "16.0",
+      "Avg Low (°C)": "5.8",
+      "Daylight (h/day)": "14.0",
+      "Cloud Cover (%)": "46",
+      "Rainfall (mm)": "85.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Sep",
+      "Avg Temp (°C)": "7.0",
+      "Avg High (°C)": "11.6",
+      "Avg Low (°C)": "2.5",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "50",
+      "Rainfall (mm)": "41.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Oct",
+      "Avg Temp (°C)": "2.9",
+      "Avg High (°C)": "7.3",
+      "Avg Low (°C)": "-1.5",
+      "Daylight (h/day)": "10.1",
+      "Cloud Cover (%)": "47",
+      "Rainfall (mm)": "49.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Nov",
+      "Avg Temp (°C)": "-2.1",
+      "Avg High (°C)": "1.8",
+      "Avg Low (°C)": "-5.9",
+      "Daylight (h/day)": "9.0",
+      "Cloud Cover (%)": "53",
+      "Rainfall (mm)": "44.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    },
+    {
+      "Location": "Lauterbrunnen, Switzerland",
+      "Month": "Dec",
+      "Avg Temp (°C)": "-6.2",
+      "Avg High (°C)": "-1.5",
+      "Avg Low (°C)": "-10.8",
+      "Daylight (h/day)": "8.1",
+      "Cloud Cover (%)": "55",
+      "Rainfall (mm)": "55.0",
+      "Source URL": "https://www.weather-atlas.com/en/switzerland/lauterbrunnen-climate"
+    }
+  ]
+}

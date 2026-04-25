@@ -1,0 +1,120 @@
+{
+  "id": "panjakent-tajikistan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-25",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/106519/Average-Weather-in-Panjakent-Tajikistan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Panjakent",
+  "country": "Tajikistan",
+  "region": "Sughd Region, Zerafshan Valley near the Uzbekistan border",
+  "desc": "Panjakent is one of Tajikistan's most compelling history-and-landscape pairings: an old Zerafshan Valley town with access to Sogdian archaeology, nearby UNESCO-listed Sarazm, and road routes into the lakes and valleys that lead toward the Fann Mountains. It works best for travelers who want more than a simple border stop and are happy to use the town as a practical base for both ruins and mountain day trips.",
+  "hls": [
+    "Ancient Panjakent and nearby Sarazm give the town a stronger historical layer than many travelers expect",
+    "The Seven Lakes route is one of the clearest reasons to stay rather than only pass through",
+    "Late spring to early autumn is the easiest window for combining ruins, valley scenery, and higher-road access",
+    "Panjakent feels more grounded and local than polished, which suits flexible overland itineraries",
+    "The destination pairs naturally with Samarkand only if you are prepared for cross-border logistics to change",
+    "It is strongest as a gateway for culture-and-mountains travel, not as a stand-alone city break"
+  ],
+  "todo": [
+    {
+      "name": "Ancient Panjakent ruins",
+      "cat": "Archaeology",
+      "desc": "Give the old Sogdian site proper time because it is the clearest reason Panjakent is more than a transit town."
+    },
+    {
+      "name": "Sarazm UNESCO excursion",
+      "cat": "World heritage",
+      "desc": "Pair the prehistoric site with the town's own ruins to make the valley's long settlement story feel coherent."
+    },
+    {
+      "name": "Seven Lakes day trip",
+      "cat": "Nature",
+      "desc": "Treat this as a full road day with a driver or arranged transport rather than a casual short outing."
+    },
+    {
+      "name": "Rudaki Museum or local history stop",
+      "cat": "Culture",
+      "desc": "Add one indoor historical stop so the town's literary and regional identity does not get lost behind the mountain scenery."
+    },
+    {
+      "name": "Bazaar and riverfront town walk",
+      "cat": "Local life",
+      "desc": "Keep one slower block for the market-and-street rhythm because that is part of Panjakent's appeal."
+    },
+    {
+      "name": "Buffer day for valley weather or road shifts",
+      "cat": "Trip planning",
+      "desc": "If mountain access matters to your plan, give the itinerary some slack for road conditions, shared transport timing, and border-route uncertainty."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "10-40 Mbps",
+      "note": "Usable in better hotels and some cafes, but reliability and backup power are noticeably less consistent than in the strongest Central Asian city hubs."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Panjakent has no practical commercial airport for most travelers. Dushanbe is the cleanest Tajik gateway but comes with a long valley road transfer, while Samarkand is much closer geographically if the Uzbekistan-Tajikistan border routing works for your plan. There is no destination-level nonstop from Gatwick or London City, and summer plus autumn culture-and-mountain demand usually create the strongest pressure on already connection-heavy itineraries.",
+    "airports": [
+      {
+        "name": "Samarkand International Airport",
+        "code": "SKD",
+        "km": 70,
+        "dgw": false
+      },
+      {
+        "name": "Dushanbe International Airport",
+        "code": "DYU",
+        "km": 250,
+        "dgw": false
+      }
+    ],
+    "currency": "Tajik somoni (TJS); cash matters here more than in bigger regional hubs, especially for drivers, market purchases, and smaller guesthouses.",
+    "lang": "Tajik is the main language, Russian is widely useful, and English is limited outside better-organized guides and some guesthouses.",
+    "tz": "TJT (UTC+5) year-round",
+    "visa": "British citizens need a Tajik visa before travel, usually via the official e-visa route, and GOV.UK says your passport should have at least 6 months of validity left plus 2 blank pages. If your itinerary goes beyond the valley into permit-controlled regions, check those extra requirements separately before you go.",
+    "bestFor": [
+      "Sogdian archaeology",
+      "Fann Mountains gateways",
+      "Seven Lakes road trips",
+      "Overland Central Asia itineraries",
+      "History-and-landscape combinations"
+    ],
+    "alerts": [
+      "If you plan to use Samarkand as the access point, border rules and crossing conditions can change, so confirm the latest situation before fixing the route.",
+      "Higher lake and mountain roads are far more weather-sensitive than the town itself, even when Panjakent feels warm and straightforward.",
+      "This is a practical base rather than a polished tourism hub, so transport timing, ATMs, and English support all reward extra preparation."
+    ]
+  },
+  "sweet": "May to June and September to early October are Panjakent's best all-round windows for ruins, valley touring, and mountain-road access without the strongest heat or the coldest nights.",
+  "months": [
+    { "m": "Jan", "avg": 1, "hi": 6, "lo": -3, "daylight": 9.7, "cld": 53, "rain": 13, "busy": 1, "ac": 1, "fl": 1 },
+    { "m": "Feb", "avg": 3, "hi": 7, "lo": -1, "daylight": 10.7, "cld": 54, "rain": 23, "busy": 2, "ac": 1, "fl": 1 },
+    { "m": "Mar", "avg": 8, "hi": 12, "lo": 3, "daylight": 12.0, "cld": 54, "rain": 33, "busy": 4, "ac": 2, "fl": 1 },
+    { "m": "Apr", "avg": 14, "hi": 18, "lo": 9, "daylight": 13.3, "cld": 45, "rain": 36, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "May", "avg": 18, "hi": 23, "lo": 12, "daylight": 14.4, "cld": 30, "rain": 23, "busy": 8, "ac": 4, "fl": 2 },
+    { "m": "Jun", "avg": 23, "hi": 28, "lo": 16, "daylight": 14.9, "cld": 9, "rain": 5, "busy": 10, "ac": 5, "fl": 3 },
+    { "m": "Jul", "avg": 24, "hi": 31, "lo": 17, "daylight": 14.6, "cld": 3, "rain": 2, "busy": 9, "ac": 4, "fl": 4 },
+    { "m": "Aug", "avg": 23, "hi": 29, "lo": 16, "daylight": 13.6, "cld": 2, "rain": 0, "busy": 8, "ac": 4, "fl": 4 },
+    { "m": "Sep", "avg": 19, "hi": 26, "lo": 13, "daylight": 12.4, "cld": 8, "rain": 2, "busy": 10, "ac": 5, "fl": 3 },
+    { "m": "Oct", "avg": 13, "hi": 19, "lo": 7, "daylight": 11.1, "cld": 27, "rain": 10, "busy": 7, "ac": 3, "fl": 2 },
+    { "m": "Nov", "avg": 8, "hi": 13, "lo": 3, "daylight": 10.0, "cld": 44, "rain": 18, "busy": 3, "ac": 2, "fl": 1 },
+    { "m": "Dec", "avg": 3, "hi": 8, "lo": -1, "daylight": 9.4, "cld": 50, "rain": 15, "busy": 1, "ac": 1, "fl": 1 }
+  ]
+}

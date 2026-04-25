@@ -1,0 +1,250 @@
+{
+  "id": "lucerne-switzerland",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/60323/Average-Weather-in-Luzern-Switzerland-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Lucerne",
+  "country": "Switzerland",
+  "region": "Central Switzerland, Lake Lucerne",
+  "desc": "Lucerne is one of Switzerland's easiest high-impact bases: a compact old town wrapped around a lake, landmark wooden bridges, and near-instant access to mountain excursions that feel bigger than the city itself. It works best for travelers who want classic Swiss scenery without sacrificing walkability, rail convenience, or enough city substance for bad-weather backup.",
+  "hls": [
+    "Lucerne's old town and waterfront make it one of the cleanest city-and-scenery combinations in Switzerland",
+    "The Chapel Bridge is genuinely iconic rather than just a checklist stop",
+    "Lake Lucerne boat links give the destination more range than a simple one-night rail town",
+    "Pilatus and other nearby peaks make mountain days possible without changing hotels",
+    "Summer is the easiest full-service season, but December also has strong atmosphere and festive appeal",
+    "The trade-off is that Lucerne is popular enough that hotel prices rarely feel like a bargain in its best months"
+  ],
+  "todo": [
+    {
+      "name": "Chapel Bridge and Reuss walk",
+      "cat": "Historic core",
+      "desc": "Start with the bridge, Water Tower, and riverside lanes because they set up Lucerne's whole image in one compact loop."
+    },
+    {
+      "name": "Lake Lucerne boat trip",
+      "cat": "Lake",
+      "desc": "Use at least one sailing to make the destination feel like more than an old-town stay and to connect with the mountains around the water."
+    },
+    {
+      "name": "Pilatus outing",
+      "cat": "Mountain excursion",
+      "desc": "Give one clear-weather block to Pilatus, where the transport engineering and panorama are both part of the point."
+    },
+    {
+      "name": "Swiss Museum of Transport",
+      "cat": "Museum",
+      "desc": "Keep this as the strongest indoor anchor if weather turns or if you want more than scenery and photo stops."
+    },
+    {
+      "name": "Old-town evening wander",
+      "cat": "Atmosphere",
+      "desc": "Lucerne is strongest once day-trippers thin, when the waterfront and lit facades feel calmer and more balanced."
+    },
+    {
+      "name": "One rail or lake-side add-on",
+      "cat": "Easy day trip",
+      "desc": "Leave room for one extra half-day beyond the center because Lucerne's real strength is how easily it opens into the wider region."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 5,
+      "spd": "80-220 Mbps",
+      "note": "Very reliable in hotels, stations, and cafes, with Switzerland's usual high baseline for straightforward work or trip-planning needs."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Lucerne has no airport, but Zurich Airport is a very easy gateway and currently has airport-level nonstops from both London Gatwick and London City. That makes Lucerne highly practical for short breaks, yet the destination-level direct flags still stay false because the final leg is a clean rail transfer rather than a nonstop into Lucerne itself.",
+    "airports": [
+      {
+        "name": "Zurich Airport",
+        "code": "ZRH",
+        "km": 68,
+        "dgw": true,
+        "directFrom": {
+          "LGW": true,
+          "LCY": true
+        }
+      }
+    ],
+    "currency": "Swiss franc (CHF)",
+    "lang": "Swiss German and standard German are the main local languages; English is widely workable in hotels, transport, and visitor services.",
+    "tz": "CET/CEST (UTC+1/+2)",
+    "visa": "Switzerland follows Schengen rules, so entry and passport-validity requirements depend on nationality and the current 90-in-180-day framework.",
+    "bestFor": [
+      "Classic Switzerland first trips",
+      "Lake-and-mountain short breaks",
+      "Rail-based itineraries",
+      "Winter city stays with scenery",
+      "Easy scenic weekends"
+    ],
+    "alerts": [
+      "Summer and December both bring strong demand, so central hotel pricing can stay high even outside absolute peak weekends.",
+      "Low cloud and rain can quickly flatten the mountain-excursion side of the trip, so keep one indoor or lower-level backup plan.",
+      "Lucerne is efficient rather than cheap, and prices for food, boats, and last-minute hotels add up quickly."
+    ]
+  },
+  "sweet": "May to September is Lucerne's easiest all-round season for lake trips and mountain outings, while December is the strongest colder-month window if you want festive atmosphere without giving up the city's scenic core.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 0,
+      "hi": 3,
+      "lo": -3,
+      "daylight": 9.0,
+      "cld": 56,
+      "rain": 61,
+      "busy": 2,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Feb",
+      "avg": 1,
+      "hi": 5,
+      "lo": -3,
+      "daylight": 10.3,
+      "cld": 55,
+      "rain": 58,
+      "busy": 3,
+      "ac": 1,
+      "fl": 1
+    },
+    {
+      "m": "Mar",
+      "avg": 5,
+      "hi": 10,
+      "lo": 1,
+      "daylight": 12.0,
+      "cld": 56,
+      "rain": 64,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Apr",
+      "avg": 9,
+      "hi": 14,
+      "lo": 4,
+      "daylight": 13.7,
+      "cld": 58,
+      "rain": 81,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "May",
+      "avg": 13,
+      "hi": 18,
+      "lo": 8,
+      "daylight": 15.1,
+      "cld": 60,
+      "rain": 112,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jun",
+      "avg": 17,
+      "hi": 22,
+      "lo": 12,
+      "daylight": 15.8,
+      "cld": 52,
+      "rain": 124,
+      "busy": 9,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Jul",
+      "avg": 19,
+      "hi": 24,
+      "lo": 14,
+      "daylight": 15.4,
+      "cld": 40,
+      "rain": 122,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Aug",
+      "avg": 18,
+      "hi": 23,
+      "lo": 13,
+      "daylight": 14.1,
+      "cld": 42,
+      "rain": 112,
+      "busy": 10,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Sep",
+      "avg": 14,
+      "hi": 19,
+      "lo": 10,
+      "daylight": 12.5,
+      "cld": 50,
+      "rain": 96,
+      "busy": 8,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Oct",
+      "avg": 10,
+      "hi": 14,
+      "lo": 6,
+      "daylight": 10.8,
+      "cld": 56,
+      "rain": 79,
+      "busy": 6,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Nov",
+      "avg": 4,
+      "hi": 8,
+      "lo": 1,
+      "daylight": 9.3,
+      "cld": 58,
+      "rain": 71,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 1,
+      "hi": 4,
+      "lo": -2,
+      "daylight": 8.6,
+      "cld": 58,
+      "rain": 69,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    }
+  ]
+}

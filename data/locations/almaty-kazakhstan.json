@@ -1,0 +1,118 @@
+{
+  "id": "almaty-kazakhstan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-24",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/108859/Average-Weather-in-Almaty-Kazakhstan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-24",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Almaty",
+  "country": "Kazakhstan",
+  "region": "Ile Alatau foothills, southeastern Kazakhstan",
+  "desc": "Almaty is Kazakhstan's most rewarding city-and-mountains base, combining cafe life, Soviet-era boulevards, leafy neighborhoods, and fast access into the northern Tien Shan. It works best for travelers who want a real city with strong food and culture, but also want alpine day trips close enough that the mountains shape the whole stay.",
+  "hls": [
+    "A rare big-city plus mountain-edge balance",
+    "Medeu and Shymbulak close enough for same-day plans",
+    "Big Almaty Lake and Ile Alatau scenery nearby",
+    "Strong cafe, food, and market culture",
+    "Winter skating and ski appeal plus summer hiking access",
+    "Current London Heathrow nonstop route, but no LGW or LCY direct badge"
+  ],
+  "todo": [
+    {
+      "name": "Medeu Alpine Skating Rink",
+      "cat": "Mountain edge",
+      "desc": "Use Medeu as the easiest way to feel Almaty's high-mountain setting without leaving the city orbit for a full expedition day."
+    },
+    {
+      "name": "Shymbulak cable car day",
+      "cat": "Mountain resort",
+      "desc": "Ride up for ski-season access or summer viewpoints, because Shymbulak is the clearest city-to-alpine transition."
+    },
+    {
+      "name": "Big Almaty Lake outing",
+      "cat": "Nature",
+      "desc": "Plan this as a weather-sensitive scenic block where clear light matters more than checking off the drive."
+    },
+    {
+      "name": "Kok Tobe or city viewpoint",
+      "cat": "Viewpoint",
+      "desc": "Give one evening to a city-over-mountains perspective so the urban layout and foothill setting click together."
+    },
+    {
+      "name": "Green Bazaar and food crawl",
+      "cat": "Food",
+      "desc": "Use the market and nearby eating streets to make the city feel local rather than only a launchpad for day trips."
+    },
+    {
+      "name": "Cafe-and-boulevard block",
+      "cat": "City life",
+      "desc": "Keep one slower stretch for Almaty's leafy, lived-in side, especially if the mountains are cloudy."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 4,
+      "spd": "40-160 Mbps",
+      "note": "Strong in central hotels, apartments, cafes, and coworking-style venues; mountain areas and fringe trailheads are less consistent."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Almaty itself has a major airport and current nonstop London Heathrow service, but not from the repo's Gatwick or London City origins. Treat UK access as Heathrow-direct or one-stop via Istanbul, Doha, Dubai, or other hubs; winter ski weeks, late December, and summer mountain season create the clearest fare pressure.",
+    "airports": [
+      {
+        "name": "Almaty International Airport",
+        "code": "ALA",
+        "km": 16,
+        "dgw": true,
+        "directFrom": {
+          "LGW": false,
+          "LCY": false
+        }
+      }
+    ],
+    "currency": "Kazakhstani tenge (KZT)",
+    "lang": "Kazakh and Russian are widely used; English is increasingly workable in hotels, cafes, and younger urban settings.",
+    "tz": "ALMT (UTC+5) year-round",
+    "visa": "Kazakhstan entry rules depend on nationality and length of stay, so confirm the latest visa-free or e-visa terms before travel.",
+    "bestFor": [
+      "City-and-mountains trips",
+      "Central Asia first-timers",
+      "Winter skating and ski add-ons",
+      "Cafe-led urban breaks",
+      "Nature day trips from a real city"
+    ],
+    "alerts": [
+      "Winter air quality can be poor in the city basin, so sensitive travelers should check conditions before committing to long outdoor city days.",
+      "Mountain roads and visibility can change quickly, especially for lake and high-altitude outings.",
+      "The airport is close, but road congestion and construction around access routes can still affect transfer timing."
+    ]
+  },
+  "sweet": "May to June and September are Almaty's best all-round windows for city life and foothill outings, while December to February is strongest if you specifically want Medeu, Shymbulak, and winter atmosphere.",
+  "months": [
+    { "m": "Jan", "avg": -7, "hi": -2, "lo": -11, "daylight": 9.4, "cld": 54, "rain": 2, "busy": 8, "ac": 4, "fl": 4 },
+    { "m": "Feb", "avg": -4, "hi": 1, "lo": -9, "daylight": 10.5, "cld": 55, "rain": 5, "busy": 7, "ac": 4, "fl": 3 },
+    { "m": "Mar", "avg": 3, "hi": 8, "lo": -2, "daylight": 12.0, "cld": 55, "rain": 20, "busy": 5, "ac": 2, "fl": 2 },
+    { "m": "Apr", "avg": 11, "hi": 17, "lo": 5, "daylight": 13.5, "cld": 51, "rain": 43, "busy": 7, "ac": 3, "fl": 2 },
+    { "m": "May", "avg": 16, "hi": 22, "lo": 10, "daylight": 14.7, "cld": 45, "rain": 51, "busy": 9, "ac": 4, "fl": 3 },
+    { "m": "Jun", "avg": 21, "hi": 27, "lo": 14, "daylight": 15.3, "cld": 30, "rain": 30, "busy": 9, "ac": 4, "fl": 4 },
+    { "m": "Jul", "avg": 23, "hi": 29, "lo": 16, "daylight": 15.0, "cld": 17, "rain": 23, "busy": 10, "ac": 5, "fl": 5 },
+    { "m": "Aug", "avg": 22, "hi": 28, "lo": 14, "daylight": 13.9, "cld": 14, "rain": 15, "busy": 9, "ac": 5, "fl": 5 },
+    { "m": "Sep", "avg": 16, "hi": 23, "lo": 9, "daylight": 12.5, "cld": 21, "rain": 18, "busy": 9, "ac": 4, "fl": 3 },
+    { "m": "Oct", "avg": 9, "hi": 16, "lo": 3, "daylight": 11.0, "cld": 38, "rain": 23, "busy": 6, "ac": 3, "fl": 2 },
+    { "m": "Nov", "avg": 2, "hi": 7, "lo": -3, "daylight": 9.7, "cld": 47, "rain": 15, "busy": 4, "ac": 2, "fl": 2 },
+    { "m": "Dec", "avg": -4, "hi": 1, "lo": -8, "daylight": 9.0, "cld": 50, "rain": 5, "busy": 7, "ac": 4, "fl": 4 }
+  ]
+}

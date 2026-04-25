@@ -1,0 +1,141 @@
+{
+  "id": "jardin-colombia",
+  "source": "Climate_Date_08 - Climate Data.csv",
+  "city": "Jardin",
+  "country": "Colombia",
+  "region": "",
+  "rows": [
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Jan",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "80",
+      "Rainfall (mm)": "154.9",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Feb",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "85",
+      "Rainfall (mm)": "154.9",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Mar",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "90",
+      "Rainfall (mm)": "175.3",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Apr",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "93",
+      "Rainfall (mm)": "259.1",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "May",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "17.2",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "93",
+      "Rainfall (mm)": "281.9",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Jun",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "86",
+      "Rainfall (mm)": "241.3",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Jul",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "12.4",
+      "Cloud Cover (%)": "81",
+      "Rainfall (mm)": "221.0",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Aug",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "24.4",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "12.3",
+      "Cloud Cover (%)": "83",
+      "Rainfall (mm)": "241.3",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Sep",
+      "Avg Temp (°C)": "20.0",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "12.1",
+      "Cloud Cover (%)": "88",
+      "Rainfall (mm)": "259.1",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Oct",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "16.1",
+      "Daylight (h/day)": "12.0",
+      "Cloud Cover (%)": "93",
+      "Rainfall (mm)": "279.4",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Nov",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "23.3",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "11.9",
+      "Cloud Cover (%)": "91",
+      "Rainfall (mm)": "271.8",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    },
+    {
+      "Location": "Jardin, Colombia",
+      "Month": "Dec",
+      "Avg Temp (°C)": "19.4",
+      "Avg High (°C)": "23.9",
+      "Avg Low (°C)": "16.7",
+      "Daylight (h/day)": "11.8",
+      "Cloud Cover (%)": "85",
+      "Rainfall (mm)": "200.7",
+      "Source URL": "https://weatherspark.com/y/22461/Average-Weather-in-T%C3%A1mesis-Colombia-Year-Round"
+    }
+  ]
+}

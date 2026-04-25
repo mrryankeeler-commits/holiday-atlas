@@ -1,0 +1,263 @@
+{
+  "id": "paraty-brazil",
+  "source": {
+    "climateVerified": true,
+    "climate": [
+      {
+        "name": "Weather Atlas",
+        "url": "https://weatherspark.com/y/30461/Average-Weather-in-Paraty-Rio-de-Janeiro-Brazil-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-25",
+      "profile": "seasonality-inference-v1"
+    },
+    "climateVerifiedOn": "2026-04-25"
+  },
+  "city": "Paraty",
+  "country": "Brazil",
+  "region": "Rio de Janeiro, Costa Verde",
+  "desc": "Paraty is a colonial-era beach town on Rio's southern coast where 18th-century architecture, bohemian culture, and tropical waterfront create an escape that works year-round. The town center is a traffic-free mesh of cobblestone streets, art studios, and family-run pousadas; the beaches and islands of the Emerald Coast trail southward. Paraty balances heritage tourism with a live creative scene, and the surrounding trails through Atlantic rainforest offer trekking without the expedition logistics.",
+  "hls": [
+    "The preserved colonial town center is one of Brazil's most atmospheric, with car-free streets, gallery-lined lanes, and the kind of human scale that rare beach towns maintain.",
+    "Island-hopping and beach day-trips by boat access Paraty's Emerald Coast—a swathe of coves and islands that feel much closer to the Havelock Island model than Rio's urban beaches.",
+    "Paraty draws artists, musicians, and writers, creating a cultural undercurrent that sets it apart from more commercial Brazilian beach towns.",
+    "Multi-day trekking and waterfall hikes radiate into the Atlantic rainforest and mountain hinterland, turning Paraty into a base for both beach and wilderness.",
+    "September to November offers the best balance of stable weather, lower rain, and visiting season without peak summer crowds.",
+    "The town is close enough to Rio (3.5 hours) to work as an add-on, but far enough to feel like its own destination."
+  ],
+  "todo": [
+    {
+      "name": "Town center walking tour",
+      "cat": "Heritage",
+      "desc": "Start with the colonial architecture, churches, and Portuguese tile details that define Paraty's identity. Walk early morning before boat tours disembark."
+    },
+    {
+      "name": "Island hopping on Emerald Coast",
+      "cat": "Beach",
+      "desc": "Book a schooner or private boat for Jaguanum, Saco do Céu, or Praia do Sono—the coastal islands combine small-village charm with pristine bathing."
+    },
+    {
+      "name": "Waterfall and rainforest trekking",
+      "cat": "Hiking",
+      "desc": "Visit Cachoeira do Tobogã or multi-day trails into the Serra da Bocaina; the Atlantic rainforest canopy here is denser and more biodiverse than the obviously touristy zones."
+    },
+    {
+      "name": "Local artist studios and galleries",
+      "cat": "Culture",
+      "desc": "Browse working studios in the old town where painters, sculptors, and jewelry makers sell directly; supporting local makers is part of Paraty's creative economy."
+    },
+    {
+      "name": "Paraty Pottery Studio or ceramic class",
+      "cat": "Craft",
+      "desc": "Take a half-day pottery or painting workshop with a local artisan—even non-artists walk away with a tactile understanding of the town's maker culture."
+    },
+    {
+      "name": "Regional beach towns: Trindade day trip",
+      "cat": "Beach",
+      "desc": "Head south along the coast to the smaller, quieter coves around Trindade for a contrast with Paraty's busier social scene."
+    },
+    {
+      "name": "Seafood lunch at waterfront restaurant",
+      "cat": "Food",
+      "desc": "Moqueca (seafood stew), fresh fish grilled with lime, and local caipirinhas are the baseline; eat where boat captains eat, not where guidebooks point."
+    },
+    {
+      "name": "Sunrise or sunset from the harbor",
+      "cat": "Viewpoint",
+      "desc": "End at least one evening on the waterfront watching light change on the colonial buildings and palm-backed horizon."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "15-50 Mbps",
+      "note": "Pousadas and the town center have reliable wifi; signal can be patchy in rainforest lodges farther out."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Paraty has no commercial airport; fly into Rio (Galeão/Santos Dumont) and road south 3.5 hours. No direct nonstop from Gatwick or London City to Rio, so the journey is at least 2 stops. Reverse your route to end in Paraty and fly out of Rio to save backtracking.",
+    "airports": [
+      {
+        "name": "Rio de Janeiro International (Galeão)",
+        "code": "GIG",
+        "km": 230,
+        "dgw": false
+      },
+      {
+        "name": "Rio de Janeiro Domestic (Santos Dumont)",
+        "code": "SDU",
+        "km": 230,
+        "dgw": false
+      }
+    ],
+    "currency": "Brazilian real (BRL); ATMs in town are reliable, credit cards widely accepted. Bring cash for smaller beach bars and remote waterfall guides.",
+    "lang": "Portuguese; English is improving but still inconsistent outside the tourist center. Phrasebook helps.",
+    "tz": "UTC-3 (no daylight saving)",
+    "visa": "British citizens can visit Brazil visa-free for 90 days. Passport must be valid for at least 6 months; check before travel.",
+    "bestFor": [
+      "Colonial beach towns",
+      "Tropical island day-trips",
+      "Atlantic rainforest trekking",
+      "Artist communities",
+      "Creative retreats",
+      "Coastal-jungle contrast"
+    ],
+    "alerts": [
+      "Summer (Dec-Mar) is peak season and rainy; accommodation prices spike and trails become muddy.",
+      "Roads south from Rio can be washed out by heavy rain during the wet season.",
+      "Do not count on boat trips every day during the rainy season—weather can cancel journeys with little notice."
+    ]
+  },
+  "sweet": "September to November (spring) is Paraty's best window: stable weather, lower rainfall, manageable crowds, and lush landscape without the summer deluge.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 13.4,
+      "cld": 72,
+      "rain": 206,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Feb",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.8,
+      "cld": 69,
+      "rain": 188,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Mar",
+      "avg": 27,
+      "hi": 31,
+      "lo": 24,
+      "daylight": 12.2,
+      "cld": 59,
+      "rain": 163,
+      "busy": 7,
+      "ac": 4,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 25,
+      "hi": 29,
+      "lo": 22,
+      "daylight": 11.5,
+      "cld": 41,
+      "rain": 102,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "May",
+      "avg": 23,
+      "hi": 27,
+      "lo": 20,
+      "daylight": 10.7,
+      "cld": 33,
+      "rain": 66,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jun",
+      "avg": 21,
+      "hi": 26,
+      "lo": 19,
+      "daylight": 10.3,
+      "cld": 27,
+      "rain": 61,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Jul",
+      "avg": 21,
+      "hi": 26,
+      "lo": 18,
+      "daylight": 10.6,
+      "cld": 22,
+      "rain": 35,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Aug",
+      "avg": 22,
+      "hi": 27,
+      "lo": 19,
+      "daylight": 11.3,
+      "cld": 24,
+      "rain": 30,
+      "busy": 5,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Sep",
+      "avg": 22,
+      "hi": 27,
+      "lo": 19,
+      "daylight": 12.2,
+      "cld": 24,
+      "rain": 48,
+      "busy": 3,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Oct",
+      "avg": 24,
+      "hi": 28,
+      "lo": 21,
+      "daylight": 12.9,
+      "cld": 30,
+      "rain": 84,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Nov",
+      "avg": 26,
+      "hi": 30,
+      "lo": 22,
+      "daylight": 13.4,
+      "cld": 45,
+      "rain": 151,
+      "busy": 4,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Dec",
+      "avg": 27,
+      "hi": 31,
+      "lo": 23,
+      "daylight": 13.5,
+      "cld": 63,
+      "rain": 186,
+      "busy": 9,
+      "ac": 5,
+      "fl": 5
+    }
+  ]
+}
