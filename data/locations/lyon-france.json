@@ -154,7 +154,7 @@
       "daylight": 15.0,
       "cld": 53,
       "rain": 69,
-      "busy": 6,
+      "busy": 7,
       "ac": 4,
       "fl": 3
     },
@@ -178,7 +178,7 @@
       "daylight": 15.3,
       "cld": 31,
       "rain": 48,
-      "busy": 6,
+      "busy": 8,
       "ac": 5,
       "fl": 5
     },
@@ -238,7 +238,7 @@
       "daylight": 8.7,
       "cld": 62,
       "rain": 43,
-      "busy": 7,
+      "busy": 10,
       "ac": 5,
       "fl": 5
     }
