@@ -16,6 +16,14 @@
     "lng": -0.187
   },
   {
+  "id": "aktau-kazakhstan",
+  "city": "Aktau",
+  "country": "Kazakhstan",
+  "region": "Mangystau Region, Caspian Sea coast",
+  "lat": 43.65,
+  "lng": 51.1667
+},
+  {
     "id": "alanya-turkey",
     "city": "Alanya",
     "country": "Turkey",

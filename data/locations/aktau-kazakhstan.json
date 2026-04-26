@@ -1,0 +1,256 @@
+{
+  "id": "aktau-kazakhstan",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-26",
+    "climate": [
+      {
+        "name": "WeatherSpark",
+        "url": "https://weatherspark.com/y/105142/Average-Weather-in-Aktau-Kazakhstan-Year-Round"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-26",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Aktau",
+  "country": "Kazakhstan",
+  "region": "Mangystau Region, Caspian Sea coast",
+  "lat": 43.65,
+  "lng": 51.1667,
+  "desc": "Aktau is less a classic city break than a Caspian base for Mangystau's desert geology, sea-edge sunsets, underground mosques, and long 4x4 routes into chalk cliffs, salt flats, canyons, and steppe. The year splits quite sharply: spring and autumn are best for desert touring, summer brings Caspian swimming but serious inland heat, and winter is quieter and cheaper but colder, cloudier, and less forgiving for long outdoor days.",
+  "hls": [
+    "Caspian Sea waterfront sunsets in a city that works best as a calm base rather than a dense sightseeing hub.",
+    "Bozzhyra's chalk-white cliffs, ridges, and desert viewpoints, usually reached by guided 4x4 rather than casual public transport.",
+    "Torysh Valley of Balls, Sherkala, Airakty, Kyzylkup, and other geological stops that make Mangystau feel more like an expedition region than a resort coast.",
+    "Underground mosque and pilgrimage sites such as Shakpak-Ata and Beket-Ata, which add cultural weight to the desert landscapes.",
+    "Very dry weather and wide skies, especially from late spring into early autumn, but with heat becoming the main limiting factor away from the coast.",
+    "A useful offbeat add-on for travellers who want Kazakhstan beyond Almaty, Astana, and the Silk Road cities."
+  ],
+  "todo": [
+    {
+      "name": "Aktau seafront and Rock Trail sunset",
+      "cat": "Waterfront",
+      "desc": "Use the city itself as a slower arrival or recovery day, with the Caspian promenade working best late in the day when the light is softer and locals come out to walk."
+    },
+    {
+      "name": "Bozzhyra overnight or long 4x4 day",
+      "cat": "Desert landscape",
+      "desc": "Treat Bozzhyra as a serious distance-and-conditions trip rather than a quick viewpoint stop; sunrise, sunset, and overnight itineraries usually make the landscape feel much more worthwhile."
+    },
+    {
+      "name": "Torysh, Sherkala, and Airakty route",
+      "cat": "Geology",
+      "desc": "A strong one-day or two-day route if you want the 'other planet' version of Mangystau without immediately committing to the most remote desert drives."
+    },
+    {
+      "name": "Shakpak-Ata or Beket-Ata underground mosque",
+      "cat": "Culture",
+      "desc": "Go with a guide or driver who understands the route and local etiquette; these are living religious and pilgrimage places, not just photo stops."
+    },
+    {
+      "name": "Kyzylkup or Tuzbair landscape stop",
+      "cat": "Scenic",
+      "desc": "Add one coloured canyon, salt-flat, or chalk escarpment stop to avoid making every desert day feel like the same kind of scenery."
+    },
+    {
+      "name": "Caspian beach or swim window",
+      "cat": "Seasonal",
+      "desc": "Best kept for June to early September; in shoulder months the coast can still be pleasant for walking, but swimming becomes much less reliable."
+    },
+    {
+      "name": "Build in a spare logistics day",
+      "cat": "Pacing",
+      "desc": "Aktau rewards slower planning because tours, drivers, weather, and connection timing matter more here than in places with dense public transport and many daily flights."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 3,
+      "spd": "20-90 Mbps",
+      "note": "Better hotels and city apartments are usually workable for normal remote tasks, but Aktau is not a polished digital-nomad hub; mobile data backup is sensible, especially before or after desert tours."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "There are no nonstop London-to-Aktau flights. UK travellers should plan for one or two stops into Aktau International Airport, usually via Almaty, Astana, Istanbul/Sabiha Gökçen, or Baku depending on airline schedules. Gatwick can be useful for some connecting routings, especially via Baku or Istanbul, but it is not a direct Aktau route; London City is also connection-only and usually less practical. Aktau Airport is roughly 20-25 km from the city, so the final transfer is easy once you have reached SCO, but the flight planning is the real constraint.",
+    "airports": [
+      {
+        "name": "Aktau International Airport",
+        "code": "SCO",
+        "km": 24,
+        "dgw": false
+      }
+    ],
+    "currency": "Kazakhstani tenge (KZT); cards are usable in better hotels, malls, and many restaurants, but cash is still useful for taxis, small shops, local cafés, guides, and remote-tour payments.",
+    "lang": "Kazakh is the state language and Russian is widely used; English is most useful in better hotels and with tour operators, but not something to rely on across everyday services.",
+    "tz": "Kazakhstan Time in Aktau: UTC+5 year-round; no daylight saving time.",
+    "visa": "UK travellers can usually visit Kazakhstan visa-free for short tourism or business trips, but entry rules and stay limits should be checked before booking.",
+    "bestFor": [
+      "Mangystau 4x4 landscapes",
+      "Caspian Sea sunsets",
+      "Geology and photography trips",
+      "Offbeat Kazakhstan itineraries",
+      "Spring and autumn desert touring",
+      "Low-rain adventure travel"
+    ],
+    "alerts": [
+      "July and August can be punishing inland even when the coast feels manageable; desert routes need early starts, water, shade planning, and a serious driver.",
+      "Do not treat Mangystau sights as easy self-guided public-transport day trips; many routes need 4x4 access, local knowledge, and long driving hours.",
+      "Flight routings can involve separate tickets or low-frequency connections, so short self-transfer windows through Baku, Istanbul, or domestic Kazakhstan hubs are risky.",
+      "Some underground mosque and pilgrimage sites require respectful clothing and behaviour; ask your guide before photographing people or sacred interiors.",
+      "Winter is quiet but not a warm desert escape: shorter days, wind, cold nights, and cloudier weather make landscape touring less reliable."
+    ]
+  },
+  "sweet": "Late April to May and September to early October are the best-balanced windows for Aktau, with workable temperatures for Mangystau touring and lower pressure than peak summer; July and August are better for Caspian swimming but bring the highest heat, accommodation pressure, and UK flight-cost risk.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": 0.0,
+      "hi": 2.8,
+      "lo": -2.8,
+      "daylight": 9.4,
+      "cld": 58,
+      "rain": 2.5,
+      "busy": 2,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": 0.0,
+      "hi": 3.3,
+      "lo": -2.8,
+      "daylight": 10.5,
+      "cld": 54,
+      "rain": 5.1,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": 5.0,
+      "hi": 8.3,
+      "lo": 1.7,
+      "daylight": 12.0,
+      "cld": 50,
+      "rain": 7.6,
+      "busy": 4,
+      "ac": 3,
+      "fl": 4
+    },
+    {
+      "m": "Apr",
+      "avg": 11.7,
+      "hi": 15.0,
+      "lo": 7.8,
+      "daylight": 13.5,
+      "cld": 47,
+      "rain": 12.7,
+      "busy": 7,
+      "ac": 6,
+      "fl": 5
+    },
+    {
+      "m": "May",
+      "avg": 17.8,
+      "hi": 21.7,
+      "lo": 13.9,
+      "daylight": 14.8,
+      "cld": 36,
+      "rain": 7.6,
+      "busy": 8,
+      "ac": 7,
+      "fl": 6
+    },
+    {
+      "m": "Jun",
+      "avg": 23.3,
+      "hi": 27.2,
+      "lo": 19.4,
+      "daylight": 15.4,
+      "cld": 22,
+      "rain": 5.1,
+      "busy": 8,
+      "ac": 8,
+      "fl": 8
+    },
+    {
+      "m": "Jul",
+      "avg": 26.1,
+      "hi": 30.0,
+      "lo": 21.7,
+      "daylight": 15.0,
+      "cld": 12,
+      "rain": 5.1,
+      "busy": 9,
+      "ac": 9,
+      "fl": 10
+    },
+    {
+      "m": "Aug",
+      "avg": 25.6,
+      "hi": 29.4,
+      "lo": 20.6,
+      "daylight": 13.9,
+      "cld": 13,
+      "rain": 5.1,
+      "busy": 10,
+      "ac": 10,
+      "fl": 9
+    },
+    {
+      "m": "Sep",
+      "avg": 20.0,
+      "hi": 23.9,
+      "lo": 15.0,
+      "daylight": 12.5,
+      "cld": 24,
+      "rain": 7.6,
+      "busy": 8,
+      "ac": 8,
+      "fl": 7
+    },
+    {
+      "m": "Oct",
+      "avg": 13.3,
+      "hi": 16.7,
+      "lo": 8.9,
+      "daylight": 11.0,
+      "cld": 38,
+      "rain": 10.2,
+      "busy": 6,
+      "ac": 6,
+      "fl": 6
+    },
+    {
+      "m": "Nov",
+      "avg": 6.1,
+      "hi": 9.4,
+      "lo": 2.8,
+      "daylight": 9.7,
+      "cld": 51,
+      "rain": 10.2,
+      "busy": 3,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": 2.2,
+      "hi": 4.4,
+      "lo": -0.6,
+      "daylight": 9.0,
+      "cld": 59,
+      "rain": 5.1,
+      "busy": 3,
+      "ac": 4,
+      "fl": 8
+    }
+  ]
+}
