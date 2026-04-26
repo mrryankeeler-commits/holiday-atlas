@@ -1,0 +1,272 @@
+{
+  "id": "ushguli-georgia",
+  "source": {
+    "climateVerified": true,
+    "climateVerifiedOn": "2026-04-26",
+    "climate": [
+      {
+        "name": "Timeanddate.com",
+        "url": "https://www.timeanddate.com/weather/@6621468/climate"
+      },
+      {
+        "name": "Wanderlog",
+        "url": "https://wanderlog.com/tp/21770/ushguli-trip-planner"
+      }
+    ],
+    "importedFromCsv": "data/climate/uploads/Climate_Date_08 - Climate Data.csv",
+    "scoring": {
+      "reviewedOn": "2026-04-26",
+      "profile": "seasonality-inference-v1"
+    }
+  },
+  "city": "Ushguli",
+  "country": "Georgia",
+  "region": "Upper Svaneti, Samegrelo-Zemo Svaneti",
+  "lat": 42.9175,
+  "lng": 43.0158,
+  "desc": "Ushguli is a high-mountain Svan village cluster at the head of the Enguri gorge, where medieval towers, guesthouse stays, and Shkhara views matter more than conventional sightseeing. The year is tightly controlled by altitude and road access: July to September is the real trekking and 4x4 window, June can be excellent but still needs mountain judgement, October is beautiful but fragile, and winter to early spring is remote, cold, snowy, and much harder to use as a normal holiday base.",
+  "hls": [
+    "One of Europe's highest continuously inhabited village communities, with a severe Greater Caucasus setting rather than a polished resort feel.",
+    "Svan defensive towers and stone houses that make the village itself part of the landscape, not just a base for hikes.",
+    "Direct views toward Shkhara, Georgia's highest peak, especially rewarding in clear summer and early autumn weather.",
+    "A classic end point for the Mestia-to-Ushguli trek, with guesthouse stages through Svan villages rather than camping-only logistics.",
+    "A rare place where weather, road conditions, snowmelt, and local transport decide the trip as much as the itinerary does.",
+    "Best suited to travellers who want mountain atmosphere, simple stays, and slow logistics rather than easy comfort."
+  ],
+  "todo": [
+    {
+      "name": "Walk through Chazhashi and the Svan towers",
+      "cat": "Heritage",
+      "desc": "Go slowly rather than treating the village as a quick photo stop; the towers, lanes, animals, and mountain backdrop are the main experience."
+    },
+    {
+      "name": "Lamaria Church viewpoint",
+      "cat": "Culture",
+      "desc": "A short but rewarding walk above the village, especially in clear morning or evening light when Shkhara is more likely to show."
+    },
+    {
+      "name": "Shkhara Glacier day walk or horse route",
+      "cat": "Hiking",
+      "desc": "Best in settled summer conditions; check river crossings, weather, and local advice before assuming it is a simple out-and-back."
+    },
+    {
+      "name": "Mestia to Ushguli trek",
+      "cat": "Trekking",
+      "desc": "The classic 3-4 day approach gives Ushguli more meaning than arriving only by vehicle, but the season is short and early/late snow can change pass conditions."
+    },
+    {
+      "name": "4x4 route from Mestia",
+      "cat": "Road trip",
+      "desc": "Use a local driver if conditions are uncertain; even improved roads can still be affected by weather, landslides, snow, and fast-changing mountain conditions."
+    },
+    {
+      "name": "Svan guesthouse dinner",
+      "cat": "Food",
+      "desc": "Keep at least one evening unhurried for kubdari, chvishtari, local cheese, and the practical rhythm of a village guesthouse stay."
+    },
+    {
+      "name": "Mestia museum and logistics buffer",
+      "cat": "Pacing",
+      "desc": "Use Mestia before or after Ushguli for the Svaneti Museum, supplies, transport checks, and a backup night if road or flight timing moves."
+    }
+  ],
+  "prac": {
+    "wifi": {
+      "r": 2,
+      "spd": "5-35 Mbps",
+      "note": "Usable for basic messages and light admin in some guesthouses, but too variable for dependable remote work. Mobile data can help, but mountain signal and power stability should not be assumed."
+    },
+    "directGW": false,
+    "directFrom": {
+      "LGW": false,
+      "LCY": false
+    },
+    "fltNote": "Ushguli has no international airport. The practical UK route is usually London to Tbilisi or Kutaisi with a long onward road journey into Svaneti, or a small domestic hop to Mestia when schedules and weather cooperate. There are direct London-Heathrow flights to Tbilisi, but no direct Gatwick or London City route to Tbilisi, Kutaisi, or Ushguli's local access point, so LGW and LCY are marked false. Mestia's Queen Tamar Airport is useful in theory but tiny, weather-sensitive, domestic-only, and should not be used for tight international connections.",
+    "airports": [
+      {
+        "name": "Kutaisi International Airport",
+        "code": "KUT",
+        "km": 160,
+        "dgw": false
+      },
+      {
+        "name": "Tbilisi International Airport",
+        "code": "TBS",
+        "km": 410,
+        "dgw": false
+      },
+      {
+        "name": "Batumi International Airport",
+        "code": "BUS",
+        "km": 300,
+        "dgw": false
+      }
+    ],
+    "currency": "Georgian lari (GEL); cards are useful in Tbilisi, Kutaisi, Mestia, and better hotels, but cash is important in Ushguli for guesthouses, drivers, meals, horse routes, and small local payments.",
+    "lang": "Georgian is the main national language and Svan is spoken locally; English is commonest with guesthouses, guides, and tour operators, while everyday village communication can be limited.",
+    "tz": "Georgia Standard Time, GET (UTC+4) year-round; no daylight saving time.",
+    "visa": "UK travellers can usually visit Georgia without a visa for up to one year, but should still check current entry rules, passport validity, insurance, and FCDO travel advice before booking.",
+    "bestFor": [
+      "High Caucasus villages",
+      "Svan tower heritage",
+      "Multi-day trekking",
+      "Mountain photography",
+      "Simple guesthouse stays",
+      "Georgia road trips"
+    ],
+    "alerts": [
+      "The usable mountain season is short; snow can linger into June and return from early October on higher routes.",
+      "Do not build a tight plan around domestic flights to Mestia because aircraft are small and weather disruption is common.",
+      "Road conditions can change quickly after rain, snow, or landslides; local drivers are often safer than self-driving.",
+      "Bring enough cash before leaving Mestia because card acceptance and ATM access in Ushguli are limited.",
+      "Nights are cold even in summer, and winter or early-spring trips need proper cold-weather planning rather than normal city-break assumptions."
+    ]
+  },
+  "sweet": "Late June to September is the most usable Ushguli window, with July and August offering the most reliable trekking access but the highest guesthouse and flight pressure; September is often the best balance if you want mountain clarity, fewer people, and lower peak-season strain.",
+  "months": [
+    {
+      "m": "Jan",
+      "avg": -10.0,
+      "hi": -5.0,
+      "lo": -15.0,
+      "daylight": 9.4,
+      "cld": 65,
+      "rain": 39.6,
+      "busy": 2,
+      "ac": 3,
+      "fl": 3
+    },
+    {
+      "m": "Feb",
+      "avg": -9.2,
+      "hi": -3.9,
+      "lo": -14.4,
+      "daylight": 10.5,
+      "cld": 61,
+      "rain": 43.4,
+      "busy": 2,
+      "ac": 2,
+      "fl": 2
+    },
+    {
+      "m": "Mar",
+      "avg": -6.4,
+      "hi": -1.1,
+      "lo": -11.7,
+      "daylight": 11.9,
+      "cld": 62,
+      "rain": 46.7,
+      "busy": 1,
+      "ac": 1,
+      "fl": 3
+    },
+    {
+      "m": "Apr",
+      "avg": -1.1,
+      "hi": 3.9,
+      "lo": -6.1,
+      "daylight": 13.4,
+      "cld": 58,
+      "rain": 58.2,
+      "busy": 2,
+      "ac": 2,
+      "fl": 6
+    },
+    {
+      "m": "May",
+      "avg": 6.1,
+      "hi": 11.1,
+      "lo": 1.1,
+      "daylight": 14.6,
+      "cld": 62,
+      "rain": 50.8,
+      "busy": 4,
+      "ac": 4,
+      "fl": 5
+    },
+    {
+      "m": "Jun",
+      "avg": 10.6,
+      "hi": 16.1,
+      "lo": 5.0,
+      "daylight": 15.3,
+      "cld": 46,
+      "rain": 41.9,
+      "busy": 7,
+      "ac": 6,
+      "fl": 7
+    },
+    {
+      "m": "Jul",
+      "avg": 13.6,
+      "hi": 19.4,
+      "lo": 7.8,
+      "daylight": 15.0,
+      "cld": 30,
+      "rain": 38.4,
+      "busy": 10,
+      "ac": 9,
+      "fl": 10
+    },
+    {
+      "m": "Aug",
+      "avg": 13.6,
+      "hi": 19.4,
+      "lo": 7.8,
+      "daylight": 14.0,
+      "cld": 29,
+      "rain": 27.2,
+      "busy": 10,
+      "ac": 10,
+      "fl": 9
+    },
+    {
+      "m": "Sep",
+      "avg": 9.8,
+      "hi": 15.6,
+      "lo": 3.9,
+      "daylight": 12.6,
+      "cld": 38,
+      "rain": 31.2,
+      "busy": 8,
+      "ac": 8,
+      "fl": 7
+    },
+    {
+      "m": "Oct",
+      "avg": 3.9,
+      "hi": 8.9,
+      "lo": -1.1,
+      "daylight": 11.1,
+      "cld": 48,
+      "rain": 19.6,
+      "busy": 5,
+      "ac": 5,
+      "fl": 5
+    },
+    {
+      "m": "Nov",
+      "avg": -2.5,
+      "hi": 2.2,
+      "lo": -7.2,
+      "daylight": 9.8,
+      "cld": 49,
+      "rain": 40.4,
+      "busy": 2,
+      "ac": 2,
+      "fl": 3
+    },
+    {
+      "m": "Dec",
+      "avg": -7.8,
+      "hi": -2.8,
+      "lo": -12.8,
+      "daylight": 9.1,
+      "cld": 58,
+      "rain": 37.1,
+      "busy": 3,
+      "ac": 3,
+      "fl": 8
+    }
+  ]
+}

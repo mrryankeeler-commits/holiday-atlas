@@ -2208,6 +2208,14 @@
     "lng": 19.2244
   },
   {
+  "id": "ushguli-georgia",
+  "city": "Ushguli",
+  "country": "Georgia",
+  "region": "Upper Svaneti, Samegrelo-Zemo Svaneti",
+  "lat": 42.9175,
+  "lng": 43.0158
+},
+  {
     "id": "ushuaia-argentina",
     "city": "Ushuaia",
     "country": "Argentina",
