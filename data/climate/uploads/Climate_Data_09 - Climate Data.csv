@@ -1,0 +1,781 @@
+Location,Month,Avg temp (°C),Avg high (°C),Avg low (°C),Daylight (h/day),Cloud cover (%),Rainfall (mm),Source URL
+"Salvador, Brazil",January,28,31,25,12.8,53,51,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",February,28,31,25,12.5,49,65,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",March,28,31,25,12.1,53,84,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",April,27,30,25,11.8,50,147,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",May,26,29,24,11.5,40,156,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",June,25,28,23,11.4,30,132,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",July,25,28,22,11.5,25,101,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",August,25,28,22,11.7,27,70,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",September,25,28,23,12,26,56,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",October,26,29,24,12.4,40,55,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",November,27,30,24,12.7,60,65,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Salvador, Brazil",December,27,30,24,12.9,62,56,https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round
+"Takayama, Japan",January,-3,1,-6,10,64,38,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",February,-2,2,-5,10.9,63,48,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",March,2,7,-1,12,57,86,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",April,9,14,5,13.1,56,107,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",May,14,19,10,14.1,59,112,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",June,19,23,15,14.6,68,150,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",July,22,27,19,14.3,68,183,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",August,23,28,19,13.5,58,130,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",September,19,23,15,12.4,55,170,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",October,12,17,8,11.2,50,119,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",November,6,11,3,10.2,51,91,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Takayama, Japan",December,1,4,-2,9.7,56,58,https://weatherspark.com/y/143621/Average-Weather-in-Takayama-Japan-Year-Round
+"Kanazawa, Japan",January,3,6,1,10,72,135,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",February,3,7,1,10.9,67,104,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",March,7,11,4,12,55,109,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",April,12,17,9,13.2,52,112,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",May,17,21,14,14.1,54,112,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",June,21,24,18,14.6,62,145,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",July,25,28,22,14.4,63,180,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",August,27,30,23,13.5,53,130,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",September,22,26,19,12.4,51,175,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",October,17,21,13,11.2,43,137,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",November,11,14,8,10.2,47,155,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Kanazawa, Japan",December,6,9,3,9.7,61,168,https://weatherspark.com/y/143553/Average-Weather-in-Kanazawa-Japan-Year-Round
+"Siem Reap, Cambodia",January,26,31,22,11.4,47,5,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",February,28,32,23,11.7,47,13,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",March,29,34,26,12.1,60,28,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",April,31,35,27,12.4,81,56,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",May,30,34,27,12.8,89,117,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",June,29,32,27,12.9,91,168,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",July,28,31,26,12.8,91,180,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",August,28,31,26,12.5,92,206,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",September,28,31,26,12.2,89,216,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",October,28,30,26,11.8,79,117,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",November,27,30,24,11.5,63,30,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Siem Reap, Cambodia",December,25,29,22,11.4,49,5,https://weatherspark.com/y/114683/Average-Weather-in-Siem-Reap-Cambodia-Year-Round
+"Thimphu, Bhutan",January,5,12,-3,10.6,15,25,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",February,8,14,1,11.2,18,33,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",March,10,16,4,12,24,31,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",April,14,20,7,12.8,35,58,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",May,18,22,13,13.5,49,122,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",June,20,24,15,13.9,68,246,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",July,20,25,15,13.7,86,373,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",August,20,25,16,13.1,84,345,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",September,19,23,15,12.3,72,155,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",October,16,22,10,11.5,35,38,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",November,11,18,5,10.8,18,8,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Thimphu, Bhutan",December,7,14,-1,10.4,15,13,https://www.weather-atlas.com/en/bhutan/thimphu-climate
+"Pokhara, Nepal",January,12,19,8,10.6,15,10,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",February,14,22,9,11.2,17,10,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",March,18,26,12,12,19,10,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",April,23,30,16,12.9,18,15,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",May,26,32,19,13.6,12,41,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",June,27,32,22,13.9,34,122,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",July,26,30,23,13.7,74,213,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",August,26,29,23,13.1,78,175,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",September,24,28,21,12.3,47,117,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",October,21,26,17,11.5,13,41,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",November,17,23,13,10.7,9,5,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Pokhara, Nepal",December,14,21,10,10.4,14,5,https://weatherspark.com/y/110770/Average-Weather-in-Pokhara-Nepal-Year-Round
+"Galle, Sri Lanka",January,27,30,24,11.8,65,61,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",February,28,31,25,11.9,60,46,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",March,28,31,26,12.1,62,64,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",April,28,31,26,12.3,75,117,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",May,29,31,27,12.4,86,135,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",June,28,30,27,12.5,88,86,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",July,28,30,27,12.4,88,58,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",August,28,29,27,12.3,86,66,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",September,28,29,26,12.1,81,102,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",October,28,30,26,12,80,170,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",November,27,30,25,11.8,78,201,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Galle, Sri Lanka",December,27,30,24,11.8,72,119,https://weatherspark.com/y/110081/Average-Weather-in-Galle-Sri-Lanka-Year-Round
+"Aqaba, Jordan",January,15,21,10,10.5,23,8,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",February,17,22,12,11.2,21,5,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",March,20,26,14,12,20,5,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",April,24,31,18,12.9,23,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",May,29,35,22,13.7,19,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",June,32,38,25,14,3,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",July,33,39,27,13.8,2,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",August,33,39,27,13.2,1,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",September,31,36,25,12.3,2,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",October,27,32,22,11.4,13,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",November,21,27,16,10.7,24,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Aqaba, Jordan",December,16,22,12,10.3,27,5,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Fès, Morocco",January,11,16,6,10.2,40,79,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",February,12,17,7,11,40,74,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",March,14,20,8,12,39,64,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",April,16,22,10,13.1,37,56,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",May,19,26,13,14,33,33,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",June,24,31,17,14.4,19,10,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",July,27,35,19,14.1,8,3,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",August,27,35,20,13.4,13,5,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",September,24,31,18,12.3,32,18,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",October,20,26,14,11.3,42,48,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",November,15,21,10,10.4,42,84,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Fès, Morocco",December,12,17,7,9.9,41,84,https://weatherspark.com/y/34063/Average-Weather-in-F%C3%A8s-Morocco-Year-Round
+"Maribor, Slovenia",January,-1,3,-4,9.1,56,18,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",February,1,6,-3,10.4,55,25,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",March,6,11,1,12,55,38,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",April,11,16,5,13.6,54,51,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",May,15,21,9,15.1,50,69,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",June,18,24,13,15.8,43,86,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",July,21,26,14,15.4,33,81,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",August,19,25,14,14.1,34,84,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",September,16,21,10,12.5,43,89,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",October,11,15,6,10.8,52,74,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",November,4,8,1,9.4,60,56,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Maribor, Slovenia",December,1,4,-3,8.6,59,33,https://weatherspark.com/y/79279/Average-Weather-in-Maribor-Slovenia-Year-Round
+"Shkodër, Albania",January,6,10,2,9.5,52,102,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",February,7,12,3,10.6,52,107,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",March,11,15,6,12,51,91,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",April,14,19,10,13.4,48,86,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",May,19,24,14,14.6,42,56,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",June,23,28,18,15.2,26,41,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",July,27,32,21,14.9,12,23,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",August,26,31,21,13.8,16,33,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",September,22,27,17,12.4,31,81,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",October,16,21,12,11,44,109,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",November,11,15,7,9.8,52,137,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Shkodër, Albania",December,7,11,3,9.2,54,122,https://weatherspark.com/y/84405/Average-Weather-in-Shkod%C3%ABr-Albania-Year-Round
+"Skopje, North Macedonia",January,1,5,-3,9.5,47,28,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",February,3,8,-2,10.6,49,30,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",March,7,13,2,12,47,38,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",April,12,18,6,13.4,46,46,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",May,17,23,11,14.6,41,43,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",June,21,28,14,15.2,25,38,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",July,23,31,16,14.9,13,28,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",August,23,31,16,13.8,16,28,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",September,19,26,12,12.4,30,46,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",October,13,19,7,11,42,58,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",November,7,12,2,9.8,48,61,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Skopje, North Macedonia",December,2,6,-2,9.2,49,38,https://weatherspark.com/y/86779/Average-Weather-in-Skopje-Macedonia-Year-Round
+"Prizren, Kosovo",January,1,5,-3,9.5,50,38,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",February,3,7,-2,10.6,51,41,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",March,7,12,2,12,50,46,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",April,12,17,6,13.4,49,53,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",May,16,22,10,14.6,44,48,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",June,20,26,13,15.2,27,41,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",July,22,29,16,14.9,13,30,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",August,22,29,15,13.8,17,30,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",September,18,24,12,12.4,32,53,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",October,12,18,7,11,44,66,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",November,7,12,2,9.8,51,74,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Prizren, Kosovo",December,2,6,-1,9.2,52,51,https://weatherspark.com/y/85677/Average-Weather-in-Prizren-Kosovo-Year-Round
+"Pejë, Kosovo",January,0,4,-3,9.5,51,48,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",February,2,6,-2,10.6,52,51,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",March,6,11,2,12,51,53,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",April,11,16,6,13.4,50,64,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",May,15,21,9,14.7,45,56,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",June,19,24,13,15.3,29,48,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",July,21,27,15,14.9,15,38,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",August,21,27,14,13.8,18,38,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",September,17,23,11,12.4,34,66,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",October,12,17,7,11,46,76,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",November,6,10,2,9.7,53,86,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Pejë, Kosovo",December,1,5,-2,9.1,53,64,https://weatherspark.com/y/85680/Average-Weather-in-Pej%C3%AB-Kosovo-Year-Round
+"Udaipur, India",January,17,26,9,10.8,15,3,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",February,19,29,11,11.3,13,3,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",March,24,34,16,12,19,3,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",April,29,38,21,12.8,20,5,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",May,32,40,24,13.4,15,10,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",June,32,38,25,13.6,38,58,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",July,28,33,23,13.5,68,173,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",August,26,30,22,13,68,163,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",September,26,32,21,12.3,37,74,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",October,25,32,18,11.6,14,13,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",November,21,30,14,10.9,14,3,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"Udaipur, India",December,18,27,11,10.6,17,3,https://weatherspark.com/y/107665/Average-Weather-in-Udaipur-Rajasthan-India-Year-Round
+"San Pedro de Atacama, Chile",January,18,27,9,13.4,31,5,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",February,18,26,9,12.8,28,5,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",March,17,26,8,12.2,21,3,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",April,14,24,6,11.5,18,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",May,12,22,4,11,16,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",June,10,20,2,10.7,15,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",July,9,20,1,10.9,12,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",August,11,21,3,11.4,10,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",September,13,23,4,12,10,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",October,15,24,5,12.7,16,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",November,17,26,6,13.2,20,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"San Pedro de Atacama, Chile",December,18,27,8,13.5,26,0,https://weatherspark.com/y/27339/Average-Weather-in-San-Pedro-de-Atacama-Chile-Year-Round
+"Bukhara, Uzbekistan",January,2,7,-2,9.7,51,8,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",February,4,9,-1,10.7,48,10,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",March,10,16,4,12,47,18,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",April,17,24,10,13.3,39,13,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",May,23,30,15,14.4,25,8,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",June,28,36,19,14.9,7,3,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",July,30,37,22,14.6,2,0,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",August,28,35,19,13.7,1,0,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",September,22,30,13,12.4,7,0,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",October,14,22,7,11.1,24,3,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",November,8,14,2,10,39,8,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Bukhara, Uzbekistan",December,3,8,-1,9.4,46,8,https://weatherspark.com/y/106261/Average-Weather-in-Bukhara-Uzbekistan-Year-Round
+"Avignon, France",January,6,10,2,9.3,45,41,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",February,7,12,3,10.5,42,36,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",March,11,16,6,12,43,33,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",April,13,19,8,13.5,43,48,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",May,17,23,12,14.8,44,48,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",June,22,28,16,15.4,33,30,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",July,24,31,18,15.1,21,18,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",August,24,30,18,13.9,26,28,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",September,19,26,14,12.5,35,58,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",October,15,20,11,10.9,46,76,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",November,9,14,6,9.6,46,69,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Avignon, France",December,6,11,3,9,44,43,https://weatherspark.com/y/50256/Average-Weather-in-Avignon-France-Year-Round
+"Carcassonne, France",January,6,9,3,9.4,58,36,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",February,7,11,3,10.6,54,36,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",March,9,14,6,12,52,33,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",April,12,17,8,13.5,51,43,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",May,16,21,12,14.7,49,43,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",June,20,25,15,15.3,36,30,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",July,23,28,17,15,22,20,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",August,22,28,17,13.9,27,28,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",September,19,24,14,12.4,37,36,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",October,15,19,11,11,49,46,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",November,10,13,7,9.7,56,46,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Carcassonne, France",December,7,10,4,9,57,38,https://weatherspark.com/y/47514/Average-Weather-in-Carcassonne-France-Year-Round
+"Ajaccio, France",January,8,13,4,9.5,47,48,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",February,8,13,4,10.6,43,51,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",March,11,15,6,12,42,51,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",April,13,18,8,13.4,42,46,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",May,17,21,11,14.6,41,41,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",June,20,24,15,15.2,28,18,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",July,23,27,17,14.9,15,8,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",August,23,28,17,13.8,20,15,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",September,20,25,15,12.4,34,43,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",October,17,22,12,11,45,66,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",November,13,18,8,9.8,47,76,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Ajaccio, France",December,9,14,6,9.2,45,64,https://weatherspark.com/y/58876/Average-Weather-in-Ajaccio-France-Year-Round
+"Bastia, France",January,9,13,6,9.5,45,43,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",February,9,13,6,10.6,42,41,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",March,11,15,7,12.0,42,43,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",April,13,17,9,13.4,41,46,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",May,17,21,13,14.7,40,36,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",June,21,25,17,15.3,28,23,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",July,24,28,19,14.9,15,8,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",August,24,28,19,13.8,20,18,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",September,21,25,17,12.4,33,48,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",October,17,21,14,11.0,44,71,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",November,13,17,10,9.7,47,79,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Bastia, France",December,10,14,7,9.1,45,56,https://weatherspark.com/y/62134/Average-Weather-in-Bastia-France-Year-Round
+"Chamonix, France",January,-7,-2,-11,9.2,49,28,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",February,-7,-2,-11,10.4,50,31,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",March,-3,1,-7,12.0,51,43,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",April,1,5,-3,13.6,48,29,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",May,5,9,1,15.0,50,58,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",June,9,14,5,15.7,44,49,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",July,12,17,7,15.3,38,37,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",August,12,17,6,14.0,35,38,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",September,8,13,4,12.5,39,15,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",October,4,9,0,10.9,37,26,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",November,-1,3,-5,9.5,45,35,https://www.weather-atlas.com/en/france/chamonix-climate
+"Chamonix, France",December,-5,-1,-10,8.7,48,72,https://www.weather-atlas.com/en/france/chamonix-climate
+"Bergamo, Italy",January,3,7,-1,9.2,46,41,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",February,4,8,1,10.4,46,41,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",March,9,13,4,12.0,48,53,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",April,12,17,8,13.6,52,84,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",May,17,22,13,15.0,51,97,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",June,21,26,16,15.7,41,86,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",July,24,28,18,15.3,28,69,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",August,23,28,18,14.0,30,74,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",September,19,23,14,12.5,40,89,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",October,14,17,10,10.9,49,99,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",November,8,11,5,9.5,51,91,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Bergamo, Italy",December,3,7,1,8.7,47,51,https://weatherspark.com/y/62780/Average-Weather-in-Bergamo-Italy-Year-Round
+"Cagliari, Italy",January,10,14,6,9.8,41,30,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",February,10,14,6,10.8,39,33,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",March,12,17,8,12.0,39,28,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",April,14,19,11,13.3,40,28,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",May,18,23,14,14.4,39,18,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",June,22,27,18,14.9,24,8,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",July,26,31,20,14.6,9,3,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",August,26,31,21,13.6,14,5,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",September,23,27,18,12.4,33,23,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",October,19,23,15,11.1,43,38,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",November,14,18,11,10.0,43,51,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Cagliari, Italy",December,11,15,7,9.5,42,38,https://weatherspark.com/y/62012/Average-Weather-in-Cagliari-Italy-Year-Round
+"Trapani, Italy",January,12,14,8,9.9,41,46,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",February,11,14,8,10.8,39,43,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",March,13,16,9,12.0,37,36,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",April,15,19,11,13.2,37,30,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",May,19,23,14,14.3,35,20,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",June,23,27,18,14.8,21,8,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",July,26,30,21,14.5,6,3,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",August,26,30,22,13.6,10,8,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",September,24,28,19,12.4,29,38,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",October,20,24,17,11.2,42,56,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",November,16,19,13,10.1,41,58,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Trapani, Italy",December,13,16,10,9.6,42,53,https://weatherspark.com/y/71757/Average-Weather-in-Trapani-Italy-Year-Round
+"Ragusa, Italy",January,8,12,4,10,39,53,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",February,8,12,4,10.9,37,43,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",March,10,14,6,12,36,30,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",April,13,18,8,13.2,35,20,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",May,17,22,13,14.2,33,10,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",June,22,26,18,14.7,18,3,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",July,24,29,20,14.4,4,3,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",August,24,29,19,13.5,7,5,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",September,21,26,17,12.4,26,30,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",October,17,21,13,11.2,41,48,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",November,13,17,9,10.2,41,58,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Ragusa, Italy",December,9,13,6,9.7,39,64,https://weatherspark.com/y/76331/Average-Weather-in-Ragusa-Italy-Year-Round
+"Pienza, Italy",January,4,8,-1,9.4,53,38,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",February,4,10,0,10.6,48,46,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",March,8,13,2,12,47,43,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",April,11,17,5,13.5,47,48,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",May,16,22,9,14.7,43,43,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",June,19,26,13,15.3,29,36,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",July,23,29,15,15,16,23,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",August,23,29,15,13.9,21,30,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",September,18,24,12,12.4,34,61,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",October,13,19,8,11,45,74,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",November,8,13,4,9.7,51,86,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Pienza, Italy",December,4,9,1,9.1,52,58,https://weatherspark.com/y/68972/Average-Weather-in-Pienza-Italy-Year-Round
+"Alberobello, Italy",January,7,9,3,9.6,44,43,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",February,7,10,3,10.7,43,46,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",March,9,12,5,12,43,43,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",April,12,16,8,13.4,41,36,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",May,16,21,12,14.5,36,23,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",June,21,25,16,15.1,22,15,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",July,23,28,18,14.7,9,13,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",August,23,28,18,13.7,13,18,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",September,19,23,15,12.4,28,43,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",October,15,19,12,11.1,39,56,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",November,11,14,8,9.9,43,66,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Alberobello, Italy",December,7,11,4,9.3,44,53,https://weatherspark.com/y/82035/Average-Weather-in-Alberobello-Italy-Year-Round
+"Salamanca, Spain",January,3,8,-1,9.6,57,25,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",February,5,11,0,10.7,52,18,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",March,8,14,2,12,50,18,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",April,10,16,4,13.4,47,28,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",May,14,20,8,14.5,42,30,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",June,18,26,11,15.1,30,20,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",July,21,29,13,14.8,16,8,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",August,21,29,13,13.7,21,8,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",September,17,24,10,12.4,36,20,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",October,12,18,7,11.1,49,41,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",November,7,13,3,9.9,57,36,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Salamanca, Spain",December,4,9,1,9.3,59,30,https://weatherspark.com/y/34543/Average-Weather-in-Salamanca-Spain-Year-Round
+"Oviedo, Spain",January,8,12,5,9.4,59,64,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",February,8,12,5,10.5,56,58,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",March,10,14,6,12,54,48,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",April,11,15,7,13.5,53,56,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",May,13,17,10,14.7,50,46,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",June,17,20,13,15.4,40,30,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",July,18,22,14,15,26,20,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",August,19,23,15,13.9,31,25,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",September,17,21,13,12.4,43,41,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",October,14,18,11,11,54,64,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",November,11,14,8,9.7,60,76,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Oviedo, Spain",December,9,12,6,9,60,66,https://weatherspark.com/y/34984/Average-Weather-in-Oviedo-Spain-Year-Round
+"Veliko Tarnovo, Bulgaria",January,-1,3,-5,9.4,54,13,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",February,1,6,-4,10.6,55,15,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",March,6,11,0,12,52,23,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",April,11,17,4,13.5,49,33,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",May,16,22,9,14.7,43,46,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",June,20,26,13,15.3,30,58,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",July,22,28,14,15,14,46,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",August,21,28,14,13.9,17,36,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",September,17,24,10,12.4,30,38,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",October,11,17,6,11,44,33,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",November,5,10,1,9.7,52,25,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Veliko Tarnovo, Bulgaria",December,0,4,-3,9.1,56,20,https://weatherspark.com/y/91846/Average-Weather-in-Veliko-T%C5%ADrnovo-Bulgaria-Year-Round
+"Sozopol, Bulgaria",January,3,7,0,9.5,55,33,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",February,4,8,1,10.6,57,30,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",March,7,11,3,12,53,33,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",April,11,15,7,13.4,48,33,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",May,16,20,12,14.6,38,28,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",June,21,25,16,15.2,24,36,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",July,23,27,18,14.9,9,23,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",August,23,27,18,13.8,12,20,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",September,19,23,15,12.4,25,33,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",October,14,18,11,11,44,48,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",November,9,13,6,9.8,53,48,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Sozopol, Bulgaria",December,5,8,2,9.1,57,41,https://weatherspark.com/y/94423/Average-Weather-in-Sozopol-Bulgaria-Year-Round
+"Tinghir, Morocco",January,8,14,3,10.4,29,8,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",February,11,17,6,11.1,27,13,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",March,14,20,9,12,29,15,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",April,18,24,13,13,26,10,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",May,22,28,17,13.8,27,10,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",June,27,33,21,14.2,18,5,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",July,31,36,24,14,8,3,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",August,29,34,23,13.2,13,5,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",September,25,30,19,12.3,30,13,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",October,19,24,13,11.4,38,15,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",November,13,19,8,10.5,33,15,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Tinghir, Morocco",December,9,15,4,10.1,31,10,https://weatherspark.com/y/34028/Average-Weather-in-Tinghir-Morocco-Year-Round
+"Chefchaouen, Morocco",January,8,13,3,10.1,42,76,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",February,9,13,4,10.9,42,71,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",March,11,16,6,12,41,58,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",April,12,17,8,13.1,38,53,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",May,16,21,11,14,34,30,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",June,19,26,14,14.5,19,8,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",July,23,29,17,14.2,7,3,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",August,23,29,18,13.4,13,3,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",September,20,26,15,12.4,32,18,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",October,16,21,12,11.3,43,61,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",November,12,17,7,10.3,44,94,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Chefchaouen, Morocco",December,9,14,4,9.8,45,91,https://weatherspark.com/y/34075/Average-Weather-in-Chefchaouene-Morocco-Year-Round
+"Dharamshala, India",January,7,12,2,10.3,37,23,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",February,9,14,4,11.1,40,43,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",March,13,19,8,12,40,46,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",April,19,24,12,13,29,30,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",May,23,29,16,13.8,13,28,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",June,25,30,19,14.2,6,69,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",July,24,28,21,14,24,193,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",August,23,27,21,13.3,28,178,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",September,22,26,18,12.3,7,84,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",October,17,23,12,11.3,7,18,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",November,13,18,7,10.5,19,8,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Dharamshala, India",December,9,14,4,10.1,32,13,https://weatherspark.com/y/108817/Average-Weather-in-Dharamsala-Himachal-Pradesh-India-Year-Round
+"Rishikesh, India",January,14,22,10,10.5,25,23,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",February,17,24,12,11.1,28,33,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",March,22,30,16,12,29,25,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",April,28,36,21,12.9,21,25,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",May,32,39,24,13.7,9,36,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",June,33,39,27,14.1,11,127,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",July,31,34,27,13.9,41,295,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",August,28,32,25,13.2,47,297,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",September,27,31,23,12.3,16,152,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",October,23,29,18,11.4,6,25,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",November,19,27,14,10.6,11,5,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Rishikesh, India",December,16,23,11,10.2,21,10,https://weatherspark.com/y/109659/Average-Weather-in-Rish%C4%ABkesh-Uttarakhand-India-Year-Round
+"Quy Nhơn, Vietnam",January,23,26,22,11.4,54,20,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",February,24,27,22,11.7,50,8,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",March,26,29,24,12.1,52,18,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",April,28,31,26,12.5,69,20,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",May,29,33,27,12.8,90,53,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",June,30,33,28,12.9,95,53,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",July,30,33,28,12.8,93,38,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",August,30,33,27,12.6,95,66,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",September,29,32,26,12.2,91,175,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",October,27,29,25,11.8,81,312,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",November,26,28,24,11.5,69,251,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Quy Nhơn, Vietnam",December,24,26,22,11.3,61,104,https://weatherspark.com/y/120742/Average-Weather-in-Qui-Nhon-Vietnam-Year-Round
+"Sighișoara, Romania",January,-3,0,-7,9.1,55,5,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",February,-2,3,-6,10.4,55,8,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",March,4,9,-1,12,53,15,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",April,9,15,4,13.6,52,36,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",May,14,20,8,15,47,48,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",June,18,23,12,15.7,37,64,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",July,19,25,13,15.3,23,61,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",August,19,25,12,14.1,25,48,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",September,14,21,8,12.5,38,38,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",October,9,14,3,10.9,45,30,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",November,3,7,-1,9.4,53,18,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Sighișoara, Romania",December,-2,1,-5,8.7,56,13,https://weatherspark.com/y/91303/Average-Weather-in-Sighi%C8%99oara-Romania-Year-Round
+"Koh Lanta, Thailand",January,27,31,24,11.7,62,25,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",February,28,33,24,11.9,63,20,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",March,28,33,24,12.1,74,58,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",April,28,33,26,12.3,88,112,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",May,28,32,26,12.5,92,190,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",June,28,31,26,12.6,90,193,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",July,28,31,26,12.5,91,208,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",August,28,31,25,12.4,91,239,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",September,27,31,25,12.2,90,290,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",October,27,30,25,11.9,88,259,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",November,27,30,24,11.8,82,170,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Koh Lanta, Thailand",December,27,30,24,11.7,69,86,https://weatherspark.com/y/112958/Average-Weather-in-Ko-Lanta-Thailand-Year-Round
+"Ahangama, Sri Lanka",January,27,31,24,11.8,65,61,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",February,28,31,24,11.9,60,43,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",March,28,31,26,12.1,61,61,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",April,28,31,26,12.3,75,107,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",May,29,31,27,12.4,86,119,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",June,28,31,27,12.5,88,74,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",July,28,30,27,12.4,88,53,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",August,28,30,26,12.3,86,64,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",September,28,29,26,12.1,81,94,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",October,28,30,26,12,79,157,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",November,27,30,25,11.8,78,190,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Ahangama, Sri Lanka",December,27,30,24,11.8,72,117,https://weatherspark.com/y/110067/Average-Weather-in-Weligama-Sri-Lanka-Year-Round
+"Da Nang, Vietnam",January,22,24,19,11.3,51,41,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",February,23,26,21,11.6,45,13,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",March,24,28,22,12.1,50,15,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",April,27,31,24,12.5,68,28,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",May,28,33,26,12.9,89,61,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",June,29,34,26,13.1,95,64,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",July,29,34,26,13,93,58,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",August,29,33,26,12.6,94,119,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",September,28,31,25,12.2,87,292,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",October,26,29,24,11.8,75,455,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",November,24,27,22,11.4,61,305,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Da Nang, Vietnam",December,22,25,21,11.2,54,145,https://weatherspark.com/y/119966/Average-Weather-in-Da-Nang-Vietnam-Year-Round
+"Tenby, Wales",January,7,8,4,8.4,64,97,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",February,6,8,4,10,61,71,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",March,7,9,5,12,60,61,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",April,9,12,6,14,53,48,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",May,12,14,9,15.7,51,51,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",June,14,16,11,16.6,49,56,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",July,16,18,13,16.1,45,51,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",August,16,18,13,14.5,47,58,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",September,14,17,12,12.6,50,66,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",October,12,14,9,10.6,57,94,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",November,9,11,7,8.8,61,102,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Tenby, Wales",December,7,9,6,7.9,64,102,https://weatherspark.com/y/36247/Average-Weather-in-Tenby-United-Kingdom-Year-Round
+"Ella, Sri Lanka",January,19,24,15,11.8,65,91,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",February,20,26,15,11.9,60,56,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",March,22,27,16,12.1,62,56,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",April,22,28,18,12.3,77,91,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",May,22,27,18,12.4,86,84,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",June,22,27,18,12.5,88,48,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",July,22,27,18,12.5,90,38,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",August,22,27,18,12.3,88,41,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",September,21,26,18,12.1,84,71,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",October,21,26,17,12,84,150,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",November,20,24,16,11.8,81,193,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"Ella, Sri Lanka",December,19,24,16,11.7,73,150,https://weatherspark.com/y/110316/Average-Weather-in-Ella-Town-Sri-Lanka-Year-Round
+"El Chaltén, Argentina",January,5,8,2,15.8,68,256,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",February,6,10,3,14.2,66,210,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",March,4,7,1,12.4,70,255,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",April,2,4,-1,10.5,74,275,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",May,-1,1,-3,8.9,76,261,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",June,-3,-1,-5,8.1,78,218,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",July,-4,-1,-6,8.6,76,229,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",August,-3,0,-5,10.0,74,232,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",September,-1,2,-4,11.8,72,188,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",October,0,3,-2,13.7,69,241,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",November,2,5,-1,15.4,67,238,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"El Chaltén, Argentina",December,3,6,0,16.3,68,266,https://en.climate-data.org/south-america/argentina/santa-cruz/el-chalten-185212/
+"Wadi Rum, Jordan",January,9,16,3,10.5,23,8,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",February,11,17,5,11.2,21,5,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",March,14,21,7,12.0,20,5,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",April,18,26,11,12.9,23,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",May,23,30,15,13.7,19,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",June,26,33,18,14.0,3,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",July,27,34,20,13.8,2,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",August,27,34,20,13.2,1,0,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",September,25,31,18,12.3,2,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",October,21,27,15,11.4,13,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",November,15,22,9,10.7,24,3,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Wadi Rum, Jordan",December,10,17,5,10.3,27,5,https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round
+"Como, Italy",January,2,6,-2,9.1,46,41,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",February,3,8,-1,10.4,45,41,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",March,8,12,3,12.0,48,53,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",April,12,16,7,13.6,52,89,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",May,16,21,12,15.0,52,104,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",June,20,24,16,15.7,41,91,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",July,23,27,18,15.3,29,74,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",August,22,26,17,14.0,31,79,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",September,18,22,14,12.5,40,94,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",October,13,17,9,10.9,50,99,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",November,7,11,4,9.5,52,91,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Como, Italy",December,3,7,-1,8.7,47,51,https://weatherspark.com/y/62658/Average-Weather-in-Como-Italy-Year-Round
+"Ortisei, Italy",January,-6,1,-9,9.1,47,10,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",February,-3,4,-7,10.4,47,18,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",March,3,9,-3,12.0,50,28,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",April,7,13,1,13.6,55,46,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",May,12,17,6,15.0,57,69,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",June,15,21,9,15.7,50,89,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",July,17,23,11,15.3,37,86,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",August,17,22,10,14.1,39,79,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",September,12,18,7,12.5,47,76,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",October,6,12,2,10.8,54,71,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",November,-1,5,-4,9.4,53,51,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Ortisei, Italy",December,-5,1,-9,8.7,48,20,https://weatherspark.com/y/150490/Average-Weather-in-Dolomiti-Italy-Year-Round
+"Jodhpur, India",January,17,24,11,10.7,15,3,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",February,20,27,14,11.3,16,5,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",March,26,33,19,12.0,22,3,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",April,32,38,24,12.8,21,5,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",May,34,40,28,13.5,11,10,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",June,34,39,29,13.8,22,33,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",July,32,36,28,13.6,51,86,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",August,29,33,27,13.0,50,86,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",September,30,35,26,12.3,21,41,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",October,28,34,21,11.5,7,8,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",November,23,30,16,10.9,11,3,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Jodhpur, India",December,18,26,12,10.5,17,3,https://weatherspark.com/y/107681/Average-Weather-in-Jodhpur-Rajasthan-India-Year-Round
+"Langkawi, Malaysia",January,28,32,25,11.8,66,30,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",February,28,33,25,11.9,66,28,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",March,29,32,26,12.1,76,76,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",April,29,32,26,12.3,89,132,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",May,28,32,26,12.4,93,168,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",June,28,31,26,12.5,90,137,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",July,28,31,25,12.4,90,147,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",August,28,31,25,12.3,91,175,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",September,27,31,25,12.1,90,218,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",October,27,31,25,12,89,229,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",November,28,31,25,11.8,84,196,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Langkawi, Malaysia",December,28,31,25,11.8,72,114,https://weatherspark.com/y/149064/Average-Weather-at-Langkawi-International-Airport-Malaysia-Year-Round
+"Aït Ben Haddou, Morocco",January,10,17,2,10.4,28,7,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",February,12,20,5,11.1,26,18,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",March,16,23,9,12,27,13,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",April,20,27,12,13,24,9,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",May,23,31,16,13.7,23,7,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",June,28,36,20,14.1,15,7,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",July,31,39,23,13.9,6,4,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",August,30,38,22,13.2,12,11,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",September,26,33,18,12.3,28,20,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",October,21,28,14,11.4,36,15,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",November,15,22,8,10.6,32,8,https://www.timeanddate.com/weather/@2560358/climate
+"Aït Ben Haddou, Morocco",December,11,18,4,10.2,30,12,https://www.timeanddate.com/weather/@2560358/climate
+"Dinant, Belgium",January,3,5,1,8.6,73,53,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",February,3,6,1,10.1,66,48,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",March,6,9,3,12,63,46,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",April,9,13,6,13.9,57,41,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",May,13,17,9,15.5,55,51,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",June,16,19,11,16.3,50,56,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",July,18,22,13,15.9,43,53,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",August,18,22,13,14.4,44,51,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",September,14,18,11,12.5,51,53,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",October,11,14,8,10.7,62,53,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",November,6,8,4,9,75,53,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Dinant, Belgium",December,3,6,2,8.1,77,61,https://weatherspark.com/y/51107/Average-Weather-in-Dinant-Belgium-Year-Round
+"Ericeira, Portugal",January,12,15,9,9.8,48,64,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",February,12,16,10,10.8,45,51,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",March,14,18,11,12,43,36,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",April,15,19,12,13.3,39,41,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",May,17,21,14,14.3,35,30,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",June,20,24,17,14.9,24,10,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",July,22,26,18,14.6,11,3,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",August,22,26,19,13.6,16,5,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",September,21,25,18,12.4,32,20,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",October,18,22,16,11.1,44,61,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",November,15,18,12,10,48,79,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ericeira, Portugal",December,13,16,10,9.5,51,74,https://weatherspark.com/y/32026/Average-Weather-in-Ericeira-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",January,17,19,15,10.3,49,23,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",February,16,18,14,11,44,28,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",March,17,19,15,12,41,23,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",April,17,20,16,13,35,13,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",May,19,21,17,13.9,27,8,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",June,21,23,18,14.3,17,3,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",July,22,25,20,14,6,0,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",August,23,26,21,13.3,10,3,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",September,23,26,21,12.3,28,8,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",October,22,24,19,11.3,43,23,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",November,19,22,17,10.5,48,30,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Ponta do Sol, Madeira, Portugal",December,18,20,16,10,51,36,https://weatherspark.com/y/31547/Average-Weather-in-Ponta-do-Sol-Portugal-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",January,18,22,16,10.6,35,20,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",February,18,22,16,11.2,31,18,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",March,19,22,16,12,29,13,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",April,19,23,17,12.9,27,8,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",May,21,24,18,13.6,23,3,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",June,22,25,19,13.9,10,0,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",July,24,27,21,13.7,2,0,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",August,24,28,22,13.1,7,0,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",September,24,28,22,12.3,22,3,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",October,23,27,21,11.4,35,10,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",November,21,24,19,10.7,40,18,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"Puerto de la Cruz, Tenerife, Spain",December,19,23,17,10.4,39,23,https://weatherspark.com/y/31610/Average-Weather-in-Puerto-de-la-Cruz-Spain-Year-Round
+"La Paz, Mexico",January,18,24,12,10.8,41,10,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",February,19,26,12,11.4,38,5,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",March,21,28,13,12.1,38,0,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",April,23,31,16,12.8,41,0,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",May,25,33,17,13.3,27,0,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",June,27,35,21,13.6,22,3,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",July,29,36,24,13.4,54,20,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",August,30,36,25,12.9,66,48,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",September,29,34,24,12.3,51,64,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",October,27,32,21,11.6,30,23,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",November,23,28,17,11,36,8,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"La Paz, Mexico",December,19,25,13,10.7,43,13,https://weatherspark.com/y/2800/Average-Weather-in-La-Paz-Mexico-Year-Round
+"Boquete, Panama",January,18,22,13,11.7,45,38,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",February,18,23,13,11.9,50,23,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",March,19,24,14,12.1,58,28,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",April,19,23,14,12.3,74,76,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",May,18,23,15,12.5,91,180,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",June,18,22,15,12.6,96,206,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",July,18,22,14,12.6,95,208,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",August,18,22,14,12.4,95,216,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",September,17,22,14,12.2,95,211,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",October,17,21,14,11.9,93,218,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",November,17,21,14,11.7,77,201,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"Boquete, Panama",December,17,22,14,11.6,52,89,https://weatherspark.com/y/16729/Average-Weather-in-Boquete-Panama-Year-Round
+"El Valle de Antón, Panama",January,23,27,21,11.7,49,39,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",February,24,27,21,11.9,52,27,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",March,24,28,22,12.1,58,32,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",April,24,28,22,12.3,73,93,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",May,24,27,22,12.5,90,239,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",June,24,27,22,12.6,94,290,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",July,23,27,22,12.6,95,276,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",August,23,27,21,12.4,95,297,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",September,23,27,21,12.2,93,301,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",October,23,27,21,12,89,307,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",November,23,26,21,11.7,78,300,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"El Valle de Antón, Panama",December,23,26,21,11.6,57,121,https://en.climate-data.org/north-america/panama/el-valle/el-valle-48953/
+"Himarë, Albania",January,8,12,5,9.7,48,81,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",February,9,13,6,10.7,48,84,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",March,11,15,7,12,46,66,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",April,14,18,10,13.3,42,48,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",May,18,23,14,14.4,35,30,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",June,23,27,18,15,20,15,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",July,26,31,20,14.7,7,8,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",August,26,30,20,13.7,11,18,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",September,22,26,17,12.4,27,58,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",October,18,22,13,11.1,41,97,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",November,13,17,9,9.9,48,122,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Himarë, Albania",December,9,13,6,9.4,49,114,https://weatherspark.com/y/84292/Average-Weather-in-Himar%C3%AB-Albania-Year-Round
+"Sarandë, Albania",January,8,13,3,9.7,49,86,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",February,9,13,4,10.7,49,89,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",March,11,16,6,12,47,69,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",April,14,20,9,13.3,42,48,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",May,19,25,13,14.4,35,30,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",June,24,31,17,15,20,15,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",July,27,34,19,14.7,7,8,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",August,27,33,19,13.7,11,20,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",September,22,28,16,12.4,27,58,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",October,18,23,12,11.1,41,99,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",November,13,18,8,10,49,130,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Sarandë, Albania",December,9,14,5,9.4,51,122,https://weatherspark.com/y/85410/Average-Weather-in-Sarand%C3%AB-Albania-Year-Round
+"Kuta, Lombok, Indonesia",January,28,31,26,12.6,88,259,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",February,28,31,25,12.4,86,231,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",March,28,31,25,12.1,80,150,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",April,28,31,25,11.9,75,86,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",May,28,31,24,11.7,64,51,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",June,27,30,24,11.6,58,36,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",July,27,29,24,11.7,54,30,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",August,26,29,24,11.8,52,15,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",September,27,30,24,12.1,59,28,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",October,28,31,24,12.3,68,56,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",November,28,31,25,12.5,80,112,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Kuta, Lombok, Indonesia",December,28,31,26,12.6,86,206,https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",January,27,29,24,12.6,89,264,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",February,27,30,24,12.4,87,236,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",March,27,30,23,12.1,81,152,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",April,27,30,23,11.9,76,91,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",May,26,30,23,11.7,66,53,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",June,26,29,23,11.6,59,38,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",July,25,29,22,11.7,55,30,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",August,25,29,22,11.8,53,15,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",September,26,30,22,12.1,60,30,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",October,27,31,23,12.3,69,58,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",November,27,31,23,12.5,82,122,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Ubud, Bali, Indonesia",December,27,30,24,12.6,87,216,https://weatherspark.com/y/128807/Average-Weather-in-Ubud-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",January,28,31,25,12.6,88,262,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",February,28,31,25,12.4,86,234,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",March,28,31,24,12.1,80,150,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",April,28,31,24,11.9,75,89,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",May,27,31,24,11.7,65,51,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",June,27,30,24,11.6,59,36,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",July,26,29,24,11.7,54,30,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",August,26,29,23,11.8,52,15,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",September,27,31,24,12.1,59,28,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",October,28,31,24,12.3,69,56,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",November,28,32,25,12.5,81,117,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Denpasar, Bali, Indonesia",December,28,31,25,12.6,86,211,https://weatherspark.com/y/128849/Average-Weather-in-Denpasar-Indonesia-Year-Round
+"Nha Trang, Vietnam",January,24,27,22,11.5,62,15,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",February,25,28,22,11.7,55,5,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",March,26,29,24,12.1,57,18,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",April,28,31,26,12.4,72,20,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",May,29,32,26,12.7,91,56,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",June,29,32,27,12.8,95,58,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",July,29,32,26,12.8,94,48,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",August,29,32,26,12.5,95,64,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",September,28,31,26,12.2,93,137,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",October,27,29,25,11.8,85,213,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",November,26,28,24,11.6,76,198,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Nha Trang, Vietnam",December,25,27,23,11.4,69,91,https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round
+"Kampot, Cambodia",January,26,29,24,11.6,56,13,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",February,27,29,24,11.8,53,15,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",March,28,31,26,12.1,61,36,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",April,29,32,27,12.4,81,86,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",May,29,32,27,12.6,91,173,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",June,29,32,27,12.7,92,305,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",July,29,31,27,12.7,91,325,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",August,28,31,27,12.5,92,345,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",September,28,30,26,12.2,90,333,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",October,28,30,26,11.9,84,213,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",November,28,29,26,11.6,72,91,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"Kampot, Cambodia",December,27,29,24,11.5,60,25,https://weatherspark.com/y/115114/Average-Weather-in-Kampot-Cambodia-Year-Round
+"George Town, Malaysia",January,27,31,24,11.8,71,58,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",February,28,32,24,12,70,58,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",March,28,32,24,12.1,78,94,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",April,28,32,25,12.2,89,137,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",May,28,32,25,12.4,92,155,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",June,28,32,25,12.4,89,122,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",July,28,31,24,12.4,89,140,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",August,27,31,24,12.3,90,170,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",September,27,31,24,12.1,90,224,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",October,27,30,24,12,91,246,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",November,27,31,24,11.9,87,218,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
+"George Town, Malaysia",December,27,31,24,11.8,77,140,https://weatherspark.com/y/113340/Average-Weather-in-George-Town-Malaysia-Year-Round
